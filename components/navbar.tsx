@@ -86,11 +86,12 @@ const navItems: NavItem[] = [
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
+    
 
     return (
-        <nav className="sticky top-0 z-50 w-full bg-gradient-to-r from-[#1E3A8A] to-[#3B82F6] shadow-lg">
+        <nav className="sticky top-0 z-50 w-full bg-blue-900/80 backdrop-blur-md shadow-md">
             {/* Top bar */}
-            <div className="hidden lg:block  pt-2 px-4">
+            <div className="hidden lg:block pt-2 px-4">
                 <div className="mx-auto flex justify-end items-center space-x-6 text-white text-sm px-4">
                     <span className="flex items-center space-x-1">
                         <span>Let's Talk!</span>
@@ -105,20 +106,20 @@ const Navbar: React.FC = () => {
                         <Phone className="h-3 w-3" />
                         <span>+44 137 243 2466</span>
                     </span>
-
                 </div>
             </div>
 
             {/* Main navigation */}
-            <div className=" mx-auto px-4 pt-0">
+            <div className="mx-auto px-4">
                 <div className="flex items-center justify-between h-20">
-                    {/* Logo with glow */}
-                    <Link href="/" className="flex items-center space-x-3">
-                        <div className="relative">
-
-                            <Image src="/logo.png" alt="R-World Logo" width={90} height={70} className="relative z-10" />
-
-                        </div>
+                    {/* Logo */}
+                    <Link href="/" className="flex flex-col items-start space-y-0 leading-tight group">
+                        <span className="text-3xl mb-0 font-extrabold text-white group-hover:text-blue-300 transition-colors">
+                            R-World
+                        </span>
+                        <span className="text-sm mt-0 tracking-wide text-blue-200/70 group-hover:text-white transition-colors">
+                            software solutions
+                        </span>
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -131,12 +132,12 @@ const Navbar: React.FC = () => {
                                             {item.title}
                                         </NavigationMenuTrigger>
                                         <NavigationMenuContent>
-                                            <div className="grid w-[400px] gap-3 p-4 bg-white">
+                                            <div className="grid w-[400px] gap-3 p-4 bg-white shadow-lg">
                                                 {item.items?.map((subItem) => (
                                                     <NavigationMenuLink key={subItem.title} asChild>
                                                         <Link
                                                             href={subItem.href}
-                                                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-[#6BCBFF]/20 hover:text-[#004AAD]"
+                                                            className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-blue-50 hover:text-blue-700"
                                                         >
                                                             <div className="text-sm font-medium leading-none text-gray-900">
                                                                 {subItem.title}
@@ -165,28 +166,26 @@ const Navbar: React.FC = () => {
                         </Link>
                     </div>
 
-                    {/* Right side buttons */}
+                    {/* Right side */}
                     <div className="flex items-center space-x-3">
-                        {/* Search Icon */}
-                        <Button variant="ghost" size="sm" className="hidden lg:flex text-white hover:bg-white/10">
+                        <Button variant="ghost" size="sm" className="hidden lg:flex text-white/90 hover:bg-white/10">
                             <Search className="h-4 w-4" />
                         </Button>
 
-                        {/* Contact Us Button */}
-                        <Button className="hidden lg:flex bg-white text-[#004AAD] hover:bg-[#6BCBFF]/20 font-medium px-6">
+                        <Button className="hidden lg:flex bg-white text-blue-800 hover:bg-blue-100 font-medium px-6">
                             CONTACT US
                         </Button>
 
-                        {/* Mobile menu trigger */}
+                        {/* Mobile menu */}
                         <Sheet open={isOpen} onOpenChange={setIsOpen}>
                             <SheetTrigger asChild>
-                                <Button variant="ghost" size="sm" className="lg:hidden text-white hover:bg-white/10">
+                                <Button variant="ghost" size="sm" className="lg:hidden text-white/90 hover:bg-white/10">
                                     <Menu className="h-5 w-5" />
                                 </Button>
                             </SheetTrigger>
                             <SheetContent side="right" className="w-80 bg-white">
                                 <SheetHeader>
-                                    <SheetTitle className="text-left text-[#004AAD]">R-World</SheetTitle>
+                                    <SheetTitle className="text-left text-blue-800">R-World</SheetTitle>
                                 </SheetHeader>
                                 <div className="mt-6 space-y-4">
                                     {navItems.map((item) => (
@@ -198,7 +197,7 @@ const Navbar: React.FC = () => {
                                                         key={subItem.title}
                                                         href={subItem.href}
                                                         onClick={() => setIsOpen(false)}
-                                                        className="block text-sm text-gray-600 hover:text-[#004AAD] transition-colors"
+                                                        className="block text-sm text-gray-600 hover:text-blue-700 transition-colors"
                                                     >
                                                         {subItem.title}
                                                     </Link>
@@ -210,13 +209,13 @@ const Navbar: React.FC = () => {
                                         <Link
                                             href="/blog"
                                             onClick={() => setIsOpen(false)}
-                                            className="block font-medium text-gray-900 text-sm hover:text-[#004AAD] transition-colors"
+                                            className="block font-medium text-gray-900 text-sm hover:text-blue-700 transition-colors"
                                         >
                                             BLOG
                                         </Link>
                                     </div>
                                     <div className="pt-4">
-                                        <Button className="w-full bg-[#004AAD] hover:bg-[#00CFFF] text-white">
+                                        <Button className="w-full bg-blue-800 hover:bg-blue-600 text-white">
                                             CONTACT US
                                         </Button>
                                     </div>
@@ -227,6 +226,7 @@ const Navbar: React.FC = () => {
                 </div>
             </div>
         </nav>
+
     );
 };
 
