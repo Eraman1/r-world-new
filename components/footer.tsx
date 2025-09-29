@@ -212,7 +212,7 @@ const Footer: React.FC = () => {
               ))}
             </div>
             <div className="text-sm text-gray-600">
-              Copyright © 2000- 2025 Chetu Inc. All Rights Reserved.
+              Copyright © 2000- 2025 r-world. All Rights Reserved.
             </div>
           </div>
         </div>
