@@ -86,6 +86,7 @@ const navItems: NavItem[] = [
 
 const Navbar: React.FC = () => {
     const [isOpen, setIsOpen] = useState(false);
+    
 
     return (
         <nav className="sticky top-0 z-50 w-full bg-blue-900/80 backdrop-blur-md shadow-md">
