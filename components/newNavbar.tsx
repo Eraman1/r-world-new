@@ -1,7 +1,7 @@
 // components/Navbar.tsx
 'use client';
 
-import { ChevronDownIcon, ChevronUp, ChevronUpIcon, Phone, SearchIcon } from 'lucide-react';
+import { ChevronDownIcon, ChevronUpIcon, Phone, SearchIcon } from 'lucide-react';
 import { useState } from 'react';
 
 
@@ -188,9 +188,9 @@ const NewNavbar = () => {
     const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-    const handleMenuHover = (menu: string) => {
-        setActiveMegaMenu(menu);
-    };
+    // const handleMenuHover = (menu: string) => {
+    //     setActiveMegaMenu(menu);
+    // };
 
     const handleMenuLeave = () => {
         setActiveMegaMenu(null);
@@ -222,7 +222,7 @@ const NewNavbar = () => {
             <div className="hidden lg:block text-white py-2 px-4">
                 <div className="container mx-auto flex justify-end items-center space-x-8 text-sm">
                     <div className="flex items-center space-x-2">
-                        <span>Let's Talk !</span>
+                        <span>Let&#39;s Talk !</span>
                         <span className="text-xs">🇺🇸</span>
                         <Phone className="h-3 w-3" />
                         <span>954 342 5676</span>
@@ -276,7 +276,7 @@ const NewNavbar = () => {
                                 </div>
                             ))}
 
-                            <button className="cursor-pointer bg-white text-[#fca311]/90 px-4 py-2 rounded font-semibold hover:bg-gray-100 transition-colors duration-200">
+                            <button className="cursor-pointer bg-white text-[#fca311]/90 px-3 py-1 rounded font-semibold hover:bg-gray-100 transition-colors duration-200">
                                 CONTACT US
                             </button>
 

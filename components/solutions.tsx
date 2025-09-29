@@ -2,7 +2,7 @@
 
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { Brain, BarChart, Cloud, Headphones, MonitorCog, ShieldCheck, Workflow, FileCheck } from "lucide-react";
+import { Brain, BarChart, Headphones, MonitorCog, ShieldCheck, Workflow, FileCheck } from "lucide-react";
 
 const services = [
     { title: "Application Development", icon: Workflow },

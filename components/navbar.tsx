@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ChevronDown, Menu, Phone, Search, Globe } from "lucide-react";
+import { Menu, Phone, Search} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
     NavigationMenu,
@@ -19,7 +19,7 @@ import {
     SheetTitle,
     SheetTrigger,
 } from "@/components/ui/sheet";
-import Image from "next/image";
+
 
 interface NavItem {
     title: string;
@@ -94,7 +94,7 @@ const Navbar: React.FC = () => {
             <div className="hidden lg:block pt-2 px-4">
                 <div className="mx-auto flex justify-end items-center space-x-6 text-white text-sm px-4">
                     <span className="flex items-center space-x-1">
-                        <span>Let's Talk!</span>
+                        <span>Lets Talk!</span>
                     </span>
                     <span className="flex items-center space-x-1">
                         <span className="text-xs">🇺🇸</span>
