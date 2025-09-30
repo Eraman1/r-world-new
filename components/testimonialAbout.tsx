@@ -32,8 +32,8 @@ const Testimonials: React.FC = () => {
                       </div>
                       <div className="text-left">
                         <p className="text-sm text-[#000000] italic mb-2">
-                          "I had a great and pleasurable experience working with R-World and would 
-                          highly recommend their services to others."
+                          &#34;I had a great and pleasurable experience working with R-World and would 
+                          highly recommend their services to others.&#34;
                         </p>
                         <p className="text-xs font-bold text-[#14213D]">John Anderson</p>
                         <p className="text-xs text-gray-600">VP of Operations at TechCorp</p>

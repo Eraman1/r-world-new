@@ -34,7 +34,7 @@ const AboutAll: React.FC = () => {
                 </h3>
                 <p className="text-[#000000] text-base leading-relaxed text-justify">
                   Our development team works within your time zone to enable seamless real-time 
-                  collaboration and ensure a true "branch location" experience with direct access 
+                  collaboration and ensure a true &#34;branch location&#34; experience with direct access 
                   to our experts.
                 </p>
               </div>
