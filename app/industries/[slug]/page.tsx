@@ -1,50 +1,56 @@
 "use client";
-
 import React from "react";
-import Link from "next/link";
-import Image from "next/image";
+import Banner from "@/app/industries/components/banner";
+import Breadcrumb from "@/app/industries/components/breadcrumb";
+import ManagementSolutions from "@/app/industries/components/managementSolutions";
+import ManagementSolutionsTwo from "@/app/industries/components/managementSolutionsTwo";
+import Solutions from "@/app/industries/components/solutions";
+import TechHero from "@/app/industries/components/techHero";
+import { notFound } from "next/navigation";
+import { industriesData } from "@/data/industries";
 
-const Banner: React.FC = () => {
-  return (
-    <section className="relative w-full h-[80vh] flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <Image
-        src="https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg" // 👈 replace with your image path
-        alt="Banner Background"
-        fill
-        priority
-        className="object-cover"
-      />
-
-      {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-blue-900/60"></div>
-
-      {/* Content */}
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white space-y-6">
-        <h1 className="text-2xl md:text-4xl font-bold leading-snug">
-          Drive Innovation with{" "}
-          <span className="bg-gradient-to-r from-blue-300 to-blue-500 bg-clip-text text-transparent">
-            World-Class Software Development
-          </span>
-        </h1>
-
-        <p className="text-base md:text-lg text-blue-100 max-w-xl mx-auto">
-          Partner with expert developers to build custom, scalable, and reliable
-          software solutions that accelerate your business growth.
-        </p>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-          <Link
-            href="/services"
-            className="px-6 py-3 border border-amber-500 text-white font-medium rounded-full hover:bg-blue-500/10 transition"
-          >
-            Hire Developers on Demand
-          </Link>
-        </div>
-      </div>
-    </section>
-  );
+type Props = {
+  params: Promise<{ slug: string }>;
 };
 
-export default Banner;
+export default function Page({ params }: Props) {
+  const { slug } = React.use(params);
+  const industry = industriesData[slug];
+
+  if (!industry) return notFound();
+
+  return (
+    <div>
+      <Banner data={industry.banner} />
+      <Breadcrumb />
+
+      {industry.techHero && <TechHero data={industry.techHero} />}
+
+      {industry.solutions && (
+        <Solutions
+          mainTitle={industry.solutions.mainTitle}
+          mainDescription={industry.solutions.mainDescription}
+          solutions={industry.solutions.items}
+          linkText={industry.solutions.linkText}
+          linkUrl={industry.solutions.linkUrl}
+        />
+      )}
+
+      {industry.managementSolutions && (
+        <ManagementSolutions
+          managementSolutions={industry.managementSolutions}
+          slug={slug}
+          banner={{
+            title: "",
+            highlight: undefined,
+            subtitle: undefined,
+            image: undefined,
+            linkText: undefined,
+          }}
+        />
+      )}
+
+      <ManagementSolutionsTwo />
+    </div>
+  );
+}
