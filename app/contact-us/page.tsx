@@ -12,6 +12,8 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { createEnquiry } from "@/lib/enquiryService";
+import { EnquiryFormData } from "@/types/enquiry";
 
 interface FormData {
   name: string;
@@ -45,8 +47,14 @@ const ContactPage = () => {
     bookCall: false,
     callDate: "2025-09-26",
     callTime: "18:15",
-    timezone: "(UTC-05:00) New York, Washington DC, Toronto, Montreal, Atlanta",
+    timezone: "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
   });
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: "success" | "error" | null;
+    message: string;
+  }>({ type: null, message: "" });
 
   const [locations] = useState<{ [key: string]: Location[] }>({
     headquarters: [
@@ -82,12 +90,18 @@ const ContactPage = () => {
   });
 
   const timezones = [
-    "(UTC-05:00) New York, Washington DC, Toronto, Montreal, Atlanta",
-    "(UTC-08:00) Los Angeles, San Francisco, Seattle, Vancouver",
-    "(UTC-06:00) Chicago, Dallas, Mexico City, Guatemala",
-    "(UTC+00:00) London, Dublin, Lisbon, Reykjavik",
-    "(UTC+01:00) Paris, Berlin, Rome, Madrid, Amsterdam",
-    "(UTC+08:00) Singapore, Beijing, Hong Kong, Manila",
+    "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+    "(UTC-08:00) Pacific Time - Los Angeles, San Francisco, Seattle, Vancouver",
+    "(UTC-07:00) Mountain Time - Denver, Phoenix, Calgary",
+    "(UTC-06:00) Central Time - Chicago, Dallas, Mexico City",
+    "(UTC-05:00) Eastern Time - New York, Washington DC, Toronto, Miami",
+    "(UTC+00:00) Western Europe Time - London, Dublin, Lisbon",
+    "(UTC+01:00) Central Europe Time - Paris, Berlin, Rome, Madrid, Amsterdam",
+    "(UTC+02:00) Eastern Europe Time - Athens, Helsinki, Bucharest, Kyiv",
+    "(UTC+03:00) Moscow Time - Moscow, Istanbul, Minsk",
+    "(UTC+08:00) Western Australia Time - Perth",
+    "(UTC+09:30) Central Australia Time - Adelaide, Darwin",
+    "(UTC+10:00) Eastern Australia Time - Sydney, Melbourne, Brisbane",
   ];
 
   const handleInputChange = (
@@ -111,16 +125,116 @@ const ContactPage = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    // Handle form submission logic here
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: "" });
+
+    try {
+      // Prepare data according to EnquiryFormData interface
+      const enquiryData: EnquiryFormData = {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        company: formData.company || undefined,
+        message: formData.message || undefined,
+        path: window.location.pathname, // Current page path
+        bookCall: formData.bookCall,
+        callDate: formData.bookCall ? formData.callDate : undefined,
+        callTime: formData.bookCall ? formData.callTime : undefined,
+        timezone: formData.bookCall ? formData.timezone : undefined,
+      };
+
+      const response = await createEnquiry(enquiryData);
+      
+      setSubmitStatus({
+        type: "success",
+        message: "Thank you! Your enquiry has been submitted successfully. We'll get back to you soon.",
+      });
+
+      // Reset form after successful submission
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        company: "",
+        message: "",
+        bookCall: false,
+        callDate: "2025-09-26",
+        callTime: "18:15",
+        timezone: "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+      });
+
+      console.log("Enquiry created successfully:", response);
+    } catch (error: any) {
+      setSubmitStatus({
+        type: "error",
+        message: error.response?.data?.message || "Failed to submit enquiry. Please try again.",
+      });
+      console.error("Error submitting enquiry:", error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
-  const handleBookCall = (e: React.FormEvent) => {
+  const handleBookCall = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Booking call:", formData);
-    // Handle call booking logic here
+    
+    if (!formData.bookCall) {
+      setSubmitStatus({
+        type: "error",
+        message: "Please check the 'Book a call' option first.",
+      });
+      return;
+    }
+
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: "" });
+
+    try {
+      const enquiryData: EnquiryFormData = {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        company: formData.company || undefined,
+        message: formData.message || undefined,
+        path: window.location.pathname,
+        bookCall: true,
+        callDate: formData.callDate,
+        callTime: formData.callTime,
+        timezone: formData.timezone,
+      };
+
+      const response = await createEnquiry(enquiryData);
+      
+      setSubmitStatus({
+        type: "success",
+        message: "Your call has been booked successfully! We'll send you a confirmation shortly.",
+      });
+
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        company: "",
+        message: "",
+        bookCall: false,
+        callDate: "2025-09-26",
+        callTime: "18:15",
+        timezone: "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+      });
+
+      console.log("Call booked successfully:", response);
+    } catch (error: any) {
+      setSubmitStatus({
+        type: "error",
+        message: error.response?.data?.message || "Failed to book call. Please try again.",
+      });
+      console.error("Error booking call:", error);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -139,7 +253,20 @@ const ContactPage = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Contact Form */}
-          <div className="lg:col-span-2 ">
+          <div className="lg:col-span-2">
+            {/* Status Messages */}
+            {submitStatus.type && (
+              <div
+                className={`mb-6 p-4 rounded-lg ${
+                  submitStatus.type === "success"
+                    ? "bg-green-50 border border-green-200 text-green-800"
+                    : "bg-red-50 border border-red-200 text-red-800"
+                }`}
+              >
+                <p className="font-medium">{submitStatus.message}</p>
+              </div>
+            )}
+
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Name and Email Row */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -159,6 +286,7 @@ const ContactPage = () => {
                     placeholder="E.g. John Smith"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
                     required
+                    disabled={isSubmitting}
                   />
                 </div>
                 <div>
@@ -177,6 +305,7 @@ const ContactPage = () => {
                     placeholder="E.g. you@example.com"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
                     required
+                    disabled={isSubmitting}
                   />
                 </div>
               </div>
@@ -199,6 +328,7 @@ const ContactPage = () => {
                     placeholder="E.g. (555) 123-4567"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
                     required
+                    disabled={isSubmitting}
                   />
                 </div>
                 <div>
@@ -216,6 +346,7 @@ const ContactPage = () => {
                     onChange={handleInputChange}
                     placeholder="E.g. Acme Corp"
                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors"
+                    disabled={isSubmitting}
                   />
                 </div>
               </div>
@@ -236,6 +367,7 @@ const ContactPage = () => {
                   rows={5}
                   placeholder="How can we help you?"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 transition-colors resize-none"
+                  disabled={isSubmitting}
                 />
               </div>
 
@@ -248,6 +380,7 @@ const ContactPage = () => {
                   checked={formData.bookCall}
                   onChange={handleInputChange}
                   className="h-5 w-5 text-amber-600 focus:ring-amber-500 border-amber-400 rounded cursor-pointer"
+                  disabled={isSubmitting}
                 />
                 <label
                   htmlFor="bookCall"
@@ -278,6 +411,7 @@ const ContactPage = () => {
                         value={formData.callDate}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm hover:border-blue-400 transition-colors"
+                        disabled={isSubmitting}
                       />
                     </div>
                     <div>
@@ -290,6 +424,7 @@ const ContactPage = () => {
                         value={formData.callTime}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm hover:border-blue-400 transition-colors"
+                        disabled={isSubmitting}
                       />
                     </div>
                   </div>
@@ -305,6 +440,7 @@ const ContactPage = () => {
                         value={formData.timezone}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none bg-white shadow-sm hover:border-blue-400 transition-colors cursor-pointer"
+                        disabled={isSubmitting}
                       >
                         {timezones.map((tz, index) => (
                           <option key={index} value={tz}>
@@ -332,16 +468,18 @@ const ContactPage = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <button
                   type="submit"
-                  className="flex-1 bg-[#14213d] hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+                  disabled={isSubmitting}
+                  className="flex-1 bg-[#14213d] hover:bg-gray-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  SUBMIT
+                  {isSubmitting ? "SUBMITTING..." : "SUBMIT"}
                 </button>
                 {formData.bookCall && (
                   <button
                     onClick={handleBookCall}
-                    className="flex-1 bg-[#fca311] hover:bg-orange-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
+                    disabled={isSubmitting}
+                    className="flex-1 bg-[#fca311] hover:bg-orange-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    BOOK 20 MIN CALL
+                    {isSubmitting ? "BOOKING..." : "BOOK 20 MIN CALL"}
                   </button>
                 )}
               </div>
