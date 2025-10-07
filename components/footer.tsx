@@ -1,6 +1,7 @@
 import React from "react";
-import { MapPin, Youtube } from "lucide-react";
+import { Instagram, MapPin, Youtube, Linkedin, Facebook } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface FooterLink {
   label: string;
@@ -69,27 +70,64 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Information */}
           <div className="lg:col-span-1">
+            {/* Logo */}
+
             <h3 className="text-lg font-bold text-gray-800 mb-4">COMPANY</h3>
-            <div className="space-y-3">
+            <div className="mb-6">
+              <Link href="/">
+                <Image
+                  src="/logo.png"
+                  alt="R-World Software"
+                  width={160}
+                  height={50}
+                  className="h-12 w-auto"
+                />
+              </Link>
+            </div>
+            <div className="space-y-4">
+              {/* Head Office */}
               <div className="flex items-start space-x-2">
                 <MapPin className="w-5 h-5 text-sky-600 mt-0.5 flex-shrink-0" />
                 <div className="text-gray-700 text-sm">
-                  <div>1500 Concord Ter.</div>
-                  <div>Suite 100,</div>
-                  <div>Sunrise, FL 33323</div>
+                  <div className="font-semibold text-gray-800 mb-1">
+                    Head Office:
+                  </div>
+                  <div>Noida Sector 62 Rd,</div>
+                  <div>C Block, Phase 2,</div>
+                  <div>UP, India</div>
                 </div>
               </div>
 
-              <div className="space-y-2">
+              {/* Branch Office */}
+              <div className="flex items-start space-x-2">
+                <MapPin className="w-5 h-5 text-amber-500 mt-0.5 flex-shrink-0" />
+                <div className="text-gray-700 text-sm">
+                  <div className="font-semibold text-gray-800 mb-1">
+                    Branch Office:
+                  </div>
+                  <div>C- 138/6, 2nd Floor</div>
+                  <div>Near Bhajanpura Thana,</div>
+                  <div>Main Road, BhajanPura</div>
+                  <div>Delhi-110053</div>
+                </div>
+              </div>
+
+              <div className="space-y-2 pt-2">
                 <div className="flex items-center space-x-2">
-                  <span className="text-gray-700 text-sm">
-                    Phone: 954 342 5676
-                  </span>
+                  <Link
+                    href="tel:8377832378"
+                    className="text-gray-700 text-sm hover:text-sky-600 transition-colors"
+                  >
+                    Phone: +91-8377832378
+                  </Link>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-gray-700 text-sm">
-                    Phone: +44 137 243 2466
-                  </span>
+                  <Link
+                    href="mailto:support@rwoldsoftware.in"
+                    className="text-gray-700 text-sm hover:text-sky-600 transition-colors"
+                  >
+                    Mail: support@rwoldsoftware.in
+                  </Link>
                 </div>
               </div>
 
@@ -162,32 +200,47 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-bold text-gray-800 mb-4">
               CONNECT WITH US
             </h3>
-            <div className="flex space-x-3">
+            <div className="flex flex-wrap gap-3">
               <Link
-                href="#"
-                className="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center hover:bg-sky-600 transition-colors duration-300"
+                href="https://linkedin.com/company/r-world-software"
+                className="w-10 h-10 bg-[#0077B5] rounded-lg flex items-center justify-center hover:bg-[#006399] hover:scale-110 transition-all duration-300 shadow-md"
+                aria-label="LinkedIn"
               >
-                <span className="text-white font-bold text-sm">in</span>
+                <Linkedin className="w-5 h-5 text-white" />
               </Link>
               <Link
-                href="#"
-                className="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center hover:bg-sky-600 transition-colors duration-300"
+                href="https://x.com/RworldSoftware"
+                className="w-10 h-10 bg-black rounded-lg flex items-center justify-center hover:bg-gray-800 hover:scale-110 transition-all duration-300 shadow-md"
+                aria-label="X (Twitter)"
               >
-                <span className="text-white font-bold text-sm">X</span>
+                <svg
+                  className="w-5 h-5 text-white"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                >
+                  <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                </svg>
               </Link>
               <Link
-                href="#"
-                className="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center hover:bg-sky-600 transition-colors duration-300"
+                href="https://www.facebook.com/people/Stock-it-Inventory-manager-app/61556269179445"
+                className="w-10 h-10 bg-[#1877F2] rounded-lg flex items-center justify-center hover:bg-[#0d65d9] hover:scale-110 transition-all duration-300 shadow-md"
+                aria-label="Facebook"
               >
-                <span className="text-white font-bold text-sm">f</span>
+                <Facebook className="w-5 h-5 text-white" />
               </Link>
               <Link
-                href="#"
-                className="w-10 h-10 bg-sky-500 rounded-full flex items-center justify-center hover:bg-sky-600 transition-colors duration-300"
+                href="https://www.youtube.com/@stock-it"
+                className="w-10 h-10 bg-[#FF0000] rounded-lg flex items-center justify-center hover:bg-[#cc0000] hover:scale-110 transition-all duration-300 shadow-md"
+                aria-label="YouTube"
               >
-                <span className="text-white text-xl">
-                  <Youtube />{" "}
-                </span>
+                <Youtube className="w-5 h-5 text-white" />
+              </Link>
+              <Link
+                href="https://www.instagram.com/stock.it.app/"
+                className="w-10 h-10 bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#F77737] rounded-lg flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-md"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5 text-white" />
               </Link>
             </div>
           </div>

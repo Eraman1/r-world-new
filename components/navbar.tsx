@@ -96,11 +96,11 @@ const Navbar: React.FC = () => {
                     <span className="flex items-center space-x-1">
                         <span>Lets Talk!</span>
                     </span>
-                    <span className="flex items-center space-x-1">
+                    <Link href="tel:9543425676" className="flex items-center space-x-1">
                         <span className="text-xs">🇺🇸</span>
                         <Phone className="h-3 w-3" />
                         <span>954 342 5676</span>
-                    </span>
+                    </Link>
                     <span className="flex items-center space-x-1">
                         <span className="text-xs">🇬🇧</span>
                         <Phone className="h-3 w-3" />

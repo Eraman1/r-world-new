@@ -11,6 +11,7 @@ import {
   Clock,
 } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface FormData {
   name: string;
@@ -43,7 +44,7 @@ const ContactPage = () => {
     message: "",
     bookCall: false,
     callDate: "2025-09-26",
-    callTime: "6:15 PM",
+    callTime: "18:15",
     timezone: "(UTC-05:00) New York, Washington DC, Toronto, Montreal, Atlanta",
   });
 
@@ -51,52 +52,22 @@ const ContactPage = () => {
     headquarters: [
       {
         id: "hq-1",
-        name: "Headquarters & Delivery Center",
-        address: "1500 Concord Terrace",
-        city: "Suite 100, Sunrise FL",
-        zipCode: "33323",
+        name: "Headquarters Office",
+        address: "Noida Sector 62 Rd,C Block, Phase 2",
+        city: "Noida, Uttar Pradesh, India",
+        zipCode: "201301",
         image: "/api/placeholder/300/200",
         isExpanded: true,
-      },
-    ],
-    unitedStates: [
-      {
-        id: "us-1",
-        name: "New York Office",
-        address: "123 Broadway",
-        city: "New York, NY",
-        zipCode: "10001",
-        image: "/api/placeholder/300/200",
-        isExpanded: false,
-      },
-      {
-        id: "us-2",
-        name: "California Office",
-        address: "456 Tech Street",
-        city: "San Francisco, CA",
-        zipCode: "94105",
-        image: "/api/placeholder/300/200",
-        isExpanded: false,
-      },
-    ],
-    europe: [
-      {
-        id: "eu-1",
-        name: "London Office",
-        address: "789 Business District",
-        city: "London, UK",
-        zipCode: "EC1A 1BB",
-        image: "/api/placeholder/300/200",
-        isExpanded: false,
       },
     ],
     asia: [
       {
         id: "asia-1",
-        name: "Singapore Office",
-        address: "321 Marina Bay",
-        city: "Singapore",
-        zipCode: "018956",
+        name: "Branch Office & Development Center",
+        address:
+          "C- 138/6, 2nd Floor Near Bhajanpura Thana, Main Road, BhajanPura",
+        city: "Delhi, India",
+        zipCode: "110053",
         image: "/api/placeholder/300/200",
         isExpanded: false,
       },
@@ -107,8 +78,6 @@ const ContactPage = () => {
     [key: string]: boolean;
   }>({
     headquarters: true,
-    unitedStates: false,
-    europe: false,
     asia: false,
   });
 
@@ -271,65 +240,90 @@ const ContactPage = () => {
               </div>
 
               {/* Book Call Checkbox */}
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-3 p-4 bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg border border-amber-200">
                 <input
                   type="checkbox"
                   id="bookCall"
                   name="bookCall"
                   checked={formData.bookCall}
                   onChange={handleInputChange}
-                  className="h-4 w-4 text-amber-600 focus:ring-amber-500 border-amber-300 rounded"
+                  className="h-5 w-5 text-amber-600 focus:ring-amber-500 border-amber-400 rounded cursor-pointer"
                 />
                 <label
                   htmlFor="bookCall"
-                  className="text-amber-600 font-medium"
+                  className="text-amber-700 font-semibold text-base cursor-pointer flex items-center gap-2"
                 >
-                  If you want to Book 20 min call
+                  <MessageSquare className="h-5 w-5" />
+                  Book a 20-minute consultation call
                 </label>
               </div>
 
               {/* Call Booking Section */}
               {formData.bookCall && (
-                <div className="space-y-4 p-6 bg-white rounded-lg border border-gray-200">
+                <div className="space-y-4 p-6 bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl border-2 border-blue-200 shadow-md">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-4 flex items-center gap-2">
+                    <Calendar className="h-5 w-5 text-blue-600" />
+                    Schedule Your Call
+                  </h3>
+
                   {/* Date and Time */}
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="relative">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Select Date
+                      </label>
                       <input
                         type="date"
                         name="callDate"
                         value={formData.callDate}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 pr-10"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm hover:border-blue-400 transition-colors"
                       />
-                      <Calendar className="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400 pointer-events-none" />
                     </div>
-                    <div className="relative">
+                    <div>
+                      <label className="block text-sm font-medium text-gray-700 mb-2">
+                        Select Time
+                      </label>
                       <input
                         type="time"
                         name="callTime"
                         value={formData.callTime}
                         onChange={handleInputChange}
-                        className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 pr-10"
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white shadow-sm hover:border-blue-400 transition-colors"
                       />
-                      <Clock className="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400 pointer-events-none" />
                     </div>
                   </div>
 
                   {/* Timezone */}
-                  <div className="relative">
-                    <select
-                      name="timezone"
-                      value={formData.timezone}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-teal-500 appearance-none"
-                    >
-                      {timezones.map((tz, index) => (
-                        <option key={index} value={tz}>
-                          {tz}
-                        </option>
-                      ))}
-                    </select>
-                    <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-400 pointer-events-none" />
+                  <div>
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Time Zone
+                    </label>
+                    <div className="relative">
+                      <select
+                        name="timezone"
+                        value={formData.timezone}
+                        onChange={handleInputChange}
+                        className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 appearance-none bg-white shadow-sm hover:border-blue-400 transition-colors cursor-pointer"
+                      >
+                        {timezones.map((tz, index) => (
+                          <option key={index} value={tz}>
+                            {tz}
+                          </option>
+                        ))}
+                      </select>
+                      <ChevronDown className="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-blue-500 pointer-events-none" />
+                    </div>
+                  </div>
+
+                  <div className="mt-4 p-3 bg-blue-100 rounded-lg border border-blue-300">
+                    <p className="text-sm text-blue-800 flex items-start gap-2">
+                      <Clock className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                      <span>
+                        Our team will reach out to confirm your call appointment
+                        shortly after submission.
+                      </span>
+                    </p>
                   </div>
                 </div>
               )}
@@ -359,28 +353,23 @@ const ContactPage = () => {
             {/* Contact Info */}
             <div className="bg-[#e5e5e5] rounded-lg p-6 shadow-sm">
               <div className="space-y-4">
-                <div className="flex items-center space-x-3">
+                <Link
+                  href="tel:918377832378"
+                  className="flex items-center space-x-3"
+                >
                   <div className="flex items-center space-x-2">
                     <Phone className="h-5 w-5 text-amber-600" />
                   </div>
-                  <span className="text-gray-700">Phone: 954 342 5676</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="flex items-center space-x-2">
-                    <Phone className="h-5 w-5 text-amber-600" />
-                  </div>
-                  <span className="text-gray-700">Phone: +44 137 243 2466</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="">
-                    <MessageSquare className="h-5 w-5 text-amber-600" />
-                  </div>
-                  <span className="text-gray-700">(954) 800 2477</span>
-                </div>
-                <div className="flex items-center space-x-3">
+                  <span className="text-gray-700">Phone: +91-8377832378</span>
+                </Link>
+
+                <Link
+                  href="mailto:sales@rworldsoftware.in"
+                  className="flex items-center space-x-3"
+                >
                   <Mail className="h-5 w-5 text-amber-600" />
-                  <span className="text-gray-700">sales@chetu.com</span>
-                </div>
+                  <span className="text-gray-700">sales@rworldsoftware.in</span>
+                </Link>
               </div>
             </div>
 
@@ -438,105 +427,13 @@ const ContactPage = () => {
                   )}
                 </div>
 
-                {/* United States */}
-                <div>
-                  <button
-                    onClick={() => toggleSection("unitedStates")}
-                    className="w-full flex items-center justify-between py-3 border-b border-gray-200"
-                  >
-                    <span className="font-semibold text-gray-900">
-                      UNITED STATES
-                    </span>
-                    {expandedSections.unitedStates ? (
-                      <ChevronUp className="h-5 w-5 text-gray-400" />
-                    ) : (
-                      <ChevronDown className="h-5 w-5 text-gray-400" />
-                    )}
-                  </button>
-
-                  {expandedSections.unitedStates && (
-                    <div className="mt-4 space-y-4">
-                      {locations.unitedStates.map((location) => (
-                        <div key={location.id} className="flex space-x-4">
-                          <div className="flex-1">
-                            <h3 className="font-medium text-gray-900">
-                              {location.name}
-                            </h3>
-                            <p className="text-gray-600 text-sm">
-                              {location.address}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.city}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.zipCode}
-                            </p>
-                          </div>
-                          <Image
-                            width={80}
-                            height={64}
-                            src={location.image}
-                            alt={location.name}
-                            className="w-20 h-16 object-cover rounded"
-                          />
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
-                {/* Europe */}
-                <div>
-                  <button
-                    onClick={() => toggleSection("europe")}
-                    className="w-full flex items-center justify-between py-3 border-b border-gray-200"
-                  >
-                    <span className="font-semibold text-gray-900">EUROPE</span>
-                    {expandedSections.europe ? (
-                      <ChevronUp className="h-5 w-5 text-gray-400" />
-                    ) : (
-                      <ChevronDown className="h-5 w-5 text-gray-400" />
-                    )}
-                  </button>
-
-                  {expandedSections.europe && (
-                    <div className="mt-4">
-                      {locations.europe.map((location) => (
-                        <div key={location.id} className="flex space-x-4">
-                          <div className="flex-1">
-                            <h3 className="font-medium text-gray-900">
-                              {location.name}
-                            </h3>
-                            <p className="text-gray-600 text-sm">
-                              {location.address}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.city}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.zipCode}
-                            </p>
-                          </div>
-                          <Image
-                            width={80}
-                            height={64}
-                            src={location.image}
-                            alt={location.name}
-                            className="object-cover rounded"
-                          />
-                        </div>
-                      ))}
-                    </div>
-                  )}
-                </div>
-
                 {/* Asia */}
                 <div>
                   <button
                     onClick={() => toggleSection("asia")}
                     className="w-full flex items-center justify-between py-3"
                   >
-                    <span className="font-semibold text-gray-900">ASIA</span>
+                    <span className="font-semibold text-gray-900">India</span>
                     {expandedSections.asia ? (
                       <ChevronUp className="h-5 w-5 text-gray-400" />
                     ) : (
