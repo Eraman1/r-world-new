@@ -1,66 +1,66 @@
 import { IndustryConfig } from "@/types/industries";
-
+ 
 export const banking: IndustryConfig = {
     slug: "banking",
     banner: {
-      title: "Drive Innovation with",
-      highlight: "World-Class Software Development",
+      title: "Empower Banking with",
+      highlight: "Next-Gen Financial Software Solutions",
       subtitle:
-        "Partner with expert developers to build custom, scalable, and reliable  software solutions that accelerate your business growth.",
+        "Collaborate with top-tier developers to build powerful, scalable software that fuels innovation and accelerates your business success.",
       image:
         "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
-      linkText: "Get Agri Solutions",
+      linkText: "Get Banking Solutions",
     },
     techHero: {
-      heading: "Hire Experienced and Dedicated AgTech Software Developers",
+      heading: "Hire Expert Banking & FinTech Software Developers",
       description:
-        "AgTech solutions encompass innovative technologies transforming agriculture, boosting efficiency, profitability, and sustainability.",
+        "We create intelligent, secure, and compliant software solutions that redefine how banks operate and engage with their customers in the digital era.",
       services: [
         {
           id: "land",
-          title: "Land Management",
+          title: "Core Banking Systems",
           icon: "Tractor",
           position: "left",
         },
         {
           id: "livestock",
-          title: "Livestock Management",
+          title: "EMV Card Processing ",
           icon: "Beef",
           position: "left",
         },
         {
           id: "farm",
-          title: "Farm Management",
+          title: "ACH & EFT Transactions",
           icon: "Warehouse",
           position: "left",
         },
         {
           id: "precision",
-          title: "Precision Agriculture",
+          title: "SWIFT & Cross-Border Payments",
           icon: "Wheat",
           position: "left",
         },
         {
           id: "aquaculture",
-          title: "Aquaculture",
+          title: "Mobile & Internet Banking Apps",
           icon: "Fish",
           position: "right",
         },
         {
           id: "seed",
-          title: "Seed-to-Sale Solutions",
+          title: "Automated Reconciliation",
           icon: "ShoppingCart",
           position: "right",
         },
         {
           id: "drone",
-          title: "Agriculture Drone Software",
+          title: "Open Banking API Development",
           icon: "PlaneTakeoff",
           position: "right",
         },
         {
           id: "food",
-          title: "Food Safety & Compliance",
+          title: "KYC & AML Compliance",
           icon: "FileCheck",
           position: "right",
         },
@@ -72,66 +72,66 @@ export const banking: IndustryConfig = {
       // },
     },
     solutions: {
-      mainTitle: "AI Solutions For Precision Agriculture",
+      mainTitle: "AI Solutions for Smart Banking",
       mainDescription:
-        "AI Solutions For Precision Agriculture Our developers can implement Artificial Intelligence (AI) that analyzes data from satellites, drones, and sensors to provide real-time insights about soil conditions, moisture levels, and crop health. This data can be used to optimize irrigation, fertilization, and pest control, leading to increased yields and resource savings. Revolutionize agriculture through invaluable technology and insights that allow you to enhance productivity and resource allocation while minimizing environmental impact. Our AI solutions provide real-time data analysis, precision agriculture, and advanced crop management, enabling farmers to optimize their operations and reduce costs.",
+        "Our expert developers integrate Artificial Intelligence (AI) into banking systems to deliver intelligent automation, predictive analytics, and personalized customer experiences. AI-driven insights analyze transaction data, spending patterns, and credit behavior to enhance decision-making and risk management. Transform your banking operations with cutting-edge AI technologies that improve fraud detection, automate loan processing, and streamline compliance. Empower your institution with real-time analytics, smarter customer engagement, and data-driven innovation for a secure and efficient digital future.",
       items: [
         {
           id: "crop-yield",
           icon: "Warehouse",
-          title: "Crop Yield",
-          subtitle: "Prediction & Price Forecast AI",
+          title: "Predictive Financial Analytics",
+          subtitle: "",
           description:
-            "Our experts can implement AI features that predict crop yield and price. These models analyze previous data to forecast future crop yields. These predictions assist farmers in planning harvests, optimizing storage, and managing supply chains. Additionally, AI can predict price forecasts by analyzing market trends, helping farmers decide when to sell their products at the most optimal time. These factors are ever-changing, and being able to predict yield will improve crop management.",
+            "Our AI-driven predictive analytics transforms financial data into actionable insights. By analyzing transaction history, market trends, and customer behavior, banks can forecast risks and opportunities accurately. This empowers smarter lending, investment, and portfolio decisions. Ultimately, it reduces defaults, optimizes returns, and strengthens financial performance.",
         },
         {
           id: "chemical-spraying",
           icon: "Sprout",
-          title: "Intelligent Chemical",
-          subtitle: "Spraying Systems",
+          title: "Smart Loan Management",
+          subtitle: "",
           description:
-            "Our expert developers integrate AI technology to create advanced chemical spraying systems. With machine learning, data about temperature, soil, usage of water, and weather conditions is used to obtain useful insights to make accurate analyses. This system reduces the use of chemicals, minimizing environmental impact. It enhances crop protection while reducing the risks associated with excessive pesticide usage.",
+           "Our AI-powered Smart Loan Management streamlines the lending process from application to repayment. It evaluates credit risk, predicts borrower behavior, and automates approvals efficiently. Banks can optimize interest rates, reduce defaults, and improve customer satisfaction. This intelligent system ensures faster, safer, and smarter lending decisions.",
         },
         {
           id: "seed-sowing",
           icon: "Leaf",
-          title: "Predictive Analytic",
-          subtitle: "Tools for Seed Sowing",
+          title: "Digital Banking Security",
+          subtitle: "",
           description:
-            "Our AI experts implement predictive analytics to determine the best time for seed sowing. AI analyzes data like soil health and gives fertilizer recommendations. It uses sensors that measure nutrient levels, pH, and other indicators to make these predictions, providing accurate crop insights. Additionally, it analyzes weather conditions and soil moisture levels to provide insights into optimal plating windows. This technology leads to better germination rates, healthier crops, and improved resource use.",
-        },
+          "Our advanced AI solutions protect digital banking platforms from fraud and cyber threats in real time. By monitoring transactions and user behavior, suspicious activities are detected instantly. This ensures secure, seamless banking experiences for customers. Banks can minimize risk, build trust, and safeguard financial assets effectively.",
+      },
         {
           id: "autonomous-harvesting",
           icon: "Tractor",
-          title: "Autonomous",
-          subtitle: "Harvesting Solutions",
+          title: "Credit Risk Prediction",
+          subtitle: "",
           description:
-            "Our developers are familiar with leveraging AI to create automated tasks. We develop autonomous harvesting solutions that utilize computer vision and machine learning algorithms to identify ripe crops and harvest them efficiently. These systems can work around the clock, reducing labor costs and improving harvest timing for optimal crop quality.",
+            "Our AI-driven system analyzes credit history, financial behavior, and market trends to accurately predict borrower risk. It helps banks make smarter lending decisions and optimize interest rates. By identifying potential defaults early, financial losses are minimized. This ensures safer loans, healthier portfolios, and stronger customer trust.",
         },
         {
           id: "crop-monitoring",
           icon: "Shield",
-          title: "AI-Driven Crop",
-          subtitle: "and Soil Monitoring",
+          title: "Wealth Management Banking Services",
+          subtitle: "",
           description:
-            "We create AI-powered crop and soil monitoring systems to ensure crops thrive and yield a big crop yield. We use data from IoT sensors, drones, and satellite imagery to continuously monitor crop health, soil conditions, and environmental factors. This real-time monitoring enables proactive decision-making and early detection of potential issues.",
+            "Our AI-powered wealth management solutions provide personalized financial strategies tailored to each client. By analyzing market trends, investment performance, and risk profiles, banks can optimize portfolio growth. Clients receive smart guidance for wealth preservation and expansion. This ensures better returns, informed decisions, and long-term financial security.",
         },
         {
           id: "disease-diagnosis",
           icon: "Bug",
-          title: "Machine Learning",
-          subtitle: "for Disease Diagnosis",
+          title: "Intelligent Payment Verification",
+          subtitle: "",
           description:
-            "Our developers are very familiar with machine learning, one of AI's powerful subsets. Machine learning is trained on datasets containing images of healthy and diseased plants to accurately identify plant diseases early. This early detection system helps farmers take immediate action, preventing crop losses and reducing the need for widespread pesticide application.",
+            "Our AI-driven payment verification system monitors transactions in real time to detect fraud and anomalies instantly. It ensures every payment is accurate, secure, and compliant with regulations. Banks can reduce financial risk and operational errors effectively. This builds customer trust while streamlining secure digital transactions.",
         },
       ],
-      linkText: "Get AI-Powered Agriculture Solutions",
+      linkText: "Get AI-Powered Banking Solutions",
       linkUrl: "/contact-us",
     },
     managementSolutions: {
-      title: "Land Management Software Solutions",
+      title: "Banking Management Software Solutions",
       subtitle:
-        "Chetu's land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
+        "R-World’s expert banking software developers bring deep fintech experience and innovation to create secure, intelligent, and scalable banking management systems. Our tailored solutions streamline operations, enhance digital banking experiences, and empower financial institutions to perform efficiently in a dynamic market.",
       subtitleLink: { text: "land management software", url: "#" },
       laptopImage: "/images/management-solutions.jpg",
       mobileImage: "/images/management-solutions-mobile.jpg",
@@ -139,58 +139,58 @@ export const banking: IndustryConfig = {
         {
           id: "mapping",
           icon: "map",
-          title: "Land Mapping & GPS Software",
+          title: "Account Reconciliation & Ledger Automation",
           description:
-            "We program GIS & GPS technologies and integrate them with your current systems for site-specific data mapping optimization and accurate yield forecasting.",
+           "Our AI automation streamlines account reconciliation and ledger management with real-time accuracy, detecting discrepancies and matching transactions instantly. It eliminates manual effort, reduces errors, and ensures transparent, audit-ready banking operations.",
           link: { text: "GIS & GPS technologies", url: "#" },
         },
         {
           id: "3d-design",
           icon: "box",
-          title: "3D Field Design Applications",
+          title: "Customer Onboarding & KYC Automation",
           description:
-            "We engineer custom 3D field design apps to seamlessly integrate with topography mapping software for added visualization and management of all land areas.",
+            "Our AI-driven KYC automation accelerates customer onboarding with speed and precision. It verifies identities, validates documents, and ensures compliance effortlessly. Banks can reduce onboarding time, enhance security, and deliver a seamless customer experience.",
         },
         {
           id: "sensors",
           icon: "sliders",
-          title: "Smart Controllers & Sensors",
+          title: "Digital Wallet & Transaction Management Solutions",
           description:
-            "We implement smart controllers & sensors that screen the yields for changes in temperature, light, humidity, weather patterns, and other environmental factors.",
+            "Our AI-powered digital wallet solutions enable secure, real-time payments and effortless fund management. They track spending patterns, detect anomalies, and enhance transaction transparency. Banks can offer faster, safer, and smarter digital payment experiences.",
         },
       ],
       bottomFeatures: [
         {
           id: "autonomous",
           icon: "monitor",
-          title: "Autonomous Farming Management Systems",
+          title: "Regulatory Compliance & Reporting Tools",
           description:
-            "We incorporate prescriptive technology, harvesting & crop management modules, and decision support systems (DSS) to maximize operational performance for autonomous farming.",
+            "Our AI-powered tools simplify regulatory compliance and automate financial reporting with precision. They help banks stay audit-ready, reduce risks, and ensure adherence to evolving regulations effortlessly.",
         },
         {
           id: "irrigation",
           icon: "droplets",
-          title: "Irrigation System Management",
+          title: "Smart Loan Settlement Software",
           description:
-            "We design our irrigation software with computer-aided designs (CAD), digital terrain modeling (DTM), hydraulic systems, and irrigation patterns.",
+            "Our AI-powered software automates loan settlements with precision and speed, ensuring accurate repayments and clear records. It reduces manual effort, minimizes errors, and enhances operational efficiency for banks.",
           link: { text: "irrigation software", url: "#" },
         },
         {
           id: "agronomy",
           icon: "testTube",
-          title: "Agronomy Software Solutions",
+          title: "Digital Payment Processing Systems",
           description:
-            "We develop agronomy software solutions covering everything from soil sampling and collection to GIS mapping, subsurface drainage, and soil fertility automation.",
+            "Our AI-powered digital payment systems enable fast, secure, and seamless transactions across all platforms. They enhance efficiency, prevent fraud, and ensure a smooth cashless banking experience.",
         },
         {
           id: "operations",
           icon: "settings",
-          title: "Operations Management",
+          title: "Risk Modeling & Stress Testing Tools",
           description:
-            "We integrate unmanned aerial vehicle (UAV) software with third-party APIs for irrigation management to streamline consistent operational workflows.",
+            "Our AI-powered tools simulate market scenarios to assess financial resilience and risk exposure. They help banks predict vulnerabilities, optimize capital planning, and ensure regulatory compliance with confidence.",
         },
       ],
-      ctaText: "GET LAND MGMT SOFTWARE DEVELOPERS",
+      ctaText: "BUILD YOUR BANKING SOLUTION",
       onCtaClick: () => {},
     },
   };

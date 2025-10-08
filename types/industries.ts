@@ -59,7 +59,26 @@ export type IndustryConfig = {
     onCtaClick?: () => void;
   };
   managementSolutionsTwo?: {
-    title: string;
-    features: string[];
+    title?: string;
+    subtitle?: string;
+    subtitleLink?: { text: string; url: string };
+    laptopImage?: string;
+    mobileImage?: string;
+    topFeatures?: {
+      id: string;
+      icon: string;
+      title: string;
+      description: string;
+      link?: { text: string; url: string };
+    }[];
+    bottomFeatures?: {
+      id: string;
+      icon: React.ReactNode;
+      title: string;
+      description: string;
+      link?: { text: string; url: string };
+    }[];
+    ctaText?: string;
+    onCtaClick?: string;
   };
 };

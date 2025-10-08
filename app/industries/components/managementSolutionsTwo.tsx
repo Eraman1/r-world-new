@@ -8,95 +8,29 @@ import {
   TestTube,
   Settings,
 } from "lucide-react";
+import Link from "next/link";
+import { IndustryConfig } from "@/types/industries";
 
-interface Feature {
-  id: string;
-  icon: React.ReactNode;
-  title: string;
-  description: string;
-  link?: { text: string; url: string };
-}
+const iconsMap: Record<string, React.ReactNode> = {
+  map: <Map className="w-16 h-16 text-amber-500" />,
+  box: <Box className="w-16 h-16 text-amber-500" />,
+  sliders: <Sliders className="w-16 h-16 text-amber-500" />,
+  monitor: <Monitor className="w-16 h-16 text-amber-500" />,
+  droplets: <Droplets className="w-16 h-16 text-amber-500" />,
+  testTube: <TestTube className="w-16 h-16 text-amber-500" />,
+  settings: <Settings className="w-16 h-16 text-amber-500" />,
+};
 
-interface ManagementPropsTwo {
-  title?: string;
-  subtitle?: string;
-  subtitleLink?: { text: string; url: string };
-  laptopImage?: string;
-  mobileImage?: string;
-  topFeatures?: Feature[];
-  bottomFeatures?: Feature[];
-  ctaText?: string;
-  onCtaClick?: () => void;
-}
-
-const defaultTopFeatures: Feature[] = [
-  {
-    id: "mapping",
-    icon: <Map className="w-16 h-16 text-cyan-500" />,
-    title: "Land Mapping & GPS Software",
-    description:
-      "We program GIS & GPS technologies and integrate them with your current systems for site-specific data mapping optimization and accurate yield forecasting.",
-    link: { text: "GIS & GPS technologies", url: "#" },
-  },
-  {
-    id: "3d-design",
-    icon: <Box className="w-16 h-16 text-cyan-500" />,
-    title: "3D Field Design Applications",
-    description:
-      "We engineer custom 3D field design apps to seamlessly integrate with topography mapping software for added visualization and management of all land areas.",
-  },
-  {
-    id: "sensors",
-    icon: <Sliders className="w-16 h-16 text-cyan-500" />,
-    title: "Smart Controllers & Sensors",
-    description:
-      "We implement smart controllers & sensors that screen the yields for changes in temperature, light, humidity, weather patterns, and other environmental factors.",
-  },
-];
-
-const defaultBottomFeatures: Feature[] = [
-  {
-    id: "autonomous",
-    icon: <Monitor className="w-16 h-16 text-cyan-500" />,
-    title: "Autonomous Farming Management Systems",
-    description:
-      "We incorporate prescriptive technology, harvesting & crop management modules, and decision support systems (DSS) to maximize operational performance for autonomous farming.",
-  },
-  {
-    id: "irrigation",
-    icon: <Droplets className="w-16 h-16 text-cyan-500" />,
-    title: "Irrigation System Management",
-    description:
-      "We design our irrigation software with computer-aided designs (CAD), digital terrain modeling (DTM), hydraulic systems, and irrigation patterns.",
-    link: { text: "irrigation software", url: "#" },
-  },
-  {
-    id: "agronomy",
-    icon: <TestTube className="w-16 h-16 text-cyan-500" />,
-    title: "Agronomy Software Solutions",
-    description:
-      "We develop agronomy software solutions covering everything from soil sampling and collection to GIS mapping, subsurface drainage, and soil fertility automation.",
-  },
-  {
-    id: "operations",
-    icon: <Settings className="w-16 h-16 text-cyan-500" />,
-    title: "Operations Management",
-    description:
-      "We integrate unmanned aerial vehicle (UAV) software with third-party APIs for irrigation management to streamline consistent operational workflows.",
-  },
-];
-
-const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
-  title = "Land Management Software Solutions",
-  subtitle = "Chetu's land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
-  subtitleLink = { text: "land management software", url: "#" },
-  laptopImage,
-  mobileImage,
-  topFeatures = defaultTopFeatures,
-  bottomFeatures = defaultBottomFeatures,
-  ctaText = "GET LAND MGMT SOFTWARE DEVELOPERS",
-  onCtaClick,
+const ManagementSolutionsTwo: React.FC<IndustryConfig> = ({
+  managementSolutionsTwo,
 }) => {
+  if (
+    !managementSolutionsTwo ||
+    !managementSolutionsTwo.topFeatures ||
+    !managementSolutionsTwo.bottomFeatures
+  )
+    return null;
+
   const renderDescription = (
     description: string,
     link?: { text: string; url: string }
@@ -119,15 +53,25 @@ const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
   };
 
   const renderSubtitle = () => {
-    const parts = subtitle.split(subtitleLink.text);
+    if (!managementSolutionsTwo) {
+      return null; // or return an empty string, or handle it in another way that makes sense for your application
+    }
+    const parts = managementSolutionsTwo.subtitle
+      ? managementSolutionsTwo.subtitle.split(
+          managementSolutionsTwo.subtitleLink?.text || ""
+        )
+      : null;
+    if (!parts) {
+      return null; // or return an empty string, or handle it in another way that makes sense for your application
+    }
     return (
       <p className="text-base sm:text-lg text-gray-700 max-w-5xl mx-auto leading-relaxed">
         {parts[0]}
         <a
-          href={subtitleLink.url}
+          href={managementSolutionsTwo.subtitleLink?.url} // assuming subtitleLink is a property of managementSolutionsTwo
           className="text-cyan-600 hover:text-cyan-700 font-medium"
         >
-          {subtitleLink.text}
+          {managementSolutionsTwo.subtitleLink?.text}
         </a>
         {parts[1]}
       </p>
@@ -140,7 +84,7 @@ const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            {title}
+            {managementSolutionsTwo.title}
           </h1>
           {renderSubtitle()}
         </div>
@@ -149,10 +93,10 @@ const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           {/* Top Features */}
           <div className="space-y-8">
-            {topFeatures.map((feature) => (
+            {managementSolutionsTwo.topFeatures.map((feature) => (
               <div key={feature.id} className="flex gap-6 group">
                 <div className="flex-shrink-0 transition-transform duration-300 group-hover:scale-110">
-                  {feature.icon}
+                  {iconsMap[feature.icon] || feature.icon}
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">
@@ -170,9 +114,9 @@ const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
             <div className="relative w-full max-w-2xl">
               <div className="bg-gray-900 rounded-t-2xl p-3 shadow-2xl">
                 <div className="bg-white rounded-lg overflow-hidden aspect-video">
-                  {laptopImage ? (
+                  {managementSolutionsTwo.laptopImage ? (
                     <img
-                      src={laptopImage}
+                      src={managementSolutionsTwo.laptopImage}
                       alt="Land management dashboard"
                       className="w-full h-full object-cover"
                     />
@@ -213,9 +157,9 @@ const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
             <div className="relative w-full max-w-2xl">
               <div className="bg-gray-900 rounded-t-2xl p-3 shadow-2xl">
                 <div className="bg-white rounded-lg overflow-hidden aspect-video">
-                  {laptopImage ? (
+                  {managementSolutionsTwo.laptopImage ? (
                     <img
-                      src={laptopImage}
+                      src={managementSolutionsTwo.laptopImage}
                       alt="Land management dashboard"
                       className="w-full h-full object-cover"
                     />
@@ -250,7 +194,7 @@ const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
 
           {/* Top Features */}
           <div className="space-y-8">
-            {topFeatures.map((feature) => (
+            {managementSolutionsTwo.bottomFeatures.map((feature) => (
               <div key={feature.id} className="flex gap-6 group">
                 <div className="flex-shrink-0 transition-transform duration-300 group-hover:scale-110">
                   {feature.icon}
@@ -270,12 +214,14 @@ const ManagementSolutionsTwo: React.FC<ManagementPropsTwo> = ({
 
         {/* CTA Button */}
         <div className="text-center mt-16">
-          <button
-            onClick={onCtaClick}
+          <Link
+            href={managementSolutionsTwo.onCtaClick || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block px-12 py-4 border-2 border-orange-500 text-orange-500 font-bold text-lg rounded-full hover:bg-orange-500 hover:text-white transition-all duration-300 transform hover:scale-105"
           >
-            {ctaText}
-          </button>
+            {managementSolutionsTwo.ctaText}
+          </Link>
         </div>
       </div>
     </div>

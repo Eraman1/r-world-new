@@ -166,10 +166,10 @@ const ContactPage = () => {
       });
 
       console.log("Enquiry created successfully:", response);
-    } catch (error: any) {
+    } catch (error) {
       setSubmitStatus({
         type: "error",
-        message: error.response?.data?.message || "Failed to submit enquiry. Please try again.",
+        message: error instanceof Error ? error.message : "Failed to submit enquiry. Please try again.",
       });
       console.error("Error submitting enquiry:", error);
     } finally {
@@ -226,10 +226,10 @@ const ContactPage = () => {
       });
 
       console.log("Call booked successfully:", response);
-    } catch (error: any) {
+    } catch (error) {
       setSubmitStatus({
         type: "error",
-        message: error.response?.data?.message || "Failed to book call. Please try again.",
+        message: error instanceof Error ? error.message : "Failed to book call. Please try again.",
       });
       console.error("Error booking call:", error);
     } finally {

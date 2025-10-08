@@ -50,7 +50,19 @@ export default function Page({ params }: Props) {
         />
       )}
 
-      <ManagementSolutionsTwo />
+     {industry.managementSolutionsTwo && (
+        <ManagementSolutionsTwo
+          managementSolutionsTwo={industry.managementSolutionsTwo}
+          slug={slug}
+          banner={{
+            title: "",
+            highlight: undefined,
+            subtitle: undefined,
+            image: undefined,
+            linkText: undefined,
+          }}
+        />
+      )}
     </div>
   );
 }

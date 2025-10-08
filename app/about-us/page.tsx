@@ -1,8 +1,9 @@
 import AboutAll from "@/components/about";
 import Banner from "@/components/bannerForAbout";
 import EmployeeTestimonials from "@/components/employeeTestimonial";
-import PartnersSection from "@/components/partners";
+import StrategicPartners from "@/components/StrategicPartners";
 import Testimonials from "@/components/testimonialAbout";
+import VerifiedBy from "@/components/verified";
 import React from "react";
 
 export default function page() {
@@ -12,7 +13,9 @@ export default function page() {
       <AboutAll/>
       <Testimonials/>
       <EmployeeTestimonials/>
-      <PartnersSection/>
+      {/* <PartnersSection/> */}
+      <StrategicPartners/>
+      <VerifiedBy/>
     </div>
   );
 }

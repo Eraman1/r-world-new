@@ -3,6 +3,7 @@ import RWorldBenefits from "@/components/benifits";
 import FeaturesGrid from "@/components/featureGrid";
 import Solutions from "@/components/solutions";
 import RWorldTestimonial from "@/components/testimonial";
+import VerifiedBy from "@/components/verified";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
       <FeaturesGrid />
       <Solutions />
       <RWorldTestimonial />
+      <VerifiedBy />
+      
     </>
   );
 }
