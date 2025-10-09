@@ -21,7 +21,7 @@ const features: Feature[] = [
     {
         title: "Trustworthy Partner",
         description:
-            "24-year-old US Corporation governed by local laws. 2800+ employees.",
+            "We are a trusted partner for your business, providing reliable and secure software solutions.",
     },
     {
         title: "Very Cost-Effective",

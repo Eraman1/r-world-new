@@ -203,13 +203,18 @@ const Footer: React.FC = () => {
             <div className="flex flex-wrap gap-3">
               <Link
                 href="https://linkedin.com/company/r-world-software"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#0077B5] rounded-lg flex items-center justify-center hover:bg-[#006399] hover:scale-110 transition-all duration-300 shadow-md"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5 text-white" />
               </Link>
+
               <Link
                 href="https://x.com/RworldSoftware"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-black rounded-lg flex items-center justify-center hover:bg-gray-800 hover:scale-110 transition-all duration-300 shadow-md"
                 aria-label="X (Twitter)"
               >
@@ -221,22 +226,31 @@ const Footer: React.FC = () => {
                   <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
                 </svg>
               </Link>
+
               <Link
                 href="https://www.facebook.com/people/Stock-it-Inventory-manager-app/61556269179445"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#1877F2] rounded-lg flex items-center justify-center hover:bg-[#0d65d9] hover:scale-110 transition-all duration-300 shadow-md"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5 text-white" />
               </Link>
+
               <Link
                 href="https://www.youtube.com/@stock-it"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#FF0000] rounded-lg flex items-center justify-center hover:bg-[#cc0000] hover:scale-110 transition-all duration-300 shadow-md"
                 aria-label="YouTube"
               >
                 <Youtube className="w-5 h-5 text-white" />
               </Link>
+
               <Link
                 href="https://www.instagram.com/stock.it.app/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#F77737] rounded-lg flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-md"
                 aria-label="Instagram"
               >

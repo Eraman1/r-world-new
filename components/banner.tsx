@@ -37,13 +37,13 @@ const Banner: React.FC = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <Link
-            href="/contact"
+            href="/contact-us"
             className="px-6 py-3 bg-amber-500 text-white font-semibold rounded-full shadow-md hover:bg-blue-600 transition flex items-center gap-2"
           >
             Get Started <ArrowRight className="h-5 w-5" />
           </Link>
           <Link
-            href="/services"
+            href="/On-Demand-Developers"
             className="px-6 py-3 border border-amber-500 text-white font-medium rounded-full hover:bg-blue-500/10 transition"
           >
             Hire Developers on Demand

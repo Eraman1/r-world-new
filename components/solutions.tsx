@@ -10,47 +10,60 @@ import {
   FileCheck,
   ArrowRight,
 } from "lucide-react";
+import { link } from "fs";
+import Link from "next/link";
 
 const services = [
   {
     title: "Application Development",
     icon: Workflow,
     description: "Custom software solutions tailored to your needs",
+    link: { text: "Learn more", url: "/application-development" },
   },
   {
     title: "Application Support",
     icon: Monitor,
     description: "24/7 maintenance and optimization services",
+    link: { text: "Learn more", url: "/application-support" },
   },
   {
     title: "Business Intelligence & Reporting",
     icon: BarChart,
     description: "Transform data into actionable insights",
+    link: { text: "Learn more", url: "/business-intelligence" },
   },
   {
     title: "AI/ML and Data Science",
     icon: Brain,
     description: "Cutting-edge artificial intelligence solutions",
+    link: { text: "Learn more", url: "/ai-ml-and-data-science" },
   },
   {
     title: "BPO and Non-Technical Processes",
     icon: Headphones,
     description: "Streamlined business process outsourcing",
+    link: { text: "Learn more", url: "/bpo-and-non-technical-processes" },
   },
   {
     title: "Cloud, Infrastructure and Cybersecurity",
     icon: ShieldCheck,
     description: "Secure and scalable cloud solutions",
+    link: {
+      text: "Learn more",
+      url: "/cloud-infrastructure-and-cybersecurity",
+    },
   },
   {
     title: "Quality Assurance",
     icon: FileCheck,
     description: "Rigorous testing for flawless performance",
+    link: { text: "Learn more", url: "/quality-assurance" },
   },
   {
     title: "Partner Product Support",
     icon: Monitor,
     description: "Expert third-party product integration",
+    link: { text: "Learn more", url: "/partner-product-support" },
   },
 ];
 
@@ -159,10 +172,14 @@ export default function Solutions() {
                       : "opacity-0 translate-y-2"
                   }`}
                 >
-                  <span className="text-sm font-semibold text-[#FCA311]">
-                    Learn More
-                  </span>
-                  <ArrowRight className="w-4 h-4 text-[#FCA311]" />
+                  <Link href={service.link.url}>
+                    <span className="text-sm font-semibold text-[#FCA311]">
+                      {service.link.text}
+                    </span>
+                  </Link>
+                  <Link href={service.link.url} className="mb-0">
+                    <ArrowRight className="w-4 h-4 text-[#FCA311]" />
+                  </Link>
                 </div>
               </div>
             );

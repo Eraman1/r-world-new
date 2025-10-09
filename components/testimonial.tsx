@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 interface Testimonial {
   image: string;
@@ -118,7 +119,10 @@ export default function RWorldTestimonial() {
 
                 {/* CTA Button */}
                 <button className="group relative px-8 py-3 bg-transparent border-2 border-[#FCA311] text-[#FCA311] rounded-full font-medium text-md overflow-hidden transition-all duration-300 hover:text-black">
-                  <span className="relative z-10">VIEW CASE STUDY</span>
+                  <Link href="/case-study">
+                    {" "}
+                    <span className="relative z-10">VIEW CASE STUDY</span>{" "}
+                  </Link>
                   <div className="absolute inset-0 bg-[#FCA311] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
                 </button>
               </div>
