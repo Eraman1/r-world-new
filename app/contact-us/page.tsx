@@ -14,6 +14,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { createEnquiry } from "@/lib/enquiryService";
 import { EnquiryFormData } from "@/types/enquiry";
+import { toast } from "react-toastify";
 
 interface FormData {
   name: string;
@@ -47,7 +48,8 @@ const ContactPage = () => {
     bookCall: false,
     callDate: "2025-09-26",
     callTime: "18:15",
-    timezone: "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+    timezone:
+      "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -146,12 +148,13 @@ const ContactPage = () => {
       };
 
       const response = await createEnquiry(enquiryData);
-      
+
       setSubmitStatus({
         type: "success",
-        message: "Thank you! Your enquiry has been submitted successfully. We'll get back to you soon.",
+        message:
+          "Thank you! Your enquiry has been submitted successfully. We'll get back to you soon.",
       });
-
+      toast.success("Enquiry submitted successfully!");
       // Reset form after successful submission
       setFormData({
         name: "",
@@ -162,14 +165,18 @@ const ContactPage = () => {
         bookCall: false,
         callDate: "2025-09-26",
         callTime: "18:15",
-        timezone: "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+        timezone:
+          "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
       });
 
       console.log("Enquiry created successfully:", response);
     } catch (error) {
       setSubmitStatus({
         type: "error",
-        message: error instanceof Error ? error.message : "Failed to submit enquiry. Please try again.",
+        message:
+          error instanceof Error
+            ? error.message
+            : "Failed to submit enquiry. Please try again.",
       });
       console.error("Error submitting enquiry:", error);
     } finally {
@@ -179,7 +186,7 @@ const ContactPage = () => {
 
   const handleBookCall = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!formData.bookCall) {
       setSubmitStatus({
         type: "error",
@@ -206,10 +213,11 @@ const ContactPage = () => {
       };
 
       const response = await createEnquiry(enquiryData);
-      
+
       setSubmitStatus({
         type: "success",
-        message: "Your call has been booked successfully! We'll send you a confirmation shortly.",
+        message:
+          "Your call has been booked successfully! We'll send you a confirmation shortly.",
       });
 
       // Reset form
@@ -222,14 +230,18 @@ const ContactPage = () => {
         bookCall: false,
         callDate: "2025-09-26",
         callTime: "18:15",
-        timezone: "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+        timezone:
+          "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
       });
 
       console.log("Call booked successfully:", response);
     } catch (error) {
       setSubmitStatus({
         type: "error",
-        message: error instanceof Error ? error.message : "Failed to book call. Please try again.",
+        message:
+          error instanceof Error
+            ? error.message
+            : "Failed to book call. Please try again.",
       });
       console.error("Error booking call:", error);
     } finally {

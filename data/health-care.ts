@@ -1,75 +1,193 @@
-export const healthcare = {
+import { IndustryConfig } from "@/types/industries";
+ 
+export const healthcare: IndustryConfig = {
   slug: "healthcare",
   banner: {
-    title: "Healthcare Industry",
-    subtitle: "Innovating patient care 💊",
-    image: "/images/healthcare-banner.jpg",
+    title: "Revolutionize Patient Care with",
+    highlight: "AI-Powered Healthcare & Telemedicine Software Solutions",
+    subtitle:
+      "Empower hospitals, clinics, and healthcare startups with intelligent, secure, and interoperable digital health platforms. From patient monitoring to predictive diagnostics, we enable seamless healthcare delivery powered by innovation and automation.",
+    image:
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+    linkText: "Get Healthcare Solutions",
   },
+ 
   techHero: {
-    heading: "Digital Healthcare",
-    description: "Telemedicine and AI diagnostics are the future.",
-  },
-  solutions: {
-    mainTitle: "AI Solutions For Precision Agriculture",
-    mainDescription:
-      "AI Solutions For Precision Agriculture Our developers can implement Artificial Intelligence (AI) that analyzes data from satellites, drones, and sensors to provide real-time insights about soil conditions, moisture levels, and crop health. This data can be used to optimize irrigation, fertilization, and pest control, leading to increased yields and resource savings. Revolutionize agriculture through invaluable technology and insights that allow you to enhance productivity and resource allocation while minimizing environmental impact. Our AI solutions provide real-time data analysis, precision agriculture, and advanced crop management, enabling farmers to optimize their operations and reduce costs.",
-    items: [
+    heading: "Hire Expert Healthcare Software Developers",
+    description:
+      "Our developers build HIPAA-compliant, AI-driven healthcare software that enhances patient outcomes, optimizes hospital operations, and enables connected care. We integrate telemedicine, IoT devices, and analytics for smarter, more accessible healthcare systems.",
+    services: [
       {
-        id: "crop-yield",
-        icon: "Warehouse",
-        title: "Crop Yield",
-        subtitle: "Prediction & Price Forecast AI",
-        description:
-          "Our experts can implement AI features that predict crop yield and price. These models analyze previous data to forecast future crop yields. These predictions assist farmers in planning harvests, optimizing storage, and managing supply chains. Additionally, AI can predict price forecasts by analyzing market trends, helping farmers decide when to sell their products at the most optimal time. These factors are ever-changing, and being able to predict yield will improve crop management.",
+        id: "telemedicine",
+        title: "Telemedicine & Virtual Care Platforms",
+        icon: "Tractor", //Video
+        position: "left",
       },
       {
-        id: "chemical-spraying",
-        icon: "Sprout",
-        title: "Intelligent Chemical",
-        subtitle: "Spraying Systems",
-        description:
-          "Our expert developers integrate AI technology to create advanced chemical spraying systems. With machine learning, data about temperature, soil, usage of water, and weather conditions is used to obtain useful insights to make accurate analyses. This system reduces the use of chemicals, minimizing environmental impact. It enhances crop protection while reducing the risks associated with excessive pesticide usage.",
+        id: "ehr",
+        title: "Electronic Health Record (EHR) Systems",
+        icon: "Tractor", //FileText
+        position: "left",
       },
       {
-        id: "seed-sowing",
-        icon: "Leaf",
-        title: "Predictive Analytic",
-        subtitle: "Tools for Seed Sowing",
-        description:
-          "Our AI experts implement predictive analytics to determine the best time for seed sowing. AI analyzes data like soil health and gives fertilizer recommendations. It uses sensors that measure nutrient levels, pH, and other indicators to make these predictions, providing accurate crop insights. Additionally, it analyzes weather conditions and soil moisture levels to provide insights into optimal plating windows. This technology leads to better germination rates, healthier crops, and improved resource use.",
+        id: "ai-diagnostics",
+        title: "AI-Based Diagnostics & Imaging Analysis",
+        icon: "Tractor", //Brain
+        position: "left",
       },
       {
-        id: "autonomous-harvesting",
-        icon: "Tractor",
-        title: "Autonomous",
-        subtitle: "Harvesting Solutions",
-        description:
-          "Our developers are familiar with leveraging AI to create automated tasks. We develop autonomous harvesting solutions that utilize computer vision and machine learning algorithms to identify ripe crops and harvest them efficiently. These systems can work around the clock, reducing labor costs and improving harvest timing for optimal crop quality.",
+        id: "hospital-management",
+        title: "Hospital Management Software (HMS)",
+        icon: "Tractor", //Building
+        position: "left",
       },
       {
-        id: "crop-monitoring",
-        icon: "Shield",
-        title: "AI-Driven Crop",
-        subtitle: "and Soil Monitoring",
-        description:
-          "We create AI-powered crop and soil monitoring systems to ensure crops thrive and yield a big crop yield. We use data from IoT sensors, drones, and satellite imagery to continuously monitor crop health, soil conditions, and environmental factors. This real-time monitoring enables proactive decision-making and early detection of potential issues.",
+        id: "iot-monitoring",
+        title: "IoT-Enabled Patient Monitoring",
+        icon: "Tractor", //Activity
+        position: "right",
       },
       {
-        id: "disease-diagnosis",
-        icon: "Bug",
-        title: "Machine Learning",
-        subtitle: "for Disease Diagnosis",
-        description:
-          "Our developers are very familiar with machine learning, one of AI's powerful subsets. Machine learning is trained on datasets containing images of healthy and diseased plants to accurately identify plant diseases early. This early detection system helps farmers take immediate action, preventing crop losses and reducing the need for widespread pesticide application.",
+        id: "pharmacy",
+        title: "Pharmacy & Inventory Management",
+        icon: "Tractor", //Package
+        position: "right",
+      },
+      {
+        id: "patient-portal",
+        title: "Patient Engagement & Portal Systems",
+        icon: "Tractor", //Users
+        position: "right",
+      },
+      {
+        id: "analytics",
+        title: "Healthcare Analytics & BI Dashboards",
+        icon: "Tractor", //BarChart3
+        position: "right",
       },
     ],
   },
-  // managementSolutions: {
-  //   title: "Hospital Management",
-  //   description: "Streamline operations and improve patient outcomes.",
-  // },
-  managementSolutionsTwo: {
-    title: "Healthcare Analytics",
-    features: ["Data Dashboards", "Predictive Insights", "Cost Optimization"],
+ 
+  solutions: {
+    mainTitle: "AI, IoT & Cloud Solutions for Modern Healthcare",
+    mainDescription:
+      "We design smart, secure, and scalable healthcare software powered by AI and IoT. From predictive diagnostics to connected care, our solutions improve clinical efficiency, patient experience, and operational excellence across the medical ecosystem.",
+    items: [
+      {
+        id: "diagnostics",
+        icon: "Leaf",
+        title: "AI Diagnostics & Medical Imaging",
+        subtitle: "",
+        description:
+          "Enhance diagnostic accuracy with machine learning models that analyze X-rays, MRIs, and CT scans for early disease detection.",
+      },
+      {
+        id: "remote-monitoring",
+        icon: "Leaf",
+        title: "Remote Patient Monitoring Systems",
+        subtitle: "",
+        description:
+          "Track patient vitals in real time using IoT wearables and cloud platforms for continuous, preventive care outside hospital walls.",
+      },
+      {
+        id: "appointment-scheduling",
+        icon: "Leaf",
+        title: "Smart Appointment & Workflow Automation",
+        subtitle: "",
+        description:
+          "Streamline scheduling, billing, and record-keeping with integrated systems that reduce wait times and improve patient experience.",
+      },
+      {
+        id: "predictive-analytics",
+        icon: "Leaf",
+        title: "Predictive Healthcare Analytics",
+        subtitle: "",
+        description:
+          "Use AI-powered predictive models to forecast patient risks, optimize treatment plans, and reduce readmission rates.",
+      },
+      {
+        id: "drug-discovery",
+        icon: "Leaf",
+        title: "AI in Drug Discovery & Research",
+        subtitle: "",
+        description:
+          "Accelerate drug discovery using computational biology, data modeling, and predictive algorithms for faster clinical trials.",
+      },
+      {
+        id: "compliance-security",
+        icon: "Leaf",
+        title: "Compliance & Data Security Platforms",
+        subtitle: "",
+        description:
+          "Ensure full compliance with HIPAA, GDPR, and HL7 standards while safeguarding sensitive patient and medical data.",
+      },
+    ],
+    linkText: "Get AI-Powered Healthcare Solutions",
+    linkUrl: "/contact-us",
+  },
+ 
+  managementSolutions: {
+    title: "Healthcare Management & Analytics Solutions",
+    subtitle:
+      "We build end-to-end healthcare management platforms that integrate telehealth, EHR, and predictive analytics to improve care quality and efficiency.",
+    subtitleLink: { text: "healthcare management software", url: "#" },
+    laptopImage: "/images/management-solutions.jpg",
+    mobileImage: "/images/management-solutions-mobile.jpg",
+    topFeatures: [
+      {
+        id: "ehr-integration",
+        icon: "map",
+        title: "EHR / EMR Integration & Interoperability",
+        description:
+          "Seamlessly integrate patient records across hospitals, labs, and clinics with secure, interoperable APIs.",
+        link: { text: "EHR development services", url: "#" },
+      },
+      {
+        id: "telehealth",
+        icon: "map",
+        title: "Telehealth & Video Consultation Platforms",
+        description:
+          "Deliver remote consultations, prescriptions, and follow-ups via encrypted, real-time video and chat systems.",
+      },
+      {
+        id: "automation",
+        icon: "map",
+        title: "Workflow Automation & Billing Systems",
+        description:
+          "Automate patient admissions, claims, and billing to improve accuracy and reduce administrative workload.",
+      },
+    ],
+    bottomFeatures: [
+      {
+        id: "population-health",
+        icon: "map",
+        title: "Population Health & Analytics Dashboards",
+        description:
+          "Visualize key healthcare KPIs like patient recovery rates, staff performance, and cost management in real time.",
+      },
+      {
+        id: "security",
+        icon: "map",
+        title: "Cybersecurity & HIPAA Compliance",
+        description:
+          "Implement secure authentication, encryption, and audit trails to ensure patient data confidentiality and compliance.",
+      },
+      {
+        id: "mobile-health",
+        icon: "map",
+        title: "mHealth & Wearable App Development",
+        description:
+          "Create mobile and wearable health apps that enable patients to track fitness, medication, and chronic disease progress.",
+      },
+      {
+        id: "ai-decision",
+        icon: "map",
+        title: "AI-Powered Decision Support Systems",
+        description:
+          "Assist healthcare professionals with AI insights for diagnosis, treatment planning, and personalized care delivery.",
+      },
+    ],
+    ctaText: "BUILD YOUR HEALTHCARE SOFTWARE SOLUTION",
+    onCtaClick: () => {},
   },
 };

@@ -10,7 +10,6 @@ import {
   FileCheck,
   ArrowRight,
 } from "lucide-react";
-import { link } from "fs";
 import Link from "next/link";
 
 const services = [

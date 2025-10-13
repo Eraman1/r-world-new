@@ -4,10 +4,10 @@ import { AxiosError } from "axios";
 
 export const createEnquiry = async (data: EnquiryFormData) => {
   try {
-    const response = await axiosInstance.post<{ success: boolean; message: string }>(
-      "/enquiry",
-      data
-    );
+    const response = await axiosInstance.post<{
+      success: boolean;
+      message: string;
+    }>("/enquiry/submit", data);
     return response.data;
   } catch (error: unknown) {
     if (error instanceof AxiosError) {
