@@ -1,4 +1,4 @@
-export type IndustryConfig = {
+export type SolutionConfig = {
   slug: string;
   banner: {
     title: string;
@@ -80,13 +80,5 @@ export type IndustryConfig = {
     }[];
     ctaText?: string;
     onCtaClick?: string;
-  };
-  faq?: {
-    title: string;
-    items: {
-      id: string;
-      question: string;
-      answer: string;
-    }[];
   };
 };

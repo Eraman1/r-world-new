@@ -9,7 +9,7 @@ import {
   TestTube,
   Settings,
 } from "lucide-react";
-import { IndustryConfig } from "@/data/industries";
+import { IndustryConfig } from "@/data/industries/industries";
 
 const iconsMap: Record<string, React.ReactNode> = {
   map: <Map className="w-16 h-16 text-amber-500" />,
@@ -50,8 +50,6 @@ const ManagementSolutions: React.FC<IndustryConfig> = ({
       </>
     );
   };
-
-  
 
   return (
     <div className="w-full bg-white py-16 px-4 sm:px-6 lg:px-8">
@@ -111,7 +109,7 @@ const ManagementSolutions: React.FC<IndustryConfig> = ({
             {managementSolutions?.topFeatures.map((feature) => (
               <div key={feature.id} className="flex gap-6 group">
                 <div className="flex-shrink-0 transition-transform duration-300 group-hover:scale-110">
-                  {iconsMap[feature.icon]} 
+                  {iconsMap[feature.icon]}
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">

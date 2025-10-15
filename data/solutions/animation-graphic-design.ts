@@ -1,7 +1,7 @@
-import { IndustryConfig } from "@/types/industries";
+import { SolutionConfig } from "@/types/solutions";
 
-export const agriculture: IndustryConfig = {
-  slug: "agriculture",
+export const animationGraphicDesign: SolutionConfig = {
+  slug: "animation-graphic-design",
   banner: {
     title: "Drive Innovation with",
     highlight: "World-Class Software Development",
