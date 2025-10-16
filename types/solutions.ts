@@ -7,20 +7,18 @@ export type SolutionConfig = {
     image?: string;
     linkText?: string;
   };
-  techHero?: {
+  developerDetails?: {
     heading: string;
-    description: string;
-    services?: {
-      id: string;
+    subheading: string;
+    mainTitle: string;
+    mainDescription: string;
+    image: string;
+    services: {
+      id: number;
       title: string;
+      description: string;
       icon: string; // store as string, we’ll map to Lucide icons
-      position: "left" | "right";
     }[];
-    deviceImages?: {
-      laptop?: string;
-      tablet?: string;
-      mobile?: string;
-    };
   };
   solutions?: {
     mainTitle: string;

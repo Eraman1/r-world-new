@@ -11,65 +11,37 @@ export const animationGraphicDesign: SolutionConfig = {
       "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     linkText: "Get Agri Solutions",
   },
-  techHero: {
-    heading: "Hire Experienced and Dedicated AgTech Software Developers",
-    description:
-      "AgTech solutions encompass innovative technologies transforming agriculture, boosting efficiency, profitability, and sustainability.",
-    services: [
-      {
-        id: "land",
-        title: "Land Management",
-        icon: "Tractor",
-        position: "left",
-      },
-      {
-        id: "livestock",
-        title: "Livestock Management",
-        icon: "Beef",
-        position: "left",
-      },
-      {
-        id: "farm",
-        title: "Farm Management",
-        icon: "Warehouse",
-        position: "left",
-      },
-      {
-        id: "precision",
-        title: "Precision Agriculture",
-        icon: "Wheat",
-        position: "left",
-      },
-      {
-        id: "aquaculture",
-        title: "Aquaculture",
-        icon: "Fish",
-        position: "right",
-      },
-      {
-        id: "seed",
-        title: "Seed-to-Sale Solutions",
-        icon: "ShoppingCart",
-        position: "right",
-      },
-      {
-        id: "drone",
-        title: "Agriculture Drone Software",
-        icon: "PlaneTakeoff",
-        position: "right",
-      },
-      {
-        id: "food",
-        title: "Food Safety & Compliance",
-        icon: "FileCheck",
-        position: "right",
-      },
-    ],
-    // deviceImages: {
-    //   laptop: "/images/devices/laptop-agri.png",
-    //   tablet: "/images/devices/tablet-agri.png",
-    //   mobile: "/images/devices/mobile-agri.png",
-    // },
+  developerDetails: {
+    heading: "Our Developers Have Experience With Web Animation & Graphic Design",
+  subheading:
+    "Our award-winning full-service design team provides interactive web graphic design and animation services to enhance the user experience, increase conversion rates, and improve engagement.",
+  mainTitle: "Web Animation & Graphic Design Services",
+  mainDescription:
+    "Our talented Web Animators and Graphic Designers can design a brand new website from scratch or make customized modifications to an existing website using the latest technologies in 2D and 3D animation services to strengthen company brands and turn more viewers into loyal customers.",
+  image: "/images/web-animation-laptop.png",
+  services: [
+    {
+      id: 1,
+      title: "Video Animation Design",
+      description:
+        "We offer intuitive video animation designs to create engaging and interactive assets for websites, mobile apps, web apps, social media profiles, and email marketing campaigns.",
+      icon: "/icons/play.svg",
+    },
+    {
+      id: 2,
+      title: "Logos & Branding",
+      description:
+        "We help companies fulfill their branding vision by developing a brand from scratch or improving their existing brand using our masterful tools and skills.",
+      icon: "/icons/trademark.svg",
+    },
+    {
+      id: 3,
+      title: "Interactive Web Pages",
+      description:
+        "We design interactive web pages using custom modules, features, and software development tools to create an engaging environment throughout the navigation process.",
+      icon: "/icons/browser.svg",
+    },
+  ],
   },
   solutions: {
     mainTitle: "AI Solutions For Precision Agriculture",

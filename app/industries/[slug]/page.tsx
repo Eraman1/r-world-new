@@ -9,28 +9,11 @@ import TechHero from "@/app/industries/components/techHero";
 import { notFound } from "next/navigation";
 import { industriesData } from "@/data/industries/industries";
 import FAQ from "../components/faqItem";
-import Testimonials from "../components/testimonial";
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-const testimonialsData = [
-  {
-    id: "1",
-    text: 'We could not have done this without Chetu. We really appreciate the high standards and ethics the Chetu team members have shown throughout this project, which is a really good reflection on your company. It is difficult in today\'s world to find people who have a work ethic like this, so it has been a very refreshing change. The new "whiteboard" feature is super cool as are all the color viewing features you added for the images and videos.',
-    author: "John Smith",
-    position: "Creative Director",
-    industry: "Entertainment Industry",
-  },
-  {
-    id: "2",
-    text: "We are very pleased so far with the work by Pankaj and his team at Chetu. We are incredibly impressed with the level of organization, communication, speed, skill and understanding that Chetu has shown in regards to our requests and needs for a custom made CRM. We 100% know we made the right choice in trusting Chetu with this major undertaking.",
-    author: "Sarah Johnson",
-    position: "Director of Operation",
-    industry: "Hospitality Industry",
-  },
-];
 export default function Page({ params }: Props) {
   const { slug } = React.use(params);
   const industry = industriesData[slug];
@@ -84,12 +67,6 @@ export default function Page({ params }: Props) {
       {industry.faq && (
         <FAQ title={industry.faq.title} items={industry.faq.items} />
       )}
-      <Testimonials
-        title="Hear What Our Clients Have to Say"
-        testimonials={testimonialsData}
-        autoPlay={true}
-        autoPlayInterval={5000}
-      />
     </div>
   );
 }

@@ -16,13 +16,13 @@ import {
   ChevronRight
 } from 'lucide-react';
 import { BlogPost } from '@/types/blog';
+import Breadcrumb from '@/app/industries/components/breadcrumb';
 
 interface BlogDetailPageProps {
   post: BlogPost;
 }
 
 export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
-  const [showShareMenu, setShowShareMenu] = useState(false);
   const [copied, setCopied] = useState(false);
 
   const handleCopyLink = () => {
@@ -48,16 +48,9 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
           />
         </div>
         <div className="relative h-full max-w-5xl mx-auto px-4 flex flex-col justify-center">
-          <Link 
-            href="/blog" 
-            className="inline-flex items-center text-white/80 hover:text-white mb-6 transition-colors"
-          >
-            <ArrowLeft className="w-4 h-4 mr-2" />
-            Back to Blog
-          </Link>
           
           <div className="flex items-center gap-3 mb-4">
-            <span className="px-4 py-1 bg-teal-500 text-white text-sm font-medium rounded-full">
+            <span className="px-4 py-1 bg-amber-500 text-white text-sm font-medium rounded-full">
               {post.category}
             </span>
             <span className="px-4 py-1 bg-white/20 backdrop-blur-sm text-white text-sm font-medium rounded-full">
@@ -89,6 +82,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
           </div>
         </div>
       </div>
+      <Breadcrumb/>
 
       {/* Main Content */}
       <div className="max-w-5xl mx-auto px-4 py-12">
