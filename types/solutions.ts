@@ -79,4 +79,12 @@ export type SolutionConfig = {
     ctaText?: string;
     onCtaClick?: string;
   };
+  faq?: {
+    title: string;
+    items: {
+      id: string;
+      question: string;
+      answer: string;
+    }[];
+  };
 };

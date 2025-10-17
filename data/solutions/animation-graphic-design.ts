@@ -12,39 +12,41 @@ export const animationGraphicDesign: SolutionConfig = {
     linkText: "Get Agri Solutions",
   },
   developerDetails: {
-    heading: "Our Developers Have Experience With Web Animation & Graphic Design",
-  subheading:
-    "Our award-winning full-service design team provides interactive web graphic design and animation services to enhance the user experience, increase conversion rates, and improve engagement.",
-  mainTitle: "Web Animation & Graphic Design Services",
-  mainDescription:
-    "Our talented Web Animators and Graphic Designers can design a brand new website from scratch or make customized modifications to an existing website using the latest technologies in 2D and 3D animation services to strengthen company brands and turn more viewers into loyal customers.",
-  image: "/images/web-animation-laptop.png",
-  services: [
-    {
-      id: 1,
-      title: "Video Animation Design",
-      description:
-        "We offer intuitive video animation designs to create engaging and interactive assets for websites, mobile apps, web apps, social media profiles, and email marketing campaigns.",
-      icon: "/icons/play.svg",
-    },
-    {
-      id: 2,
-      title: "Logos & Branding",
-      description:
-        "We help companies fulfill their branding vision by developing a brand from scratch or improving their existing brand using our masterful tools and skills.",
-      icon: "/icons/trademark.svg",
-    },
-    {
-      id: 3,
-      title: "Interactive Web Pages",
-      description:
-        "We design interactive web pages using custom modules, features, and software development tools to create an engaging environment throughout the navigation process.",
-      icon: "/icons/browser.svg",
-    },
-  ],
+    heading:
+      "Our Developers Have Experience With Web Animation & Graphic Design",
+    subheading:
+      "Our award-winning full-service design team provides interactive web graphic design and animation services to enhance the user experience, increase conversion rates, and improve engagement.",
+    mainTitle: "Web Animation & Graphic Design Services",
+    mainDescription:
+      "Our talented Web Animators and Graphic Designers can design a brand new website from scratch or make customized modifications to an existing website using the latest technologies in 2D and 3D animation services to strengthen company brands and turn more viewers into loyal customers.",
+    image: "/images/web-animation-laptop.png",
+    services: [
+      {
+        id: 1,
+        title: "Video Animation Design",
+        description:
+          "We offer intuitive video animation designs to create engaging and interactive assets for websites, mobile apps, web apps, social media profiles, and email marketing campaigns.",
+        icon: "/icons/play.svg",
+      },
+      {
+        id: 2,
+        title: "Logos & Branding",
+        description:
+          "We help companies fulfill their branding vision by developing a brand from scratch or improving their existing brand using our masterful tools and skills.",
+        icon: "/icons/trademark.svg",
+      },
+      {
+        id: 3,
+        title: "Interactive Web Pages",
+        description:
+          "We design interactive web pages using custom modules, features, and software development tools to create an engaging environment throughout the navigation process.",
+        icon: "/icons/browser.svg",
+      },
+    ],
   },
   solutions: {
-    mainTitle: "AI Solutions For Precision Agriculture",
+    mainTitle:
+      "AI Solutions For Precision Agriculture just verify data is coming here",
     mainDescription:
       "AI Solutions For Precision Agriculture Our developers can implement Artificial Intelligence (AI) that analyzes data from satellites, drones, and sensors to provide real-time insights about soil conditions, moisture levels, and crop health. This data can be used to optimize irrigation, fertilization, and pest control, leading to increased yields and resource savings. Revolutionize agriculture through invaluable technology and insights that allow you to enhance productivity and resource allocation while minimizing environmental impact. Our AI solutions provide real-time data analysis, precision agriculture, and advanced crop management, enabling farmers to optimize their operations and reduce costs.",
     items: [
@@ -229,5 +231,50 @@ export const animationGraphicDesign: SolutionConfig = {
     ],
     ctaText: "GET LAND MGMT SOFTWARE DEVELOPERS",
     onCtaClick: "/contact-us",
+  },
+  faq: {
+    title: "FAQ",
+    items: [
+      {
+        id: "1",
+        question: "What are 3D Animation Services?",
+        answer:
+          "3D animation services are essential for storyboarding, bringing new and engaging ideas to life. 3D animation enables character and object creation in a three-dimensional space using length, width, and depth to produce modern effects.",
+      },
+      {
+        id: "2",
+        question: "What Software is Used for 3D Animation?",
+        answer:
+          "Professional 3D animation software includes industry-standard tools like Maya, Blende...",
+      },
+      {
+        id: "3",
+        question: "Does Game Development Include 3D Animation?",
+        answer:
+          "Yes, 3D animation is a fundamental component of game development. It involves creating characters, environments, and interactive elements that bring games to life.",
+      },
+      {
+        id: "4",
+        question:
+          "How is Artificial Intelligence evolving in 3D animation software?",
+        answer:
+          "AI is revolutionizing 3D animation by automating tedious tasks like rigging and motion capture, improving rendering speeds, and enabling real-time animation generation. Machine learning algorithms are also enhancing character animation quality.",
+      },
+      {
+        id: "5",
+        question: "What is the difference between 2D and 3D animation?",
+        answer:
+          "2D animation works on a flat plane with only width and height, while 3D animation adds depth to create objects and characters in three-dimensional space. 3D provides more realism and flexibility in camera movement.",
+      },
+      {
+        id: "6",
+        question:
+          "How Do I Choose Between 2D and 3D Animations for my Project?",
+        answer:
+          "Choose 2D for stylized, cost-effective projects with fast turnaround. Select 3D when you need photorealistic visuals, complex camera movements, or dynamic interactivity. Consider your budget, timeline, and creative vision.",
+      },
+
+      // Add more items as needed
+    ],
   },
 };
