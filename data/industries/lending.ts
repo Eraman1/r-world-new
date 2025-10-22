@@ -190,4 +190,70 @@ export const lending: IndustryConfig = {
     ctaText: "BUILD YOUR LENDING SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Lending & Financial Services FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What types of loans are available through lending platforms?",
+      answer:
+        "Lending platforms offer various loan types including personal loans, business loans, mortgage loans, auto loans, and payday loans. Each loan type has specific eligibility criteria, interest rates, and repayment terms designed to meet different financial needs.",
+    },
+    {
+      id: "2",
+      question: "How does online loan application work?",
+      answer:
+        "Online loan applications simplify the borrowing process. Borrowers submit personal, financial, and employment information via a web or mobile platform. The system then evaluates creditworthiness and provides instant pre-approval or next steps for verification.",
+    },
+    {
+      id: "3",
+      question: "What is the role of credit scoring in lending?",
+      answer:
+        "Credit scoring helps lenders assess the risk of lending to an individual or business. It uses historical financial data, repayment history, and credit behavior to generate a score that influences loan approval, interest rates, and borrowing limits.",
+    },
+    {
+      id: "4",
+      question: "Are there digital tools for loan management?",
+      answer:
+        "Yes. Modern lending platforms offer dashboards for borrowers and lenders to manage loans. Features include automated payment reminders, repayment tracking, EMI calculators, and real-time statements, making loan management more transparent and convenient.",
+    },
+    {
+      id: "5",
+      question: "How do lenders ensure data security?",
+      answer:
+        "Lenders protect sensitive financial data using encryption, secure access protocols, and regulatory compliance measures like GDPR or PCI DSS. Advanced monitoring and authentication processes safeguard personal and transactional information.",
+    },
+    {
+      id: "6",
+      question: "What is the difference between secured and unsecured loans?",
+      answer:
+        "Secured loans require collateral such as property or assets, reducing the lender’s risk and usually offering lower interest rates. Unsecured loans do not require collateral but typically have higher interest rates due to increased risk to the lender.",
+    },
+    {
+      id: "7",
+      question: "Can lending platforms integrate with banking systems?",
+      answer:
+        "Yes. Lending software can integrate with banking APIs, payment gateways, and financial management systems to automate fund disbursement, repayment tracking, and account reconciliation for seamless operations.",
+    },
+    {
+      id: "8",
+      question: "How does AI improve lending decisions?",
+      answer:
+        "AI enhances lending by analyzing vast datasets for predictive credit scoring, fraud detection, and personalized loan offers. It allows lenders to make faster, more accurate, and risk-aware decisions while improving borrower experience.",
+    },
+    {
+      id: "9",
+      question: "What are common fees and charges in lending?",
+      answer:
+        "Loans may include interest, processing fees, late payment penalties, prepayment charges, or service fees. Transparent lending platforms clearly disclose these costs upfront to ensure borrowers understand total repayment obligations.",
+    },
+    {
+      id: "10",
+      question: "Is it possible to refinance a loan digitally?",
+      answer:
+        "Yes. Digital lending platforms enable refinancing by allowing borrowers to consolidate existing loans, adjust interest rates, or extend repayment periods. This helps improve cash flow and reduce financial stress through convenient online processes.",
+    },
+  ],
+}
+
 };

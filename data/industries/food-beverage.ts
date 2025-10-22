@@ -190,4 +190,69 @@ export const foodbeverage: IndustryConfig = {
     ctaText: "BUILD YOUR FOOD & BEVERAGE SOLUTION",
     onCtaClick: () => {},
   },
+ faq:{
+  title: "Food & Beverage FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are Food & Beverage Management Solutions?",
+      answer:
+        "Food & Beverage Management Solutions are digital tools that streamline restaurant, catering, and manufacturing operations. They help manage inventory, orders, production, and quality control while improving efficiency and reducing waste.",
+    },
+    {
+      id: "2",
+      question: "How can technology improve food supply chain operations?",
+      answer:
+        "Modern technology enhances traceability, automates logistics, and ensures product freshness throughout the supply chain. IoT sensors and blockchain are increasingly used to track ingredients from farm to table for maximum transparency.",
+    },
+    {
+      id: "3",
+      question: "What software is essential for restaurants and food businesses?",
+      answer:
+        "Restaurants and food companies rely on Point-of-Sale (POS) systems, inventory management, ERP software, and customer engagement platforms to streamline daily operations and maintain consistency across multiple locations.",
+    },
+    {
+      id: "4",
+      question: "How can data analytics help food and beverage companies?",
+      answer:
+        "Data analytics provides insights into customer preferences, sales trends, and waste patterns. By analyzing this data, businesses can make smarter menu decisions, forecast demand, and reduce operational costs.",
+    },
+    {
+      id: "5",
+      question: "How does automation enhance food production efficiency?",
+      answer:
+        "Automation reduces human error, improves speed, and maintains consistent product quality. From packaging to quality testing, automated systems optimize production and ensure compliance with food safety standards.",
+    },
+    {
+      id: "6",
+      question: "What role does sustainability play in the food industry?",
+      answer:
+        "Sustainability is at the core of modern food operations. Companies are adopting eco-friendly packaging, energy-efficient production, and waste-reduction practices to align with environmental goals and consumer expectations.",
+    },
+    {
+      id: "7",
+      question: "Can food businesses use AI for better decision-making?",
+      answer:
+        "Yes. AI helps predict demand, personalize customer recommendations, and optimize delivery routes. It can also monitor food safety parameters and detect inefficiencies in real time for continuous improvement.",
+    },
+    {
+      id: "8",
+      question: "How do digital menus and online ordering benefit restaurants?",
+      answer:
+        "Digital menus and online ordering platforms expand reach, simplify order management, and increase revenue. They also allow restaurants to adapt quickly to customer preferences through real-time menu updates and analytics.",
+    },
+    {
+      id: "9",
+      question: "What measures ensure food safety and compliance?",
+      answer:
+        "Food businesses maintain compliance through automated temperature monitoring, quality tracking, and digital documentation. Regulatory reporting tools ensure adherence to FDA, FSSAI, and other safety standards.",
+    },
+    {
+      id: "10",
+      question: "What is the future of the food and beverage industry?",
+      answer:
+        "The industry’s future lies in smart kitchens, AI-driven personalization, and sustainable sourcing. As technology evolves, food and beverage companies will rely on digital ecosystems to deliver efficiency, transparency, and superior customer experiences.",
+    },
+  ],
+},
 };

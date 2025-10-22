@@ -189,4 +189,70 @@ export const retail: IndustryConfig = {
     ctaText: "BUILD YOUR RETAIL PLATFORM",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Retail Industry FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is Retail Digital Transformation?",
+      answer:
+        "Retail digital transformation involves adopting technologies like AI, IoT, and cloud solutions to streamline operations, improve customer engagement, and enhance supply chain efficiency for both online and offline stores.",
+    },
+    {
+      id: "2",
+      question: "How can technology improve the retail customer experience?",
+      answer:
+        "Technology enables personalized recommendations, faster checkouts, real-time inventory tracking, and omnichannel engagement — ensuring a seamless and satisfying shopping experience across digital and physical platforms.",
+    },
+    {
+      id: "3",
+      question: "What are the benefits of retail automation?",
+      answer:
+        "Retail automation reduces manual errors, optimizes stock levels, and accelerates order fulfillment. Automated systems also enhance data accuracy and allow businesses to focus more on customer service and sales growth.",
+    },
+    {
+      id: "4",
+      question: "How does data analytics help in retail management?",
+      answer:
+        "Data analytics helps retailers understand buying trends, forecast demand, and optimize pricing strategies. By leveraging customer insights, businesses can make smarter decisions and improve profitability.",
+    },
+    {
+      id: "5",
+      question: "Can AI be used in retail operations?",
+      answer:
+        "Yes, AI powers intelligent product recommendations, demand forecasting, and automated customer service through chatbots. It also enables predictive maintenance and smarter marketing strategies for increased ROI.",
+    },
+    {
+      id: "6",
+      question: "What is omnichannel retailing and why is it important?",
+      answer:
+        "Omnichannel retailing connects all sales channels — physical stores, websites, apps, and social platforms — to create a unified shopping experience. It ensures consistency and convenience for modern consumers.",
+    },
+    {
+      id: "7",
+      question: "How can inventory management systems benefit retailers?",
+      answer:
+        "Smart inventory systems track stock in real time, automate replenishment, and prevent overstock or stockouts. This improves efficiency, reduces waste, and enhances overall customer satisfaction.",
+    },
+    {
+      id: "8",
+      question: "What role does mobile commerce play in retail growth?",
+      answer:
+        "Mobile commerce allows customers to shop conveniently through smartphones and apps. It drives engagement, supports location-based promotions, and contributes significantly to retail revenue growth.",
+    },
+    {
+      id: "9",
+      question: "How can small retailers compete with large e-commerce brands?",
+      answer:
+        "Small retailers can leverage digital tools like online storefronts, social media marketing, and data-driven insights to reach targeted audiences, personalize services, and build customer loyalty.",
+    },
+    {
+      id: "10",
+      question: "What is the future of retail technology?",
+      answer:
+        "The future of retail includes AI-driven personalization, AR/VR shopping experiences, cashier-less stores, and blockchain-enabled supply chain transparency — transforming how customers interact and shop.",
+    },
+  ],
+},
+
 };

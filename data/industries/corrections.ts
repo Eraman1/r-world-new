@@ -194,4 +194,70 @@ export const corrections: IndustryConfig = {
     ctaText: "GET CORRECTIONS SOFTWARE DEVELOPERS",
     onCtaClick: () => {},
   },
+  faq:{
+  title: "Corrections Industry FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are corrections management software solutions?",
+      answer:
+        "Corrections management software streamlines daily operations within prisons, jails, and rehabilitation facilities. It helps manage inmate records, track activities, schedule programs, and ensure compliance with correctional standards and policies.",
+    },
+    {
+      id: "2",
+      question: "How does technology improve security in correctional facilities?",
+      answer:
+        "Modern security solutions such as biometric access control, AI-based surveillance, and real-time monitoring systems enhance safety. These technologies prevent unauthorized access, detect unusual behavior, and support quick incident response.",
+    },
+    {
+      id: "3",
+      question: "Can correctional software help with inmate rehabilitation?",
+      answer:
+        "Yes. Rehabilitation management modules track inmate progress, schedule educational and vocational programs, and record behavioral assessments. Data-driven insights support personalized rehabilitation and successful reintegration into society.",
+    },
+    {
+      id: "4",
+      question: "How does inmate information management work?",
+      answer:
+        "Inmate management systems centralize data such as personal details, legal status, health records, movement logs, and disciplinary history. This ensures accuracy, transparency, and efficient coordination between departments and law enforcement agencies.",
+    },
+    {
+      id: "5",
+      question: "What role does AI play in correctional facility operations?",
+      answer:
+        "AI enhances predictive analysis by identifying potential security threats, inmate behavior patterns, and operational inefficiencies. It supports proactive decision-making and reduces the risk of incidents through automated alerts and analytics.",
+    },
+    {
+      id: "6",
+      question: "Can correctional software integrate with law enforcement systems?",
+      answer:
+        "Yes. Most modern correctional management systems integrate seamlessly with court databases, law enforcement networks, and parole systems. This ensures smooth data exchange and improves coordination across the justice ecosystem.",
+    },
+    {
+      id: "7",
+      question: "How is inmate communication managed securely?",
+      answer:
+        "Inmate communication platforms enable monitored phone calls, video visits, and secure messaging under controlled environments. These tools maintain safety and transparency while allowing inmates to stay connected with their families and legal counsel.",
+    },
+    {
+      id: "8",
+      question: "How does technology support correctional staff and administration?",
+      answer:
+        "Digital dashboards, task scheduling, and automated reporting reduce administrative burden. Mobile access allows staff to perform checks, log activities, and access inmate data efficiently — improving productivity and accountability.",
+    },
+    {
+      id: "9",
+      question: "What are the benefits of cloud-based corrections systems?",
+      answer:
+        "Cloud-based solutions offer scalable, secure, and easily accessible platforms for data management. They reduce infrastructure costs, support remote monitoring, and ensure real-time collaboration across departments and agencies.",
+    },
+    {
+      id: "10",
+      question: "What is the future of technology in the corrections industry?",
+      answer:
+        "The future of corrections is driven by AI analytics, IoT monitoring, digital twins, and predictive intelligence. These innovations enhance facility security, improve rehabilitation outcomes, and promote safer, data-driven correctional management.",
+    },
+  ],
+},
+
 };

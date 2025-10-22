@@ -190,4 +190,70 @@ export const gaming: IndustryConfig = {
     ctaText: "BUILD YOUR GAMING PLATFORM TODAY",
     onCtaClick: () => {},
   },
+  faq:{
+  title: "Gaming Industry FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What types of games can be developed professionally?",
+      answer:
+        "Professional game development covers various genres including action, adventure, RPG, simulation, sports, puzzle, and casual games. Each genre has unique design, mechanics, and technical requirements that cater to specific audiences.",
+    },
+    {
+      id: "2",
+      question: "Which platforms can games be launched on?",
+      answer:
+        "Games can be developed for multiple platforms such as PC, consoles (PlayStation, Xbox, Nintendo), mobile devices (iOS and Android), and cloud-based streaming services. Cross-platform development ensures wider audience reach.",
+    },
+    {
+      id: "3",
+      question: "How does AI enhance modern gaming experiences?",
+      answer:
+        "AI in gaming is used to create smarter NPCs, dynamic storylines, and personalized gameplay experiences. It can also optimize performance, generate content procedurally, and analyze player behavior for targeted in-game rewards or challenges.",
+    },
+    {
+      id: "4",
+      question: "What role does graphics and animation play in games?",
+      answer:
+        "High-quality graphics and smooth animation are crucial for immersion and player engagement. 2D and 3D animation bring characters and environments to life, while effects like particle systems and shaders enhance realism and visual appeal.",
+    },
+    {
+      id: "5",
+      question: "Can online multiplayer games support large-scale players?",
+      answer:
+        "Yes, with proper network architecture and cloud infrastructure, online multiplayer games can support thousands of concurrent players. Technologies like server clustering, load balancing, and real-time synchronization are essential for smooth gameplay.",
+    },
+    {
+      id: "6",
+      question: "How do in-game monetization strategies work?",
+      answer:
+        "Monetization strategies include in-app purchases, subscriptions, ad placements, battle passes, and virtual goods. Proper balance is key to ensure revenue without compromising player satisfaction or game integrity.",
+    },
+    {
+      id: "7",
+      question: "What is the role of game testing and QA?",
+      answer:
+        "Game testing ensures functionality, stability, and performance across devices and platforms. QA identifies bugs, glitches, and gameplay issues, ensuring a smooth and enjoyable experience for players before launch.",
+    },
+    {
+      id: "8",
+      question: "How can esports be integrated into gaming platforms?",
+      answer:
+        "Esports integration involves competitive multiplayer modes, leaderboards, tournament management, streaming support, and community engagement tools. It enhances player retention and generates revenue through sponsorships and events.",
+    },
+    {
+      id: "9",
+      question: "What trends are shaping the future of gaming?",
+      answer:
+        "The gaming industry is evolving with cloud gaming, VR/AR experiences, AI-driven content, blockchain-based assets, and cross-platform multiplayer. Immersive and interactive experiences are increasingly shaping player expectations.",
+    },
+    {
+      id: "10",
+      question: "How important is community management in games?",
+      answer:
+        "Community management is essential to maintain player engagement, resolve issues, gather feedback, and foster a loyal player base. Active communities contribute to long-term game success and brand reputation.",
+    },
+  ],
+},
+
 };

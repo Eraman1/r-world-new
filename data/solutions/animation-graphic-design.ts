@@ -3,278 +3,209 @@ import { SolutionConfig } from "@/types/solutions";
 export const animationGraphicDesign: SolutionConfig = {
   slug: "animation-graphic-design",
   banner: {
-    title: "Drive Innovation with",
-    highlight: "World-Class Software Development",
+    title: "Empower Creativity with",
+    highlight: "Cutting-Edge Animation & Graphic Design",
     subtitle:
-      "Partner with expert developers to build custom, scalable, and reliable  software solutions that accelerate your business growth.",
+      "Bring your brand vision to life with our expert 2D, 3D, and motion graphics design solutions that captivate audiences and drive engagement.",
     image:
       "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
-    linkText: "Get Agri Solutions",
+    linkText: "Get Animation Solutions",
   },
   developerDetails: {
-    heading:
-      "Our Developers Have Experience With Web Animation & Graphic Design",
+    heading: "Expert Designers in Animation & Visual Storytelling",
     subheading:
-      "Our award-winning full-service design team provides interactive web graphic design and animation services to enhance the user experience, increase conversion rates, and improve engagement.",
-    mainTitle: "Web Animation & Graphic Design Services",
+      "Our talented team specializes in creating immersive visual experiences through dynamic animations and innovative graphic design, blending art and technology seamlessly.",
+    mainTitle: "Professional Animation & Graphic Design Services",
     mainDescription:
-      "Our talented Web Animators and Graphic Designers can design a brand new website from scratch or make customized modifications to an existing website using the latest technologies in 2D and 3D animation services to strengthen company brands and turn more viewers into loyal customers.",
+      "We deliver visually stunning and technically refined designs for brands, businesses, and entertainment. From 3D motion graphics to logo animation, our services enhance brand identity and captivate audiences across platforms.",
     image: "/images/web-animation-laptop.png",
     services: [
       {
         id: 1,
-        title: "Video Animation Design",
+        title: "Motion Graphics Design",
         description:
-          "We offer intuitive video animation designs to create engaging and interactive assets for websites, mobile apps, web apps, social media profiles, and email marketing campaigns.",
-        icon: "/icons/play.svg",
+          "Our designers create high-impact motion graphics that communicate complex ideas visually — ideal for advertising, social media, and corporate presentations.",
+        icon: "/icons/video.svg",
       },
       {
         id: 2,
-        title: "Logos & Branding",
+        title: "Logo & Brand Animation",
         description:
-          "We help companies fulfill their branding vision by developing a brand from scratch or improving their existing brand using our masterful tools and skills.",
+          "We transform static logos into stunning animated assets that leave a lasting impression and strengthen your brand’s visual identity.",
         icon: "/icons/trademark.svg",
       },
       {
         id: 3,
-        title: "Interactive Web Pages",
+        title: "Explainer & Promotional Videos",
         description:
-          "We design interactive web pages using custom modules, features, and software development tools to create an engaging environment throughout the navigation process.",
-        icon: "/icons/browser.svg",
+          "We design engaging explainer videos that simplify your message and increase viewer retention through storytelling and motion design.",
+        icon: "/icons/play.svg",
       },
     ],
   },
+
   solutions: {
-    mainTitle:
-      "AI Solutions For Precision Agriculture just verify data is coming here",
+    mainTitle: "Creative Digital Design & Animation Solutions",
     mainDescription:
-      "AI Solutions For Precision Agriculture Our developers can implement Artificial Intelligence (AI) that analyzes data from satellites, drones, and sensors to provide real-time insights about soil conditions, moisture levels, and crop health. This data can be used to optimize irrigation, fertilization, and pest control, leading to increased yields and resource savings. Revolutionize agriculture through invaluable technology and insights that allow you to enhance productivity and resource allocation while minimizing environmental impact. Our AI solutions provide real-time data analysis, precision agriculture, and advanced crop management, enabling farmers to optimize their operations and reduce costs.",
+      "We craft innovative visual experiences that merge creativity with technology. Our animation and graphic design solutions empower brands to connect emotionally with their audiences through stunning visuals, motion, and interactivity.",
     items: [
       {
-        id: "crop-yield",
-        icon: "Warehouse",
-        title: "Crop Yield",
-        subtitle: "Prediction & Price Forecast AI",
-        description:
-          "Our experts can implement AI features that predict crop yield and price. These models analyze previous data to forecast future crop yields. These predictions assist farmers in planning harvests, optimizing storage, and managing supply chains. Additionally, AI can predict price forecasts by analyzing market trends, helping farmers decide when to sell their products at the most optimal time. These factors are ever-changing, and being able to predict yield will improve crop management.",
-      },
-      {
-        id: "chemical-spraying",
-        icon: "Sprout",
-        title: "Intelligent Chemical",
-        subtitle: "Spraying Systems",
-        description:
-          "Our expert developers integrate AI technology to create advanced chemical spraying systems. With machine learning, data about temperature, soil, usage of water, and weather conditions is used to obtain useful insights to make accurate analyses. This system reduces the use of chemicals, minimizing environmental impact. It enhances crop protection while reducing the risks associated with excessive pesticide usage.",
-      },
-      {
-        id: "seed-sowing",
+        id: "visual-branding",
         icon: "Leaf",
-        title: "Predictive Analytic",
-        subtitle: "Tools for Seed Sowing",
+        title: "Visual Branding",
+        subtitle: "Consistency Across Platforms",
         description:
-          "Our AI experts implement predictive analytics to determine the best time for seed sowing. AI analyzes data like soil health and gives fertilizer recommendations. It uses sensors that measure nutrient levels, pH, and other indicators to make these predictions, providing accurate crop insights. Additionally, it analyzes weather conditions and soil moisture levels to provide insights into optimal plating windows. This technology leads to better germination rates, healthier crops, and improved resource use.",
+          "We build cohesive brand visuals that ensure your identity is instantly recognizable across websites, apps, videos, and print materials.",
       },
       {
-        id: "autonomous-harvesting",
-        icon: "Tractor",
-        title: "Autonomous",
-        subtitle: "Harvesting Solutions",
+        id: "3d-modeling",
+        icon: "Leaf",
+        title: "3D Modeling & Animation",
+        subtitle: "Realistic Product Visuals",
         description:
-          "Our developers are familiar with leveraging AI to create automated tasks. We develop autonomous harvesting solutions that utilize computer vision and machine learning algorithms to identify ripe crops and harvest them efficiently. These systems can work around the clock, reducing labor costs and improving harvest timing for optimal crop quality.",
+          "Our 3D artists design and animate realistic objects and environments for commercials, films, games, and virtual product showcases.",
       },
       {
-        id: "crop-monitoring",
-        icon: "Shield",
-        title: "AI-Driven Crop",
-        subtitle: "and Soil Monitoring",
+        id: "ui-motion",
+        icon: "Leaf",
+        title: "UI Motion Design",
+        subtitle: "Enhance User Experience",
         description:
-          "We create AI-powered crop and soil monitoring systems to ensure crops thrive and yield a big crop yield. We use data from IoT sensors, drones, and satellite imagery to continuously monitor crop health, soil conditions, and environmental factors. This real-time monitoring enables proactive decision-making and early detection of potential issues.",
+          "We integrate smooth motion into user interfaces to guide user attention, improve navigation, and create delightful digital experiences.",
       },
       {
-        id: "disease-diagnosis",
-        icon: "Bug",
-        title: "Machine Learning",
-        subtitle: "for Disease Diagnosis",
+        id: "illustration",
+        icon: "Leaf",
+        title: "Custom Illustration Design",
+        subtitle: "Unique Art for Every Brand",
         description:
-          "Our developers are very familiar with machine learning, one of AI's powerful subsets. Machine learning is trained on datasets containing images of healthy and diseased plants to accurately identify plant diseases early. This early detection system helps farmers take immediate action, preventing crop losses and reducing the need for widespread pesticide application.",
+          "Our illustrators design distinctive artwork that brings your brand’s personality to life through a blend of creativity and storytelling.",
+      },
+      {
+        id: "video-production",
+        icon: "Leaf",
+        title: "Video Production & Editing",
+        subtitle: "Professional Multimedia Creations",
+        description:
+          "From scripting to editing, we handle the full video production process to deliver professional-grade promotional and corporate videos.",
+      },
+      {
+        id: "ai-enhancement",
+        icon: "Leaf",
+        title: "AI-Assisted Design",
+        subtitle: "Next-Gen Creative Workflow",
+        description:
+          "We leverage AI tools for faster design workflows, from automated background removal to generative art and animation enhancement.",
       },
     ],
-    linkText: "Get AI-Powered Agriculture Solutions",
+    linkText: "Get Custom Design Solutions",
     linkUrl: "/contact-us",
   },
+
   managementSolutions: {
-    title: "Land Management Software Solutions",
+    title: "Creative Asset Management Systems",
     subtitle:
-      "Chetu's land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
-    subtitleLink: { text: "land management software", url: "#" },
+      "Our creative asset management software helps design teams organize, manage, and deliver assets efficiently across platforms and campaigns.",
+    subtitleLink: { text: "creative asset management", url: "#" },
     laptopImage: "/images/management-solutions.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {
-        id: "mapping",
+        id: "storage",
         icon: "map",
-        title: "Land Mapping & GPS Software",
+        title: "Cloud-Based Asset Storage",
         description:
-          "We program GIS & GPS technologies and integrate them with your current systems for site-specific data mapping optimization and accurate yield forecasting.",
-        link: { text: "GIS & GPS technologies", url: "#" },
+          "Store and access all your design files and animations securely from anywhere, ensuring collaboration without limits.",
+        link: { text: "cloud-based design tools", url: "#" },
       },
       {
-        id: "3d-design",
-        icon: "box",
-        title: "3D Field Design Applications",
+        id: "collaboration",
+        icon: "map",
+        title: "Team Collaboration Tools",
         description:
-          "We engineer custom 3D field design apps to seamlessly integrate with topography mapping software for added visualization and management of all land areas.",
+          "Enable designers, editors, and clients to review, comment, and approve designs in real-time for faster production cycles.",
       },
       {
-        id: "sensors",
-        icon: "sliders",
-        title: "Smart Controllers & Sensors",
+        id: "analytics",
+        icon: "map",
+        title: "Creative Performance Analytics",
         description:
-          "We implement smart controllers & sensors that screen the yields for changes in temperature, light, humidity, weather patterns, and other environmental factors.",
+          "Monitor how your visuals perform across channels and make data-driven improvements to future campaigns.",
       },
     ],
     bottomFeatures: [
       {
-        id: "autonomous",
-        icon: "monitor",
-        title: "Autonomous Farming Management Systems",
+        id: "workflow",
+        icon: "map",
+        title: "Automated Workflow Integration",
         description:
-          "We incorporate prescriptive technology, harvesting & crop management modules, and decision support systems (DSS) to maximize operational performance for autonomous farming.",
+          "Streamline creative workflows by integrating with Adobe Suite, Figma, and project management platforms for seamless productivity.",
       },
       {
-        id: "irrigation",
-        icon: "droplets",
-        title: "Irrigation System Management",
+        id: "delivery",
+        icon: "map",
+        title: "Multi-Format Delivery",
         description:
-          "We design our irrigation software with computer-aided designs (CAD), digital terrain modeling (DTM), hydraulic systems, and irrigation patterns.",
-        link: { text: "irrigation software", url: "#" },
+          "Export and deliver your design files in any format for web, mobile, or broadcast with optimized performance.",
       },
       {
-        id: "agronomy",
-        icon: "testTube",
-        title: "Agronomy Software Solutions",
+        id: "security",
+        icon: "map",
+        title: "Data Security & Backup",
         description:
-          "We develop agronomy software solutions covering everything from soil sampling and collection to GIS mapping, subsurface drainage, and soil fertility automation.",
+          "Ensure your creative assets remain safe with automated backups, access control, and encryption standards.",
       },
       {
-        id: "operations",
-        icon: "settings",
-        title: "Operations Management",
+        id: "integration",
+        icon: "map",
+        title: "API Integration Support",
         description:
-          "We integrate unmanned aerial vehicle (UAV) software with third-party APIs for irrigation management to streamline consistent operational workflows.",
+          "Connect with content management systems and digital marketing tools for efficient creative asset utilization.",
       },
     ],
-    ctaText: "GET LAND MGMT SOFTWARE DEVELOPERS",
+    ctaText: "Get Creative Software Experts",
     onCtaClick: () => {},
   },
-  managementSolutionsTwo: {
-    title: "Land Management Software Solutions-testing",
-    subtitle:
-      "Chetu's land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
-    subtitleLink: { text: "land management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
-    topFeatures: [
-      {
-        id: "mapping",
-        icon: "Map",
-        title: "Land Mapping & GPS Software",
-        description:
-          "We program GIS & GPS technologies and integrate them with your current systems for site-specific data mapping optimization and accurate yield forecasting.",
-        link: { text: "GIS & GPS technologies", url: "#" },
-      },
-      {
-        id: "3d-design",
-        icon: "Box",
-        title: "3D Field Design Applications",
-        description:
-          "We engineer custom 3D field design apps to seamlessly integrate with topography mapping software for added visualization and management of all land areas.",
-      },
-      {
-        id: "sensors",
-        icon: "Sliders",
-        title: "Smart Controllers & Sensors",
-        description:
-          "We implement smart controllers & sensors that screen the yields for changes in temperature, light, humidity, weather patterns, and other environmental factors.",
-      },
-    ],
-    bottomFeatures: [
-      {
-        id: "autonomous",
-        icon: "Monitor",
-        title: "Autonomous Farming Management Systems",
-        description:
-          "We incorporate prescriptive technology, harvesting & crop management modules, and decision support systems (DSS) to maximize operational performance for autonomous farming.",
-      },
-      {
-        id: "irrigation",
-        icon: "Droplets",
-        title: "Irrigation System Management",
-        description:
-          "We design our irrigation software with computer-aided designs (CAD), digital terrain modeling (DTM), hydraulic systems, and irrigation patterns.",
-        link: { text: "irrigation software", url: "#" },
-      },
-      {
-        id: "agronomy",
-        icon: "TestTube",
-        title: "Agronomy Software Solutions",
-        description:
-          "We develop agronomy software solutions covering everything from soil sampling and collection to GIS mapping, subsurface drainage, and soil fertility automation.",
-      },
-      {
-        id: "operations",
-        icon: "Settings",
-        title: "Operations Management",
-        description:
-          "We integrate unmanned aerial vehicle (UAV) software with third-party APIs for irrigation management to streamline consistent operational workflows.",
-      },
-    ],
-    ctaText: "GET LAND MGMT SOFTWARE DEVELOPERS",
-    onCtaClick: "/contact-us",
-  },
+
   faq: {
     title: "FAQ",
     items: [
       {
         id: "1",
-        question: "What are 3D Animation Services?",
+        question: "What types of animation services do you provide?",
         answer:
-          "3D animation services are essential for storyboarding, bringing new and engaging ideas to life. 3D animation enables character and object creation in a three-dimensional space using length, width, and depth to produce modern effects.",
+          "We offer 2D and 3D animation, motion graphics, explainer videos, logo animations, and interactive UI animations for businesses and media projects.",
       },
       {
         id: "2",
-        question: "What Software is Used for 3D Animation?",
+        question: "Can you design brand visuals from scratch?",
         answer:
-          "Professional 3D animation software includes industry-standard tools like Maya, Blende...",
+          "Yes, we specialize in full brand identity creation — from logo and typography to color palettes and visual guidelines.",
       },
       {
         id: "3",
-        question: "Does Game Development Include 3D Animation?",
+        question: "Do you provide custom illustrations for businesses?",
         answer:
-          "Yes, 3D animation is a fundamental component of game development. It involves creating characters, environments, and interactive elements that bring games to life.",
+          "Absolutely. Our design team creates unique illustrations tailored to your brand’s tone, products, and storytelling needs.",
       },
       {
         id: "4",
-        question:
-          "How is Artificial Intelligence evolving in 3D animation software?",
+        question: "What tools do you use for animation and design?",
         answer:
-          "AI is revolutionizing 3D animation by automating tedious tasks like rigging and motion capture, improving rendering speeds, and enabling real-time animation generation. Machine learning algorithms are also enhancing character animation quality.",
+          "We use industry-leading tools like Adobe After Effects, Illustrator, Photoshop, Blender, Maya, and Figma for high-quality results.",
       },
       {
         id: "5",
-        question: "What is the difference between 2D and 3D animation?",
+        question: "Can animation help improve website engagement?",
         answer:
-          "2D animation works on a flat plane with only width and height, while 3D animation adds depth to create objects and characters in three-dimensional space. 3D provides more realism and flexibility in camera movement.",
+          "Yes. Motion graphics and micro-animations enhance user experience, capture attention, and improve interaction on websites and apps.",
       },
       {
         id: "6",
-        question:
-          "How Do I Choose Between 2D and 3D Animations for my Project?",
+        question: "Do you create AI-generated or AI-enhanced designs?",
         answer:
-          "Choose 2D for stylized, cost-effective projects with fast turnaround. Select 3D when you need photorealistic visuals, complex camera movements, or dynamic interactivity. Consider your budget, timeline, and creative vision.",
+          "Yes, we integrate AI-driven creative tools to accelerate workflows and enhance visual design precision, creativity, and speed.",
       },
-
-      // Add more items as needed
     ],
   },
 };

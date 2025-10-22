@@ -193,4 +193,70 @@ export const banking: IndustryConfig = {
       ctaText: "BUILD YOUR BANKING SOLUTION",
       onCtaClick: () => {},
     },
+    faq : {
+  title: "Banking FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is digital banking transformation?",
+      answer:
+        "Digital banking transformation involves modernizing traditional banking processes using technologies such as mobile apps, AI, cloud computing, and blockchain. It enhances customer experience, operational efficiency, and financial transparency through seamless digital services.",
+    },
+    {
+      id: "2",
+      question: "How is AI revolutionizing the banking industry?",
+      answer:
+        "AI is transforming banking by enabling personalized financial advice, fraud detection, credit scoring, and automated customer service through chatbots. It also supports predictive analytics for smarter lending and investment decisions.",
+    },
+    {
+      id: "3",
+      question: "What is the role of blockchain in modern banking?",
+      answer:
+        "Blockchain technology provides a secure, transparent, and decentralized platform for financial transactions. It reduces fraud, enhances data integrity, and enables faster cross-border payments and smart contracts between institutions.",
+    },
+    {
+      id: "4",
+      question: "How do banks ensure data security and compliance?",
+      answer:
+        "Banks employ advanced encryption, multi-factor authentication, and regulatory compliance frameworks like PCI DSS and GDPR. Regular audits and cybersecurity monitoring protect customer data and maintain system integrity.",
+    },
+    {
+      id: "5",
+      question: "What are core banking systems?",
+      answer:
+        "Core banking systems are centralized digital platforms that manage essential operations such as account management, transactions, loans, and deposits. They enable real-time processing, customer data management, and service automation across branches.",
+    },
+    {
+      id: "6",
+      question: "How do digital wallets and payment gateways work?",
+      answer:
+        "Digital wallets and payment gateways securely store and process payment information, allowing customers to make quick, contactless transactions online or in-store. They use encryption and tokenization to ensure financial safety.",
+    },
+    {
+      id: "7",
+      question: "What is open banking and how does it benefit customers?",
+      answer:
+        "Open banking allows secure data sharing between financial institutions and third-party apps through APIs. It enables customers to access innovative financial services such as budgeting tools, loan comparisons, and investment management from multiple providers in one place.",
+    },
+    {
+      id: "8",
+      question: "How do banks use data analytics to improve services?",
+      answer:
+        "Banks use data analytics to understand customer behavior, detect fraud patterns, assess credit risk, and personalize offerings. This data-driven approach helps in improving retention, enhancing marketing, and optimizing financial operations.",
+    },
+    {
+      id: "9",
+      question: "What are neobanks and how do they differ from traditional banks?",
+      answer:
+        "Neobanks are fully digital financial institutions that operate without physical branches. They provide online-only services like payments, savings, and loans, often offering lower fees and faster onboarding compared to traditional banks.",
+    },
+    {
+      id: "10",
+      question: "What is the future of banking technology?",
+      answer:
+        "The future of banking lies in AI-driven personalization, blockchain-based security, open banking ecosystems, and digital-only customer experiences. Institutions adopting these innovations will lead the next generation of financial services.",
+    },
+  ],
+},
+
   };

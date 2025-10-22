@@ -191,4 +191,70 @@ export const eLearningEducation: IndustryConfig = {
     ctaText: "BUILD YOUR E-LEARNING PLATFORM",
     onCtaClick: () => {},
   },
+  faq :  {
+  title: "E-Learning & Education FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is an E-Learning platform?",
+      answer:
+        "An E-Learning platform is a digital system that enables online education and training. It allows learners to access interactive courses, assessments, and certifications anytime and anywhere, fostering flexible and personalized learning experiences.",
+    },
+    {
+      id: "2",
+      question: "How do E-Learning solutions benefit educational institutions?",
+      answer:
+        "E-Learning platforms help schools, universities, and training centers manage virtual classrooms, automate grading, and monitor learner performance. They reduce administrative workload while enhancing engagement through multimedia and gamified content.",
+    },
+    {
+      id: "3",
+      question: "What technologies power modern E-Learning systems?",
+      answer:
+        "Advanced E-Learning systems leverage AI, machine learning, and analytics for personalized learning paths, adaptive assessments, and content recommendations. Cloud hosting ensures scalability, while LMS integration simplifies management for educators.",
+    },
+    {
+      id: "4",
+      question: "Can E-Learning platforms support corporate training?",
+      answer:
+        "Yes. Many organizations use E-Learning platforms for onboarding, compliance, and skill development. These systems provide custom training modules, track employee progress, and deliver insights into workforce performance and productivity.",
+    },
+    {
+      id: "5",
+      question: "How does AI enhance the E-Learning experience?",
+      answer:
+        "AI enables personalized learning by analyzing user behavior and adapting content in real time. It helps recommend relevant modules, automate grading, and provide intelligent tutoring—making learning more engaging and effective.",
+    },
+    {
+      id: "6",
+      question: "Is mobile learning supported on E-Learning platforms?",
+      answer:
+        "Yes. Modern E-Learning platforms are mobile-responsive, allowing learners to access content on smartphones and tablets. This flexibility ensures continuous learning on the go and increases course completion rates.",
+    },
+    {
+      id: "7",
+      question: "How is content security maintained in online education?",
+      answer:
+        "E-Learning platforms use encrypted data transfer, secure login systems, and controlled content access to protect user data and intellectual property. Role-based permissions ensure that only authorized users can view or modify content.",
+    },
+    {
+      id: "8",
+      question: "Can E-Learning platforms integrate with existing school systems?",
+      answer:
+        "Yes. E-Learning software can integrate with existing Student Information Systems (SIS), CRMs, and HR tools. This ensures smooth data synchronization and a unified experience for administrators, teachers, and learners.",
+    },
+    {
+      id: "9",
+      question: "What features make a successful E-Learning platform?",
+      answer:
+        "A robust E-Learning platform should include interactive content, progress tracking, assessments, discussion forums, and real-time analytics. Custom branding, multi-language support, and scalability are also key for long-term success.",
+    },
+    {
+      id: "10",
+      question: "What is the future of E-Learning and online education?",
+      answer:
+        "The future of E-Learning is powered by AI tutors, VR-based simulations, and microlearning modules. As education becomes more digital, platforms will focus on immersive, personalized, and skill-based learning experiences.",
+    },
+  ],
+},
+
 };

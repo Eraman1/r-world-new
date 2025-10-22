@@ -189,4 +189,70 @@ export const politicalcampaigns: IndustryConfig = {
     ctaText: "BUILD YOUR CAMPAIGN PLATFORM",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Political Campaigns FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are Political Campaign Management Systems?",
+      answer:
+        "Political Campaign Management Systems are digital platforms that help campaign teams organize, track, and optimize every aspect of their campaigns. They include voter databases, volunteer coordination tools, fundraising tracking, and communication automation.",
+    },
+    {
+      id: "2",
+      question: "How can technology improve voter engagement?",
+      answer:
+        "Technology enables personalized outreach through emails, SMS, and mobile apps. AI-driven insights help identify voter priorities, track sentiment, and deliver targeted messages, boosting voter participation and engagement.",
+    },
+    {
+      id: "3",
+      question: "What features are essential for campaign CRM software?",
+      answer:
+        "Key features include supporter management, donation tracking, volunteer coordination, event scheduling, and integrated communication channels. Advanced platforms also provide analytics and AI insights to optimize campaign strategies.",
+    },
+    {
+      id: "4",
+      question: "How does data analytics influence campaign decisions?",
+      answer:
+        "Data analytics allows campaign teams to identify key voter demographics, predict turnout, measure message effectiveness, and adjust strategies in real time. Insights from polling and social media data can significantly enhance campaign performance.",
+    },
+    {
+      id: "5",
+      question: "Can AI assist in political campaign strategy?",
+      answer:
+        "Yes. AI helps in predicting voter behavior, segmenting audiences, personalizing outreach, and optimizing advertising spend. It can also automate routine tasks, freeing teams to focus on high-impact campaign activities.",
+    },
+    {
+      id: "6",
+      question: "How do digital fundraising platforms support campaigns?",
+      answer:
+        "Digital fundraising platforms streamline donation collection, track donor history, generate reports, and ensure compliance. They allow secure, multi-channel contributions and help campaign teams manage fundraising efficiently.",
+    },
+    {
+      id: "7",
+      question: "Is volunteer management integrated into modern campaign platforms?",
+      answer:
+        "Absolutely. Volunteer management modules allow teams to recruit, assign tasks, track hours, and communicate effectively with volunteers. This centralization enhances coordination and maximizes volunteer impact.",
+    },
+    {
+      id: "8",
+      question: "How secure is campaign data on digital platforms?",
+      answer:
+        "Modern campaign platforms implement encryption, role-based access, and compliance with data protection laws to safeguard sensitive voter and campaign information from unauthorized access.",
+    },
+    {
+      id: "9",
+      question: "Can social media campaigns be automated?",
+      answer:
+        "Yes. Campaign platforms can schedule posts, target ads, monitor engagement, and generate performance reports. Automation ensures consistent messaging and efficient use of campaign resources.",
+    },
+    {
+      id: "10",
+      question: "What is the future of technology in political campaigns?",
+      answer:
+        "The future includes AI-driven voter insights, predictive analytics, micro-targeted advertising, and fully integrated campaign platforms that connect fundraising, communication, and volunteer management in real time for smarter, data-driven campaigns.",
+    },
+  ],
+},
+
 };

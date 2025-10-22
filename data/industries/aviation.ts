@@ -201,4 +201,60 @@ export const aviation: IndustryConfig = {
       ctaText: "GET AVIATION SOFTWARE DEVELOPERS",
       onCtaClick: () => {},
     },
-  };
+
+   faq : {
+  title: "Aviation FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is the role of digital technology in modern aviation?",
+      answer:
+        "Digital technology in aviation enhances operational efficiency, safety, and passenger experience. It includes flight management systems, predictive maintenance software, digital twins, and advanced data analytics to optimize aircraft performance and airline operations.",
+    },
+    {
+      id: "2",
+      question: "How does AI improve flight safety?",
+      answer:
+        "AI improves flight safety by analyzing vast amounts of flight data in real time to detect anomalies, predict potential failures, and provide actionable insights. It supports predictive maintenance, automated monitoring, and intelligent decision-making for pilots and air traffic controllers.",
+    },
+    {
+      id: "3",
+      question: "What are aviation digital twins?",
+      answer:
+        "Aviation digital twins are virtual replicas of aircraft, engines, or systems that simulate real-world performance. They allow engineers to test scenarios, predict maintenance needs, and optimize operations without affecting actual aircraft, reducing risk and costs.",
+    },
+    {
+      id: "4",
+      question: "How is virtual reality used in pilot training?",
+      answer:
+        "Virtual reality (VR) enables immersive pilot training by simulating real cockpit environments, flight scenarios, and emergency situations. Trainees can practice procedures safely, improve decision-making skills, and gain hands-on experience without using an actual aircraft.",
+    },
+    {
+      id: "5",
+      question: "What technologies support aircraft maintenance?",
+      answer:
+        "Aircraft maintenance is supported by predictive analytics, IoT sensors, augmented reality (AR) inspection tools, and automated diagnostic systems. These technologies monitor component health, schedule timely maintenance, and reduce downtime while ensuring compliance with safety standards.",
+    },
+    {
+      id: "6",
+      question: "How does 3D modeling assist aircraft design?",
+      answer:
+        "3D modeling allows engineers to visualize aircraft structures, systems, and interiors in detail. It facilitates design validation, aerodynamic analysis, and rapid prototyping, reducing development time and improving collaboration between design and manufacturing teams.",
+    },
+    {
+      id: "7",
+      question: "Can aviation technology improve fuel efficiency?",
+      answer:
+        "Yes, aviation technology such as flight optimization software, real-time weather data integration, and AI-based routing systems can significantly enhance fuel efficiency. Airlines can reduce fuel consumption, lower emissions, and optimize operational costs.",
+    },
+    {
+      id: "8",
+      question: "What is the future of autonomous aviation?",
+      answer:
+        "Autonomous aviation includes self-piloting aircraft, drone delivery systems, and AI-assisted air traffic control. These technologies aim to improve safety, reduce human error, and create new opportunities for cargo transport and urban air mobility.",
+    },
+  ],
+  },
+
+  
+};

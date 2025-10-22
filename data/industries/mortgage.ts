@@ -190,4 +190,70 @@ export const mortgage: IndustryConfig = {
     ctaText: "BUILD YOUR MORTGAGE SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Mortgage & Home Loan FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is a mortgage?",
+      answer:
+        "A mortgage is a loan provided by a bank or financial institution to help individuals purchase a home. The borrower repays the loan over a set period, typically with interest, while the property acts as collateral.",
+    },
+    {
+      id: "2",
+      question: "What types of mortgage loans are available?",
+      answer:
+        "Common mortgage types include fixed-rate mortgages, adjustable-rate mortgages (ARMs), interest-only loans, and government-backed loans such as FHA, VA, and USDA mortgages. Each has unique repayment terms and eligibility criteria.",
+    },
+    {
+      id: "3",
+      question: "How do I qualify for a mortgage?",
+      answer:
+        "Qualification depends on factors such as credit score, income, debt-to-income ratio, employment history, and the value of the property. Lenders assess these to determine loan eligibility and interest rates.",
+    },
+    {
+      id: "4",
+      question: "What is the difference between pre-qualification and pre-approval?",
+      answer:
+        "Pre-qualification is an initial assessment of your mortgage eligibility based on self-reported financial information. Pre-approval is a more rigorous process where the lender verifies your credit, income, and debts, providing a conditional commitment for a loan.",
+    },
+    {
+      id: "5",
+      question: "What are the closing costs for a mortgage?",
+      answer:
+        "Closing costs include fees for loan processing, appraisal, title insurance, taxes, and legal services. Typically, they range from 2% to 5% of the home’s purchase price and are paid at the time of closing.",
+    },
+    {
+      id: "6",
+      question: "Can I refinance my mortgage?",
+      answer:
+        "Yes, refinancing allows you to replace your existing mortgage with a new loan, often to lower interest rates, reduce monthly payments, or change loan terms. Lenders evaluate your current equity, credit score, and market conditions for approval.",
+    },
+    {
+      id: "7",
+      question: "What is mortgage insurance and do I need it?",
+      answer:
+        "Mortgage insurance protects the lender if the borrower defaults. It is usually required for loans with down payments less than 20%. Some loan types, like FHA loans, require upfront and monthly mortgage insurance premiums.",
+    },
+    {
+      id: "8",
+      question: "How is my mortgage interest rate determined?",
+      answer:
+        "Interest rates are influenced by market conditions, the type of mortgage, your credit score, down payment, loan term, and the lender’s policies. A higher credit score and larger down payment usually result in lower rates.",
+    },
+    {
+      id: "9",
+      question: "What happens if I miss a mortgage payment?",
+      answer:
+        "Missing a payment can result in late fees, negative credit reporting, and eventually foreclosure if unpaid over time. Contacting your lender immediately may help you arrange a repayment plan or loan modification.",
+    },
+    {
+      id: "10",
+      question: "Can I pay off my mortgage early?",
+      answer:
+        "Yes, many mortgages allow early repayment, which can reduce interest costs. However, some loans may include prepayment penalties, so it’s important to check your mortgage terms before paying off the loan early.",
+    },
+  ],
+},
+
 };

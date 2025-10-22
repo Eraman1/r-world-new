@@ -190,4 +190,70 @@ export const mediaentertainment: IndustryConfig = {
     ctaText: "BUILD YOUR MEDIA SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Media & Entertainment FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is digital media in the entertainment industry?",
+      answer:
+        "Digital media refers to content delivered through online platforms, streaming services, and digital channels. It includes videos, music, games, and interactive content designed to engage audiences across multiple devices.",
+    },
+    {
+      id: "2",
+      question: "How do streaming platforms impact traditional media?",
+      answer:
+        "Streaming platforms allow instant access to movies, shows, and music on-demand, reducing reliance on traditional TV, radio, and cinema. They also enable personalized recommendations and global distribution at scale.",
+    },
+    {
+      id: "3",
+      question: "What role does AI play in media and entertainment?",
+      answer:
+        "AI is used for content recommendations, automated editing, predictive analytics, and audience engagement. It enhances production efficiency, personalization, and helps creators make data-driven decisions.",
+    },
+    {
+      id: "4",
+      question: "Can media platforms track audience engagement?",
+      answer:
+        "Yes. Media platforms use analytics tools to monitor views, likes, shares, and watch time. This data helps content creators optimize content, target the right audience, and improve overall engagement.",
+    },
+    {
+      id: "5",
+      question: "What is immersive media in entertainment?",
+      answer:
+        "Immersive media includes technologies like Virtual Reality (VR), Augmented Reality (AR), and 360° videos that provide interactive and engaging experiences, making audiences feel part of the story.",
+    },
+    {
+      id: "6",
+      question: "How can entertainment companies monetize content online?",
+      answer:
+        "Companies can monetize via subscriptions, advertisements, pay-per-view, licensing, and merchandising. Digital platforms also allow microtransactions, premium content, and targeted ad campaigns for higher revenue.",
+    },
+    {
+      id: "7",
+      question: "What are the latest trends in the media industry?",
+      answer:
+        "Key trends include streaming-first content, AI-driven content creation, immersive experiences, interactive storytelling, and cross-platform distribution to maximize reach and engagement.",
+    },
+    {
+      id: "8",
+      question: "How do media companies ensure content security?",
+      answer:
+        "Content security is maintained using encryption, DRM (Digital Rights Management), secure cloud storage, and access control. These measures protect intellectual property and prevent piracy.",
+    },
+    {
+      id: "9",
+      question: "Can small creators compete in the media space?",
+      answer:
+        "Absolutely. Digital platforms and social media provide global reach with low barriers to entry. With quality content, consistent publishing, and audience engagement strategies, small creators can build significant audiences.",
+    },
+    {
+      id: "10",
+      question: "What is the future of media and entertainment?",
+      answer:
+        "The future is digital-first, personalized, and immersive. AI, VR/AR, interactive content, and multi-platform distribution will continue to transform how audiences consume and interact with media globally.",
+    },
+  ],
+},
+
 };

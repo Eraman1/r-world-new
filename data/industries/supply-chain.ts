@@ -190,4 +190,70 @@ export const supplyChain: IndustryConfig = {
     ctaText: "BUILD YOUR SUPPLY CHAIN PLATFORM",
     onCtaClick: () => {},
   },
+ faq : {
+  title: "Supply Chain Management FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is Supply Chain Management software?",
+      answer:
+        "Supply Chain Management (SCM) software helps businesses manage and optimize the flow of goods, information, and finances across the entire supply chain—from procurement to final delivery. It enhances visibility, reduces costs, and improves efficiency.",
+    },
+    {
+      id: "2",
+      question: "How does technology improve supply chain operations?",
+      answer:
+        "Modern technologies like AI, IoT, and blockchain enable real-time tracking, predictive demand planning, and transparent operations. These innovations minimize disruptions, improve forecasting accuracy, and ensure faster, data-driven decision-making.",
+    },
+    {
+      id: "3",
+      question: "Can SCM systems integrate with ERP and CRM platforms?",
+      answer:
+        "Yes. Most supply chain systems seamlessly integrate with ERP, CRM, and warehouse management platforms to unify data, streamline operations, and enhance collaboration between departments and partners.",
+    },
+    {
+      id: "4",
+      question: "What are the key benefits of implementing SCM software?",
+      answer:
+        "SCM software improves demand forecasting, optimizes inventory levels, and reduces lead times. It provides end-to-end visibility, enhances supplier relationships, and boosts overall customer satisfaction through timely deliveries.",
+    },
+    {
+      id: "5",
+      question: "How does AI support supply chain optimization?",
+      answer:
+        "AI analyzes historical and real-time data to predict demand, identify bottlenecks, and automate repetitive tasks like order processing or route optimization. This helps organizations respond quickly to market changes and supply fluctuations.",
+    },
+    {
+      id: "6",
+      question: "What is the role of IoT in supply chain visibility?",
+      answer:
+        "IoT sensors track shipments, monitor storage conditions, and provide real-time updates on location and status. This enables proactive issue resolution and ensures product quality during transit and storage.",
+    },
+    {
+      id: "7",
+      question: "How can businesses ensure sustainability in their supply chains?",
+      answer:
+        "Companies can adopt green logistics, use renewable packaging materials, and optimize transport routes to reduce emissions. SCM software also tracks sustainability metrics and helps meet environmental compliance standards.",
+    },
+    {
+      id: "8",
+      question: "Is cloud-based SCM better than traditional systems?",
+      answer:
+        "Cloud-based SCM platforms offer scalability, remote access, and real-time collaboration. They reduce IT maintenance costs while ensuring data security and faster deployment compared to on-premise systems.",
+    },
+    {
+      id: "9",
+      question: "How does predictive analytics benefit supply chain management?",
+      answer:
+        "Predictive analytics helps forecast demand, anticipate supply disruptions, and plan optimal inventory levels. It allows organizations to make proactive decisions, reducing delays and avoiding stockouts.",
+    },
+    {
+      id: "10",
+      question: "What trends are shaping the future of supply chain management?",
+      answer:
+        "The future of supply chains lies in digital twins, AI-driven automation, and blockchain-enabled transparency. These technologies will enable more resilient, adaptive, and sustainable global supply networks.",
+    },
+  ],
+},
+
 };

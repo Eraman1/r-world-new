@@ -190,4 +190,70 @@ export const finance: IndustryConfig = {
     ctaText: "BUILD YOUR FINANCE SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+ faq :{
+  title: "Finance FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are financial software solutions?",
+      answer:
+        "Financial software solutions help organizations manage accounting, investments, budgeting, and risk assessment. They automate financial operations, ensure regulatory compliance, and deliver data-driven insights for better decision-making.",
+    },
+    {
+      id: "2",
+      question: "How can digital finance platforms improve business efficiency?",
+      answer:
+        "Digital finance platforms streamline workflows by automating invoicing, expense tracking, and reporting. They minimize errors, enhance transparency, and provide real-time visibility into financial performance and cash flow.",
+    },
+    {
+      id: "3",
+      question: "What technologies are shaping modern finance?",
+      answer:
+        "Technologies like Artificial Intelligence, Blockchain, and Big Data are transforming finance. They enable fraud detection, automated trading, predictive analytics, and secure digital transactions for individuals and enterprises.",
+    },
+    {
+      id: "4",
+      question: "How does AI impact financial management?",
+      answer:
+        "AI enhances financial management by automating repetitive tasks such as reconciliation, forecasting, and customer service. It also delivers intelligent insights through predictive analytics to improve investment and credit decisions.",
+    },
+    {
+      id: "5",
+      question: "Is data security important in financial applications?",
+      answer:
+        "Yes. Financial software employs encryption, secure APIs, and compliance with standards like GDPR and PCI DSS to protect sensitive data. Multi-factor authentication and access control further strengthen data security.",
+    },
+    {
+      id: "6",
+      question: "Can financial software be customized for specific business needs?",
+      answer:
+        "Absolutely. Financial solutions can be tailored for industries like banking, insurance, real estate, or fintech startups, offering features such as custom reporting, payment integration, and regulatory compliance tools.",
+    },
+    {
+      id: "7",
+      question: "What is the role of blockchain in financial services?",
+      answer:
+        "Blockchain ensures secure, transparent, and tamper-proof financial transactions. It reduces fraud, simplifies settlements, and improves trust in areas like payments, digital identity, and asset tokenization.",
+    },
+    {
+      id: "8",
+      question: "How can finance automation benefit organizations?",
+      answer:
+        "Finance automation reduces manual effort in accounting, payroll, and auditing. It enhances accuracy, speeds up closing cycles, and allows teams to focus on strategic financial planning rather than routine tasks.",
+    },
+    {
+      id: "9",
+      question: "Do financial platforms support mobile and cloud access?",
+      answer:
+        "Yes. Modern finance platforms are cloud-based and mobile-friendly, allowing users to manage transactions, view dashboards, and generate reports securely from any device, anytime.",
+    },
+    {
+      id: "10",
+      question: "What is the future of finance technology?",
+      answer:
+        "The future of finance lies in AI-driven analytics, decentralized finance (DeFi), open banking APIs, and real-time risk management. These innovations will make financial services more personalized, transparent, and accessible worldwide.",
+    },
+  ],
+},
+
 };

@@ -190,4 +190,70 @@ export const legal: IndustryConfig = {
     ctaText: "BUILD YOUR LEGAL SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Legal Services FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What types of legal services do law firms provide?",
+      answer:
+        "Law firms offer a wide range of services including corporate law, intellectual property, litigation, employment law, family law, and regulatory compliance. They provide advisory, representation, and documentation services to individuals, businesses, and organizations.",
+    },
+    {
+      id: "2",
+      question: "How can technology improve legal services?",
+      answer:
+        "Legal technology streamlines case management, document automation, research, and client communication. AI-powered tools can assist in contract analysis, legal research, and predicting case outcomes, allowing lawyers to provide faster and more accurate services.",
+    },
+    {
+      id: "3",
+      question: "What is legal compliance, and why is it important?",
+      answer:
+        "Legal compliance ensures that businesses and individuals adhere to applicable laws, regulations, and industry standards. Compliance reduces the risk of fines, lawsuits, and reputational damage while promoting ethical business practices.",
+    },
+    {
+      id: "4",
+      question: "How do law firms handle client confidentiality?",
+      answer:
+        "Law firms maintain strict confidentiality through secure communication channels, encrypted document storage, and adherence to professional ethical standards. Client information is only shared on a need-to-know basis or as required by law.",
+    },
+    {
+      id: "5",
+      question: "What should I look for when hiring a lawyer?",
+      answer:
+        "Consider the lawyer's area of expertise, experience, track record, communication skills, and fees. It's also important to check their reputation, client reviews, and whether they understand your specific legal needs.",
+    },
+    {
+      id: "6",
+      question: "How can legal services support businesses?",
+      answer:
+        "Legal services help businesses with contract drafting and review, intellectual property protection, risk management, regulatory compliance, dispute resolution, and corporate governance. This support enables businesses to operate efficiently while minimizing legal risks.",
+    },
+    {
+      id: "7",
+      question: "What is the difference between litigation and alternative dispute resolution?",
+      answer:
+        "Litigation involves resolving disputes through court proceedings, while alternative dispute resolution (ADR) includes methods like mediation and arbitration. ADR is often faster, more cost-effective, and less adversarial than traditional litigation.",
+    },
+    {
+      id: "8",
+      question: "Can legal services be delivered online?",
+      answer:
+        "Yes. Many law firms provide virtual consultations, digital contract drafting, and remote legal research. Online platforms also facilitate secure document sharing and electronic signatures, enabling efficient legal services without physical meetings.",
+    },
+    {
+      id: "9",
+      question: "What role does intellectual property law play in business?",
+      answer:
+        "Intellectual property law protects creations such as patents, trademarks, copyrights, and trade secrets. It ensures businesses can monetize and safeguard their innovations, brand identity, and creative content.",
+    },
+    {
+      id: "10",
+      question: "How do legal services evolve with regulatory changes?",
+      answer:
+        "Legal services continuously adapt by monitoring new laws, industry regulations, and court rulings. Law firms provide guidance to clients, update contracts, and implement compliance strategies to keep businesses aligned with evolving legal requirements.",
+    },
+  ],
+}
+
 };

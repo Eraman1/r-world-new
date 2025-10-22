@@ -189,4 +189,70 @@ export const payments: IndustryConfig = {
     ctaText: "BUILD YOUR PAYMENT PLATFORM",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Payments & FinTech FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are digital payment solutions?",
+      answer:
+        "Digital payment solutions enable businesses and consumers to send and receive money electronically. These include online banking, mobile wallets, payment gateways, and contactless card payments, making transactions fast, secure, and convenient.",
+    },
+    {
+      id: "2",
+      question: "How do payment gateways work?",
+      answer:
+        "A payment gateway securely processes online transactions by transmitting customer payment information to banks or financial networks. It ensures encryption, authorization, and settlement of payments while protecting sensitive data.",
+    },
+    {
+      id: "3",
+      question: "What is the difference between a wallet and a bank transfer?",
+      answer:
+        "Digital wallets store payment information securely and allow instant transactions without sharing bank details. Bank transfers move funds directly between accounts and may take longer depending on the network and transaction type.",
+    },
+    {
+      id: "4",
+      question: "How is payment security maintained?",
+      answer:
+        "Payment platforms use encryption, tokenization, two-factor authentication, and PCI-DSS compliance to protect transactions. These measures prevent fraud, data breaches, and unauthorized access to sensitive financial information.",
+    },
+    {
+      id: "5",
+      question: "Can payment systems integrate with eCommerce platforms?",
+      answer:
+        "Yes. Modern payment gateways and APIs can seamlessly integrate with online stores, mobile apps, and marketplaces. This enables automated checkout, recurring billing, and support for multiple payment methods and currencies.",
+    },
+    {
+      id: "6",
+      question: "What are recurring payments and subscription billing?",
+      answer:
+        "Recurring payments are automatic, scheduled transactions for subscription-based services. Payment platforms handle invoicing, payment reminders, and automated collection, reducing administrative effort for businesses and improving customer convenience.",
+    },
+    {
+      id: "7",
+      question: "How do fintech solutions enhance payments?",
+      answer:
+        "Fintech solutions leverage AI, machine learning, and blockchain to optimize transaction speed, detect fraud, personalize financial services, and offer advanced analytics for businesses to manage payments efficiently.",
+    },
+    {
+      id: "8",
+      question: "Are cross-border payments supported?",
+      answer:
+        "Yes. Modern payment platforms support international transactions with multi-currency processing, real-time FX conversion, and compliance with global regulatory standards, ensuring smooth and transparent cross-border payments.",
+    },
+    {
+      id: "9",
+      question: "What is the role of APIs in payment systems?",
+      answer:
+        "Payment APIs allow businesses to integrate transaction processing, wallet services, and banking features directly into their applications. APIs provide flexibility, automation, and real-time reporting for streamlined payment operations.",
+    },
+    {
+      id: "10",
+      question: "What is the future of digital payments?",
+      answer:
+        "The future of payments includes contactless, mobile-first transactions, AI-driven fraud prevention, blockchain-based settlements, and seamless integration of financial services into everyday apps, making payments faster, safer, and more personalized.",
+    },
+  ],
+},
+
 };

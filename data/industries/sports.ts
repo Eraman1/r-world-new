@@ -190,4 +190,70 @@ export const sports: IndustryConfig = {
     ctaText: "BUILD YOUR SPORTS PLATFORM",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Sports Industry FAQ",
+  items: [
+    {
+      id: "1",
+      question: "How can technology improve sports performance and management?",
+      answer:
+        "Technology enhances sports performance by tracking athlete metrics, analyzing gameplay, and optimizing training plans. Sports management systems also streamline event scheduling, team coordination, and fan engagement through real-time data insights.",
+    },
+    {
+      id: "2",
+      question: "What is sports analytics and how is it used by teams?",
+      answer:
+        "Sports analytics involves collecting and analyzing performance data to improve decision-making. Coaches and analysts use it to assess player efficiency, develop strategies, predict outcomes, and prevent injuries through data-driven insights.",
+    },
+    {
+      id: "3",
+      question: "Can AI and machine learning be applied in sports?",
+      answer:
+        "Yes. AI and machine learning power predictive models, video analysis, and performance tracking tools. These technologies identify patterns, evaluate opponent tactics, and help coaches and athletes make smarter, faster decisions.",
+    },
+    {
+      id: "4",
+      question: "How do digital platforms enhance fan engagement in sports?",
+      answer:
+        "Digital sports platforms create immersive fan experiences with live stats, interactive content, fantasy leagues, and social media integration. They enable fans to connect deeply with their favorite teams and events in real time.",
+    },
+    {
+      id: "5",
+      question: "What role does data security play in sports technology?",
+      answer:
+        "Sports data includes sensitive athlete performance and health information. Secure platforms use encryption, access control, and compliance protocols to safeguard this data, ensuring integrity and privacy for all stakeholders.",
+    },
+    {
+      id: "6",
+      question: "How can sports organizations benefit from custom software solutions?",
+      answer:
+        "Custom sports software helps organizations manage tournaments, player contracts, ticketing, and sponsorships efficiently. Tailored platforms integrate analytics, CRM, and media tools to deliver end-to-end operational excellence.",
+    },
+    {
+      id: "7",
+      question: "What technologies are shaping the future of sports?",
+      answer:
+        "Emerging technologies like VR training, wearable sensors, blockchain ticketing, and AI analytics are redefining sports. These innovations enhance performance, transparency, and fan interaction on and off the field.",
+    },
+    {
+      id: "8",
+      question: "How do wearable devices contribute to athlete development?",
+      answer:
+        "Wearables collect real-time biometric data such as heart rate, movement, and fatigue levels. This information helps coaches monitor fitness, prevent injuries, and customize training programs for peak performance.",
+    },
+    {
+      id: "9",
+      question: "Can technology assist in organizing large sports events?",
+      answer:
+        "Absolutely. Sports event management software automates registration, scheduling, ticketing, and live updates. It ensures smooth coordination among teams, sponsors, and fans while enhancing the overall event experience.",
+    },
+    {
+      id: "10",
+      question: "What is the impact of virtual and augmented reality in sports?",
+      answer:
+        "VR and AR are revolutionizing sports by enabling immersive training simulations, interactive broadcasts, and fan experiences. They allow athletes to practice scenarios safely and fans to engage with the game like never before.",
+    },
+  ],
+},
+
 };

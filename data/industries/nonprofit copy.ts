@@ -190,4 +190,70 @@ export const nonprofit: IndustryConfig = {
     ctaText: "BUILD YOUR NONPROFIT SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Nonprofit & NGO FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is a nonprofit organization?",
+      answer:
+        "A nonprofit organization is an entity dedicated to advancing a social cause or providing public benefit. Unlike for-profit companies, nonprofits reinvest all revenue into their mission rather than distributing profits to owners or shareholders.",
+    },
+    {
+      id: "2",
+      question: "How can technology benefit nonprofits?",
+      answer:
+        "Technology streamlines operations, enhances donor management, and improves communication. Nonprofits can leverage CRM systems, fundraising platforms, and volunteer management tools to increase efficiency and impact.",
+    },
+    {
+      id: "3",
+      question: "What types of fundraising platforms are available for nonprofits?",
+      answer:
+        "Nonprofits can use online donation portals, crowdfunding platforms, recurring giving tools, and peer-to-peer fundraising software. These platforms make it easy to reach donors, track contributions, and manage campaigns effectively.",
+    },
+    {
+      id: "4",
+      question: "How can nonprofits manage volunteers effectively?",
+      answer:
+        "Volunteer management software allows nonprofits to schedule shifts, track hours, communicate tasks, and recognize contributions. It simplifies engagement, ensuring volunteers remain motivated and aligned with organizational goals.",
+    },
+    {
+      id: "5",
+      question: "What role does data analytics play in nonprofit operations?",
+      answer:
+        "Data analytics provides insights into donor behavior, campaign effectiveness, and program outcomes. By analyzing trends, nonprofits can optimize resource allocation, improve fundraising strategies, and demonstrate impact to stakeholders.",
+    },
+    {
+      id: "6",
+      question: "Can nonprofits use social media for fundraising?",
+      answer:
+        "Absolutely. Social media platforms allow nonprofits to share their mission, launch donation campaigns, engage supporters, and create viral awareness. Integrated tools can track engagement and convert followers into donors.",
+    },
+    {
+      id: "7",
+      question: "How do nonprofits ensure transparency and compliance?",
+      answer:
+        "Nonprofits use financial management software, audit trails, and reporting dashboards to maintain transparency. Compliance with local and international regulations, including tax-exempt laws, is critical for building trust with donors and stakeholders.",
+    },
+    {
+      id: "8",
+      question: "What digital tools support nonprofit program management?",
+      answer:
+        "Nonprofits can utilize project management software, CRM systems, communication platforms, and cloud-based document sharing. These tools enable collaboration, track progress, and ensure programs meet intended goals efficiently.",
+    },
+    {
+      id: "9",
+      question: "How can nonprofits measure the impact of their initiatives?",
+      answer:
+        "Impact measurement involves collecting and analyzing data on program outputs and outcomes. Tools like dashboards, surveys, and analytics platforms help quantify success, improve programs, and report results to donors and stakeholders.",
+    },
+    {
+      id: "10",
+      question: "What is the future of digital solutions for nonprofits?",
+      answer:
+        "Digital transformation in nonprofits is focused on AI-driven donor engagement, cloud-based collaboration, and automated reporting. These innovations enable organizations to scale, improve efficiency, and increase the social impact of their programs.",
+    },
+  ],
+},
+
 };

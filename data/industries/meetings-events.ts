@@ -190,4 +190,70 @@ export const meetingsEvents: IndustryConfig = {
     ctaText: "BUILD YOUR EVENT SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Meetings & Events FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What types of events can be managed with an event platform?",
+      answer:
+        "Event management platforms support a wide range of events including corporate meetings, conferences, trade shows, workshops, webinars, and hybrid events. They streamline planning, registration, attendee engagement, and analytics.",
+    },
+    {
+      id: "2",
+      question: "How can technology improve event planning and execution?",
+      answer:
+        "Technology automates tasks such as attendee registration, ticketing, scheduling, and venue management. Advanced platforms offer real-time analytics, virtual event streaming, networking tools, and AI-driven recommendations to optimize engagement and ROI.",
+    },
+    {
+      id: "3",
+      question: "What features are essential in a meetings and events platform?",
+      answer:
+        "Essential features include online registration, agenda management, attendee tracking, virtual meeting rooms, live polling, surveys, networking tools, and analytics dashboards. Integration with CRM and marketing tools further enhances event success.",
+    },
+    {
+      id: "4",
+      question: "Can I host virtual or hybrid events using the platform?",
+      answer:
+        "Yes. Modern event platforms support virtual and hybrid events, enabling remote attendees to join live sessions, interact via chat and Q&A, participate in polls, and access recorded content after the event.",
+    },
+    {
+      id: "5",
+      question: "How do event platforms help improve attendee engagement?",
+      answer:
+        "Platforms provide interactive features like live polls, Q&A sessions, networking lounges, gamification, and personalized agendas. These tools enhance participation, foster connections, and increase overall satisfaction for both in-person and virtual attendees.",
+    },
+    {
+      id: "6",
+      question: "Is data from events secure and private?",
+      answer:
+        "Yes. Event platforms implement secure login, encrypted data storage, and GDPR-compliant systems to protect attendee information. Administrators can control access levels and ensure data privacy for all participants.",
+    },
+    {
+      id: "7",
+      question: "Can event platforms integrate with existing business tools?",
+      answer:
+        "Absolutely. Most platforms integrate with CRMs, marketing automation tools, calendars, and payment gateways to streamline workflows, synchronize data, and enhance the overall management of meetings and events.",
+    },
+    {
+      id: "8",
+      question: "How can I measure the success of an event?",
+      answer:
+        "Platforms offer real-time analytics on attendance, engagement, session popularity, feedback, and ROI. These insights help organizers evaluate event performance and plan improvements for future events.",
+    },
+    {
+      id: "9",
+      question: "Do event platforms support mobile access for attendees?",
+      answer:
+        "Yes. Most platforms provide mobile-friendly apps or responsive web interfaces, allowing attendees to view agendas, join sessions, network with others, and receive notifications on-the-go.",
+    },
+    {
+      id: "10",
+      question: "What is the future of meetings and events technology?",
+      answer:
+        "The future includes AI-powered personalized agendas, immersive virtual experiences using AR/VR, advanced networking tools, and predictive analytics to anticipate attendee behavior and optimize event planning.",
+    },
+  ],
+},
+
 };

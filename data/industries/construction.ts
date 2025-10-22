@@ -198,4 +198,70 @@ export const construction: IndustryConfig = {
       ctaText: "GET CONSTRUCTION SOFTWARE DEVELOPERS",
       onCtaClick: () => {},
     },
+     faq : {
+  title: "Construction Industry FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are construction management software solutions?",
+      answer:
+        "Construction management software helps companies plan, coordinate, and control construction projects efficiently. It enables real-time collaboration, progress tracking, resource allocation, budgeting, and document management across teams and sites.",
+    },
+    {
+      id: "2",
+      question: "How does technology improve project management in construction?",
+      answer:
+        "Digital tools such as BIM (Building Information Modeling), AI-driven scheduling, and cloud collaboration platforms enhance project visibility, minimize delays, and ensure better coordination among architects, engineers, and contractors.",
+    },
+    {
+      id: "3",
+      question: "What is BIM and why is it important?",
+      answer:
+        "BIM, or Building Information Modeling, is a 3D digital representation of a building’s physical and functional characteristics. It allows teams to visualize, simulate, and optimize every phase of construction, reducing design errors and rework costs.",
+    },
+    {
+      id: "4",
+      question: "Can AI and data analytics help in construction projects?",
+      answer:
+        "Yes. AI and data analytics predict project risks, optimize resource utilization, and monitor site productivity. Predictive insights from historical data help project managers make informed decisions and prevent costly delays.",
+    },
+    {
+      id: "5",
+      question: "How can mobile apps benefit construction teams?",
+      answer:
+        "Mobile applications provide on-site teams with access to blueprints, project updates, safety checklists, and reporting tools in real time. This enhances communication, reduces paperwork, and ensures faster issue resolution.",
+    },
+    {
+      id: "6",
+      question: "What role does IoT play in modern construction?",
+      answer:
+        "IoT (Internet of Things) devices track equipment usage, monitor site safety, and provide environmental data. Smart sensors and wearables improve worker safety and operational efficiency by providing real-time site monitoring.",
+    },
+    {
+      id: "7",
+      question: "How can construction companies ensure safety compliance?",
+      answer:
+        "Safety management software ensures compliance by tracking inspections, training, and incident reports. Automated alerts and checklists help enforce safety standards and reduce workplace accidents.",
+    },
+    {
+      id: "8",
+      question: "Can construction management software integrate with accounting systems?",
+      answer:
+        "Yes. Many construction platforms integrate seamlessly with ERP and accounting systems, allowing real-time cost tracking, billing automation, and financial forecasting to maintain project profitability.",
+    },
+    {
+      id: "9",
+      question: "How is sustainability addressed in construction technology?",
+      answer:
+        "Green construction software helps monitor material usage, waste reduction, and energy efficiency. Digital simulations can predict the environmental impact of designs, helping builders achieve sustainability certifications like LEED or BREEAM.",
+    },
+    {
+      id: "10",
+      question: "What is the future of the construction industry with digital transformation?",
+      answer:
+        "The future of construction is powered by AI, robotics, drones, and digital twins. These technologies automate tasks, improve accuracy, and enable data-driven project execution — creating smarter, faster, and more sustainable construction processes.",
+    },
+  ],
+},
+
   };

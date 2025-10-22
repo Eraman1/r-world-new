@@ -190,4 +190,71 @@ export const telecommunications: IndustryConfig = {
     ctaText: "BUILD YOUR TELECOM PLATFORM",
     onCtaClick: () => {},
   },
+ faq : {
+  title: "Telecommunications FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are telecommunications software solutions?",
+      answer:
+        "Telecommunications software solutions help service providers manage networks, automate operations, and enhance customer experiences. These include systems for network monitoring, billing, analytics, and predictive maintenance.",
+    },
+    {
+      id: "2",
+      question: "How can AI improve telecom network performance?",
+      answer:
+        "AI enables telecom companies to detect anomalies, predict outages, and optimize bandwidth allocation. Machine learning algorithms analyze network data in real time, ensuring greater reliability and faster service restoration.",
+    },
+    {
+      id: "3",
+      question: "What role does 5G play in digital transformation?",
+      answer:
+        "5G technology enhances data speeds, reduces latency, and supports massive IoT connectivity. It empowers telecom operators to deliver high-performance applications like smart cities, autonomous systems, and immersive media experiences.",
+    },
+    {
+      id: "4",
+      question: "How does predictive maintenance benefit telecom operators?",
+      answer:
+        "Predictive maintenance uses data analytics and sensors to forecast equipment failures before they occur. This reduces downtime, lowers maintenance costs, and ensures uninterrupted network performance for end users.",
+    },
+    {
+      id: "5",
+      question: "Can telecom software integrate with legacy systems?",
+      answer:
+        "Yes. Modern telecom solutions are built to integrate seamlessly with legacy infrastructure using APIs and middleware. This allows operators to modernize without disrupting existing operations or customer services.",
+    },
+    {
+      id: "6",
+      question: "What are OSS and BSS in telecommunications?",
+      answer:
+        "OSS (Operations Support Systems) manage network infrastructure and service delivery, while BSS (Business Support Systems) handle billing, customer management, and revenue operations. Together, they form the digital backbone of telecom enterprises.",
+    },
+    {
+      id: "7",
+      question: "How does telecom data analytics improve business decisions?",
+      answer:
+        "Telecom analytics transform raw data into actionable insights on customer behavior, network usage, and revenue patterns. This helps providers optimize pricing models, improve retention, and drive strategic growth.",
+    },
+    {
+      id: "8",
+      question: "What is the importance of network security in telecom?",
+      answer:
+        "Network security safeguards telecom infrastructure from cyber threats, fraud, and data breaches. Advanced encryption, intrusion detection, and AI-driven monitoring help ensure secure communication channels and data integrity.",
+    },
+    {
+      id: "9",
+      question: "How can cloud technology benefit telecom companies?",
+      answer:
+        "Cloud computing offers telecom providers scalability, flexibility, and cost efficiency. It enables virtualized network functions (VNF), centralized data management, and faster deployment of new services.",
+    },
+    {
+      id: "10",
+      question: "What is the future of the telecommunications industry?",
+      answer:
+        "The future of telecommunications lies in AI-driven automation, 5G expansion, and cloud-native networks. Telecom providers are evolving into digital service enablers, connecting industries and powering global innovation.",
+    },
+  ],
+}
+
+
 };

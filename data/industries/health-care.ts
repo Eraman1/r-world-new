@@ -190,4 +190,70 @@ export const healthcare: IndustryConfig = {
     ctaText: "BUILD YOUR HEALTHCARE SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+ faq:{
+  title: "Healthcare FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is digital healthcare?",
+      answer:
+        "Digital healthcare involves the use of technology such as telemedicine, electronic health records (EHR), mobile health apps, and AI-powered diagnostic tools to enhance patient care, streamline workflows, and improve medical outcomes.",
+    },
+    {
+      id: "2",
+      question: "How does telemedicine work?",
+      answer:
+        "Telemedicine allows patients to consult with healthcare professionals remotely through video calls, chat, or mobile apps. It provides convenient access to care, reduces travel time, and enables real-time monitoring of chronic conditions.",
+    },
+    {
+      id: "3",
+      question: "What are the benefits of Electronic Health Records (EHR)?",
+      answer:
+        "EHR systems centralize patient data, making it accessible to authorized medical staff across multiple departments. They improve diagnosis accuracy, reduce paperwork, enable better care coordination, and enhance patient safety.",
+    },
+    {
+      id: "4",
+      question: "How is AI used in healthcare?",
+      answer:
+        "AI supports healthcare through predictive analytics, early disease detection, personalized treatment plans, and workflow automation. Machine learning algorithms analyze medical images, patient history, and clinical data to assist doctors in decision-making.",
+    },
+    {
+      id: "5",
+      question: "What is remote patient monitoring?",
+      answer:
+        "Remote patient monitoring uses wearable devices, mobile apps, and connected sensors to track vital signs such as heart rate, blood pressure, and glucose levels. Data is transmitted to healthcare providers for timely intervention and proactive care.",
+    },
+    {
+      id: "6",
+      question: "How do healthcare platforms ensure patient data security?",
+      answer:
+        "Healthcare platforms follow strict security protocols, including HIPAA/GDPR compliance, encryption, role-based access, and secure cloud storage, ensuring sensitive patient data remains private and protected from unauthorized access.",
+    },
+    {
+      id: "7",
+      question: "Can digital healthcare solutions integrate with existing hospital systems?",
+      answer:
+        "Yes. Modern healthcare software can integrate with hospital management systems, lab systems, pharmacy management, and EHR platforms to enable seamless data flow, unified reporting, and efficient care delivery.",
+    },
+    {
+      id: "8",
+      question: "What features make a healthcare platform effective?",
+      answer:
+        "Key features include telemedicine consultations, patient portals, appointment scheduling, EHR integration, analytics dashboards, automated reminders, and secure messaging. These features improve patient engagement, operational efficiency, and care quality.",
+    },
+    {
+      id: "9",
+      question: "How can healthcare apps improve patient engagement?",
+      answer:
+        "Healthcare apps allow patients to book appointments, access medical records, receive health tips, track medication schedules, and communicate with providers. This increases adherence to treatment plans and fosters proactive health management.",
+    },
+    {
+      id: "10",
+      question: "What is the future of healthcare technology?",
+      answer:
+        "The future of healthcare technology focuses on AI-driven diagnostics, precision medicine, wearable health devices, virtual care, and interoperable systems. These innovations aim to deliver faster, safer, and more personalized patient care.",
+    },
+  ],
+},
+
 };

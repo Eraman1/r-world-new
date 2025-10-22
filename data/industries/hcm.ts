@@ -190,4 +190,70 @@ export const hcm: IndustryConfig = {
     ctaText: "BUILD YOUR HCM SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Human Capital Management (HCM) FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is Human Capital Management (HCM)?",
+      answer:
+        "HCM is a set of integrated practices and software solutions designed to manage an organization’s workforce. It covers recruitment, onboarding, payroll, performance management, learning, and employee engagement to optimize productivity and retention.",
+    },
+    {
+      id: "2",
+      question: "How does HCM software benefit organizations?",
+      answer:
+        "HCM software streamlines HR processes, reduces administrative overhead, and improves workforce insights. It enables better decision-making by providing real-time analytics on employee performance, engagement, and skill gaps.",
+    },
+    {
+      id: "3",
+      question: "What features are included in modern HCM solutions?",
+      answer:
+        "Modern HCM systems typically include core HR, payroll, talent acquisition, performance management, learning and development, workforce analytics, employee self-service, and mobile access.",
+    },
+    {
+      id: "4",
+      question: "Can HCM software help with employee engagement?",
+      answer:
+        "Yes. HCM platforms provide tools for performance feedback, recognition programs, surveys, and learning opportunities, helping to increase employee engagement, satisfaction, and retention.",
+    },
+    {
+      id: "5",
+      question: "How does HCM support compliance and data security?",
+      answer:
+        "HCM solutions help ensure regulatory compliance by automating recordkeeping, reporting, and payroll processes. They use encryption, access controls, and audit logs to protect sensitive employee information.",
+    },
+    {
+      id: "6",
+      question: "Is HCM software suitable for businesses of all sizes?",
+      answer:
+        "Absolutely. HCM platforms are scalable and can be customized to fit the needs of small, medium, and large enterprises, adapting to workforce size, industry, and HR complexity.",
+    },
+    {
+      id: "7",
+      question: "How does HCM integrate with other business systems?",
+      answer:
+        "HCM platforms can integrate with ERP, payroll, CRM, and productivity tools, enabling seamless data flow, unified reporting, and improved HR and business process efficiency.",
+    },
+    {
+      id: "8",
+      question: "Can HCM solutions support remote and hybrid work models?",
+      answer:
+        "Yes. HCM software provides tools for remote workforce management, time tracking, performance monitoring, and collaboration, ensuring productivity and engagement regardless of location.",
+    },
+    {
+      id: "9",
+      question: "How does HCM leverage AI and analytics?",
+      answer:
+        "AI in HCM systems helps with talent acquisition, predictive analytics for turnover, skill gap analysis, automated administrative tasks, and personalized learning recommendations, making workforce management more efficient.",
+    },
+    {
+      id: "10",
+      question: "What is the future of Human Capital Management?",
+      answer:
+        "The future of HCM focuses on intelligent automation, AI-driven workforce insights, personalized employee experiences, and continuous learning. Organizations will increasingly use HCM platforms to optimize talent, culture, and organizational agility.",
+    },
+  ],
+},
+
 };

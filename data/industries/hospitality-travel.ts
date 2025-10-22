@@ -190,4 +190,70 @@ export const hospitalitytravel: IndustryConfig = {
     ctaText: "BUILD YOUR TRAVEL & HOSPITALITY SOLUTION",
     onCtaClick: () => {},
   },
+ faq : {
+  title: "Hospitality & Travel FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are Hospitality & Travel Management Solutions?",
+      answer:
+        "These are digital platforms designed to streamline hotel, resort, and travel operations. They help manage bookings, customer engagement, staff workflows, and analytics to improve service quality and operational efficiency.",
+    },
+    {
+      id: "2",
+      question: "How do online booking systems benefit hotels and travel agencies?",
+      answer:
+        "Online booking systems simplify reservations, reduce overbooking errors, and provide real-time availability. They also allow guests to book from any device, improving customer convenience and increasing direct bookings.",
+    },
+    {
+      id: "3",
+      question: "What technologies are used in modern hospitality solutions?",
+      answer:
+        "Modern hospitality platforms use AI for personalized guest experiences, IoT for smart room management, and cloud solutions for scalable operations. Analytics and CRM integrations help track guest preferences and optimize services.",
+    },
+    {
+      id: "4",
+      question: "Can travel and hospitality platforms improve customer engagement?",
+      answer:
+        "Yes. These platforms offer loyalty programs, automated communication, personalized recommendations, and targeted promotions, creating a more engaging and satisfying guest experience.",
+    },
+    {
+      id: "5",
+      question: "How does AI enhance the hospitality and travel experience?",
+      answer:
+        "AI can predict guest preferences, optimize pricing, automate check-in/check-out, and provide virtual concierge services. It enables hotels and travel companies to offer personalized experiences while improving operational efficiency.",
+    },
+    {
+      id: "6",
+      question: "Are these platforms mobile-friendly?",
+      answer:
+        "Absolutely. Most hospitality and travel management solutions are optimized for mobile devices, allowing travelers to book, check-in, and access services on the go, enhancing convenience and satisfaction.",
+    },
+    {
+      id: "7",
+      question: "How is guest data secured in hospitality platforms?",
+      answer:
+        "Platforms use encryption, secure authentication, and role-based access controls to protect guest information. Compliance with GDPR and other privacy regulations ensures safe and legal data handling.",
+    },
+    {
+      id: "8",
+      question: "Can these platforms integrate with existing hotel or travel systems?",
+      answer:
+        "Yes. Modern solutions can integrate with property management systems (PMS), channel managers, CRM, and payment gateways for a seamless operational workflow and improved data accuracy.",
+    },
+    {
+      id: "9",
+      question: "What features make a hospitality platform effective?",
+      answer:
+        "Key features include booking management, guest relationship management, automated notifications, analytics dashboards, mobile access, loyalty programs, and multi-channel support for both staff and guests.",
+    },
+    {
+      id: "10",
+      question: "What is the future of digital solutions in hospitality and travel?",
+      answer:
+        "The future lies in AI-powered personalization, voice-enabled assistants, IoT-enabled smart rooms, AR/VR travel experiences, and sustainable, data-driven operations that enhance both guest satisfaction and operational efficiency.",
+    },
+  ],
+},
+
 };

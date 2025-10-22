@@ -190,4 +190,70 @@ export const realEstate: IndustryConfig = {
     ctaText: "BUILD YOUR REAL ESTATE PLATFORM",
     onCtaClick: () => {},
   },
+  faq :{
+  title: "Real Estate FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What is Real Estate Management Software?",
+      answer:
+        "Real Estate Management Software helps property owners, agents, and developers manage listings, track sales, handle leases, and automate financial transactions. It centralizes all operations to improve efficiency and client satisfaction.",
+    },
+    {
+      id: "2",
+      question: "How can technology improve property management?",
+      answer:
+        "Technology simplifies rent collection, maintenance tracking, and tenant communication. With real-time dashboards and automated alerts, property managers can reduce manual work and improve operational transparency.",
+    },
+    {
+      id: "3",
+      question: "Does real estate software support virtual property tours?",
+      answer:
+        "Yes. Modern real estate platforms integrate 3D visualization, AR/VR, and video walkthroughs to showcase properties remotely—offering buyers and tenants a realistic experience without physical visits.",
+    },
+    {
+      id: "4",
+      question: "Can real estate solutions help with lead generation?",
+      answer:
+        "Absolutely. Real estate CRM and marketing tools help capture, nurture, and convert leads through automated campaigns, targeted listings, and AI-powered recommendations tailored to buyer preferences.",
+    },
+    {
+      id: "5",
+      question: "How does AI benefit the real estate industry?",
+      answer:
+        "AI enables smarter property valuations, predictive market analytics, and customer behavior insights. It helps agents make data-driven decisions and identify high-value investment opportunities faster.",
+    },
+    {
+      id: "6",
+      question: "Is it possible to integrate payment systems into property software?",
+      answer:
+        "Yes. Most real estate software supports integrated payment gateways for online rent collection, invoice management, and transaction tracking—enhancing convenience for both tenants and owners.",
+    },
+    {
+      id: "7",
+      question: "Can real estate software manage multiple properties or agents?",
+      answer:
+        "Yes. Scalable property management systems allow administrators to oversee multiple locations, agents, and portfolios from a single dashboard—ideal for large real estate agencies or property investment firms.",
+    },
+    {
+      id: "8",
+      question: "How secure is data in real estate management platforms?",
+      answer:
+        "Real estate software uses encryption, secure logins, and cloud-based backups to protect property data, client information, and financial records from unauthorized access or loss.",
+    },
+    {
+      id: "9",
+      question: "Can real estate platforms integrate with MLS and other listing services?",
+      answer:
+        "Yes. Real estate software can integrate with MLS databases and third-party listing platforms to automatically sync and update property listings, ensuring accuracy and broader market reach.",
+    },
+    {
+      id: "10",
+      question: "What trends are shaping the future of real estate technology?",
+      answer:
+        "AI analytics, blockchain-based contracts, virtual property tours, and smart home integrations are transforming the real estate landscape—making transactions faster, safer, and more transparent.",
+    },
+  ],
+},
+
 };

@@ -189,4 +189,70 @@ export const oilGas: IndustryConfig = {
     ctaText: "BUILD YOUR OIL & GAS SOLUTION",
     onCtaClick: () => {},
   },
+  faq : {
+  title: "Oil & Gas Industry FAQ",
+  items: [
+    {
+      id: "1",
+      question: "What are the main segments of the Oil & Gas industry?",
+      answer:
+        "The Oil & Gas industry is divided into upstream (exploration and production), midstream (transportation and storage), and downstream (refining, distribution, and marketing). Each segment requires specialized technologies and operational strategies.",
+    },
+    {
+      id: "2",
+      question: "How is technology transforming the Oil & Gas sector?",
+      answer:
+        "Technology such as IoT sensors, AI analytics, digital twins, and predictive maintenance is enhancing efficiency, safety, and decision-making. These tools enable real-time monitoring, reduce downtime, and optimize resource extraction and processing.",
+    },
+    {
+      id: "3",
+      question: "What safety measures are essential in Oil & Gas operations?",
+      answer:
+        "Rigorous safety protocols, regular equipment inspections, automation of hazardous processes, and workforce training are critical. Compliance with environmental and regulatory standards ensures safe production and minimizes the risk of accidents.",
+    },
+    {
+      id: "4",
+      question: "How does Oil & Gas monitoring improve efficiency?",
+      answer:
+        "Advanced monitoring systems track production rates, pipeline integrity, and equipment performance in real time. Predictive analytics helps identify potential failures, optimize maintenance schedules, and reduce operational costs.",
+    },
+    {
+      id: "5",
+      question: "What role does sustainability play in Oil & Gas?",
+      answer:
+        "Sustainability initiatives focus on reducing emissions, improving energy efficiency, and adopting cleaner technologies. Companies are integrating renewable energy solutions and carbon capture technologies to minimize environmental impact.",
+    },
+    {
+      id: "6",
+      question: "Can digital transformation help reduce operational risks?",
+      answer:
+        "Yes. Digital tools such as remote monitoring, automated reporting, and AI-based risk assessment enhance safety, regulatory compliance, and operational reliability, reducing human errors and costly downtime.",
+    },
+    {
+      id: "7",
+      question: "How do Oil & Gas companies manage supply chain complexities?",
+      answer:
+        "By using digital supply chain platforms, companies can track shipments, optimize logistics, manage inventory, and coordinate with vendors efficiently. Real-time data ensures timely delivery and reduces operational bottlenecks.",
+    },
+    {
+      id: "8",
+      question: "What are the benefits of predictive maintenance in Oil & Gas?",
+      answer:
+        "Predictive maintenance uses sensor data and analytics to anticipate equipment failures. This minimizes unplanned downtime, lowers repair costs, and ensures consistent production output.",
+    },
+    {
+      id: "9",
+      question: "How is AI used in Oil & Gas exploration?",
+      answer:
+        "AI helps in seismic data interpretation, reservoir modeling, and identifying optimal drilling locations. Machine learning algorithms improve decision-making and increase the accuracy of exploration activities.",
+    },
+    {
+      id: "10",
+      question: "What digital solutions improve downstream operations?",
+      answer:
+        "Downstream operations benefit from refinery optimization software, automated inventory management, digital logistics tracking, and customer analytics platforms, enhancing efficiency and profitability in fuel distribution and retail operations.",
+    },
+  ],
+},
+
 };
