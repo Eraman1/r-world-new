@@ -1,6 +1,6 @@
 "use client";
 
-import { SolutionConfig } from "@/types/solutions";
+import { ServiceConfig } from "@/types/services";
 import { animationGraphicDesign } from "./animation-graphic-design";
 import { autodesk } from "./autodesk";
 import { aws } from "./AWS";
@@ -21,26 +21,11 @@ import { blockchain } from "./Blockchain";
 import { businessIntelligence } from "./businessIntelligence";
 import { cloud } from "./cloud";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-export const solutionsData: Record<string, SolutionConfig> = {
-  "animation-graphic-design": animationGraphicDesign,
+export const servicesData: Record<string, ServiceConfig> = {
+  "custom-software-development": animationGraphicDesign,
   autodesk,
   aws,
-  "artificial-intelligence": artificialintelligence,
+  artificialintelligence,
   // googlecloude,
   ibm,
   Microsoft,
@@ -50,12 +35,12 @@ export const solutionsData: Record<string, SolutionConfig> = {
   SAP,
   UKG,
   UiPath,
-//  assetTracking,
+  //  assetTracking,
   // arvr,
   Biometrics,
   blockchain,
-  "business-intelligence": businessIntelligence,
+  businessIntelligence,
   cloud,
 };
 
-export type { SolutionConfig };
+export type { ServiceConfig };

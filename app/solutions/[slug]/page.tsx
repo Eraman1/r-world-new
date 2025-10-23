@@ -29,7 +29,7 @@ export default function Page({ params }: Props) {
       {solutions.developerDetails && (
         <DeveloperDetails developerDetails={solutions.developerDetails} />
       )}
-       {solutions.solutions && (
+      {solutions.solutions && (
         <Solutions
           mainTitle={solutions.solutions.mainTitle}
           mainDescription={solutions.solutions.mainDescription}
@@ -38,7 +38,7 @@ export default function Page({ params }: Props) {
           linkUrl={solutions.solutions.linkUrl}
         />
       )}
-     
+
       {solutions.managementSolutions && (
         <ManagementSolutions
           managementSolutions={solutions.managementSolutions}
@@ -50,3 +50,4 @@ export default function Page({ params }: Props) {
     </div>
   );
 }
+
