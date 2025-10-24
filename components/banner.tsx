@@ -28,8 +28,6 @@ const Banner: React.FC = () => {
             World-Class Software Development
           </span>
         </h1>
-        <p>Welcome!</p>
-
         <p className="text-base md:text-lg text-blue-100 max-w-xl mx-auto">
           Partner with expert developers to build custom, scalable, and reliable
           software solutions that accelerate your business growth.
