@@ -1,0 +1,212 @@
+import { SolutionConfig } from "@/types/solutions";
+
+export const Microsoft: SolutionConfig = {
+  slug: "microsoft",
+
+  banner: {
+    title: "Empower Productivity with",
+    highlight: "Microsoft Cloud & Business Solutions",
+    subtitle:
+      "Unlock efficiency, collaboration, and innovation through Microsoft’s powerful ecosystem — from Azure and Dynamics 365 to Power Platform and Office 365.",
+    image:
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+    linkText: "Explore Microsoft Solutions",
+  },
+
+  developerDetails: {
+    heading: "Microsoft-Certified Experts in Cloud, Data & Productivity",
+    subheading:
+      "Our certified developers help businesses leverage Microsoft technologies to accelerate digital transformation, enhance security, and streamline operations.",
+    mainTitle: "Comprehensive Microsoft Development & Integration Services",
+    mainDescription:
+      "We provide end-to-end Microsoft solutions including Azure Cloud, Dynamics 365 CRM/ERP, Power BI analytics, and custom app development using .NET and Power Platform — tailored to your business needs.",
+    image: "/images/microsoft-laptop.png",
+    services: [
+      {
+        id: 1,
+        title: "Azure Cloud Solutions",
+        description:
+          "Migrate, deploy, and manage scalable applications on Microsoft Azure — with high availability, security, and global reach.",
+        icon: "/icons/cloud.svg",
+      },
+      {
+        id: 2,
+        title: "Microsoft 365 Integration",
+        description:
+          "Boost productivity with seamless integration of Microsoft Teams, SharePoint, and Office 365 into your daily workflows.",
+        icon: "/icons/office.svg",
+      },
+      {
+        id: 3,
+        title: "Dynamics 365 Development",
+        description:
+          "Enhance customer engagement and automate business operations with customized Dynamics 365 CRM and ERP solutions.",
+        icon: "/icons/settings.svg",
+      },
+    ],
+  },
+
+  solutions: {
+    mainTitle: "Modern Business Solutions Powered by Microsoft",
+    mainDescription:
+      "We harness Microsoft’s cloud-first ecosystem to build intelligent, secure, and scalable solutions that drive innovation and digital excellence.",
+    items: [
+      {
+        id: "azure-cloud",
+        icon: "Shield",
+        title: "Azure Cloud Infrastructure",
+        subtitle: "Reliable & Scalable Cloud Solutions",
+        description:
+          "Design and deploy robust cloud environments using Microsoft Azure — supporting AI, IoT, and enterprise applications.",
+      },
+      {
+        id: "power-bi",
+        icon: "Shield",
+        title: "Power BI & Data Analytics",
+        subtitle: "Transform Data into Insights",
+        description:
+          "Visualize and analyze your business data with Power BI dashboards, enabling smarter and faster decision-making.",
+      },
+      {
+        id: "microsoft-teams",
+        icon: "Shield",
+        title: "Microsoft Teams Collaboration",
+        subtitle: "Connect People & Workflows",
+        description:
+          "Unify your workplace communication through Teams integration, document sharing, and real-time collaboration.",
+      },
+      {
+        id: "dynamics-crm",
+        icon: "Shield",
+        title: "Dynamics 365 CRM/ERP",
+        subtitle: "Empower Business Operations",
+        description:
+          "Streamline customer management, sales, and operations through integrated Dynamics 365 solutions.",
+      },
+      {
+        id: "power-platform",
+        icon: "Shield",
+        title: "Power Platform Automation",
+        subtitle: "No-Code/Low-Code Development",
+        description:
+          "Accelerate innovation with Power Apps, Power Automate, and Power Virtual Agents for business process automation.",
+      },
+      {
+        id: "security-compliance",
+        icon: "Shield",
+        title: "Security & Compliance",
+        subtitle: "Enterprise-Grade Protection",
+        description:
+          "Implement robust security, identity management, and compliance frameworks using Microsoft Defender and Entra ID.",
+      },
+    ],
+    linkText: "Get Microsoft Solutions",
+    linkUrl: "/contact-us",
+  },
+
+  managementSolutions: {
+    title: "Microsoft Enterprise Management Systems",
+    subtitle:
+      "Empower your teams with cloud-connected tools that simplify management, collaboration, and analytics across departments.",
+    subtitleLink: { text: "Microsoft enterprise systems", url: "#" },
+    laptopImage: "/images/management-microsoft.jpg",
+    mobileImage: "/images/management-microsoft-mobile.jpg",
+    topFeatures: [
+      {
+        id: "integration",
+        icon: "map",
+        title: "Seamless App Integration",
+        description:
+          "Connect Microsoft tools like Outlook, Teams, SharePoint, and Dynamics into unified workflows for better collaboration.",
+      },
+      {
+        id: "cloud-collaboration",
+        icon: "map",
+        title: "Cloud Collaboration Environment",
+        description:
+          "Enable real-time teamwork with synchronized file sharing, version control, and secure document management.",
+      },
+      {
+        id: "data-analytics",
+        icon: "map",
+        title: "Advanced Analytics & Reporting",
+        description:
+          "Track performance and generate AI-driven insights using Power BI and Microsoft Fabric analytics solutions.",
+      },
+    ],
+    bottomFeatures: [
+      {
+        id: "workflow-automation",
+        icon: "map",
+        title: "Automated Workflows",
+        description:
+          "Use Power Automate to simplify repetitive tasks and integrate apps without writing code.",
+      },
+      {
+        id: "multi-device",
+        icon: "map",
+        title: "Multi-Device Accessibility",
+        description:
+          "Access and manage your business data securely from desktop, web, or mobile devices with Microsoft 365 tools.",
+      },
+      {
+        id: "backup-security",
+        icon: "map",
+        title: "Data Backup & Security",
+        description:
+          "Protect data with Azure Backup, Microsoft Defender, and industry-standard encryption for peace of mind.",
+      },
+      {
+        id: "api-support",
+        icon: "map",
+        title: "API & Integration Support",
+        description:
+          "Connect Microsoft services with custom APIs, third-party apps, or legacy systems for seamless digital transformation.",
+      },
+    ],
+    ctaText: "Talk to Microsoft Experts",
+    onCtaClick: () => {},
+  },
+
+  faq: {
+    title: "FAQ",
+    items: [
+      {
+        id: "1",
+        question: "What Microsoft services do you offer?",
+        answer:
+          "We provide services across Azure Cloud, Microsoft 365, Dynamics 365, Power Platform, and enterprise integration.",
+      },
+      {
+        id: "2",
+        question: "Can you migrate our infrastructure to Azure?",
+        answer:
+          "Yes, we offer complete Azure migration services — including architecture planning, data transfer, and post-deployment optimization.",
+      },
+      {
+        id: "3",
+        question: "Do you customize Dynamics 365 for businesses?",
+        answer:
+          "Absolutely. We customize Dynamics 365 CRM and ERP modules to align with your organization’s unique workflows and goals.",
+      },
+      {
+        id: "4",
+        question: "Can you integrate Microsoft tools with third-party apps?",
+        answer:
+          "Yes. We integrate Microsoft solutions with Salesforce, SAP, Slack, and other systems for unified business operations.",
+      },
+      {
+        id: "5",
+        question: "Do you provide Microsoft licensing and support?",
+        answer:
+          "We assist with Microsoft product licensing, deployment, configuration, and ongoing technical support.",
+      },
+      {
+        id: "6",
+        question: "Is data secure in Microsoft Cloud?",
+        answer:
+          "Yes. Microsoft’s cloud infrastructure complies with global standards including ISO, GDPR, and HIPAA for top-tier data protection.",
+      },
+    ],
+  },
+};
