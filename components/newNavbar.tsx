@@ -266,17 +266,17 @@ const megaMenuData: MegaMenuData = {
 };
 
 const strategicPartners = [
-  { name: "Autodesk", link: "https://www.autodesk.com/" },
-  { name: "AWS", link: "https://aws.amazon.com/partners/" },
-  { name: "Google Cloud", link: "https://cloud.google.com/partners" },
-  { name: "IBM", link: "https://www.ibm.com/partnerworld" },
-  { name: "Microsoft", link: "https://partner.microsoft.com/" },
-  { name: "NetSuite", link: "https://www.netsuite.com/portal/partners.shtml" },
-  { name: "Oracle", link: "https://partner.oracle.com/" },
-  { name: "Salesforce", link: "https://www.salesforce.com/partners/" },
-  { name: "SAP", link: "https://www.sap.com/partner.html" },
-  { name: "UKG", link: "https://www.ukg.com/partners" },
-  { name: "UiPath", link: "https://www.uipath.com/partners" },
+  { name: "Autodesk", link: "/autodesk" },
+  { name: "AWS", link: "/aws" },
+  { name: "Google Cloud", link: "/google-cloud" },
+  { name: "IBM", link: "/ibm" },
+  { name: "Microsoft", link: "/microsoft" },
+  { name: "NetSuite", link: "/net-suite" },
+  { name: "Oracle", link: "/oracle" },
+  { name: "Salesforce", link: "/salesforce" },
+  { name: "SAP", link: "/sap" },
+  { name: "UKG", link: "/ukg" },
+  { name: "UiPath", link: "/uipath" },
 ];
 
 const NewNavbar = () => {

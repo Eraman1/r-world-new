@@ -5,7 +5,6 @@ import { animationGraphicDesign } from "./animation-graphic-design";
 import { autodesk } from "./autodesk";
 import { aws } from "./AWS";
 import { artificialintelligence } from "./artificial-intelligence";
-// import { googlecloude } from "./Google-Cloude";
 import { ibm } from "./IBM";
 import { Microsoft } from "./Microsoft";
 import { NetSuit } from "./NetSuit";
@@ -14,8 +13,6 @@ import { Salesforce } from "./Salesforce";
 import { SAP } from "./SAP";
 import { UKG } from "./UKG";
 import { UiPath } from "./UiPath";
-// import { assetTracking } from "./Asset-Tracking";
-// import { arvr } from "./arvr";
 import { Biometrics } from "./Biometrics";
 import { blockchain } from "./Blockchain";
 import { businessIntelligence } from "./businessIntelligence";
@@ -24,7 +21,6 @@ import { cms } from "./cms";
 import { crm } from "./crm";
 import { database } from './Database';
 import { digitalAssetManagement } from './digitalassetmanagement';
-// import { digitalSignage } from './digital-signage';
 import { documentManagement } from './documentmanagement';
 import { embeddedSoftware } from './embeddedSoftware';
 import { erp } from './erp';
@@ -50,41 +46,11 @@ import { uiUx } from './uiux';
 import { wearableTechnology } from './wearabletechnology';
 import { webDevelopment } from './webdevelopment';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const solutionsData: Record<string, SolutionConfig> = {
   "animation-graphic-design": animationGraphicDesign,
   autodesk,
   aws,
   "artificial-intelligence": artificialintelligence,
-  // googlecloude,
   ibm,
   Microsoft,
   NetSuit,
@@ -93,8 +59,6 @@ export const solutionsData: Record<string, SolutionConfig> = {
   SAP,
   UKG,
   UiPath,
-//  assetTracking,
-  // arvr,
   Biometrics,
   blockchain,
   "business-intelligence": businessIntelligence,
@@ -103,7 +67,6 @@ export const solutionsData: Record<string, SolutionConfig> = {
   crm,
   database,
   digitalAssetManagement,
-  // digitalSignage,
   documentManagement,
   embeddedSoftware,
   erp,

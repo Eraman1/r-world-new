@@ -10,6 +10,7 @@ import FAQ from "../components/faqItem";
 import ManagementSolutions from "../components/managementSolutions";
 import Solutions from "../components/solutions";
 import { servicesData } from "@/data/services/services";
+import SolutionsTwo from "../components/solutionsTwo";
 
 
 type Props = {
@@ -30,7 +31,7 @@ export default function Page({ params }: Props) {
       {services.developerDetails && (
         <DeveloperDetails developerDetails={services.developerDetails} />
       )}
-       {services.solutions && (
+      {services.solutions && (
         <Solutions
           mainTitle={services.solutions.mainTitle}
           mainDescription={services.solutions.mainDescription}
@@ -39,7 +40,16 @@ export default function Page({ params }: Props) {
           linkUrl={services.solutions.linkUrl}
         />
       )}
-     
+      {services.solutions && (
+        <SolutionsTwo
+          mainTitle={services.solutions.mainTitle}
+          mainDescription={services.solutions.mainDescription}
+          solutions={services.solutions.items}
+          linkText={services.solutions.linkText}
+          linkUrl={services.solutions.linkUrl}
+        />
+      )}
+
       {services.managementSolutions && (
         <ManagementSolutions
           managementSolutions={services.managementSolutions}

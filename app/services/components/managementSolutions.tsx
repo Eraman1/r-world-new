@@ -9,7 +9,7 @@ import {
   TestTube,
   Settings,
 } from "lucide-react";
-import { SolutionConfig } from "@/types/solutions";
+import { ServiceConfig } from "@/types/services";
 
 const iconsMap: Record<string, React.ReactNode> = {
   map: <Map className="w-16 h-16 text-amber-500" />,
@@ -22,14 +22,9 @@ const iconsMap: Record<string, React.ReactNode> = {
 };
 
 const ManagementSolutions: React.FC<{
-  managementSolutions: SolutionConfig["managementSolutions"];
+  managementSolutions: ServiceConfig["managementSolutions"];
 }> = ({ managementSolutions }) => {
-  if (
-    !managementSolutions ||
-    !managementSolutions.topFeatures ||
-    !managementSolutions.bottomFeatures
-  )
-    return null;
+  if (!managementSolutions || !managementSolutions.topFeatures) return null;
   const renderDescription = (
     description: string,
     link?: { text: string; url: string }
@@ -119,85 +114,6 @@ const ManagementSolutions: React.FC<{
                     {renderDescription(feature.description, feature.link)}
                   </p>
                 </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* Bottom Features Section */}
-        <div className="flex flex-col lg:flex-row items-start gap-12">
-          {/* Left Bottom Features */}
-          <div className="flex-1 space-y-8">
-            {managementSolutions.bottomFeatures.slice(0, 2).map((feature) => (
-              <div key={feature.id} className="text-center group">
-                <div className="flex justify-center mb-4 transition-transform duration-300 group-hover:scale-110">
-                  {iconsMap[feature.icon]}
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-700 leading-relaxed text-justify max-w-md mx-auto">
-                  {renderDescription(feature.description, feature.link)}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          {/* Mobile Mockup */}
-          <div className="flex-1 flex justify-center">
-            <div className="relative">
-              <div className="bg-gray-900 rounded-[3rem] p-3 shadow-2xl w-80">
-                <div className="bg-white rounded-[2.5rem] overflow-hidden aspect-[9/19]">
-                  {managementSolutions.mobileImage ? (
-                    <img
-                      src={managementSolutions.mobileImage}
-                      alt="Smart farming mobile app"
-                      className="w-full h-full object-cover"
-                    />
-                  ) : (
-                    <div className="w-full h-full bg-gradient-to-br from-emerald-50 to-emerald-100 p-4">
-                      <div className="bg-gray-900 text-white rounded-t-3xl p-4 text-center mb-4">
-                        <h4 className="text-lg font-bold">Smart Farming</h4>
-                      </div>
-                      <div className="space-y-3">
-                        <div className="bg-white rounded-2xl p-4 shadow-md">
-                          <div className="flex items-center gap-3 mb-2">
-                            <div className="w-16 h-16 bg-green-400 rounded-lg"></div>
-                            <div className="flex-1">
-                              <div className="h-4 bg-gray-200 rounded mb-2"></div>
-                              <div className="h-3 bg-gray-100 rounded"></div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="bg-white rounded-2xl p-4 shadow-md space-y-2">
-                          <div className="h-6 bg-yellow-400 rounded"></div>
-                          <div className="h-4 bg-gray-100 rounded"></div>
-                          <div className="h-4 bg-gray-100 rounded"></div>
-                        </div>
-                        <div className="bg-green-600 text-white rounded-full py-3 text-center font-semibold">
-                          View Details
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* Right Bottom Features */}
-          <div className="flex-1 space-y-8">
-            {managementSolutions.bottomFeatures.slice(2).map((feature) => (
-              <div key={feature.id} className="text-center group">
-                <div className="flex justify-center mb-4 transition-transform duration-300 group-hover:scale-110">
-                  {iconsMap[feature.icon]}
-                </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-700 leading-relaxed text-justify max-w-md mx-auto">
-                  {renderDescription(feature.description, feature.link)}
-                </p>
               </div>
             ))}
           </div>
