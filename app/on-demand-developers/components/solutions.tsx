@@ -7,7 +7,6 @@ interface Solution {
   id: string;
   icon: string;
   title: string;
-  subtitle: string;
   description: string;
 }
 
@@ -67,10 +66,7 @@ const Solutions: React.FC<SolutionsProps> = ({
                 {solution.title}
               </h2>
 
-              {/* Subtitle */}
-              <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-4">
-                {solution.subtitle}
-              </h3>
+            
 
               {/* Description */}
               <p className="text-sm sm:text-base text-gray-700 leading-relaxed text-justify">

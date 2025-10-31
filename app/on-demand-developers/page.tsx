@@ -3,15 +3,13 @@ import React from "react";
 import Banner from "@/app/industries/components/banner";
 import Breadcrumb from "@/app/industries/components/breadcrumb";
 
-import { notFound } from "next/navigation";
 import FAQ from "@/app/industries/components/faqItem";
 import { OnDemandDevelopers } from "@/data/onDemandDevelopers/on-demand-developers";
 import FeaturesComponent from "./components/FeaturesComponent";
 import Solutions from "./components/solutions";
+import TopSkill from "./components/TopSkill";
 
-type Props = {
-  params: Promise<{ slug: string }>;
-};
+
 
 export default function Page() {
   //   const { slug } = React.use(params);
@@ -31,6 +29,15 @@ export default function Page() {
           solutions={OnDemandDevelopers.solutions.items}
           linkText={OnDemandDevelopers.solutions.linkText}
           linkUrl={OnDemandDevelopers.solutions.linkUrl}
+        />
+      )}
+      {OnDemandDevelopers.topSkill && (
+        <TopSkill
+          mainTitle={OnDemandDevelopers.topSkill.mainTitle}
+          mainDescription={OnDemandDevelopers.topSkill.mainDescription}
+          solutions={OnDemandDevelopers.topSkill.items}
+          linkText={OnDemandDevelopers.topSkill.linkText}
+          linkUrl={OnDemandDevelopers.topSkill.linkUrl}
         />
       )}
       {OnDemandDevelopers.faq && (

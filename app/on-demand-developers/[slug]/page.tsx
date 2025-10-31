@@ -8,8 +8,7 @@ import { onDemandDevelopersData } from "@/data/onDemandDevelopers/onDemandDevelo
 import FAQ from "@/app/industries/components/faqItem";
 import FeaturesComponent from "../components/FeaturesComponent";
 import Solutions from "../components/solutions";
-
-
+import TopSkill from "../components/TopSkill";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -26,13 +25,6 @@ export default function Page({ params }: Props) {
       <Banner data={onDemandDevelopers.banner} />
       <Breadcrumb />
       <FeaturesComponent features={onDemandDevelopers.features} />
-
-      {onDemandDevelopers.faq && (
-        <FAQ
-          title={onDemandDevelopers.faq.title}
-          items={onDemandDevelopers.faq.items}
-        />
-      )}
       {onDemandDevelopers.solutions && (
         <Solutions
           mainTitle={onDemandDevelopers.solutions.mainTitle}
@@ -40,6 +32,22 @@ export default function Page({ params }: Props) {
           solutions={onDemandDevelopers.solutions.items}
           linkText={onDemandDevelopers.solutions.linkText}
           linkUrl={onDemandDevelopers.solutions.linkUrl}
+        />
+      )}
+      {onDemandDevelopers.topSkill && (
+        <TopSkill
+          mainTitle={onDemandDevelopers.topSkill.mainTitle}
+          mainDescription={onDemandDevelopers.topSkill.mainDescription}
+          solutions={onDemandDevelopers.topSkill.items}
+          linkText={onDemandDevelopers.topSkill.linkText}
+          linkUrl={onDemandDevelopers.topSkill.linkUrl}
+        />
+      )}
+
+      {onDemandDevelopers.faq && (
+        <FAQ
+          title={onDemandDevelopers.faq.title}
+          items={onDemandDevelopers.faq.items}
         />
       )}
     </div>

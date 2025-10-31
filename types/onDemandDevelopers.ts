@@ -19,7 +19,19 @@ export type OnDemandDevelopersConfig = {
       id: string;
       icon: string;
       title: string;
-      subtitle: string;
+      description: string;
+    }[];
+    linkText?: string;
+    linkUrl?: string;
+  };
+  topSkill?: {
+    mainTitle: string;
+    mainDescription: string;
+    items: {
+      id: string;
+      icon: string;
+      title: string;
+      link?: string;
       description: string;
     }[];
     linkText?: string;

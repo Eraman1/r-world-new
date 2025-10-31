@@ -14,6 +14,7 @@ import { useState } from "react";
 interface MegaMenuData {
   [key: string]: {
     title: string;
+    link?: string;
     items: {
       title: string;
       link: string;
@@ -206,6 +207,7 @@ const megaMenuData: MegaMenuData = {
 
   developers: {
     title: "On-Demand Developers",
+    link: "/on-demand-developers",
     items: [
       { title: ".NET Developers", link: "/developers/dotnet" },
       { title: "Java Developers", link: "/developers/java" },
@@ -338,7 +340,7 @@ const NewNavbar = () => {
       hasMegaMenu: true,
       menuKey: "company",
     },
-    { name: "BLOG", hasDropdown: false },
+    { name: "BLOG", hasDropdown: false , link: "/blogs"},
   ];
 
   return (
@@ -394,7 +396,7 @@ const NewNavbar = () => {
                     className="text-white flex items-center space-x-1 py-2"
                     onClick={() => handleMenuClick(item.menuKey)}
                   >
-                    <span className="font-medium text-sm">{item.name}</span>
+                   {item.link ? <Link href={item.link} className="font-medium text-sm">{item.name}</Link> : <span className="font-medium text-sm">{item.name}</span>}
                     {item.hasDropdown &&
                       (activeMegaMenu === item.menuKey && item.hasMegaMenu ? (
                         <ChevronUpIcon className="h-4 w-4" />
@@ -621,7 +623,16 @@ const NewNavbar = () => {
               // Generic mega menu for other items
               <div>
                 <h3 className="text-lg font-semibold text-[#14213d] mb-4 border-b border-gray-200 pb-2">
-                  {megaMenuData[activeMegaMenu]?.title}
+                  {megaMenuData[activeMegaMenu]?.link ? (
+                    <Link
+                      href={megaMenuData[activeMegaMenu]?.link}
+                      className="text-gray-800 hover:text-amber-600 transition-colors duration-200 text-base"
+                    >
+                      {megaMenuData[activeMegaMenu]?.title}
+                    </Link>   
+                  ) : (
+                    megaMenuData[activeMegaMenu]?.title
+                  )}
                 </h3>
                 <div className="grid grid-cols-4 gap-6">
                   {/* Split items into 4 columns */}

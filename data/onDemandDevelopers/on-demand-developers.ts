@@ -59,7 +59,6 @@ export const OnDemandDevelopers: OnDemandDevelopersConfig = {
         id: "visual-branding",
         icon: "Leaf",
         title: "Visual Branding",
-        subtitle: "Consistency Across Platforms",
         description:
           "We build cohesive brand visuals that ensure your identity is instantly recognizable across websites, apps, videos, and print materials.",
       },
@@ -67,7 +66,6 @@ export const OnDemandDevelopers: OnDemandDevelopersConfig = {
         id: "3d-modeling",
         icon: "Leaf",
         title: "3D Modeling & Animation",
-        subtitle: "Realistic Product Visuals",
         description:
           "Our 3D artists design and animate realistic objects and environments for commercials, films, games, and virtual product showcases.",
       },
@@ -75,7 +73,6 @@ export const OnDemandDevelopers: OnDemandDevelopersConfig = {
         id: "ui-motion",
         icon: "Leaf",
         title: "UI Motion Design",
-        subtitle: "Enhance User Experience",
         description:
           "We integrate smooth motion into user interfaces to guide user attention, improve navigation, and create delightful digital experiences.",
       },
@@ -83,7 +80,6 @@ export const OnDemandDevelopers: OnDemandDevelopersConfig = {
         id: "illustration",
         icon: "Leaf",
         title: "Custom Illustration Design",
-        subtitle: "Unique Art for Every Brand",
         description:
           "Our illustrators design distinctive artwork that brings your brand’s personality to life through a blend of creativity and storytelling.",
       },
@@ -91,7 +87,6 @@ export const OnDemandDevelopers: OnDemandDevelopersConfig = {
         id: "video-production",
         icon: "Leaf",
         title: "Video Production & Editing",
-        subtitle: "Professional Multimedia Creations",
         description:
           "From scripting to editing, we handle the full video production process to deliver professional-grade promotional and corporate videos.",
       },
@@ -99,7 +94,63 @@ export const OnDemandDevelopers: OnDemandDevelopersConfig = {
         id: "ai-enhancement",
         icon: "Leaf",
         title: "AI-Assisted Design",
-        subtitle: "Next-Gen Creative Workflow",
+        description:
+          "We leverage AI tools for faster design workflows, from automated background removal to generative art and animation enhancement.",
+      },
+    ],
+    linkText: "Get Custom Design Solutions",
+    linkUrl: "/contact-us",
+  },
+  topSkill: {
+    mainTitle: "Creative Digital Design & Animation Solutions",
+    mainDescription:
+      "We craft innovative visual experiences that merge creativity with technology. Our animation and graphic design solutions empower brands to connect emotionally with their audiences through stunning visuals, motion, and interactivity.",
+    items: [
+      {
+        id: "visual-branding",
+        icon: "Leaf",
+        title: "Visual Branding",
+        link: "/contact-us",
+        description:
+          "We build cohesive brand visuals that ensure your identity is instantly recognizable across websites, apps, videos, and print materials.",
+      },
+      {
+        id: "3d-modeling",
+        icon: "Leaf",
+        title: "3D Modeling & Animation",
+        link: "/contact-us",
+        description:
+          "Our 3D artists design and animate realistic objects and environments for commercials, films, games, and virtual product showcases.",
+      },
+      {
+        id: "ui-motion",
+        icon: "Leaf",
+        title: "UI Motion Design",
+        link: "/contact-us",
+        description:
+          "We integrate smooth motion into user interfaces to guide user attention, improve navigation, and create delightful digital experiences.",
+      },
+      {
+        id: "illustration",
+        icon: "Leaf",
+        title: "Custom Illustration Design",
+        link: "/contact-us",
+        description:
+          "Our illustrators design distinctive artwork that brings your brand’s personality to life through a blend of creativity and storytelling.",
+      },
+      {
+        id: "video-production",
+        icon: "Leaf",
+        title: "Video Production & Editing",
+        link: "/contact-us",
+        description:
+          "From scripting to editing, we handle the full video production process to deliver professional-grade promotional and corporate videos.",
+      },
+      {
+        id: "ai-enhancement",
+        icon: "Leaf",
+        title: "AI-Assisted Design",
+        link: "/contact-us",
         description:
           "We leverage AI tools for faster design workflows, from automated background removal to generative art and animation enhancement.",
       },
