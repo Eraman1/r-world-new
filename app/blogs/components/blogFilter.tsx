@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 interface BlogFilterProps {
   industries: string[];
@@ -7,12 +7,13 @@ interface BlogFilterProps {
 }
 
 export const BlogFilter: React.FC<BlogFilterProps> = ({
-  industries,
-  technologies,
+  industries = [],
+  technologies = [],
   onFilterChange,
 }) => {
-  const [selectedIndustry, setSelectedIndustry] = useState('All Industries');
-  const [selectedTechnology, setSelectedTechnology] = useState('All Technologies');
+  const [selectedIndustry, setSelectedIndustry] = useState("All Industries");
+  const [selectedTechnology, setSelectedTechnology] =
+    useState("All Technologies");
 
   const handleIndustryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     const value = e.target.value;
@@ -27,23 +28,23 @@ export const BlogFilter: React.FC<BlogFilterProps> = ({
   };
 
   const handleShowAll = () => {
-    setSelectedIndustry('All Industries');
-    setSelectedTechnology('All Technologies');
-    onFilterChange('All Industries', 'All Technologies');
+    setSelectedIndustry("All Industries");
+    setSelectedTechnology("All Technologies");
+    onFilterChange("All Industries", "All Technologies");
   };
 
   return (
     <div className="flex items-center gap-4 mb-8 flex-wrap">
       <span className="text-lg font-semibold text-gray-700">Sort By</span>
-      
+
       <select
         value={selectedIndustry}
         onChange={handleIndustryChange}
-        className="px-4 py-1.5 border border-gray-300  bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 min-w-[200px]"
+        className="px-4 py-1.5 border border-gray-300 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 min-w-[200px]"
       >
         <option value="All Industries">All Industries</option>
-        {industries.map((industry) => (
-          <option key={industry} value={industry}>
+        {[...new Set(industries ?? [])].map((industry, index) => (
+          <option key={`${industry}-${index}`} value={industry}>
             {industry}
           </option>
         ))}
@@ -52,11 +53,11 @@ export const BlogFilter: React.FC<BlogFilterProps> = ({
       <select
         value={selectedTechnology}
         onChange={handleTechnologyChange}
-        className="px-4 py-1.5 border border-gray-300  bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 min-w-[200px]"
+        className="px-4 py-1.5 border border-gray-300 bg-white text-gray-700 focus:outline-none focus:ring-2 focus:ring-teal-500 min-w-[200px]"
       >
         <option value="All Technologies">All Technologies</option>
-        {technologies.map((tech) => (
-          <option key={tech} value={tech}>
+        {[...new Set(technologies ?? [])].map((tech, index) => (
+          <option key={`${tech}-${index}`} value={tech}>
             {tech}
           </option>
         ))}
@@ -64,7 +65,7 @@ export const BlogFilter: React.FC<BlogFilterProps> = ({
 
       <button
         onClick={handleShowAll}
-        className="px-4 py-1.5 bg-amber-500 text-white  hover:bg-amber-600 transition-colors font-medium"
+        className="px-4 py-1.5 bg-amber-500 text-white hover:bg-amber-600 transition-colors font-medium"
       >
         Show All
       </button>

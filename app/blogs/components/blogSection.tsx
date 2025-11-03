@@ -46,18 +46,22 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ posts }) => {
         <BlogFilter
           industries={industries}
           technologies={technologies}
-          onFilterChange={handleFilterChange}
+          onFilterChange={(industry, technology) =>
+            handleFilterChange(industry, technology)
+          }
         />
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredPosts.map((post) => (
-            <BlogCard key={post.id} post={post} />
+          {filteredPosts.map((post, index) => (
+            <BlogCard key={post.id ?? `post-${index}`} post={post} />
           ))}
         </div>
 
         {filteredPosts.length === 0 && (
           <div className="text-center py-12">
-            <p className="text-gray-500 text-lg">No posts found matching your filters.</p>
+            <p className="text-gray-500 text-lg">
+              No posts found matching your filters.
+            </p>
           </div>
         )}
       </div>

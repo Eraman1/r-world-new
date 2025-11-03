@@ -8,13 +8,16 @@ interface BlogCardProps {
 
 export const BlogCard: React.FC<BlogCardProps> = ({ post }) => {
   return (
-    <Link href={post.slug || "#"} className="group block">
+    <Link
+      href={`/blogs/${post.slug}`}
+      key={post.slug || "#"}
+      className="group block"
+    >
       <div className="bg-white  overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
         <div className="relative h-48 w-full overflow-hidden">
-          <Image
+          <img
             src={post.image}
             alt={post.title}
-            fill
             className="object-cover group-hover:scale-105 transition-transform duration-300"
           />
         </div>

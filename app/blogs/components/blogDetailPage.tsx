@@ -1,22 +1,22 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
-import { 
-  Calendar, 
-  Clock, 
-  User, 
-  Tag, 
-  Facebook, 
-  Twitter, 
-  Linkedin, 
+import Image from "next/image";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import {
+  Calendar,
+  Clock,
+  User,
+  Tag,
+  Facebook,
+  Twitter,
+  Linkedin,
   Link2,
   ArrowLeft,
-  ChevronRight
-} from 'lucide-react';
-import { BlogPost } from '@/types/blog';
-import Breadcrumb from '@/app/industries/components/breadcrumb';
+  ChevronRight,
+} from "lucide-react";
+import { BlogPost } from "@/types/blog";
+import Breadcrumb from "@/app/industries/components/breadcrumb";
 
 interface BlogDetailPageProps {
   post: BlogPost;
@@ -24,31 +24,32 @@ interface BlogDetailPageProps {
 
 export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
   const [copied, setCopied] = useState(false);
+  const [shareUrl, setShareUrl] = useState("");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setShareUrl(encodeURIComponent(window.location.href));
+    }
+  }, []);
+
+  const shareTitle = encodeURIComponent(post.title);
 
   const handleCopyLink = () => {
-    navigator.clipboard.writeText(window.location.href);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    if (typeof window !== "undefined") {
+      navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
   };
-
-  const shareUrl = encodeURIComponent(window.location.href);
-  const shareTitle = encodeURIComponent(post.title);
 
   return (
     <article className="bg-white">
       {/* Hero Section */}
       <div className="relative h-[500px] w-full bg-gradient-to-r from-slate-900 to-slate-700">
         <div className="absolute inset-0 opacity-40">
-          <Image
-            src={post.image}
-            alt={post.title}
-            fill
-            className="object-cover"
-            priority
-          />
+          <img src={post.image} alt={post.title} className=" w-full h-full" />
         </div>
         <div className="relative h-full max-w-5xl mx-auto px-4 flex flex-col justify-center">
-          
           <div className="flex items-center gap-3 mb-4">
             <span className="px-4 py-1 bg-amber-500 text-white text-sm font-medium rounded-full">
               {post.category}
@@ -65,11 +66,13 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
           <div className="flex flex-wrap items-center gap-6 text-white/90 text-sm">
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
-              <span>{new Date(post.publishedAt).toLocaleDateString('en-US', {
-                month: 'long',
-                day: 'numeric',
-                year: 'numeric'
-              })}</span>
+              <span>
+                {new Date(post.publishedAt).toLocaleDateString("en-US", {
+                  month: "long",
+                  day: "numeric",
+                  year: "numeric",
+                })}
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
@@ -82,7 +85,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
           </div>
         </div>
       </div>
-      <Breadcrumb/>
+      <Breadcrumb />
 
       {/* Main Content */}
       <div className="max-w-5xl mx-auto px-4 py-12">
@@ -95,12 +98,11 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
                 <h3 className="text-sm font-semibold text-gray-500 uppercase mb-4">
                   Author
                 </h3>
-                <div className="flex items-start gap-4">
+                <div className="flex-col items-start gap-4">
                   <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
-                    <Image
+                    <img
                       src={post.author.avatar}
                       alt={post.author.name}
-                      fill
                       className="object-cover"
                     />
                   </div>
@@ -108,7 +110,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
                     <h4 className="font-bold text-gray-900 mb-1">
                       {post.author.name}
                     </h4>
-                    <p className="text-sm text-teal-600 mb-2">
+                    <p className="text-sm text-amber-600 mb-2">
                       {post.author.role}
                     </p>
                     <p className="text-xs text-gray-600 leading-relaxed">
@@ -157,7 +159,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
                   >
                     <Link2 className="w-4 h-4" />
                     <span className="text-sm font-medium">
-                      {copied ? 'Copied!' : 'Copy Link'}
+                      {copied ? "Copied!" : "Copy Link"}
                     </span>
                   </button>
                 </div>
@@ -169,7 +171,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
                   Technologies
                 </h3>
                 <div className="flex flex-wrap gap-2">
-                  {post.technologies.map((tech) => (
+                  {post.technologies?.map((tech) => (
                     <span
                       key={tech}
                       className="px-3 py-1 bg-teal-100 text-teal-700 text-xs font-medium rounded-full"
@@ -186,7 +188,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
           <div className="lg:col-span-9 order-1 lg:order-2">
             {/* Article Body */}
             <div className="prose prose-lg max-w-none">
-              <div 
+              <div
                 className="text-gray-700 leading-relaxed"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />
@@ -196,7 +198,9 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
             <div className="mt-12 pt-8 border-t border-gray-200">
               <div className="flex items-center gap-3 flex-wrap">
                 <Tag className="w-5 h-5 text-gray-500" />
-                <span className="text-sm font-semibold text-gray-700">Tags:</span>
+                <span className="text-sm font-semibold text-gray-700">
+                  Tags:
+                </span>
                 {post.tags.map((tag) => (
                   <Link
                     key={tag}
@@ -216,7 +220,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
                   <h2 className="text-2xl font-bold text-gray-900">
                     Related Articles
                   </h2>
-                  <Link 
+                  <Link
                     href="/blog"
                     className="text-teal-600 hover:text-teal-700 font-medium text-sm flex items-center gap-1"
                   >
@@ -233,10 +237,9 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
                     >
                       <div className="bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-lg transition-shadow">
                         <div className="relative h-48 w-full">
-                          <Image
+                          <img
                             src={relatedPost.image}
                             alt={relatedPost.title}
-                            fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
                           />
                         </div>
@@ -265,24 +268,24 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({ post }) => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-teal-500 to-teal-600 py-16">
+      <div className="bg-gradient-to-r from-gray-100 to-gray-200 py-16">
         <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-gray-700 mb-4">
             Ready to Start Your Project?
           </h2>
-          <p className="text-teal-50 text-lg mb-8">
+          <p className="text-gray-80 text-lg mb-8">
             Lets discuss how we can help bring your ideas to life
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
               href="/contact"
-              className="px-8 py-3 bg-white text-teal-600 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+              className="px-8 py-3 bg-white text-amber-400 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
             >
               Get in Touch
             </Link>
             <Link
               href="/blog"
-              className="px-8 py-3 bg-teal-700 text-white font-semibold rounded-lg hover:bg-teal-800 transition-colors"
+              className="px-8 py-3 bg-amber-400 text-white font-semibold rounded-lg hover:bg-teal-800 transition-colors"
             >
               Read More Articles
             </Link>
