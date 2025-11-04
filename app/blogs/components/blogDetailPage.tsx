@@ -307,7 +307,7 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({
             Ready to Start Your Project?
           </h2>
           <p className="text-gray-800 text-lg mb-8">
-            Let's discuss how we can help bring your ideas to life
+            Let&#39;s discuss how we can help bring your ideas to life
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
