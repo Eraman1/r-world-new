@@ -16,7 +16,7 @@ export const BlogCard: React.FC<BlogCardProps> = ({ post }) => {
       <div className="bg-white  overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
         <div className="relative h-48 w-full overflow-hidden">
           <img
-            src={post.image}
+            src={post.image || ""}
             alt={post.title}
             className="object-cover group-hover:scale-105 transition-transform duration-300"
           />

@@ -4,10 +4,10 @@ export interface BlogPost {
   slug: string;
   excerpt: string;
   content: string;
-  image: string;
+  image?: string;
   category: string;
-  industry: string;
-  technologies: string[];
+  industry?: string;
+  technologies?: string[];
   author: {
     name: string;
     avatar: string;

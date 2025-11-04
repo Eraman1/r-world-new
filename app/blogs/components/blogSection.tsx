@@ -1,36 +1,52 @@
-'use client';
+"use client";
 
-import { useState, useMemo } from 'react';
-import { BlogPost } from '@/types/blog';
-import { BlogCard } from './blogCard';
-import { BlogFilter } from './blogFilter';
+import { useState, useMemo } from "react";
+import { BlogPost } from "@/types/blog";
+import { BlogCard } from "./blogCard";
+import { BlogFilter } from "./blogFilter";
 
 interface BlogSectionProps {
   posts: BlogPost[];
 }
 
 export const BlogSection: React.FC<BlogSectionProps> = ({ posts }) => {
-  const [selectedIndustry, setSelectedIndustry] = useState('All Industries');
-  const [selectedTechnology, setSelectedTechnology] = useState('All Technologies');
+  const [selectedIndustry, setSelectedIndustry] =
+    useState<string>("All Industries");
+  const [selectedTechnology, setSelectedTechnology] =
+    useState<string>("All Technologies");
 
-  const industries = useMemo(() => {
-    const uniqueIndustries = [...new Set(posts.map((post) => post.industry))];
+  const industries = useMemo<string[]>(() => {
+    const uniqueIndustries = [
+      ...new Set(
+        posts
+          .map((post) => post.industry)
+          .filter(
+            (industry): industry is string => typeof industry === "string"
+          )
+      ),
+    ];
     return uniqueIndustries.sort();
   }, [posts]);
 
-  const technologies = useMemo(() => {
-    const allTechs = posts.flatMap((post) => post.technologies);
+  const technologies = useMemo<string[]>(() => {
+    const allTechs = posts.flatMap((post) =>
+      Array.isArray(post.technologies) ? post.technologies : []
+    );
     const uniqueTechs = [...new Set(allTechs)];
     return uniqueTechs.sort();
   }, [posts]);
 
-  const filteredPosts = useMemo(() => {
+  const filteredPosts = useMemo<BlogPost[]>(() => {
     return posts.filter((post) => {
       const matchesIndustry =
-        selectedIndustry === 'All Industries' || post.industry === selectedIndustry;
+        selectedIndustry === "All Industries" ||
+        post.industry === selectedIndustry;
+
       const matchesTechnology =
-        selectedTechnology === 'All Technologies' ||
-        post.technologies.includes(selectedTechnology);
+        selectedTechnology === "All Technologies" ||
+        (Array.isArray(post.technologies) &&
+          post.technologies.includes(selectedTechnology));
+
       return matchesIndustry && matchesTechnology;
     });
   }, [posts, selectedIndustry, selectedTechnology]);
@@ -46,9 +62,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ posts }) => {
         <BlogFilter
           industries={industries}
           technologies={technologies}
-          onFilterChange={(industry, technology) =>
-            handleFilterChange(industry, technology)
-          }
+          onFilterChange={handleFilterChange}
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

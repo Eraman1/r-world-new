@@ -20,8 +20,17 @@ export default async function BlogSlugPage({ params }: Props) {
     if (!post) return notFound();
 
     return <BlogDetailPage post={post} />;
-  } catch (err: any) {
-    if (err?.response?.status === 404) return notFound();
+  } catch (err: unknown) {
+    // Safely check if the error is an AxiosError
+    if (
+      typeof err === "object" &&
+      err !== null &&
+      "response" in err &&
+      (err as { response?: { status?: number } }).response?.status === 404
+    ) {
+      return notFound();
+    }
+
     console.error("Failed to fetch blog by slug:", err);
     return notFound();
   }
