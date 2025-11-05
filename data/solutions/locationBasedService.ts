@@ -47,62 +47,63 @@ export const locationBasedService: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Innovative Location Intelligence Solutions",
-    mainDescription:
-      "Empower your business with location-based insights through smart geospatial systems. Our solutions enable seamless tracking, planning, and analytics powered by real-time data.",
-    items: [
-      {
-        id: "fleet-management",
-        icon: "Leaf",
-        title: "Fleet Management",
-        subtitle: "Real-Time Vehicle Monitoring",
-        description:
-          "Track fleet performance, driver behavior, and vehicle locations in real-time with automated reporting and route history.",
-      },
-      {
-        id: "asset-tracking",
-        icon: "Leaf",
-        title: "Asset Tracking & Monitoring",
-        subtitle: "End-to-End Visibility",
-        description:
-          "Keep tabs on valuable assets using IoT-enabled GPS trackers with predictive analytics and theft prevention alerts.",
-      },
-      {
-        id: "geo-analytics",
-        icon: "Leaf",
-        title: "Geo-Analytics & Insights",
-        subtitle: "Data-Driven Location Intelligence",
-        description:
-          "Analyze spatial data for smarter decision-making in logistics, marketing, and infrastructure management.",
-      },
-      {
-        id: "navigation-systems",
-        icon: "Leaf",
-        title: "Smart Navigation Systems",
-        subtitle: "Real-Time Traffic & Route Guidance",
-        description:
-          "Deliver real-time route recommendations with AI-based navigation that adapts to changing road and traffic conditions.",
-      },
-      {
-        id: "delivery-optimization",
-        icon: "Leaf",
-        title: "Delivery Optimization Platforms",
-        subtitle: "Efficient Logistics Operations",
-        description:
-          "Enhance delivery workflows with geofencing, dynamic routing, and proof-of-delivery tracking modules.",
-      },
-      {
-        id: "gis-integration",
-        icon: "Leaf",
-        title: "GIS Mapping Integration",
-        subtitle: "Custom Map-Based Applications",
-        description:
-          "Integrate advanced GIS solutions into your software ecosystem to visualize, manage, and analyze geospatial data effectively.",
-      },
-    ],
-    linkText: "Explore Our GPS Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Innovative Location Intelligence Solutions",
+  mainDescription:
+    "Empower your business with location-based insights through smart geospatial systems. Our solutions enable seamless tracking, planning, and analytics powered by real-time data.",
+  items: [
+    {
+      id: "fleet-management",
+      icon: "Leaf",
+      title: "Fleet Management",
+      subtitle: "Real-Time Vehicle Monitoring",
+      description:
+        "Monitor your fleet in real-time to track vehicle locations, performance metrics, and driver behavior. Use automated reporting and route history to optimize efficiency. Ensure timely deliveries and reduce operational costs across your fleet.",
+    },
+    {
+      id: "asset-tracking",
+      icon: "Leaf",
+      title: "Asset Tracking & Monitoring",
+      subtitle: "End-to-End Visibility",
+      description:
+        "Track valuable assets with IoT-enabled GPS devices for complete visibility. Receive predictive alerts to prevent theft or misplacement. Optimize resource usage and enhance accountability across all asset movements.",
+    },
+    {
+      id: "geo-analytics",
+      icon: "Leaf",
+      title: "Geo-Analytics & Insights",
+      subtitle: "Data-Driven Location Intelligence",
+      description:
+        "Analyze spatial and location data to make informed decisions in logistics, marketing, and infrastructure. Gain insights into trends, patterns, and performance. Use analytics to improve operational efficiency and strategic planning.",
+    },
+    {
+      id: "navigation-systems",
+      icon: "Leaf",
+      title: "Smart Navigation Systems",
+      subtitle: "Real-Time Traffic & Route Guidance",
+      description:
+        "Provide accurate, real-time route recommendations to optimize travel and delivery times. Utilize AI-based navigation that adapts to traffic conditions dynamically. Reduce delays and improve route planning across your operations.",
+    },
+    {
+      id: "delivery-optimization",
+      icon: "Leaf",
+      title: "Delivery Optimization Platforms",
+      subtitle: "Efficient Logistics Operations",
+      description:
+        "Enhance delivery efficiency with geofencing, dynamic routing, and proof-of-delivery tracking. Optimize schedules to reduce operational costs and time. Ensure timely and accurate deliveries while maintaining customer satisfaction.",
+    },
+    {
+      id: "gis-integration",
+      icon: "Leaf",
+      title: "GIS Mapping Integration",
+      subtitle: "Custom Map-Based Applications",
+      description:
+        "Integrate advanced GIS mapping solutions to visualize and manage spatial data effectively. Enable analysis and decision-making based on geographic information. Tailor custom map applications for enhanced operational insights and planning.",
+    },
+  ],
+  linkText: "Explore Our GPS Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Location Data Management Platforms",
@@ -135,37 +136,37 @@ export const locationBasedService: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "integration",
-        icon: "map",
-        title: "API & IoT Integration",
-        description:
-          "Integrate GPS hardware, IoT sensors, and APIs seamlessly for real-time data collection and system interoperability.",
-      },
-      {
-        id: "mobile-access",
-        icon: "map",
-        title: "Mobile Accessibility",
-        description:
-          "Enable on-the-go monitoring through Android and iOS applications with live updates and push notifications.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Privacy Controls",
-        description:
-          "Ensure compliance with security standards and privacy laws through encrypted data channels and role-based access.",
-      },
-      {
-        id: "automation",
-        icon: "map",
-        title: "Automated Workflow Integration",
-        description:
-          "Enhance productivity with automated workflows that trigger events based on real-time location data.",
-      },
-    ],
-    ctaText: "Get GPS Experts Consultation",
-    onCtaClick: () => {},
+  {
+    id: "integration",
+    icon: "map",
+    title: "API & IoT Integration",
+    description:
+      "Seamlessly integrate GPS hardware, IoT sensors, and APIs into your existing systems. Collect real-time data efficiently for accurate monitoring and reporting. Ensure smooth interoperability between devices, software, and analytics platforms for smarter operations.",
+  },
+  {
+    id: "mobile-access",
+    icon: "map",
+    title: "Mobile Accessibility",
+    description:
+      "Monitor assets and operations on the go with Android and iOS mobile applications. Receive live updates, notifications, and alerts in real-time. Empower your team to respond quickly and maintain operational efficiency from anywhere.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Privacy Controls",
+    description:
+      "Protect sensitive GPS and location data with encryption and advanced access controls. Ensure compliance with global security standards and privacy regulations. Maintain secure storage and controlled access to prevent unauthorized usage and breaches.",
+  },
+  {
+    id: "automation",
+    icon: "map",
+    title: "Automated Workflow Integration",
+    description:
+      "Automate key workflows using real-time location and sensor data to trigger actions and alerts. Reduce manual effort while improving efficiency and accuracy. Optimize business processes with intelligent automation for smarter decision-making.",
+  },
+],
+ctaText: "Get GPS Experts Consultation",
+onCtaClick: () => {},
   },
 
   faq: {

@@ -47,62 +47,63 @@ export const Microsoft: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Modern Business Solutions Powered by Microsoft",
-    mainDescription:
-      "We harness Microsoft’s cloud-first ecosystem to build intelligent, secure, and scalable solutions that drive innovation and digital excellence.",
-    items: [
-      {
-        id: "azure-cloud",
-        icon: "Shield",
-        title: "Azure Cloud Infrastructure",
-        subtitle: "Reliable & Scalable Cloud Solutions",
-        description:
-          "Design and deploy robust cloud environments using Microsoft Azure — supporting AI, IoT, and enterprise applications.",
-      },
-      {
-        id: "power-bi",
-        icon: "Shield",
-        title: "Power BI & Data Analytics",
-        subtitle: "Transform Data into Insights",
-        description:
-          "Visualize and analyze your business data with Power BI dashboards, enabling smarter and faster decision-making.",
-      },
-      {
-        id: "microsoft-teams",
-        icon: "Shield",
-        title: "Microsoft Teams Collaboration",
-        subtitle: "Connect People & Workflows",
-        description:
-          "Unify your workplace communication through Teams integration, document sharing, and real-time collaboration.",
-      },
-      {
-        id: "dynamics-crm",
-        icon: "Shield",
-        title: "Dynamics 365 CRM/ERP",
-        subtitle: "Empower Business Operations",
-        description:
-          "Streamline customer management, sales, and operations through integrated Dynamics 365 solutions.",
-      },
-      {
-        id: "power-platform",
-        icon: "Shield",
-        title: "Power Platform Automation",
-        subtitle: "No-Code/Low-Code Development",
-        description:
-          "Accelerate innovation with Power Apps, Power Automate, and Power Virtual Agents for business process automation.",
-      },
-      {
-        id: "security-compliance",
-        icon: "Shield",
-        title: "Security & Compliance",
-        subtitle: "Enterprise-Grade Protection",
-        description:
-          "Implement robust security, identity management, and compliance frameworks using Microsoft Defender and Entra ID.",
-      },
-    ],
-    linkText: "Get Microsoft Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Modern Business Solutions Powered by Microsoft",
+  mainDescription:
+    "We harness Microsoft’s cloud-first ecosystem to build intelligent, secure, and scalable solutions that drive innovation and digital excellence.",
+  items: [
+    {
+      id: "azure-cloud",
+      icon: "Shield",
+      title: "Azure Cloud Infrastructure",
+      subtitle: "Reliable & Scalable Cloud Solutions",
+      description:
+        "Leverage Microsoft Azure to design, deploy, and manage powerful cloud infrastructures. Support enterprise-grade workloads, AI models, and IoT environments seamlessly. Achieve high availability, scalability, and cost efficiency for modern businesses.",
+    },
+    {
+      id: "power-bi",
+      icon: "Shield",
+      title: "Power BI & Data Analytics",
+      subtitle: "Transform Data into Insights",
+      description:
+        "Turn raw data into actionable insights with interactive Power BI dashboards and reports. Empower teams with real-time data visualization and predictive analytics. Make smarter, data-driven decisions with unified, secure access to key metrics.",
+    },
+    {
+      id: "microsoft-teams",
+      icon: "Shield",
+      title: "Microsoft Teams Collaboration",
+      subtitle: "Connect People & Workflows",
+      description:
+        "Enhance teamwork with Microsoft Teams' seamless communication and file-sharing tools. Host meetings, manage projects, and integrate apps within a unified workspace. Foster productivity and collaboration across departments and geographies.",
+    },
+    {
+      id: "dynamics-crm",
+      icon: "Shield",
+      title: "Dynamics 365 CRM/ERP",
+      subtitle: "Empower Business Operations",
+      description:
+        "Unify your business processes through Microsoft Dynamics 365 CRM and ERP solutions. Manage customers, finances, and operations with real-time data intelligence. Improve efficiency, automate workflows, and accelerate organizational growth.",
+    },
+    {
+      id: "power-platform",
+      icon: "Shield",
+      title: "Power Platform Automation",
+      subtitle: "No-Code/Low-Code Development",
+      description:
+        "Build and automate applications quickly using Power Apps, Power Automate, and Power Virtual Agents. Empower non-developers to streamline repetitive workflows effortlessly. Innovate faster with secure, low-code tools designed for enterprise use.",
+    },
+    {
+      id: "security-compliance",
+      icon: "Shield",
+      title: "Security & Compliance",
+      subtitle: "Enterprise-Grade Protection",
+      description:
+        "Safeguard your digital ecosystem with Microsoft Defender and Entra ID frameworks. Implement identity management, threat detection, and compliance solutions. Ensure data privacy, resilience, and adherence to global regulatory standards.",
+    },
+  ],
+  linkText: "Get Microsoft Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Microsoft Enterprise Management Systems",
@@ -135,37 +136,37 @@ export const Microsoft: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "workflow-automation",
-        icon: "map",
-        title: "Automated Workflows",
-        description:
-          "Use Power Automate to simplify repetitive tasks and integrate apps without writing code.",
-      },
-      {
-        id: "multi-device",
-        icon: "map",
-        title: "Multi-Device Accessibility",
-        description:
-          "Access and manage your business data securely from desktop, web, or mobile devices with Microsoft 365 tools.",
-      },
-      {
-        id: "backup-security",
-        icon: "map",
-        title: "Data Backup & Security",
-        description:
-          "Protect data with Azure Backup, Microsoft Defender, and industry-standard encryption for peace of mind.",
-      },
-      {
-        id: "api-support",
-        icon: "map",
-        title: "API & Integration Support",
-        description:
-          "Connect Microsoft services with custom APIs, third-party apps, or legacy systems for seamless digital transformation.",
-      },
-    ],
-    ctaText: "Talk to Microsoft Experts",
-    onCtaClick: () => {},
+  {
+    id: "workflow-automation",
+    icon: "map",
+    title: "Automated Workflows",
+    description:
+      "Simplify daily operations with Power Automate by eliminating repetitive manual tasks. Integrate business apps effortlessly without writing complex code. Boost efficiency and consistency across teams with automated, rule-based workflows.",
+  },
+  {
+    id: "multi-device",
+    icon: "map",
+    title: "Multi-Device Accessibility",
+    description:
+      "Stay connected to your business anywhere using Microsoft 365’s secure cloud ecosystem. Access, edit, and share files seamlessly from desktop, web, or mobile devices. Ensure uninterrupted collaboration and productivity on every platform.",
+  },
+  {
+    id: "backup-security",
+    icon: "map",
+    title: "Data Backup & Security",
+    description:
+      "Safeguard your organization’s critical information with Azure Backup and Microsoft Defender. Utilize enterprise-grade encryption and compliance standards to prevent breaches. Ensure business continuity with automated recovery and data protection protocols.",
+  },
+  {
+    id: "api-support",
+    icon: "map",
+    title: "API & Integration Support",
+    description:
+      "Unify your digital ecosystem by connecting Microsoft tools with APIs and third-party platforms. Enable smooth data flow between legacy systems and modern cloud apps. Drive digital transformation with secure, scalable, and efficient integrations.",
+  },
+],
+ctaText: "Talk to Microsoft Experts",
+onCtaClick: () => {},
   },
 
   faq: {

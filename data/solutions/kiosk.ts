@@ -47,62 +47,62 @@ export const kiosk: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Smart Kiosk Software Solutions for Every Industry",
-    mainDescription:
-      "Our kiosk software enhances automation, interactivity, and efficiency — helping businesses deliver faster service and better customer engagement through touch-enabled, IoT-powered systems.",
-    items: [
-      {
-        id: "retail-kiosk",
-        icon: "Leaf",
-        title: "Retail & Shopping Kiosks",
-        subtitle: "Empower Customer Self-Service",
-        description:
-          "From product browsing to in-store payments, our retail kiosks enhance shopping experiences with seamless order and checkout systems.",
-      },
-      {
-        id: "banking-kiosk",
-        icon: "Leaf",
-        title: "Banking & Financial Kiosks",
-        subtitle: "24/7 Banking Convenience",
-        description:
-          "Enable customers to perform transactions like cash deposits, balance checks, and form submissions without staff intervention.",
-      },
-      {
-        id: "airport-kiosk",
-        icon: "Leaf",
-        title: "Airport Check-In Kiosks",
-        subtitle: "Faster Passenger Processing",
-        description:
-          "We build kiosks for ticket printing, self check-ins, and boarding pass generation to speed up airport operations.",
-      },
-      {
-        id: "healthcare-kiosk",
-        icon: "Leaf",
-        title: "Healthcare Registration Kiosks",
-        subtitle: "Patient Self-Check-In & Info Systems",
-        description:
-          "Streamline hospital workflows with kiosks for appointment booking, registration, and patient feedback collection.",
-      },
-      {
-        id: "hospitality-kiosk",
-        icon: "Leaf",
-        title: "Hospitality & Food Ordering Kiosks",
-        subtitle: "Automate Guest Services",
-        description:
-          "Restaurants and hotels use our kiosks for self-ordering, menu browsing, and room service requests.",
-      },
-      {
-        id: "information-kiosk",
-        icon: "Leaf",
-        title: "Interactive Information Kiosks",
-        subtitle: "Smart Wayfinding & Assistance",
-        description:
-          "Deploy kiosks for wayfinding, visitor information, and ticketing with real-time data synchronization and AI chat support.",
-      },
-    ],
-    linkText: "Request Kiosk Demo",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Smart Kiosk Software Solutions for Every Industry",
+  mainDescription:
+    "Our kiosk software enhances automation, interactivity, and efficiency — helping businesses deliver faster service and better customer engagement through touch-enabled, IoT-powered systems.",
+  items: [
+    {
+      id: "retail-kiosk",
+      icon: "Leaf",
+      title: "Retail & Shopping Kiosks",
+      subtitle: "Empower Customer Self-Service",
+      description:
+        "From product browsing to in-store payments, our retail kiosks streamline the shopping experience. Customers can quickly find products, compare options, and place orders. Integrated checkout systems reduce wait times and increase satisfaction.",
+    },
+    {
+      id: "banking-kiosk",
+      icon: "Leaf",
+      title: "Banking & Financial Kiosks",
+      subtitle: "24/7 Banking Convenience",
+      description:
+        "Enable customers to perform transactions like deposits, withdrawals, and balance checks anytime. Kiosks reduce branch congestion and provide secure access to financial services. Staff can focus on higher-value customer support tasks.",
+    },
+    {
+      id: "airport-kiosk",
+      icon: "Leaf",
+      title: "Airport Check-In Kiosks",
+      subtitle: "Faster Passenger Processing",
+      description:
+        "Streamline passenger check-ins with self-service kiosks for ticket printing and boarding passes. Reduce long queues and waiting times at airports. Enhance passenger satisfaction with faster, hassle-free airport experiences.",
+    },
+    {
+      id: "healthcare-kiosk",
+      icon: "Leaf",
+      title: "Healthcare Registration Kiosks",
+      subtitle: "Patient Self-Check-In & Info Systems",
+      description:
+        "Simplify hospital workflows with kiosks for appointment booking, registration, and patient data entry. Reduce administrative workload and waiting times. Enable secure, touch-free check-ins for improved patient experience.",
+    },
+    {
+      id: "hospitality-kiosk",
+      icon: "Leaf",
+      title: "Hospitality & Food Ordering Kiosks",
+      subtitle: "Automate Guest Services",
+      description:
+        "Restaurants and hotels can automate orders, menu browsing, and room service requests. Increase order accuracy and speed up service delivery. Enhance the guest experience with interactive and intuitive interfaces.",
+    },
+    {
+      id: "information-kiosk",
+      icon: "Leaf",
+      title: "Interactive Information Kiosks",
+      subtitle: "Smart Wayfinding & Assistance",
+      description:
+        "Deploy kiosks for real-time visitor information, ticketing, and directions. Integrate AI chat support for interactive guidance. Improve user engagement with accessible, accurate, and up-to-date information.",
+    },
+  ],
+  linkText: "Request Kiosk Demo",
+  linkUrl: "/contact-us",
+},
 
   managementSolutions: {
     title: "Kiosk Management & Monitoring Systems",
@@ -135,37 +135,37 @@ export const kiosk: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "analytics",
-        icon: "map",
-        title: "Usage Analytics & Reports",
-        description:
-          "Gain insights into user behavior, peak hours, and transaction data to optimize kiosk performance.",
-      },
-      {
-        id: "maintenance",
-        icon: "map",
-        title: "Remote Maintenance",
-        description:
-          "Diagnose issues and push software updates remotely to minimize downtime and reduce service costs.",
-      },
-      {
-        id: "multi-language",
-        icon: "map",
-        title: "Multi-Language Support",
-        description:
-          "Provide localized kiosk experiences with multiple language options for diverse user groups.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "API & Third-Party Integration",
-        description:
-          "Connect with CRM, ERP, and POS systems for seamless synchronization of kiosk operations and business data.",
-      },
-    ],
-    ctaText: "Get Kiosk Management Experts",
-    onCtaClick: () => {},
+  {
+    id: "analytics",
+    icon: "map",
+    title: "Usage Analytics & Reports",
+    description:
+      "Gain actionable insights into user behavior, peak usage hours, and transaction patterns to improve kiosk efficiency. Monitor performance metrics to identify trends and opportunities. Make informed decisions to optimize operations and enhance the user experience.",
+  },
+  {
+    id: "maintenance",
+    icon: "map",
+    title: "Remote Maintenance",
+    description:
+      "Diagnose technical issues and deploy software updates remotely to minimize downtime. Reduce maintenance costs while keeping kiosks fully operational. Ensure consistent performance and reliability across all devices without on-site intervention.",
+  },
+  {
+    id: "multi-language",
+    icon: "map",
+    title: "Multi-Language Support",
+    description:
+      "Deliver fully localized kiosk experiences with support for multiple languages. Cater to diverse user groups to improve accessibility and engagement. Enhance customer satisfaction and inclusivity across regions.",
+  },
+  {
+    id: "integration",
+    icon: "map",
+    title: "API & Third-Party Integration",
+    description:
+      "Seamlessly connect kiosks with CRM, ERP, and POS systems for efficient data synchronization. Enable automated workflows and real-time updates across platforms. Streamline operations and unify business processes for maximum productivity.",
+  },
+],
+ctaText: "Get Kiosk Management Experts",
+onCtaClick: () => {},
   },
 
   faq: {

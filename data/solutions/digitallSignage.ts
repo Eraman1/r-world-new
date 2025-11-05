@@ -47,54 +47,55 @@ export const digitalSignage: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Innovative Digital Signage Solutions",
-    mainDescription:
-      "Our digital signage solutions provide real-time content updates, interactivity, analytics, and remote management, helping you communicate your brand effectively and capture audience attention.",
-    items: [
-      {
-        id: "retail-signage",
-        icon: "Leaf",
-        title: "Retail Digital Signage",
-        subtitle: "Drive Sales & Engagement",
-        description:
-          "Enhance customer experiences with interactive menus, promotions, and real-time updates across multiple retail locations.",
-      },
-      {
-        id: "corporate-signage",
-        icon: "Leaf",
-        title: "Corporate & Internal Signage",
-        subtitle: "Improve Communication",
-        description:
-          "Streamline internal communications, announcements, and wayfinding in corporate offices, campuses, and industrial environments.",
-      },
-      {
-        id: "hospitality-signage",
-        icon: "Leaf",
-        title: "Hospitality & Event Signage",
-        subtitle: "Immersive Guest Experiences",
-        description:
-          "Deliver interactive information, wayfinding, event schedules, and immersive visual experiences in hotels, resorts, and convention centers.",
-      },
-      {
-        id: "outdoor-signage",
-        icon: "Leaf",
-        title: "Outdoor LED & Digital Displays",
-        subtitle: "High Visibility & Impact",
-        description:
-          "Implement large-scale outdoor digital displays and LED screens for advertising, events, and public spaces with weather-proof hardware.",
-      },
-      {
-        id: "analytics-dashboard",
-        icon: "Leaf",
-        title: "Analytics & Performance Tracking",
-        subtitle: "Data-Driven Insights",
-        description:
-          "Monitor engagement metrics, audience interactions, and content performance to optimize campaigns and ROI.",
-      },
-    ],
-    linkText: "Request Digital Signage Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Innovative Digital Signage Solutions",
+  mainDescription:
+    "Our digital signage solutions provide real-time content updates, interactivity, analytics, and remote management, helping you communicate your brand effectively and capture audience attention.",
+  items: [
+    {
+      id: "retail-signage",
+      icon: "Leaf",
+      title: "Retail Digital Signage",
+      subtitle: "Drive Sales & Engagement",
+      description:
+        "Transform retail environments with dynamic displays that showcase real-time offers and personalized recommendations. Engage customers through interactive menus and motion-triggered ads. Increase conversions and enhance the overall in-store experience across multiple outlets.",
+    },
+    {
+      id: "corporate-signage",
+      icon: "Leaf",
+      title: "Corporate & Internal Signage",
+      subtitle: "Improve Communication",
+      description:
+        "Simplify internal communication by displaying real-time company updates, metrics, and employee announcements. Enhance productivity with digital dashboards in offices and campuses. Support a connected workplace through engaging and easily managed visual content.",
+    },
+    {
+      id: "hospitality-signage",
+      icon: "Leaf",
+      title: "Hospitality & Event Signage",
+      subtitle: "Immersive Guest Experiences",
+      description:
+        "Create memorable guest journeys with interactive wayfinding, digital menus, and event schedules. Display real-time information across hotels, resorts, and event venues. Strengthen brand presence with visually captivating and easily updated digital experiences.",
+    },
+    {
+      id: "outdoor-signage",
+      icon: "Leaf",
+      title: "Outdoor LED & Digital Displays",
+      subtitle: "High Visibility & Impact",
+      description:
+        "Deliver high-definition visuals on durable LED displays for outdoor marketing and events. Ensure maximum visibility under all weather conditions with adaptive brightness and rugged design. Capture attention with motion graphics, live feeds, and promotional content.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "Leaf",
+      title: "Analytics & Performance Tracking",
+      subtitle: "Data-Driven Insights",
+      description:
+        "Measure audience engagement and screen performance in real time using advanced analytics dashboards. Identify content effectiveness and optimize campaigns for better ROI. Use visual data insights to make informed creative and business decisions.",
+    },
+  ],
+  linkText: "Request Digital Signage Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Digital Signage Management Platforms",
@@ -127,39 +128,38 @@ export const digitalSignage: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "interactive-tools",
-        icon: "map",
-        title: "Interactive Tools",
-        description:
-          "Add touch interactivity, QR code integration, and gesture-based navigation to engage your audience.",
-      },
-      {
-        id: "analytics",
-        icon: "map",
-        title: "Analytics & Insights",
-        description:
-          "Measure audience engagement and content effectiveness with integrated analytics dashboards.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Secure & Reliable",
-        description:
-          "Ensure content and network security with encrypted connections and access control.",
-      },
-      {
-        id: "api-integration",
-        icon: "map",
-        title: "API Integration",
-        description:
-          "Integrate with external systems, POS, ERP, or scheduling tools for automated content updates.",
-      },
-    ],
-    ctaText: "Talk to Digital Signage Experts",
-    onCtaClick: () => {},
+  {
+    id: "interactive-tools",
+    icon: "map",
+    title: "Interactive Tools",
+    description:
+      "Enhance audience engagement with touch-enabled screens, QR code integration, and gesture-based navigation. Create immersive experiences that drive participation and attention. Transform static displays into dynamic, interactive communication platforms.",
   },
-
+  {
+    id: "analytics",
+    icon: "map",
+    title: "Analytics & Insights",
+    description:
+      "Track viewer behavior and measure campaign effectiveness through detailed analytics dashboards. Gain actionable insights into engagement patterns and screen performance. Use real-time data to refine strategies and optimize audience reach.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Secure & Reliable",
+    description:
+      "Protect your content with advanced encryption, secure networks, and controlled access management. Ensure consistent uptime and safe content delivery across all locations. Maintain reliability through continuous monitoring and automatic updates.",
+  },
+  {
+    id: "api-integration",
+    icon: "map",
+    title: "API Integration",
+    description:
+      "Connect seamlessly with POS, ERP, scheduling, and content management systems. Automate updates across multiple screens without manual intervention. Enable smarter workflows and synchronized communication through robust API connections.",
+  },
+],
+ctaText: "Talk to Digital Signage Experts",
+onCtaClick: () => {},
+  },
   faq: {
     title: "FAQ",
     items: [

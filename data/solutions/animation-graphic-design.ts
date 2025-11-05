@@ -44,63 +44,66 @@ export const animationGraphicDesign: SolutionConfig = {
     ],
   },
 
-  solutions: {
-    mainTitle: "Creative Digital Design & Animation Solutions",
-    mainDescription:
-      "We craft innovative visual experiences that merge creativity with technology. Our animation and graphic design solutions empower brands to connect emotionally with their audiences through stunning visuals, motion, and interactivity.",
-    items: [
-      {
-        id: "visual-branding",
-        icon: "Leaf",
-        title: "Visual Branding",
-        subtitle: "Consistency Across Platforms",
-        description:
-          "We build cohesive brand visuals that ensure your identity is instantly recognizable across websites, apps, videos, and print materials.",
-      },
-      {
-        id: "3d-modeling",
-        icon: "Leaf",
-        title: "3D Modeling & Animation",
-        subtitle: "Realistic Product Visuals",
-        description:
-          "Our 3D artists design and animate realistic objects and environments for commercials, films, games, and virtual product showcases.",
-      },
-      {
-        id: "ui-motion",
-        icon: "Leaf",
-        title: "UI Motion Design",
-        subtitle: "Enhance User Experience",
-        description:
-          "We integrate smooth motion into user interfaces to guide user attention, improve navigation, and create delightful digital experiences.",
-      },
-      {
-        id: "illustration",
-        icon: "Leaf",
-        title: "Custom Illustration Design",
-        subtitle: "Unique Art for Every Brand",
-        description:
-          "Our illustrators design distinctive artwork that brings your brand’s personality to life through a blend of creativity and storytelling.",
-      },
-      {
-        id: "video-production",
-        icon: "Leaf",
-        title: "Video Production & Editing",
-        subtitle: "Professional Multimedia Creations",
-        description:
-          "From scripting to editing, we handle the full video production process to deliver professional-grade promotional and corporate videos.",
-      },
-      {
-        id: "ai-enhancement",
-        icon: "Leaf",
-        title: "AI-Assisted Design",
-        subtitle: "Next-Gen Creative Workflow",
-        description:
-          "We leverage AI tools for faster design workflows, from automated background removal to generative art and animation enhancement.",
-      },
-    ],
-    linkText: "Get Custom Design Solutions",
-    linkUrl: "/contact-us",
-  },
+ solutions: {
+  mainTitle: "Creative Digital Design & Animation Solutions",
+  mainDescription:
+    "We create visually stunning digital experiences that blend art, animation, and technology. Our solutions elevate brand storytelling through engaging motion, immersive 3D visuals, and powerful design. From concept to creation, we help brands inspire and connect with their audiences on every platform.",
+
+  items: [
+    {
+      id: "visual-branding",
+      icon: "Leaf",
+      title: "Visual Branding",
+      subtitle: "Consistency Across Platforms",
+      description:
+        "We craft cohesive brand visuals that reflect your identity across every digital and print channel. From color palettes to typography, we ensure consistency that strengthens recognition. Our designs build trust and make your brand instantly memorable.",
+    },
+    {
+      id: "3d-modeling",
+      icon: "Leaf",
+      title: "3D Modeling & Animation",
+      subtitle: "Realistic Product Visuals",
+      description:
+        "Our team creates lifelike 3D models and animations that showcase your products or concepts in stunning detail. We blend creativity and precision to produce visuals that inspire engagement. Perfect for films, commercials, and digital product demos.",
+    },
+    {
+      id: "ui-motion",
+      icon: "Leaf",
+      title: "UI Motion Design",
+      subtitle: "Enhance User Experience",
+      description:
+        "We bring digital interfaces to life with smooth motion and intuitive transitions. Subtle animations guide users seamlessly through your product experience. Our motion design enhances usability, engagement, and overall aesthetic appeal.",
+    },
+    {
+      id: "illustration",
+      icon: "Leaf",
+      title: "Custom Illustration Design",
+      subtitle: "Unique Art for Every Brand",
+      description:
+        "We design bespoke illustrations that capture your brand’s voice and emotion. Each artwork is tailored to your message, ensuring it stands out across campaigns. Our illustrations add creativity, warmth, and storytelling depth to your visuals.",
+    },
+    {
+      id: "video-production",
+      icon: "Leaf",
+      title: "Video Production & Editing",
+      subtitle: "Professional Multimedia Creations",
+      description:
+        "We produce high-quality videos that combine cinematic visuals with engaging storytelling. From concept scripting to final editing, every detail is handled with care. Our productions elevate your brand through emotion, clarity, and style.",
+    },
+    {
+      id: "ai-enhancement",
+      icon: "Leaf",
+      title: "AI-Assisted Design",
+      subtitle: "Next-Gen Creative Workflow",
+      description:
+        "We integrate AI-powered tools to accelerate design workflows and enhance creativity. From generative art to automated animation tuning, we blend tech with imagination. The result is faster production and higher design precision.",
+    },
+  ],
+
+  linkText: "Get Custom Design Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Creative Asset Management Systems",
@@ -134,35 +137,36 @@ export const animationGraphicDesign: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "workflow",
-        icon: "map",
-        title: "Automated Workflow Integration",
-        description:
-          "Streamline creative workflows by integrating with Adobe Suite, Figma, and project management platforms for seamless productivity.",
-      },
-      {
-        id: "delivery",
-        icon: "map",
-        title: "Multi-Format Delivery",
-        description:
-          "Export and deliver your design files in any format for web, mobile, or broadcast with optimized performance.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Backup",
-        description:
-          "Ensure your creative assets remain safe with automated backups, access control, and encryption standards.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "API Integration Support",
-        description:
-          "Connect with content management systems and digital marketing tools for efficient creative asset utilization.",
-      },
-    ],
+  {
+    id: "workflow",
+    icon: "map",
+    title: "Automated Workflow Integration",
+    description:
+      "Optimize your creative process by integrating tools like Adobe Suite, Figma, and project management systems. Automate repetitive design tasks to save time and reduce human error. Achieve seamless collaboration across teams with synchronized updates and version control.",
+  },
+  {
+    id: "delivery",
+    icon: "map",
+    title: "Multi-Format Delivery",
+    description:
+      "Deliver projects efficiently across web, mobile, and broadcast platforms in multiple optimized formats. Ensure consistent visual quality and resolution on every device. Simplify file conversions and speed up final content deployment for faster go-to-market results.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Backup",
+    description:
+      "Keep your creative data safe with advanced encryption and real-time backup systems. Implement multi-layer access control to prevent unauthorized use. Protect sensitive design files through secure storage and disaster recovery mechanisms.",
+  },
+  {
+    id: "integration",
+    icon: "map",
+    title: "API Integration Support",
+    description:
+      "Seamlessly connect your creative tools with content management and marketing platforms. Enable automated publishing, asset sharing, and analytics syncing. Maximize productivity through streamlined integration of third-party APIs and digital ecosystems.",
+  },
+],
+
     ctaText: "Get Creative Software Experts",
     onCtaClick: () => {},
   },

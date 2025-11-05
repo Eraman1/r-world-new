@@ -9,12 +9,13 @@ export const agriculture: IndustryConfig = {
       "Partner with expert developers to build custom, scalable, and reliable  software solutions that accelerate your business growth.",
     image:
       "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
-    linkText: "Get Agri Solutions",
+    linkText: "Get agriculture Solutions",
   },
   techHero: {
-    heading: "Hire Experienced and Dedicated AgTech Software Developers",
+    heading:
+      "Hire Experienced and Dedicated agriculture Tech Software Developers",
     description:
-      "AgTech solutions encompass innovative technologies transforming agriculture, boosting efficiency, profitability, and sustainability.",
+      "agriculture Tech solutions encompass innovative technologies transforming agriculture, boosting efficiency, profitability, and sustainability.",
     services: [
       {
         id: "land",
@@ -131,7 +132,7 @@ export const agriculture: IndustryConfig = {
   managementSolutions: {
     title: "Land Management Software Solutions",
     subtitle:
-      "Chetu's land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
+      "R-World land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
     subtitleLink: { text: "land management software", url: "#" },
     laptopImage: "/images/management-solutions.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
@@ -196,7 +197,7 @@ export const agriculture: IndustryConfig = {
   managementSolutionsTwo: {
     title: "Land Management Software Solutions-testing",
     subtitle:
-      "Chetu's land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
+      "R-World land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
     subtitleLink: { text: "land management software", url: "#" },
     laptopImage: "/images/management-solutions.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",

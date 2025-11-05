@@ -47,62 +47,62 @@ export const SAP: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Comprehensive SAP Business Solutions",
-    mainDescription:
-      "We deliver enterprise-grade SAP solutions that unify departments, automate workflows, and provide real-time business insights — improving agility and profitability.",
-    items: [
-      {
-        id: "erp",
-        icon: "Leaf",
-        title: "Enterprise Resource Planning (ERP)",
-        subtitle: "Integrated Business Management",
-        description:
-          "Optimize business operations with SAP ERP modules that manage finance, logistics, procurement, and human resources in one platform.",
-      },
-      {
-        id: "crm",
-        icon: "Leaf",
-        title: "Customer Relationship Management (CRM)",
-        subtitle: "Enhance Customer Engagement",
-        description:
-          "Strengthen relationships with personalized experiences using SAP CRM and SAP Sales Cloud to improve marketing, sales, and support performance.",
-      },
-      {
-        id: "analytics",
-        icon: "Leaf",
-        title: "SAP Analytics Cloud",
-        subtitle: "Data-Driven Decision Making",
-        description:
-          "Unify planning, analytics, and predictive insights to make smarter business decisions with real-time visual dashboards.",
-      },
-      {
-        id: "supply-chain",
-        icon: "Leaf",
-        title: "Supply Chain Management (SCM)",
-        subtitle: "End-to-End Visibility",
-        description:
-          "Gain real-time visibility and control across your supply chain with SAP IBP, Ariba, and Transportation Management systems.",
-      },
-      {
-        id: "hr",
-        icon: "Leaf",
-        title: "Human Capital Management (HCM)",
-        subtitle: "Empower Your Workforce",
-        description:
-          "Simplify HR processes with SAP SuccessFactors for talent management, payroll, and workforce planning.",
-      },
-      {
-        id: "integration",
-        icon: "Leaf",
-        title: "SAP Integration Suite",
-        subtitle: "Seamless Data Connectivity",
-        description:
-          "Integrate SAP and non-SAP applications through cloud APIs, connectors, and workflow orchestration for smooth data flow.",
-      },
-    ],
-    linkText: "Get SAP Business Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Comprehensive SAP Business Solutions",
+  mainDescription:
+    "We deliver enterprise-grade SAP solutions that unify departments, automate workflows, and provide real-time business insights — improving agility and profitability.",
+  items: [
+    {
+      id: "erp",
+      icon: "Leaf",
+      title: "Enterprise Resource Planning (ERP)",
+      subtitle: "Integrated Business Management",
+      description:
+        "Streamline core business operations with SAP ERP for finance, logistics, procurement, and HR. Improve cross-departmental visibility through centralized data. Enhance efficiency and decision-making with automation and unified reporting tools.",
+    },
+    {
+      id: "crm",
+      icon: "Leaf",
+      title: "Customer Relationship Management (CRM)",
+      subtitle: "Enhance Customer Engagement",
+      description:
+        "Leverage SAP CRM and Sales Cloud to manage leads, opportunities, and campaigns effectively. Deliver personalized customer experiences through data-driven insights. Strengthen loyalty by aligning marketing, sales, and support strategies.",
+    },
+    {
+      id: "analytics",
+      icon: "Leaf",
+      title: "SAP Analytics Cloud",
+      subtitle: "Data-Driven Decision Making",
+      description:
+        "Unify data visualization, planning, and predictive analytics in one powerful cloud solution. Access real-time business intelligence to identify growth opportunities. Empower teams with interactive dashboards for faster, smarter decisions.",
+    },
+    {
+      id: "supply-chain",
+      icon: "Leaf",
+      title: "Supply Chain Management (SCM)",
+      subtitle: "End-to-End Visibility",
+      description:
+        "Gain complete control and transparency across your supply chain using SAP IBP, Ariba, and TM. Predict disruptions and optimize demand planning with real-time analytics. Enhance collaboration between suppliers, partners, and logistics teams.",
+    },
+    {
+      id: "hr",
+      icon: "Leaf",
+      title: "Human Capital Management (HCM)",
+      subtitle: "Empower Your Workforce",
+      description:
+        "Simplify workforce management with SAP SuccessFactors for payroll, performance, and recruitment. Drive employee engagement through modern HR tools and analytics. Build a culture of growth by aligning people with organizational goals.",
+    },
+    {
+      id: "integration",
+      icon: "Leaf",
+      title: "SAP Integration Suite",
+      subtitle: "Seamless Data Connectivity",
+      description:
+        "Connect SAP and non-SAP systems using APIs, prebuilt connectors, and workflow automation. Enable secure, real-time data exchange across business platforms. Ensure smoother operations through unified application and process integration.",
+    },
+  ],
+  linkText: "Get SAP Business Solutions",
+  linkUrl: "/contact-us",
+},
 
   managementSolutions: {
     title: "SAP Management & Cloud Systems",
@@ -135,39 +135,38 @@ export const SAP: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "data-analytics",
-        icon: "map",
-        title: "Real-Time Data Analytics",
-        description:
-          "Access insights instantly with SAP BW/4HANA and SAP Analytics Cloud to drive data-informed business decisions.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "Integration with Third-Party Tools",
-        description:
-          "Connect SAP with Salesforce, Microsoft 365, and other tools for unified data and cross-platform automation.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Advanced Security & Backup",
-        description:
-          "Safeguard enterprise data with SAP’s multi-layer security, backup automation, and disaster recovery systems.",
-      },
-      {
-        id: "performance",
-        icon: "map",
-        title: "Performance Optimization",
-        description:
-          "Monitor and optimize system health, load balancing, and resource usage with SAP Solution Manager.",
-      },
-    ],
-    ctaText: "Talk to SAP Experts",
-    onCtaClick: () => {},
+  {
+    id: "data-analytics",
+    icon: "map",
+    title: "Real-Time Data Analytics",
+    description:
+      "Gain actionable insights instantly with SAP BW/4HANA and SAP Analytics Cloud. Visualize performance metrics and KPIs across departments in real time. Empower leadership teams to make faster, data-driven business decisions with confidence.",
   },
-
+  {
+    id: "integration",
+    icon: "map",
+    title: "Integration with Third-Party Tools",
+    description:
+      "Connect SAP seamlessly with Salesforce, Microsoft 365, and other enterprise systems. Enable automated data exchange and unified workflows across platforms. Enhance productivity with synchronized operations and cross-application intelligence.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Advanced Security & Backup",
+    description:
+      "Protect enterprise data using SAP’s robust, multi-layered security framework. Implement automated backups, encryption, and access controls to prevent breaches. Ensure business continuity through disaster recovery and compliance management.",
+  },
+  {
+    id: "performance",
+    icon: "map",
+    title: "Performance Optimization",
+    description:
+      "Continuously monitor and enhance system health using SAP Solution Manager. Improve load balancing, minimize downtime, and maximize processing efficiency. Maintain peak performance with predictive analytics and proactive system tuning.",
+  },
+],
+ctaText: "Talk to SAP Experts",
+onCtaClick: () => {},
+  },
   faq: {
     title: "FAQ",
     items: [

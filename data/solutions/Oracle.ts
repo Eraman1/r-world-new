@@ -47,62 +47,63 @@ export const Oracle: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Oracle-Powered Enterprise Solutions",
-    mainDescription:
-      "We provide end-to-end solutions using Oracle technologies for database management, cloud infrastructure, enterprise resource planning, and advanced analytics to accelerate business growth.",
-    items: [
-      {
-        id: "cloud-infrastructure",
-        icon: "Leaf",
-        title: "Cloud Infrastructure Services",
-        subtitle: "Scalable & Secure Cloud Platforms",
-        description:
-          "Oracle Cloud Infrastructure enables high-performance computing, storage, and networking to meet your enterprise needs.",
-      },
-      {
-        id: "database-solutions",
-        icon: "Leaf",
-        title: "Database Management & Optimization",
-        subtitle: "High Availability & Security",
-        description:
-          "We provide Oracle database design, tuning, migration, and backup solutions to ensure data integrity and peak performance.",
-      },
-      {
-        id: "erp-automation",
-        icon: "Leaf",
-        title: "ERP & Business Process Automation",
-        subtitle: "Streamline Operations",
-        description:
-          "Oracle ERP helps automate financials, HR, procurement, and supply chain management, improving efficiency across departments.",
-      },
-      {
-        id: "analytics-ai",
-        icon: "Leaf",
-        title: "Analytics & AI Solutions",
-        subtitle: "Data-Driven Insights",
-        description:
-          "We integrate AI and analytics tools with Oracle databases to provide actionable insights and predictive analytics for informed decision-making.",
-      },
-      {
-        id: "integration-solutions",
-        icon: "Leaf",
-        title: "Integration & Custom Solutions",
-        subtitle: "Connect Systems Seamlessly",
-        description:
-          "Oracle integration platforms help connect disparate systems, automate workflows, and ensure consistent data flow across your enterprise.",
-      },
-      {
-        id: "security-compliance",
-        icon: "Leaf",
-        title: "Security & Compliance",
-        subtitle: "Protect Critical Data",
-        description:
-          "We implement Oracle security solutions to safeguard your data, ensure regulatory compliance, and protect against cyber threats.",
-      },
-    ],
-    linkText: "Get Oracle Enterprise Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Oracle-Powered Enterprise Solutions",
+  mainDescription:
+    "We provide end-to-end solutions using Oracle technologies for database management, cloud infrastructure, enterprise resource planning, and advanced analytics to accelerate business growth.",
+  items: [
+    {
+      id: "cloud-infrastructure",
+      icon: "Leaf",
+      title: "Cloud Infrastructure Services",
+      subtitle: "Scalable & Secure Cloud Platforms",
+      description:
+        "Leverage Oracle Cloud Infrastructure to deploy scalable, secure, and high-performance environments. Optimize compute, storage, and networking for enterprise workloads. Ensure business continuity with automated scaling and disaster recovery capabilities.",
+    },
+    {
+      id: "database-solutions",
+      icon: "Leaf",
+      title: "Database Management & Optimization",
+      subtitle: "High Availability & Security",
+      description:
+        "We design, optimize, and maintain Oracle databases to ensure top-tier performance and resilience. Our solutions include migration, real-time monitoring, and backup automation. Experience minimal downtime and superior data integrity with proactive management.",
+    },
+    {
+      id: "erp-automation",
+      icon: "Leaf",
+      title: "ERP & Business Process Automation",
+      subtitle: "Streamline Operations",
+      description:
+        "Empower your organization with Oracle ERP to unify financials, HR, procurement, and supply chain systems. Automate repetitive workflows for greater efficiency and transparency. Improve productivity and decision-making with centralized, real-time data access.",
+    },
+    {
+      id: "analytics-ai",
+      icon: "Leaf",
+      title: "Analytics & AI Solutions",
+      subtitle: "Data-Driven Insights",
+      description:
+        "Transform your enterprise data into strategic intelligence using Oracle Analytics and AI tools. Enable predictive forecasting, visualization, and real-time dashboards. Drive smarter decisions through integrated machine learning models and automated insights.",
+    },
+    {
+      id: "integration-solutions",
+      icon: "Leaf",
+      title: "Integration & Custom Solutions",
+      subtitle: "Connect Systems Seamlessly",
+      description:
+        "Unify your business ecosystem through Oracle Integration Cloud and APIs. Connect diverse applications, automate processes, and maintain consistent data flow. Tailor custom integrations that boost collaboration and operational efficiency across departments.",
+    },
+    {
+      id: "security-compliance",
+      icon: "Leaf",
+      title: "Security & Compliance",
+      subtitle: "Protect Critical Data",
+      description:
+        "Safeguard your enterprise with Oracle’s advanced identity, access, and encryption tools. Ensure compliance with industry regulations and data protection standards. Defend against evolving cyber threats with real-time monitoring and threat intelligence solutions.",
+    },
+  ],
+  linkText: "Get Oracle Enterprise Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Oracle Enterprise Management Systems",
@@ -135,37 +136,37 @@ export const Oracle: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "analytics-reports",
-        icon: "map",
-        title: "Analytics & Reporting",
-        description:
-          "Generate real-time reports and predictive analytics to make informed business decisions quickly.",
-      },
-      {
-        id: "cloud-management",
-        icon: "map",
-        title: "Cloud & Infrastructure Management",
-        description:
-          "Manage cloud resources efficiently with Oracle Cloud management solutions for scalability and reliability.",
-      },
-      {
-        id: "security-compliance-bottom",
-        icon: "map",
-        title: "Enterprise Security & Compliance",
-        description:
-          "Ensure your data is secure and compliant with industry standards and regulatory requirements.",
-      },
-      {
-        id: "api-support",
-        icon: "map",
-        title: "API & Integration Support",
-        description:
-          "Extend Oracle functionality and integrate with third-party tools through robust API support.",
-      },
-    ],
-    ctaText: "Talk to Oracle Experts",
-    onCtaClick: () => {},
+  {
+    id: "analytics-reports",
+    icon: "map",
+    title: "Analytics & Reporting",
+    description:
+      "Gain valuable insights through real-time data visualization and advanced reporting dashboards. Track performance metrics to identify growth opportunities. Empower decision-makers with predictive analytics for smarter, data-driven strategies.",
+  },
+  {
+    id: "cloud-management",
+    icon: "map",
+    title: "Cloud & Infrastructure Management",
+    description:
+      "Manage and optimize cloud resources effortlessly with Oracle’s scalable infrastructure solutions. Ensure seamless workload distribution, uptime reliability, and cost efficiency. Enable hybrid and multi-cloud integration for greater operational flexibility.",
+  },
+  {
+    id: "security-compliance-bottom",
+    icon: "map",
+    title: "Enterprise Security & Compliance",
+    description:
+      "Protect your enterprise data with advanced encryption, authentication, and access control protocols. Stay aligned with global compliance standards like GDPR, HIPAA, and ISO. Mitigate risks through continuous monitoring and security automation.",
+  },
+  {
+    id: "api-support",
+    icon: "map",
+    title: "API & Integration Support",
+    description:
+      "Expand Oracle capabilities through seamless API connectivity and third-party integrations. Enable smooth data exchange between enterprise systems and cloud applications. Accelerate workflows by connecting CRM, ERP, and analytics tools efficiently.",
+  },
+],
+ctaText: "Talk to Oracle Experts",
+onCtaClick: () => {},
   },
 
   faq: {

@@ -47,62 +47,63 @@ export const autodesk: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Autodesk-Based Design & Innovation Solutions",
-    mainDescription:
-      "Leverage Autodesk’s ecosystem to power your design, architecture, and animation projects. From BIM modeling to 3D rendering and simulation, we deliver creative and technical excellence.",
-    items: [
-      {
-        id: "bim-modeling",
-        icon: "Leaf",
-        title: "BIM Modeling & Documentation",
-        subtitle: "Precision-Driven Construction Design",
-        description:
-          "We create Building Information Models using Autodesk Revit, enabling accurate planning, coordination, and documentation for construction teams.",
-      },
-      {
-        id: "mechanical-design",
-        icon: "Leaf",
-        title: "Mechanical Design Automation",
-        subtitle: "Streamline Engineering Workflows",
-        description:
-          "Using Autodesk Fusion 360 and Inventor, we design mechanical parts, assemblies, and simulations for manufacturing and product design.",
-      },
-      {
-        id: "animation-vfx",
-        icon: "Leaf",
-        title: "Animation & VFX",
-        subtitle: "Engaging Visual Storytelling",
-        description:
-          "We develop high-quality 3D animations and visual effects using Maya and 3ds Max for media, gaming, and advertising industries.",
-      },
-      {
-        id: "architectural-rendering",
-        icon: "Leaf",
-        title: "Architectural Rendering",
-        subtitle: "Photorealistic Project Visualization",
-        description:
-          "Our Autodesk 3ds Max and Revit workflows deliver stunning renders for real estate and infrastructure projects.",
-      },
-      {
-        id: "industrial-design",
-        icon: "Leaf",
-        title: "Industrial & Product Design",
-        subtitle: "From Concept to Prototype",
-        description:
-          "We use Autodesk Fusion 360 for conceptual design, 3D modeling, and simulation of innovative industrial products.",
-      },
-      {
-        id: "ai-integration",
-        icon: "Leaf",
-        title: "AI-Integrated Design Systems",
-        subtitle: "Smart Automation & Optimization",
-        description:
-          "Integrate AI with Autodesk tools for predictive modeling, generative design, and workflow optimization.",
-      },
-    ],
-    linkText: "Get Autodesk Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Autodesk-Based Design & Innovation Solutions",
+  mainDescription:
+    "Leverage Autodesk’s ecosystem to power your design, architecture, and animation projects. From BIM modeling to 3D rendering and simulation, we deliver creative and technical excellence.",
+  items: [
+    {
+      id: "bim-modeling",
+      icon: "Leaf",
+      title: "BIM Modeling & Documentation",
+      subtitle: "Precision-Driven Construction Design",
+      description:
+        "We develop detailed Building Information Models using Autodesk Revit to streamline design accuracy and collaboration. Our BIM workflows ensure smooth project coordination and real-time updates. This results in efficient construction planning, reduced errors, and cost-effective delivery.",
+    },
+    {
+      id: "mechanical-design",
+      icon: "Leaf",
+      title: "Mechanical Design Automation",
+      subtitle: "Streamline Engineering Workflows",
+      description:
+        "Harnessing Autodesk Fusion 360 and Inventor, we automate complex mechanical design tasks with precision. Our models simulate real-world performance to validate functionality early in the process. This boosts innovation while reducing development time and manufacturing costs.",
+    },
+    {
+      id: "animation-vfx",
+      icon: "Leaf",
+      title: "Animation & VFX",
+      subtitle: "Engaging Visual Storytelling",
+      description:
+        "We craft cinematic-quality 3D animations and visual effects using Autodesk Maya and 3ds Max. Our creative team transforms ideas into immersive visuals for films, games, and advertisements. Each project blends technical skill and storytelling for impactful viewer experiences.",
+    },
+    {
+      id: "architectural-rendering",
+      icon: "Leaf",
+      title: "Architectural Rendering",
+      subtitle: "Photorealistic Project Visualization",
+      description:
+        "Using Autodesk 3ds Max and Revit, we create lifelike architectural renderings that bring designs to reality. Our visualizations help architects, builders, and clients envision projects before construction. This clarity enhances presentations, approvals, and marketing impact.",
+    },
+    {
+      id: "industrial-design",
+      icon: "Leaf",
+      title: "Industrial & Product Design",
+      subtitle: "From Concept to Prototype",
+      description:
+        "Our experts use Autodesk Fusion 360 to conceptualize, model, and simulate innovative industrial products. We translate creative ideas into functional prototypes with precision and scalability. This integrated approach shortens product development cycles while maintaining design integrity.",
+    },
+    {
+      id: "ai-integration",
+      icon: "Leaf",
+      title: "AI-Integrated Design Systems",
+      subtitle: "Smart Automation & Optimization",
+      description:
+        "We integrate artificial intelligence with Autodesk tools to enable predictive modeling and generative design. Our smart workflows enhance decision-making and optimize material usage and performance. This synergy between AI and CAD accelerates innovation and project outcomes.",
+    },
+  ],
+  linkText: "Get Autodesk Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Autodesk Project Management Platforms",
@@ -135,37 +136,37 @@ export const autodesk: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "cloud-workflows",
-        icon: "map",
-        title: "Cloud-Based Workflows",
-        description:
-          "Access and update project files from any device with Autodesk Docs and BIM Collaborate Pro.",
-      },
-      {
-        id: "analytics",
-        icon: "map",
-        title: "Design Analytics & Insights",
-        description:
-          "Monitor design efficiency and identify optimization opportunities using Autodesk Construction Cloud analytics.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Enterprise-Grade Security",
-        description:
-          "Ensure all project data and visual assets are encrypted and backed up with Autodesk’s secure cloud solutions.",
-      },
-      {
-        id: "api-support",
-        icon: "map",
-        title: "API & Automation Support",
-        description:
-          "Customize Autodesk workflows with API integrations and automated data processing tools.",
-      },
-    ],
-    ctaText: "Talk to Autodesk Experts",
-    onCtaClick: () => {},
+  {
+    id: "cloud-workflows",
+    icon: "map",
+    title: "Cloud-Based Workflows",
+    description:
+      "Access and manage project files securely from any device using Autodesk Docs and BIM Collaborate Pro. Enable real-time collaboration between design, engineering, and construction teams. Simplify project coordination with centralized data sharing and version control.",
+  },
+  {
+    id: "analytics",
+    icon: "map",
+    title: "Design Analytics & Insights",
+    description:
+      "Gain valuable insights into project performance with Autodesk Construction Cloud analytics. Track design efficiency, detect bottlenecks, and make data-driven decisions. Optimize workflows to enhance productivity and reduce project costs over time.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Enterprise-Grade Security",
+    description:
+      "Protect all project data and visual assets with Autodesk’s advanced encryption protocols. Utilize secure cloud backups to safeguard against data loss and cyber threats. Maintain compliance with global industry standards for digital infrastructure security.",
+  },
+  {
+    id: "api-support",
+    icon: "map",
+    title: "API & Automation Support",
+    description:
+      "Extend Autodesk capabilities through powerful API integrations and automation tools. Connect external platforms to streamline repetitive design tasks and data flows. Build custom solutions that enhance productivity and accelerate project delivery.",
+  },
+],
+ctaText: "Talk to Autodesk Experts",
+onCtaClick: () => {},
   },
 
   faq: {

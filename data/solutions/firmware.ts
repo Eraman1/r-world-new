@@ -46,62 +46,62 @@ export const firmware: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Embedded Software & Firmware Solutions",
-    mainDescription:
-      "From sensor interfacing to complex connectivity stacks, we build firmware that is secure, efficient, and maintainable. Our solutions cover connectivity (BLE, Wi-Fi, LoRa, NB-IoT), power optimization, field diagnostics, and regulatory-ready features.",
-    items: [
-      {
-        id: "hardware-bringup",
-        icon: "Leaf",
-        title: "Hardware Bring-up & Board Support",
-        subtitle: "Get devices production-ready",
-        description:
-          "Perform hardware validation, peripheral bring-up, and low-level driver integration to ensure reliable device operation across manufacturing tolerances.",
-      },
-      {
-        id: "connectivity-stacks",
-        icon: "Leaf",
-        title: "Connectivity & Protocol Implementations",
-        subtitle: "BLE, Wi-Fi, Thread, LoRa, Cellular",
-        description:
-          "Implement and optimize connectivity stacks, provisioning flows, and power profiles to meet product requirements and certification needs.",
-      },
-      {
-        id: "power-optimization",
-        icon: "Leaf",
-        title: "Power Management & Low-Power Design",
-        subtitle: "Maximize battery life",
-        description:
-          "Architect deep-sleep strategies, wake-up sources, and energy-aware scheduling to extend battery lifetime in portable and remote devices.",
-      },
-      {
-        id: "security",
-        icon: "Leaf",
-        title: "Embedded Security & Hardware Trust",
-        subtitle: "Secure boot, encryption, TPM/SE",
-        description:
-          "Design secure boot chains, firmware signing, key management, and hardware-rooted trust using secure elements and TPMs.",
-      },
-      {
-        id: "validation",
-        icon: "Leaf",
-        title: "Testing, CI/CD & Certification",
-        subtitle: "Automated firmware quality pipelines",
-        description:
-          "Unit/integration testing, hardware-in-the-loop (HIL), automated flashing, regression CI and support for industry certifications (IEC, ISO, FCC).",
-      },
-      {
-        id: "diagnostics",
-        icon: "Leaf",
-        title: "Remote Diagnostics & Telemetry",
-        subtitle: "Field troubleshooting & observability",
-        description:
-          "Implement remote logging, telemetry, and diagnostic modes so teams can monitor fleet health, run remote debug sessions, and minimize field visits.",
-      },
-    ],
-    linkText: "Discuss Firmware Project",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Embedded Software & Firmware Solutions",
+  mainDescription:
+    "From sensor interfacing to complex connectivity stacks, we build firmware that is secure, efficient, and maintainable. Our solutions cover connectivity (BLE, Wi-Fi, LoRa, NB-IoT), power optimization, field diagnostics, and regulatory-ready features.",
+  items: [
+    {
+      id: "hardware-bringup",
+      icon: "Leaf",
+      title: "Hardware Bring-up & Board Support",
+      subtitle: "Get devices production-ready",
+      description:
+        "We validate hardware and integrate low-level drivers to ensure reliable system behavior. Our team handles peripheral configuration, memory mapping, and timing calibration. This guarantees smooth performance across device revisions and production runs.",
+    },
+    {
+      id: "connectivity-stacks",
+      icon: "Leaf",
+      title: "Connectivity & Protocol Implementations",
+      subtitle: "BLE, Wi-Fi, Thread, LoRa, Cellular",
+      description:
+        "We implement optimized wireless connectivity stacks with secure provisioning and power management. Our experts tailor protocols for real-world performance and certification. Deliver seamless device-to-cloud communication across multiple networks.",
+    },
+    {
+      id: "power-optimization",
+      icon: "Leaf",
+      title: "Power Management & Low-Power Design",
+      subtitle: "Maximize battery life",
+      description:
+        "Our engineers design energy-efficient architectures to extend battery life. We develop deep-sleep algorithms, wake-up strategies, and adaptive scheduling. The result is optimal performance even in energy-constrained embedded systems.",
+    },
+    {
+      id: "security",
+      icon: "Leaf",
+      title: "Embedded Security & Hardware Trust",
+      subtitle: "Secure boot, encryption, TPM/SE",
+      description:
+        "We build end-to-end firmware security frameworks with encryption and authentication. Secure boot, key management, and TPM-based trust anchors protect data integrity. Ensure compliance and protection across connected IoT and embedded products.",
+    },
+    {
+      id: "validation",
+      icon: "Leaf",
+      title: "Testing, CI/CD & Certification",
+      subtitle: "Automated firmware quality pipelines",
+      description:
+        "Automate firmware validation through hardware-in-loop (HIL) testing and regression workflows. Our CI/CD setups accelerate release cycles with quality assurance built-in. We assist in achieving compliance with IEC, ISO, and FCC standards.",
+    },
+    {
+      id: "diagnostics",
+      icon: "Leaf",
+      title: "Remote Diagnostics & Telemetry",
+      subtitle: "Field troubleshooting & observability",
+      description:
+        "Enable real-time insights into device performance with remote telemetry tools. Our diagnostic layers capture logs, monitor sensors, and detect anomalies. Reduce downtime and maintenance costs through predictive remote monitoring systems.",
+    },
+  ],
+  linkText: "Discuss Firmware Project",
+  linkUrl: "/contact-us",
+},
 
   managementSolutions: {
     title: "Firmware Development & Release Management",
@@ -135,38 +135,38 @@ export const firmware: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "debug-tools",
-        icon: "map",
-        title: "Hardware Debug & JTAG Support",
-        description:
-          "In-circuit debugging, trace, and JTAG/SWD integration to accelerate fault diagnosis and development cycles.",
-      },
-      {
-        id: "scalability",
-        icon: "map",
-        title: "Scalable Firmware Architectures",
-        description:
-          "Modular firmware patterns and layered abstractions to support product variants and long-term maintenance.",
-      },
-      {
-        id: "support",
-        icon: "map",
-        title: "Field Support & Maintenance",
-        description:
-          "SLA-driven support, field patches, and release hygiene to keep device fleets secure and up-to-date.",
-      },
-      {
-        id: "compliance",
-        icon: "map",
-        title: "Regulatory & Safety Compliance",
-        description:
-          "Guidance and implementation for relevant industry standards (medical, automotive, industrial) and safety-critical workflows.",
-      },
-    ],
-    ctaText: "Start Firmware Project",
-    onCtaClick: () => {},
+  {
+    id: "debug-tools",
+    icon: "map",
+    title: "Hardware Debug & JTAG Support",
+    description:
+      "Accelerate hardware development with integrated in-circuit debugging and real-time trace analysis. Utilize JTAG/SWD interfaces to pinpoint and resolve complex firmware issues efficiently. Reduce turnaround time with precise diagnostic and testing workflows.",
   },
+  {
+    id: "scalability",
+    icon: "map",
+    title: "Scalable Firmware Architectures",
+    description:
+      "Design modular and layered firmware systems built for flexibility and future growth. Support multiple product variants without redundant development effort. Ensure long-term maintainability and easy updates through structured architecture patterns.",
+  },
+  {
+    id: "support",
+    icon: "map",
+    title: "Field Support & Maintenance",
+    description:
+      "Maintain product reliability with SLA-backed support and proactive maintenance cycles. Deliver secure firmware patches and version updates to deployed devices. Minimize downtime and enhance customer trust through responsive technical support.",
+  },
+  {
+    id: "compliance",
+    icon: "map",
+    title: "Regulatory & Safety Compliance",
+    description:
+      "Implement firmware aligned with global safety and quality standards across industries. Ensure compliance for medical, automotive, and industrial devices through rigorous validation. Achieve certification readiness with expert documentation and testing practices.",
+  },
+],
+ctaText: "Start Firmware Project",
+onCtaClick: () => {},
+},
 
   faq: {
     title: "FAQ",

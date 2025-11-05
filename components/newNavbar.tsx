@@ -268,18 +268,19 @@ const megaMenuData: MegaMenuData = {
 };
 
 const strategicPartners = [
-  { name: "Autodesk", link: "/autodesk" },
-  { name: "AWS", link: "/aws" },
-  { name: "Google Cloud", link: "/google-cloud" },
-  { name: "IBM", link: "/ibm" },
-  { name: "Microsoft", link: "/microsoft" },
-  { name: "NetSuite", link: "/net-suite" },
-  { name: "Oracle", link: "/oracle" },
-  { name: "Salesforce", link: "/salesforce" },
-  { name: "SAP", link: "/sap" },
-  { name: "UKG", link: "/ukg" },
-  { name: "UiPath", link: "/uipath" },
+  { name: "Autodesk", link: "solutions/autodesk" },
+  { name: "AWS", link: "solutions/aws" },
+  { name: "Google Cloud", link: "solutions/google-cloud" },
+  { name: "IBM", link: "solutions/ibm" },
+  { name: "Microsoft", link: "solutions/microsoft" },
+  { name: "NetSuite", link: "solutions/net-suite" },
+  { name: "Oracle", link: "solutions/oracle" },
+  { name: "Salesforce", link: "solutions/salesforce" },
+  { name: "SAP", link: "solutions/sap" },
+  { name: "UKG", link: "solutions/ukg" },
+  { name: "UiPath", link: "solutions/uipath" },
 ];
+ 
 
 const NewNavbar = () => {
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);

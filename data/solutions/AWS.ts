@@ -47,62 +47,63 @@ export const aws: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "AWS Cloud & Infrastructure Solutions",
-    mainDescription:
-      "Accelerate innovation with cloud-native AWS solutions — from compute and storage to AI and data analytics — built for scalability, reliability, and cost efficiency.",
-    items: [
-      {
-        id: "compute",
-        icon: "Shield",
-        title: "Compute & Scalability",
-        subtitle: "Elastic Cloud Infrastructure",
-        description:
-          "Deploy scalable compute resources using Amazon EC2, ECS, and Lambda to handle workloads of any size efficiently.",
-      },
-      {
-        id: "storage",
-        icon: "Shield",
-        title: "Data Storage & Backup",
-        subtitle: "Reliable Data Management",
-        description:
-          "Use Amazon S3, EBS, and Glacier for secure, redundant, and cost-effective data storage with automated backup solutions.",
-      },
-      {
-        id: "security",
-        icon: "Shield",
-        title: "Security & Compliance",
-        subtitle: "Enterprise-Grade Protection",
-        description:
-          "Implement IAM, KMS, and GuardDuty to secure your cloud infrastructure and ensure compliance with global standards.",
-      },
-      {
-        id: "machine-learning",
-        icon: "Shield",
-        title: "AI & Machine Learning",
-        subtitle: "Intelligent Cloud Systems",
-        description:
-          "Utilize Amazon SageMaker and AI services for predictive analytics, personalization, and intelligent automation.",
-      },
-      {
-        id: "networking",
-        icon: "Shield",
-        title: "Networking & Content Delivery",
-        subtitle: "Faster Global Reach",
-        description:
-          "Optimize performance using AWS CloudFront, Route 53, and VPC for seamless global connectivity and traffic management.",
-      },
-      {
-        id: "monitoring",
-        icon: "Shield",
-        title: "Monitoring & Performance",
-        subtitle: "Real-Time Cloud Insights",
-        description:
-          "Monitor and optimize system performance using CloudWatch and X-Ray for complete operational visibility.",
-      },
-    ],
-    linkText: "Explore AWS Services",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "AWS Cloud & Infrastructure Solutions",
+  mainDescription:
+    "Accelerate innovation with cloud-native AWS solutions — from compute and storage to AI and data analytics — built for scalability, reliability, and cost efficiency.",
+  items: [
+    {
+      id: "compute",
+      icon: "Shield",
+      title: "Compute & Scalability",
+      subtitle: "Elastic Cloud Infrastructure",
+      description:
+        "Deploy highly scalable compute resources through Amazon EC2, ECS, and Lambda for optimal workload flexibility. Automatically adjust capacity based on demand and minimize downtime. Achieve faster performance while optimizing cloud costs across all environments.",
+    },
+    {
+      id: "storage",
+      icon: "Shield",
+      title: "Data Storage & Backup",
+      subtitle: "Reliable Data Management",
+      description:
+        "Securely manage structured and unstructured data with Amazon S3, EBS, and Glacier. Benefit from automated data lifecycle policies and tiered storage options. Ensure business continuity with high availability and intelligent backup solutions.",
+    },
+    {
+      id: "security",
+      icon: "Shield",
+      title: "Security & Compliance",
+      subtitle: "Enterprise-Grade Protection",
+      description:
+        "Strengthen your cloud defenses using AWS IAM, KMS, and GuardDuty for identity, encryption, and threat management. Maintain compliance with global standards like ISO, HIPAA, and GDPR. Safeguard workloads with real-time security monitoring and alerts.",
+    },
+    {
+      id: "machine-learning",
+      icon: "Shield",
+      title: "AI & Machine Learning",
+      subtitle: "Intelligent Cloud Systems",
+      description:
+        "Build and deploy AI-driven applications using Amazon SageMaker, Rekognition, and Comprehend. Leverage predictive analytics for smarter business insights. Automate workflows with machine learning models that evolve continuously with your data.",
+    },
+    {
+      id: "networking",
+      icon: "Shield",
+      title: "Networking & Content Delivery",
+      subtitle: "Faster Global Reach",
+      description:
+        "Deliver seamless connectivity and low-latency experiences using AWS CloudFront, Route 53, and VPC. Optimize network routing for high-speed content delivery worldwide. Enhance scalability and availability with robust global infrastructure.",
+    },
+    {
+      id: "monitoring",
+      icon: "Shield",
+      title: "Monitoring & Performance",
+      subtitle: "Real-Time Cloud Insights",
+      description:
+        "Gain full operational visibility through AWS CloudWatch and X-Ray. Track application metrics, detect anomalies, and resolve issues proactively. Improve reliability and performance with continuous monitoring and automated alerts.",
+    },
+  ],
+  linkText: "Explore AWS Services",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "AWS Cloud Management & Optimization",
@@ -135,37 +136,37 @@ export const aws: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "disaster-recovery",
-        icon: "map",
-        title: "Disaster Recovery Solutions",
-        description:
-          "Ensure business continuity with multi-region backup and recovery strategies using AWS Backup and CloudEndure.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "Integration with Third-Party Tools",
-        description:
-          "Connect AWS with CI/CD, CRM, and analytics platforms for streamlined operations and continuous innovation.",
-      },
-      {
-        id: "compliance",
-        icon: "map",
-        title: "Compliance & Governance",
-        description:
-          "Meet regulatory standards such as GDPR, HIPAA, and SOC 2 using AWS’s compliance frameworks and audit trails.",
-      },
-      {
-        id: "automation",
-        icon: "map",
-        title: "Workflow Automation",
-        description:
-          "Automate recurring operations and system responses with AWS Step Functions and EventBridge.",
-      },
-    ],
-    ctaText: "Get AWS Experts",
-    onCtaClick: () => {},
+  {
+    id: "disaster-recovery",
+    icon: "map",
+    title: "Disaster Recovery Solutions",
+    description:
+      "Protect your critical workloads with multi-region backup and failover strategies powered by AWS Backup and CloudEndure. Minimize downtime through automated recovery and rapid data restoration. Maintain operational resilience with real-time replication and monitoring tools.",
+  },
+  {
+    id: "integration",
+    icon: "map",
+    title: "Integration with Third-Party Tools",
+    description:
+      "Seamlessly connect AWS environments with CI/CD pipelines, CRM platforms, and analytics tools. Enhance collaboration across teams through unified data flow and process automation. Drive continuous innovation with scalable integrations that adapt to business growth.",
+  },
+  {
+    id: "compliance",
+    icon: "map",
+    title: "Compliance & Governance",
+    description:
+      "Achieve full compliance with global standards like GDPR, HIPAA, and SOC 2 using AWS governance frameworks. Implement policy-based access, auditing, and data encryption at every layer. Maintain transparency with automated compliance reporting and real-time insights.",
+  },
+  {
+    id: "automation",
+    icon: "map",
+    title: "Workflow Automation",
+    description:
+      "Automate repetitive operations using AWS Step Functions and EventBridge for seamless orchestration. Improve system reliability through intelligent event-driven workflows. Accelerate deployment cycles while reducing manual effort and operational costs.",
+  },
+],
+ctaText: "Get AWS Experts",
+onCtaClick: () => {},
   },
 
   faq: {

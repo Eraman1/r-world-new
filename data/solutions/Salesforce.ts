@@ -47,62 +47,63 @@ export const Salesforce: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Salesforce Solutions to Transform Your Business",
-    mainDescription:
-      "Our Salesforce solutions enable businesses to streamline operations, track leads, manage customer relationships, and gain actionable insights through dashboards and analytics.",
-    items: [
-      {
-        id: "sales-automation",
-        icon: "Leaf",
-        title: "Sales Automation",
-        subtitle: "Streamline Sales Processes",
-        description:
-          "Automate lead management, opportunity tracking, and sales forecasting to improve sales efficiency and revenue.",
-      },
-      {
-        id: "customer-service",
-        icon: "Leaf",
-        title: "Customer Service & Support",
-        subtitle: "Enhance Customer Experience",
-        description:
-          "Leverage Service Cloud to manage cases, improve response times, and provide a seamless customer support experience.",
-      },
-      {
-        id: "marketing-cloud",
-        icon: "Leaf",
-        title: "Marketing Automation",
-        subtitle: "Targeted Campaigns",
-        description:
-          "Utilize Marketing Cloud to create personalized email campaigns, social media automation, and customer journey mapping.",
-      },
-      {
-        id: "analytics-dashboard",
-        icon: "Leaf",
-        title: "Analytics & Reporting",
-        subtitle: "Data-Driven Decisions",
-        description:
-          "Create dashboards, reports, and KPIs to gain insights into sales performance, customer behavior, and business growth.",
-      },
-      {
-        id: "custom-apps",
-        icon: "Leaf",
-        title: "Custom App Development",
-        subtitle: "Tailored Business Solutions",
-        description:
-          "Build custom Salesforce apps and modules to address unique business challenges and automate workflows effectively.",
-      },
-      {
-        id: "integration",
-        icon: "Leaf",
-        title: "Third-Party Integrations",
-        subtitle: "Connect Your Systems",
-        description:
-          "Integrate Salesforce with ERP, marketing tools, payment gateways, and other software to create a unified business ecosystem.",
-      },
-    ],
-    linkText: "Get Salesforce Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Salesforce Solutions to Transform Your Business",
+  mainDescription:
+    "Our Salesforce solutions empower businesses to automate workflows, strengthen customer relationships, and make data-driven decisions. We help you unlock efficiency, improve engagement, and accelerate growth through tailored CRM implementations.",
+  items: [
+    {
+      id: "sales-automation",
+      icon: "Leaf",
+      title: "Sales Automation",
+      subtitle: "Streamline Sales Processes",
+      description:
+        "Automate lead tracking, deal management, and sales forecasting to boost productivity and accuracy. Eliminate manual tasks and focus on closing more deals faster. Gain visibility into your entire sales pipeline with real-time insights.",
+    },
+    {
+      id: "customer-service",
+      icon: "Leaf",
+      title: "Customer Service & Support",
+      subtitle: "Enhance Customer Experience",
+      description:
+        "Deliver exceptional customer support with intelligent case management and omni-channel communication. Improve resolution times through automation and AI-driven assistance. Strengthen customer loyalty by offering personalized service experiences.",
+    },
+    {
+      id: "marketing-cloud",
+      icon: "Leaf",
+      title: "Marketing Automation",
+      subtitle: "Targeted Campaigns",
+      description:
+        "Design personalized marketing journeys that reach customers at the right moment. Automate campaigns across email, social, and mobile for maximum engagement. Analyze customer interactions to refine targeting and increase conversions.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "Leaf",
+      title: "Analytics & Reporting",
+      subtitle: "Data-Driven Decisions",
+      description:
+        "Unlock valuable insights with customized dashboards and predictive reports. Monitor KPIs, customer trends, and performance metrics in real time. Empower leadership teams to make informed, strategic business decisions faster.",
+    },
+    {
+      id: "custom-apps",
+      icon: "Leaf",
+      title: "Custom App Development",
+      subtitle: "Tailored Business Solutions",
+      description:
+        "Develop custom Salesforce apps that address your company’s unique workflows and challenges. Extend CRM functionality to meet evolving business goals. Automate routine processes while maintaining scalability and performance.",
+    },
+    {
+      id: "integration",
+      icon: "Leaf",
+      title: "Third-Party Integrations",
+      subtitle: "Connect Your Systems",
+      description:
+        "Seamlessly connect Salesforce with ERP systems, marketing tools, and payment gateways. Ensure unified data flow across departments for improved collaboration. Build a connected ecosystem that enhances efficiency and decision-making.",
+    },
+  ],
+  linkText: "Get Salesforce Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Salesforce Management & Optimization",
@@ -135,37 +136,37 @@ export const Salesforce: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "reporting",
-        icon: "map",
-        title: "Advanced Reporting & Analytics",
-        description:
-          "Generate actionable insights through customizable reports, dashboards, and KPIs.",
-      },
-      {
-        id: "integration-support",
-        icon: "map",
-        title: "Integration & API Support",
-        description:
-          "Seamlessly connect Salesforce with external apps and third-party systems for a unified business workflow.",
-      },
-      {
-        id: "training",
-        icon: "map",
-        title: "Training & Consultation",
-        description:
-          "Provide Salesforce training and best-practice guidance to ensure your team gets the most out of the platform.",
-      },
-      {
-        id: "automation",
-        icon: "map",
-        title: "AI & Automation Tools",
-        description:
-          "Leverage Salesforce AI features like Einstein to automate insights, predictive analytics, and lead scoring.",
-      },
-    ],
-    ctaText: "Talk to Salesforce Experts",
-    onCtaClick: () => {},
+  {
+    id: "reporting",
+    icon: "map",
+    title: "Advanced Reporting & Analytics",
+    description:
+      "Gain deep visibility into performance with real-time dashboards and custom KPIs. Transform complex data into meaningful insights for informed decision-making. Track sales trends, customer behavior, and team productivity with precision.",
+  },
+  {
+    id: "integration-support",
+    icon: "map",
+    title: "Integration & API Support",
+    description:
+      "Connect Salesforce seamlessly with external apps, CRMs, and ERP systems for a unified workflow. Automate data synchronization across departments to eliminate silos. Enable smoother collaboration and faster execution with robust API integration.",
+  },
+  {
+    id: "training",
+    icon: "map",
+    title: "Training & Consultation",
+    description:
+      "Empower your team with hands-on Salesforce training tailored to your business processes. Gain expert guidance on automation, workflows, and best practices. Ensure long-term adoption and ROI with ongoing consulting support.",
+  },
+  {
+    id: "automation",
+    icon: "map",
+    title: "AI & Automation Tools",
+    description:
+      "Enhance productivity using Salesforce Einstein for intelligent automation and predictive analytics. Streamline lead scoring, task assignment, and follow-ups with AI-driven insights. Boost efficiency by reducing manual effort and maximizing data accuracy.",
+  },
+],
+ctaText: "Talk to Salesforce Experts",
+onCtaClick: () => {},
   },
 
   faq: {

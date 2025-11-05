@@ -4,168 +4,169 @@ export const arvr: SolutionConfig = {
   slug: "arvr",
 
   banner: {
-    title: "Innovate Smarter with",
-    highlight: "IBM Cloud & AI-Powered Solutions",
+    title: "Transform Experiences with",
+    highlight: "Augmented & Virtual Reality Solutions",
     subtitle:
-      "Drive digital transformation through IBM’s cloud, AI, and automation technologies. Empower your business with intelligent, scalable, and secure enterprise solutions.",
+      "Reimagine interaction through immersive AR and VR technologies. Empower your business with engaging, interactive, and future-ready experiences across industries.",
     image:
       "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
-    linkText: "Explore IBM Solutions",
+    linkText: "Explore AR/VR Innovations",
   },
 
   developerDetails: {
-    heading: "IBM Technology Experts in Cloud, AI & Automation",
+    heading: "AR/VR Experts in Immersive Experience Development",
     subheading:
-      "We help enterprises leverage IBM’s powerful ecosystem — Watson, Cloud Pak, and AI automation — to optimize workflows, modernize infrastructure, and unlock new insights.",
-    mainTitle: "Enterprise-Grade IBM Cloud & AI Services",
+      "We create cutting-edge AR and VR applications that blend creativity, technology, and real-world usability to deliver captivating digital experiences.",
+    mainTitle: "Next-Gen Augmented & Virtual Reality Solutions",
     mainDescription:
-      "From AI-driven decision-making to cloud migration and automation, our IBM-certified specialists deliver intelligent enterprise solutions built for scalability, security, and innovation.",
-    image: "/images/ibm-laptop.png",
+      "Our AR/VR developers specialize in crafting immersive simulations, product visualizations, and training experiences using Unity, Unreal Engine, and WebXR. We bring ideas to life with interactive design and spatial computing.",
+    image: "/images/arvr-laptop.png",
     services: [
       {
         id: 1,
-        title: "IBM Cloud Migration",
+        title: "AR App Development",
         description:
-          "Seamlessly migrate workloads to IBM Cloud with minimal downtime, enabling cost efficiency, flexibility, and performance.",
-        icon: "/icons/cloud.svg",
+          "Build augmented reality apps for mobile and wearable devices that enhance real-world experiences with interactive 3D visuals.",
+        icon: "/icons/ar.svg",
       },
       {
         id: 2,
-        title: "Watson AI & Machine Learning",
+        title: "VR Simulation & Training",
         description:
-          "Integrate IBM Watson for NLP, predictive analytics, and automation to enhance decision-making and customer engagement.",
-        icon: "/icons/ai.svg",
+          "Develop high-fidelity VR simulations for education, healthcare, construction, and enterprise training programs.",
+        icon: "/icons/vr.svg",
       },
       {
         id: 3,
-        title: "Business Automation Solutions",
+        title: "3D Content & Environment Design",
         description:
-          "Automate manual tasks and streamline processes using IBM Cloud Pak for Business Automation, reducing time and operational cost.",
-        icon: "/icons/robot.svg",
+          "Design detailed 3D assets and virtual environments for immersive storytelling, gaming, and product demonstrations.",
+        icon: "/icons/3d.svg",
       },
     ],
   },
 
   solutions: {
-    mainTitle: "IBM Cloud, AI, and Automation Solutions",
-    mainDescription:
-      "Unlock your enterprise’s potential with IBM’s suite of intelligent tools. From AI models to hybrid cloud systems, our solutions enable smarter decisions and sustainable growth.",
-    items: [
-      {
-        id: "ai-automation",
-        icon: "Leaf",
-        title: "AI-Powered Automation",
-        subtitle: "Enhance Operational Efficiency",
-        description:
-          "Implement AI-driven workflows with IBM Watson Orchestrate to automate tasks, optimize resources, and boost productivity.",
-      },
-      {
-        id: "cloud-infrastructure",
-        icon: "Leaf",
-        title: "Hybrid Cloud Infrastructure",
-        subtitle: "Scalable Enterprise Cloud",
-        description:
-          "Build and manage a hybrid cloud architecture using IBM Cloud Pak to balance performance, flexibility, and security.",
-      },
-      {
-        id: "data-analytics",
-        icon: "Leaf",
-        title: "Advanced Data Analytics",
-        subtitle: "Turn Data into Business Insights",
-        description:
-          "Leverage IBM Cognos and Watson Studio for real-time analytics, predictive modeling, and strategic intelligence.",
-      },
-      {
-        id: "cybersecurity",
-        icon: "Shield",
-        title: "Enterprise Security",
-        subtitle: "Protect Data & Infrastructure",
-        description:
-          "Deploy IBM Security Verify and QRadar to detect threats, prevent breaches, and ensure compliance across digital assets.",
-      },
-      {
-        id: "automation-tools",
-        icon: "Leaf",
-        title: "Process Automation Tools",
-        subtitle: "Simplify Complex Workflows",
-        description:
-          "Use IBM Cloud Pak for Automation to automate document processing, approvals, and customer workflows.",
-      },
-      {
-        id: "ai-chatbot",
-        icon: "Leaf",
-        title: "Watson Chatbots & Virtual Agents",
-        subtitle: "Enhance Customer Experience",
-        description:
-          "Integrate Watson Assistant to power intelligent, conversational chatbots that improve customer support 24/7.",
-      },
-    ],
-    linkText: "Get IBM-Powered Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Immersive AR/VR Applications & Development",
+  mainDescription:
+    "We deliver AR and VR solutions that help brands engage customers, train employees, and simulate real-world scenarios with precision and impact.",
+  items: [
+    {
+      id: "ar-commerce",
+      icon: "Leaf",
+      title: "AR-Powered Retail Experiences",
+      subtitle: "Interactive Shopping Solutions",
+      description:
+        "Transform shopping journeys with interactive AR tools that let users virtually try products in real-time. Enable customers to visualize items before purchase for increased confidence. Drive conversions through immersive, personalized retail experiences.",
+    },
+    {
+      id: "vr-training",
+      icon: "Leaf",
+      title: "VR Training & Simulation",
+      subtitle: "Realistic Learning Environments",
+      description:
+        "Empower employees with lifelike VR-based training modules that simulate real-world tasks and environments. Reduce operational risks and enhance engagement with hands-on learning. Improve knowledge retention through immersive, scenario-driven simulations.",
+    },
+    {
+      id: "3d-visualization",
+      icon: "Leaf",
+      title: "3D Visualization Solutions",
+      subtitle: "Architectural & Industrial Design",
+      description:
+        "Visualize designs with precision using AR/VR-powered 3D modeling tools. Present architectural concepts, engineering prototypes, and industrial layouts in realistic digital spaces. Reduce production errors and speed up project approvals through immersive previews.",
+    },
+    {
+      id: "metaverse",
+      icon: "Leaf",
+      title: "Metaverse Development",
+      subtitle: "Social & Collaborative Spaces",
+      description:
+        "Build engaging metaverse platforms where users can meet, collaborate, and interact in shared virtual environments. Enable real-time communication, digital commerce, and event hosting. Create branded metaverse ecosystems that redefine digital engagement.",
+    },
+    {
+      id: "mixed-reality",
+      icon: "Leaf",
+      title: "Mixed Reality Integration",
+      subtitle: "Blending Physical & Digital Worlds",
+      description:
+        "Combine AR and VR technologies to create hybrid experiences that fuse real-world elements with digital layers. Utilize devices like HoloLens and Magic Leap for interactive visualization. Deliver immersive enterprise and consumer experiences with next-gen MR solutions.",
+    },
+    {
+      id: "interactive-marketing",
+      icon: "Leaf",
+      title: "Immersive Marketing Campaigns",
+      subtitle: "Next-Level Brand Engagement",
+      description:
+        "Reimagine marketing with interactive AR filters, 360° product tours, and VR events. Capture audience attention through immersive storytelling that drives emotional connection. Boost brand loyalty with dynamic, tech-powered digital experiences.",
+    },
+  ],
+  linkText: "Get AR/VR Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
-    title: "IBM Enterprise Management Platforms",
+    title: "AR/VR Experience Management Platforms",
     subtitle:
-      "Empowering organizations with AI-powered management systems for analytics, automation, and seamless collaboration.",
-    subtitleLink: { text: "IBM enterprise systems", url: "#" },
-    laptopImage: "/images/management-ibm.jpg",
-    mobileImage: "/images/management-ibm-mobile.jpg",
+      "Empowering businesses to manage, monitor, and scale immersive experiences with intelligent visualization tools.",
+    subtitleLink: { text: "Explore AR/VR Management", url: "#" },
+    laptopImage: "/images/management-arvr.jpg",
+    mobileImage: "/images/management-arvr-mobile.jpg",
     topFeatures: [
       {
-        id: "automation",
+        id: "analytics",
         icon: "map",
-        title: "Workflow Automation",
+        title: "Immersive Analytics",
         description:
-          "Enable smart automation for repetitive business operations using IBM Cloud Pak solutions.",
+          "Track user engagement and interaction patterns in AR/VR environments to refine experience design and ROI measurement.",
       },
       {
-        id: "collaboration",
+        id: "real-time",
         icon: "map",
-        title: "Cloud Collaboration",
+        title: "Real-Time Collaboration",
         description:
-          "Facilitate real-time collaboration and project tracking with IBM Cloud services and integrated dashboards.",
+          "Enable remote collaboration within shared virtual spaces, ideal for design reviews, virtual offices, and digital classrooms.",
       },
       {
-        id: "insights",
+        id: "optimization",
         icon: "map",
-        title: "AI-Driven Insights",
+        title: "Performance Optimization",
         description:
-          "Turn unstructured data into actionable insights with Watson AI’s advanced analytics and natural language capabilities.",
+          "Optimize rendering, tracking, and motion performance for smooth, high-quality immersive experiences across devices.",
       },
     ],
     bottomFeatures: [
-      {
-        id: "integration",
-        icon: "map",
-        title: "Multi-System Integration",
-        description:
-          "Integrate IBM platforms with ERP, CRM, and DevOps systems for unified enterprise data management.",
-      },
-      {
-        id: "cloud-security",
-        icon: "map",
-        title: "Cloud Security & Compliance",
-        description:
-          "Ensure regulatory compliance and secure cloud environments using IBM Cloud Security and QRadar tools.",
-      },
-      {
-        id: "backup",
-        icon: "map",
-        title: "Data Backup & Recovery",
-        description:
-          "Implement robust data protection strategies with automated backup, redundancy, and recovery systems.",
-      },
-      {
-        id: "ai-optimization",
-        icon: "map",
-        title: "AI-Driven Optimization",
-        description:
-          "Use Watson Machine Learning to predict maintenance, optimize workflows, and reduce costs through automation.",
-      },
-    ],
-    ctaText: "Talk to IBM Experts",
-    onCtaClick: () => {},
+  {
+    id: "integration",
+    icon: "map",
+    title: "Hardware Integration",
+    description:
+      "Ensure flawless performance with full compatibility across leading AR/VR devices such as Oculus, HTC Vive, and HoloLens. Integrate seamlessly with existing systems for smooth user interactions. Deliver consistent immersive experiences across multiple hardware platforms.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Privacy & Security",
+    description:
+      "Protect sensitive user information through end-to-end encryption and secure authentication protocols. Adhere to global data privacy standards to maintain user trust. Enable safe, compliant AR/VR environments with robust security frameworks.",
+  },
+  {
+    id: "scalability",
+    icon: "map",
+    title: "Scalable Deployment",
+    description:
+      "Leverage cloud-based infrastructure for effortless app deployment and management. Scale resources dynamically to handle large user bases and high traffic. Monitor performance and ensure reliable global accessibility for every AR/VR experience.",
+  },
+  {
+    id: "customization",
+    icon: "map",
+    title: "Custom Experience Design",
+    description:
+      "Craft immersive AR/VR environments that reflect your brand’s unique identity. Personalize every visual and interaction to maximize user engagement. Deliver experiences that captivate audiences and leave a lasting impression.",
+  },
+],
+ctaText: "Consult AR/VR Experts",
+onCtaClick: () => {},
   },
 
   faq: {
@@ -173,39 +174,39 @@ export const arvr: SolutionConfig = {
     items: [
       {
         id: "1",
-        question: "What IBM services do you offer?",
+        question: "What industries can benefit from AR and VR?",
         answer:
-          "We offer cloud migration, Watson AI integration, automation, analytics, and IBM Cloud Pak deployment for enterprise solutions.",
+          "AR and VR technologies serve multiple industries including healthcare, real estate, retail, education, and manufacturing by improving engagement, training, and visualization.",
       },
       {
         id: "2",
-        question: "Can you integrate IBM solutions with existing enterprise systems?",
+        question: "Do you develop cross-platform AR/VR applications?",
         answer:
-          "Yes, our team integrates IBM tools with ERP, CRM, and DevOps systems to create a connected and efficient IT environment.",
+          "Yes, we build AR/VR solutions compatible with iOS, Android, web, and leading VR headsets like Oculus, HTC Vive, and HoloLens.",
       },
       {
         id: "3",
-        question: "Do you provide Watson AI chatbot development?",
+        question: "Can AR/VR be integrated with existing business systems?",
         answer:
-          "Absolutely. We build intelligent virtual assistants using IBM Watson Assistant to improve customer experience and automate support.",
+          "Absolutely. We integrate AR/VR experiences with existing CRM, ERP, or e-commerce platforms for seamless business operations.",
       },
       {
         id: "4",
-        question: "Is IBM Cloud secure for enterprise data?",
+        question: "How long does it take to develop an AR/VR project?",
         answer:
-          "Yes. IBM Cloud provides enterprise-grade encryption, access control, and compliance tools to ensure data protection.",
+          "The timeline depends on project complexity. Simple AR apps take weeks, while large-scale VR environments may take a few months.",
       },
       {
         id: "5",
-        question: "Do you assist with IBM Cloud Pak setup?",
+        question: "Do you provide maintenance and support for AR/VR apps?",
         answer:
-          "Yes. We provide installation, configuration, and workflow automation for IBM Cloud Pak modules across hybrid cloud environments.",
+          "Yes, we offer post-launch maintenance, feature updates, and performance optimization for all AR/VR applications.",
       },
       {
         id: "6",
-        question: "Can IBM AI help automate business workflows?",
+        question: "What tools and technologies do you use for AR/VR development?",
         answer:
-          "Yes, IBM’s AI and Cloud Pak for Automation optimize workflows, reduce manual work, and improve overall business efficiency.",
+          "We use Unity, Unreal Engine, WebXR, ARCore, ARKit, and 3D design tools like Blender and Maya to build immersive experiences.",
       },
     ],
   },

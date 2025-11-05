@@ -5,6 +5,9 @@ import { animationGraphicDesign } from "./animation-graphic-design";
 import { autodesk } from "./autodesk";
 import { aws } from "./AWS";
 import { artificialintelligence } from "./artificial-intelligence";
+// import { assetTracking } from "./assettracking";
+import { arvr } from "./AR-VR";
+
 import { ibm } from "./IBM";
 import { Microsoft } from "./Microsoft";
 import { NetSuit } from "./NetSuit";
@@ -21,6 +24,7 @@ import { cms } from "./cms";
 import { crm } from "./crm";
 import { database } from './Database';
 import { digitalAssetManagement } from './digitalassetmanagement';
+// import { digitalSignage } from './DigitalSignage';
 import { documentManagement } from './documentmanagement';
 import { embeddedSoftware } from './embeddedSoftware';
 import { erp } from './erp';
@@ -51,6 +55,8 @@ export const solutionsData: Record<string, SolutionConfig> = {
   autodesk,
   aws,
   "artificial-intelligence": artificialintelligence,
+  // assetTracking,
+  arvr,
   ibm,
   Microsoft,
   NetSuit,
@@ -67,6 +73,7 @@ export const solutionsData: Record<string, SolutionConfig> = {
   crm,
   database,
   digitalAssetManagement,
+  // digitalSignage,
   documentManagement,
   embeddedSoftware,
   erp,

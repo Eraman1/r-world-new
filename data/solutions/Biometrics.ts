@@ -47,62 +47,62 @@ export const Biometrics: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Next-Gen Biometric & Identity Management Solutions",
-    mainDescription:
-      "We deliver tailored biometric platforms for banking, enterprise, and government institutions — improving accuracy, efficiency, and security in every interaction.",
-    items: [
-      {
-        id: "identity-verification",
-        icon: "Leaf",
-        title: "Digital Identity Verification",
-        subtitle: "Seamless Onboarding Experience",
-        description:
-          "Automate customer onboarding with biometric KYC processes integrated into your web or mobile platforms.",
-      },
-      {
-        id: "access-control",
-        icon: "Leaf",
-        title: "Access Control Systems",
-        subtitle: "Secure Entry & Exit Points",
-        description:
-          "Implement biometric access systems using facial, fingerprint, or palm recognition to restrict unauthorized entry.",
-      },
-      {
-        id: "attendance-monitoring",
-        icon: "Leaf",
-        title: "Biometric Attendance Management",
-        subtitle: "Accurate Workforce Tracking",
-        description:
-          "Automate employee attendance with biometric authentication — eliminating proxy attendance and improving compliance.",
-      },
-      {
-        id: "mobile-integration",
-        icon: "Leaf",
-        title: "Mobile Biometric SDKs",
-        subtitle: "Integration for Android & iOS",
-        description:
-          "We provide SDKs for mobile biometric authentication, allowing seamless integration into apps and digital wallets.",
-      },
-      {
-        id: "fraud-detection",
-        icon: "Leaf",
-        title: "Fraud Detection & Prevention",
-        subtitle: "AI-Powered Security",
-        description:
-          "Leverage AI-driven facial and behavioral biometrics to detect anomalies and prevent identity fraud in real-time.",
-      },
-      {
-        id: "cloud-biometrics",
-        icon: "Leaf",
-        title: "Cloud-Based Biometric Platform",
-        subtitle: "Scalable & Secure Architecture",
-        description:
-          "Deploy cloud-hosted biometric systems with encrypted data storage and compliance to GDPR, HIPAA, and ISO standards.",
-      },
-    ],
-    linkText: "Get Secure Biometric Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Next-Gen Biometric & Identity Management Solutions",
+  mainDescription:
+    "We deliver tailored biometric platforms for banking, enterprise, and government institutions — improving accuracy, efficiency, and security in every interaction.",
+  items: [
+    {
+      id: "identity-verification",
+      icon: "Leaf",
+      title: "Digital Identity Verification",
+      subtitle: "Seamless Onboarding Experience",
+      description:
+        "Enhance customer onboarding with fast, secure biometric KYC verification. Capture and validate identity data across multiple platforms in real time. Reduce manual checks while ensuring compliance and user trust through automated verification workflows.",
+    },
+    {
+      id: "access-control",
+      icon: "Leaf",
+      title: "Access Control Systems",
+      subtitle: "Secure Entry & Exit Points",
+      description:
+        "Implement biometric access systems using face, fingerprint, or palm recognition for maximum security. Manage entry points across facilities with precision and transparency. Enable real-time monitoring to prevent unauthorized access and enhance safety standards.",
+    },
+    {
+      id: "attendance-monitoring",
+      icon: "Leaf",
+      title: "Biometric Attendance Management",
+      subtitle: "Accurate Workforce Tracking",
+      description:
+        "Automate workforce attendance tracking through biometric verification methods. Eliminate proxy attendance and reduce administrative workload. Maintain transparent, real-time records integrated with HR and payroll management systems.",
+    },
+    {
+      id: "mobile-integration",
+      icon: "Leaf",
+      title: "Mobile Biometric SDKs",
+      subtitle: "Integration for Android & iOS",
+      description:
+        "Integrate mobile biometric authentication directly into your apps or digital wallets. Our SDKs support multiple modalities including fingerprint, face, and voice. Ensure a seamless and secure user experience with minimal development effort.",
+    },
+    {
+      id: "fraud-detection",
+      icon: "Leaf",
+      title: "Fraud Detection & Prevention",
+      subtitle: "AI-Powered Security",
+      description:
+        "Use AI-driven facial, behavioral, and voice biometrics to detect identity anomalies instantly. Strengthen fraud prevention through continuous learning and adaptive recognition models. Safeguard financial transactions and sensitive user interactions with precision.",
+    },
+    {
+      id: "cloud-biometrics",
+      icon: "Leaf",
+      title: "Cloud-Based Biometric Platform",
+      subtitle: "Scalable & Secure Architecture",
+      description:
+        "Deploy scalable biometric systems hosted on secure cloud infrastructure. Benefit from encrypted data storage, continuous uptime, and compliance with GDPR, HIPAA, and ISO standards. Enable global access to secure identity management across multiple devices and platforms.",
+    },
+  ],
+  linkText: "Get Secure Biometric Solutions",
+  linkUrl: "/contact-us",
+},
 
   managementSolutions: {
     title: "Biometric Identity Management Platforms",
@@ -135,37 +135,37 @@ export const Biometrics: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "compliance",
-        icon: "map",
-        title: "Data Privacy & Compliance",
-        description:
-          "Our biometric systems comply with global security standards including GDPR, ISO 27001, and NIST guidelines.",
-      },
-      {
-        id: "multi-device",
-        icon: "map",
-        title: "Cross-Device Compatibility",
-        description:
-          "Authenticate users across desktops, kiosks, and mobile devices with unified biometric profiles.",
-      },
-      {
-        id: "automation",
-        icon: "map",
-        title: "Workflow Automation",
-        description:
-          "Automate access logs, visitor registration, and security approvals through intelligent biometric workflow systems.",
-      },
-      {
-        id: "cloud-backup",
-        icon: "map",
-        title: "Secure Cloud Backup",
-        description:
-          "Ensure uninterrupted access and disaster recovery through automated biometric data backups.",
-      },
-    ],
-    ctaText: "Talk to Biometric Experts",
-    onCtaClick: () => {},
+  {
+    id: "compliance",
+    icon: "map",
+    title: "Data Privacy & Compliance",
+    description:
+      "Our biometric systems are built to meet strict international standards such as GDPR, ISO 27001, and NIST. We prioritize data confidentiality through advanced encryption and secure storage. This ensures full regulatory compliance and trust in every user interaction.",
+  },
+  {
+    id: "multi-device",
+    icon: "map",
+    title: "Cross-Device Compatibility",
+    description:
+      "Enable seamless authentication across desktops, kiosks, and mobile devices using a unified biometric profile. Maintain consistent performance and accuracy regardless of platform or hardware. Enhance user convenience without compromising on security or speed.",
+  },
+  {
+    id: "automation",
+    icon: "map",
+    title: "Workflow Automation",
+    description:
+      "Streamline operations with automated access logs, visitor management, and security approvals. Reduce manual processes through AI-driven biometric validation. Improve efficiency and accuracy while maintaining high security across all checkpoints.",
+  },
+  {
+    id: "cloud-backup",
+    icon: "map",
+    title: "Secure Cloud Backup",
+    description:
+      "Protect biometric data with automated, encrypted cloud storage for business continuity. Enable quick disaster recovery through real-time replication and redundancy. Ensure data integrity, accessibility, and compliance across distributed environments.",
+  },
+],
+ctaText: "Talk to Biometric Experts",
+onCtaClick: () => {},
   },
 
   faq: {
