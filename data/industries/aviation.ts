@@ -1,5 +1,5 @@
 import { IndustryConfig } from "@/types/industries";
- 
+
 export const aviation: IndustryConfig = {
   slug: "aviation",
   banner: {
@@ -198,7 +198,7 @@ export const aviation: IndustryConfig = {
   managementSolutionsTwo: {
     title: "Land Management Software Solutions-testing",
     subtitle:
-      "Chetu's land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
+      "R-World land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
     subtitleLink: { text: "land management software", url: "#" },
     laptopImage: "/images/management-solutions.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",

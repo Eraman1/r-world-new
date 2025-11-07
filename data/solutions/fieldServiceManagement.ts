@@ -47,62 +47,62 @@ export const fieldServiceManagement: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Comprehensive FSM Software Solutions",
-    mainDescription:
-      "We deliver end-to-end digital field management tools to improve service delivery, enhance asset performance, and empower field technicians.",
-    items: [
-      {
-        id: "asset-tracking",
-        icon: "Leaf",
-        title: "Asset Tracking & Monitoring",
-        subtitle: "Real-Time Equipment Insights",
-        description:
-          "Track asset performance using IoT-enabled sensors and dashboards that predict maintenance needs and minimize downtime.",
-      },
-      {
-        id: "service-automation",
-        icon: "Leaf",
-        title: "Service Automation",
-        subtitle: "Reduce Manual Workload",
-        description:
-          "Automate repetitive service tasks, job updates, and maintenance scheduling for maximum operational efficiency.",
-      },
-      {
-        id: "mobile-access",
-        icon: "Leaf",
-        title: "Mobile Technician Access",
-        subtitle: "On-the-Go Work Management",
-        description:
-          "Enable technicians to view assignments, update progress, and collect digital proof of work through mobile devices.",
-      },
-      {
-        id: "analytics",
-        icon: "Leaf",
-        title: "Performance Analytics",
-        subtitle: "Data-Driven Decision Making",
-        description:
-          "Gain actionable insights from service data to measure KPIs, identify inefficiencies, and improve overall service quality.",
-      },
-      {
-        id: "customer-portal",
-        icon: "Leaf",
-        title: "Customer Self-Service Portal",
-        subtitle: "Transparency & Convenience",
-        description:
-          "Provide customers with portals to book services, track requests, and communicate directly with technicians in real-time.",
-      },
-      {
-        id: "integration",
-        icon: "Leaf",
-        title: "ERP & CRM Integration",
-        subtitle: "Unified Business Operations",
-        description:
-          "Seamlessly integrate FSM platforms with CRM, ERP, and billing systems for synchronized workflows and data accuracy.",
-      },
-    ],
-    linkText: "Get Field Service Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Comprehensive FSM Software Solutions",
+  mainDescription:
+    "We deliver end-to-end digital field management tools to improve service delivery, enhance asset performance, and empower field technicians.",
+  items: [
+    {
+      id: "asset-tracking",
+      icon: "Leaf",
+      title: "Asset Tracking & Monitoring",
+      subtitle: "Real-Time Equipment Insights",
+      description:
+        "Monitor and track asset performance through IoT sensors and smart dashboards. Detect issues early and schedule predictive maintenance to prevent failures. Reduce operational costs by maximizing equipment uptime and performance visibility.",
+    },
+    {
+      id: "service-automation",
+      icon: "Leaf",
+      title: "Service Automation",
+      subtitle: "Reduce Manual Workload",
+      description:
+        "Automate routine service requests, maintenance scheduling, and status updates in real-time. Minimize human error while ensuring faster response times and higher accuracy. Streamline operations for a smoother, more efficient service workflow.",
+    },
+    {
+      id: "mobile-access",
+      icon: "Leaf",
+      title: "Mobile Technician Access",
+      subtitle: "On-the-Go Work Management",
+      description:
+        "Empower field technicians with mobile access to job details, service histories, and customer data. Enable photo uploads, signature capture, and instant updates from any location. Improve accountability, speed, and communication across teams.",
+    },
+    {
+      id: "analytics",
+      icon: "Leaf",
+      title: "Performance Analytics",
+      subtitle: "Data-Driven Decision Making",
+      description:
+        "Transform field data into actionable insights with powerful analytics dashboards. Track KPIs, service performance, and technician productivity in real-time. Use data intelligence to identify trends, optimize routes, and boost service quality.",
+    },
+    {
+      id: "customer-portal",
+      icon: "Leaf",
+      title: "Customer Self-Service Portal",
+      subtitle: "Transparency & Convenience",
+      description:
+        "Offer customers a seamless way to book services, track progress, and receive live updates. Improve transparency through automated notifications and digital communication. Strengthen customer trust and satisfaction with real-time service visibility.",
+    },
+    {
+      id: "integration",
+      icon: "Leaf",
+      title: "ERP & CRM Integration",
+      subtitle: "Unified Business Operations",
+      description:
+        "Connect FSM systems with your existing CRM, ERP, and billing software for synchronized data flow. Eliminate duplicate entries and improve cross-department coordination. Build a unified digital ecosystem that enhances efficiency and decision-making.",
+    },
+  ],
+  linkText: "Get Field Service Solutions",
+  linkUrl: "/contact-us",
+},
 
   managementSolutions: {
     title: "Advanced FSM Management Systems",
@@ -135,37 +135,37 @@ export const fieldServiceManagement: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "gps",
-        icon: "map",
-        title: "GPS Tracking & Route Optimization",
-        description:
-          "Monitor technician locations and use smart routing to reduce travel costs and enhance punctuality.",
-      },
-      {
-        id: "contract",
-        icon: "map",
-        title: "Contract & SLA Management",
-        description:
-          "Define and monitor service level agreements to maintain high-quality standards and compliance.",
-      },
-      {
-        id: "reporting",
-        icon: "map",
-        title: "Custom Reporting & Insights",
-        description:
-          "Generate reports on technician productivity, customer satisfaction, and financial performance.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "Integration with IoT Devices",
-        description:
-          "Connect with IoT-enabled assets for predictive maintenance and automatic fault detection.",
-      },
-    ],
-    ctaText: "Talk to FSM Experts",
-    onCtaClick: () => {},
+  {
+    id: "gps",
+    icon: "map",
+    title: "GPS Tracking & Route Optimization",
+    description:
+      "Track technician locations in real time with GPS-powered visibility and smart route suggestions. Optimize travel routes to reduce fuel costs and minimize downtime. Improve service punctuality and enhance overall field efficiency.",
+  },
+  {
+    id: "contract",
+    icon: "map",
+    title: "Contract & SLA Management",
+    description:
+      "Easily define, track, and manage service level agreements across multiple clients and projects. Ensure all contractual terms are monitored for compliance and quality standards. Automate renewals, alerts, and performance evaluations to maintain accountability.",
+  },
+  {
+    id: "reporting",
+    icon: "map",
+    title: "Custom Reporting & Insights",
+    description:
+      "Access detailed performance reports covering technician productivity, customer satisfaction, and revenue trends. Visualize real-time analytics to identify bottlenecks and areas for improvement. Empower management decisions with actionable business intelligence.",
+  },
+  {
+    id: "integration",
+    icon: "map",
+    title: "Integration with IoT Devices",
+    description:
+      "Connect seamlessly with IoT-enabled machinery, sensors, and smart tools for data-driven operations. Enable predictive maintenance through automated alerts and performance tracking. Detect faults early to reduce equipment downtime and repair costs.",
+  },
+],
+ctaText: "Talk to FSM Experts",
+onCtaClick: () => {},
   },
 
   faq: {

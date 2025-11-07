@@ -46,63 +46,64 @@ export const salesManagement: SolutionConfig = {
     ],
   },
 
-  solutions: {
-    mainTitle: "Comprehensive Sales Management Solutions",
-    mainDescription:
-      "Our sales management platforms enable businesses to manage leads, automate sales workflows, and track performance metrics. Empower your team with actionable insights and efficient processes.",
-    items: [
-      {
-        id: "lead-management",
-        icon: "Leaf",
-        title: "Lead Management",
-        subtitle: "Capture, Track & Convert Leads",
-        description:
-          "Capture leads from multiple channels, assign them automatically, and track their journey through the sales pipeline.",
-      },
-      {
-        id: "sales-automation",
-        icon: "Leaf",
-        title: "Sales Automation",
-        subtitle: "Streamline Sales Processes",
-        description:
-          "Automate repetitive sales tasks such as follow-ups, notifications, and reporting, freeing your team to focus on closing deals.",
-      },
-      {
-        id: "deal-tracking",
-        icon: "Leaf",
-        title: "Deal & Opportunity Tracking",
-        subtitle: "Monitor Progress in Real-Time",
-        description:
-          "Track all deals, stages, and opportunities in real-time to ensure nothing falls through the cracks.",
-      },
-      {
-        id: "performance-analytics",
-        icon: "Leaf",
-        title: "Sales Performance Analytics",
-        subtitle: "Data-Driven Insights",
-        description:
-          "Analyze sales metrics, forecast revenue, and measure team performance to make informed business decisions.",
-      },
-      {
-        id: "mobile-access",
-        icon: "Leaf",
-        title: "Mobile Sales Management",
-        subtitle: "Manage Sales On-The-Go",
-        description:
-          "Enable your sales team to access CRM, update leads, and close deals from any device, anytime, anywhere.",
-      },
-      {
-        id: "integration",
-        icon: "Leaf",
-        title: "Integration with ERP & Marketing",
-        subtitle: "Seamless Workflow",
-        description:
-          "Integrate your sales platform with ERP, marketing automation, and communication tools for a unified workflow.",
-      },
-    ],
-    linkText: "Get Sales Management Solutions",
-    linkUrl: "/contact-us",
-  },
+ solutions: {
+  mainTitle: "Comprehensive Sales Management Solutions",
+  mainDescription:
+    "Our sales management platforms enable businesses to manage leads, automate sales workflows, and track performance metrics. Empower your team with actionable insights and efficient processes.",
+  items: [
+    {
+      id: "lead-management",
+      icon: "Leaf",
+      title: "Lead Management",
+      subtitle: "Capture, Track & Convert Leads",
+      description:
+        "Capture leads from multiple channels and centralize them in a unified system for better visibility. Automatically assign leads to the right sales representatives. Track each lead’s journey to maximize conversion opportunities efficiently.",
+    },
+    {
+      id: "sales-automation",
+      icon: "Leaf",
+      title: "Sales Automation",
+      subtitle: "Streamline Sales Processes",
+      description:
+        "Automate repetitive tasks such as follow-ups, notifications, and report generation. Reduce manual errors and free your team to focus on closing deals. Enhance productivity and ensure consistent engagement with every prospect.",
+    },
+    {
+      id: "deal-tracking",
+      icon: "Leaf",
+      title: "Deal & Opportunity Tracking",
+      subtitle: "Monitor Progress in Real-Time",
+      description:
+        "Track all deals and opportunities across stages with real-time updates. Identify bottlenecks early and ensure timely actions. Gain complete visibility of the sales pipeline to improve forecasting and outcomes.",
+    },
+    {
+      id: "performance-analytics",
+      icon: "Leaf",
+      title: "Sales Performance Analytics",
+      subtitle: "Data-Driven Insights",
+      description:
+        "Analyze team performance, sales metrics, and revenue trends for smarter decision-making. Forecast sales accurately based on historical data and current pipeline. Make informed strategic choices to drive revenue growth effectively.",
+    },
+    {
+      id: "mobile-access",
+      icon: "Leaf",
+      title: "Mobile Sales Management",
+      subtitle: "Manage Sales On-The-Go",
+      description:
+        "Allow sales reps to access CRM, update leads, and close deals from any device. Maintain seamless communication with team members and clients while on the move. Empower your team with real-time data, anywhere, anytime.",
+    },
+    {
+      id: "integration",
+      icon: "Leaf",
+      title: "Integration with ERP & Marketing",
+      subtitle: "Seamless Workflow",
+      description:
+        "Connect your sales platform with ERP, marketing automation, and communication tools. Ensure data consistency across departments and streamline workflows. Enhance efficiency and collaboration with an integrated technology ecosystem.",
+    },
+  ],
+  linkText: "Get Sales Management Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Sales Data Management Platforms",
@@ -134,38 +135,38 @@ export const salesManagement: SolutionConfig = {
           "Automate lead routing, follow-ups, and reminders to ensure a streamlined sales process.",
       },
     ],
-    bottomFeatures: [
-      {
-        id: "integration",
-        icon: "map",
-        title: "CRM & ERP Integration",
-        description:
-          "Connect your sales platform with existing CRM, ERP, and marketing tools for smooth data flow.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Compliance",
-        description:
-          "Ensure secure customer data storage with encryption, access control, and compliance with industry regulations.",
-      },
-      {
-        id: "mobile-access",
-        icon: "map",
-        title: "Mobile Accessibility",
-        description:
-          "Empower your sales team to work from anywhere with mobile apps and real-time updates.",
-      },
-      {
-        id: "alerts",
-        icon: "map",
-        title: "Real-Time Alerts & Notifications",
-        description:
-          "Receive notifications for new leads, deal progress, or follow-up reminders to never miss an opportunity.",
-      },
-    ],
-    ctaText: "Get Sales Experts Consultation",
-    onCtaClick: () => {},
+   bottomFeatures: [
+  {
+    id: "integration",
+    icon: "map",
+    title: "CRM & ERP Integration",
+    description:
+      "Seamlessly connect your sales platform with existing CRM, ERP, and marketing tools. Ensure smooth data flow between departments for accurate reporting. Improve efficiency by centralizing customer and operational data into a unified system.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Compliance",
+    description:
+      "Protect sensitive customer and business data with advanced encryption and access control measures. Stay compliant with industry regulations and legal requirements. Minimize risk through regular audits, secure backups, and proactive monitoring.",
+  },
+  {
+    id: "mobile-access",
+    icon: "map",
+    title: "Mobile Accessibility",
+    description:
+      "Enable your sales team to work from anywhere with fully responsive mobile applications. Access real-time data, client information, and task updates on the go. Improve productivity and responsiveness with instant mobile collaboration.",
+  },
+  {
+    id: "alerts",
+    icon: "map",
+    title: "Real-Time Alerts & Notifications",
+    description:
+      "Receive instant notifications for new leads, deal updates, or follow-up reminders. Stay informed about critical opportunities without checking the system constantly. Empower your team to act quickly and close deals more efficiently.",
+  },
+],
+ctaText: "Get Sales Experts Consultation",
+onCtaClick: () => {},
   },
 
   faq: {

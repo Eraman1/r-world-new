@@ -47,62 +47,63 @@ export const digitalAssetManagement: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Digital Asset Management for Enterprises & Creatives",
-    mainDescription:
-      "Our DAM solutions allow teams to manage large volumes of digital content effectively. Streamline content creation, distribution, and archival with security, scalability, and real-time collaboration.",
-    items: [
-      {
-        id: "secure-storage",
-        icon: "Leaf",
-        title: "Secure Asset Storage",
-        subtitle: "Protect Critical Digital Content",
-        description:
-          "We implement secure storage solutions with encryption and access control, ensuring your digital assets are safe from unauthorized access or loss.",
-      },
-      {
-        id: "workflow-automation",
-        icon: "Leaf",
-        title: "Workflow Automation",
-        subtitle: "Efficient Collaboration & Approval",
-        description:
-          "Automate repetitive tasks such as asset approvals, notifications, and distribution to save time and maintain consistency across teams.",
-      },
-      {
-        id: "content-delivery",
-        icon: "Leaf",
-        title: "Optimized Content Delivery",
-        subtitle: "Faster Publishing & Distribution",
-        description:
-          "Distribute assets across multiple platforms, including web, mobile, and social media, ensuring timely content delivery to target audiences.",
-      },
-      {
-        id: "analytics-reporting",
-        icon: "Leaf",
-        title: "Asset Analytics & Reporting",
-        subtitle: "Track Asset Usage & Performance",
-        description:
-          "Monitor how digital assets are used, viewed, and shared to make informed decisions about content optimization and reuse.",
-      },
-      {
-        id: "integration",
-        icon: "Leaf",
-        title: "Third-Party Integrations",
-        subtitle: "Seamless Software Compatibility",
-        description:
-          "Integrate your DAM system with creative, marketing, and project management tools to create an end-to-end content ecosystem.",
-      },
-      {
-        id: "scalability",
-        icon: "Leaf",
-        title: "Scalable Solutions",
-        subtitle: "Grow with Your Organization",
-        description:
-          "Our DAM solutions are designed to handle increasing volumes of digital assets as your organization and content library grow.",
-      },
-    ],
-    linkText: "Get Digital Asset Management Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Digital Asset Management for Enterprises & Creatives",
+  mainDescription:
+    "Our DAM solutions empower organizations to efficiently organize, store, and distribute digital content. Streamline creation, collaboration, and delivery while maintaining complete security and scalability. Manage brand assets seamlessly across teams and platforms in real time.",
+  items: [
+    {
+      id: "secure-storage",
+      icon: "Leaf",
+      title: "Secure Asset Storage",
+      subtitle: "Protect Critical Digital Content",
+      description:
+        "Ensure the safety of your digital assets with advanced encryption and multi-layer access controls. Our storage systems safeguard against unauthorized access, accidental loss, and data corruption. Keep all creative and marketing files protected in one centralized, secure repository.",
+    },
+    {
+      id: "workflow-automation",
+      icon: "Leaf",
+      title: "Workflow Automation",
+      subtitle: "Efficient Collaboration & Approval",
+      description:
+        "Automate repetitive processes like version approvals, tagging, and asset distribution across teams. Enhance productivity with AI-driven task management and smart notifications. Maintain creative consistency while reducing manual effort and project delays.",
+    },
+    {
+      id: "content-delivery",
+      icon: "Leaf",
+      title: "Optimized Content Delivery",
+      subtitle: "Faster Publishing & Distribution",
+      description:
+        "Deliver assets instantly across websites, mobile apps, and social platforms with optimized performance. Use intelligent caching and CDN support to ensure speed and reliability. Simplify multi-channel publishing for global audiences with minimal manual effort.",
+    },
+    {
+      id: "analytics-reporting",
+      icon: "Leaf",
+      title: "Asset Analytics & Reporting",
+      subtitle: "Track Asset Usage & Performance",
+      description:
+        "Gain visibility into asset engagement, downloads, and usage trends through detailed analytics dashboards. Identify top-performing visuals and optimize underutilized content. Use real-time insights to drive smarter content strategies and improve ROI.",
+    },
+    {
+      id: "integration",
+      icon: "Leaf",
+      title: "Third-Party Integrations",
+      subtitle: "Seamless Software Compatibility",
+      description:
+        "Connect effortlessly with creative suites, CMS platforms, and marketing automation tools. Streamline asset flow between design, production, and publishing systems. Achieve a unified content ecosystem that supports your existing digital infrastructure.",
+    },
+    {
+      id: "scalability",
+      icon: "Leaf",
+      title: "Scalable Solutions",
+      subtitle: "Grow with Your Organization",
+      description:
+        "Easily scale your DAM platform to accommodate expanding content libraries and teams. Our cloud-ready architecture ensures smooth performance as your business grows. Stay flexible and future-ready with infrastructure built for enterprise-level scalability.",
+    },
+  ],
+  linkText: "Get Digital Asset Management Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Enterprise Digital Asset Management Platforms",
@@ -135,39 +136,38 @@ export const digitalAssetManagement: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "analytics",
-        icon: "map",
-        title: "Analytics & Reporting",
-        description:
-          "Gain insights into asset usage, performance, and team activity to optimize workflows and decision-making.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "API Integration",
-        description:
-          "Seamlessly integrate DAM with creative, marketing, and project management platforms for end-to-end workflows.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Backup",
-        description:
-          "Ensure your assets are protected with encryption, automated backups, and secure cloud storage solutions.",
-      },
-      {
-        id: "multi-format",
-        icon: "map",
-        title: "Multi-Format Support",
-        description:
-          "Store and deliver assets in any format — images, videos, documents, 3D models, or multimedia files.",
-      },
-    ],
-    ctaText: "Talk to DAM Experts",
-    onCtaClick: () => {},
+  {
+    id: "analytics",
+    icon: "map",
+    title: "Analytics & Reporting",
+    description:
+      "Gain deep insights into asset usage, performance trends, and team productivity. Track content engagement and identify optimization opportunities. Use real-time analytics to drive smarter creative and operational decisions.",
   },
-
+  {
+    id: "integration",
+    icon: "map",
+    title: "API Integration",
+    description:
+      "Seamlessly connect your DAM with marketing, creative, and project management tools. Automate workflows across platforms to reduce manual effort. Enable smooth data exchange for consistent branding and faster execution.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Backup",
+    description:
+      "Protect all your digital assets with enterprise-grade encryption and access controls. Schedule automated backups to prevent data loss. Keep your files safe and recoverable with secure cloud-based storage solutions.",
+  },
+  {
+    id: "multi-format",
+    icon: "map",
+    title: "Multi-Format Support",
+    description:
+      "Manage and deliver assets across various file types, including images, videos, and 3D models. Optimize every format for web, print, and mobile use. Ensure compatibility and performance across all creative and publishing platforms.",
+  },
+],
+ctaText: "Talk to DAM Experts",
+onCtaClick: () => {},
+  },
   faq: {
     title: "FAQ",
     items: [

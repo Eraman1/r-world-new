@@ -47,62 +47,63 @@ export const artificialintelligence: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "AI-Powered Business Transformation Solutions",
-    mainDescription:
-      "Our Artificial Intelligence services empower organizations to automate, innovate, and make data-driven decisions through intelligent software and deep learning systems.",
-    items: [
-      {
-        id: "predictive-analytics",
-        icon: "Leaf",
-        title: "Predictive Analytics",
-        subtitle: "Data-Driven Forecasting",
-        description:
-          "Predict future outcomes by analyzing patterns and trends using advanced machine learning and statistical models.",
-      },
-      {
-        id: "ai-chatbots",
-        icon: "Leaf",
-        title: "AI Chatbots & Virtual Assistants",
-        subtitle: "Enhance Customer Support",
-        description:
-          "Deliver 24/7 customer engagement through conversational AI that understands intent and responds intelligently.",
-      },
-      {
-        id: "computer-vision",
-        icon: "Leaf",
-        title: "Computer Vision Systems",
-        subtitle: "Visual Data Intelligence",
-        description:
-          "Automate image processing, object recognition, and quality control using deep learning algorithms.",
-      },
-      {
-        id: "nlp-insights",
-        icon: "Leaf",
-        title: "Natural Language Processing",
-        subtitle: "Human-Like Understanding",
-        description:
-          "Extract valuable insights from unstructured data, documents, and text with NLP and semantic analysis.",
-      },
-      {
-        id: "ai-integration",
-        icon: "Leaf",
-        title: "AI Integration & Automation",
-        subtitle: "Smarter Enterprise Workflows",
-        description:
-          "Integrate AI models into ERP, CRM, and analytics systems to enable intelligent automation and faster operations.",
-      },
-      {
-        id: "generative-ai",
-        icon: "Leaf",
-        title: "Generative AI Applications",
-        subtitle: "Creative Content & Design Automation",
-        description:
-          "Build AI-powered systems that generate text, images, and media content using models like GPT, DALL·E, and Stable Diffusion.",
-      },
-    ],
-    linkText: "Get AI Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "AI-Powered Business Transformation Solutions",
+  mainDescription:
+    "Our Artificial Intelligence services empower organizations to automate, innovate, and make data-driven decisions through intelligent software and deep learning systems.",
+  items: [
+    {
+      id: "predictive-analytics",
+      icon: "Leaf",
+      title: "Predictive Analytics",
+      subtitle: "Data-Driven Forecasting",
+      description:
+        "Leverage historical data to forecast market trends and customer behavior with precision. Our predictive models enable proactive decision-making across sales, finance, and operations. Stay ahead of risks and opportunities through data-backed intelligence.",
+    },
+    {
+      id: "ai-chatbots",
+      icon: "Leaf",
+      title: "AI Chatbots & Virtual Assistants",
+      subtitle: "Enhance Customer Support",
+      description:
+        "Deliver real-time, personalized support through AI-powered chatbots and voice assistants. Automate customer interactions while maintaining a human-like experience. Reduce response times, enhance satisfaction, and improve operational efficiency.",
+    },
+    {
+      id: "computer-vision",
+      icon: "Leaf",
+      title: "Computer Vision Systems",
+      subtitle: "Visual Data Intelligence",
+      description:
+        "Empower machines to interpret and analyze visual information from images and videos. From quality inspection to facial recognition, our computer vision systems enhance precision and safety. Transform raw visual data into actionable business insights.",
+    },
+    {
+      id: "nlp-insights",
+      icon: "Leaf",
+      title: "Natural Language Processing",
+      subtitle: "Human-Like Understanding",
+      description:
+        "Enable your systems to read, understand, and interpret human language effortlessly. Extract insights from emails, documents, and social media using NLP-driven algorithms. Improve communication workflows with intelligent text analysis and sentiment detection.",
+    },
+    {
+      id: "ai-integration",
+      icon: "Leaf",
+      title: "AI Integration & Automation",
+      subtitle: "Smarter Enterprise Workflows",
+      description:
+        "Integrate powerful AI modules into your ERP, CRM, and analytics platforms. Automate repetitive workflows to enhance productivity and operational speed. Achieve intelligent business transformation through seamless system-wide AI adoption.",
+    },
+    {
+      id: "generative-ai",
+      icon: "Leaf",
+      title: "Generative AI Applications",
+      subtitle: "Creative Content & Design Automation",
+      description:
+        "Harness generative AI to produce engaging text, imagery, and multimedia content. Accelerate creative workflows with models like GPT, DALL·E, and Stable Diffusion. Empower your brand with innovation-driven, automated content creation tools.",
+    },
+  ],
+  linkText: "Get AI Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "AI Model Management & Deployment Systems",
@@ -135,37 +136,37 @@ export const artificialintelligence: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Governance",
-        description:
-          "Protect sensitive information with encryption, access control, and compliance-ready AI solutions.",
-      },
-      {
-        id: "scalability",
-        icon: "map",
-        title: "Scalable Infrastructure",
-        description:
-          "Deploy AI systems on cloud or edge infrastructure optimized for performance and cost efficiency.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "API & Workflow Integration",
-        description:
-          "Integrate AI models seamlessly with existing business systems and APIs for end-to-end automation.",
-      },
-      {
-        id: "insight",
-        icon: "map",
-        title: "AI Insights & Visualization",
-        description:
-          "Visualize key trends and performance metrics through intuitive dashboards powered by AI analytics.",
-      },
-    ],
-    ctaText: "Consult AI Experts",
-    onCtaClick: () => {},
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Governance",
+    description:
+      "Safeguard sensitive data with enterprise-grade encryption, multi-level access control, and continuous monitoring. Ensure compliance with global data protection standards like GDPR and ISO. Maintain full transparency and auditability across every stage of your AI operations.",
+  },
+  {
+    id: "scalability",
+    icon: "map",
+    title: "Scalable Infrastructure",
+    description:
+      "Easily scale AI workloads across cloud, hybrid, or edge environments for optimal flexibility. Leverage containerized deployments and resource optimization for peak performance. Adapt infrastructure dynamically as business demands and data volumes grow.",
+  },
+  {
+    id: "integration",
+    icon: "map",
+    title: "API & Workflow Integration",
+    description:
+      "Seamlessly integrate AI capabilities with your existing tools, CRMs, and business applications. Automate repetitive workflows and enable real-time data exchange between systems. Enhance overall efficiency through smooth interoperability and smart automation pipelines.",
+  },
+  {
+    id: "insight",
+    icon: "map",
+    title: "AI Insights & Visualization",
+    description:
+      "Transform complex data into actionable insights with intelligent analytics dashboards. Monitor performance, detect patterns, and predict outcomes using interactive visualizations. Empower decision-making through clear, data-driven intelligence powered by AI.",
+  },
+],
+ctaText: "Consult AI Experts",
+onCtaClick: () => {},
   },
 
   faq: {

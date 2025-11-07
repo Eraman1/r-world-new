@@ -47,62 +47,63 @@ export const fraudProtection: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Fraud Detection & Prevention Solutions",
-    mainDescription:
-      "We build scalable fraud protection platforms that combine AI, analytics, and automation to protect businesses from cyber threats, identity theft, and payment fraud.",
-    items: [
-      {
-        id: "payment-fraud",
-        icon: "Leaf",
-        title: "Payment Fraud Detection",
-        subtitle: "Monitor Every Transaction",
-        description:
-          "Detect credit card, wire transfer, and online payment fraud through pattern recognition and anomaly detection.",
-      },
-      {
-        id: "kyc-compliance",
-        icon: "Leaf",
-        title: "KYC & AML Compliance",
-        subtitle: "Verify & Comply",
-        description:
-          "Automate KYC and AML (Anti-Money Laundering) checks with real-time data validation and identity verification workflows.",
-      },
-      {
-        id: "behavioral-analysis",
-        icon: "Leaf",
-        title: "Behavioral Analytics",
-        subtitle: "Detect Abnormal Behavior",
-        description:
-          "Analyze user behavior across sessions to flag suspicious login patterns or unusual activity in digital ecosystems.",
-      },
-      {
-        id: "biometric-authentication",
-        icon: "Leaf",
-        title: "Biometric Authentication Systems",
-        subtitle: "Multi-Layered Security",
-        description:
-          "Implement facial, voice, and fingerprint recognition systems to secure user access and prevent account takeovers.",
-      },
-      {
-        id: "transaction-risk-engine",
-        icon: "Leaf",
-        title: "Real-Time Risk Engine",
-        subtitle: "Instant Threat Detection",
-        description:
-          "Use real-time decision engines powered by AI to score, block, or verify transactions within milliseconds.",
-      },
-      {
-        id: "cyber-threat-intelligence",
-        icon: "Leaf",
-        title: "Cyber Threat Intelligence Integration",
-        subtitle: "Proactive Threat Defense",
-        description:
-          "Integrate your system with global fraud databases, IP reputation networks, and dark web monitoring tools for advanced protection.",
-      },
-    ],
-    linkText: "Talk to a Security Expert",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Fraud Detection & Prevention Solutions",
+  mainDescription:
+    "We build scalable fraud protection platforms that combine AI, analytics, and automation to protect businesses from cyber threats, identity theft, and payment fraud.",
+  items: [
+    {
+      id: "payment-fraud",
+      icon: "Leaf",
+      title: "Payment Fraud Detection",
+      subtitle: "Monitor Every Transaction",
+      description:
+        "Identify and prevent fraudulent credit card, wire transfer, and digital payment activities in real time. Our system uses advanced machine learning models to recognize suspicious patterns. Minimize chargebacks and financial losses through continuous monitoring and instant alerts.",
+    },
+    {
+      id: "kyc-compliance",
+      icon: "Leaf",
+      title: "KYC & AML Compliance",
+      subtitle: "Verify & Comply",
+      description:
+        "Automate customer identity verification using global databases and document validation APIs. Ensure full compliance with KYC and AML regulations while reducing manual checks. Maintain a secure onboarding process with automated alerts for high-risk profiles.",
+    },
+    {
+      id: "behavioral-analysis",
+      icon: "Leaf",
+      title: "Behavioral Analytics",
+      subtitle: "Detect Abnormal Behavior",
+      description:
+        "Track user activity across platforms to detect unusual login or transaction behavior. AI models learn normal user habits and flag potential anomalies. Strengthen fraud prevention with behavioral insights that evolve as users and threats change.",
+    },
+    {
+      id: "biometric-authentication",
+      icon: "Leaf",
+      title: "Biometric Authentication Systems",
+      subtitle: "Multi-Layered Security",
+      description:
+        "Integrate facial, fingerprint, and voice recognition technologies for advanced identity protection. Prevent unauthorized account access and identity theft through multi-factor authentication. Deliver secure, frictionless user verification across digital channels.",
+    },
+    {
+      id: "transaction-risk-engine",
+      icon: "Leaf",
+      title: "Real-Time Risk Engine",
+      subtitle: "Instant Threat Detection",
+      description:
+        "Leverage AI-driven decision engines to evaluate transaction risk within milliseconds. Instantly block or verify suspicious activities based on configurable risk scores. Improve fraud prevention accuracy without compromising user experience.",
+    },
+    {
+      id: "cyber-threat-intelligence",
+      icon: "Leaf",
+      title: "Cyber Threat Intelligence Integration",
+      subtitle: "Proactive Threat Defense",
+      description:
+        "Connect to global fraud databases, IP reputation systems, and dark web intelligence feeds. Detect and neutralize threats before they impact your business operations. Stay ahead of evolving cyberattacks with continuous intelligence-driven protection.",
+    },
+  ],
+  linkText: "Talk to a Security Expert",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Fraud Management Platforms",
@@ -135,37 +136,37 @@ export const fraudProtection: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "ml-engine",
-        icon: "map",
-        title: "Machine Learning Decision Engine",
-        description:
-          "Continuously improve detection accuracy using self-learning algorithms that adapt to new fraud trends.",
-      },
-      {
-        id: "case-management",
-        icon: "map",
-        title: "Case Management Automation",
-        description:
-          "Automate investigation workflows and track case resolution with built-in audit trails and collaboration tools.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "API Integration",
-        description:
-          "Easily integrate fraud detection systems with banking, ERP, and payment gateways for seamless operations.",
-      },
-      {
-        id: "data-security",
-        icon: "map",
-        title: "End-to-End Data Security",
-        description:
-          "Protect sensitive financial data with encryption, tokenization, and compliance with PCI DSS and GDPR standards.",
-      },
-    ],
-    ctaText: "Get Fraud Protection Experts",
-    onCtaClick: () => {},
+  {
+    id: "ml-engine",
+    icon: "map",
+    title: "Machine Learning Decision Engine",
+    description:
+      "Enhance fraud detection accuracy with AI-driven algorithms that evolve from real-time data. The system continuously learns from emerging fraud patterns to reduce false positives. Stay ahead of cybercriminals with adaptive, predictive intelligence for financial safety.",
+  },
+  {
+    id: "case-management",
+    icon: "map",
+    title: "Case Management Automation",
+    description:
+      "Streamline investigations with automated case creation, tracking, and resolution workflows. Collaborate efficiently through centralized dashboards and audit trails. Improve compliance, transparency, and response time for each detected fraud attempt.",
+  },
+  {
+    id: "integration",
+    icon: "map",
+    title: "API Integration",
+    description:
+      "Connect fraud detection engines seamlessly with banking systems, ERPs, and payment gateways. Enable smooth data exchange and real-time validation across digital channels. Simplify deployment while maintaining security and operational efficiency.",
+  },
+  {
+    id: "data-security",
+    icon: "map",
+    title: "End-to-End Data Security",
+    description:
+      "Safeguard critical financial information with enterprise-grade encryption and tokenization. Ensure compliance with PCI DSS, GDPR, and global data protection standards. Maintain customer trust through secure, transparent, and auditable security frameworks.",
+  },
+],
+ctaText: "Get Fraud Protection Experts",
+onCtaClick: () => {},
   },
 
   faq: {

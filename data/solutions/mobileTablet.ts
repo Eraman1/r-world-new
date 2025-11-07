@@ -47,62 +47,63 @@ export const mobileTablet: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Comprehensive Mobile & Tablet Solutions",
-    mainDescription:
-      "We provide full-stack solutions for mobile and tablet devices, including app development, integration, maintenance, and support. Our focus is to deliver engaging experiences that drive results.",
-    items: [
-      {
-        id: "mobile-commerce",
-        icon: "Leaf",
-        title: "Mobile Commerce Apps",
-        subtitle: "Boost Sales on Mobile",
-        description:
-          "Develop feature-rich e-commerce apps with secure payment gateways, catalogs, and push notifications for better user engagement.",
-      },
-      {
-        id: "tablet-productivity",
-        icon: "Leaf",
-        title: "Tablet Productivity Apps",
-        subtitle: "Enhance Workplace Efficiency",
-        description:
-          "Create apps optimized for tablets to improve productivity, project management, and workflow efficiency for teams.",
-      },
-      {
-        id: "mobile-gaming",
-        icon: "Leaf",
-        title: "Mobile Gaming Apps",
-        subtitle: "Fun & Engaging Gameplay",
-        description:
-          "Design and develop immersive mobile games with smooth graphics, interactive UI, and monetization options.",
-      },
-      {
-        id: "mobile-analytics",
-        icon: "Leaf",
-        title: "Mobile Analytics Solutions",
-        subtitle: "Track Performance & Engagement",
-        description:
-          "Integrate analytics tools to monitor user behavior, app usage, and performance metrics for data-driven improvements.",
-      },
-      {
-        id: "hybrid-apps",
-        icon: "Leaf",
-        title: "Hybrid App Development",
-        subtitle: "Multi-Platform Support",
-        description:
-          "Build apps using hybrid frameworks to support both mobile and tablet devices with consistent functionality.",
-      },
-      {
-        id: "app-maintenance",
-        icon: "Leaf",
-        title: "App Maintenance & Updates",
-        subtitle: "Keep Apps Up-to-Date",
-        description:
-          "Ensure your apps stay current, secure, and compatible with new OS updates through regular maintenance and updates.",
-      },
-    ],
-    linkText: "Get Mobile & Tablet Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Comprehensive Mobile & Tablet Solutions",
+  mainDescription:
+    "We provide full-stack solutions for mobile and tablet devices, including app development, integration, maintenance, and support. Our focus is to deliver engaging experiences that drive results and maximize user satisfaction.",
+  items: [
+    {
+      id: "mobile-commerce",
+      icon: "Leaf",
+      title: "Mobile Commerce Apps",
+      subtitle: "Boost Sales on Mobile",
+      description:
+        "Develop feature-rich e-commerce apps with secure payment gateways and interactive product catalogs. Implement push notifications and personalized offers to increase user engagement. Drive conversions and improve overall shopping experience on mobile devices.",
+    },
+    {
+      id: "tablet-productivity",
+      icon: "Leaf",
+      title: "Tablet Productivity Apps",
+      subtitle: "Enhance Workplace Efficiency",
+      description:
+        "Create apps optimized for tablet devices to improve project management and team collaboration. Streamline workflows with task tracking, scheduling, and document management. Empower employees with intuitive interfaces and productivity-enhancing features.",
+    },
+    {
+      id: "mobile-gaming",
+      icon: "Leaf",
+      title: "Mobile Gaming Apps",
+      subtitle: "Fun & Engaging Gameplay",
+      description:
+        "Design and develop immersive mobile games with high-quality graphics and smooth performance. Incorporate interactive UI, animations, and sound effects for an engaging experience. Include monetization strategies like in-app purchases and ads for revenue generation.",
+    },
+    {
+      id: "mobile-analytics",
+      icon: "Leaf",
+      title: "Mobile Analytics Solutions",
+      subtitle: "Track Performance & Engagement",
+      description:
+        "Integrate analytics tools to monitor user behavior, app usage, and engagement metrics in real-time. Generate actionable insights to enhance app features and performance. Make data-driven decisions to improve retention and overall user satisfaction.",
+    },
+    {
+      id: "hybrid-apps",
+      icon: "Leaf",
+      title: "Hybrid App Development",
+      subtitle: "Multi-Platform Support",
+      description:
+        "Build apps using hybrid frameworks to support both mobile and tablet devices seamlessly. Ensure consistent functionality and user experience across platforms. Reduce development time and costs with a single codebase for multiple devices.",
+    },
+    {
+      id: "app-maintenance",
+      icon: "Leaf",
+      title: "App Maintenance & Updates",
+      subtitle: "Keep Apps Up-to-Date",
+      description:
+        "Provide regular updates to ensure apps remain compatible with new OS versions and devices. Implement security patches and performance improvements to maintain reliability. Continuously enhance features to meet evolving user expectations.",
+    },
+  ],
+  linkText: "Get Mobile & Tablet Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Mobile & Tablet Management Platforms",
@@ -135,37 +136,37 @@ export const mobileTablet: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "integration",
-        icon: "map",
-        title: "Third-Party Integrations",
-        description:
-          "Integrate your apps with popular APIs, cloud services, and backend systems for enhanced functionality.",
-      },
-      {
-        id: "push-notifications",
-        icon: "map",
-        title: "Push Notifications & Alerts",
-        description:
-          "Engage users with timely notifications, reminders, and updates directly on mobile and tablet devices.",
-      },
-      {
-        id: "analytics-reporting",
-        icon: "map",
-        title: "Analytics & Reporting",
-        description:
-          "Track user behavior, app performance, and key metrics to make informed business decisions.",
-      },
-      {
-        id: "support",
-        icon: "map",
-        title: "24/7 App Support",
-        description:
-          "Ensure your apps are always operational with dedicated support and troubleshooting assistance.",
-      },
-    ],
-    ctaText: "Get Mobile App Experts",
-    onCtaClick: () => {},
+  {
+    id: "integration",
+    icon: "map",
+    title: "Third-Party Integrations",
+    description:
+      "Seamlessly connect your mobile apps with popular APIs, cloud services, and backend systems. Automate data exchange and enhance functionality across platforms. Ensure smooth interoperability for a consistent user experience.",
+  },
+  {
+    id: "push-notifications",
+    icon: "map",
+    title: "Push Notifications & Alerts",
+    description:
+      "Keep users engaged with timely notifications, reminders, and updates directly on mobile and tablet devices. Personalize messages based on user behavior and preferences. Drive higher retention and app usage with proactive communication.",
+  },
+  {
+    id: "analytics-reporting",
+    icon: "map",
+    title: "Analytics & Reporting",
+    description:
+      "Monitor user behavior, app performance, and key metrics to make data-driven decisions. Gain actionable insights to optimize features and UX. Generate detailed reports to track growth, engagement, and ROI effectively.",
+  },
+  {
+    id: "support",
+    icon: "map",
+    title: "24/7 App Support",
+    description:
+      "Provide round-the-clock assistance to ensure your apps remain fully operational. Resolve issues quickly with dedicated troubleshooting and maintenance. Maintain user satisfaction and minimize downtime for uninterrupted service.",
+  },
+],
+ctaText: "Get Mobile App Experts",
+onCtaClick: () => {},
   },
 
   faq: {

@@ -47,62 +47,63 @@ export const erp: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Integrated ERP Solutions for Modern Enterprises",
-    mainDescription:
-      "Our ERP systems unify all key business functions into a single platform, improving visibility, productivity, and efficiency across your organization.",
-    items: [
-      {
-        id: "finance-automation",
-        icon: "Leaf",
-        title: "Finance & Accounting Automation",
-        subtitle: "Smart Financial Management",
-        description:
-          "Automate accounts payable/receivable, budgeting, tax compliance, and financial reporting to minimize errors and save time.",
-      },
-      {
-        id: "hr-management",
-        icon: "Leaf",
-        title: "Human Resources Management",
-        subtitle: "Employee Lifecycle Automation",
-        description:
-          "Manage recruitment, payroll, attendance, performance evaluation, and training seamlessly within the ERP system.",
-      },
-      {
-        id: "inventory-optimization",
-        icon: "Leaf",
-        title: "Inventory & Supply Chain Management",
-        subtitle: "Optimized Stock & Logistics",
-        description:
-          "Track inventory in real-time, optimize stock levels, and automate procurement workflows to reduce costs and improve delivery efficiency.",
-      },
-      {
-        id: "production-planning",
-        icon: "Leaf",
-        title: "Production & Operations Planning",
-        subtitle: "Efficient Manufacturing Workflows",
-        description:
-          "Plan, schedule, and monitor production activities to ensure timely delivery and optimal resource usage.",
-      },
-      {
-        id: "analytics-insights",
-        icon: "Leaf",
-        title: "Business Analytics & Insights",
-        subtitle: "Data-Driven Decisions",
-        description:
-          "Leverage real-time dashboards, KPIs, and reports to gain actionable insights across all business operations.",
-      },
-      {
-        id: "crm-integration",
-        icon: "Leaf",
-        title: "CRM Integration",
-        subtitle: "Manage Customer Relationships",
-        description:
-          "Integrate customer relationship management into ERP to enhance sales, marketing, and support functions.",
-      },
-    ],
-    linkText: "Get ERP Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Integrated ERP Solutions for Modern Enterprises",
+  mainDescription:
+    "Our ERP systems unify all key business functions into a single platform, improving visibility, productivity, and efficiency across your organization.",
+  items: [
+    {
+      id: "finance-automation",
+      icon: "Leaf",
+      title: "Finance & Accounting Automation",
+      subtitle: "Smart Financial Management",
+      description:
+        "Automate accounting, tax, and financial operations with AI-driven accuracy. Simplify complex reporting and ensure compliance with real-time data. Gain better control over cash flow and profitability through intelligent automation.",
+    },
+    {
+      id: "hr-management",
+      icon: "Leaf",
+      title: "Human Resources Management",
+      subtitle: "Employee Lifecycle Automation",
+      description:
+        "Digitize and streamline the entire employee journey from recruitment to retirement. Manage payroll, attendance, and performance with ease. Empower HR teams to focus on growth, culture, and employee satisfaction.",
+    },
+    {
+      id: "inventory-optimization",
+      icon: "Leaf",
+      title: "Inventory & Supply Chain Management",
+      subtitle: "Optimized Stock & Logistics",
+      description:
+        "Gain complete visibility into inventory levels and supply chain workflows. Automate procurement and order tracking to reduce overheads. Improve logistics efficiency and ensure on-time deliveries every time.",
+    },
+    {
+      id: "production-planning",
+      icon: "Leaf",
+      title: "Production & Operations Planning",
+      subtitle: "Efficient Manufacturing Workflows",
+      description:
+        "Coordinate manufacturing schedules and resources through real-time data insights. Reduce downtime and improve throughput with smart automation. Achieve consistent product quality and operational efficiency.",
+    },
+    {
+      id: "analytics-insights",
+      icon: "Leaf",
+      title: "Business Analytics & Insights",
+      subtitle: "Data-Driven Decisions",
+      description:
+        "Access intelligent dashboards and KPI analytics to make informed business decisions. Identify trends, predict outcomes, and improve strategy. Turn raw data into actionable insights for faster growth.",
+    },
+    {
+      id: "crm-integration",
+      icon: "Leaf",
+      title: "CRM Integration",
+      subtitle: "Manage Customer Relationships",
+      description:
+        "Integrate customer data seamlessly across sales, marketing, and service departments. Build lasting relationships through personalized engagement. Enhance lead conversion and customer satisfaction with a unified CRM-ERP platform.",
+    },
+  ],
+  linkText: "Get ERP Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Enterprise Management Systems",
@@ -135,39 +136,39 @@ export const erp: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "cloud-deployment",
-        icon: "map",
-        title: "Cloud-Based Deployment",
-        description:
-          "Access your ERP system securely from anywhere and reduce infrastructure costs.",
-      },
-      {
-        id: "security-backup",
-        icon: "map",
-        title: "Data Security & Backup",
-        description:
-          "Protect critical business data with automated backups, encryption, and role-based access control.",
-      },
-      {
-        id: "analytics",
-        icon: "map",
-        title: "Advanced Reporting & Analytics",
-        description:
-          "Get real-time insights and reports to drive informed decision-making across departments.",
-      },
-      {
-        id: "custom-modules",
-        icon: "map",
-        title: "Custom ERP Modules",
-        description:
-          "Extend your ERP with custom modules designed for industry-specific needs and workflows.",
-      },
-    ],
-    ctaText: "Talk to ERP Experts",
-    onCtaClick: () => {},
+  {
+    id: "cloud-deployment",
+    icon: "map",
+    title: "Cloud-Based Deployment",
+    description:
+      "Access your ERP platform anytime, anywhere with secure cloud hosting. Eliminate on-premise infrastructure costs and streamline IT management. Scale resources easily as your organization grows without compromising performance.",
   },
-
+  {
+    id: "security-backup",
+    icon: "map",
+    title: "Data Security & Backup",
+    description:
+      "Safeguard business-critical information with enterprise-grade encryption and automated cloud backups. Implement role-based access controls to protect sensitive data. Ensure data continuity with reliable disaster recovery solutions.",
+  },
+  {
+    id: "analytics",
+    icon: "map",
+    title: "Advanced Reporting & Analytics",
+    description:
+      "Empower decision-makers with real-time dashboards and visual analytics. Identify trends, monitor KPIs, and optimize business operations. Gain actionable insights to improve performance across departments.",
+  },
+  {
+    id: "custom-modules",
+    icon: "map",
+    title: "Custom ERP Modules",
+    description:
+      "Tailor your ERP system with industry-specific modules that fit unique business processes. Automate complex workflows for better efficiency and control. Enhance flexibility with easily integrable, scalable extensions.",
+  },
+],
+ctaText: "Talk to ERP Experts",
+onCtaClick: () => {},
+  },
+  
   faq: {
     title: "FAQ",
     items: [

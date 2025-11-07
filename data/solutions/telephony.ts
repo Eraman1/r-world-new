@@ -47,62 +47,63 @@ export const telephony: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Comprehensive Telephony Solutions",
-    mainDescription:
-      "Our telephony solutions improve business communications, reduce costs, and increase customer satisfaction. We offer scalable platforms for enterprises, call centers, and small businesses.",
-    items: [
-      {
-        id: "voip-platforms",
-        icon: "Leaf",
-        title: "VoIP Platforms",
-        subtitle: "Flexible & Scalable Communication",
-        description:
-          "Deploy enterprise-grade VoIP systems that work on web, mobile, and desktop applications for seamless communication.",
-      },
-      {
-        id: "ivr-systems",
-        icon: "Leaf",
-        title: "IVR Systems",
-        subtitle: "Automate Call Routing",
-        description:
-          "Implement IVR systems that intelligently route calls and provide self-service options to improve customer experience.",
-      },
-      {
-        id: "call-recording",
-        icon: "Leaf",
-        title: "Call Recording & Monitoring",
-        subtitle: "Quality Assurance & Compliance",
-        description:
-          "Monitor, record, and analyze calls for training, compliance, and performance improvement purposes.",
-      },
-      {
-        id: "messaging-platforms",
-        icon: "Leaf",
-        title: "Messaging Platforms",
-        subtitle: "SMS, MMS & Chat Integration",
-        description:
-          "Integrate messaging services for notifications, alerts, and customer engagement with full automation and tracking.",
-      },
-      {
-        id: "contact-center",
-        icon: "Leaf",
-        title: "Contact Center Solutions",
-        subtitle: "Omni-Channel Communication",
-        description:
-          "Manage calls, messages, and social interactions from a unified platform to streamline customer support.",
-      },
-      {
-        id: "analytics-dashboard",
-        icon: "Leaf",
-        title: "Analytics & Reporting",
-        subtitle: "Monitor & Optimize Communication",
-        description:
-          "Track call volume, wait times, and agent performance with dashboards and actionable insights.",
-      },
-    ],
-    linkText: "Explore Telephony Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Comprehensive Telephony Solutions",
+  mainDescription:
+    "Our telephony solutions enhance business communications, reduce operational costs, and boost customer satisfaction. We provide scalable platforms suitable for enterprises, call centers, and small businesses. Our solutions integrate seamlessly with existing infrastructure for maximum efficiency.",
+  items: [
+    {
+      id: "voip-platforms",
+      icon: "Leaf",
+      title: "VoIP Platforms",
+      subtitle: "Flexible & Scalable Communication",
+      description:
+        "Deploy enterprise-grade VoIP systems across web, mobile, and desktop platforms for smooth communication. Ensure high-quality voice connections with minimal downtime. Scale your system effortlessly as your business grows.",
+    },
+    {
+      id: "ivr-systems",
+      icon: "Leaf",
+      title: "IVR Systems",
+      subtitle: "Automate Call Routing",
+      description:
+        "Implement intelligent IVR systems that route calls efficiently and reduce wait times. Provide customers with self-service options for faster resolutions. Improve call center efficiency and enhance customer satisfaction.",
+    },
+    {
+      id: "call-recording",
+      icon: "Leaf",
+      title: "Call Recording & Monitoring",
+      subtitle: "Quality Assurance & Compliance",
+      description:
+        "Monitor, record, and analyze calls to maintain compliance and ensure quality. Use recordings for training and performance improvement. Gain actionable insights to optimize customer interactions and agent productivity.",
+    },
+    {
+      id: "messaging-platforms",
+      icon: "Leaf",
+      title: "Messaging Platforms",
+      subtitle: "SMS, MMS & Chat Integration",
+      description:
+        "Integrate SMS, MMS, and chat platforms for seamless customer engagement. Automate notifications, alerts, and campaign messaging. Track communication performance for better follow-ups and reporting.",
+    },
+    {
+      id: "contact-center",
+      icon: "Leaf",
+      title: "Contact Center Solutions",
+      subtitle: "Omni-Channel Communication",
+      description:
+        "Manage calls, messages, and social interactions from a single unified platform. Streamline customer support across multiple channels efficiently. Enhance customer experience and reduce response times with integrated tools.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "Leaf",
+      title: "Analytics & Reporting",
+      subtitle: "Monitor & Optimize Communication",
+      description:
+        "Track call volumes, agent performance, and wait times with interactive dashboards. Generate actionable insights for operational improvements. Make data-driven decisions to optimize communication efficiency and customer satisfaction.",
+    },
+  ],
+  linkText: "Explore Telephony Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Telephony Management Platforms",
@@ -135,37 +136,37 @@ export const telephony: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "integration",
-        icon: "map",
-        title: "API & System Integration",
-        description:
-          "Integrate telephony platforms with CRMs, ERP systems, and other business applications seamlessly.",
-      },
-      {
-        id: "automation",
-        icon: "map",
-        title: "Workflow Automation",
-        description:
-          "Automate call routing, notifications, and messaging workflows to improve efficiency and reduce manual intervention.",
-      },
-      {
-        id: "cloud-support",
-        icon: "map",
-        title: "Cloud & On-Premise Solutions",
-        description:
-          "Deploy telephony infrastructure in cloud, on-premise, or hybrid environments to fit your business needs.",
-      },
-      {
-        id: "alerts",
-        icon: "map",
-        title: "Real-Time Alerts",
-        description:
-          "Receive notifications on system errors, call failures, or unusual activity for proactive issue resolution.",
-      },
-    ],
-    ctaText: "Get Telephony Experts",
-    onCtaClick: () => {},
+  {
+    id: "integration",
+    icon: "map",
+    title: "API & System Integration",
+    description:
+      "Seamlessly integrate your telephony platforms with CRMs, ERP systems, and other business applications. Ensure smooth data flow across multiple systems for better operational efficiency. Enable automated updates and synchronization between platforms for accurate real-time information.",
+  },
+  {
+    id: "automation",
+    icon: "map",
+    title: "Workflow Automation",
+    description:
+      "Automate call routing, notifications, and messaging workflows to minimize manual effort. Streamline repetitive processes and improve response times. Enhance team productivity while reducing the risk of human error in communication management.",
+  },
+  {
+    id: "cloud-support",
+    icon: "map",
+    title: "Cloud & On-Premise Solutions",
+    description:
+      "Deploy your telephony infrastructure in cloud, on-premise, or hybrid environments to meet specific business requirements. Benefit from scalable resources and flexible deployment options. Ensure high availability, data security, and cost efficiency tailored to your organization.",
+  },
+  {
+    id: "alerts",
+    icon: "map",
+    title: "Real-Time Alerts",
+    description:
+      "Receive instant notifications on system errors, call failures, or unusual activity to act proactively. Monitor system performance continuously for uninterrupted communication. Enable faster troubleshooting and maintain seamless business operations across teams.",
+  },
+],
+ctaText: "Get Telephony Experts",
+onCtaClick: () => {},
   },
 
   faq: {

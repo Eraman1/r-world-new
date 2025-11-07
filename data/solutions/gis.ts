@@ -47,62 +47,63 @@ export const gis: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Comprehensive GIS & Mapping Solutions",
-    mainDescription:
-      "We deliver advanced GIS systems that combine visualization, analytics, and automation for industries ranging from agriculture to infrastructure planning.",
-    items: [
-      {
-        id: "mapping-platforms",
-        icon: "Leaf",
-        title: "Mapping & Visualization Platforms",
-        subtitle: "Real-Time Spatial Mapping",
-        description:
-          "Develop interactive map platforms with layered data visualization for monitoring assets, logistics, and environmental changes.",
-      },
-      {
-        id: "location-intelligence",
-        icon: "Leaf",
-        title: "Location Intelligence Systems",
-        subtitle: "Data-Driven Spatial Insights",
-        description:
-          "Analyze geographic patterns to improve decision-making in logistics, real estate, and disaster management.",
-      },
-      {
-        id: "geospatial-analytics",
-        icon: "Leaf",
-        title: "Geospatial Analytics & Forecasting",
-        subtitle: "Predictive Spatial Modeling",
-        description:
-          "Use AI and machine learning to predict patterns in land use, traffic, and environmental changes with real-time geospatial data.",
-      },
-      {
-        id: "asset-tracking",
-        icon: "Leaf",
-        title: "Asset Tracking & Field Operations",
-        subtitle: "Optimize Mobility & Maintenance",
-        description:
-          "Track vehicles, workers, and assets using GPS-enabled GIS tools for efficient routing and maintenance scheduling.",
-      },
-      {
-        id: "remote-sensing",
-        icon: "Leaf",
-        title: "Remote Sensing & Satellite Imagery",
-        subtitle: "High-Precision Image Analysis",
-        description:
-          "Process satellite imagery for environmental monitoring, agriculture planning, and infrastructure development.",
-      },
-      {
-        id: "spatial-database",
-        icon: "Leaf",
-        title: "Spatial Database Management",
-        subtitle: "Centralized GIS Data Storage",
-        description:
-          "Implement spatial databases using PostgreSQL/PostGIS for scalable, efficient storage and retrieval of geospatial data.",
-      },
-    ],
-    linkText: "Get GIS Development Services",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Comprehensive GIS & Mapping Solutions",
+  mainDescription:
+    "We deliver advanced GIS systems that combine visualization, analytics, and automation for industries ranging from agriculture to infrastructure planning.",
+  items: [
+    {
+      id: "mapping-platforms",
+      icon: "Leaf",
+      title: "Mapping & Visualization Platforms",
+      subtitle: "Real-Time Spatial Mapping",
+      description:
+        "Build interactive map platforms with rich, multi-layered data visualization to monitor assets, logistics, and environmental trends. Enable users to explore live geospatial data dynamically with real-time updates. Improve operational awareness through intuitive dashboards and mapping tools.",
+    },
+    {
+      id: "location-intelligence",
+      icon: "Leaf",
+      title: "Location Intelligence Systems",
+      subtitle: "Data-Driven Spatial Insights",
+      description:
+        "Transform location data into actionable insights with spatial analytics and AI-driven models. Support smarter decisions in logistics, real estate, and risk assessment. Gain competitive advantages through geographic trend analysis and demographic visualization.",
+    },
+    {
+      id: "geospatial-analytics",
+      icon: "Leaf",
+      title: "Geospatial Analytics & Forecasting",
+      subtitle: "Predictive Spatial Modeling",
+      description:
+        "Leverage AI and machine learning to identify spatial patterns and forecast environmental or urban changes. Combine multiple data layers for precise modeling and simulation. Enable predictive insights for proactive infrastructure and sustainability planning.",
+    },
+    {
+      id: "asset-tracking",
+      icon: "Leaf",
+      title: "Asset Tracking & Field Operations",
+      subtitle: "Optimize Mobility & Maintenance",
+      description:
+        "Use GPS-enabled GIS tools to track vehicles, personnel, and field assets in real time. Improve resource allocation through route optimization and predictive maintenance. Streamline on-ground operations with automated alerts and live performance metrics.",
+    },
+    {
+      id: "remote-sensing",
+      icon: "Leaf",
+      title: "Remote Sensing & Satellite Imagery",
+      subtitle: "High-Precision Image Analysis",
+      description:
+        "Analyze high-resolution satellite and aerial imagery to assess environmental changes and land usage. Support sectors like agriculture, forestry, and infrastructure with accurate geospatial mapping. Automate image classification for precise pattern recognition and trend monitoring.",
+    },
+    {
+      id: "spatial-database",
+      icon: "Leaf",
+      title: "Spatial Database Management",
+      subtitle: "Centralized GIS Data Storage",
+      description:
+        "Develop robust spatial databases with PostgreSQL/PostGIS for efficient data management. Store, query, and visualize massive geospatial datasets with high performance. Ensure data integrity and accessibility for real-time analytics and enterprise applications.",
+    },
+  ],
+  linkText: "Get GIS Development Services",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "GIS Data & Infrastructure Management Systems",
@@ -135,37 +136,37 @@ export const gis: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "workflow",
-        icon: "map",
-        title: "Automated Spatial Workflows",
-        description:
-          "Automate repetitive mapping and geoprocessing tasks using AI and scripting tools.",
-      },
-      {
-        id: "analytics-dashboard",
-        icon: "map",
-        title: "Geospatial Analytics Dashboard",
-        description:
-          "Visualize and analyze key metrics through custom dashboards powered by GIS and BI integration.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Compliance",
-        description:
-          "Ensure sensitive spatial data is protected with encryption, access control, and compliance with global GIS standards.",
-      },
-      {
-        id: "reporting",
-        icon: "map",
-        title: "Automated Reporting & Insights",
-        description:
-          "Generate insightful GIS reports for planning, resource management, and policy analysis.",
-      },
-    ],
-    ctaText: "Connect with GIS Experts",
-    onCtaClick: () => {},
+  {
+    id: "workflow",
+    icon: "map",
+    title: "Automated Spatial Workflows",
+    description:
+      "Automate complex geoprocessing and mapping tasks using AI and scripting tools. Streamline repetitive operations for faster project turnaround. Improve accuracy and consistency across environmental data workflows.",
+  },
+  {
+    id: "analytics-dashboard",
+    icon: "map",
+    title: "Geospatial Analytics Dashboard",
+    description:
+      "Gain real-time insights through dynamic dashboards integrating GIS and business intelligence. Visualize environmental patterns, risks, and resource utilization effectively. Empower decision-makers with clear, data-driven analytics.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Compliance",
+    description:
+      "Protect sensitive environmental and spatial data using enterprise-grade encryption protocols. Maintain compliance with global GIS and environmental data standards. Control access and ensure data integrity across all systems.",
+  },
+  {
+    id: "reporting",
+    icon: "map",
+    title: "Automated Reporting & Insights",
+    description:
+      "Generate intelligent GIS-based reports for environmental monitoring and strategic planning. Automate data aggregation and visualization for consistent, actionable insights. Support sustainability goals with accurate performance analysis.",
+  },
+],
+ctaText: "Connect with GIS Experts",
+onCtaClick: () => {},
   },
 
   faq: {

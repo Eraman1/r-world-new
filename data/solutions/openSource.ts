@@ -47,62 +47,63 @@ export const openSource: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "Open Source Solutions for Businesses",
-    mainDescription:
-      "Open source solutions reduce costs, increase flexibility, and allow rapid development. We provide services to build, integrate, and optimize open source software across platforms.",
-    items: [
-      {
-        id: "web-apps",
-        icon: "Leaf",
-        title: "Open Source Web Applications",
-        subtitle: "Flexible & Scalable",
-        description:
-          "Develop web applications with open source frameworks like Django, Laravel, React, and Angular for fast and cost-effective deployment.",
-      },
-      {
-        id: "api-development",
-        icon: "Leaf",
-        title: "Open Source API Development",
-        subtitle: "Secure & Reliable",
-        description:
-          "Build and manage APIs using open source technologies, enabling seamless communication between applications and services.",
-      },
-      {
-        id: "cms-solutions",
-        icon: "Leaf",
-        title: "Open Source CMS Solutions",
-        subtitle: "Manage Content Efficiently",
-        description:
-          "Deploy, customize, and maintain CMS platforms like WordPress, Joomla, or Drupal for dynamic and easy-to-manage websites.",
-      },
-      {
-        id: "ecommerce-solutions",
-        icon: "Leaf",
-        title: "Open Source eCommerce Platforms",
-        subtitle: "Scalable Online Stores",
-        description:
-          "Create scalable and customizable eCommerce platforms with open source solutions like Magento, WooCommerce, and PrestaShop.",
-      },
-      {
-        id: "cloud-solutions",
-        icon: "Leaf",
-        title: "Open Source Cloud Solutions",
-        subtitle: "Flexible & Cost-Effective",
-        description:
-          "Leverage open source cloud platforms like OpenStack or Kubernetes for scalable and efficient cloud-based infrastructure.",
-      },
-      {
-        id: "analytics-tools",
-        icon: "Leaf",
-        title: "Open Source Analytics Tools",
-        subtitle: "Data-Driven Insights",
-        description:
-          "Integrate open source analytics tools to gain insights, monitor performance, and improve decision-making.",
-      },
-    ],
-    linkText: "Explore Open Source Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Open Source Solutions for Businesses",
+  mainDescription:
+    "Open source solutions reduce costs, increase flexibility, and allow rapid development. We provide services to build, integrate, and optimize open source software across platforms, helping businesses scale efficiently while maintaining control over their technology stack.",
+  items: [
+    {
+      id: "web-apps",
+      icon: "Leaf",
+      title: "Open Source Web Applications",
+      subtitle: "Flexible & Scalable",
+      description:
+        "Develop web applications with open source frameworks like Django, Laravel, React, and Angular for fast deployment. Ensure high performance, scalability, and cost efficiency. Customize features to meet your unique business requirements seamlessly.",
+    },
+    {
+      id: "api-development",
+      icon: "Leaf",
+      title: "Open Source API Development",
+      subtitle: "Secure & Reliable",
+      description:
+        "Build robust APIs using open source technologies to connect applications and services. Ensure secure and reliable communication with scalable endpoints. Enable seamless data exchange and integration across platforms for modern digital ecosystems.",
+    },
+    {
+      id: "cms-solutions",
+      icon: "Leaf",
+      title: "Open Source CMS Solutions",
+      subtitle: "Manage Content Efficiently",
+      description:
+        "Deploy and customize CMS platforms like WordPress, Joomla, or Drupal for dynamic websites. Simplify content management and streamline updates. Enhance website functionality while maintaining full control over design and content workflow.",
+    },
+    {
+      id: "ecommerce-solutions",
+      icon: "Leaf",
+      title: "Open Source eCommerce Platforms",
+      subtitle: "Scalable Online Stores",
+      description:
+        "Create scalable and customizable eCommerce platforms with Magento, WooCommerce, or PrestaShop. Optimize product management, payments, and checkout experiences. Provide a seamless and engaging shopping experience for customers across devices.",
+    },
+    {
+      id: "cloud-solutions",
+      icon: "Leaf",
+      title: "Open Source Cloud Solutions",
+      subtitle: "Flexible & Cost-Effective",
+      description:
+        "Leverage platforms like OpenStack or Kubernetes for scalable cloud infrastructure. Reduce operational costs while improving system flexibility. Ensure secure, efficient, and easily maintainable cloud-based deployments for your applications.",
+    },
+    {
+      id: "analytics-tools",
+      icon: "Leaf",
+      title: "Open Source Analytics Tools",
+      subtitle: "Data-Driven Insights",
+      description:
+        "Integrate open source analytics tools to monitor performance and gain actionable insights. Make informed business decisions using data-driven analysis. Track metrics, visualize trends, and optimize operations efficiently across teams.",
+    },
+  ],
+  linkText: "Explore Open Source Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Open Source Management Platforms",
@@ -135,37 +136,37 @@ export const openSource: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "workflow-automation",
-        icon: "map",
-        title: "Workflow Automation",
-        description:
-          "Automate deployment, updates, and maintenance tasks for open source software to improve productivity.",
-      },
-      {
-        id: "integration-tools",
-        icon: "map",
-        title: "Integration Tools",
-        description:
-          "Integrate open source tools, APIs, and libraries seamlessly into your ecosystem.",
-      },
-      {
-        id: "cloud-deployment",
-        icon: "map",
-        title: "Cloud Deployment",
-        description:
-          "Deploy and manage open source software on cloud platforms for scalability and cost efficiency.",
-      },
-      {
-        id: "alerts-notifications",
-        icon: "map",
-        title: "Alerts & Notifications",
-        description:
-          "Receive real-time notifications for system updates, failures, or performance anomalies.",
-      },
-    ],
-    ctaText: "Get Open Source Experts",
-    onCtaClick: () => {},
+  {
+    id: "workflow-automation",
+    icon: "map",
+    title: "Workflow Automation",
+    description:
+      "Automate deployment, updates, and maintenance tasks for open source software to boost efficiency. Reduce manual intervention and minimize human errors in repetitive tasks. Ensure consistent performance and faster delivery across your development pipeline.",
+  },
+  {
+    id: "integration-tools",
+    icon: "map",
+    title: "Integration Tools",
+    description:
+      "Seamlessly integrate open source tools, APIs, and libraries into your existing ecosystem. Enable smooth communication between different software components. Maximize productivity and maintain a unified development workflow across platforms.",
+  },
+  {
+    id: "cloud-deployment",
+    icon: "map",
+    title: "Cloud Deployment",
+    description:
+      "Deploy and manage open source software on cloud platforms for scalability and cost efficiency. Easily scale resources up or down based on workload demands. Maintain high availability and ensure optimal performance for your applications.",
+  },
+  {
+    id: "alerts-notifications",
+    icon: "map",
+    title: "Alerts & Notifications",
+    description:
+      "Receive real-time notifications for system updates, failures, or performance anomalies. Stay proactive with timely alerts to address issues before they escalate. Improve system reliability and reduce downtime with automated monitoring.",
+  },
+],
+ctaText: "Get Open Source Experts",
+onCtaClick: () => {},
   },
 
   faq: {

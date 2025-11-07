@@ -47,62 +47,63 @@ export const documentManagement: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "End-to-End Document Management Solutions",
-    mainDescription:
-      "Our document management solutions empower businesses to handle files securely, improve workflow efficiency, and ensure compliance. Automate repetitive tasks, streamline approvals, and track document lifecycles effectively.",
-    items: [
-      {
-        id: "secure-storage",
-        icon: "Leaf",
-        title: "Secure Document Storage",
-        subtitle: "Centralized & Protected",
-        description:
-          "Store all documents in an encrypted cloud repository with role-based access controls to protect sensitive information.",
-      },
-      {
-        id: "workflow-automation",
-        icon: "Leaf",
-        title: "Workflow Automation",
-        subtitle: "Simplify Approvals & Processes",
-        description:
-          "Automate document routing, approvals, and notifications to reduce manual errors and accelerate business operations.",
-      },
-      {
-        id: "digital-signature",
-        icon: "Leaf",
-        title: "Digital Signatures",
-        subtitle: "Legally Binding & Secure",
-        description:
-          "Enable secure digital signing of contracts and forms directly within the system, ensuring authenticity and compliance.",
-      },
-      {
-        id: "search-analytics",
-        icon: "Leaf",
-        title: "Advanced Search & Analytics",
-        subtitle: "Find Documents Instantly",
-        description:
-          "Use powerful search tools, filters, and metadata analytics to locate and analyze documents quickly and efficiently.",
-      },
-      {
-        id: "compliance-management",
-        icon: "Leaf",
-        title: "Compliance Management",
-        subtitle: "Stay Audit-Ready",
-        description:
-          "Track document history and maintain regulatory compliance with audit trails, retention policies, and reporting tools.",
-      },
-      {
-        id: "integration-support",
-        icon: "Leaf",
-        title: "Integration with Other Tools",
-        subtitle: "Seamless System Connectivity",
-        description:
-          "Integrate with CRM, ERP, email platforms, and cloud storage services for a connected document workflow.",
-      },
-    ],
-    linkText: "Get Document Management Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "End-to-End Document Management Solutions",
+  mainDescription:
+    "Our document management solutions empower businesses to handle files securely, improve workflow efficiency, and ensure compliance. Automate repetitive tasks, streamline approvals, and track document lifecycles effectively.",
+  items: [
+    {
+      id: "secure-storage",
+      icon: "Leaf",
+      title: "Secure Document Storage",
+      subtitle: "Centralized & Protected",
+      description:
+        "Safeguard your data with encrypted cloud-based storage that ensures confidentiality and accessibility. Manage user permissions with role-based controls to prevent unauthorized access. Maintain document integrity while ensuring scalability for enterprise needs.",
+    },
+    {
+      id: "workflow-automation",
+      icon: "Leaf",
+      title: "Workflow Automation",
+      subtitle: "Simplify Approvals & Processes",
+      description:
+        "Automate document creation, routing, and approval workflows to minimize delays. Eliminate manual handling with intelligent triggers and notifications. Improve collaboration and ensure consistent process compliance across departments.",
+    },
+    {
+      id: "digital-signature",
+      icon: "Leaf",
+      title: "Digital Signatures",
+      subtitle: "Legally Binding & Secure",
+      description:
+        "Enable electronic signing of contracts and documents with legally recognized e-signature technology. Protect signers’ identities using encryption and multi-factor verification. Speed up agreement cycles while maintaining full legal compliance.",
+    },
+    {
+      id: "search-analytics",
+      icon: "Leaf",
+      title: "Advanced Search & Analytics",
+      subtitle: "Find Documents Instantly",
+      description:
+        "Quickly locate any file using intelligent search powered by metadata, tags, and OCR. Analyze document usage patterns and workflow efficiency through built-in analytics. Save time and make data-driven decisions with detailed visibility.",
+    },
+    {
+      id: "compliance-management",
+      icon: "Leaf",
+      title: "Compliance Management",
+      subtitle: "Stay Audit-Ready",
+      description:
+        "Maintain full regulatory compliance with audit trails, access logs, and version tracking. Implement retention policies to meet industry standards and avoid penalties. Ensure transparency and accountability in every document transaction.",
+    },
+    {
+      id: "integration-support",
+      icon: "Leaf",
+      title: "Integration with Other Tools",
+      subtitle: "Seamless System Connectivity",
+      description:
+        "Connect your document workflows with CRM, ERP, and email systems for unified data access. Sync cloud storage and productivity platforms for better collaboration. Enhance overall efficiency with smooth cross-platform integration.",
+    },
+  ],
+  linkText: "Get Document Management Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Document Workflow & Management Software",
@@ -135,37 +136,37 @@ export const documentManagement: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "automation",
-        icon: "map",
-        title: "Workflow Automation",
-        description:
-          "Automate repetitive tasks and approvals to improve efficiency and reduce errors.",
-      },
-      {
-        id: "collaboration",
-        icon: "map",
-        title: "Team Collaboration",
-        description:
-          "Collaborate seamlessly with real-time document editing, commenting, and notifications.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Backup",
-        description:
-          "Keep documents safe with encrypted storage, backup systems, and disaster recovery plans.",
-      },
-      {
-        id: "integration",
-        icon: "map",
-        title: "API & Third-Party Integration",
-        description:
-          "Connect with ERP, CRM, and cloud storage systems to create a seamless workflow.",
-      },
-    ],
-    ctaText: "Get Document Management Experts",
-    onCtaClick: () => {},
+  {
+    id: "automation",
+    icon: "map",
+    title: "Workflow Automation",
+    description:
+      "Automate repetitive tasks, document routing, and approval cycles with intelligent workflows. Reduce manual errors while improving speed and accountability across teams. Enhance overall productivity through rule-based automation and real-time tracking.",
+  },
+  {
+    id: "collaboration",
+    icon: "map",
+    title: "Team Collaboration",
+    description:
+      "Empower teams to work together with real-time editing, in-document commenting, and live notifications. Ensure transparency and version control throughout the document lifecycle. Boost productivity through centralized collaboration and seamless communication.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Backup",
+    description:
+      "Safeguard all your digital assets with end-to-end encryption and secure access management. Schedule automatic backups to prevent data loss and ensure quick recovery. Maintain compliance with global data protection and privacy standards.",
+  },
+  {
+    id: "integration",
+    icon: "map",
+    title: "API & Third-Party Integration",
+    description:
+      "Easily connect with ERP, CRM, and major cloud platforms for unified operations. Enable automated data synchronization and workflow continuity across systems. Simplify complex processes with powerful API integrations and seamless interoperability.",
+  },
+],
+ctaText: "Get Document Management Experts",
+onCtaClick: () => {},
   },
 
   faq: {

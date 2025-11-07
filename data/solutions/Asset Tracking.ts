@@ -47,62 +47,63 @@ export const assetTracking: SolutionConfig = {
   },
 
   solutions: {
-    mainTitle: "End-to-End Asset Tracking Solutions",
-    mainDescription:
-      "Our RFID and barcode tracking systems provide real-time insights into asset location, condition, and usage. From hardware integration to analytics dashboards, we deliver full-stack tracking ecosystems for every industry.",
-    items: [
-      {
-        id: "inventory-management",
-        icon: "Leaf",
-        title: "Inventory Management",
-        subtitle: "Automated Stock Visibility",
-        description:
-          "Track product quantities, locations, and movement across multiple warehouses in real time with RFID and barcode tagging.",
-      },
-      {
-        id: "equipment-tracking",
-        icon: "Leaf",
-        title: "Equipment Tracking",
-        subtitle: "Monitor Critical Assets",
-        description:
-          "Monitor high-value machinery, tools, and IT assets with automated identification and instant location data.",
-      },
-      {
-        id: "warehouse-automation",
-        icon: "Leaf",
-        title: "Warehouse Automation",
-        subtitle: "Smart Operations",
-        description:
-          "Optimize workflows with RFID scanners, conveyor integrations, and real-time updates for seamless logistics operations.",
-      },
-      {
-        id: "field-asset-monitoring",
-        icon: "Leaf",
-        title: "Field Asset Monitoring",
-        subtitle: "Remote Asset Visibility",
-        description:
-          "Track mobile or outdoor assets with GPS-enabled RFID devices, ensuring accountability and operational transparency.",
-      },
-      {
-        id: "asset-lifecycle",
-        icon: "Leaf",
-        title: "Asset Lifecycle Management",
-        subtitle: "Maintenance & Depreciation Tracking",
-        description:
-          "Keep track of asset acquisition, usage, maintenance, and disposal to ensure compliance and cost control.",
-      },
-      {
-        id: "analytics-dashboard",
-        icon: "Leaf",
-        title: "Analytics & Reporting Dashboard",
-        subtitle: "Data-Driven Decisions",
-        description:
-          "Visualize asset performance and inventory metrics with centralized dashboards and custom reporting tools.",
-      },
-    ],
-    linkText: "Get Asset Tracking Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "End-to-End Asset Tracking Solutions",
+  mainDescription:
+    "Our RFID and barcode tracking systems provide real-time insights into asset location, condition, and usage. From hardware integration to analytics dashboards, we deliver full-stack tracking ecosystems for every industry.",
+  items: [
+    {
+      id: "inventory-management",
+      icon: "Leaf",
+      title: "Inventory Management",
+      subtitle: "Automated Stock Visibility",
+      description:
+        "Gain complete visibility into product quantities, locations, and movements across warehouses in real time. Automate stock tracking with RFID and barcode systems to minimize human error. Improve forecasting accuracy and maintain balanced inventory levels effortlessly.",
+    },
+    {
+      id: "equipment-tracking",
+      icon: "Leaf",
+      title: "Equipment Tracking",
+      subtitle: "Monitor Critical Assets",
+      description:
+        "Monitor high-value tools, vehicles, and IT equipment through real-time tracking and smart identification. Receive instant alerts for movement or unauthorized usage. Enhance accountability and prevent asset loss with precision location data.",
+    },
+    {
+      id: "warehouse-automation",
+      icon: "Leaf",
+      title: "Warehouse Automation",
+      subtitle: "Smart Operations",
+      description:
+        "Transform warehouse operations with RFID scanners, conveyor systems, and automated data capture. Eliminate manual errors and speed up order processing. Achieve real-time synchronization between storage, picking, and dispatch operations.",
+    },
+    {
+      id: "field-asset-monitoring",
+      icon: "Leaf",
+      title: "Field Asset Monitoring",
+      subtitle: "Remote Asset Visibility",
+      description:
+        "Track outdoor and mobile assets using GPS-enabled RFID technology for accurate location monitoring. Improve operational transparency and resource allocation. Ensure field teams stay efficient with instant asset data and remote visibility.",
+    },
+    {
+      id: "asset-lifecycle",
+      icon: "Leaf",
+      title: "Asset Lifecycle Management",
+      subtitle: "Maintenance & Depreciation Tracking",
+      description:
+        "Oversee the complete lifecycle of assets from acquisition to disposal with real-time tracking tools. Schedule preventive maintenance and manage depreciation efficiently. Optimize utilization rates while maintaining compliance and reducing costs.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "Leaf",
+      title: "Analytics & Reporting Dashboard",
+      subtitle: "Data-Driven Decisions",
+      description:
+        "Access powerful dashboards for visualizing asset performance, utilization, and condition trends. Generate detailed custom reports to support data-driven decision-making. Gain insights that enhance productivity and strategic resource planning.",
+    },
+  ],
+  linkText: "Get Asset Tracking Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Integrated Asset Management Systems",
@@ -135,37 +136,37 @@ export const assetTracking: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "integration",
-        icon: "map",
-        title: "ERP & CRM Integration",
-        description:
-          "Integrate with ERP, SAP, or CRM systems to synchronize asset data and improve financial accuracy.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Data Security & Encryption",
-        description:
-          "Protect all tracking data with encryption, access control, and secure communication protocols.",
-      },
-      {
-        id: "reporting",
-        icon: "map",
-        title: "Custom Reporting Tools",
-        description:
-          "Generate performance reports, asset summaries, and compliance documentation with ease.",
-      },
-      {
-        id: "api-support",
-        icon: "map",
-        title: "API Integration Support",
-        description:
-          "Seamlessly connect with external inventory systems, IoT devices, and analytics tools using APIs.",
-      },
-    ],
-    ctaText: "Talk to Our Asset Tracking Experts",
-    onCtaClick: () => {},
+  {
+    id: "integration",
+    icon: "map",
+    title: "ERP & CRM Integration",
+    description:
+      "Integrate seamlessly with ERP, SAP, or CRM platforms to ensure real-time synchronization of asset and operational data. Enhance financial accuracy through automated updates and unified dashboards. Improve decision-making with centralized data visibility across departments.",
+  },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Security & Encryption",
+    description:
+      "Protect all tracking and operational data with enterprise-grade encryption and secure communication protocols. Enforce strict access controls to prevent unauthorized activity. Maintain compliance with global data protection and cybersecurity standards.",
+  },
+  {
+    id: "reporting",
+    icon: "map",
+    title: "Custom Reporting Tools",
+    description:
+      "Generate real-time performance reports, asset utilization summaries, and compliance insights. Customize dashboards to track KPIs and business metrics effectively. Simplify audits and strategic planning with clear, data-driven visualization tools.",
+  },
+  {
+    id: "api-support",
+    icon: "map",
+    title: "API Integration Support",
+    description:
+      "Connect effortlessly with external systems such as IoT devices, analytics platforms, and inventory solutions. Enable smooth data exchange through secure, scalable APIs. Streamline workflows and expand functionality with cross-platform integration support.",
+  },
+],
+ctaText: "Talk to Our Asset Tracking Experts",
+onCtaClick: () => {},
   },
 
   faq: {
