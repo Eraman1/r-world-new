@@ -18,6 +18,17 @@ import { salesforce } from "./salesforce";
 import { sharepoint } from "./sharepoint";
 import { wordpress } from "./wordpress";
 import { magento } from "./magento";
+import { shopify } from "./shopify";
+import { aws } from "./AWS";
+import { azure } from "./azure";
+import { devops } from "./DevOps";
+import { qaEngineer } from "./Qa";
+import { uiuxDesigners } from "./ui-ux";
+import { dataScience } from "./dataScience";
+import { machineLearning } from "./machineLearning";
+import { blockchain } from "./blockchain";
+import { game } from "./game";
+import { fullstack } from "./fullstack";
 // import { OnDemandDevelopers } from "./on-demand-developers";
 
 
@@ -41,6 +52,17 @@ salesforce,
 sharepoint,
 wordpress,
 magento,
+shopify,
+aws,
+azure,
+devops,
+qaEngineer,
+uiuxDesigners,
+dataScience,
+machineLearning,
+blockchain,
+game,
+fullstack,
 };
 
 export type { OnDemandDevelopersConfig };

@@ -52,114 +52,115 @@ export const java: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom Java Development Solutions",
-    mainDescription:
-      "We provide end-to-end Java development services to build web, mobile, and enterprise applications. Our solutions are designed to enhance scalability, security, and performance across industries.",
-    items: [
-      {
-        id: "web-applications",
-        icon: "Leaf",
-        title: "Web Application Development",
-        description:
-          "Develop secure, scalable, and responsive web applications using Spring Boot, Java EE, and MVC frameworks to meet your business needs.",
-      },
-      {
-        id: "mobile-applications",
-        icon: "Leaf",
-        title: "Mobile Application Development",
-        description:
-          "Create Android and cross-platform mobile apps using Java and Kotlin for seamless user experiences and performance.",
-      },
-      {
-        id: "api-development",
-        icon: "Leaf",
-        title: "API & Microservices Development",
-        description:
-          "Design and implement RESTful APIs and microservices for modern, scalable, and maintainable Java architectures.",
-      },
-      {
-        id: "cloud-integration",
-        icon: "Leaf",
-        title: "Cloud-Based Java Solutions",
-        description:
-          "Deploy Java applications on AWS, Azure, or Google Cloud for scalability, reliability, and seamless cloud integration.",
-      },
-      {
-        id: "migration-upgrades",
-        icon: "Leaf",
-        title: "Migration & Upgrades",
-        description:
-          "Upgrade legacy Java applications to modern frameworks and migrate existing systems to cloud platforms without downtime.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        description:
-          "Provide ongoing monitoring, maintenance, and performance optimization to ensure your Java applications run efficiently.",
-      },
-    ],
-    linkText: "Hire Expert Java Developers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Custom Java Development Solutions",
+  mainDescription:
+    "We provide end-to-end Java development services to build web, mobile, and enterprise applications. Our solutions are designed to enhance scalability, security, and performance across industries",
+  items: [
+    {
+      id: "web-applications",
+      icon: "Layers",
+      title: "Web Application Development",
+      description:
+        "Build fast, secure, and visually stunning web applications using React, Vue, and Angular on the frontend. Our backend experts leverage Node.js, Django, and Laravel for optimal speed and scalability. Each app is custom-crafted to deliver high performance and excellent user engagement.",
+    },
+    {
+      id: "mobile-applications",
+      icon: "Smartphone",
+      title: "Mobile Application Development",
+      description:
+        "Develop seamless cross-platform and native mobile apps using React Native, Flutter, and Kotlin. Our team ensures pixel-perfect design, smooth functionality, and intuitive user flow. Every app is built to perform reliably across Android and iOS platforms with integrated backend APIs.",
+    },
+    {
+      id: "api-development",
+      icon: "Cloud",
+      title: "API & Microservices Development",
+      description:
+        "Design robust RESTful and GraphQL APIs that power your systems with speed and flexibility. We structure microservices for easy scaling, security, and modular growth. Our APIs ensure smooth communication between frontend and backend, supporting complex business logic effortlessly.",
+    },
+    {
+      id: "cloud-integration",
+      icon: "Server",
+      title: "Cloud & DevOps Solutions",
+      description:
+        "Empower your applications with automated CI/CD pipelines and scalable infrastructure. We deploy solutions on AWS, Azure, or Google Cloud with robust performance monitoring. Our DevOps experts handle containerization, load balancing, and version control for continuous innovation.",
+    },
+    {
+      id: "migration-upgrades",
+      icon: "RefreshCw",
+      title: "Migration & Modernization",
+      description:
+        "Transform outdated systems into modern, efficient architectures with the latest technologies. We migrate legacy apps to cloud-native environments securely and without downtime. Our process ensures minimal disruption while improving performance, scalability, and maintainability.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Headphones",
+      title: "Support & Maintenance",
+      description:
+        "Ensure long-term application success with proactive support and optimization. We provide continuous monitoring, security patching, and performance fine-tuning. Our dedicated team ensures your product stays stable, updated, and aligned with business growth goals.",
+    },
+  ],
+  linkText: "Hire Java Developers Experts",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Expert Java Development Skills",
-    mainDescription:
-      "Our dedicated Java developers specialize in delivering high-quality solutions, from web and mobile applications to APIs and cloud-based systems, ensuring optimal performance and scalability.",
-    items: [
-      {
-        id: "web-applications",
-        icon: "Leaf",
-        title: "Web Application Development",
-        link: "/contact-us",
-        description:
-          "Build secure, scalable, and responsive web apps with Spring Boot, Java EE, and MVC frameworks.",
-      },
-      {
-        id: "mobile-applications",
-        icon: "Leaf",
-        title: "Mobile Application Development",
-        link: "/contact-us",
-        description:
-          "Develop Android and cross-platform mobile apps with Java and Kotlin for seamless UX.",
-      },
-      {
-        id: "api-development",
-        icon: "Leaf",
-        title: "API & Microservices Development",
-        link: "/contact-us",
-        description:
-          "Design RESTful APIs and microservices for modern, scalable Java architectures.",
-      },
-      {
-        id: "cloud-integration",
-        icon: "Leaf",
-        title: "Cloud-Based Java Solutions",
-        link: "/contact-us",
-        description:
-          "Deploy Java applications on AWS, Azure, or Google Cloud with high availability and scalability.",
-      },
-      {
-        id: "migration-upgrades",
-        icon: "Leaf",
-        title: "Migration & Upgrades",
-        link: "/contact-us",
-        description:
-          "Modernize legacy Java apps and migrate systems to updated frameworks or cloud platforms.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        link: "/contact-us",
-        description:
-          "Continuous monitoring, bug fixes, and performance optimization to keep applications running smoothly.",
-      },
-    ],
-    linkText: "Hire Expert Java Developers",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Expert Java Development Skills",
+  mainDescription:
+    "Our dedicated Java developers specialize in delivering high-quality solutions, from web and mobile applications to APIs and cloud-based systems, ensuring optimal performance and scalability.",
+  items: [
+    {
+      id: "frontend",
+      icon: "Shield",
+      title: "Frontend Development",
+      link: "/contact-us",
+      description:
+        "Craft stunning user interfaces using React, Vue, and Angular with pixel-perfect precision. Our developers ensure high-speed rendering, accessibility, and SEO-friendly design. Each interface delivers seamless experiences across devices and browsers.",
+    },
+    {
+      id: "backend",
+      icon: "Shield",
+      title: "Backend Development",
+      link: "/contact-us",
+      description:
+        "Build powerful backend systems using Node.js, Express, Django, or Laravel. We focus on secure data handling, clean architecture, and optimized APIs. Our goal is to deliver strong foundations that support business scalability and innovation.",
+    },
+    {
+      id: "database",
+      icon: "Shield",
+      title: "Database Management",
+      link: "/contact-us",
+      description:
+        "Design, integrate, and manage efficient databases using MySQL, MongoDB, or PostgreSQL. We ensure fast queries, data accuracy, and seamless scalability. Our optimized schemas support high-traffic applications with reliability and performance.",
+    },
+    {
+      id: "cloud",
+      icon: "Shield",
+      title: "Cloud & DevOps Integration",
+      link: "/contact-us",
+      description:
+        "Automate deployments and manage cloud infrastructure on AWS, Azure, or GCP. Our DevOps pipelines ensure continuous delivery, backups, and monitoring. We focus on resilience, cost-efficiency, and seamless scalability for growing applications.",
+    },
+    {
+      id: "api",
+      icon: "Shield",
+      title: "API Development",
+      link: "/contact-us",
+      description:
+        "Develop RESTful and GraphQL APIs that bridge systems and enhance flexibility. Our APIs are lightweight, secure, and easy to scale with modular microservices. They ensure smooth communication and consistent data exchange across platforms.",
+    },
+    {
+      id: "security",
+      icon: "Shield",
+      title: "Security & Optimization",
+      link: "/contact-us",
+      description:
+        "Protect applications with advanced security layers including encryption, firewalls, and role-based access. We perform audits and optimize code for speed and stability. Our approach ensures your software runs efficiently and stays future-proof.",
+    },
+  ],
+  linkText: "Hire Java Developers Experts",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand Java Development Services",

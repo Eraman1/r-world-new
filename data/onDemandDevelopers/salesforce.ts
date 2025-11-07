@@ -52,114 +52,115 @@ export const salesforce: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom Salesforce Development Solutions",
-    mainDescription:
-      "We provide end-to-end Salesforce development services, including CRM customization, workflow automation, and integrations. Our solutions enhance productivity, streamline operations, and improve customer engagement.",
-    items: [
-      {
-        id: "crm-customization",
-        icon: "Leaf",
-        title: "CRM Customization",
-        description:
-          "Tailor Salesforce CRM to your business processes with custom objects, fields, page layouts, and workflows for maximum efficiency.",
-      },
-      {
-        id: "salesforce-integration",
-        icon: "Leaf",
-        title: "Salesforce Integration",
-        description:
-          "Integrate Salesforce with ERP, marketing tools, and third-party applications to create a seamless data flow and unified system.",
-      },
-      {
-        id: "workflow-automation",
-        icon: "Leaf",
-        title: "Workflow & Process Automation",
-        description:
-          "Automate sales, marketing, and service processes with custom flows, approvals, and triggers to increase productivity and reduce manual effort.",
-      },
-      {
-        id: "apex-development",
-        icon: "Leaf",
-        title: "Apex & Lightning Development",
-        description:
-          "Develop robust Apex classes, triggers, and Lightning components to extend Salesforce functionality and create interactive interfaces.",
-      },
-      {
-        id: "data-migration",
-        icon: "Leaf",
-        title: "Data Migration & Upgrades",
-        description:
-          "Seamlessly migrate data from legacy systems or other CRMs to Salesforce with zero downtime and data integrity ensured.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        description:
-          "Provide ongoing monitoring, maintenance, and performance optimization to ensure your Salesforce instance runs smoothly and efficiently.",
-      },
-    ],
-    linkText: "Hire Expert Salesforce Developers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Custom Salesforce Development Solutions",
+  mainDescription:
+    "We deliver comprehensive Salesforce development services including CRM customization, integration, automation, and support. Our solutions help businesses maximize Salesforce potential, streamline workflows, and elevate customer engagement effectively.",
+  items: [
+    {
+      id: "crm-customization",
+      icon: "Leaf",
+      title: "CRM Customization",
+      description:
+        "Tailor Salesforce CRM to match your unique business workflows and objectives. Create custom objects, fields, and page layouts for personalized data structures. Configure dashboards and reports for actionable insights and analytics. Implement automation to enhance data accuracy and decision-making. Empower teams with a CRM system designed around your business goals.",
+    },
+    {
+      id: "salesforce-integration",
+      icon: "Leaf",
+      title: "Salesforce Integration",
+      description:
+        "Seamlessly connect Salesforce with ERP, HRM, or marketing automation platforms. Enable real-time data synchronization across all your critical systems. Improve operational visibility through unified information access. Use APIs and middleware for secure and scalable integrations. Achieve efficiency through connected and automated digital ecosystems.",
+    },
+    {
+      id: "workflow-automation",
+      icon: "Leaf",
+      title: "Workflow & Process Automation",
+      description:
+        "Automate repetitive business processes to reduce manual effort and errors. Design approval workflows, triggers, and process builders tailored to teams. Improve lead routing, case management, and customer communication. Ensure smooth coordination between departments through automation. Boost productivity and responsiveness across your Salesforce ecosystem.",
+    },
+    {
+      id: "apex-development",
+      icon: "Leaf",
+      title: "Apex & Lightning Development",
+      description:
+        "Extend Salesforce capabilities with custom Apex classes, triggers, and APIs. Build dynamic Lightning components for intuitive, responsive UIs. Create tailored business logic to automate complex tasks efficiently. Deliver user-friendly dashboards and visual workflows for teams. Enhance system flexibility while maintaining platform compliance.",
+    },
+    {
+      id: "data-migration",
+      icon: "Leaf",
+      title: "Data Migration & Upgrades",
+      description:
+        "Migrate data seamlessly from legacy CRMs or spreadsheets to Salesforce. Ensure zero downtime and complete data accuracy during transfers. Map and clean data for consistent and standardized records. Support upgrades to the latest Salesforce editions with minimal risk. Maintain data security, validation, and integrity throughout transitions.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      description:
+        "Provide 24/7 Salesforce monitoring, support, and performance tuning. Regularly apply security patches and update system features. Troubleshoot bugs and optimize integrations for peak reliability. Offer proactive audits to ensure system compliance and health. Keep your Salesforce environment optimized and future-ready always.",
+    },
+  ],
+  linkText: "Hire Expert Salesforce Developers",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Expert Salesforce Development Skills",
-    mainDescription:
-      "Our dedicated Salesforce developers specialize in CRM customization, workflow automation, integrations, and Lightning development to optimize business processes and enhance customer engagement.",
-    items: [
-      {
-        id: "crm-customization",
-        icon: "Leaf",
-        title: "CRM Customization",
-        link: "/contact-us",
-        description:
-          "Customize Salesforce CRM with custom objects, fields, layouts, and automation to suit your business needs.",
-      },
-      {
-        id: "salesforce-integration",
-        icon: "Leaf",
-        title: "Salesforce Integration",
-        link: "/contact-us",
-        description:
-          "Integrate Salesforce with third-party systems for unified data and automated workflows.",
-      },
-      {
-        id: "workflow-automation",
-        icon: "Leaf",
-        title: "Workflow & Process Automation",
-        link: "/contact-us",
-        description:
-          "Automate approvals, tasks, and notifications to streamline business operations and reduce manual work.",
-      },
-      {
-        id: "apex-development",
-        icon: "Leaf",
-        title: "Apex & Lightning Development",
-        link: "/contact-us",
-        description:
-          "Develop custom Apex triggers, classes, and Lightning components for enhanced CRM functionality.",
-      },
-      {
-        id: "data-migration",
-        icon: "Leaf",
-        title: "Data Migration & Upgrades",
-        link: "/contact-us",
-        description:
-          "Migrate data safely from legacy systems and upgrade Salesforce to new releases with minimal disruption.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        link: "/contact-us",
-        description:
-          "Continuous monitoring, updates, and performance optimization to keep Salesforce running efficiently.",
-      },
-    ],
-    linkText: "Hire Expert Salesforce Developers",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Expert Salesforce Development Skills",
+  mainDescription:
+    "Our Salesforce developers are highly skilled in CRM customization, Lightning development, automation, and API integration. They deliver scalable, secure, and innovative solutions that transform business operations and enhance customer experience.",
+  items: [
+    {
+      id: "crm-customization",
+      icon: "Leaf",
+      title: "CRM Customization",
+      link: "/contact-us",
+      description:
+        "Configure Salesforce with tailored objects, fields, and workflows. Build intuitive dashboards and reports for better analytics. Implement automation to support your sales and service processes. Align the CRM structure with your specific business operations. Deliver a system that boosts productivity and collaboration.",
+    },
+    {
+      id: "salesforce-integration",
+      icon: "Leaf",
+      title: "Salesforce Integration",
+      link: "/contact-us",
+      description:
+        "Integrate Salesforce with ERP, marketing, or eCommerce platforms. Facilitate smooth data exchange and process synchronization. Use REST and SOAP APIs for secure, seamless communication. Enable unified workflows that reduce silos between systems. Deliver a connected ecosystem for smarter business decisions.",
+    },
+    {
+      id: "workflow-automation",
+      icon: "Leaf",
+      title: "Workflow & Process Automation",
+      link: "/contact-us",
+      description:
+        "Automate key business tasks to enhance team efficiency and accuracy. Implement approval flows, triggers, and real-time notifications. Reduce manual interventions through intelligent automation rules. Streamline repetitive processes across sales and operations. Improve performance consistency with scalable automation tools.",
+    },
+    {
+      id: "apex-development",
+      icon: "Leaf",
+      title: "Apex & Lightning Development",
+      link: "/contact-us",
+      description:
+        "Develop custom Apex logic for specialized business functionality. Build Lightning Web Components with interactive UI experiences. Create reusable modules that optimize development time and cost. Extend Salesforce beyond native features for deeper customization. Deliver solutions that are fast, robust, and highly user-friendly.",
+    },
+    {
+      id: "data-migration",
+      icon: "Leaf",
+      title: "Data Migration & Upgrades",
+      link: "/contact-us",
+      description:
+        "Transfer business data securely from legacy systems into Salesforce. Validate, clean, and organize datasets for reliable reporting. Minimize downtime with structured migration processes. Upgrade to the latest Salesforce version without disruptions. Maintain full compliance and data integrity at every step.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      link: "/contact-us",
+      description:
+        "Provide ongoing Salesforce monitoring and troubleshooting services. Implement updates and optimize performance proactively. Manage user roles, permissions, and configurations regularly. Detect and fix performance or integration issues swiftly. Ensure your Salesforce platform stays optimized long-term.",
+    },
+  ],
+  linkText: "Hire Expert Salesforce Developers",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand Salesforce Development Services",

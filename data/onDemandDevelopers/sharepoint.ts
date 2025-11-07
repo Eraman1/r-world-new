@@ -52,114 +52,115 @@ export const sharepoint: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom SharePoint Development Solutions",
-    mainDescription:
-      "We provide end-to-end SharePoint development services to build intranets, portals, and collaboration solutions. Our developers ensure seamless integration, security, and high performance.",
-    items: [
-      {
-        id: "intranet-portals",
-        icon: "Leaf",
-        title: "Intranet Portals",
-        description:
-          "Develop customized intranet portals to streamline internal communications, knowledge sharing, and employee engagement.",
-      },
-      {
-        id: "workflow-automation",
-        icon: "Leaf",
-        title: "Workflow Automation",
-        description:
-          "Automate business processes using SharePoint workflows and Microsoft Power Automate to increase efficiency and productivity.",
-      },
-      {
-        id: "document-management",
-        icon: "Leaf",
-        title: "Document Management Solutions",
-        description:
-          "Organize, secure, and manage enterprise documents efficiently with SharePoint libraries, metadata, and version control.",
-      },
-      {
-        id: "custom-web-parts",
-        icon: "Leaf",
-        title: "Custom Web Parts & Add-ins",
-        description:
-          "Create tailored web parts and add-ins to extend SharePoint functionality and enhance user experience.",
-      },
-      {
-        id: "integration-services",
-        icon: "Leaf",
-        title: "Microsoft 365 & Third-Party Integration",
-        description:
-          "Integrate SharePoint with Microsoft Teams, Power BI, and other third-party tools for a connected enterprise ecosystem.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        description:
-          "Ongoing monitoring, bug fixes, and performance optimization to ensure your SharePoint solutions run smoothly and securely.",
-      },
-    ],
-    linkText: "Hire Expert SharePoint Developers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Custom SharePoint Development Solutions",
+  mainDescription:
+    "We deliver comprehensive SharePoint development services to build secure, scalable, and user-friendly collaboration platforms. From intranet portals to workflow automation, our solutions empower businesses to streamline operations and enhance communication.",
+  items: [
+    {
+      id: "intranet-portals",
+      icon: "Leaf",
+      title: "Intranet Portals",
+      description:
+        "Design and develop customized SharePoint intranets for enterprise communication. Centralize organizational knowledge, announcements, and resources in one place. Enable seamless document sharing and employee engagement across departments. Implement user-friendly navigation and personalized dashboards.  Build secure, accessible portals that enhance productivity and teamwork.",
+    },
+    {
+      id: "workflow-automation",
+      icon: "Leaf",
+      title: "Workflow Automation",
+      description:
+        "Automate complex business processes with SharePoint workflows and Power Automate. Eliminate manual tasks and reduce errors through smart automation flows. Improve turnaround times for approvals, document routing, and task management. Enhance process visibility with real-time status tracking and analytics.  Drive organization-wide efficiency and cost savings effortlessly.",
+    },
+    {
+      id: "document-management",
+      icon: "Leaf",
+      title: "Document Management Solutions",
+      description:
+        "Implement advanced document management systems with SharePoint libraries. Ensure secure storage, retrieval, and version control of business documents. Apply metadata tagging for faster document search and categorization. Enforce access permissions to protect confidential information.  Streamline document collaboration and compliance across teams.",
+    },
+    {
+      id: "custom-web-parts",
+      icon: "Leaf",
+      title: "Custom Web Parts & Add-ins",
+      description:
+        "Create tailored SharePoint web parts and add-ins for enhanced functionality. Extend platform capabilities to meet unique organizational needs. Develop dynamic dashboards, forms, and reports with intuitive interfaces.  Improve user experience through responsive, modular UI components. Deliver scalable solutions that grow with your business goals.",
+    },
+    {
+      id: "integration-services",
+      icon: "Leaf",
+      title: "Microsoft 365 & Third-Party Integration",
+      description:
+        "Integrate SharePoint with Teams, Power BI, Dynamics 365, and OneDrive. Enable real-time collaboration and analytics across your Microsoft ecosystem. Connect third-party tools to unify workflows and data sources.  Ensure seamless authentication and synchronization between systems.  Build a connected digital workplace with enhanced productivity.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      description:
+        "Provide continuous SharePoint monitoring, maintenance, and technical support. Identify and resolve issues before they impact business operations. Optimize performance, scalability, and data integrity proactively.  Apply regular updates, patches, and feature enhancements.  Ensure long-term reliability and peak system performance.",
+    },
+  ],
+  linkText: "Hire Expert SharePoint Developers",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Expert SharePoint Development Skills",
-    mainDescription:
-      "Our SharePoint developers specialize in intranet portals, workflow automation, document management, and Microsoft 365 integrations, delivering scalable and secure enterprise solutions.",
-    items: [
-      {
-        id: "intranet-portals",
-        icon: "Leaf",
-        title: "Intranet Portals",
-        link: "/contact-us",
-        description:
-          "Build custom intranet portals for improved collaboration, communication, and productivity.",
-      },
-      {
-        id: "workflow-automation",
-        icon: "Leaf",
-        title: "Workflow Automation",
-        link: "/contact-us",
-        description:
-          "Automate business processes using SharePoint workflows and Power Automate for efficiency.",
-      },
-      {
-        id: "document-management",
-        icon: "Leaf",
-        title: "Document Management",
-        link: "/contact-us",
-        description:
-          "Organize and secure enterprise documents with metadata, version control, and libraries.",
-      },
-      {
-        id: "custom-web-parts",
-        icon: "Leaf",
-        title: "Custom Web Parts & Add-ins",
-        link: "/contact-us",
-        description:
-          "Extend SharePoint functionality with tailored web parts, add-ins, and integrations.",
-      },
-      {
-        id: "integration-services",
-        icon: "Leaf",
-        title: "Microsoft 365 & Third-Party Integration",
-        link: "/contact-us",
-        description:
-          "Integrate SharePoint with Teams, Power BI, and third-party tools for a connected ecosystem.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        link: "/contact-us",
-        description:
-          "Ongoing monitoring, performance optimization, and support to ensure smooth operations.",
-      },
-    ],
-    linkText: "Hire Expert SharePoint Developers",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Expert SharePoint Development Skills",
+  mainDescription:
+    "Our SharePoint developers excel in building collaboration platforms, automating workflows, and integrating Microsoft 365 tools. With a focus on scalability, security, and usability, we craft enterprise-grade SharePoint solutions tailored to your needs.",
+  items: [
+    {
+      id: "intranet-portals",
+      icon: "Leaf",
+      title: "Intranet Portals",
+      link: "/contact-us",
+      description:
+        "Build powerful intranet portals that unify teams and communication. Customize layouts, permissions, and dashboards for different departments. Centralize organizational content and knowledge sharing effectively. Improve collaboration with user-specific access and personalization. Empower your workforce with a secure and modern intranet solution.",
+    },
+    {
+      id: "workflow-automation",
+      icon: "Leaf",
+      title: "Workflow Automation",
+      link: "/contact-us",
+      description:
+        "Automate approvals, alerts, and document routing using Power Automate. Enhance business efficiency with custom SharePoint workflow designs. Replace manual work with seamless digital process automation. Gain insights into workflow analytics and performance trends. Deliver consistent, error-free operations across departments.",
+    },
+    {
+      id: "document-management",
+      icon: "Leaf",
+      title: "Document Management",
+      link: "/contact-us",
+      description:
+        "Develop centralized document repositories with advanced metadata tagging. Implement secure access, file versioning, and retention policies. Facilitate quick search and collaboration with automated workflows. Maintain compliance with enterprise governance standards. Enhance productivity through structured content organization.",
+    },
+    {
+      id: "custom-web-parts",
+      icon: "Leaf",
+      title: "Custom Web Parts & Add-ins",
+      link: "/contact-us",
+      description:
+        "Create custom SharePoint web parts to extend default capabilities. Build user-centric dashboards, reports, and analytics widgets. Enhance UX with responsive and dynamic design patterns. Integrate APIs and business logic for smarter workflows. Deliver personalized and scalable feature enhancements.",
+    },
+    {
+      id: "integration-services",
+      icon: "Leaf",
+      title: "Microsoft 365 & Third-Party Integration",
+      link: "/contact-us",
+      description:
+        "Seamlessly integrate SharePoint with Microsoft 365 applications. Enable smooth data flow between Teams, Power BI, and Outlook. Connect third-party CRMs, ERPs, or HR systems securely. Enhance collaboration with unified cloud-based solutions. Achieve real-time visibility and smarter business insights.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      link: "/contact-us",
+      description:
+        "Offer continuous technical support and proactive monitoring. Fix issues swiftly to maintain uninterrupted productivity. Perform routine audits and performance optimizations. Keep systems updated with the latest SharePoint patches. Ensure stable, secure, and future-ready SharePoint environments.",
+    },
+  ],
+  linkText: "Hire Expert SharePoint Developers",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand SharePoint Development Services",

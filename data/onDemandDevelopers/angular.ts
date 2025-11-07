@@ -52,114 +52,115 @@ export const angular: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom Angular Development Solutions",
-    mainDescription:
-      "We provide end-to-end Angular development services to build responsive, dynamic, and maintainable web applications. Our solutions enhance scalability, performance, and security for your business.",
-    items: [
-      {
-        id: "web-applications",
-        icon: "Leaf",
-        title: "Web Application Development",
-        description:
-          "Develop responsive, scalable, and maintainable web apps using Angular, TypeScript, and modern front-end practices to meet your business requirements.",
-      },
-      {
-        id: "spa-development",
-        icon: "Leaf",
-        title: "Single Page Application (SPA) Development",
-        description:
-          "Build dynamic SPAs with fast loading, smooth navigation, and optimized performance to deliver a seamless user experience.",
-      },
-      {
-        id: "api-integration",
-        icon: "Leaf",
-        title: "API Integration & Services",
-        description:
-          "Integrate RESTful APIs and third-party services efficiently, ensuring seamless communication between front-end and back-end systems.",
-      },
-      {
-        id: "pwa-development",
-        icon: "Leaf",
-        title: "Progressive Web Apps (PWA)",
-        description:
-          "Develop PWAs using Angular for offline capabilities, push notifications, and app-like experiences on web browsers.",
-      },
-      {
-        id: "migration-upgrades",
-        icon: "Leaf",
-        title: "Migration & Upgrades",
-        description:
-          "Upgrade legacy AngularJS applications to Angular 16+ and migrate existing projects to modern frameworks for better performance and maintainability.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        description:
-          "Provide ongoing monitoring, bug fixes, and performance optimization to ensure Angular applications run efficiently.",
-      },
-    ],
-    linkText: "Hire Expert Angular Developers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Custom Angular Development Solutions",
+  mainDescription:
+    "We offer end-to-end Angular development services that deliver fast, secure, and scalable web applications. Our expert developers combine modern front-end technologies with clean architecture and best practices. From dynamic SPAs to enterprise-grade platforms, we ensure performance, reliability, and long-term maintainability.",
+  items: [
+    {
+      id: "web-applications",
+      icon: "Leaf",
+      title: "Web Application Development",
+      description:
+        "Build responsive, high-performance web applications with Angular and TypeScript. Our solutions combine clean UI design, modular components, and optimized data handling. We create apps that scale easily as your business grows while ensuring excellent usability. Each project follows best practices for code quality and performance. We deliver apps that are visually appealing, stable, and easy to maintain.",
+    },
+    {
+      id: "spa-development",
+      icon: "Leaf",
+      title: "Single Page Application (SPA) Development",
+      description:
+        "Create fast-loading, smooth, and dynamic single-page applications using Angular’s robust framework. We focus on minimal load times, seamless routing, and interactive UIs. Our SPAs provide near-native app experiences directly in browsers. We optimize performance through lazy loading and efficient state management. The result is a powerful, responsive application that enhances user engagement.",
+    },
+    {
+      id: "api-integration",
+      icon: "Leaf",
+      title: "API Integration & Services",
+      description:
+        "Integrate RESTful APIs and third-party services seamlessly into your Angular applications. We ensure smooth communication between your front-end and back-end systems. Our team focuses on secure data handling and scalable architectures. APIs are optimized for speed, consistency, and reusability across modules. This approach ensures your applications stay fast, flexible, and reliable.",
+    },
+    {
+      id: "pwa-development",
+      icon: "Leaf",
+      title: "Progressive Web Apps (PWA)",
+      description:
+        "Develop advanced PWAs using Angular for offline functionality and enhanced performance. We integrate push notifications, caching, and service workers for app-like experiences. Our PWAs deliver fast load times and high reliability across devices. Users enjoy native-like functionality without needing installation. It’s the perfect blend of web convenience and mobile capability.",
+    },
+    {
+      id: "migration-upgrades",
+      icon: "Leaf",
+      title: "Migration & Upgrades",
+      description:
+        "Upgrade legacy AngularJS or older applications to the latest Angular version for improved stability. We handle framework migrations, dependency updates, and performance tuning. Our process ensures minimal downtime and maximum code reusability. We enhance scalability and maintainability for long-term success. Migrations are executed smoothly, keeping your business operations uninterrupted.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      description:
+        "Our dedicated support team monitors your Angular applications 24/7 to ensure consistent performance. We handle bug fixes, updates, and optimization tasks proactively. Regular audits keep your codebase secure, modern, and efficient. We also track performance metrics to identify improvements early. With our support, your application stays fast, reliable, and user-friendly over time.",
+    },
+  ],
+  linkText: "Hire Expert Angular Developers",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Expert Angular Development Skills",
-    mainDescription:
-      "Our Angular developers specialize in building high-quality, dynamic web applications. We focus on maintainability, performance, and scalability to deliver robust solutions.",
-    items: [
-      {
-        id: "web-applications",
-        icon: "Leaf",
-        title: "Web Application Development",
-        link: "/contact-us",
-        description:
-          "Develop responsive and scalable web apps using Angular, TypeScript, and modern front-end techniques.",
-      },
-      {
-        id: "spa-development",
-        icon: "Leaf",
-        title: "Single Page Application Development",
-        link: "/contact-us",
-        description:
-          "Build fast, dynamic SPAs that provide smooth navigation and optimized user experiences.",
-      },
-      {
-        id: "api-integration",
-        icon: "Leaf",
-        title: "API Integration & Services",
-        link: "/contact-us",
-        description:
-          "Seamlessly connect Angular front-end applications with RESTful APIs and back-end services.",
-      },
-      {
-        id: "pwa-development",
-        icon: "Leaf",
-        title: "Progressive Web App Development",
-        link: "/contact-us",
-        description:
-          "Create PWAs with offline support, push notifications, and app-like performance on the web.",
-      },
-      {
-        id: "migration-upgrades",
-        icon: "Leaf",
-        title: "Migration & Upgrades",
-        link: "/contact-us",
-        description:
-          "Upgrade legacy AngularJS apps to Angular 16+ with modern frameworks for enhanced maintainability.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        link: "/contact-us",
-        description:
-          "Continuous monitoring, updates, and performance optimization to keep applications running smoothly.",
-      },
-    ],
-    linkText: "Hire Expert Angular Developers",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Expert Angular Development Skills",
+  mainDescription:
+    "Our Angular developers bring deep technical expertise and creative problem-solving to every project. From building dynamic UIs to integrating secure APIs, we deliver future-ready web applications. Each solution is optimized for speed, scalability, and seamless user experience across all devices.",
+  items: [
+    {
+      id: "web-applications",
+      icon: "Leaf",
+      title: "Web Application Development",
+      link: "/contact-us",
+      description:
+        "We build feature-rich, responsive web apps using Angular and TypeScript. Every solution emphasizes fast performance and maintainable architecture. Developers implement modular code for easier updates and scalability. The result is sleek, interactive interfaces users love to engage with. Perfect for startups and enterprises seeking robust front-end systems.",
+    },
+    {
+      id: "spa-development",
+      icon: "Leaf",
+      title: "Single Page Application Development",
+      link: "/contact-us",
+      description:
+        "Deliver seamless SPAs that load instantly and respond smoothly to user actions. Our team ensures efficient data binding and lightweight architecture. We utilize Angular’s advanced routing and state management. SPAs are optimized for speed, performance, and SEO readiness. Expect elegant designs paired with strong technical foundations.",
+    },
+    {
+      id: "api-integration",
+      icon: "Leaf",
+      title: "API Integration & Services",
+      link: "/contact-us",
+      description:
+        "Connect Angular front-ends with RESTful APIs and third-party systems seamlessly. We focus on secure authentication, fast data handling, and modular architecture. APIs are optimized for reuse across components and projects. This results in reliable and consistent system communication. Integration enhances both scalability and user satisfaction.",
+    },
+    {
+      id: "pwa-development",
+      icon: "Leaf",
+      title: "Progressive Web App Development",
+      link: "/contact-us",
+      description:
+        "Build lightning-fast PWAs with offline capabilities and real-time updates. Users can access your platform anytime, anywhere with native-like performance. We add push notifications and caching for enhanced engagement. Our PWAs improve retention and accessibility across devices. Experience the best of web and mobile combined.",
+    },
+    {
+      id: "migration-upgrades",
+      icon: "Leaf",
+      title: "Migration & Upgrades",
+      link: "/contact-us",
+      description:
+        "Modernize legacy AngularJS projects by migrating to Angular 16+. We ensure seamless transitions with zero data loss or downtime. The codebase is refactored for better structure and maintainability. Enhancements include improved security, speed, and UI performance. Upgrades make your app future-ready for evolving tech demands.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      link: "/contact-us",
+      description:
+        "We offer comprehensive maintenance to keep your Angular apps stable and optimized. Our experts monitor app health and implement quick fixes proactively. Security patches and performance checks are routine. Regular updates ensure compatibility with the latest Angular ecosystem. You can focus on growth while we handle reliability.",
+    },
+  ],
+  linkText: "Hire Expert Angular Developers",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand Angular Development Services",

@@ -52,114 +52,115 @@ export const ios: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom iOS Development Solutions",
-    mainDescription:
-      "We provide end-to-end iOS development services to build iPhone and iPad applications. Our solutions are designed to enhance performance, security, and scalability across industries.",
-    items: [
-      {
-        id: "mobile-applications",
-        icon: "Leaf",
-        title: "iPhone & iPad App Development",
-        description:
-          "Develop feature-rich and responsive iOS applications for iPhone and iPad using Swift and Objective-C, ensuring a smooth user experience.",
-      },
-      {
-        id: "ui-ux-design",
-        icon: "Leaf",
-        title: "UI/UX Design for iOS",
-        description:
-          "Design intuitive, user-friendly interfaces and seamless navigation to maximize engagement and usability on iOS devices.",
-      },
-      {
-        id: "api-integration",
-        icon: "Leaf",
-        title: "API & Backend Integration",
-        description:
-          "Integrate RESTful APIs, third-party services, and backend systems to create robust and scalable iOS applications.",
-      },
-      {
-        id: "app-store-deployment",
-        icon: "Leaf",
-        title: "App Store Deployment",
-        description:
-          "Publish iOS applications to the Apple App Store, ensuring compliance with App Store guidelines and optimizing for discoverability.",
-      },
-      {
-        id: "migration-upgrades",
-        icon: "Leaf",
-        title: "iOS Migration & Upgrades",
-        description:
-          "Upgrade legacy iOS applications to the latest iOS versions and Swift frameworks without downtime, maintaining app performance.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        description:
-          "Provide ongoing monitoring, bug fixes, and performance enhancements to ensure your iOS apps run smoothly and efficiently.",
-      },
-    ],
-    linkText: "Hire Expert iOS Developers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Custom iOS Development Solutions",
+  mainDescription:
+    "We provide full-cycle iOS development services that bring your app ideas to life. From concept to App Store launch, we craft secure, high-performance, and visually stunning apps. Our team ensures seamless functionality, elegant interfaces, and optimized performance across all iOS devices.",
+  items: [
+    {
+      id: "mobile-applications",
+      icon: "Leaf",
+      title: "iPhone & iPad App Development",
+      description:
+        "Design and develop world-class iPhone and iPad apps using Swift and Objective-C. Deliver high-speed, stable performance optimized for iOS devices. Build custom functionalities tailored to unique business goals.  Ensure smooth, lag-free user interactions across devices. Create secure and scalable apps built for future growth.",
+    },
+    {
+      id: "ui-ux-design",
+      icon: "Leaf",
+      title: "UI/UX Design for iOS",
+      description:
+        "Craft visually appealing and user-friendly designs for iOS platforms. Follow Apple’s Human Interface Guidelines for intuitive navigation. Focus on clean layouts that enhance usability and engagement. Conduct usability testing for consistent, accessible experiences. Ensure seamless design flow across all screen resolutions.",
+    },
+    {
+      id: "api-integration",
+      icon: "Leaf",
+      title: "API & Backend Integration",
+      description:
+        "Integrate secure RESTful APIs and backend systems with iOS apps. Enable real-time communication and dynamic data updates. Use frameworks like Alamofire for smooth API connections. Optimize response handling for speed and reliability. Create unified systems connecting app and server seamlessly.",
+    },
+    {
+      id: "app-store-deployment",
+      icon: "Leaf",
+      title: "App Store Deployment",
+      description:
+        "Manage complete App Store submission and deployment processes. Ensure full compliance with Apple’s quality and security standards. Optimize metadata, icons, and screenshots for visibility. Handle review feedback and approvals for faster publishing. Deliver seamless rollout with post-launch monitoring support.",
+    },
+    {
+      id: "migration-upgrades",
+      icon: "Leaf",
+      title: "iOS Migration & Upgrades",
+      description:
+        "Upgrade older iOS apps to the latest versions and frameworks. Implement Swift and SwiftUI for improved speed and reliability. Migrate data and APIs without downtime or data loss. Enhance app compatibility with new iOS devices and features. Maintain smooth transitions with minimal technical risk.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      description:
+        "Deliver ongoing app updates and proactive issue resolution. Monitor app performance and crash analytics continuously. Apply security patches and performance optimizations regularly. Ensure app stability with structured maintenance workflows. Keep your app current, secure, and user-friendly long-term.",
+    },
+  ],
+  linkText: "Hire Expert iOS Developers",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Expert iOS Development Skills",
-    mainDescription:
-      "Our dedicated iOS developers specialize in delivering high-quality apps for iPhone and iPad, integrating APIs, backend systems, and ensuring optimal performance.",
-    items: [
-      {
-        id: "mobile-applications",
-        icon: "Leaf",
-        title: "iPhone & iPad App Development",
-        link: "/contact-us",
-        description:
-          "Build responsive and feature-rich iOS apps using Swift and Objective-C for smooth and performant user experiences.",
-      },
-      {
-        id: "ui-ux-design",
-        icon: "Leaf",
-        title: "UI/UX Design for iOS",
-        link: "/contact-us",
-        description:
-          "Create intuitive and engaging interfaces optimized for iPhone and iPad screens, enhancing user retention.",
-      },
-      {
-        id: "api-integration",
-        icon: "Leaf",
-        title: "API & Backend Integration",
-        link: "/contact-us",
-        description:
-          "Integrate APIs and backend systems to ensure robust and scalable iOS application functionality.",
-      },
-      {
-        id: "app-store-deployment",
-        icon: "Leaf",
-        title: "App Store Deployment",
-        link: "/contact-us",
-        description:
-          "Submit apps to the App Store, adhering to guidelines, and optimize listings for visibility and downloads.",
-      },
-      {
-        id: "migration-upgrades",
-        icon: "Leaf",
-        title: "iOS Migration & Upgrades",
-        link: "/contact-us",
-        description:
-          "Upgrade legacy iOS apps to the latest frameworks and iOS versions while maintaining stability and performance.",
-      },
-      {
-        id: "support-maintenance",
-        icon: "Leaf",
-        title: "Support & Maintenance",
-        link: "/contact-us",
-        description:
-          "Ensure app reliability with continuous monitoring, performance optimization, and bug fixes.",
-      },
-    ],
-    linkText: "Hire Expert iOS Developers",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Expert iOS Development Skills",
+  mainDescription:
+    "Our iOS developers bring expertise in Swift, SwiftUI, and Objective-C to build exceptional applications. From intuitive design to secure backend integration, they deliver performance-driven, scalable, and engaging iOS experiences tailored for success.",
+  items: [
+    {
+      id: "mobile-applications",
+      icon: "Leaf",
+      title: "iPhone & iPad App Development",
+      link: "/contact-us",
+      description:
+        "Build cutting-edge iPhone and iPad apps with Swift and Objective-C. Focus on performance, design quality, and smooth functionality. Implement robust architecture for long-term maintainability. Ensure cross-device optimization for iPhones and iPads. Deliver engaging and high-performing mobile experiences.",
+    },
+    {
+      id: "ui-ux-design",
+      icon: "Leaf",
+      title: "UI/UX Design for iOS",
+      link: "/contact-us",
+      description:
+        "Design modern and elegant user interfaces following Apple standards. Enhance user flow and interactivity through intuitive layouts. Apply animation and micro-interactions for better engagement. Test usability across devices for consistent performance. Achieve pixel-perfect, visually compelling app designs.",
+    },
+    {
+      id: "api-integration",
+      icon: "Leaf",
+      title: "API & Backend Integration",
+      link: "/contact-us",
+      description:
+        "Connect iOS apps with RESTful or GraphQL APIs securely. Enable real-time data sync between app and cloud servers. Integrate third-party tools and payment gateways efficiently. Use efficient request handling for optimized data flow. Deliver a unified and reliable backend experience.",
+    },
+    {
+      id: "app-store-deployment",
+      icon: "Leaf",
+      title: "App Store Deployment",
+      link: "/contact-us",
+      description:
+        "Guide apps through Apple’s submission and approval stages. Follow App Store policies to avoid rejections or delays. Manage builds, certificates, and provisioning profiles. Implement strategies for visibility and keyword optimization. Ensure smooth publishing and updates on the App Store.",
+    },
+    {
+      id: "migration-upgrades",
+      icon: "Leaf",
+      title: "iOS Migration & Upgrades",
+      link: "/contact-us",
+      description:
+        "Upgrade old apps to SwiftUI or the latest Swift versions. Refactor outdated code for cleaner and faster performance. Maintain full functionality during migration transitions. Adopt new iOS features like Widgets and App Clips. Guarantee compatibility with Apple’s latest ecosystem.",
+    },
+    {
+      id: "support-maintenance",
+      icon: "Leaf",
+      title: "Support & Maintenance",
+      link: "/contact-us",
+      description:
+        "Provide 24/7 app monitoring and technical support services. Continuously enhance security, speed, and usability. Track KPIs and fix issues before users experience them. Keep the app aligned with iOS updates and trends. Ensure consistent reliability for long-term success.",
+    },
+  ],
+  linkText: "Hire Expert iOS Developers",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand iOS Development Services",
