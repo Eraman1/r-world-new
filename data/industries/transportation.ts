@@ -70,62 +70,63 @@ export const transportation: IndustryConfig = {
   },
  
   solutions: {
-    mainTitle: "Next-Gen Transportation & Mobility Solutions",
-    mainDescription:
-      "Leverage AI, IoT, and cloud technologies to enhance mobility, logistics efficiency, and passenger experience. Streamline operations, reduce costs, and ensure sustainability with smart transportation systems.",
-    items: [
-      {
-        id: "player-performance",
-        icon: "Leaf",
-        title: "Fleet Performance Monitoring",
-        subtitle: "",
-        description:
-          "Gain real-time insights into vehicle performance, driver behavior, and route efficiency to boost productivity.",
-      },
-      {
-        id: "club-management",
-        icon: "Leaf",
-        title: "Passenger & Cargo Management Systems",
-        subtitle: "",
-        description:
-          "Manage bookings, shipments, and service operations efficiently through centralized management platforms.",
-      },
-      {
-        id: "smart-ticketing",
-        icon: "Leaf",
-        title: "Digital Ticketing & Payment Automation",
-        subtitle: "",
-        description:
-          "Offer seamless, contactless fare collection and secure payment systems for public and private transport.",
-      },
-      {
-        id: "fan-platforms",
-        icon: "Leaf",
-        title: "IoT-Enabled Vehicle Tracking & Monitoring",
-        subtitle: "",
-        description:
-          "Use IoT sensors to monitor vehicle health, optimize routes, and ensure on-time delivery and safety.",
-      },
-      {
-        id: "sports-analytics",
-        icon: "Leaf",
-        title: "Transportation Analytics & Predictive Insights",
-        subtitle: "",
-        description:
-          "Analyze traffic, demand, and operational data to enhance performance and reduce fuel consumption.",
-      },
-      {
-        id: "broadcast-tools",
-        icon: "Leaf",
-        title: "Cloud-Based Fleet Collaboration Tools",
-        subtitle: "",
-        description:
-          "Connect drivers, dispatchers, and operators through secure cloud systems for real-time coordination.",
-      },
-    ],
-    linkText: "Explore Transportation Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Next-Gen Transportation & Mobility Solutions",
+  mainDescription:
+    "Leverage AI, IoT, and cloud technologies to enhance mobility, logistics efficiency, and passenger experience. Streamline operations, reduce costs, and ensure sustainability with smart transportation systems.",
+  items: [
+    {
+      id: "player-performance",
+      icon: "Leaf",
+      title: "Fleet Performance Monitoring",
+      subtitle: "",
+      description:
+        "Gain real-time insights into vehicle performance, driver behavior, and route efficiency. Monitor fuel consumption and engine health to prevent breakdowns. Identify inefficiencies and optimize operational workflows. Improve overall fleet productivity and safety standards. Make data-driven decisions to enhance performance and reduce costs.",
+    },
+    {
+      id: "club-management",
+      icon: "Leaf",
+      title: "Passenger & Cargo Management Systems",
+      subtitle: "",
+      description:
+        "Manage bookings, shipments, and service operations efficiently through a centralized platform. Track cargo and passenger data seamlessly. Automate scheduling and allocation tasks for better accuracy. Reduce operational errors and enhance customer satisfaction. Ensure smooth coordination across multiple transport channels and routes.",
+    },
+    {
+      id: "smart-ticketing",
+      icon: "Leaf",
+      title: "Digital Ticketing & Payment Automation",
+      subtitle: "",
+      description:
+        "Offer seamless, contactless fare collection for passengers and cargo clients. Integrate secure payment gateways with digital ticketing systems. Reduce manual workload and transaction errors. Provide real-time ticketing and payment analytics for operational insights. Enhance convenience and reliability for all users across platforms.",
+    },
+    {
+      id: "fan-platforms",
+      icon: "Leaf",
+      title: "IoT-Enabled Vehicle Tracking & Monitoring",
+      subtitle: "",
+      description:
+        "Use IoT sensors to continuously monitor vehicle location, speed, and condition. Optimize routes based on real-time traffic and weather data. Ensure on-time deliveries and service schedules. Detect maintenance needs before failures occur. Increase safety, efficiency, and accountability across your fleet operations.",
+    },
+    {
+      id: "sports-analytics",
+      icon: "Leaf",
+      title: "Transportation Analytics & Predictive Insights",
+      subtitle: "",
+      description:
+        "Analyze traffic patterns, passenger demand, and fleet performance trends. Use predictive models to anticipate delays and peak usage. Reduce fuel consumption and operational costs through intelligent planning. Enable proactive decision-making for fleet managers. Improve overall efficiency and sustainability of transportation systems.",
+    },
+    {
+      id: "broadcast-tools",
+      icon: "Leaf",
+      title: "Cloud-Based Fleet Collaboration Tools",
+      subtitle: "",
+      description:
+        "Connect drivers, dispatchers, and operators in real-time via secure cloud platforms. Share updates, route changes, and alerts instantly. Streamline communication and coordination across teams. Monitor task completion and fleet status efficiently. Empower better collaboration, faster response times, and smoother transport operations.",
+    },
+  ],
+  linkText: "Explore Transportation Solutions",
+  linkUrl: "/contact-us",
+},
+
  
   managementSolutions: {
     title: "Comprehensive Transportation Management Ecosystem",
@@ -157,39 +158,119 @@ export const transportation: IndustryConfig = {
           "Enable seamless communication between dispatchers, drivers, and managers for faster decision-making.",
       },
     ],
-    bottomFeatures: [
-      {
-        id: "fan-insights",
-        icon: "map",
-        title: "Passenger & Traffic Analytics",
-        description:
-          "Use predictive analytics to understand travel patterns, demand peaks, and improve scheduling efficiency.",
-      },
-      {
-        id: "data-security",
-        icon: "map",
-        title: "Data Security & Regulatory Compliance",
-        description:
-          "Ensure secure tracking, privacy protection, and compliance with global transportation standards.",
-      },
-      {
-        id: "mobile-experience",
-        icon: "map",
-        title: "Mobile Fleet Management Access",
-        description:
-          "Track vehicles, assign deliveries, and monitor logistics operations directly from mobile devices.",
-      },
-      {
-        id: "sponsorship-analytics",
-        icon: "map",
-        title: "Cost & Route Optimization Analytics",
-        description:
-          "Leverage AI-powered insights to reduce operational costs, fuel consumption, and delivery delays.",
-      },
-    ],
-    ctaText: "BUILD YOUR TRANSPORTATION PLATFORM",
-    onCtaClick: () => {},
+   bottomFeatures: [
+  {
+    id: "fan-insights",
+    icon: "map",
+    title: "Passenger & Traffic Analytics",
+    description:
+      "Gain a deep understanding of passenger behavior and travel trends using advanced analytics tools. \nPredict demand peaks and optimize routes efficiently to reduce congestion. \nAnalyze historical and real-time data to improve scheduling accuracy. \nIdentify growth opportunities for expanding service coverage. \nMake data-driven decisions that enhance overall passenger satisfaction.",
   },
+  {
+    id: "data-security",
+    icon: "map",
+    title: "Data Security & Regulatory Compliance",
+    description:
+      "Protect sensitive transportation and passenger data with robust security protocols. \nEnsure compliance with global regulations and privacy standards. \nMonitor access and audit trails to prevent unauthorized breaches. \nImplement encryption and secure cloud storage for critical data. \nMaintain trust and transparency while meeting regulatory obligations.",
+  },
+  {
+    id: "mobile-experience",
+    icon: "map",
+    title: "Mobile Fleet Management Access",
+    description:
+      "Manage your fleet operations conveniently through mobile devices. \nTrack vehicles in real-time to improve logistics and reduce delays. \nAssign deliveries and optimize driver routes on the go. \nReceive instant updates and alerts for operational issues. \nEmpower managers with mobility and control from anywhere.",
+  },
+  {
+    id: "sponsorship-analytics",
+    icon: "map",
+    title: "Cost & Route Optimization Analytics",
+    description:
+      "Use AI-powered analytics to reduce operational and fuel costs. \nOptimize delivery routes to minimize delays and improve efficiency. \nAnalyze traffic patterns and vehicle performance for better planning. \nForecast demand and allocate resources effectively. \nEnhance profitability while ensuring timely and reliable deliveries.",
+  },
+],
+ctaText: "BUILD YOUR TRANSPORTATION PLATFORM",
+onCtaClick: () => {},
+
+  },
+
+  managementSolutionsTwo: {
+  title: "Transportation Management Software Solutions",
+  subtitle:
+    "Our transportation software developers create smart platforms to optimize fleet operations, track shipments, and improve delivery efficiency across industries.",
+  subtitleLink: { text: "transportation software", url: "#" },
+  laptopImage: "/images/transportation-management.jpg",
+  mobileImage: "/images/transportation-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "fleet-management",
+      icon: "Truck",
+      title: "Fleet Management & Tracking Systems",
+      description:
+        "Monitor vehicles and drivers in real time. Optimize routes and reduce operational costs effectively.",
+      link: { text: "fleet management software", url: "#" },
+    },
+    {
+      id: "shipment-scheduling",
+      icon: "Calendar",
+      title: "Shipment Scheduling & Logistics Platforms",
+      description:
+        "Plan and schedule deliveries efficiently. Ensure timely shipments with automated route planning.",
+      link: { text: "logistics scheduling software", url: "#" },
+    },
+    {
+      id: "payment-integration",
+      icon: "CreditCard",
+      title: "Payment & Billing Management Systems",
+      description:
+        "Manage invoicing, payments, and billing securely. Integrate multiple gateways for smooth transactions.",
+      link: { text: "transport payment software", url: "#" },
+    },
+    {
+      id: "safety-compliance",
+      icon: "Shield",
+      title: "Safety & Regulatory Compliance Software",
+      description:
+        "Ensure compliance with transport regulations and safety standards. Automate reporting and audits for your fleet.",
+      link: { text: "transport compliance software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "route-optimization",
+      icon: "Map",
+      title: "Route Optimization & GPS Tracking",
+      description:
+        "Optimize routes to save fuel and time. Track vehicles with real-time GPS monitoring.",
+    },
+    {
+      id: "delivery-monitoring",
+      icon: "Radar",
+      title: "Real-Time Delivery Monitoring",
+      description:
+        "Track shipments and delivery status live. Get instant notifications for delays or issues.",
+    },
+    {
+      id: "driver-performance",
+      icon: "UserCheck",
+      title: "Driver Performance & Analytics",
+      description:
+        "Monitor driver behavior and performance. Improve safety and efficiency with actionable insights.",
+    },
+    {
+      id: "admin-dashboard",
+      icon: "Settings",
+      title: "Transportation Administration Dashboards",
+      description:
+        "Centralize fleet and shipment management. Access reports, analytics, and operational controls easily.",
+    },
+  ],
+
+  ctaText: "GET TRANSPORTATION SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
   faq : {
   title: "Transportation & Logistics FAQ",
   items: [

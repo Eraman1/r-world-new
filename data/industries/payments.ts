@@ -69,62 +69,87 @@ export const payments: IndustryConfig = {
   },
  
   solutions: {
-    mainTitle: "Fintech, Blockchain & AI Solutions for Payments",
-    mainDescription:
-      "We deliver secure, high-performance payment platforms that integrate with banks, PSPs, and financial systems. Our solutions enable faster transactions, lower costs, and superior fraud protection through data intelligence and automation.",
-    items: [
-      {
-        id: "gateway-solutions",
-        icon: "Shield", //CreditCard
-        title: "Custom Payment Gateway Solutions",
-        subtitle: "",
-        description:
-          "Build scalable, multi-currency gateways with 3D Secure, PCI DSS compliance, and smart routing capabilities.",
-      },
-      {
-        id: "fraud-ai",
-        icon: "Shield",
-        title: "Fraud Detection & Risk Scoring",
-        subtitle: "",
-        description:
-          "Use AI to detect anomalies, flag suspicious transactions, and prevent chargebacks in real time.",
-      },
-      {
-        id: "wallet-platforms",
-        icon: "Shield", //Smartphone
-        title: "Digital Wallet Platforms",
-        subtitle: "",
-        description:
-          "Launch feature-rich wallets supporting QR, NFC, and peer-to-peer payments with biometric authentication.",
-      },
-      {
-        id: "crypto-integration",
-        icon: "Shield", //Bitcoin
-        title: "Crypto Payment Integration",
-        subtitle: "",
-        description:
-          "Enable seamless crypto-to-fiat transactions using blockchain and smart contract-based settlement engines.",
-      },
-      {
-        id: "analytics-dashboard",
-        icon: "Shield", //BarChart2
-        title: "Payment Analytics Dashboards",
-        subtitle: "",
-        description:
-          "Gain real-time insights into transactions, trends, and customer behavior with AI-powered dashboards.",
-      },
-      {
-        id: "kyc-compliance",
-        icon: "Shield", //UserCheck
-        title: "KYC, AML & Compliance Automation",
-        subtitle: "",
-        description:
-          "Automate user verification, screening, and compliance checks to ensure regulatory adherence globally.",
-      },
-    ],
-    linkText: "Explore Fintech Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Fintech, Blockchain & AI Solutions for Payments",
+  mainDescription:
+    "We deliver secure, high-performance payment platforms that integrate with banks, PSPs, and financial systems. Our solutions enable faster transactions, lower costs, and superior fraud protection through data intelligence and automation.",
+  items: [
+    {
+      id: "gateway-solutions",
+      icon: "Shield", //CreditCard
+      title: "Custom Payment Gateway Solutions",
+      subtitle: "",
+      description:
+        "Develop robust, multi-currency payment gateways for global transactions.\n" +
+        "Ensure PCI DSS compliance with advanced encryption and tokenization.\n" +
+        "Integrate 3D Secure authentication to reduce fraud and chargebacks.\n" +
+        "Enable smart routing and real-time payment reconciliation.\n" +
+        "Deliver a seamless checkout experience across all devices and platforms.",
+    },
+    {
+      id: "fraud-ai",
+      icon: "Shield",
+      title: "Fraud Detection & Risk Scoring",
+      subtitle: "",
+      description:
+        "Leverage AI and machine learning to detect transaction anomalies instantly.\n" +
+        "Implement behavioral analytics for continuous fraud prevention.\n" +
+        "Reduce false positives with dynamic risk-based scoring models.\n" +
+        "Monitor every transaction in real time with automated alerts.\n" +
+        "Protect user trust and ensure regulatory compliance effortlessly.",
+    },
+    {
+      id: "wallet-platforms",
+      icon: "Shield", //Smartphone
+      title: "Digital Wallet Platforms",
+      subtitle: "",
+      description:
+        "Launch secure, feature-rich mobile wallets with advanced user interfaces.\n" +
+        "Support QR code, NFC, and peer-to-peer payment functionalities.\n" +
+        "Integrate biometric verification for seamless authentication.\n" +
+        "Allow users to manage cards, crypto, and loyalty points in one app.\n" +
+        "Deliver instant transfers, cashback, and transaction transparency.",
+    },
+    {
+      id: "crypto-integration",
+      icon: "Shield", //Bitcoin
+      title: "Crypto Payment Integration",
+      subtitle: "",
+      description:
+        "Integrate cryptocurrency payments with instant fiat conversions.\n" +
+        "Use blockchain for secure, transparent, and immutable settlements.\n" +
+        "Leverage smart contracts for automated escrow and dispute handling.\n" +
+        "Expand your reach with multi-chain and token support.\n" +
+        "Ensure compliance with evolving global crypto payment regulations.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "Shield", //BarChart2
+      title: "Payment Analytics Dashboards",
+      subtitle: "",
+      description:
+        "Visualize key performance metrics with AI-powered dashboards.\n" +
+        "Track transaction trends, conversion rates, and fraud patterns.\n" +
+        "Enable predictive analytics for better business decision-making.\n" +
+        "Generate automated compliance and performance reports.\n" +
+        "Empower financial teams with data-driven operational intelligence.",
+    },
+    {
+      id: "kyc-compliance",
+      icon: "Shield", //UserCheck
+      title: "KYC, AML & Compliance Automation",
+      subtitle: "",
+      description:
+        "Automate customer onboarding with AI-driven KYC verification tools.\n" +
+        "Perform real-time AML screening using global watchlists and databases.\n" +
+        "Maintain full audit trails for transparent regulatory compliance.\n" +
+        "Reduce manual intervention through workflow automation.\n" +
+        "Strengthen risk control and ensure seamless compliance operations.",
+    },
+  ],
+  linkText: "Explore Fintech Solutions",
+  linkUrl: "/contact-us",
+},
+
  
   managementSolutions: {
     title: "End-to-End Payment Management Systems",
@@ -157,38 +182,117 @@ export const payments: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "ai-risk",
-        icon: "map", //Cpu
-        title: "AI Risk Assessment & Scoring",
-        description:
-          "Assess transaction risks instantly using predictive algorithms and real-time behavioral analysis.",
-      },
-      {
-        id: "security-compliance",
-        icon: "map", //Shield
-        title: "Data Security & PCI DSS Compliance",
-        description:
-          "Ensure full encryption, tokenization, and compliance with global financial security standards.",
-      },
-      {
-        id: "api-platforms",
-        icon: "map", //Link
-        title: "Open Banking API Platforms",
-        description:
-          "Integrate banking APIs for faster payments, account aggregation, and secure third-party services.",
-      },
-      {
-        id: "customer-engagement",
-        icon: "map", //Users
-        title: "Customer Engagement & Loyalty Systems",
-        description:
-          "Use data-driven personalization and rewards to enhance user experience and retention.",
-      },
-    ],
-    ctaText: "BUILD YOUR PAYMENT PLATFORM",
-    onCtaClick: () => {},
+  {
+    id: "ai-risk",
+    icon: "map", //Cpu
+    title: "AI Risk Assessment & Scoring",
+    description:
+      "Leverage AI-driven models to evaluate transaction risks in real time. Detect fraud and anomalies through behavioral pattern analysis. Improve decision-making with predictive scoring and automation. Minimize losses by identifying high-risk activities early. Strengthen compliance while maintaining operational efficiency.",
   },
+  {
+    id: "security-compliance",
+    icon: "map", //Shield
+    title: "Data Security & PCI DSS Compliance",
+    description:
+      "Protect sensitive data through end-to-end encryption and tokenization. Maintain compliance with PCI DSS and international standards. Prevent unauthorized access with layered security protocols. Automate auditing, reporting, and breach monitoring systems. Build customer trust through transparent data protection measures.",
+  },
+  {
+    id: "api-platforms",
+    icon: "map", //Link
+    title: "Open Banking API Platforms",
+    description:
+      "Enable seamless integration with third-party financial applications. Support real-time payments and account aggregation securely. Empower customers with greater control over financial data. Foster innovation through open and interoperable systems. Enhance transparency and connectivity across banking networks.",
+  },
+  {
+    id: "customer-engagement",
+    icon: "map", //Users
+    title: "Customer Engagement & Loyalty Systems",
+    description:
+      "Deliver personalized experiences using AI-based insights and analytics. Create loyalty programs that reward meaningful customer behavior. Boost retention with omnichannel communication strategies. Gain actionable insights from engagement and satisfaction data. Strengthen relationships through consistent, value-driven interactions.",
+  },
+],
+ctaText: "BUILD YOUR PAYMENT PLATFORM",
+onCtaClick: () => {},
+},
+
+managementSolutionsTwo: {
+  title: "Payments Management Software Solutions",
+  subtitle:
+    "Our payment software experts build secure, scalable, and intelligent platforms that streamline transactions, automate reconciliation, and ensure financial compliance.",
+  subtitleLink: { text: "payment processing software", url: "#" },
+  laptopImage: "/images/payments-management.jpg",
+  mobileImage: "/images/payments-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "payment-processing",
+      icon: "CreditCard",
+      title: "Payment Processing & Gateway Integration",
+      description:
+        "Enable fast, secure multi-currency transactions worldwide. Integrate major gateways for seamless online payments.",
+      link: { text: "payment gateway integration", url: "#" },
+    },
+    {
+      id: "billing-automation",
+      icon: "FileText",
+      title: "Automated Billing & Invoicing Systems",
+      description:
+        "Generate and manage invoices automatically with real-time tracking. Simplify recurring payments and subscription billing.",
+      link: { text: "automated billing systems", url: "#" },
+    },
+    {
+      id: "fraud-detection",
+      icon: "Shield",
+      title: "Fraud Detection & Risk Management",
+      description:
+        "Use AI-driven tools to monitor and flag fraudulent activities. Strengthen security with multi-layer authentication and AML checks.",
+      link: { text: "fraud detection software", url: "#" },
+    },
+    {
+      id: "reporting-analytics",
+      icon: "BarChart3",
+      title: "Financial Reporting & Analytics Dashboards",
+      description:
+        "Gain full visibility into transactions and settlements. Generate real-time financial insights for better decision-making.",
+      link: { text: "payment analytics dashboards", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "mobile-wallets",
+      icon: "Smartphone",
+      title: "Digital Wallet & Mobile Payment Solutions",
+      description:
+        "Launch branded wallets for peer-to-peer payments. Offer contactless and QR-based transactions across devices.",
+    },
+    {
+      id: "settlement-systems",
+      icon: "Coins",
+      title: "Automated Settlement & Reconciliation Tools",
+      description:
+        "Reconcile transactions automatically with instant verification. Reduce human errors and ensure accounting accuracy.",
+    },
+    {
+      id: "subscription-platforms",
+      icon: "Repeat",
+      title: "Subscription & Recurring Payment Platforms",
+      description:
+        "Manage recurring billing with smart payment scheduling. Support flexible pricing models for SaaS and fintech apps.",
+    },
+    {
+      id: "compliance-tools",
+      icon: "Lock",
+      title: "Regulatory Compliance & Audit Systems",
+      description:
+        "Maintain PCI DSS, KYC, and AML compliance easily. Automate audits and data validation across all payment workflows.",
+    },
+  ],
+
+  ctaText: "GET PAYMENT SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
   faq : {
   title: "Payments & FinTech FAQ",
   items: [

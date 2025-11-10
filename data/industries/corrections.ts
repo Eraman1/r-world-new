@@ -72,63 +72,65 @@ export const corrections: IndustryConfig = {
     // },
   },
   solutions: {
-    mainTitle: "AI & IoT Solutions for Modern Corrections Management",
-    mainDescription:
-      "Empower correctional institutions with AI, IoT, and cloud-based systems that enhance facility operations, improve security, and promote rehabilitation. Gain better control and insights across all correctional processes through intelligent automation.",
+  mainTitle: "AI & IoT Solutions for Modern Corrections Management",
+  mainDescription:
+    "Empower correctional institutions with AI, IoT, and cloud-based systems that enhance facility operations, improve security, and promote rehabilitation. Gain better control and insights across all correctional processes through intelligent automation.",
 
-    items: [
-      {
-        id: "crop-yield",
-        icon: "Warehouse",
-        title: "AI-Powered Inmate Analytics",
-        subtitle: "",
-        description:
-          "Leverage AI-driven insights to assess behavior, risk levels, and rehabilitation progress for data-backed inmate management decisions.",
-      },
-      {
-        id: "chemical-spraying",
-        icon: "Sprout",
-        title: "IoT-Enabled Surveillance Systems",
-        subtitle: "",
-        description:
-          "Monitor cells, corridors, and perimeter zones with smart IoT cameras and sensors to ensure safety and detect anomalies instantly.",
-      },
-      {
-        id: "seed-sowing",
-        icon: "Leaf",
-        title: "Automated Staff Operations",
-        subtitle: "",
-        description:
-          "Simplify scheduling, duty rosters, and shift management with automated workflows that improve coordination and reduce administrative workload.",
-      },
-      {
-        id: "autonomous-harvesting",
-        icon: "Tractor",
-        title: "Digital Visitation & Communication",
-        subtitle: "",
-        description:
-          "Enable secure and monitored virtual visitation systems for inmates to connect with family while maintaining compliance and safety.",
-      },
-      {
-        id: "crop-monitoring",
-        icon: "Shield",
-        title: "Incident Tracking & Alert System",
-        subtitle: "",
-        description:
-          "Detect and respond to incidents faster with real-time alerts, automated reporting, and centralized incident logs.",
-      },
-      {
-        id: "disease-diagnosis",
-        icon: "Bug",
-        title: "Rehabilitation Program Management",
-        subtitle: "",
-        description:
-          "Digitize learning, counseling, and rehabilitation programs with analytics that measure engagement and progress effectively.",
-      },
-    ],
-    linkText: "Get AI-Powered Corrections Solutions",
-    linkUrl: "/contact-us",
-  },
+  items: [
+    {
+      id: "crop-yield",
+      icon: "Warehouse",
+      title: "AI-Powered Inmate Analytics",
+      subtitle: "",
+      description:
+        "Utilize advanced AI models to assess inmate behavior and risk levels in real time. Predict potential conflicts or rehabilitation needs through data insights. Enhance decision-making with behavioral pattern recognition tools.  Support staff with predictive reports for proactive interventions. Ensure transparent, data-driven inmate management and safety.",
+    },
+    {
+      id: "chemical-spraying",
+      icon: "Sprout",
+      title: "IoT-Enabled Surveillance Systems",
+      subtitle: "",
+      description:
+        "Deploy IoT sensors and smart cameras across cells and corridors for full visibility. Detect unauthorized movements or anomalies with intelligent analytics. Enable automated alerts to improve situational awareness and response.  Integrate video feeds with command dashboards for instant review. Maintain facility safety through always-connected monitoring systems.",
+    },
+    {
+      id: "seed-sowing",
+      icon: "Leaf",
+      title: "Automated Staff Operations",
+      subtitle: "",
+      description:
+        "Digitize scheduling, shift management, and resource allocation workflows. Reduce manual paperwork with AI-assisted staff coordination systems. Monitor performance and workload through centralized dashboards.  Optimize staff deployment for security and efficiency in real time. Save administrative hours while improving overall staff productivity.",
+    },
+    {
+      id: "autonomous-harvesting",
+      icon: "Tractor",
+      title: "Digital Visitation & Communication",
+      subtitle: "",
+      description:
+        "Facilitate secure virtual visitation platforms for inmate-family connections. Use encrypted communication channels to maintain compliance and privacy. Record and analyze call data for transparency and supervision needs. Enable seamless scheduling and monitoring of digital sessions. Promote rehabilitation through controlled and meaningful communication.",
+    },
+    {
+      id: "crop-monitoring",
+      icon: "Shield",
+      title: "Incident Tracking & Alert System",
+      subtitle: "",
+      description:
+        "Implement AI-backed alert systems for instant response to facility incidents. Track and categorize reports for violence, medical, or security breaches. Generate real-time notifications to security teams and control centers. Access detailed logs and timelines for audits or investigations. Improve accountability through continuous monitoring and data trails.",
+    },
+    {
+      id: "disease-diagnosis",
+      icon: "Bug",
+      title: "Rehabilitation Program Management",
+      subtitle: "",
+      description:
+        "Digitize educational, counseling, and rehabilitation programs in one platform. Measure inmate participation and engagement with built-in analytics. Track progress across multiple sessions for personalized insights. Provide data reports to optimize rehabilitation effectiveness. Foster long-term behavioral change through digital learning tools.",
+    },
+  ],
+
+  linkText: "Get AI-Powered Corrections Solutions",
+  linkUrl: "/contact-us",
+},
+
   managementSolutions: {
     title: "Corrections Management Solutions",
     subtitle:
@@ -161,39 +163,118 @@ export const corrections: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "autonomous",
-        icon: "monitor",
-        title: "Smart Security Automation",
-        description:
-          "Automate surveillance, alarms, and gate control systems with IoT integration for real-time situational awareness.",
-      },
-      {
-        id: "irrigation",
-        icon: "droplets",
-        title: "Training & Rehabilitation Tools",
-        description:
-          "Offer digital education and skill development platforms for inmates, fostering reform and reintegration into society.",
-        link: { text: "irrigation software", url: "#" },
-      },
-      {
-        id: "agronomy",
-        icon: "testTube",
-        title: "Compliance & Reporting Tools",
-        description:
-          "Ensure transparency and meet legal standards with automated compliance documentation and reporting tools.",
-      },
-      {
-        id: "operations",
-        icon: "settings",
-        title: "Cost Optimization & Budget Control",
-        description:
-          "Analyze operational costs and resource utilization with real-time insights for efficient financial management.",
-      },
-    ],
-    ctaText: "GET CORRECTIONS SOFTWARE DEVELOPERS",
-    onCtaClick: () => {},
+  {
+    id: "autonomous",
+    icon: "monitor",
+    title: "Smart Security Automation",
+    description:
+      "Integrate AI-powered surveillance, motion sensors, and automated alarms to enhance facility security. Enable real-time monitoring across cells and perimeters using connected IoT systems. Reduce human error through automated gate control and threat detection mechanisms. Gain instant alerts and video analytics for proactive incident prevention. Create a safer and more efficient correctional environment with centralized oversight.",
   },
+  {
+    id: "irrigation",
+    icon: "droplets",
+    title: "Training & Rehabilitation Tools",
+    description:
+      "Empower inmates with digital learning platforms designed for personal growth and reformation. Deliver certified courses, vocational skills, and virtual mentorship programs. Track progress through performance dashboards and adaptive assessments. Foster positive behavior change and career readiness after release.  Support long-term rehabilitation through structured educational engagement.",
+    link: { text: "rehabilitation software", url: "#" },
+  },
+  {
+    id: "agronomy",
+    icon: "testTube",
+    title: "Compliance & Reporting Tools",
+    description:
+      "Automate report generation and ensure adherence to correctional compliance standards. Maintain digital audit trails for inspections, staff actions, and inmate activities. Generate reports aligned with state and federal regulations in real time. Improve accountability through transparent and traceable documentation.  Simplify legal reporting and reduce manual workload for administrators.",
+  },
+  {
+    id: "operations",
+    icon: "settings",
+    title: "Cost Optimization & Budget Control",
+    description:
+      "Track resource allocation, staffing, and utility consumption with detailed analytics. Identify cost-saving opportunities using AI-driven operational insights. Manage budgets with automated alerts and spending forecasts. Streamline procurement and maintenance to reduce overhead costs.  Achieve financial transparency while maintaining operational efficiency.",
+  },
+],
+ctaText: "GET CORRECTIONS SOFTWARE DEVELOPERS",
+onCtaClick: () => {},
+  },
+
+  managementSolutionsTwo: {
+  title: "Corrections Management Software Solutions",
+  subtitle:
+    "Our expert developers build secure, intelligent corrections management systems to streamline inmate operations, improve facility safety, and ensure compliance through digital transformation.",
+  subtitleLink: { text: "corrections management software", url: "#" },
+  laptopImage: "/images/corrections-management.jpg",
+  mobileImage: "/images/corrections-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "inmate-tracking",
+      icon: "UserCheck",
+      title: "Inmate Tracking & Record Systems",
+      description:
+        "Digitize inmate profiles with real-time tracking and movement logs. Simplify case management with automated record updates.",
+      link: { text: "inmate tracking software", url: "#" },
+    },
+    {
+      id: "facility-operations",
+      icon: "Building",
+      title: "Facility Operations & Monitoring Tools",
+      description:
+        "Monitor cell occupancy, staff activities, and security events. Optimize facility management with data-driven insights.",
+      link: { text: "facility management tools", url: "#" },
+    },
+    {
+      id: "rehabilitation-programs",
+      icon: "ClipboardList",
+      title: "Rehabilitation & Case Management Platforms",
+      description:
+        "Manage inmate rehabilitation and reentry programs efficiently. Track progress, training, and behavioral assessments digitally.",
+      link: { text: "rehabilitation management system", url: "#" },
+    },
+    {
+      id: "security-compliance",
+      icon: "ShieldCheck",
+      title: "Security & Compliance Management",
+      description:
+        "Automate KYC, safety audits, and compliance documentation. Ensure full adherence to correctional facility regulations.",
+      link: { text: "compliance management software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "communication-systems",
+      icon: "MessageSquare",
+      title: "Secure Communication Systems",
+      description:
+        "Facilitate monitored inmate-staff communication. Protect privacy and maintain transparency through controlled access.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "BarChart2",
+      title: "Operational Analytics Dashboards",
+      description:
+        "Visualize inmate data, incidents, and operational KPIs. Make informed decisions with intelligent reporting tools.",
+    },
+    {
+      id: "visitor-management",
+      icon: "Users",
+      title: "Visitor & Appointment Management",
+      description:
+        "Simplify visitor scheduling and identity verification. Enhance safety with automated screening and access control.",
+    },
+    {
+      id: "inventory-systems",
+      icon: "PackageSearch",
+      title: "Inventory & Asset Tracking Systems",
+      description:
+        "Track uniforms, tools, and supplies across facilities. Prevent loss and maintain accountability with digital records.",
+    },
+  ],
+
+  ctaText: "GET CORRECTIONS SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
   faq:{
   title: "Corrections Industry FAQ",
   items: [

@@ -72,67 +72,64 @@ export const construction: IndustryConfig = {
       // },
     },
     solutions: {
-      mainTitle: "AI & IoT Solutions for Modern Construction",
-      mainDescription:
-        "Leverage AI, IoT, and cloud-based systems to enhance every stage of your construction lifecycle. Our intelligent solutions optimize resource allocation, predict risks, and improve efficiency across projects. Build smarter, faster, and more sustainably with cutting-edge technology.",
- 
-      items: [
-        {
-          id: "crop-yield",
-          icon: "Warehouse",
-          title: "AI-Powered Project Planning",
-          subtitle: "",
-          description:
-             "Utilize AI algorithms to optimize timelines, resource allocation, and risk prediction. Ensure faster decision-making and higher project accuracy for efficient delivery.",
-        },
-        {
-          id: "chemical-spraying",
-          icon: "Sprout",
-          title: "IoT-Based Site Monitoring",
-          subtitle: "",
-          description:
-            "Monitor equipment, workforce, and environmental conditions in real time. IoT sensors provide data-driven insights that enhance safety and productivity on-site.",
-        },
-        {
-          id: "seed-sowing",
-          icon: "Leaf",
-          title: "Predictive Maintenance Systems",
-          subtitle: "",
-          description:
-            "Reduce equipment downtime and costs with smart maintenance alerts. AI identifies potential issues before they cause delays, ensuring smooth operations.",
- 
- 
-        },
-        {
-          id: "autonomous-harvesting",
-          icon: "Tractor",
-          title: "Automation & Robotics Integration",
-          subtitle: "",
-          description:
-             "Implement automated systems and robotics to boost construction speed and precision. Achieve consistent quality and lower operational costs with intelligent automation.",
- 
-        },
-        {
-          id: "crop-monitoring",
-          icon: "Shield",
-          title: "Real-Time Analytics Dashboard",
-          subtitle: "",
-          description:
-            "Access real-time insights into budgets, progress, and resource utilization. Improve transparency and collaboration with centralized project dashboards.",
- 
-        },
-        {
-          id: "disease-diagnosis",
-          icon: "Bug",
-          title: "Sustainability & Green Building Tools",
-          subtitle: "",
-          description:
-             "Adopt eco-friendly design tools and analytics to reduce waste and emissions. Align your construction practices with global sustainability goals.",
-        },
-      ],
-      linkText: "Get AI-Powered Construction Solutions",
-      linkUrl: "/contact-us",
+  mainTitle: "AI & IoT Solutions for Modern Construction",
+  mainDescription:
+    "Leverage AI, IoT, and cloud-based systems to enhance every stage of your construction lifecycle. Our intelligent solutions optimize resource allocation, predict risks, and improve efficiency across projects. Build smarter, faster, and more sustainably with cutting-edge technology.",
+
+  items: [
+    {
+      id: "ai-project-planning",
+      icon: "Warehouse",
+      title: "AI-Powered Project Planning",
+      subtitle: "",
+      description:
+        "Utilize AI algorithms to plan projects with unmatched precision and speed. Predict timelines, budgets, and risks using real-time data insights. Automate scheduling and resource allocation for seamless execution.  Enhance collaboration between architects, engineers, and managers. Deliver projects faster while maintaining exceptional accuracy.",
     },
+    {
+      id: "iot-site-monitoring",
+      icon: "Sprout",
+      title: "IoT-Based Site Monitoring",
+      subtitle: "",
+      description:
+        "Deploy IoT sensors across construction sites for 24/7 monitoring. Track machinery performance, worker safety, and environmental conditions. Receive instant alerts for anomalies or safety threshold breaches.  Collect valuable data for predictive insights and cost reduction. Ensure a safer, smarter, and more connected work environment.",
+    },
+    {
+      id: "predictive-maintenance",
+      icon: "Leaf",
+      title: "Predictive Maintenance Systems",
+      subtitle: "",
+      description:
+        "Integrate AI-driven maintenance systems to detect potential failures early. Monitor equipment health and performance through IoT-enabled analytics. Schedule proactive maintenance before costly breakdowns occur. Reduce downtime, repair costs, and project interruptions effectively. Keep your fleet and tools operating at maximum efficiency always.",
+    },
+    {
+      id: "automation-robotics",
+      icon: "Tractor",
+      title: "Automation & Robotics Integration",
+      subtitle: "",
+      description:
+        "Adopt construction robots and automated systems for precision tasks. Enhance building accuracy while reducing human error and fatigue. Speed up repetitive or hazardous jobs with robotics efficiency. Integrate AI-driven drones for surveying and progress tracking. Boost productivity and lower costs with intelligent automation.",
+    },
+    {
+      id: "real-time-analytics",
+      icon: "Shield",
+      title: "Real-Time Analytics Dashboard",
+      subtitle: "",
+      description:
+        "Centralize all project data in one unified analytics platform. Track costs, performance metrics, and progress in real time. Enable transparent communication between all project stakeholders. Identify inefficiencies and make data-backed strategic decisions. Empower your team with instant insights and actionable analytics.",
+    },
+    {
+      id: "sustainability-tools",
+      icon: "Bug",
+      title: "Sustainability & Green Building Tools",
+      subtitle: "",
+      description:
+        "Incorporate AI-based sustainability models into your design process. Monitor energy usage, carbon footprint, and material waste precisely. Optimize resource utilization to reduce environmental impact. Achieve global green building certifications with data-driven insights. Build smarter, cleaner, and more sustainable infrastructure solutions.",
+    },
+  ],
+  linkText: "Get AI-Powered Construction Solutions",
+  linkUrl: "/contact-us",
+},
+
     managementSolutions: {
       title: "Construction Management Solutions",
       subtitle:
@@ -165,39 +162,118 @@ export const construction: IndustryConfig = {
         },
       ],
       bottomFeatures: [
-        {
-          id: "autonomous",
-          icon: "monitor",
-          title: "Workforce Productivity Tools",
-          description:
-            "Enhance labor efficiency with attendance tracking, performance analytics, and workforce coordination systems.",
-        },
-        {
-          id: "irrigation",
-          icon: "droplets",
-          title: "Resource & Material Management",
-          description:
-              "Automate inventory tracking, procurement, and logistics to prevent shortages and ensure timely supply.",
-          link: { text: "irrigation software", url: "#" },
-        },
-        {
-          id: "agronomy",
-          icon: "testTube",
-          title: "Compliance & Safety Monitoring",
-          description:
-             "Ensure workplace safety with compliance tracking and real-time alerts for hazardous conditions.",
-        },
-        {
-          id: "operations",
-          icon: "settings",
-          title: "Cost Estimation & Budget Control",
-          description:
-             "Optimize budgets and forecasts with AI-powered cost estimation and real-time expense monitoring tools.",
-        },
-      ],
-      ctaText: "GET CONSTRUCTION SOFTWARE DEVELOPERS",
-      onCtaClick: () => {},
+  {
+    id: "workforce",
+    icon: "monitor",
+    title: "Workforce Productivity Tools",
+    description:
+      "Boost on-site efficiency with advanced labor management dashboards. Track attendance, performance, and shift scheduling in real-time. Enable seamless coordination between teams and supervisors. Automate payroll calculations and compliance reporting. Reduce idle time and enhance overall project productivity.",
+  },
+  {
+    id: "resources",
+    icon: "droplets",
+    title: "Resource & Material Management",
+    description:
+      "Digitize inventory control to prevent stockouts and wastage. Automate procurement workflows with supplier tracking systems. Gain visibility into material usage and delivery schedules. Streamline logistics with predictive restocking alerts. Ensure uninterrupted supply chains for ongoing construction.",
+    link: { text: "construction resource software", url: "#" },
+  },
+  {
+    id: "safety",
+    icon: "shield",
+    title: "Compliance & Safety Monitoring",
+    description:
+      "Implement IoT-enabled safety sensors across job sites. Monitor environmental and equipment conditions in real-time. Track compliance with OSHA and local safety regulations. Generate automated incident reports and alerts for risks. Foster a safer, more compliant construction environment.",
+  },
+  {
+    id: "budget",
+    icon: "settings",
+    title: "Cost Estimation & Budget Control",
+    description:
+      "Use AI-powered tools for accurate construction cost forecasting. Compare estimates with real-time expenditure insights. Identify potential overruns before they impact the budget. Manage multi-site financial reports from a unified dashboard. Maintain profitability with precision-driven budget control.",
+  },
+],
+ctaText: "GET CONSTRUCTION SOFTWARE DEVELOPERS",
+onCtaClick: () => {},
     },
+
+    managementSolutionsTwo: {
+  title: "Construction Management Software Solutions",
+  subtitle:
+    "Our construction software developers build intelligent solutions to streamline project planning, site management, and resource allocation, driving efficiency and profitability.",
+  subtitleLink: { text: "construction management software", url: "#" },
+  laptopImage: "/images/construction-management.jpg",
+  mobileImage: "/images/construction-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "project-planning",
+      icon: "ClipboardList",
+      title: "Project Planning & Scheduling Systems",
+      description:
+        "Plan, track, and manage construction timelines effectively. Optimize resources and prevent costly project delays.",
+      link: { text: "construction planning software", url: "#" },
+    },
+    {
+      id: "site-operations",
+      icon: "Hammer",
+      title: "Site Operations & Workforce Management",
+      description:
+        "Coordinate teams, equipment, and materials on-site. Boost productivity through digital work tracking and reporting.",
+      link: { text: "construction site management", url: "#" },
+    },
+    {
+      id: "inventory-cost",
+      icon: "Box",
+      title: "Inventory & Cost Management Software",
+      description:
+        "Control inventory, procurement, and expenses in real time. Reduce waste and improve budget forecasting accuracy.",
+      link: { text: "construction cost tracking", url: "#" },
+    },
+    {
+      id: "safety-compliance",
+      icon: "Shield",
+      title: "Safety & Compliance Management Tools",
+      description:
+        "Monitor safety protocols and compliance standards digitally. Ensure site security with automated inspections and reports.",
+      link: { text: "construction safety software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "bim-integration",
+      icon: "Cube",
+      title: "BIM Integration & Visualization Systems",
+      description:
+        "Integrate Building Information Modeling for real-time insights. Visualize designs, detect clashes, and enhance collaboration.",
+    },
+    {
+      id: "equipment-tracking",
+      icon: "Truck",
+      title: "Equipment Tracking & Maintenance Software",
+      description:
+        "Monitor asset utilization and service schedules efficiently. Reduce downtime through predictive maintenance tracking.",
+    },
+    {
+      id: "reporting-analytics",
+      icon: "BarChart3",
+      title: "Reporting & Performance Analytics Dashboards",
+      description:
+        "Access detailed progress analytics and financial reports. Make data-driven decisions with real-time project insights.",
+    },
+    {
+      id: "document-control",
+      icon: "FileText",
+      title: "Document & Contract Management Systems",
+      description:
+        "Store, share, and track project documents securely. Simplify approval workflows and ensure version consistency.",
+    },
+  ],
+
+  ctaText: "GET CONSTRUCTION SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
      faq : {
   title: "Construction Industry FAQ",
   items: [

@@ -193,6 +193,85 @@ export const environmentalManagement: IndustryConfig = {
     ctaText: "CREATE SMART ENVIRONMENTAL SYSTEMS",
     onCtaClick: () => {},
   },
+managementSolutionsTwo: {
+  title: "Environmental Management Software Solutions",
+  subtitle:
+    "Our environmental management software developers build intelligent platforms to monitor sustainability goals, manage compliance, and optimize environmental performance for organizations worldwide.",
+  subtitleLink: { text: "environmental management systems", url: "#" },
+  laptopImage: "/images/environmental-management.jpg",
+  mobileImage: "/images/environmental-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "sustainability-tracking",
+      icon: "Leaf",
+      title: "Sustainability Tracking Platforms",
+      description:
+        "Monitor energy use, emissions, and waste across facilities. Get data-driven insights to achieve sustainability targets efficiently.",
+      link: { text: "sustainability management software", url: "#" },
+    },
+    {
+      id: "compliance-automation",
+      icon: "ClipboardCheck",
+      title: "Compliance & Regulation Automation",
+      description:
+        "Simplify adherence to ISO, EPA, and ESG standards. Automate reporting and audits to maintain full environmental compliance.",
+      link: { text: "compliance management systems", url: "#" },
+    },
+    {
+      id: "waste-management",
+      icon: "Recycle",
+      title: "Waste & Resource Management Systems",
+      description:
+        "Track waste generation, recycling, and disposal activities. Improve operational efficiency and reduce environmental impact.",
+      link: { text: "waste tracking software", url: "#" },
+    },
+    {
+      id: "carbon-footprint",
+      icon: "Cloud",
+      title: "Carbon Footprint Monitoring Tools",
+      description:
+        "Measure CO₂ emissions across operations and supply chains. Visualize performance trends to support carbon-neutral strategies.",
+      link: { text: "carbon management tools", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "energy-efficiency",
+      icon: "Battery",
+      title: "Energy Efficiency Management",
+      description:
+        "Analyze energy usage patterns and identify savings opportunities. Implement automation to reduce costs and emissions.",
+    },
+    {
+      id: "environmental-reporting",
+      icon: "FileBarChart",
+      title: "Environmental Reporting Dashboards",
+      description:
+        "Generate real-time sustainability and compliance reports. Visualize KPIs for transparency and informed decision-making.",
+    },
+    {
+      id: "hazard-tracking",
+      icon: "AlertTriangle",
+      title: "Hazard & Risk Tracking Systems",
+      description:
+        "Identify and manage environmental risks proactively. Receive instant alerts for incidents, leaks, or threshold breaches.",
+    },
+    {
+      id: "supply-chain",
+      icon: "Globe",
+      title: "Sustainable Supply Chain Management",
+      description:
+        "Monitor supplier performance against green standards. Enhance visibility and accountability across global operations.",
+    },
+  ],
+
+  ctaText: "GET ENVIRONMENTAL SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
+
  faq : {
   title: "Environmental Management FAQ",
   items: [

@@ -52,114 +52,115 @@ export const game: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom Game Development Solutions",
-    mainDescription:
-      "We design and develop captivating games for mobile, PC, console, and AR/VR. Our experts ensure every project delivers seamless gameplay, stunning visuals, and scalable architecture.",
-    items: [
-      {
-        id: "mobile-games",
-        icon: "Smartphone",
-        title: "Mobile Game Development",
-        description:
-          "Develop addictive, high-performance mobile games using Unity, Unreal, and Cocos2d. Perfectly optimized for Android and iOS platforms.",
-      },
-      {
-        id: "pc-console",
-        icon: "Monitor",
-        title: "PC & Console Game Development",
-        description:
-          "Deliver immersive AAA experiences with advanced mechanics, powerful engines, and realistic graphics for PC and consoles.",
-      },
-      {
-        id: "ar-vr",
-        icon: "View",
-        title: "AR/VR Game Development",
-        description:
-          "Build next-gen AR and VR games for Meta Quest, PSVR, and other platforms to deliver lifelike, interactive gameplay.",
-      },
-      {
-        id: "multiplayer",
-        icon: "Users",
-        title: "Multiplayer & Online Games",
-        description:
-          "Create scalable multiplayer experiences with real-time communication, matchmaking, and leaderboard systems.",
-      },
-      {
-        id: "game-art",
-        icon: "Palette",
-        title: "Game Art & Animation",
-        description:
-          "Our artists design stunning 2D/3D characters, environments, and visual effects that bring your worlds to life.",
-      },
-      {
-        id: "post-launch",
-        icon: "Wrench",
-        title: "Post-Launch Support",
-        description:
-          "Ensure stability and player satisfaction with ongoing maintenance, performance updates, and content expansions.",
-      },
-    ],
-    linkText: "Hire Game Developers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Custom Game Development Solutions",
+  mainDescription:
+    "We craft immersive, high-performance games across mobile, PC, console, and AR/VR platforms. Our expert teams focus on gameplay precision, visual excellence, and technical scalability for unforgettable gaming experiences.",
+  items: [
+    {
+      id: "mobile-games",
+      icon: "Smartphone",
+      title: "Mobile Game Development",
+      description:
+        "Design and build captivating mobile games with Unity, Unreal, or Cocos2d engines. Optimize gameplay for Android and iOS with smooth controls and fast performance. Integrate engaging in-app features like multiplayer and leaderboards. Enhance monetization with in-game purchases and ad systems. Deliver stunning visuals and responsive gameplay across all screen sizes.",
+    },
+    {
+      id: "pc-console",
+      icon: "Monitor",
+      title: "PC & Console Game Development",
+      description:
+        "Develop high-end AAA games with advanced physics, mechanics, and immersive graphics. Leverage Unreal and Unity for cinematic rendering and fluid gameplay. Support cross-platform play for Windows, PlayStation, and Xbox users. Integrate complex AI, custom shaders, and performance tuning. Deliver world-class gaming experiences that engage and inspire players.",
+    },
+    {
+      id: "ar-vr",
+      icon: "View",
+      title: "AR/VR Game Development",
+      description:
+        "Create next-generation AR and VR experiences for Meta Quest, PSVR, and beyond. Design lifelike, interactive environments with immersive storytelling. Implement motion tracking and gesture recognition for realism. Optimize 3D assets for smooth frame rates and latency-free visuals. Bring users closer to the action with dynamic, sensory gameplay.",
+    },
+    {
+      id: "multiplayer",
+      icon: "Users",
+      title: "Multiplayer & Online Games",
+      description:
+        "Build robust multiplayer ecosystems with real-time communication systems. Enable matchmaking, chat, and leaderboard integrations seamlessly. Use scalable cloud servers for low-latency and stable connectivity. Incorporate anti-cheat systems and secure authentication layers. Keep players engaged with tournaments and live event updates.",
+    },
+    {
+      id: "game-art",
+      icon: "Palette",
+      title: "Game Art & Animation",
+      description:
+        "Craft stunning 2D and 3D assets that bring virtual worlds to life. Design characters, environments, and VFX that capture your game’s essence. Use industry tools like Blender, Maya, and Substance Painter. Create realistic animations with motion capture and rigging systems. Blend creativity with performance for breathtaking visual impact.",
+    },
+    {
+      id: "post-launch",
+      icon: "Wrench",
+      title: "Post-Launch Support",
+      description:
+        "Deliver continuous updates to keep your game fresh and engaging. Monitor performance, fix bugs, and optimize gameplay across devices. Add new levels, features, and seasonal content to retain players. Analyze user data to enhance experience and player retention. Ensure long-term success with reliable, proactive support.",
+    },
+  ],
+  linkText: "Hire Game Developers",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Core Game Development Expertise",
-    mainDescription:
-      "Our developers master game engines, frameworks, and pipelines to craft high-quality gaming experiences for every platform and genre.",
-    items: [
-      {
-        id: "unity",
-        icon: "Cube",
-        title: "Unity Development",
-        link: "/contact-us",
-        description:
-          "Create cross-platform 2D/3D games with Unity for mobile, PC, and console with top performance and visuals.",
-      },
-      {
-        id: "unreal",
-        icon: "Zap",
-        title: "Unreal Engine Development",
-        link: "/contact-us",
-        description:
-          "Build visually stunning, physics-based games using Unreal Engine for cinematic experiences.",
-      },
-      {
-        id: "multiplayer",
-        icon: "Users",
-        title: "Multiplayer Architecture",
-        link: "/contact-us",
-        description:
-          "Develop scalable, secure multiplayer systems with real-time connectivity and optimized netcode.",
-      },
-      {
-        id: "ai-physics",
-        icon: "Brain",
-        title: "AI & Game Physics",
-        link: "/contact-us",
-        description:
-          "Implement smart AI behaviors, physics interactions, and dynamic environments that feel alive.",
-      },
-      {
-        id: "ui-ux",
-        icon: "Layout",
-        title: "UI/UX & Game Interfaces",
-        link: "/contact-us",
-        description:
-          "Design intuitive, engaging player interfaces that enhance immersion and ease of control.",
-      },
-      {
-        id: "qa-testing",
-        icon: "CheckCircle",
-        title: "QA & Game Testing",
-        link: "/contact-us",
-        description:
-          "Comprehensive testing for gameplay balance, bug fixes, and performance optimization across devices.",
-      },
-    ],
-    linkText: "Hire Expert Game Developers",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Core Game Development Expertise",
+  mainDescription:
+    "Our developers excel in all stages of game creation — from concept to release. We master top engines, frameworks, and design systems to build visually stunning, technically advanced, and performance-optimized games.",
+  items: [
+    {
+      id: "unity",
+      icon: "Cube",
+      title: "Unity Development",
+      link: "/contact-us",
+      description:
+        "Develop 2D and 3D games with Unity for mobile, console, and PC platforms. Utilize advanced lighting, shaders, and particle systems effectively. Ensure high FPS and optimized rendering for smooth performance. Integrate physics, animations, and interactive gameplay mechanics. Build scalable cross-platform experiences with a single codebase.",
+    },
+    {
+      id: "unreal",
+      icon: "Zap",
+      title: "Unreal Engine Development",
+      link: "/contact-us",
+      description:
+        "Create cinematic and photo-realistic games using Unreal Engine’s power. Implement blueprints and C++ scripting for advanced game logic. Achieve lifelike lighting, particle effects, and real-world physics. Optimize gameplay for consoles, PC, and next-gen devices. Deliver immersive, AAA-quality visuals with stunning detail.",
+    },
+    {
+      id: "multiplayer",
+      icon: "Users",
+      title: "Multiplayer Architecture",
+      link: "/contact-us",
+      description:
+        "Build secure, real-time multiplayer systems with minimal latency. Use dedicated servers and cloud solutions for global scalability. Design matchmaking, lobbies, and ranking systems effectively. Implement voice chat, events, and live-player analytics. Ensure synchronization and fairness across all player sessions.",
+    },
+    {
+      id: "ai-physics",
+      icon: "Brain",
+      title: "AI & Game Physics",
+      link: "/contact-us",
+      description:
+        "Develop intelligent NPCs and adaptive gameplay using custom AI systems. Implement realistic collision, ragdoll, and environmental physics. Use machine learning to create evolving enemy behaviors. Simulate gravity, force, and motion with physics-based dynamics. Bring virtual worlds to life with realism and interactivity.",
+    },
+    {
+      id: "ui-ux",
+      icon: "Layout",
+      title: "UI/UX & Game Interfaces",
+      link: "/contact-us",
+      description:
+        "Design visually appealing and user-friendly game interfaces. Create HUDs, menus, and control schemes for intuitive play. Ensure accessibility across devices and input systems. Align visual style with gameplay flow and user behavior. Deliver immersive experiences with seamless UI integration.",
+    },
+    {
+      id: "qa-testing",
+      icon: "CheckCircle",
+      title: "QA & Game Testing",
+      link: "/contact-us",
+      description:
+        "Conduct thorough testing across gameplay, graphics, and performance. Identify bugs, glitches, and optimization issues pre-launch. Use automation and manual QA for precision and coverage. Ensure smooth gameplay on all resolutions and devices. Deliver polished, stable builds for release-ready experiences.",
+    },
+  ],
+  linkText: "Hire Expert Game Developers",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand Game Development Services",

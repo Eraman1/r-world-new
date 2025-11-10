@@ -70,62 +70,63 @@ export const telecommunications: IndustryConfig = {
   },
 
   solutions: {
-    mainTitle: "Next-Gen Telecommunications & Connectivity Solutions",
-    mainDescription:
-      "Leverage AI, IoT, and cloud technology to enhance connectivity, network efficiency, and customer satisfaction. Modernize your telecom infrastructure and digital operations for the 5G and IoT era.",
-    items: [
-      {
-        id: "player-performance",
-        icon: "Leaf",
-        title: "Network Performance Monitoring",
-        subtitle: "",
-        description:
-          "Gain real-time visibility into network health, detect outages instantly, and ensure uninterrupted connectivity.",
-      },
-      {
-        id: "club-management",
-        icon: "Leaf",
-        title: "Customer Relationship & Service Portals",
-        subtitle: "",
-        description:
-          "Manage customer accounts, plans, and complaints efficiently with centralized CRM and self-service platforms.",
-      },
-      {
-        id: "smart-ticketing",
-        icon: "Leaf",
-        title: "Smart Billing & Payment Automation",
-        subtitle: "",
-        description:
-          "Automate billing, payment processing, and subscription management with secure, scalable systems.",
-      },
-      {
-        id: "fan-platforms",
-        icon: "Leaf",
-        title: "IoT & 5G Network Management",
-        subtitle: "",
-        description:
-          "Deploy, monitor, and manage next-gen IoT and 5G infrastructure with intelligent control systems.",
-      },
-      {
-        id: "sports-analytics",
-        icon: "Leaf",
-        title: "Telecom Analytics & Predictive Insights",
-        subtitle: "",
-        description:
-          "Analyze call data, customer behavior, and network patterns to optimize performance and reduce churn.",
-      },
-      {
-        id: "broadcast-tools",
-        icon: "Leaf",
-        title: "Cloud-Based Collaboration & Data Systems",
-        subtitle: "",
-        description:
-          "Enable seamless data sharing and coordination between telecom teams, vendors, and customers through secure cloud solutions.",
-      },
-    ],
-    linkText: "Explore Telecom Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Next-Gen Telecommunications & Connectivity Solutions",
+  mainDescription:
+    "Leverage AI, IoT, and cloud technology to enhance connectivity, network efficiency, and customer satisfaction. Modernize your telecom infrastructure and digital operations for the 5G and IoT era.",
+  items: [
+    {
+      id: "player-performance",
+      icon: "Leaf",
+      title: "Network Performance Monitoring",
+      subtitle: "",
+      description:
+        "Gain real-time visibility into every aspect of your network infrastructure. Detect outages and performance issues instantly to prevent downtime. Track bandwidth, latency, and traffic trends efficiently. Generate actionable reports to optimize operations. Ensure seamless, uninterrupted connectivity for all users.",
+    },
+    {
+      id: "club-management",
+      icon: "Leaf",
+      title: "Customer Relationship & Service Portals",
+      subtitle: "",
+      description:
+        "Centralize all customer accounts, plans, and interactions in one system. Enable quick resolution of complaints and requests. Offer self-service portals for enhanced convenience. Track customer engagement and satisfaction metrics continuously. Strengthen relationships and boost loyalty with intelligent CRM tools.",
+    },
+    {
+      id: "smart-ticketing",
+      icon: "Leaf",
+      title: "Smart Billing & Payment Automation",
+      subtitle: "",
+      description:
+        "Automate all billing processes for accuracy and efficiency. Handle payment collections, subscriptions, and invoicing seamlessly. Ensure secure transactions across multiple payment gateways. Reduce human errors and operational costs. Provide transparent and timely billing experiences for customers.",
+    },
+    {
+      id: "fan-platforms",
+      icon: "Leaf",
+      title: "IoT & 5G Network Management",
+      subtitle: "",
+      description:
+        "Deploy and manage next-gen IoT devices and 5G infrastructure intelligently. Monitor device connectivity, performance, and health continuously. Ensure low-latency and high-bandwidth network availability. Control network policies and troubleshoot remotely with precision. Optimize your telecom environment for modern digital demands.",
+    },
+    {
+      id: "sports-analytics",
+      icon: "Leaf",
+      title: "Telecom Analytics & Predictive Insights",
+      subtitle: "",
+      description:
+        "Collect and analyze call data, customer usage, and network patterns comprehensively. Use predictive analytics to forecast traffic and demand spikes. Identify potential issues before they affect users. Optimize network resources based on data-driven insights. Reduce churn and enhance operational efficiency strategically.",
+    },
+    {
+      id: "broadcast-tools",
+      icon: "Leaf",
+      title: "Cloud-Based Collaboration & Data Systems",
+      subtitle: "",
+      description:
+        "Enable seamless collaboration between telecom teams, partners, and vendors. Store, share, and secure data using scalable cloud systems. Coordinate projects efficiently with real-time access to resources. Improve decision-making through centralized insights. Enhance productivity and service quality across the organization.",
+    },
+  ],
+  linkText: "Explore Telecom Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Comprehensive Telecommunications Management Ecosystem",
@@ -158,38 +159,133 @@ export const telecommunications: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "fan-insights",
-        icon: "map",
-        title: "Customer Experience & Engagement Insights",
-        description:
-          "Understand user behavior, reduce churn, and personalize service plans with AI-powered analytics.",
-      },
-      {
-        id: "data-security",
-        icon: "map",
-        title: "Data Security & Compliance Systems",
-        description:
-          "Protect user data, ensure GDPR compliance, and maintain network integrity with advanced security protocols.",
-      },
-      {
-        id: "mobile-experience",
-        icon: "map",
-        title: "Mobile Operations & Field Support",
-        description:
-          "Enable technicians and managers to monitor network health and resolve issues via mobile access tools.",
-      },
-      {
-        id: "sponsorship-analytics",
-        icon: "map",
-        title: "Revenue & Performance Analytics",
-        description:
-          "Track revenue streams, usage metrics, and operational KPIs to optimize financial performance.",
-      },
-    ],
-    ctaText: "BUILD YOUR TELECOM PLATFORM",
-    onCtaClick: () => {},
+  {
+    id: "fan-insights",
+    icon: "map",
+    title: "Customer Experience & Engagement Insights",
+    description:
+      "Gain a deep understanding of user behavior across all touchpoints. " +
+      "Analyze engagement patterns to identify opportunities for improvement. " +
+      "Use AI-driven insights to personalize service plans effectively. " +
+      "Reduce customer churn with proactive engagement strategies. " +
+      "Optimize satisfaction and loyalty through data-informed decisions.",
   },
+  {
+    id: "data-security",
+    icon: "map",
+    title: "Data Security & Compliance Systems",
+    description:
+      "Protect sensitive customer and operational data with advanced encryption. " +
+      "Ensure full GDPR and industry compliance across all platforms. " +
+      "Maintain network integrity with continuous monitoring protocols. " +
+      "Implement automated threat detection to prevent breaches. " +
+      "Build trust with users through robust security and compliance measures.",
+  },
+  {
+    id: "mobile-experience",
+    icon: "map",
+    title: "Mobile Operations & Field Support",
+    description:
+      "Enable field teams to access real-time network data on mobile devices. " +
+      "Monitor system performance and quickly identify issues remotely. " +
+      "Provide managers with actionable insights for operational decisions. " +
+      "Streamline maintenance and support tasks with mobile tools. " +
+      "Enhance efficiency and responsiveness across all field operations.",
+  },
+  {
+    id: "sponsorship-analytics",
+    icon: "map",
+    title: "Revenue & Performance Analytics",
+    description:
+      "Track and analyze multiple revenue streams with precision. " +
+      "Monitor usage metrics to evaluate operational efficiency. " +
+      "Use KPIs to optimize financial and strategic decision-making. " +
+      "Identify trends and opportunities for growth and improvement. " +
+      "Empower teams with actionable insights for maximizing performance.",
+  },
+],
+ctaText: "BUILD YOUR TELECOM PLATFORM",
+onCtaClick: () => {},
+},
+
+managementSolutionsTwo: {
+  title: "Telecommunications Management Software Solutions",
+  subtitle:
+    "Our telecom software developers build advanced platforms to manage network operations, monitor performance, and enhance customer experience with cutting-edge digital solutions.",
+  subtitleLink: { text: "telecom management software", url: "#" },
+  laptopImage: "/images/telecom-management.jpg",
+  mobileImage: "/images/telecom-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "network-operations",
+      icon: "Server",
+      title: "Network Operations & Analytics Systems",
+      description:
+        "Monitor network performance and usage in real time. Use insights to optimize operations and reduce downtime.",
+      link: { text: "network operations software", url: "#" },
+    },
+    {
+      id: "customer-management",
+      icon: "Users",
+      title: "Customer Management & Engagement Platforms",
+      description:
+        "Manage subscriber accounts and interactions efficiently. Enhance retention with personalized offers and notifications.",
+      link: { text: "customer engagement software", url: "#" },
+    },
+    {
+      id: "billing-systems",
+      icon: "CreditCard",
+      title: "Billing & Payment Management Systems",
+      description:
+        "Enable accurate invoicing and secure payment processing. Integrate multiple gateways for global telecom transactions.",
+      link: { text: "telecom billing software", url: "#" },
+    },
+    {
+      id: "security-compliance",
+      icon: "Shield",
+      title: "Network Security & Compliance Software",
+      description:
+        "Protect customer data and ensure regulatory compliance. Automate monitoring and threat detection across the network.",
+      link: { text: "telecom compliance software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "service-provisioning",
+      icon: "Settings",
+      title: "Service Provisioning & Management",
+      description:
+        "Automate activation and management of telecom services. Ensure seamless delivery and smooth customer onboarding.",
+    },
+    {
+      id: "real-time-monitoring",
+      icon: "Radar",
+      title: "Real-Time Network Monitoring Tools",
+      description:
+        "Track network traffic, outages, and performance metrics. Receive instant alerts for anomalies or service disruptions.",
+    },
+    {
+      id: "revenue-optimization",
+      icon: "TrendingUp",
+      title: "Revenue & Usage Analytics",
+      description:
+        "Analyze subscriber usage patterns and billing trends. Identify opportunities to increase revenue and reduce churn.",
+    },
+    {
+      id: "admin-dashboards",
+      icon: "Monitor",
+      title: "Telecom Administration Dashboards",
+      description:
+        "Centralize management of network, customers, and services. Access actionable insights with unified dashboards and reports.",
+    },
+  ],
+
+  ctaText: "GET TELECOM SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
  faq : {
   title: "Telecommunications FAQ",
   items: [

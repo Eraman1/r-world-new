@@ -193,6 +193,85 @@ export const banking: IndustryConfig = {
       ctaText: "BUILD YOUR BANKING SOLUTION",
       onCtaClick: () => {},
     },
+
+    managementSolutionsTwo: {
+  title: "Banking Management Software Solutions",
+  subtitle:
+    "Our banking software developers build secure, scalable, and efficient digital solutions to streamline operations, improve compliance, and enhance customer experience across financial services.",
+  subtitleLink: { text: "banking management software", url: "#" },
+  laptopImage: "/images/management-solutions.jpg",
+  mobileImage: "/images/management-solutions-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "loan-servicing",
+      icon: "CreditCard",
+      title: "Loan Servicing & Management Systems",
+      description:
+        "Automate loan tracking, repayments, and compliance workflows. Improve portfolio visibility and reduce processing time.",
+      link: { text: "loan servicing software", url: "#" },
+    },
+    {
+      id: "risk-compliance",
+      icon: "Shield",
+      title: "Risk & Compliance Management Platforms",
+      description:
+        "Monitor regulatory compliance with real-time dashboards. Detect fraud, manage risks, and ensure audit readiness.",
+      link: { text: "compliance management software", url: "#" },
+    },
+    {
+      id: "customer-onboarding",
+      icon: "Users",
+      title: "Customer Onboarding & KYC Solutions",
+      description:
+        "Digitize onboarding with secure KYC and AML verification. Deliver faster account setup with seamless data validation.",
+      link: { text: "kyc onboarding software", url: "#" },
+    },
+    {
+      id: "treasury-management",
+      icon: "Database",
+      title: "Treasury & Cash Flow Management Systems",
+      description:
+        "Optimize liquidity and automate fund transfers securely. Gain real-time insights into transactions and cash positions.",
+      link: { text: "treasury management systems", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "core-banking",
+      icon: "Building",
+      title: "Core Banking Modernization Platforms",
+      description:
+        "Upgrade legacy systems with cloud-native architectures. Improve scalability, integration, and transaction processing.",
+    },
+    {
+      id: "digital-payments",
+      icon: "Wallet",
+      title: "Digital Payment Processing Solutions",
+      description:
+        "Enable secure payment gateways, mobile wallets, and UPI integration. Enhance speed and reliability of digital payments.",
+    },
+    {
+      id: "credit-scoring",
+      icon: "BarChart",
+      title: "Credit Scoring & Analytics Engines",
+      description:
+        "Use AI-driven models to assess creditworthiness accurately. Automate loan approvals and reduce default risks efficiently.",
+    },
+    {
+      id: "fraud-detection",
+      icon: "AlertTriangle",
+      title: "Fraud Detection & Prevention Systems",
+      description:
+        "Implement real-time fraud monitoring with AI algorithms. Protect transactions and customer data from cyber threats.",
+    },
+  ],
+
+  ctaText: "GET BANKING SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
     faq : {
   title: "Banking FAQ",
   items: [

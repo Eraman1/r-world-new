@@ -69,62 +69,87 @@ export const foodbeverage: IndustryConfig = {
   },
 
   solutions: {
-    mainTitle: "AI, IoT & Cloud Solutions for Food & Beverage Enterprises",
-    mainDescription:
-      "Harness the power of AI, IoT, and automation to streamline production, enhance safety, and reduce waste. Our F&B solutions enable predictive maintenance, real-time supply tracking, and sustainable operations that improve profitability and customer satisfaction.",
-    items: [
-      {
-        id: "smart-manufacturing",
-        icon: "Leaf", //Factory
-        title: "Smart Food Manufacturing Systems",
-        subtitle: "",
-        description:
-          "Automate production lines with AI-driven process optimization, reducing downtime and improving output consistency.",
-      },
-      {
-        id: "iot-monitoring",
-        icon: "Leaf", //Cpu
-        title: "IoT-Enabled Quality Monitoring",
-        subtitle: "",
-        description:
-          "Monitor temperature, humidity, and freshness in real-time using IoT sensors to ensure consistent food safety and compliance.",
-      },
-      {
-        id: "supply-forecast",
-        icon: "Leaf", //TrendingUp
-        title: "Demand & Supply Forecasting",
-        subtitle: "",
-        description:
-          "Predict market demand accurately using machine learning to optimize inventory and minimize food waste across your network.",
-      },
-      {
-        id: "distribution",
-        icon: "Leaf", //Truck
-        title: "Automated Distribution & Logistics",
-        subtitle: "",
-        description:
-          "Track shipments, manage deliveries, and optimize routes with AI-powered logistics software for on-time and efficient fulfillment.",
-      },
-      {
-        id: "menu-analytics",
-        icon: "Leaf", //PieChart
-        title: "Menu & Pricing Optimization",
-        subtitle: "",
-        description:
-          "Analyze customer behavior and cost patterns to dynamically adjust menu pricing and product offerings for maximum profitability.",
-      },
-      {
-        id: "sustainability",
-        icon: "Leaf", //Leaf
-        title: "Sustainability & Waste Reduction Platforms",
-        subtitle: "",
-        description:
-          "Implement green practices with software that tracks carbon emissions, food waste, and energy consumption for a sustainable future.",
-      },
-    ],
-    linkText: "Get AI-Powered Food Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "AI, IoT & Cloud Solutions for Food & Beverage Enterprises",
+  mainDescription:
+    "Harness the power of AI, IoT, and automation to streamline production, enhance safety, and reduce waste. Our F&B solutions enable predictive maintenance, real-time supply tracking, and sustainable operations that improve profitability and customer satisfaction.",
+  items: [
+    {
+      id: "smart-manufacturing",
+      icon: "Leaf", // Factory
+      title: "Smart Food Manufacturing Systems",
+      subtitle: "",
+      description:
+        "Automate your production lines using advanced AI-driven process optimization techniques. " +
+        "Reduce machine downtime and improve output consistency across shifts. " +
+        "Enhance worker efficiency with real-time monitoring and predictive alerts. " +
+        "Integrate data analytics to identify bottlenecks and improve resource utilization. " +
+        "Achieve higher product quality and maintain compliance with industry standards.",
+    },
+    {
+      id: "iot-monitoring",
+      icon: "Leaf", // Cpu
+      title: "IoT-Enabled Quality Monitoring",
+      subtitle: "",
+      description:
+        "Use IoT sensors to monitor temperature, humidity, and freshness continuously. " +
+        "Ensure food safety and maintain regulatory compliance effortlessly. " +
+        "Receive real-time alerts for any deviations in quality parameters. " +
+        "Analyze historical data to predict potential quality issues before they occur. " +
+        "Optimize storage and handling practices to reduce spoilage and losses.",
+    },
+    {
+      id: "supply-forecast",
+      icon: "Leaf", // TrendingUp
+      title: "Demand & Supply Forecasting",
+      subtitle: "",
+      description:
+        "Leverage machine learning to forecast customer demand with high accuracy. " +
+        "Optimize inventory levels to reduce overstocking and shortages. " +
+        "Minimize food waste by aligning production with actual demand patterns. " +
+        "Identify seasonal trends and plan procurement efficiently. " +
+        "Enhance decision-making with predictive analytics for smarter operations.",
+    },
+    {
+      id: "distribution",
+      icon: "Leaf", // Truck
+      title: "Automated Distribution & Logistics",
+      subtitle: "",
+      description:
+        "Track shipments and manage deliveries in real time with AI-powered tools. " +
+        "Optimize delivery routes to save time and reduce fuel costs. " +
+        "Ensure timely fulfillment and maintain high customer satisfaction. " +
+        "Monitor carrier performance and shipment conditions continuously. " +
+        "Integrate logistics data with production and inventory systems for end-to-end visibility.",
+    },
+    {
+      id: "menu-analytics",
+      icon: "Leaf", // PieChart
+      title: "Menu & Pricing Optimization",
+      subtitle: "",
+      description:
+        "Analyze customer behavior and purchasing patterns for actionable insights. " +
+        "Adjust menu offerings dynamically based on profitability and demand. " +
+        "Optimize pricing strategies to maximize revenue and customer satisfaction. " +
+        "Leverage predictive analytics to plan seasonal menus and promotions. " +
+        "Identify top-performing products and eliminate underperforming items efficiently.",
+    },
+    {
+      id: "sustainability",
+      icon: "Leaf", // Leaf
+      title: "Sustainability & Waste Reduction Platforms",
+      subtitle: "",
+      description:
+        "Implement green practices using software that tracks carbon emissions and energy consumption. " +
+        "Monitor food waste at every stage of production and distribution. " +
+        "Optimize resource usage to reduce environmental impact and costs. " +
+        "Set sustainability goals and measure progress with actionable reports. " +
+        "Support corporate responsibility initiatives while enhancing operational efficiency.",
+    },
+  ],
+  linkText: "Get AI-Powered Food Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Food & Beverage Management Software Solutions",
@@ -158,38 +183,133 @@ export const foodbeverage: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "labeling",
-        icon: "map", //Tag
-        title: "Smart Labeling & Packaging Systems",
-        description:
-          "Automate labeling and packaging processes to meet compliance standards while improving efficiency and traceability.",
-      },
-      {
-        id: "compliance",
-        icon: "map", //FileCheck
-        title: "Food Safety & Compliance Management",
-        description:
-          "Ensure compliance with global food safety standards (HACCP, ISO 22000) using AI-driven audit and reporting tools.",
-      },
-      {
-        id: "supplier",
-        icon: "map", //Users
-        title: "Supplier & Vendor Management",
-        description:
-          "Manage supplier performance, quality audits, and procurement using centralized digital supplier management platforms.",
-      },
-      {
-        id: "reporting",
-        icon: "map", //ClipboardList
-        title: "Performance Monitoring & Reporting",
-        description:
-          "Monitor key KPIs such as cost efficiency, delivery time, and quality metrics with real-time business intelligence tools.",
-      },
-    ],
-    ctaText: "BUILD YOUR FOOD & BEVERAGE SOLUTION",
-    onCtaClick: () => {},
+  {
+    id: "labeling",
+    icon: "map", // Tag
+    title: "Smart Labeling & Packaging Systems",
+    description:
+      "Automate your labeling and packaging workflows to save time and reduce errors. \n" +
+      "Ensure every package meets regulatory compliance and industry standards. \n" +
+      "Improve traceability across the production and supply chain. \n" +
+      "Enable real-time monitoring of packaging efficiency and output. \n" +
+      "Integrate easily with existing ERP and warehouse systems for seamless operations.",
   },
+  {
+    id: "compliance",
+    icon: "map", // FileCheck
+    title: "Food Safety & Compliance Management",
+    description:
+      "Maintain strict adherence to global food safety standards such as HACCP and ISO 22000. \n" +
+      "Leverage AI-powered tools for audits, reporting, and corrective actions. \n" +
+      "Track compliance across all production and storage facilities in real time. \n" +
+      "Reduce risk of violations and ensure consistent quality for consumers. \n" +
+      "Generate detailed compliance reports for regulators, auditors, and management teams.",
+  },
+  {
+    id: "supplier",
+    icon: "map", // Users
+    title: "Supplier & Vendor Management",
+    description:
+      "Centralize all supplier and vendor data to streamline procurement processes. \n" +
+      "Monitor supplier performance, quality audits, and compliance status. \n" +
+      "Evaluate suppliers with analytics and track historical performance trends. \n" +
+      "Simplify communication and collaboration with all stakeholders digitally. \n" +
+      "Reduce procurement risks while maintaining strong supply chain relationships.",
+  },
+  {
+    id: "reporting",
+    icon: "map", // ClipboardList
+    title: "Performance Monitoring & Reporting",
+    description:
+      "Track key operational metrics like cost efficiency, delivery time, and product quality. \n" +
+      "Use real-time dashboards to monitor performance across all departments. \n" +
+      "Identify trends, anomalies, and areas for improvement quickly. \n" +
+      "Generate automated reports for internal management and external stakeholders. \n" +
+      "Make data-driven decisions to optimize efficiency and business growth.",
+  },
+],
+ctaText: "BUILD YOUR FOOD & BEVERAGE SOLUTION",
+onCtaClick: () => {},
+  },
+
+  managementSolutionsTwo: {
+  title: "Food & Beverage Management Software Solutions",
+  subtitle:
+    "Our food & beverage software developers create smart platforms to manage restaurants, cafes, and delivery services efficiently while boosting revenue and customer satisfaction.",
+  subtitleLink: { text: "restaurant management software", url: "#" },
+  laptopImage: "/images/food-management.jpg",
+  mobileImage: "/images/food-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "order-management",
+      icon: "map",
+      title: "Order & Inventory Management Systems",
+      description:
+        "Track orders and manage inventory in real time. Optimize stock levels and reduce wastage for smooth operations.",
+      link: { text: "order management software", url: "#" },
+    },
+    {
+      id: "loyalty-programs",
+      icon: "map",
+      title: "Customer Loyalty & Rewards Platforms",
+      description:
+        "Build loyalty programs that engage customers. Offer personalized rewards and discounts to increase repeat visits.",
+      link: { text: "loyalty management software", url: "#" },
+    },
+    {
+      id: "payment-platforms",
+      icon: "map",
+      title: "Payment & Billing Management Systems",
+      description:
+        "Enable secure payments and fast billing. Integrate multiple gateways for seamless transactions online and offline.",
+      link: { text: "payment management systems", url: "#" },
+    },
+    {
+      id: "compliance-security",
+      icon: "map",
+      title: "Food Safety & Compliance Software",
+      description:
+        "Ensure compliance with health regulations. Monitor food safety and automate reporting for audits and inspections.",
+      link: { text: "food compliance software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "menu-management",
+      icon: "map",
+      title: "Custom Menu & Recipe Management",
+      description:
+        "Design and update menus effortlessly. Manage recipes, ingredients, and nutritional info for all dishes.",
+    },
+    {
+      id: "real-time-monitoring",
+      icon: "map",
+      title: "Real-Time Kitchen & Delivery Monitoring",
+      description:
+        "Track kitchen orders, preparation times, and delivery status. Improve efficiency and reduce customer wait times.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "leaf",
+      title: "Sales & Analytics Dashboards",
+      description:
+        "Analyze sales trends, popular items, and customer behavior. Make data-driven decisions to boost revenue.",
+    },
+    {
+      id: "admin-control",
+      icon: "leaf",
+      title: "Restaurant Administration Dashboards",
+      description:
+        "Manage staff, orders, and inventory from one dashboard. Streamline daily operations with full control.",
+    },
+  ],
+
+  ctaText: "GET FOOD-BEVERAGE SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
  faq:{
   title: "Food & Beverage FAQ",
   items: [

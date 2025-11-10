@@ -69,62 +69,63 @@ export const politicalcampaigns: IndustryConfig = {
   },
 
   solutions: {
-    mainTitle: "Smart Digital Solutions for Political Campaigns",
-    mainDescription:
-      "We design secure, data-driven, and scalable systems for campaign operations. Manage supporters, track donations, analyze sentiment, and automate communication to maximize outreach efficiency.",
-    items: [
-      {
-        id: "data-intelligence",
-        icon: "Leaf", //Database
-        title: "Voter Data Intelligence",
-        subtitle: "",
-        description:
-          "Aggregate and analyze demographic, behavioral, and sentiment data to create precise voter targeting strategies.",
-      },
-      {
-        id: "campaign-crm",
-        icon: "Leaf", //Users
-        title: "Campaign CRM Systems",
-        subtitle: "",
-        description:
-          "Manage volunteers, supporters, and campaign events through a unified dashboard with automation and analytics.",
-      },
-      {
-        id: "donation-system",
-        icon: "Leaf", //DollarSign
-        title: "Donation & Fundraising Platforms",
-        subtitle: "",
-        description:
-          "Enable secure, transparent, and multi-channel fundraising with automated reporting and donor tracking.",
-      },
-      {
-        id: "media-monitoring",
-        icon: "Leaf", //Eye
-        title: "Social Media Monitoring",
-        subtitle: "",
-        description:
-          "Track trends, competitor campaigns, and public sentiment across all major social media channels in real time.",
-      },
-      {
-        id: "geo-campaigns",
-        icon: "Leaf", //Map
-        title: "Geo-Targeted Campaign Tools",
-        subtitle: "",
-        description:
-          "Plan local rallies, target regional voters, and analyze performance geographically for smarter campaign execution.",
-      },
-      {
-        id: "ai-outreach",
-        icon: "Leaf", //Cpu
-        title: "AI-Powered Outreach Automation",
-        subtitle: "",
-        description:
-          "Send personalized messages, emails, and notifications to segmented voter groups with AI-driven insights.",
-      },
-    ],
-    linkText: "Explore Campaign Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Smart Digital Solutions for Political Campaigns",
+  mainDescription:
+    "We design secure, data-driven, and scalable systems for modern campaigns. Manage supporters, track donations, analyze voter sentiment, and automate communications to achieve maximum outreach efficiency.",
+  items: [
+    {
+      id: "data-intelligence",
+      icon: "Leaf", // Database
+      title: "Voter Data Intelligence",
+      subtitle: "",
+      description:
+        "Leverage advanced analytics to understand voter demographics, behavior, and preferences. Collect and segment data for precise voter targeting and messaging. Monitor shifting sentiments and trends across regions. Generate insights that guide smarter campaign decisions. Empower your team with real-time, actionable intelligence.",
+    },
+    {
+      id: "campaign-crm",
+      icon: "Leaf", // Users
+      title: "Campaign CRM Systems",
+      subtitle: "",
+      description:
+        "Centralize all campaign data within an integrated CRM dashboard. Manage volunteers, supporters, and event logistics seamlessly. Automate communication workflows and follow-ups efficiently. Analyze performance metrics for improved campaign operations. Enhance collaboration across teams for smooth coordination.",
+    },
+    {
+      id: "donation-system",
+      icon: "Leaf", // DollarSign
+      title: "Donation & Fundraising Platforms",
+      subtitle: "",
+      description:
+        "Build secure platforms for multi-channel fundraising campaigns. Accept contributions via cards, UPI, or online transfers safely. Provide transparency with detailed donor reports and analytics. Track donations in real time with automated notifications. Inspire trust and increase recurring donor participation.",
+    },
+    {
+      id: "media-monitoring",
+      icon: "Leaf", // Eye
+      title: "Social Media Monitoring",
+      subtitle: "",
+      description:
+        "Track conversations and sentiment across all social platforms. Identify trending topics and potential reputation risks early. Compare your campaign’s digital presence with competitors. Measure engagement and audience response effectively. Make data-driven adjustments to improve online visibility.",
+    },
+    {
+      id: "geo-campaigns",
+      icon: "Leaf", // Map
+      title: "Geo-Targeted Campaign Tools",
+      subtitle: "",
+      description:
+        "Plan and execute region-specific political campaigns intelligently. Use geographic data to focus on high-potential voter clusters. Analyze turnout rates and response metrics for each area. Coordinate events, rallies, and door-to-door programs smartly. Maximize campaign impact with precise local targeting.",
+    },
+    {
+      id: "ai-outreach",
+      icon: "Leaf", // Cpu
+      title: "AI-Powered Outreach Automation",
+      subtitle: "",
+      description:
+        "Automate voter engagement through intelligent AI-driven tools. Send personalized messages and updates across multiple channels. Segment voters by interest, region, or past engagement patterns. Analyze communication performance using predictive analytics. Boost reach and influence with smart, scalable outreach systems.",
+    },
+  ],
+  linkText: "Explore Campaign Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Complete Political Campaign Management Suite",
@@ -157,38 +158,117 @@ export const politicalcampaigns: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "polling-analytics",
-        icon: "map", //TrendingUp
-        title: "Polling & Predictive Analytics",
-        description:
-          "Analyze voter sentiment, simulate outcomes, and make data-driven decisions using predictive AI tools.",
-      },
-      {
-        id: "security",
-        icon: "map", //Shield
-        title: "Data Security & Compliance",
-        description:
-          "Protect voter information and campaign data with encryption, access control, and GDPR-compliant systems.",
-      },
-      {
-        id: "mobile-engagement",
-        icon: "map", //Smartphone
-        title: "Mobile Engagement Platforms",
-        description:
-          "Empower voters with real-time updates, event notifications, and localized campaign content on the go.",
-      },
-      {
-        id: "collaboration",
-        icon: "map", //Users
-        title: "Volunteer Collaboration Tools",
-        description:
-          "Coordinate activities, assign tasks, and track volunteer performance with team-based management modules.",
-      },
-    ],
-    ctaText: "BUILD YOUR CAMPAIGN PLATFORM",
-    onCtaClick: () => {},
+  {
+    id: "polling-analytics",
+    icon: "map", // TrendingUp
+    title: "Polling & Predictive Analytics",
+    description:
+      "Gain deeper voter insights with real-time polling dashboards. Track sentiment shifts and regional trends effectively. Simulate outcomes using AI-powered prediction models. Identify key influencers driving voting behaviors. Make smarter campaign decisions based on accurate data.",
   },
+  {
+    id: "security",
+    icon: "map", // Shield
+    title: "Data Security & Compliance",
+    description:
+      "Safeguard all sensitive voter and campaign data end-to-end. Use strong encryption and role-based access controls. Ensure compliance with GDPR and election data laws. Prevent unauthorized data access or manipulation. Build trust through transparent data protection systems.",
+  },
+  {
+    id: "mobile-engagement",
+    icon: "map", // Smartphone
+    title: "Mobile Engagement Platforms",
+    description:
+      "Engage voters anytime through personalized mobile channels. Send live updates, alerts, and event notifications instantly. Deliver local content based on voter demographics. Simplify participation with mobile-friendly interfaces. Strengthen community connections and campaign awareness.",
+  },
+  {
+    id: "collaboration",
+    icon: "map", // Users
+    title: "Volunteer Collaboration Tools",
+    description:
+      "Empower campaign teams with real-time coordination tools. Assign roles, schedule events, and manage field operations. Track progress through transparent reporting modules. Encourage teamwork with shared communication spaces. Boost volunteer efficiency and campaign productivity.",
+  },
+],
+ctaText: "BUILD YOUR CAMPAIGN PLATFORM",
+onCtaClick: () => {},
+},
+managementSolutionsTwo: {
+  title: "Political Campaign Management Software Solutions",
+  subtitle:
+    "Our political campaign software developers build advanced tools to streamline voter outreach, campaign analytics, and strategic decision-making for winning elections.",
+  subtitleLink: { text: "political campaign management software", url: "#" },
+  laptopImage: "/images/political-campaign.jpg",
+  mobileImage: "/images/political-campaign-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "voter-analytics",
+      icon: "BarChart3",
+      title: "Voter Analytics & Engagement Systems",
+      description:
+        "Analyze voter demographics and behavior in real time. Enhance engagement through targeted outreach and predictive insights.",
+      link: { text: "voter analytics software", url: "#" },
+    },
+    {
+      id: "donation-platforms",
+      icon: "Coins",
+      title: "Donation & Fundraising Platforms",
+      description:
+        "Manage secure online donations and fundraising campaigns. Track contributions, compliance, and donor engagement efficiently.",
+      link: { text: "political fundraising platforms", url: "#" },
+    },
+    {
+      id: "volunteer-management",
+      icon: "Users",
+      title: "Volunteer & Event Management Tools",
+      description:
+        "Coordinate volunteers, assign tasks, and track participation. Organize rallies, campaigns, and community events effectively.",
+      link: { text: "volunteer management software", url: "#" },
+    },
+    {
+      id: "communication-suite",
+      icon: "MessageSquare",
+      title: "Campaign Communication & Outreach Suite",
+      description:
+        "Automate emails, SMS, and social media messages. Keep supporters informed and motivated with real-time campaign updates.",
+      link: { text: "campaign communication tools", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "polling-tools",
+      icon: "PieChart",
+      title: "Polling & Predictive Analysis Tools",
+      description:
+        "Conduct opinion polls and sentiment analysis instantly. Predict voter trends to refine campaign strategies smartly.",
+    },
+    {
+      id: "data-security",
+      icon: "Shield",
+      title: "Data Security & Compliance Systems",
+      description:
+        "Protect voter and donor information with encryption. Ensure full compliance with election and data protection laws.",
+    },
+    {
+      id: "dashboard-reporting",
+      icon: "LayoutDashboard",
+      title: "Real-Time Dashboard & Performance Tracking",
+      description:
+        "Monitor campaign KPIs, funding, and voter engagement live. Get actionable insights through interactive visual dashboards.",
+    },
+    {
+      id: "strategy-automation",
+      icon: "Cpu",
+      title: "Campaign Strategy & Automation Systems",
+      description:
+        "Automate repetitive workflows and optimize team efforts. Focus resources on impactful voter and media outreach.",
+    },
+  ],
+
+  ctaText: "GET POLITICAL CAMPAIGN DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
+
   faq : {
   title: "Political Campaigns FAQ",
   items: [

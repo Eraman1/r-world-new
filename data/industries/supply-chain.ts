@@ -70,62 +70,81 @@ export const supplyChain: IndustryConfig = {
   },
 
   solutions: {
-    mainTitle: "Next-Gen Supply Chain & Logistics Solutions",
-    mainDescription:
-      "Leverage IoT, AI, and cloud technology to enhance transparency, resilience, and efficiency across your global supply chain. Streamline procurement, production, warehousing, and transportation with digital transformation.",
-    items: [
-      {
-        id: "player-performance",
-        icon: "Leaf",
-        title: "Real-Time Inventory Optimization",
-        subtitle: "",
-        description:
-          "Track stock levels, automate reordering, and balance demand with predictive inventory intelligence.",
-      },
-      {
-        id: "club-management",
-        icon: "Leaf",
-        title: "Supplier & Vendor Management Systems",
-        subtitle: "",
-        description:
-          "Centralize supplier data, performance, and compliance with collaborative digital procurement tools.",
-      },
-      {
-        id: "smart-ticketing",
-        icon: "Leaf",
-        title: "Smart Logistics & Delivery Tracking",
-        subtitle: "",
-        description:
-          "Monitor shipments and delivery routes in real time to improve accuracy, visibility, and customer satisfaction.",
-      },
-      {
-        id: "fan-platforms",
-        icon: "Leaf",
-        title: "Warehouse Automation Platforms",
-        subtitle: "",
-        description:
-          "Use AI and robotics to automate sorting, picking, and packaging while reducing operational costs.",
-      },
-      {
-        id: "sports-analytics",
-        icon: "Leaf",
-        title: "Supply Chain Analytics & Insights",
-        subtitle: "",
-        description:
-          "Visualize KPIs, track logistics performance, and optimize routes using AI-powered dashboards.",
-      },
-      {
-        id: "broadcast-tools",
-        icon: "Leaf",
-        title: "Cloud-Based Collaboration Tools",
-        subtitle: "",
-        description:
-          "Enable seamless communication across suppliers, transporters, and distributors through secure cloud platforms.",
-      },
-    ],
-    linkText: "Explore Supply Chain Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Next-Gen Supply Chain & Logistics Solutions",
+  mainDescription:
+    "Leverage IoT, AI, and cloud technology to enhance transparency, resilience, and efficiency across your global supply chain. Streamline procurement, production, warehousing, and transportation with digital transformation.",
+  items: [
+    {
+      id: "player-performance",
+      icon: "Leaf",
+      title: "Real-Time Inventory Optimization",
+      subtitle: "",
+      description: `Track stock levels continuously across all warehouses to prevent shortages or overstock.  
+Automate reordering based on predictive analytics for smooth inventory flow.  
+Balance supply and demand efficiently using AI-driven forecasts.  
+Reduce holding costs while maintaining optimal stock availability.  
+Gain actionable insights for faster decision-making and improved profitability.`,
+    },
+    {
+      id: "club-management",
+      icon: "Leaf",
+      title: "Supplier & Vendor Management Systems",
+      subtitle: "",
+      description: `Centralize supplier and vendor information in a single platform for easy access.  
+Monitor performance, contracts, and compliance with automated tools.  
+Facilitate collaboration through real-time communication and updates.  
+Mitigate risks by identifying underperforming suppliers quickly.  
+Streamline procurement processes for faster and more accurate sourcing.`,
+    },
+    {
+      id: "smart-ticketing",
+      icon: "Leaf",
+      title: "Smart Logistics & Delivery Tracking",
+      subtitle: "",
+      description: `Track shipments and delivery routes in real time for complete visibility.  
+Optimize transportation schedules and reduce delivery delays.  
+Enhance customer satisfaction with accurate tracking updates.  
+Analyze route efficiency to lower fuel and operational costs.  
+Identify and resolve logistics bottlenecks proactively with AI insights.`,
+    },
+    {
+      id: "fan-platforms",
+      icon: "Leaf",
+      title: "Warehouse Automation Platforms",
+      subtitle: "",
+      description: `Implement AI and robotics for automated sorting, picking, and packing.  
+Increase operational efficiency while minimizing human errors.  
+Monitor warehouse processes remotely for better control.  
+Reduce labor costs and improve throughput across facilities.  
+Integrate automation with your inventory system for seamless operations.`,
+    },
+    {
+      id: "sports-analytics",
+      icon: "Leaf",
+      title: "Supply Chain Analytics & Insights",
+      subtitle: "",
+      description: `Visualize key KPIs across the supply chain in real time.  
+Track logistics performance and identify inefficiencies quickly.  
+Use AI-powered dashboards to optimize routes and workflows.  
+Predict trends to make proactive decisions and reduce delays.  
+Enable data-driven strategies for cost reduction and efficiency gains.`,
+    },
+    {
+      id: "broadcast-tools",
+      icon: "Leaf",
+      title: "Cloud-Based Collaboration Tools",
+      subtitle: "",
+      description: `Facilitate seamless communication among suppliers, transporters, and distributors.  
+Share real-time updates and documentation securely in the cloud.  
+Enable collaborative decision-making to resolve issues faster.  
+Reduce delays caused by miscommunication or fragmented systems.  
+Ensure transparency and accountability across your supply chain network.`,
+    },
+  ],
+  linkText: "Explore Supply Chain Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Comprehensive Supply Chain Management Ecosystem",
@@ -158,38 +177,133 @@ export const supplyChain: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "fan-insights",
-        icon: "map",
-        title: "Predictive Demand & Supply Analytics",
-        description:
-          "Use data modeling and AI to forecast demand patterns, production needs, and logistics requirements.",
-      },
-      {
-        id: "data-security",
-        icon: "map", // same
-        title: "Data Security & Supply Chain Compliance",
-        description:
-          "Ensure secure data exchange, transaction integrity, and regulatory compliance across your supply network.",
-      },
-      {
-        id: "mobile-experience",
-        icon: "map",
-        title: "Mobile Access & Real-Time Updates",
-        description:
-          "Access key supply chain data, shipment updates, and inventory insights directly from mobile devices.",
-      },
-      {
-        id: "sponsorship-analytics",
-        icon: "map",
-        title: "Cost Analysis & Performance Tracking",
-        description:
-          "Gain actionable insights into procurement costs, transport efficiency, and supplier performance metrics.",
-      },
-    ],
-    ctaText: "BUILD YOUR SUPPLY CHAIN PLATFORM",
-    onCtaClick: () => {},
+  {
+    id: "fan-insights",
+    icon: "map",
+    title: "Predictive Demand & Supply Analytics",
+    description:
+      "Leverage advanced AI and data modeling to accurately forecast demand patterns across your business.\n" +
+      "Anticipate production needs and optimize inventory levels efficiently.\n" +
+      "Analyze historical trends and real-time market signals for smarter planning.\n" +
+      "Reduce stockouts and overproduction with precise demand predictions.\n" +
+      "Drive operational efficiency and increase customer satisfaction with actionable insights.",
   },
+  {
+    id: "data-security",
+    icon: "map",
+    title: "Data Security & Supply Chain Compliance",
+    description:
+      "Protect sensitive business and supplier data through end-to-end encryption and secure platforms.\n" +
+      "Ensure regulatory compliance across all supply chain operations.\n" +
+      "Maintain transaction integrity with robust audit trails and monitoring.\n" +
+      "Prevent data breaches and reduce operational risks effectively.\n" +
+      "Enable trust across your supply network with secure and compliant systems.",
+  },
+  {
+    id: "mobile-experience",
+    icon: "map",
+    title: "Mobile Access & Real-Time Updates",
+    description:
+      "Stay connected to your supply chain anytime, anywhere with mobile-friendly platforms.\n" +
+      "Receive real-time shipment updates and inventory alerts instantly.\n" +
+      "Track orders, deliveries, and stock levels directly from mobile devices.\n" +
+      "Empower field teams to make fast and informed decisions on the go.\n" +
+      "Enhance collaboration and operational responsiveness with mobile accessibility.",
+  },
+  {
+    id: "sponsorship-analytics",
+    icon: "map",
+    title: "Cost Analysis & Performance Tracking",
+    description:
+      "Gain deep insights into procurement costs, supplier performance, and transport efficiency.\n" +
+      "Track KPIs across your supply chain for better decision-making.\n" +
+      "Identify areas to reduce expenses and improve operational workflows.\n" +
+      "Generate comprehensive reports to monitor performance over time.\n" +
+      "Optimize supply chain processes for cost savings and maximum efficiency.",
+  },
+],
+ctaText: "BUILD YOUR SUPPLY CHAIN PLATFORM",
+onCtaClick: () => {},
+  },
+
+  managementSolutionsTwo: {
+  title: "Supply-Chain Management Software Solutions",
+  subtitle:
+    "Our supply-chain software developers create intelligent platforms to manage inventory, track shipments, and optimize logistics for smoother operations.",
+  subtitleLink: { text: "supply-chain software", url: "#" },
+  laptopImage: "/images/supply-chain-management.jpg",
+  mobileImage: "/images/supply-chain-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "inventory-management",
+      icon: "Box",
+      title: "Inventory & Warehouse Management",
+      description:
+        "Monitor stock levels and automate restocking processes. Reduce errors and improve warehouse efficiency.",
+      link: { text: "inventory management software", url: "#" },
+    },
+    {
+      id: "shipment-tracking",
+      icon: "Truck",
+      title: "Shipment & Logistics Tracking",
+      description:
+        "Track shipments in real time and manage delivery schedules. Ensure timely and accurate order fulfillment.",
+      link: { text: "shipment tracking software", url: "#" },
+    },
+    {
+      id: "supplier-management",
+      icon: "Users",
+      title: "Supplier & Procurement Management",
+      description:
+        "Streamline supplier onboarding and purchase orders. Optimize procurement for cost efficiency and reliability.",
+      link: { text: "supplier management software", url: "#" },
+    },
+    {
+      id: "analytics-reporting",
+      icon: "BarChart2",
+      title: "Analytics & Performance Reporting",
+      description:
+        "Generate insights from supply-chain data to improve decisions. Track KPIs and identify bottlenecks quickly.",
+      link: { text: "supply-chain analytics software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "demand-forecasting",
+      icon: "TrendingUp",
+      title: "Demand Forecasting & Planning",
+      description:
+        "Predict future demand with AI-powered tools. Reduce overstock and stockouts for efficient planning.",
+    },
+    {
+      id: "transport-optimization",
+      icon: "MapPin",
+      title: "Transport & Route Optimization",
+      description:
+        "Optimize delivery routes and reduce transit costs. Improve on-time delivery and fleet management.",
+    },
+    {
+      id: "order-management",
+      icon: "Clipboard",
+      title: "Order Management Systems",
+      description:
+        "Automate order processing and tracking. Ensure accurate, fast, and seamless order fulfillment.",
+    },
+    {
+      id: "supply-chain-dashboard",
+      icon: "Activity",
+      title: "Centralized Supply-Chain Dashboards",
+      description:
+        "View all operations in a single dashboard. Monitor suppliers, inventory, and shipments in real time.",
+    },
+  ],
+
+  ctaText: "GET SUPPLY-CHAIN SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
  faq : {
   title: "Supply Chain Management FAQ",
   items: [

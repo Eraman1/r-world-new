@@ -165,39 +165,118 @@ export const casinogames: IndustryConfig = {
         },
       ],
       bottomFeatures: [
-        {
-          id: "autonomous",
-          icon: "monitor",
-          title: "Bonus & Loyalty Programs",
-          description:
-            "Design and manage dynamic bonus schemes and loyalty programs to maximize player retention.",
-        },
-        {
-          id: "irrigation",
-          icon: "droplets",
-          title: "Fraud Detection Systems",
-          description:
-            "Automate monitoring of suspicious activity and protect both players and platform from fraud.",
-          link: { text: "irrigation software", url: "#" },
-        },
-        {
-          id: "agronomy",
-          icon: "testTube",
-          title: "Customer Support Management",
-          description:
-            "Integrate CRM and live support tools to ensure smooth player interactions and issue resolution.",
-        },
-        {
-          id: "operations",
-          icon: "settings",
-          title: "Sports & Race Betting",
-          description:
-            "Our Sports and Race Betting solutions deliver real-time odds, secure transactions, and engaging user experiences. Advanced analytics and AI-driven insights help optimize betting operations and player engagement. Ensure fair, scalable, and exciting platforms that maximize revenue and customer loyalty.",
-        },
-      ],
-      ctaText: "GET CASINO SOFTWARE DEVELOPERS",
-      onCtaClick: () => {},
+  {
+    id: "bonus-loyalty",
+    icon: "gift",
+    title: "Bonus & Loyalty Programs",
+    description:
+      "Design intelligent bonus systems that boost user engagement and retention. Implement personalized rewards based on player activity and behavior. Automate promotional offers, cashback, and seasonal incentives. Track real-time player metrics for performance insights. Strengthen brand loyalty through data-driven reward strategies.",
+  },
+  {
+    id: "fraud-detection",
+    icon: "shield",
+    title: "Fraud Detection Systems",
+    description:
+      "Develop AI-powered fraud monitoring for player safety and integrity. Detect abnormal patterns, multiple accounts, or payment risks instantly. Implement advanced verification and transaction monitoring tools. Secure sensitive data with encryption and compliance protocols. Build player trust with fair, transparent gaming environments.",
+  },
+  {
+    id: "customer-support",
+    icon: "headphones",
+    title: "Customer Support Management",
+    description:
+      "Integrate CRM systems and live chat support for instant player assistance. Automate ticket handling and prioritize high-value user issues. Track user queries to enhance satisfaction and retention rates. Connect support dashboards with analytics for better insights. Deliver 24/7 multilingual assistance for a seamless experience.",
+  },
+  {
+    id: "sports-betting",
+    icon: "trophy",
+    title: "Sports & Race Betting",
+    description:
+      "Build real-time betting platforms with accurate odds and live updates. Enable secure payments and transparent transaction handling. Leverage AI to deliver predictive analytics and dynamic odds modeling. Provide smooth, high-speed performance during peak events. Ensure a fair, scalable, and engaging betting environment for users.",
+  },
+],
+
+ctaText: "GET CASINO SOFTWARE DEVELOPERS",
+onCtaClick: () => {},
     },
+
+    managementSolutionsTwo: {
+  title: "Casino Game Management Software Solutions",
+  subtitle:
+    "Our casino software developers craft advanced gaming platforms to manage casino operations, enhance player engagement, and boost revenue through digital innovation.",
+  subtitleLink: { text: "casino management software", url: "#" },
+  laptopImage: "/images/casino-management.jpg",
+  mobileImage: "/images/casino-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "game-operations",
+      icon: "Gamepad2",
+      title: "Game Operations & Analytics Systems",
+      description:
+        "Monitor gameplay, performance, and engagement in real time. Use data insights to optimize casino operations and game strategies.",
+      link: { text: "casino game operations", url: "#" },
+    },
+    {
+      id: "player-loyalty",
+      icon: "Gift",
+      title: "Player Loyalty & Rewards Platforms",
+      description:
+        "Build smart loyalty programs that track player behavior. Increase retention with personalized rewards and promotional campaigns.",
+      link: { text: "player loyalty software", url: "#" },
+    },
+    {
+      id: "betting-platforms",
+      icon: "Coins",
+      title: "Betting & Payment Management Systems",
+      description:
+        "Enable secure, real-time betting and seamless payment flows. Integrate multiple gateways for global casino transactions.",
+      link: { text: "betting management systems", url: "#" },
+    },
+    {
+      id: "security-compliance",
+      icon: "Shield",
+      title: "Casino Security & Compliance Software",
+      description:
+        "Ensure data integrity and fair play with secure systems. Automate KYC, AML, and compliance checks across gaming operations.",
+      link: { text: "casino compliance software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "game-development",
+      icon: "Puzzle",
+      title: "Custom Casino Game Development",
+      description:
+        "We create slot, poker, roulette, and live dealer games. Deliver high-quality visuals and smooth user experiences on all devices.",
+    },
+    {
+      id: "real-time-monitoring",
+      icon: "Radar",
+      title: "Real-Time Game Monitoring Tools",
+      description:
+        "Track player activities, transactions, and risk patterns. Get instant alerts for suspicious behavior or irregular game outcomes.",
+    },
+    {
+      id: "jackpot-systems",
+      icon: "Trophy",
+      title: "Progressive Jackpot Management Systems",
+      description:
+        "Automate jackpot growth tracking and prize distribution. Keep players engaged with dynamic and transparent reward systems.",
+    },
+    {
+      id: "casino-admin",
+      icon: "Settings",
+      title: "Casino Administration Dashboards",
+      description:
+        "Centralize operations with admin dashboards and reports. Manage players, games, and payments from a unified control panel.",
+    },
+  ],
+
+  ctaText: "GET CASINO GAME DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
     faq: {
   title: "Casino Games FAQ",
   items: [
