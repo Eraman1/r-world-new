@@ -8,7 +8,7 @@ export const aviation: IndustryConfig = {
     subtitle:
       "Empower your aviation business with intelligent, scalable, and data-driven software systems. From flight operations and maintenance to safety and analytics, streamline workflows, enhance passenger experiences, and optimize every aspect of your fleet management.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "https://stockit.rworldsoftware.in/images/industryAviationBanner.webp",
     linkText: "Get Aviation Solutions",
   },
   techHero: {

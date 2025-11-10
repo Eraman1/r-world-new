@@ -29,7 +29,7 @@ const Banner: React.FC<BannerProps> = ({ data }) => {
       />
 
       {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-blue-900/60"></div>
+      <div className="absolute inset-0 bg-blue-900/30"></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white space-y-6">

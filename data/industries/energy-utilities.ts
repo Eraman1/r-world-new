@@ -1,5 +1,5 @@
 import { IndustryConfig } from "@/types/industries";
- 
+
 export const energyUtilities: IndustryConfig = {
   slug: "energy-utilities",
   banner: {
@@ -7,11 +7,10 @@ export const energyUtilities: IndustryConfig = {
     highlight: "Smart Energy & Utility Management Software",
     subtitle:
       "Drive efficiency, sustainability, and innovation with AI-powered solutions for the energy and utilities sector. From smart grids to renewable forecasting, empower your infrastructure with intelligent automation and analytics.",
-    image:
-        "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+    image: "https://stockit.rworldsoftware.in/images/industryEnergyBanner.webp",
     linkText: "Get Energy Solutions",
   },
- 
+
   techHero: {
     heading: "Hire Expert Energy & Utility Software Developers",
     description:
@@ -44,13 +43,13 @@ export const energyUtilities: IndustryConfig = {
       {
         id: "renewable",
         title: "Renewable Energy Management Systems",
-        icon: "Tractor",  //Sun
+        icon: "Tractor", //Sun
         position: "right",
       },
       {
         id: "utilitybilling",
         title: "Utility Billing & Customer Portals",
-        icon: "Tractor",  //CreditCard
+        icon: "Tractor", //CreditCard
         position: "right",
       },
       {
@@ -62,12 +61,12 @@ export const energyUtilities: IndustryConfig = {
       {
         id: "analytics",
         title: "Energy Analytics & Optimization Dashboards",
-        icon: "Tractor",  //LineChart
+        icon: "Tractor", //LineChart
         position: "right",
       },
     ],
   },
- 
+
   solutions: {
     mainTitle: "AI & IoT Solutions for the Energy & Utilities Industry",
     mainDescription:
@@ -125,7 +124,7 @@ export const energyUtilities: IndustryConfig = {
     linkText: "Get AI-Powered Energy Solutions",
     linkUrl: "/contact-us",
   },
- 
+
   managementSolutions: {
     title: "Energy & Utility Management Software Solutions",
     subtitle:
@@ -190,70 +189,73 @@ export const energyUtilities: IndustryConfig = {
     ctaText: "BUILD YOUR ENERGY SOFTWARE SOLUTION",
     onCtaClick: () => {},
   },
- faq :{
-  title: "Energy & Utilities FAQ",
-  items: [
-    {
-      id: "1",
-      question: "What are Energy & Utility Management Solutions?",
-      answer:
-        "Energy and utility management solutions help organizations monitor, optimize, and control energy consumption. These systems integrate IoT, analytics, and automation to improve efficiency, reduce costs, and promote sustainability.",
-    },
-    {
-      id: "2",
-      question: "How can smart grids improve energy distribution?",
-      answer:
-        "Smart grids use real-time data and automation to balance energy demand and supply efficiently. They enable predictive maintenance, reduce outages, and support renewable energy integration across distribution networks.",
-    },
-    {
-      id: "3",
-      question: "What technologies are transforming the energy sector?",
-      answer:
-        "Technologies like IoT sensors, artificial intelligence, blockchain, and cloud analytics are driving innovation in the energy sector. They enhance demand forecasting, asset performance monitoring, and transparent energy trading.",
-    },
-    {
-      id: "4",
-      question: "How do energy analytics platforms benefit utility providers?",
-      answer:
-        "Energy analytics platforms collect and analyze operational data to detect inefficiencies, forecast demand, and optimize generation schedules. This leads to better resource utilization, cost savings, and improved grid reliability.",
-    },
-    {
-      id: "5",
-      question: "Can digital solutions support renewable energy integration?",
-      answer:
-        "Yes. Digital platforms help integrate solar, wind, and other renewable sources into the grid by managing fluctuations in generation, ensuring grid stability, and enabling data-driven energy forecasting.",
-    },
-    {
-      id: "6",
-      question: "How do Energy Management Systems (EMS) support sustainability?",
-      answer:
-        "EMS platforms monitor energy consumption patterns, track carbon emissions, and identify areas for reduction. They empower organizations to achieve sustainability goals and comply with environmental regulations.",
-    },
-    {
-      id: "7",
-      question: "What role does AI play in utility operations?",
-      answer:
-        "AI optimizes demand response, predicts equipment failures, and enhances load balancing. It also improves maintenance planning and ensures consistent service delivery with minimal energy wastage.",
-    },
-    {
-      id: "8",
-      question: "Are these systems suitable for both commercial and residential sectors?",
-      answer:
-        "Yes. Energy management and utility solutions can be tailored for industries, commercial buildings, and residential areas—offering insights into usage, savings opportunities, and sustainability performance.",
-    },
-    {
-      id: "9",
-      question: "How do IoT-enabled utilities improve customer experience?",
-      answer:
-        "IoT devices provide real-time energy data, enabling consumers to monitor and control their usage. This transparency leads to smarter energy habits, reduced bills, and improved satisfaction.",
-    },
-    {
-      id: "10",
-      question: "What is the future of digital transformation in energy and utilities?",
-      answer:
-        "The future of energy lies in smart, connected infrastructure powered by AI, blockchain, and renewables. Utilities are shifting toward decentralized grids, predictive analytics, and carbon-neutral operations for a sustainable tomorrow.",
-    },
-  ],
-},
-
+  faq: {
+    title: "Energy & Utilities FAQ",
+    items: [
+      {
+        id: "1",
+        question: "What are Energy & Utility Management Solutions?",
+        answer:
+          "Energy and utility management solutions help organizations monitor, optimize, and control energy consumption. These systems integrate IoT, analytics, and automation to improve efficiency, reduce costs, and promote sustainability.",
+      },
+      {
+        id: "2",
+        question: "How can smart grids improve energy distribution?",
+        answer:
+          "Smart grids use real-time data and automation to balance energy demand and supply efficiently. They enable predictive maintenance, reduce outages, and support renewable energy integration across distribution networks.",
+      },
+      {
+        id: "3",
+        question: "What technologies are transforming the energy sector?",
+        answer:
+          "Technologies like IoT sensors, artificial intelligence, blockchain, and cloud analytics are driving innovation in the energy sector. They enhance demand forecasting, asset performance monitoring, and transparent energy trading.",
+      },
+      {
+        id: "4",
+        question:
+          "How do energy analytics platforms benefit utility providers?",
+        answer:
+          "Energy analytics platforms collect and analyze operational data to detect inefficiencies, forecast demand, and optimize generation schedules. This leads to better resource utilization, cost savings, and improved grid reliability.",
+      },
+      {
+        id: "5",
+        question: "Can digital solutions support renewable energy integration?",
+        answer:
+          "Yes. Digital platforms help integrate solar, wind, and other renewable sources into the grid by managing fluctuations in generation, ensuring grid stability, and enabling data-driven energy forecasting.",
+      },
+      {
+        id: "6",
+        question:
+          "How do Energy Management Systems (EMS) support sustainability?",
+        answer:
+          "EMS platforms monitor energy consumption patterns, track carbon emissions, and identify areas for reduction. They empower organizations to achieve sustainability goals and comply with environmental regulations.",
+      },
+      {
+        id: "7",
+        question: "What role does AI play in utility operations?",
+        answer:
+          "AI optimizes demand response, predicts equipment failures, and enhances load balancing. It also improves maintenance planning and ensures consistent service delivery with minimal energy wastage.",
+      },
+      {
+        id: "8",
+        question:
+          "Are these systems suitable for both commercial and residential sectors?",
+        answer:
+          "Yes. Energy management and utility solutions can be tailored for industries, commercial buildings, and residential areas—offering insights into usage, savings opportunities, and sustainability performance.",
+      },
+      {
+        id: "9",
+        question: "How do IoT-enabled utilities improve customer experience?",
+        answer:
+          "IoT devices provide real-time energy data, enabling consumers to monitor and control their usage. This transparency leads to smarter energy habits, reduced bills, and improved satisfaction.",
+      },
+      {
+        id: "10",
+        question:
+          "What is the future of digital transformation in energy and utilities?",
+        answer:
+          "The future of energy lies in smart, connected infrastructure powered by AI, blockchain, and renewables. Utilities are shifting toward decentralized grids, predictive analytics, and carbon-neutral operations for a sustainable tomorrow.",
+      },
+    ],
+  },
 };

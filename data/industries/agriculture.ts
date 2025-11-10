@@ -8,7 +8,7 @@ export const agriculture: IndustryConfig = {
     subtitle:
       "Partner with expert developers to build custom, scalable, and reliable  software solutions that accelerate your business growth.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "https://stockit.rworldsoftware.in/images/industryAgricultureBanner.webp",
     linkText: "Get agriculture Solutions",
   },
   techHero: {

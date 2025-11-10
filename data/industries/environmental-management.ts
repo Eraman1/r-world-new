@@ -8,7 +8,7 @@ export const environmentalManagement: IndustryConfig = {
     subtitle:
       "Leverage cutting-edge technology to monitor, optimize, and sustain your environmental initiatives efficiently and effectively.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "https://stockit.rworldsoftware.in/images/industryEnvironmentBanner.webp",
     linkText: "Get Environmental Solutions",
   },
   techHero: {
@@ -193,70 +193,72 @@ export const environmentalManagement: IndustryConfig = {
     ctaText: "CREATE SMART ENVIRONMENTAL SYSTEMS",
     onCtaClick: () => {},
   },
- faq : {
-  title: "Environmental Management FAQ",
-  items: [
-    {
-      id: "1",
-      question: "What is Environmental Management Software?",
-      answer:
-        "Environmental management software helps organizations monitor, manage, and improve their environmental performance. It centralizes data on emissions, waste, energy use, and compliance to support sustainability goals and regulatory reporting.",
-    },
-    {
-      id: "2",
-      question: "How does Environmental Management support sustainability?",
-      answer:
-        "By tracking key environmental indicators such as carbon footprint, water usage, and resource efficiency, environmental management systems help organizations make data-driven decisions to minimize their environmental impact and promote sustainability.",
-    },
-    {
-      id: "3",
-      question: "What industries benefit from Environmental Management Solutions?",
-      answer:
-        "Industries such as manufacturing, energy, construction, transportation, and agriculture benefit from environmental management systems to maintain compliance, reduce waste, and achieve sustainability certifications like ISO 14001.",
-    },
-    {
-      id: "4",
-      question: "How does technology improve environmental monitoring?",
-      answer:
-        "Modern solutions use IoT sensors, satellite imaging, and AI analytics to detect pollution, monitor deforestation, and assess environmental risks in real time—enabling faster response and better resource management.",
-    },
-    {
-      id: "5",
-      question: "What is the role of data analytics in Environmental Management?",
-      answer:
-        "Data analytics transforms raw environmental data into actionable insights, helping organizations identify trends, measure performance, and optimize sustainability initiatives with precision and transparency.",
-    },
-    {
-      id: "6",
-      question: "Can Environmental Management software ensure compliance?",
-      answer:
-        "Yes. It simplifies compliance with local and global environmental regulations by automating documentation, tracking emission thresholds, and generating audit-ready reports for agencies and stakeholders.",
-    },
-    {
-      id: "7",
-      question: "How does Environmental Management reduce operational costs?",
-      answer:
-        "By optimizing resource consumption, reducing waste, and identifying inefficiencies, environmental management tools help organizations cut operational costs while enhancing environmental responsibility.",
-    },
-    {
-      id: "8",
-      question: "What is the importance of carbon footprint tracking?",
-      answer:
-        "Carbon tracking helps organizations understand their greenhouse gas emissions and develop targeted reduction strategies. It’s a vital step toward achieving net-zero goals and sustainability commitments.",
-    },
-    {
-      id: "9",
-      question: "Can Environmental Management integrate with other business systems?",
-      answer:
-        "Yes. It integrates seamlessly with ERP, IoT, and GIS platforms, enabling unified reporting, automated data collection, and efficient decision-making across departments and operations.",
-    },
-    {
-      id: "10",
-      question: "What is the future of Environmental Management technology?",
-      answer:
-        "The future lies in AI-driven forecasting, blockchain-based sustainability tracking, and predictive analytics that enable organizations to proactively manage risks and build eco-resilient operations.",
-    },
-  ],
-},
-
+  faq: {
+    title: "Environmental Management FAQ",
+    items: [
+      {
+        id: "1",
+        question: "What is Environmental Management Software?",
+        answer:
+          "Environmental management software helps organizations monitor, manage, and improve their environmental performance. It centralizes data on emissions, waste, energy use, and compliance to support sustainability goals and regulatory reporting.",
+      },
+      {
+        id: "2",
+        question: "How does Environmental Management support sustainability?",
+        answer:
+          "By tracking key environmental indicators such as carbon footprint, water usage, and resource efficiency, environmental management systems help organizations make data-driven decisions to minimize their environmental impact and promote sustainability.",
+      },
+      {
+        id: "3",
+        question:
+          "What industries benefit from Environmental Management Solutions?",
+        answer:
+          "Industries such as manufacturing, energy, construction, transportation, and agriculture benefit from environmental management systems to maintain compliance, reduce waste, and achieve sustainability certifications like ISO 14001.",
+      },
+      {
+        id: "4",
+        question: "How does technology improve environmental monitoring?",
+        answer:
+          "Modern solutions use IoT sensors, satellite imaging, and AI analytics to detect pollution, monitor deforestation, and assess environmental risks in real time—enabling faster response and better resource management.",
+      },
+      {
+        id: "5",
+        question:
+          "What is the role of data analytics in Environmental Management?",
+        answer:
+          "Data analytics transforms raw environmental data into actionable insights, helping organizations identify trends, measure performance, and optimize sustainability initiatives with precision and transparency.",
+      },
+      {
+        id: "6",
+        question: "Can Environmental Management software ensure compliance?",
+        answer:
+          "Yes. It simplifies compliance with local and global environmental regulations by automating documentation, tracking emission thresholds, and generating audit-ready reports for agencies and stakeholders.",
+      },
+      {
+        id: "7",
+        question: "How does Environmental Management reduce operational costs?",
+        answer:
+          "By optimizing resource consumption, reducing waste, and identifying inefficiencies, environmental management tools help organizations cut operational costs while enhancing environmental responsibility.",
+      },
+      {
+        id: "8",
+        question: "What is the importance of carbon footprint tracking?",
+        answer:
+          "Carbon tracking helps organizations understand their greenhouse gas emissions and develop targeted reduction strategies. It’s a vital step toward achieving net-zero goals and sustainability commitments.",
+      },
+      {
+        id: "9",
+        question:
+          "Can Environmental Management integrate with other business systems?",
+        answer:
+          "Yes. It integrates seamlessly with ERP, IoT, and GIS platforms, enabling unified reporting, automated data collection, and efficient decision-making across departments and operations.",
+      },
+      {
+        id: "10",
+        question: "What is the future of Environmental Management technology?",
+        answer:
+          "The future lies in AI-driven forecasting, blockchain-based sustainability tracking, and predictive analytics that enable organizations to proactively manage risks and build eco-resilient operations.",
+      },
+    ],
+  },
 };

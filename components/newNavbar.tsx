@@ -209,51 +209,70 @@ const megaMenuData: MegaMenuData = {
     title: "On-Demand Developers",
     link: "/on-demand-developers",
     items: [
-      { title: ".NET Developers", link: "/developers/dotnet" },
-      { title: "Java Developers", link: "/developers/java" },
-      { title: "Python Developers", link: "/developers/python" },
-      { title: "PHP Developers", link: "/developers/php" },
-      { title: "React Developers", link: "/developers/react" },
-      { title: "Angular Developers", link: "/developers/angular" },
-      { title: "Vue.js Developers", link: "/developers/vue" },
-      { title: "Node.js Developers", link: "/developers/node" },
-      { title: "iOS Developers", link: "/developers/ios" },
-      { title: "Android Developers", link: "/developers/android" },
-      { title: "Flutter Developers", link: "/developers/flutter" },
-      { title: "React Native Developers", link: "/developers/react-native" },
-      { title: "Unity Developers", link: "/developers/unity" },
-      { title: "Salesforce Developers", link: "/developers/salesforce" },
-      { title: "SharePoint Developers", link: "/developers/sharepoint" },
-      { title: "WordPress Developers", link: "/developers/wordpress" },
-      { title: "Magento Developers", link: "/developers/magento" },
-      { title: "Shopify Developers", link: "/developers/shopify" },
-      { title: "AWS Developers", link: "/developers/aws" },
-      { title: "Azure Developers", link: "/developers/azure" },
-      { title: "DevOps Engineers", link: "/developers/devops" },
-      { title: "QA Engineers", link: "/developers/qa" },
-      { title: "UI/UX Designers", link: "/developers/ui-ux" },
-      { title: "Data Scientists", link: "/developers/data-scientists" },
-      { title: "Machine Learning Engineers", link: "/developers/ml-engineers" },
-      { title: "Blockchain Developers", link: "/developers/blockchain" },
-      { title: "Game Developers", link: "/developers/game" },
-      { title: "Full Stack Developers", link: "/developers/full-stack" },
+      { title: ".NET Developers", link: "/on-demand-developers/dotnet" },
+      { title: "Java Developers", link: "/on-demand-developers/java" },
+      { title: "Python Developers", link: "/on-demand-developers/python" },
+      { title: "PHP Developers", link: "/on-demand-developers/php" },
+      { title: "React Developers", link: "/on-demand-developers/react" },
+      { title: "Angular Developers", link: "/on-demand-developers/angular" },
+      { title: "Vue.js Developers", link: "/on-demand-developers/vue" },
+      { title: "Node.js Developers", link: "/on-demand-developers/node" },
+      { title: "iOS Developers", link: "/on-demand-developers/ios" },
+      { title: "Android Developers", link: "/on-demand-developers/android" },
+      { title: "Flutter Developers", link: "/on-demand-developers/flutter" },
+      {
+        title: "React Native Developers",
+        link: "/on-demand-developers/react-native",
+      },
+      { title: "Unity Developers", link: "/on-demand-developers/unity" },
+      {
+        title: "Salesforce Developers",
+        link: "/on-demand-developers/salesforce",
+      },
+      {
+        title: "SharePoint Developers",
+        link: "/on-demand-developers/sharepoint",
+      },
+      {
+        title: "WordPress Developers",
+        link: "/on-demand-developers/wordpress",
+      },
+      { title: "Magento Developers", link: "/on-demand-developers/magento" },
+      { title: "Shopify Developers", link: "/on-demand-developers/shopify" },
+      { title: "AWS Developers", link: "/on-demand-developers/aws" },
+      { title: "Azure Developers", link: "/on-demand-developers/azure" },
+      { title: "DevOps Engineers", link: "/on-demand-developers/devops" },
+      { title: "QA Engineers", link: "/on-demand-developers/qa" },
+      { title: "UI/UX Designers", link: "/on-demand-developers/ui-ux" },
+      {
+        title: "Data Scientists",
+        link: "/on-demand-developers/data-scientists",
+      },
+      {
+        title: "Machine Learning Engineers",
+        link: "/on-demand-developers/ml-engineers",
+      },
+      {
+        title: "Blockchain Developers",
+        link: "/on-demand-developers/blockchain",
+      },
+      { title: "Game Developers", link: "/on-demand-developers/game" },
+      {
+        title: "Full Stack Developers",
+        link: "/on-demand-developers/full-stack",
+      },
     ],
   },
 
   company: {
     title: "Company",
     items: [
-      { title: "About us", link: "/company/about" },
-      { title: "Analyst Recognition", link: "/company/analyst-recognition" },
-      { title: "Awards", link: "/company/awards" },
+      { title: "About us", link: "about-us" },
+
       { title: "Careers", link: "/company/careers" },
-      { title: "Charitable Initiatives", link: "/company/charity" },
-      { title: "Events", link: "/company/events" },
+      { title: "News & Events", link: "/company/news-events" },
       { title: "History", link: "/company/history" },
-      { title: "Locations", link: "/company/locations" },
       { title: "Newsroom", link: "/company/newsroom" },
-      { title: "Partners & Affiliations", link: "/company/partners" },
-      { title: "People and Culture", link: "/company/people-culture" },
       { title: "Reviews", link: "/company/reviews" },
     ],
   },
@@ -280,7 +299,6 @@ const strategicPartners = [
   { name: "UKG", link: "solutions/ukg" },
   { name: "UiPath", link: "solutions/uipath" },
 ];
- 
 
 const NewNavbar = () => {
   const [activeMegaMenu, setActiveMegaMenu] = useState<string | null>(null);
@@ -341,7 +359,7 @@ const NewNavbar = () => {
       hasMegaMenu: true,
       menuKey: "company",
     },
-    { name: "BLOG", hasDropdown: false , link: "/blogs"},
+    { name: "BLOG", hasDropdown: false, link: "/blogs" },
   ];
 
   return (
@@ -397,7 +415,13 @@ const NewNavbar = () => {
                     className="text-white flex items-center space-x-1 py-2"
                     onClick={() => handleMenuClick(item.menuKey)}
                   >
-                   {item.link ? <Link href={item.link} className="font-medium text-sm">{item.name}</Link> : <span className="font-medium text-sm">{item.name}</span>}
+                    {item.link ? (
+                      <Link href={item.link} className="font-medium text-sm">
+                        {item.name}
+                      </Link>
+                    ) : (
+                      <span className="font-medium text-sm">{item.name}</span>
+                    )}
                     {item.hasDropdown &&
                       (activeMegaMenu === item.menuKey && item.hasMegaMenu ? (
                         <ChevronUpIcon className="h-4 w-4" />
@@ -630,7 +654,7 @@ const NewNavbar = () => {
                       className="text-gray-800 hover:text-amber-600 transition-colors duration-200 text-base"
                     >
                       {megaMenuData[activeMegaMenu]?.title}
-                    </Link>   
+                    </Link>
                   ) : (
                     megaMenuData[activeMegaMenu]?.title
                   )}
