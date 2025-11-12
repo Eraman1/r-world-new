@@ -35,7 +35,7 @@ import { fullstack } from "./fullstack";
 
 
 export const onDemandDevelopersData: Record<string, OnDemandDevelopersConfig> = {
-dotNetDevelopers,
+"dotnet": dotNetDevelopers,
 java,
 python,
 php,
@@ -46,7 +46,7 @@ node,
 ios,
 android,
 flutter,
-reactnative,
+"react-native": reactnative,
 unity,
 salesforce,
 sharepoint,
@@ -56,13 +56,13 @@ shopify,
 aws,
 azure,
 devops,
-qaEngineer,
-uiuxDesigners,
-dataScience,
-machineLearning,
+"qa": qaEngineer,
+"ui-ux": uiuxDesigners,
+"data-scientists": dataScience,
+"ml-engineers": machineLearning,
 blockchain,
 game,
-fullstack,
+"full-stack": fullstack,
 };
 
 export type { OnDemandDevelopersConfig };

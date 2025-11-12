@@ -12,6 +12,9 @@ import {
   Mail,
   MessageCircle,
   X,
+  MapPin,
+  Timer,
+  ChartArea,
 } from "lucide-react";
 
 interface JobOpening {
@@ -162,19 +165,19 @@ const CareersPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-blue-600 text-white py-20">
+      <section className="bg-blue-900/80 text-white py-20">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               Join Our World-Class Team
             </h1>
-            <p className="text-xl md:text-2xl mb-8">
+            <p className="text-lg md:text-xl mb-8">
               Build innovative software solutions that drive business growth
               worldwide
             </p>
             <a
               href="#openings"
-              className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors"
+              className="inline-block bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors"
             >
               View Open Positions
             </a>
@@ -201,7 +204,7 @@ const CareersPage: React.FC = () => {
                 key={index}
                 className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
               >
-                <div className="text-blue-600 mb-4">{benefit.icon}</div>
+                <div className="text-amber-500 mb-4">{benefit.icon}</div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   {benefit.title}
                 </h3>
@@ -230,7 +233,7 @@ const CareersPage: React.FC = () => {
                 key={index}
                 className="bg-gray-50 p-6 rounded-lg border border-gray-200"
               >
-                <div className="bg-blue-600 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                <div className="bg-amber-500 text-white w-12 h-12 rounded-full flex items-center justify-center mb-4">
                   {value.icon}
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -259,7 +262,7 @@ const CareersPage: React.FC = () => {
             {jobOpenings.map((job) => (
               <div
                 key={job.id}
-                className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-blue-600"
+                className="bg-white p-6 rounded-lg  hover:shadow-lg transition-shadow border border-yellow-300"
               >
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div className="flex-1">
@@ -272,20 +275,20 @@ const CareersPage: React.FC = () => {
                         {job.department}
                       </span>
                       <span className="flex items-center gap-1">
-                        📍 {job.location}
+                        <MapPin className="w-4 h-4" /> {job.location}
                       </span>
                       <span className="flex items-center gap-1">
-                        ⏱️ {job.type}
+                        <Timer className="w-4 h-4" /> {job.type}
                       </span>
                       <span className="flex items-center gap-1">
-                        📊 {job.experience}
+                        <ChartArea className="w-4 h-4" /> {job.experience}
                       </span>
                     </div>
                   </div>
                   <div>
                     <button
                       onClick={() => handleApplyClick(job.title)}
-                      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-md font-semibold transition-colors whitespace-nowrap"
+                      className="bg-amber-500 hover:bg-amber-700 text-white px-6 py-3 rounded-md font-semibold transition-colors whitespace-nowrap"
                     >
                       Apply Now
                     </button>
@@ -298,7 +301,7 @@ const CareersPage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-blue-600 text-white">
+      <section className="py-16 bg-blue-900/80 text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold mb-6">
             Don&#39;t See The Right Role?
@@ -309,7 +312,7 @@ const CareersPage: React.FC = () => {
           </p>
           <button
             onClick={() => handleApplyClick("General Application")}
-            className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors"
+            className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-md font-semibold text-lg transition-colors"
           >
             Send Your Resume
           </button>

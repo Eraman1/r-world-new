@@ -269,10 +269,10 @@ const megaMenuData: MegaMenuData = {
     items: [
       { title: "About us", link: "about-us" },
 
-      { title: "Careers", link: "/company/careers" },
+      { title: "Careers", link: "/career" },
       { title: "News & Events", link: "/company/news-events" },
       { title: "History", link: "/company/history" },
-      { title: "Newsroom", link: "/company/newsroom" },
+
       { title: "Reviews", link: "/company/reviews" },
     ],
   },
