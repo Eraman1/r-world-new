@@ -69,62 +69,63 @@ export const healthcare: IndustryConfig = {
   },
  
   solutions: {
-    mainTitle: "AI, IoT & Cloud Solutions for Modern Healthcare",
-    mainDescription:
-      "We design smart, secure, and scalable healthcare software powered by AI and IoT. From predictive diagnostics to connected care, our solutions improve clinical efficiency, patient experience, and operational excellence across the medical ecosystem.",
-    items: [
-      {
-        id: "diagnostics",
-        icon: "Leaf",
-        title: "AI Diagnostics & Medical Imaging",
-        subtitle: "",
-        description:
-          "Enhance diagnostic accuracy with machine learning models that analyze X-rays, MRIs, and CT scans for early disease detection.",
-      },
-      {
-        id: "remote-monitoring",
-        icon: "Leaf",
-        title: "Remote Patient Monitoring Systems",
-        subtitle: "",
-        description:
-          "Track patient vitals in real time using IoT wearables and cloud platforms for continuous, preventive care outside hospital walls.",
-      },
-      {
-        id: "appointment-scheduling",
-        icon: "Leaf",
-        title: "Smart Appointment & Workflow Automation",
-        subtitle: "",
-        description:
-          "Streamline scheduling, billing, and record-keeping with integrated systems that reduce wait times and improve patient experience.",
-      },
-      {
-        id: "predictive-analytics",
-        icon: "Leaf",
-        title: "Predictive Healthcare Analytics",
-        subtitle: "",
-        description:
-          "Use AI-powered predictive models to forecast patient risks, optimize treatment plans, and reduce readmission rates.",
-      },
-      {
-        id: "drug-discovery",
-        icon: "Leaf",
-        title: "AI in Drug Discovery & Research",
-        subtitle: "",
-        description:
-          "Accelerate drug discovery using computational biology, data modeling, and predictive algorithms for faster clinical trials.",
-      },
-      {
-        id: "compliance-security",
-        icon: "Leaf",
-        title: "Compliance & Data Security Platforms",
-        subtitle: "",
-        description:
-          "Ensure full compliance with HIPAA, GDPR, and HL7 standards while safeguarding sensitive patient and medical data.",
-      },
-    ],
-    linkText: "Get AI-Powered Healthcare Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "AI, IoT & Cloud Solutions for Modern Healthcare",
+  mainDescription:
+    "We design smart, secure, and scalable healthcare software powered by AI and IoT. From predictive diagnostics to connected care, our solutions improve clinical efficiency, patient experience, and operational excellence across the medical ecosystem.",
+  items: [
+    {
+      id: "diagnostics",
+      icon: "Leaf",
+      title: "AI Diagnostics & Medical Imaging",
+      subtitle: "",
+      description:
+        "Empower healthcare professionals with intelligent image analysis tools. Use deep learning models to detect diseases from X-rays, MRIs, and CT scans. Automate radiology workflows and reduce human error in diagnostics. Enable faster, data-backed clinical decisions through visual insights. Improve patient outcomes with accurate, early-stage disease detection.",
+    },
+    {
+      id: "remote-monitoring",
+      icon: "Leaf",
+      title: "Remote Patient Monitoring Systems",
+      subtitle: "",
+      description:
+        "Leverage IoT-enabled wearables to continuously track patient vitals. Connect devices to secure cloud dashboards for real-time monitoring. Reduce hospital readmissions through proactive health interventions. Empower clinicians with instant alerts and trend-based insights. Deliver continuous, preventive care beyond traditional facilities.",
+    },
+    {
+      id: "appointment-scheduling",
+      icon: "Leaf",
+      title: "Smart Appointment & Workflow Automation",
+      subtitle: "",
+      description:
+        "Automate patient scheduling and streamline clinical operations. Reduce administrative workload through intelligent process management. Integrate billing, records, and notifications into one seamless flow. Minimize patient wait times and boost satisfaction levels. Optimize staff utilization for greater operational efficiency.",
+    },
+    {
+      id: "predictive-analytics",
+      icon: "Leaf",
+      title: "Predictive Healthcare Analytics",
+      subtitle: "",
+      description:
+        "Transform healthcare data into actionable insights using AI analytics. Identify high-risk patients through predictive modeling techniques. Support personalized medicine with accurate treatment forecasting. Reduce costs by preventing complications and avoidable readmissions. Empower providers with real-time, data-driven clinical intelligence.",
+    },
+    {
+      id: "drug-discovery",
+      icon: "Leaf",
+      title: "AI in Drug Discovery & Research",
+      subtitle: "",
+      description:
+        "Accelerate R&D pipelines with AI-based molecular modeling and screening. Use predictive algorithms to identify effective compounds faster. Optimize clinical trial designs and improve approval success rates. Integrate data from labs, trials, and genomics for unified insights. Reduce costs while enabling faster, safer drug development cycles.",
+    },
+    {
+      id: "compliance-security",
+      icon: "Leaf",
+      title: "Compliance & Data Security Platforms",
+      subtitle: "",
+      description:
+        "Protect sensitive healthcare data with end-to-end encryption systems. Maintain full regulatory compliance with HIPAA, GDPR, and HL7 standards. Monitor access, detect threats, and prevent unauthorized breaches. Implement automated auditing and security governance tools. Build trust through secure, compliant digital healthcare platforms.",
+    },
+  ],
+  linkText: "Get AI-Powered Healthcare Solutions",
+  linkUrl: "/contact-us",
+},
+
  
   managementSolutions: {
     title: "Healthcare Management & Analytics Solutions",
@@ -158,38 +159,132 @@ export const healthcare: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "population-health",
-        icon: "map",
-        title: "Population Health & Analytics Dashboards",
-        description:
-          "Visualize key healthcare KPIs like patient recovery rates, staff performance, and cost management in real time.",
-      },
-      {
-        id: "security",
-        icon: "map",
-        title: "Cybersecurity & HIPAA Compliance",
-        description:
-          "Implement secure authentication, encryption, and audit trails to ensure patient data confidentiality and compliance.",
-      },
-      {
-        id: "mobile-health",
-        icon: "map",
-        title: "mHealth & Wearable App Development",
-        description:
-          "Create mobile and wearable health apps that enable patients to track fitness, medication, and chronic disease progress.",
-      },
-      {
-        id: "ai-decision",
-        icon: "map",
-        title: "AI-Powered Decision Support Systems",
-        description:
-          "Assist healthcare professionals with AI insights for diagnosis, treatment planning, and personalized care delivery.",
-      },
-    ],
-    ctaText: "BUILD YOUR HEALTHCARE SOFTWARE SOLUTION",
-    onCtaClick: () => {},
+  {
+    id: "population-health",
+    icon: "map",
+    title: "Population Health & Analytics Dashboards",
+    description:
+      "Visualize vital healthcare KPIs like recovery rates, readmission trends, and treatment effectiveness. " +
+      "Monitor operational efficiency and staff performance in real time. " +
+      "Gain actionable insights through data-driven analytics. " +
+      "Improve patient outcomes with predictive health models. " +
+      "Make informed strategic decisions with centralized dashboards.",
   },
+  {
+    id: "security",
+    icon: "map",
+    title: "Cybersecurity & HIPAA Compliance",
+    description:
+      "Implement multi-layered security frameworks to protect sensitive patient data. " +
+      "Use encryption, secure logins, and audit trails to maintain integrity. " +
+      "Ensure full compliance with HIPAA and global healthcare standards. " +
+      "Identify and respond to security threats proactively. " +
+      "Build trust through privacy-first healthcare software systems.",
+  },
+  {
+    id: "mobile-health",
+    icon: "map",
+    title: "mHealth & Wearable App Development",
+    description:
+      "Develop smart mobile and wearable health apps for patient engagement. " +
+      "Enable real-time monitoring of vitals, fitness, and medication adherence. " +
+      "Integrate data from wearables and IoT devices seamlessly. " +
+      "Enhance chronic disease management through continuous tracking. " +
+      "Empower patients with self-care tools and health insights.",
+  },
+  {
+    id: "ai-decision",
+    icon: "map",
+    title: "AI-Powered Decision Support Systems",
+    description:
+      "Leverage AI algorithms to assist healthcare professionals in diagnosis. " +
+      "Analyze large-scale data for treatment planning and risk assessment. " +
+      "Deliver predictive insights for preventive care and outcomes. " +
+      "Improve clinical precision with real-time recommendations. " +
+      "Transform patient care through intelligent, data-driven decisions.",
+  },
+],
+ctaText: "BUILD YOUR HEALTHCARE SOFTWARE SOLUTION",
+onCtaClick: () => {},
+  },
+  managementSolutionsTwo: {
+  title: "Healthcare Management Software Solutions",
+  subtitle:
+    "Our healthcare software developers build intelligent digital systems to streamline hospital operations, enhance patient care, and improve overall clinical efficiency.",
+  subtitleLink: { text: "healthcare management software", url: "#" },
+  laptopImage: "/images/healthcare-management.jpg",
+  mobileImage: "/images/healthcare-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "patient-care",
+      icon: "HeartPulse",
+      title: "Patient Care & Monitoring Systems",
+      description:
+        "Track patient vitals, treatment progress, and history in real time. Enhance care coordination with smart monitoring dashboards.",
+      link: { text: "patient management software", url: "#" },
+    },
+    {
+      id: "ehr-systems",
+      icon: "FileText",
+      title: "Electronic Health Record (EHR) Platforms",
+      description:
+        "Digitize medical records for secure and quick access. Enable seamless data sharing between doctors, labs, and pharmacies.",
+      link: { text: "ehr software", url: "#" },
+    },
+    {
+      id: "appointment-scheduling",
+      icon: "CalendarCheck",
+      title: "Appointment & Resource Scheduling Systems",
+      description:
+        "Simplify patient booking and doctor scheduling. Reduce wait times and improve hospital resource utilization efficiently.",
+      link: { text: "appointment management system", url: "#" },
+    },
+    {
+      id: "billing-insurance",
+      icon: "CreditCard",
+      title: "Billing & Insurance Management Solutions",
+      description:
+        "Automate medical billing, claims, and insurance processing. Ensure accurate payments and faster reimbursements for providers.",
+      link: { text: "medical billing software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "telemedicine",
+      icon: "Video",
+      title: "Telemedicine & Virtual Consultation Apps",
+      description:
+        "Connect patients and doctors remotely via secure video calls. Expand care access and improve engagement through telehealth.",
+    },
+    {
+      id: "inventory-tracking",
+      icon: "Box",
+      title: "Pharmacy & Inventory Tracking Systems",
+      description:
+        "Monitor drug stocks, expiries, and supplies in real time. Optimize procurement and ensure medication availability anytime.",
+    },
+    {
+      id: "analytics",
+      icon: "BarChart3",
+      title: "Healthcare Analytics & Reporting Tools",
+      description:
+        "Generate reports on patient outcomes and performance KPIs. Leverage data-driven insights for better clinical decisions.",
+    },
+    {
+      id: "admin-dashboard",
+      icon: "Settings",
+      title: "Hospital Administration Dashboards",
+      description:
+        "Centralize staff, patient, and department management. Gain full visibility into operations with automated reporting tools.",
+    },
+  ],
+
+  ctaText: "GET HEALTHCARE SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
  faq:{
   title: "Healthcare FAQ",
   items: [

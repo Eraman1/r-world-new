@@ -69,63 +69,89 @@ export const retail: IndustryConfig = {
   },
  
   solutions: {
-    mainTitle: "Smart Retail & eCommerce Technology Solutions",
-    mainDescription:
-      "We deliver data-driven retail platforms that enhance customer experience, streamline operations, and drive revenue growth. Integrate AI, cloud, and analytics for a seamless shopping journey across all channels.",
-    items: [
-      {
-        id: "inventory-ai",
-        icon: "Leaf", //Package
-        title: "AI-Powered Inventory Optimization",
-        subtitle: "",
-        description:
-          "Predict demand and automate stock replenishment to minimize waste and improve profitability.",
-      },
-      {
-        id: "crm-platforms",
-        icon: "Leaf", //Users
-        title: "Customer Relationship Management Platforms",
-        subtitle: "",
-        description:
-          "Centralize customer data, automate engagement, and personalize marketing for improved retention and loyalty.",
-      },
-      {
-        id: "omnichannel",
-        icon: "Leaf", //Globe
-        title: "Omnichannel Retail Integration",
-        subtitle: "",
-        description:
-          "Unify online, in-store, and mobile channels for consistent branding, pricing, and inventory visibility.",
-      },
-      {
-        id: "pricing-tools",
-        icon: "Leaf", //TrendingUp
-        title: "Dynamic Pricing & Promotions Engine",
-        subtitle: "",
-        description:
-          "Leverage AI to set optimal prices and discounts based on market trends, competitor analysis, and customer behavior.",
-      },
-      {
-        id: "pos-innovation",
-        icon: "Leaf", //CreditCard
-        title: "Next-Gen POS Solutions",
-        subtitle: "",
-        description:
-          "Deliver fast, secure, and intuitive checkout experiences with integrated payment gateways and loyalty programs.",
-      },
-      {
-        id: "retail-analytics",
-        icon: "Leaf", //BarChart2
-        title: "Retail Analytics & Insights",
-        subtitle: "",
-        description:
-          "Gain a 360° view of store performance, sales trends, and customer insights through AI-powered analytics dashboards.",
-      },
-    ],
-    linkText: "Explore Retail Solutions",
-    linkUrl: "/contact-us",
-  },
- 
+  mainTitle: "Smart Retail & eCommerce Technology Solutions",
+  mainDescription:
+    "We deliver data-driven retail platforms that enhance customer experience, streamline operations, and drive revenue growth. Integrate AI, cloud, and analytics for a seamless shopping journey across all channels.",
+
+  items: [
+    {
+      id: "inventory-ai",
+      icon: "Leaf", //Package
+      title: "AI-Powered Inventory Optimization",
+      subtitle: "",
+      description:
+        "Predict customer demand with precision using real-time data analytics. "
+        + "Automate stock replenishment across multiple warehouses for efficiency. "
+        + "Reduce overstock and shortages through smart forecasting models. "
+        + "Improve shelf availability to enhance shopping satisfaction. "
+        + "Optimize supply chain decisions for higher profitability.",
+    },
+    {
+      id: "crm-platforms",
+      icon: "Leaf", //Users
+      title: "Customer Relationship Management Platforms",
+      subtitle: "",
+      description:
+        "Centralize all customer interactions in one intelligent CRM system. "
+        + "Automate engagement workflows for personalized communication. "
+        + "Leverage AI insights to segment and target customers effectively. "
+        + "Enhance loyalty programs with real-time behavioral tracking. "
+        + "Build lasting relationships that increase retention and revenue.",
+    },
+    {
+      id: "omnichannel",
+      icon: "Leaf", //Globe
+      title: "Omnichannel Retail Integration",
+      subtitle: "",
+      description:
+        "Connect your online store, mobile app, and in-store systems seamlessly. "
+        + "Ensure unified pricing, promotions, and inventory visibility everywhere. "
+        + "Deliver consistent customer experiences across all touchpoints. "
+        + "Enable smooth order management and returns across channels. "
+        + "Empower customers to shop conveniently however they prefer.",
+    },
+    {
+      id: "pricing-tools",
+      icon: "Leaf", //TrendingUp
+      title: "Dynamic Pricing & Promotions Engine",
+      subtitle: "",
+      description:
+        "Use AI to analyze competitor trends and market fluctuations instantly. "
+        + "Set optimal prices to maximize sales and profit margins dynamically. "
+        + "Automate discount strategies based on demand and purchase behavior. "
+        + "Personalize promotions to target specific customer segments. "
+        + "Stay competitive with real-time, data-driven pricing updates.",
+    },
+    {
+      id: "pos-innovation",
+      icon: "Leaf", //CreditCard
+      title: "Next-Gen POS Solutions",
+      subtitle: "",
+      description:
+        "Deliver fast and frictionless checkout experiences in every store. "
+        + "Integrate multiple payment gateways for customer convenience. "
+        + "Include loyalty rewards and digital receipts within transactions. "
+        + "Enhance security with encryption and fraud detection tools. "
+        + "Empower staff with user-friendly POS interfaces and insights.",
+    },
+    {
+      id: "retail-analytics",
+      icon: "Leaf", //BarChart2
+      title: "Retail Analytics & Insights",
+      subtitle: "",
+      description:
+        "Access real-time dashboards showing store and sales performance. "
+        + "Track key KPIs like revenue, conversion, and customer trends. "
+        + "Use predictive analytics to plan future sales and inventory. "
+        + "Identify high-performing products and optimize promotions. "
+        + "Make data-backed business decisions with AI-driven insights.",
+    },
+  ],
+
+  linkText: "Explore Retail Solutions",
+  linkUrl: "/contact-us",
+},
+
   managementSolutions: {
     title: "Complete Retail Management Ecosystem",
     subtitle:
@@ -157,38 +183,116 @@ export const retail: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "predictive-insights",
-        icon: "map", //TrendingUp
-        title: "Predictive Analytics & Forecasting",
-        description:
-          "Use AI to forecast demand, seasonal sales, and consumer trends to optimize business strategy.",
-      },
-      {
-        id: "cybersecurity",
-        icon: "map", //Shield
-        title: "Cybersecurity & Payment Protection",
-        description:
-          "Safeguard customer data and transactions with advanced encryption and fraud monitoring systems.",
-      },
-      {
-        id: "mobile-shopping",
-        icon: "map", //Smartphone
-        title: "Mobile Shopping & In-App Experiences",
-        description:
-          "Offer seamless, personalized shopping experiences through mobile apps and progressive web stores.",
-      },
-      {
-        id: "supply-chain",
-        icon: "map", //Truck
-        title: "Supply Chain & Vendor Management",
-        description:
-          "Digitize procurement, logistics, and vendor collaboration to ensure faster deliveries and reduced costs.",
-      },
-    ],
-    ctaText: "BUILD YOUR RETAIL PLATFORM",
-    onCtaClick: () => {},
+  {
+    id: "predictive-insights",
+    icon: "map", // TrendingUp
+    title: "Predictive Analytics & Forecasting",
+    description:
+      "Leverage AI-driven models to forecast sales performance and market shifts. Identify emerging patterns that guide smarter decision-making. Adjust pricing, promotions, and inventory based on real-time data. Improve accuracy through continuous data correction and learning. Strengthen your business forecasting for long-term stability.",
   },
+  {
+    id: "cybersecurity",
+    icon: "map", // Shield
+    title: "Cybersecurity & Payment Protection",
+    description:
+      "Protect critical systems from fraud, breaches, and unauthorized access. Implement multi-layered encryption and AI-based threat detection. Continuously monitor transactions to ensure compliance and safety. Correct vulnerabilities through automated security patching. Build lasting customer trust with resilient payment safeguards.",
+  },
+  {
+    id: "mobile-shopping",
+    icon: "map", // Smartphone
+    title: "Mobile Shopping & In-App Experiences",
+    description:
+      "Deliver smooth, secure, and error-free mobile commerce experiences. Use analytics to correct performance lags and optimize usability. Personalize recommendations using behavioral data insights. Enable instant payments with seamless backend integration. Keep customers engaged through fast, responsive design updates.",
+  },
+  {
+    id: "supply-chain",
+    icon: "map", // Truck
+    title: "Supply Chain & Vendor Management",
+    description:
+      "Digitize procurement and logistics to ensure transparent operations. Use predictive data to correct supply delays and inefficiencies. Collaborate with vendors in real time for process synchronization. Automate inventory tracking with AI-powered forecasting tools. Improve delivery accuracy and overall operational precision.",
+  },
+],
+ctaText: "BUILD YOUR RETAIL PLATFORM",
+onCtaClick: () => {},
+},
+managementSolutionsTwo: {
+  title: "Retail Management Software Solutions",
+  subtitle:
+    "Our retail software developers design intelligent platforms that streamline store operations, enhance customer experience, and boost sales through data-driven automation.",
+  subtitleLink: { text: "retail management systems", url: "#" },
+  laptopImage: "/images/retail-management.jpg",
+  mobileImage: "/images/retail-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "inventory-management",
+      icon: "Boxes",
+      title: "Inventory & Stock Management Systems",
+      description:
+        "Automate stock tracking and manage real-time inventory updates. Reduce waste and improve product availability across stores.",
+      link: { text: "inventory management software", url: "#" },
+    },
+    {
+      id: "pos-solutions",
+      icon: "CreditCard",
+      title: "Point of Sale (POS) Solutions",
+      description:
+        "Enable fast, secure, and unified checkouts in-store and online. Sync transactions, invoices, and receipts across multiple channels.",
+      link: { text: "pos software systems", url: "#" },
+    },
+    {
+      id: "customer-loyalty",
+      icon: "Users",
+      title: "Customer Loyalty & Engagement Platforms",
+      description:
+        "Build personalized reward programs and offers. Track buying patterns to improve retention and brand loyalty.",
+      link: { text: "customer loyalty software", url: "#" },
+    },
+    {
+      id: "analytics-insights",
+      icon: "BarChart3",
+      title: "Retail Analytics & Business Intelligence",
+      description:
+        "Gain insights from real-time sales and customer data. Make smarter business decisions through predictive analytics.",
+      link: { text: "retail analytics tools", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "supply-chain",
+      icon: "Truck",
+      title: "Supply Chain & Order Management",
+      description:
+        "Optimize order processing and supplier coordination. Track logistics in real time to ensure timely product delivery.",
+    },
+    {
+      id: "omnichannel",
+      icon: "Globe",
+      title: "Omnichannel Retail Integration",
+      description:
+        "Unify online and offline sales channels effortlessly. Deliver consistent shopping experiences across web, app, and store.",
+    },
+    {
+      id: "employee-tools",
+      icon: "Briefcase",
+      title: "Employee Scheduling & Workforce Tools",
+      description:
+        "Simplify staff scheduling and task assignments. Improve workforce efficiency with automated shift and performance tracking.",
+    },
+    {
+      id: "crm-systems",
+      icon: "Handshake",
+      title: "CRM & Customer Relationship Management",
+      description:
+        "Centralize customer data and communication history. Drive personalized marketing and improve sales team productivity.",
+    },
+  ],
+
+  ctaText: "GET RETAIL SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
   faq : {
   title: "Retail Industry FAQ",
   items: [

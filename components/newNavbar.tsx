@@ -347,12 +347,12 @@ const NewNavbar = () => {
       hasMegaMenu: true,
       menuKey: "developers",
     },
-    {
-      name: "PORTFOLIO",
-      hasDropdown: true,
-      hasMegaMenu: true,
-      menuKey: "portfolio",
-    },
+    // {
+    //   name: "PORTFOLIO",
+    //   hasDropdown: true,
+    //   hasMegaMenu: true,
+    //   menuKey: "portfolio",
+    // },
     {
       name: "COMPANY",
       hasDropdown: true,

@@ -8,7 +8,7 @@ export const aviation: IndustryConfig = {
     subtitle:
       "Empower your aviation business with intelligent, scalable, and data-driven software systems. From flight operations and maintenance to safety and analytics, streamline workflows, enhance passenger experiences, and optimize every aspect of your fleet management.",
     image:
-      "https://stockit.rworldsoftware.in/images/industryAviationBanner.webp",
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     linkText: "Get Aviation Solutions",
   },
   techHero: {
@@ -72,63 +72,64 @@ export const aviation: IndustryConfig = {
     // },
   },
   solutions: {
-    mainTitle: "AI, IoT & Cloud Solutions for Modern Aviation",
-    mainDescription:
-      "Leverage the power of AI, IoT, and real-time analytics to optimize every operation — from flight scheduling to passenger experience. Our intelligent aviation software helps reduce costs, improve performance, and ensure the highest safety standards across fleets and airports.",
+  mainTitle: "AI, IoT & Cloud Solutions for Modern Aviation",
+  mainDescription:
+    "Transform aviation operations with intelligent digital solutions. From predictive maintenance to smart analytics, our AI-driven tools enhance safety, efficiency, and passenger satisfaction. We empower airlines, airports, and MROs with real-time insights, automation, and innovation.",
 
-    items: [
-      {
-        id: "crop-yield",
-        icon: "Warehouse",
-        title: "AI-Powered Flight Optimization",
-        subtitle: "",
-        description:
-          "Use machine learning to optimize routes, fuel efficiency, and scheduling. Enhance punctuality and reduce operational costs with smart flight analytics.",
-      },
-      {
-        id: "chemical-spraying",
-        icon: "Sprout",
-        title: "IoT-Enabled Fleet Monitoring",
-        subtitle: "",
-        description:
-          "Monitor aircraft systems in real time with IoT sensors. Predict maintenance needs, minimize downtime, and enhance fleet reliability.",
-      },
-      {
-        id: "seed-sowing",
-        icon: "Leaf",
-        title: "Predictive Maintenance Systems",
-        subtitle: "",
-        description:
-          "Detect potential issues before they cause disruptions. Our AI-driven maintenance systems ensure operational continuity and passenger safety.",
-      },
-      {
-        id: "autonomous-harvesting",
-        icon: "Tractor",
-        title: "Air Traffic & Ground Operations Automation",
-        subtitle: "",
-        description:
-          "Automate air traffic coordination and ground services with intelligent workflow systems to enhance efficiency and accuracy.",
-      },
-      {
-        id: "crop-monitoring",
-        icon: "Shield",
-        title: "Real-Time Operations Dashboard",
-        subtitle: "",
-        description:
-          "Access live data on flight status, maintenance, and crew schedules. Improve transparency and decision-making with actionable analytics.",
-      },
-      {
-        id: "disease-diagnosis",
-        icon: "Bug",
-        title: "Sustainability & Fuel Efficiency Tools",
-        subtitle: "",
-        description:
-          "Implement green aviation strategies with carbon tracking and eco-efficiency monitoring. Support a more sustainable future in air travel.",
-      },
-    ],
-    linkText: "Get AI-Powered Aviation Solutions",
-    linkUrl: "/contact-us",
-  },
+  items: [
+    {
+      id: "ai-flight-optimization",
+      icon: "Gauge",
+      title: "AI-Powered Flight Optimization Systems",
+      subtitle: "",
+      description:
+        "Utilize advanced AI models to plan efficient flight routes and fuel consumption. Predict weather impacts and optimize flight scheduling dynamically. Reduce operational costs through real-time performance analytics.  Ensure punctual departures and arrivals across global networks. Drive smarter, data-backed decision-making for every journey.",
+    },
+    {
+      id: "iot-fleet-monitoring",
+      icon: "Radar",
+      title: "IoT-Based Aircraft Health Monitoring",
+      subtitle: "",
+      description:
+        "Integrate IoT sensors to monitor aircraft components continuously. Capture live data from engines, hydraulics, and avionics systems. Detect anomalies early and schedule maintenance proactively. Minimize unscheduled downtime with predictive diagnostics. Enhance overall flight reliability and operational readiness.",
+    },
+    {
+      id: "predictive-maintenance",
+      icon: "Wrench",
+      title: "Predictive Maintenance & Asset Management",
+      subtitle: "",
+      description:
+        "Use AI-driven analytics to anticipate potential mechanical issues. Replace reactive maintenance with predictive intelligence. Extend aircraft lifespan through condition-based upkeep. Reduce maintenance costs and increase aircraft availability. Improve safety standards through automated risk alerts.",
+    },
+    {
+      id: "air-traffic-automation",
+      icon: "Network",
+      title: "Air Traffic & Ground Operations Automation",
+      subtitle: "",
+      description:
+        "Digitize air traffic workflows with real-time coordination tools. Enable synchronized communication between air and ground staff. Automate baggage routing, fueling, and gate assignment tasks. Reduce turnaround time with smart AI scheduling systems. Achieve precision, safety, and efficiency at every checkpoint.",
+    },
+    {
+      id: "operations-dashboard",
+      icon: "Activity",
+      title: "Real-Time Aviation Operations Dashboard",
+      subtitle: "",
+      description:
+        "Monitor flight status, crew schedules, and maintenance updates. Gain actionable insights with live analytics and KPIs. Enhance situational awareness across multiple airport hubs. Simplify decision-making with unified, visualized data streams. Empower teams to respond faster with predictive alerts.",
+    },
+    {
+      id: "fuel-sustainability",
+      icon: "Leaf",
+      title: "Sustainability & Fuel Efficiency Intelligence",
+      subtitle: "",
+      description:
+        "Adopt AI-powered systems to reduce carbon emissions and waste. Track and optimize fuel burn through real-time performance metrics. Implement green aviation initiatives across flight operations. Analyze sustainability goals through environmental dashboards. Support regulatory compliance and eco-friendly flight strategies.",
+    },
+  ],
+  linkText: "Get AI-Powered Aviation Solutions",
+  linkUrl: "/contact-us",
+},
+
   managementSolutions: {
     title: "Aviation Management Solutions",
     subtitle:
@@ -160,106 +161,120 @@ export const aviation: IndustryConfig = {
           "Coordinate ground handling, baggage, and refueling operations with digital automation and live monitoring tools.",
       },
     ],
-    bottomFeatures: [
-      {
-        id: "autonomous",
-        icon: "monitor",
-        title: "Crew Management Systems",
-        description:
-          "Manage rosters, compliance, and training for pilots and staff efficiently with centralized digital platforms.",
-      },
-      {
-        id: "irrigation",
-        icon: "droplets",
-        title: "Passenger Booking & CRM",
-        description:
-          "Offer seamless booking, check-in, and passenger communication through integrated CRM and ticketing systems.",
-        link: { text: "irrigation software", url: "#" },
-      },
+   bottomFeatures: [
+  {
+    id: "crew-management",
+    icon: "users",
+    title: "Crew Scheduling & Management Systems",
+    description:
+      "Efficiently manage crew rosters, shifts, and flight schedules with automated systems. Track certifications, compliance, and training renewals in real time. Reduce administrative load through centralized digital workflows. Ensure seamless coordination between pilots, attendants, and ground staff. Improve operational reliability with predictive crew availability insights.",
+  },
+  {
+    id: "passenger-experience",
+    icon: "plane",
+    title: "Passenger Booking & CRM Platforms",
+    description:
+      "Deliver frictionless passenger experiences from booking to boarding. Integrate CRM tools for personalized communication and loyalty programs. Automate check-ins, ticketing, and real-time flight updates effortlessly. Enhance user satisfaction through responsive, mobile-first design. Boost retention and revenue with smart customer engagement insights.",
+  },
+  {
+    id: "safety-analytics",
+    icon: "alertTriangle",
+    title: "Flight Safety & Compliance Intelligence",
+    description:
+      "Leverage AI-driven analytics for real-time compliance monitoring. Detect potential risks early through predictive maintenance insights. Track aircraft health, crew reports, and regulatory updates automatically. Maintain international safety standards with precision reporting. Ensure a proactive approach to aviation risk and incident prevention.",
+  },
+  {
+    id: "fuel-optimization",
+    icon: "gauge",
+    title: "Fuel Efficiency & Operational Cost Control",
+    description:
+      "Optimize fuel usage with smart tracking and data-driven insights. Analyze consumption trends to minimize operational expenses. Implement AI tools for route planning and in-flight fuel management. Reduce carbon footprint while maintaining high performance standards. Achieve significant cost savings through real-time analytics dashboards.",
+  },
+],
+ctaText: "GET AVIATION SOFTWARE DEVELOPERS",
+onCtaClick: () => {},
+  },
 
-      {
-        id: "agronomy",
-        icon: "testTube",
-        title: "Safety & Compliance Monitoring",
-        description:
-          "Ensure aviation safety with AI-powered compliance tracking and automated risk detection tools.",
-      },
-      {
-        id: "operations",
-        icon: "settings",
-        title: "Fuel Management & Cost Control",
-        description:
-          "Optimize fuel consumption, track expenses, and analyze trends with intelligent analytics for cost-effective operations.",
-      },
-    ],
-    ctaText: "GET AVIATION SOFTWARE DEVELOPERS",
-    onCtaClick: () => {},
-  },
+  
   managementSolutionsTwo: {
-    title: "Land Management Software Solutions-testing",
-    subtitle:
-      "R-World land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
-    subtitleLink: { text: "land management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
-    topFeatures: [
-      {
-        id: "mapping",
-        icon: "Map",
-        title: "Land Mapping & GPS Software",
-        description:
-          "We program GIS & GPS technologies and integrate them with your current systems for site-specific data mapping optimization and accurate yield forecasting.",
-        link: { text: "GIS & GPS technologies", url: "#" },
-      },
-      {
-        id: "3d-design",
-        icon: "Box",
-        title: "3D Field Design Applications",
-        description:
-          "We engineer custom 3D field design apps to seamlessly integrate with topography mapping software for added visualization and management of all land areas.",
-      },
-      {
-        id: "sensors",
-        icon: "Sliders",
-        title: "Smart Controllers & Sensors",
-        description:
-          "We implement smart controllers & sensors that screen the yields for changes in temperature, light, humidity, weather patterns, and other environmental factors.",
-      },
-    ],
+  title: "Aviation Management Software Solutions",
+  subtitle:
+    "Our aviation software developers deliver modern solutions to optimize flight operations, streamline maintenance, and enhance passenger experience through digital innovation.",
+  subtitleLink: { text: "aviation management software", url: "#" },
+  laptopImage: "/images/management-solutions.jpg",
+  mobileImage: "/images/management-solutions-mobile.jpg",
+  topFeatures: [
+    {
+      id: "flight-operations",
+      icon: "Airplane",
+      title: "Flight Operations & Scheduling Systems",
+      description:
+        "Automate flight planning, route optimization, and real-time scheduling. Enhance operational efficiency while minimizing fuel and delay costs.",
+      link: { text: "flight operations software", url: "#" },
+    },
+    {
+      id: "fleet-tracking",
+      icon: "Radar",
+      title: "Fleet Tracking & Monitoring Platforms",
+      description:
+        "Track aircraft health, performance, and flight data in real time. Enable predictive maintenance and reduce downtime across the fleet.",
+      link: { text: "fleet tracking platforms", url: "#" },
+    },
+    {
+      id: "crew-management",
+      icon: "Users",
+      title: "Crew Management & Roster Systems",
+      description:
+        "Manage pilot schedules, certifications, and duty hours seamlessly. Improve crew coordination and regulatory compliance across operations.",
+      link: { text: "crew management systems", url: "#" },
+    },
+    {
+      id: "maintenance",
+      icon: "Wrench",
+      title: "Aircraft Maintenance Management",
+      description:
+        "Streamline MRO workflows with digital inspection and task tracking. Increase aircraft availability and reduce operational disruptions.",
+      link: { text: "aircraft maintenance systems", url: "#" },
+    },
+  ],
+
+
     bottomFeatures: [
-      {
-        id: "autonomous",
-        icon: "Monitor",
-        title: "Autonomous Farming Management Systems",
-        description:
-          "We incorporate prescriptive technology, harvesting & crop management modules, and decision support systems (DSS) to maximize operational performance for autonomous farming.",
-      },
-      {
-        id: "irrigation",
-        icon: "Droplets",
-        title: "Irrigation System Management",
-        description:
-          "We design our irrigation software with computer-aided designs (CAD), digital terrain modeling (DTM), hydraulic systems, and irrigation patterns.",
-        link: { text: "irrigation software", url: "#" },
-      },
-      {
-        id: "agronomy",
-        icon: "TestTube",
-        title: "Agronomy Software Solutions",
-        description:
-          "We develop agronomy software solutions covering everything from soil sampling and collection to GIS mapping, subsurface drainage, and soil fertility automation.",
-      },
-      {
-        id: "operations",
-        icon: "Settings",
-        title: "Operations Management",
-        description:
-          "We integrate unmanned aerial vehicle (UAV) software with third-party APIs for irrigation management to streamline consistent operational workflows.",
-      },
-    ],
-    ctaText: "GET LAND MGMT SOFTWARE DEVELOPERS",
-    onCtaClick: "/contact-us",
+  {
+    id: "flight-planning",
+    icon: "Map",
+    title: "Flight Planning & Scheduling Systems",
+    description:
+      "We build intelligent flight planning tools with real-time route optimization and airspace management for precise scheduling.",
   },
+  {
+    id: "air-traffic",
+    icon: "Radar",
+    title: "Air Traffic Control Software",
+    description:
+      "Our ATC solutions enhance situational awareness, automate radar tracking, and support safe, efficient flight coordination.",
+  },
+  {
+    id: "maintenance",
+    icon: "Wrench",
+    title: "Aircraft Maintenance Tracking",
+    description:
+      "We develop MRO software to manage inspections, maintenance logs, and predictive analytics for aircraft reliability.",
+  },
+  {
+    id: "crew-management",
+    icon: "Users",
+    title: "Crew Scheduling & Management Systems",
+    description:
+      "Our systems automate pilot and crew assignments, ensuring regulatory compliance and optimal resource allocation.",
+  },
+  
+  
+],
+ctaText: "GET AVIATION SOFTWARE DEVELOPERS",
+onCtaClick: "/contact-us",
+},
+
   faq: {
     title: "Aviation FAQ",
     items: [

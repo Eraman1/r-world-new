@@ -69,62 +69,63 @@ export const mediaentertainment: IndustryConfig = {
   },
 
   solutions: {
-    mainTitle: "AI, Cloud & Streaming Solutions for the Media Industry",
-    mainDescription:
-      "Our advanced media solutions use AI, cloud, and data analytics to optimize every stage of content production and distribution. We enable OTT, broadcasters, and creators to deliver hyper-personalized, high-quality experiences to global audiences.",
-    items: [
-      {
-        id: "streaming-platforms",
-        icon: "Leaf", //Play
-        title: "OTT & Video Streaming Platforms",
-        subtitle: "",
-        description:
-          "Develop scalable streaming systems with adaptive bitrate delivery, CDN integration, and real-time analytics for seamless viewing.",
-      },
-      {
-        id: "recommendation-ai",
-        icon: "Leaf", //Sparkles
-        title: "AI Recommendation & Personalization Engines",
-        subtitle: "",
-        description:
-          "Use AI and machine learning to recommend content based on user behavior, preferences, and engagement trends.",
-      },
-      {
-        id: "postproduction-automation",
-        icon: "Leaf", //Scissors
-        title: "Post-Production & Media Workflow Automation",
-        subtitle: "",
-        description:
-          "Accelerate editing, tagging, and rendering workflows using AI tools for automated scene detection and metadata generation.",
-      },
-      {
-        id: "adtech-monetization",
-        icon: "Leaf", //DollarSign
-        title: "AdTech & Monetization Platforms",
-        subtitle: "",
-        description:
-          "Maximize ad revenue through targeted programmatic advertising, dynamic ad insertion, and audience segmentation tools.",
-      },
-      {
-        id: "digital-rights",
-        icon: "Leaf", //ShieldCheck
-        title: "Digital Rights & Royalty Management",
-        subtitle: "",
-        description:
-          "Ensure copyright protection and automate royalty distribution using blockchain-based digital rights systems.",
-      },
-      {
-        id: "immersive-experiences",
-        icon: "Leaf", //Globe
-        title: "AR/VR Entertainment Experiences",
-        subtitle: "",
-        description:
-          "Deliver immersive entertainment through virtual and augmented reality content, interactive storytelling, and metaverse integration.",
-      },
-    ],
-    linkText: "Get AI-Powered Media Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "AI, Cloud & Streaming Solutions for the Media Industry",
+  mainDescription:
+    "Our advanced media technology solutions harness AI, cloud computing, and predictive analytics to optimize every stage of production, delivery, and viewer engagement. We empower broadcasters, OTT platforms, and content creators to build personalized, high-quality entertainment experiences for global audiences.",
+  items: [
+    {
+      id: "streaming-platforms",
+      icon: "Leaf", //Play
+      title: "OTT & Video Streaming Platforms",
+      subtitle: "",
+      description:
+        "Build scalable OTT platforms powered by cloud and AI-driven optimization. Deliver smooth playback with adaptive bitrate streaming and CDN acceleration. Gain real-time insights into viewer behavior and content performance. Support multi-device accessibility for seamless user experiences. Ensure global scalability and superior video delivery quality.",
+    },
+    {
+      id: "recommendation-ai",
+      icon: "Leaf", //Sparkles
+      title: "AI Recommendation & Personalization Engines",
+      subtitle: "",
+      description:
+        "Enhance viewer engagement through intelligent recommendation systems. Analyze user preferences, watch history, and interaction data. Deliver hyper-personalized content suggestions across devices. Boost retention and reduce churn using predictive analytics. Continuously refine algorithms for evolving audience behavior.",
+    },
+    {
+      id: "postproduction-automation",
+      icon: "Leaf", //Scissors
+      title: "Post-Production & Media Workflow Automation",
+      subtitle: "",
+      description:
+        "Revolutionize post-production with automated AI workflows. Speed up editing, tagging, and rendering using intelligent tools. Detect scenes, objects, and emotions with precision algorithms. Manage large media libraries with metadata-driven organization. Increase production efficiency while maintaining creative control.",
+    },
+    {
+      id: "adtech-monetization",
+      icon: "Leaf", //DollarSign
+      title: "AdTech & Monetization Platforms",
+      subtitle: "",
+      description:
+        "Monetize your content ecosystem through advanced AdTech solutions. Integrate dynamic ad insertion and real-time audience targeting. Utilize data analytics to optimize ad performance and ROI. Enable programmatic advertising across OTT and mobile platforms. Create personalized ad experiences that maximize engagement.",
+    },
+    {
+      id: "digital-rights",
+      icon: "Leaf", //ShieldCheck
+      title: "Digital Rights & Royalty Management",
+      subtitle: "",
+      description:
+        "Protect creative assets with next-gen digital rights solutions. Automate royalty tracking and distribution using blockchain. Ensure transparency across multi-platform licensing models. Manage content ownership with smart contracts and encryption. Simplify compliance while safeguarding intellectual property.",
+    },
+    {
+      id: "immersive-experiences",
+      icon: "Leaf", //Globe
+      title: "AR/VR Entertainment Experiences",
+      subtitle: "",
+      description:
+        "Transform storytelling with immersive AR and VR environments. Build interactive 3D worlds that captivate digital audiences. Integrate real-time rendering for lifelike virtual performances. Connect metaverse experiences with real-world entertainment. Elevate engagement through sensory-rich digital adventures.",
+    },
+  ],
+  linkText: "Get AI-Powered Media Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "Digital Media Management Software Solutions",
@@ -158,38 +159,118 @@ export const mediaentertainment: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "drm-security",
-        icon: "map", //Shield
-        title: "Digital Rights Management (DRM) Security",
-        description:
-          "Protect video and music content with encryption, license management, and access control systems.",
-      },
-      {
-        id: "ai-editing",
-        icon: "map", //Cpu
-        title: "AI Video Editing & Metadata Tagging",
-        description:
-          "Leverage AI to automate editing, scene tagging, and content recommendations for faster production workflows.",
-      },
-      {
-        id: "ad-personalization",
-        icon: "map", //Target
-        title: "Ad Personalization & Revenue Optimization",
-        description:
-          "Deliver hyper-targeted ad experiences using audience segmentation, behavioral analytics, and predictive modeling.",
-      },
-      {
-        id: "immersive-media",
-        icon: "map", //Globe
-        title: "Immersive & Interactive Media Creation",
-        description:
-          "Develop AR/VR-based experiences and gamified content for next-generation audience engagement.",
-      },
-    ],
-    ctaText: "BUILD YOUR MEDIA SOFTWARE SOLUTION",
-    onCtaClick: () => {},
+  {
+    id: "drm-security",
+    icon: "map", // Shield
+    title: "Digital Rights Management (DRM) Security",
+    description:
+      "Protect valuable media assets with advanced encryption protocols and secure license distribution. Manage digital rights seamlessly across streaming and download platforms. Control content access and prevent unauthorized duplication or piracy. Integrate with multi-device authentication for consistent protection. Ensure full compliance with global copyright and media regulations.",
   },
+  {
+    id: "ai-editing",
+    icon: "map", // Cpu
+    title: "AI Video Editing & Metadata Tagging",
+    description:
+      "Automate post-production with intelligent scene detection and smart cutting tools. Use AI-driven metadata tagging to organize vast media libraries efficiently. Generate highlights, captions, and previews with precision algorithms. Reduce manual editing time and enhance creative workflows. Deliver faster, high-quality outputs optimized for digital platforms.",
+  },
+  {
+    id: "ad-personalization",
+    icon: "map", // Target
+    title: "Ad Personalization & Revenue Optimization",
+    description:
+      "Deliver hyper-personalized ad experiences with predictive audience insights. Segment viewers based on behavior, preferences, and engagement data. Use AI to forecast trends and optimize ad inventory for maximum ROI. Integrate cross-platform analytics to measure campaign effectiveness. Increase brand visibility and advertiser satisfaction through automation.",
+  },
+  {
+    id: "immersive-media",
+    icon: "map", // Globe
+    title: "Immersive & Interactive Media Creation",
+    description:
+      "Create next-generation experiences using AR, VR, and mixed-reality technologies. Engage audiences through 3D storytelling and interactive environments. Integrate gamification elements to boost participation and retention. Enable real-time rendering for lifelike visuals and performance. Transform traditional content into immersive digital entertainment.",
+  },
+],
+ctaText: "BUILD YOUR MEDIA SOFTWARE SOLUTION",
+onCtaClick: () => {},
+  },
+
+managementSolutionsTwo: {
+  title: "Media & Entertainment Management Software Solutions",
+  subtitle:
+    "We build innovative media and entertainment platforms that streamline content workflows, enhance audience engagement, and drive monetization through digital transformation.",
+  subtitleLink: { text: "media management software", url: "#" },
+  laptopImage: "/images/media-entertainment.jpg",
+  mobileImage: "/images/media-entertainment-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "content-distribution",
+      icon: "PlaySquare",
+      title: "Content Distribution & Streaming Systems",
+      description:
+        "Deliver high-quality video and audio across multiple platforms. Manage content scheduling, analytics, and monetization in one place.",
+      link: { text: "content distribution software", url: "#" },
+    },
+    {
+      id: "audience-engagement",
+      icon: "Users",
+      title: "Audience Engagement & Analytics Platforms",
+      description:
+        "Track audience preferences and behavior in real time. Use insights to personalize recommendations and improve retention.",
+      link: { text: "audience analytics software", url: "#" },
+    },
+    {
+      id: "rights-management",
+      icon: "Lock",
+      title: "Digital Rights & Licensing Management",
+      description:
+        "Protect creative assets with DRM and license tracking tools. Simplify rights distribution and automate royalty calculations.",
+      link: { text: "digital rights management software", url: "#" },
+    },
+    {
+      id: "production-automation",
+      icon: "Camera",
+      title: "Media Production & Workflow Automation",
+      description:
+        "Automate editing, approvals, and publishing across teams. Enhance collaboration and reduce turnaround time for content delivery.",
+      link: { text: "production workflow software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "asset-management",
+      icon: "Folder",
+      title: "Media Asset Management Systems",
+      description:
+        "Store, organize, and retrieve large volumes of content efficiently. Ensure brand consistency with version control and tagging.",
+    },
+    {
+      id: "advertising-platforms",
+      icon: "Megaphone",
+      title: "Ad Campaign & Revenue Management",
+      description:
+        "Manage digital ad inventory, targeting, and tracking. Maximize ROI with data-driven campaign optimization tools.",
+    },
+    {
+      id: "event-streaming",
+      icon: "Broadcast",
+      title: "Live Event & Streaming Platforms",
+      description:
+        "Broadcast live concerts, shows, and sports events at scale. Offer interactive features like chats, polls, and virtual meetups.",
+    },
+    {
+      id: "analytics-dashboard",
+      icon: "BarChart3",
+      title: "Real-Time Media Analytics Dashboards",
+      description:
+        "Visualize audience trends, engagement, and ad performance. Make data-driven decisions with customizable reports.",
+    },
+  ],
+
+  ctaText: "HIRE MEDIA SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
+
   faq : {
   title: "Media & Entertainment FAQ",
   items: [

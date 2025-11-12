@@ -69,62 +69,87 @@ export const hospitalitytravel: IndustryConfig = {
   },
  
   solutions: {
-    mainTitle: "AI, IoT & Cloud Solutions for the Hospitality & Travel Sector",
-    mainDescription:
-      "We build intelligent, scalable, and cloud-based hospitality and travel solutions to optimize bookings, automate operations, and enhance guest experiences. Our AI-powered systems bring personalization, efficiency, and sustainability to the forefront of hospitality innovation.",
-    items: [
-      {
-        id: "smart-hotel",
-        icon: "Leaf", //Home
-        title: "Smart Hotel Management Platforms",
-        subtitle: "",
-        description:
-          "Automate front desk operations, housekeeping, and maintenance using connected IoT systems and smart dashboards.",
-      },
-      {
-        id: "booking-systems",
-        icon: "Leaf", //Plane
-        title: "End-to-End Booking & Reservation Systems",
-        subtitle: "",
-        description:
-          "Enable real-time room, flight, and activity booking with secure payment gateways and multi-channel integration.",
-      },
-      {
-        id: "personalization",
-        icon: "Leaf", //User
-        title: "AI-Powered Guest Personalization Engines",
-        subtitle: "",
-        description:
-          "Leverage machine learning to tailor recommendations, promotions, and experiences based on guest preferences and history.",
-      },
-      {
-        id: "revenue-optimization",
-        icon: "Leaf", //TrendingUp
-        title: "Revenue Optimization & Predictive Analytics",
-        subtitle: "",
-        description:
-          "Use AI-driven analytics to forecast demand, adjust pricing dynamically, and maximize occupancy and revenue potential.",
-      },
-      {
-        id: "travel-ecosystem",
-        icon: "Leaf", //Globe
-        title: "Integrated Travel Ecosystem Platforms",
-        subtitle: "",
-        description:
-          "Connect hotels, airlines, tour operators, and agencies under one digital ecosystem for seamless data sharing and coordination.",
-      },
-      {
-        id: "sustainability",
-        icon: "Leaf",
-        title: "Sustainability & Energy Efficiency Systems",
-        subtitle: "",
-        description:
-          "Implement smart energy management and waste reduction software to promote eco-friendly hospitality operations.",
-      },
-    ],
-    linkText: "Get AI-Powered Travel Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "AI, IoT & Cloud Solutions for the Hospitality & Travel Sector",
+  mainDescription:
+    "We build intelligent, scalable, and cloud-based hospitality and travel solutions to optimize bookings, automate operations, and enhance guest experiences. Our AI-powered systems bring personalization, efficiency, and sustainability to the forefront of hospitality innovation.",
+  items: [
+    {
+      id: "smart-hotel",
+      icon: "Leaf", // Home
+      title: "Smart Hotel Management Platforms",
+      subtitle: "",
+      description:
+        "Automate front desk tasks, housekeeping, and maintenance with real-time IoT connectivity. \n" +
+        "Gain full visibility across departments through unified dashboards and analytics. \n" +
+        "Enhance guest comfort using AI-driven room controls and smart alerts. \n" +
+        "Reduce manual workload with automated workflows and predictive maintenance. \n" +
+        "Transform traditional hotel operations into efficient, data-driven environments.",
+    },
+    {
+      id: "booking-systems",
+      icon: "Leaf", // Plane
+      title: "End-to-End Booking & Reservation Systems",
+      subtitle: "",
+      description:
+        "Offer seamless, multi-channel booking experiences for hotels, flights, and tours. \n" +
+        "Integrate secure payment gateways with real-time availability updates. \n" +
+        "Enable customers to plan, pay, and confirm instantly from any device. \n" +
+        "Automate cancellations, refunds, and itinerary changes with ease. \n" +
+        "Empower businesses with data insights to refine pricing and promotions.",
+    },
+    {
+      id: "personalization",
+      icon: "Leaf", // User
+      title: "AI-Powered Guest Personalization Engines",
+      subtitle: "",
+      description:
+        "Deliver personalized offers, recommendations, and experiences using AI insights. \n" +
+        "Analyze guest behavior to tailor services that enhance satisfaction. \n" +
+        "Automate messaging and loyalty programs based on travel preferences. \n" +
+        "Predict future needs and trends through real-time behavioral learning. \n" +
+        "Build stronger guest relationships through intelligent personalization.",
+    },
+    {
+      id: "revenue-optimization",
+      icon: "Leaf", // TrendingUp
+      title: "Revenue Optimization & Predictive Analytics",
+      subtitle: "",
+      description:
+        "Leverage advanced analytics to forecast demand and pricing trends accurately. \n" +
+        "Adjust room rates dynamically for maximum occupancy and profitability. \n" +
+        "Monitor performance metrics through interactive dashboards and AI insights. \n" +
+        "Identify seasonal opportunities using predictive modeling tools. \n" +
+        "Ensure strategic decision-making with real-time, data-backed intelligence.",
+    },
+    {
+      id: "travel-ecosystem",
+      icon: "Leaf", // Globe
+      title: "Integrated Travel Ecosystem Platforms",
+      subtitle: "",
+      description:
+        "Connect hotels, airlines, and travel agencies under one unified ecosystem. \n" +
+        "Facilitate seamless communication and data sharing across providers. \n" +
+        "Improve coordination between bookings, schedules, and itineraries. \n" +
+        "Enhance the traveler journey with transparent, connected services. \n" +
+        "Empower operators with integrated dashboards for complete visibility.",
+    },
+    {
+      id: "sustainability",
+      icon: "Leaf",
+      title: "Sustainability & Energy Efficiency Systems",
+      subtitle: "",
+      description:
+        "Implement IoT-based energy monitoring to reduce waste and costs. \n" +
+        "Promote green hospitality with automated water and power management. \n" +
+        "Track environmental impact through intelligent sustainability reports. \n" +
+        "Optimize resource consumption using data from connected devices. \n" +
+        "Achieve eco-friendly operations while maintaining superior guest comfort.",
+    },
+  ],
+  linkText: "Get AI-Powered Travel Solutions",
+  linkUrl: "/contact-us",
+},
+
  
   managementSolutions: {
     title: "Hospitality & Travel Management Software Solutions",
@@ -158,38 +183,117 @@ export const hospitalitytravel: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "analytics",
-        icon: "map", //BarChart3
-        title: "Business Intelligence & Performance Dashboards",
-        description:
-          "Visualize KPIs like occupancy rates, revenue, and guest satisfaction with customizable BI dashboards.",
-      },
-      {
-        id: "security",
-        icon: "map", //ShieldCheck
-        title: "Data Security & GDPR Compliance",
-        description:
-          "Ensure secure guest data handling and global compliance with advanced encryption and audit systems.",
-      },
-      {
-        id: "mobile-apps",
-        icon: "map", //Smartphone
-        title: "Mobile Apps for Guests & Staff",
-        description:
-          "Offer seamless mobile access for bookings, check-ins, and service requests while empowering staff with digital tools.",
-      },
-      {
-        id: "ai-operations",
-        icon: "map", //Cpu
-        title: "AI-Driven Operations & Guest Insights",
-        description:
-          "Analyze guest feedback, social media, and review data to improve service quality and optimize business performance.",
-      },
-    ],
-    ctaText: "BUILD YOUR TRAVEL & HOSPITALITY SOLUTION",
-    onCtaClick: () => {},
+  {
+    id: "analytics",
+    icon: "map",
+    title: "Error Analytics & Performance Dashboards",
+    description:
+      "Track document accuracy, correction frequency, and team productivity with smart dashboards. Identify recurring issues and automate error pattern detection. Gain actionable insights to reduce rework and time spent on manual reviews. Visualize real-time metrics for correction efficiency and precision. Make informed decisions backed by continuous data-driven improvement.",
   },
+  {
+    id: "security",
+    icon: "map",
+    title: "Data Integrity & Compliance Protection",
+    description:
+      "Safeguard sensitive correction data using advanced encryption systems. Maintain GDPR and HIPAA compliance through automated audit trails. Restrict unauthorized access with multi-level authentication protocols. Detect and prevent data manipulation in real-time for full accuracy. Ensure correction workflows adhere to global data protection standards.",
+  },
+  {
+    id: "mobile-apps",
+    icon: "map",
+    title: "Mobile Correction & Review Applications",
+    description:
+      "Enable on-the-go error correction, approvals, and quality checks via mobile. Provide editors and reviewers with real-time collaboration tools. Sync updates instantly across teams and systems for unified visibility. Empower users to annotate, highlight, and revise documents seamlessly. Improve turnaround time with faster review and approval cycles.",
+  },
+  {
+    id: "ai-operations",
+    icon: "map",
+    title: "AI-Powered Correction & Quality Optimization",
+    description:
+      "Use artificial intelligence to detect and correct contextual inaccuracies. Train machine learning models for continuous accuracy enhancement. Leverage NLP to refine grammar, tone, and compliance consistency. Automate repetitive review tasks to reduce manual workload. Improve correction speed while maintaining precision and reliability.",
+  },
+],
+ctaText: "BUILD YOUR INTELLIGENT CORRECTION SYSTEM",
+onCtaClick: () => {},
+},
+
+managementSolutionsTwo: {
+  title: "Hospitality & Travel Management Software Solutions",
+  subtitle:
+    "Our hospitality and travel software experts build smart systems that enhance guest experiences, streamline operations, and drive bookings through digital transformation.",
+  subtitleLink: { text: "hospitality management software", url: "#" },
+  laptopImage: "/images/hospitality-travel.jpg",
+  mobileImage: "/images/hospitality-travel-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "booking-management",
+      icon: "CalendarCheck",
+      title: "Booking & Reservation Management Systems",
+      description:
+        "Automate hotel, flight, and tour bookings with real-time availability. Simplify guest check-ins and cancellations from one platform.",
+      link: { text: "booking management software", url: "#" },
+    },
+    {
+      id: "guest-loyalty",
+      icon: "Gift",
+      title: "Guest Loyalty & Rewards Platforms",
+      description:
+        "Create personalized loyalty programs for frequent travelers. Reward customers through points, offers, and membership tiers.",
+      link: { text: "guest loyalty software", url: "#" },
+    },
+    {
+      id: "payment-solutions",
+      icon: "CreditCard",
+      title: "Payment & Billing Automation Solutions",
+      description:
+        "Enable fast, secure transactions across hotels and travel agencies. Support multiple currencies and global payment gateways.",
+      link: { text: "payment automation systems", url: "#" },
+    },
+    {
+      id: "travel-analytics",
+      icon: "BarChart3",
+      title: "Travel & Hospitality Analytics Systems",
+      description:
+        "Gain actionable insights into occupancy, revenue, and guest behavior. Make data-driven decisions to improve business performance.",
+      link: { text: "travel analytics software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "property-management",
+      icon: "Building2",
+      title: "Hotel & Property Management Software",
+      description:
+        "Manage rooms, inventory, and housekeeping in one place. Boost staff efficiency with automated scheduling and alerts.",
+    },
+    {
+      id: "tour-operations",
+      icon: "Map",
+      title: "Tour & Travel Operations Management",
+      description:
+        "Coordinate tours, transport, and guides effortlessly. Offer customers seamless itinerary planning and instant confirmations.",
+    },
+    {
+      id: "customer-engagement",
+      icon: "Users",
+      title: "Customer Engagement & CRM Tools",
+      description:
+        "Track guest preferences, feedback, and communications. Enhance satisfaction with tailored marketing and service delivery.",
+    },
+    {
+      id: "revenue-optimization",
+      icon: "TrendingUp",
+      title: "Revenue & Channel Optimization Platforms",
+      description:
+        "Optimize room rates and bookings across OTAs and websites. Use AI-driven tools to maximize occupancy and profitability.",
+    },
+  ],
+
+  ctaText: "GET HOSPITALITY SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
  faq : {
   title: "Hospitality & Travel FAQ",
   items: [

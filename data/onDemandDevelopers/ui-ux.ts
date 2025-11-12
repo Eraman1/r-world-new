@@ -8,7 +8,7 @@ export const uiuxDesigners: OnDemandDevelopersConfig = {
     subtitle:
       "Hire dedicated UI/UX designers to craft engaging, intuitive, and user-centered digital experiences. Our team blends creativity and usability to transform your product vision into meaningful interactions.",
     image:
-      "https://cdn.pixabay.com/photo/2018/03/16/16/03/ux-graphics-3229928_1280.jpg",
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     linkText: "Hire UI/UX Designers",
   },
 
@@ -52,114 +52,115 @@ export const uiuxDesigners: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom UI/UX Design Solutions",
-    mainDescription:
-      "Our UI/UX design services combine creativity with research-driven strategy. From concept to launch, we craft digital experiences that elevate engagement, usability, and business growth.",
-    items: [
-      {
-        id: "user-research",
-        icon: "Leaf",
-        title: "User Research & Persona Creation",
-        description:
-          "We conduct in-depth research to understand your audience’s needs, motivations, and behavior patterns. These insights inform personas that guide every design decision, ensuring user relevance and business impact.",
-      },
-      {
-        id: "wireframing-prototyping",
-        icon: "Leaf",
-        title: "Wireframing & Prototyping",
-        description:
-          "Our designers create interactive wireframes and clickable prototypes that visualize structure and flow. This helps you validate user journeys early, saving time and cost before full design execution.",
-      },
-      {
-        id: "ui-design",
-        icon: "Leaf",
-        title: "User Interface (UI) Design",
-        description:
-          "We design visually stunning and intuitive interfaces aligned with your brand identity. Every element is purposefully crafted to deliver clarity, accessibility, and a consistent digital experience.",
-      },
-      {
-        id: "ux-strategy",
-        icon: "Leaf",
-        title: "UX Strategy & Information Architecture",
-        description:
-          "We map out clear information hierarchies and define UX strategies that enhance usability. This ensures your users find what they need effortlessly while enjoying an engaging, fluid experience.",
-      },
-      {
-        id: "usability-testing",
-        icon: "Leaf",
-        title: "Usability Testing & Optimization",
-        description:
-          "Our team performs detailed usability testing sessions to uncover design pain points. We refine and optimize interfaces to achieve smoother interactions, higher retention, and measurable performance gains.",
-      },
-      {
-        id: "branding",
-        icon: "Leaf",
-        title: "Branding & Visual Identity Design",
-        description:
-          "We create cohesive brand systems that reflect your vision through colors, typography, and imagery. This visual harmony builds recognition and strengthens emotional connection with your audience.",
-      },
-    ],
-    linkText: "Hire Expert UI/UX Designers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Custom UI/UX Design Solutions",
+  mainDescription:
+    "Our UI/UX design services blend creativity, psychology, and technology. We craft seamless digital experiences that balance beauty with functionality. From research to testing, our process ensures designs that convert, engage, and inspire users across every platform.",
+  items: [
+    {
+      id: "user-research",
+      icon: "Leaf",
+      title: "User Research & Persona Creation",
+      description:
+        "We perform in-depth research to uncover user motivations and pain points. Detailed personas guide every design decision and feature prioritization. Data-driven insights ensure alignment with user expectations and goals.  We map user journeys that reveal behavioral trends and intent. This foundation ensures empathy and business impact in every design.",
+    },
+    {
+      id: "wireframing-prototyping",
+      icon: "Leaf",
+      title: "Wireframing & Prototyping",
+      description:
+        "We translate ideas into structured wireframes and interactive prototypes. These blueprints showcase user flows and interface logic clearly. Early testing minimizes risk and aligns stakeholders efficiently.  Interactive models simulate real-world experience before coding. It’s the smartest way to validate usability and design direction.",
+    },
+    {
+      id: "ui-design",
+      icon: "Leaf",
+      title: "User Interface (UI) Design",
+      description:
+        "Our UI designers create visually striking, brand-aligned interfaces. Every pixel is chosen to enhance usability and visual harmony. We focus on clarity, accessibility, and consistent interaction patterns.  Typography, spacing, and color are crafted with purpose and emotion. The result—digital experiences that are both beautiful and functional.",
+    },
+    {
+      id: "ux-strategy",
+      icon: "Leaf",
+      title: "UX Strategy & Information Architecture",
+      description:
+        "We define clear navigation paths and logical content structures. Each decision supports user intent and minimizes cognitive friction. Wireflows and IA blueprints guide developers and designers alike. Our UX strategies ensure smoother interactions and quick task completion. This strategic approach makes digital products intuitive and delightful.",
+    },
+    {
+      id: "usability-testing",
+      icon: "Leaf",
+      title: "Usability Testing & Optimization",
+      description:
+        "We conduct user testing to identify usability challenges and gaps. Sessions reveal real-world behavior and interface performance. Iterative refinement enhances flow and interaction satisfaction. Metrics like click rates, retention, and NPS guide every update. This ensures your design evolves continuously toward perfection.",
+    },
+    {
+      id: "branding",
+      icon: "Leaf",
+      title: "Branding & Visual Identity Design",
+      description:
+        "We craft cohesive brand systems that connect emotion and visuals. Each color, icon, and font choice tells your brand’s story clearly. Our visual frameworks ensure consistency across all digital channels. We enhance recognition through thoughtful design language. A strong brand identity builds trust and lasting engagement.",
+    },
+  ],
+  linkText: "Hire Expert UI/UX Designers",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Key Skills of Our UI/UX Designers",
-    mainDescription:
-      "Our talented designers bring creativity, strategy, and user empathy to every project. Their mastery across modern tools and design principles ensures your product delights users and drives results.",
-    items: [
-      {
-        id: "user-research",
-        icon: "Leaf",
-        title: "User Research & Empathy Mapping",
-        link: "/contact-us",
-        description:
-          "Gain insights into user needs through research and empathy mapping. This foundation helps craft intuitive and human-centered design experiences that truly connect.",
-      },
-      {
-        id: "wireframing",
-        icon: "Leaf",
-        title: "Wireframing & Interactive Prototyping",
-        link: "/contact-us",
-        description:
-          "Visualize your product’s layout and flow with wireframes and interactive prototypes. These tools ensure clarity, collaboration, and early usability validation.",
-      },
-      {
-        id: "ui-design",
-        icon: "Leaf",
-        title: "High-Fidelity UI Design",
-        link: "/contact-us",
-        description:
-          "Transform concepts into pixel-perfect UI designs that reflect your brand identity. Focus on visual appeal, readability, and user engagement across all devices.",
-      },
-      {
-        id: "testing",
-        icon: "Leaf",
-        title: "Usability Testing & Feedback Iteration",
-        link: "/contact-us",
-        description:
-          "Test design concepts with real users to identify friction points and improve flow. Iterative design ensures continual enhancement based on genuine feedback.",
-      },
-      {
-        id: "design-systems",
-        icon: "Leaf",
-        title: "Design Systems & Guidelines",
-        link: "/contact-us",
-        description:
-          "Establish a reusable component library and consistent visual language. Design systems maintain coherence and scalability across your entire digital ecosystem.",
-      },
-      {
-        id: "branding",
-        icon: "Leaf",
-        title: "Brand Identity & Visual Storytelling",
-        link: "/contact-us",
-        description:
-          "Develop a strong visual identity through storytelling, typography, and color psychology. This builds a lasting impression and fosters brand loyalty among users.",
-      },
-    ],
-    linkText: "Hire Expert UI/UX Designers",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Key Skills of Our UI/UX Designers",
+  mainDescription:
+    "Our UI/UX designers combine creative vision with user psychology. They are experts in designing intuitive, elegant, and conversion-optimized experiences. Using modern tools and proven strategies, they transform complex ideas into seamless digital journeys.",
+  items: [
+    {
+      id: "user-research",
+      icon: "Leaf",
+      title: "User Research & Empathy Mapping",
+      link: "/contact-us",
+      description:
+        "We dig deep into audience behavior through surveys and interviews. Empathy mapping helps visualize user needs, goals, and frustrations. Each finding shapes the tone, hierarchy, and interaction model. This process aligns design outcomes with emotional resonance. The result—interfaces that truly speak your user’s language.",
+    },
+    {
+      id: "wireframing",
+      icon: "Leaf",
+      title: "Wireframing & Interactive Prototyping",
+      link: "/contact-us",
+      description:
+        "We craft wireframes to outline structure, hierarchy, and flow. Interactive prototypes simulate real use cases before development. Early visualization improves collaboration and decision-making. Usability flaws are identified before the design phase ends. It’s an agile, cost-effective path to a flawless final product.",
+    },
+    {
+      id: "ui-design",
+      icon: "Leaf",
+      title: "High-Fidelity UI Design",
+      link: "/contact-us",
+      description:
+        "Our designers bring concepts to life with precision and creativity. High-fidelity designs focus on color psychology and visual clarity. Every screen adapts beautifully to devices and accessibility needs. Design consistency ensures trust and seamless brand experience. The outcome is elegant, modern, and visually captivating UI.",
+    },
+    {
+      id: "testing",
+      icon: "Leaf",
+      title: "Usability Testing & Feedback Iteration",
+      link: "/contact-us",
+      description:
+        "We validate every design through user testing and A/B analysis. Real feedback reveals friction points and improvement areas. Insights guide refinement for smoother navigation and clarity. Continuous iteration enhances usability and conversion rates. It’s a data-driven cycle that guarantees lasting satisfaction.",
+    },
+    {
+      id: "design-systems",
+      icon: "Leaf",
+      title: "Design Systems & Guidelines",
+      link: "/contact-us",
+      description:
+        "We build scalable design systems for consistency and speed. Components, grids, and color rules create a unified experience. Developers and designers collaborate effortlessly through standards. These systems reduce redundancy and future-proof your brand. Consistency becomes your product’s silent competitive edge.",
+    },
+    {
+      id: "branding",
+      icon: "Leaf",
+      title: "Brand Identity & Visual Storytelling",
+      link: "/contact-us",
+      description:
+        "We blend storytelling, typography, and color to express your vision. Each element is crafted to trigger emotion and recognition. Visual narratives connect users deeply with your brand’s essence. Consistency across all channels strengthens loyalty and trust. Your brand becomes not just seen—but remembered and felt.",
+    },
+  ],
+  linkText: "Hire Expert UI/UX Designers",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand UI/UX Design Services",

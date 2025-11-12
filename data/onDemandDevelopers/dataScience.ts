@@ -8,7 +8,7 @@ export const dataScience: OnDemandDevelopersConfig = {
     subtitle:
       "Leverage our data scientists to transform raw data into actionable insights. We design predictive models, automate workflows, and optimize decisions with AI-driven intelligence.",
     image:
-      "https://cdn.pixabay.com/photo/2023/03/07/09/47/data-science-7837174_1280.jpg",
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     linkText: "Hire Data Scientists",
   },
 
@@ -52,114 +52,115 @@ export const dataScience: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Comprehensive Data Science Solutions",
-    mainDescription:
-      "Our experts craft scalable, AI-powered data solutions for businesses. From predictive analytics to visualization dashboards, we help you make smarter, faster decisions.",
-    items: [
-      {
-        id: "predictive-analytics",
-        icon: "Activity",
-        title: "Predictive Analytics",
-        description:
-          "Build ML models to forecast trends, risks, and behaviors using advanced statistical algorithms and automation.",
-      },
-      {
-        id: "data-engineering",
-        icon: "Settings",
-        title: "Data Engineering",
-        description:
-          "Design efficient ETL pipelines and scalable architectures to handle large datasets across platforms and sources.",
-      },
-      {
-        id: "ai-ml-solutions",
-        icon: "Cpu",
-        title: "AI & Machine Learning Solutions",
-        description:
-          "Develop intelligent systems powered by deep learning, NLP, and computer vision for real-world applications.",
-      },
-      {
-        id: "data-visualization",
-        icon: "BarChart2",
-        title: "Data Visualization Dashboards",
-        description:
-          "Create interactive dashboards using Power BI, Tableau, and Python to monitor KPIs and performance metrics.",
-      },
-      {
-        id: "data-strategy",
-        icon: "Target",
-        title: "Data Strategy Consulting",
-        description:
-          "Get expert guidance to align your data initiatives with business goals, maximizing ROI and efficiency.",
-      },
-      {
-        id: "model-deployment",
-        icon: "Server",
-        title: "Model Deployment & Maintenance",
-        description:
-          "Deploy models into production with CI/CD pipelines, and ensure continuous monitoring and optimization.",
-      },
-    ],
-    linkText: "Hire Expert Data Scientists",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Comprehensive Data Science Solutions",
+  mainDescription:
+    "Our certified data scientists deliver end-to-end analytical solutions that transform data into strategic insights. From data engineering to AI-driven automation, we empower organizations to make evidence-based decisions and enhance performance.",
+  items: [
+    {
+      id: "predictive-analytics",
+      icon: "Activity",
+      title: "Predictive Analytics",
+      description:
+        "Leverage machine learning models to forecast trends and outcomes.  Identify emerging opportunities and mitigate potential risks proactively. Use statistical modeling and time-series forecasting for precision. Empower business leaders with data-backed foresight and agility. Continuously refine models to ensure accuracy and reliability.",
+    },
+    {
+      id: "data-engineering",
+      icon: "Settings",
+      title: "Data Engineering",
+      description:
+        "Design robust ETL pipelines that streamline data ingestion and transformation.  Build scalable architectures that handle massive datasets efficiently. Integrate structured and unstructured data across multiple systems. Ensure high-quality, clean, and consistent data for analytics workflows. Optimize data flow for faster, more accurate business intelligence.",
+    },
+    {
+      id: "ai-ml-solutions",
+      icon: "Cpu",
+      title: "AI & Machine Learning Solutions",
+      description:
+        "Develop advanced AI systems powered by deep learning and NLP technologies.  Automate decision-making and enhance user experiences with intelligent insights. Implement predictive models for image, speech, and text analytics. Use TensorFlow, PyTorch, and Scikit-learn for scalable ML pipelines. Drive innovation through custom AI applications across domains.",
+    },
+    {
+      id: "data-visualization",
+      icon: "BarChart2",
+      title: "Data Visualization Dashboards",
+      description:
+        "Build intuitive dashboards with Tableau, Power BI, and Plotly. Transform raw data into visual insights that drive real-time actions. Track KPIs, trends, and performance metrics with interactive charts.  Enable data storytelling that supports strategic business decisions. Empower teams with self-service analytics and clear visual clarity.",
+    },
+    {
+      id: "data-strategy",
+      icon: "Target",
+      title: "Data Strategy Consulting",
+      description:
+        "Define a clear roadmap for data-driven digital transformation. Align analytics goals with your business objectives and KPIs. Identify key metrics and actionable data points for growth.  Implement governance frameworks ensuring compliance and accuracy. Maximize ROI by turning insights into measurable outcomes.",
+    },
+    {
+      id: "model-deployment",
+      icon: "Server",
+      title: "Model Deployment & Maintenance",
+      description:
+        "Deploy AI/ML models into production using CI/CD and containerization. Automate updates with MLOps for efficient model lifecycle management. Monitor performance to prevent drift and maintain accuracy over time.  Scale models seamlessly across cloud and hybrid environments. Ensure continuous optimization for long-term reliability and ROI.",
+    },
+  ],
+  linkText: "Hire Expert Data Scientists",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Key Data Science Skills",
-    mainDescription:
-      "Our data scientists bring deep expertise in ML, AI, and data analytics. We deliver precise, scalable, and actionable insights for businesses across industries.",
-    items: [
-      {
-        id: "machine-learning",
-        icon: "Brain",
-        title: "Machine Learning Development",
-        link: "/contact-us",
-        description:
-          "Build custom ML algorithms using Python, R, and TensorFlow for automation and prediction.",
-      },
-      {
-        id: "data-analytics",
-        icon: "PieChart",
-        title: "Data Analytics & Reporting",
-        link: "/contact-us",
-        description:
-          "Extract key insights using SQL, Pandas, and Power BI for real-time decision-making.",
-      },
-      {
-        id: "ai-solutions",
-        icon: "Bot",
-        title: "AI-Powered Solutions",
-        link: "/contact-us",
-        description:
-          "Develop intelligent systems using deep learning and NLP for automation and optimization.",
-      },
-      {
-        id: "data-engineering",
-        icon: "Database",
-        title: "Data Engineering & Pipelines",
-        link: "/contact-us",
-        description:
-          "Design scalable data pipelines and warehouses for clean and consistent data flow.",
-      },
-      {
-        id: "cloud-integration",
-        icon: "Cloud",
-        title: "Cloud Data Integration",
-        link: "/contact-us",
-        description:
-          "Implement data pipelines and storage on AWS, Azure, or GCP for scalability and security.",
-      },
-      {
-        id: "model-ops",
-        icon: "Settings2",
-        title: "Model Operations (MLOps)",
-        link: "/contact-us",
-        description:
-          "Automate model deployment, tracking, and monitoring for seamless performance updates.",
-      },
-    ],
-    linkText: "Hire Expert Data Scientists",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Key Data Science Skills",
+  mainDescription:
+    "Our data scientists combine advanced analytics, programming expertise, and business acumen. From predictive modeling to data engineering and visualization, we deliver impactful solutions that unlock the full potential of your data.",
+  items: [
+    {
+      id: "machine-learning",
+      icon: "Brain",
+      title: "Machine Learning Development",
+      link: "/contact-us",
+      description:
+        "Build and train ML algorithms for prediction, classification, and automation. Use Python, R, and TensorFlow to develop custom analytical models. Continuously tune hyperparameters to improve model performance. Apply supervised, unsupervised, and reinforcement learning methods. Enable data-driven decisions through intelligent model outcomes.",
+    },
+    {
+      id: "data-analytics",
+      icon: "PieChart",
+      title: "Data Analytics & Reporting",
+      link: "/contact-us",
+      description:
+        "Analyze complex datasets to extract actionable business insights. Use SQL, Pandas, and Power BI to create visual and statistical reports. Identify trends, anomalies, and growth opportunities efficiently. Develop automated dashboards for real-time performance tracking. Transform raw numbers into meaningful strategic intelligence.",
+    },
+    {
+      id: "ai-solutions",
+      icon: "Bot",
+      title: "AI-Powered Solutions",
+      link: "/contact-us",
+      description:
+        "Design AI-driven systems that replicate human cognition intelligently. Use NLP, computer vision, and deep learning to solve real-world problems. Automate workflows for customer support, analytics, or operations. Integrate AI models into scalable enterprise environments seamlessly. Enhance efficiency, precision, and decision-making across industries.",
+    },
+    {
+      id: "data-engineering",
+      icon: "Database",
+      title: "Data Engineering & Pipelines",
+      link: "/contact-us",
+      description:
+        "Construct reliable data pipelines for smooth ingestion and processing. Manage large-scale databases with Spark, Hadoop, or BigQuery. Automate ETL operations for structured and unstructured data. Ensure scalability, availability, and security of all data assets. Deliver clean, consistent, and accessible data for analytics teams.",
+    },
+    {
+      id: "cloud-integration",
+      icon: "Cloud",
+      title: "Cloud Data Integration",
+      link: "/contact-us",
+      description:
+        "Deploy and scale data solutions on AWS, Azure, or Google Cloud. Utilize cloud-native tools like BigQuery, Redshift, and Data Factory. Ensure high availability, backup, and compliance at all levels. Build hybrid data architectures for seamless system integration. Enable flexible, cost-efficient, and secure data management.",
+    },
+    {
+      id: "model-ops",
+      icon: "Settings2",
+      title: "Model Operations (MLOps)",
+      link: "/contact-us",
+      description:
+        "Implement automated pipelines for model deployment and monitoring. Track performance, drift, and version control across environments. Integrate CI/CD workflows to streamline model delivery cycles. Ensure transparency and reproducibility for production models. Maintain efficiency through continuous retraining and updates.",
+    },
+  ],
+  linkText: "Hire Expert Data Scientists",
+  linkUrl: "/contact-us",
+},
+
 
   faq: {
     title: "FAQ - On-Demand Data Science Services",

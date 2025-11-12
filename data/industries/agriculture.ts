@@ -8,7 +8,7 @@ export const agriculture: IndustryConfig = {
     subtitle:
       "Partner with expert developers to build custom, scalable, and reliable  software solutions that accelerate your business growth.",
     image:
-      "https://stockit.rworldsoftware.in/images/industryAgricultureBanner.webp",
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     linkText: "Get agriculture Solutions",
   },
   techHero: {
@@ -195,36 +195,50 @@ export const agriculture: IndustryConfig = {
     onCtaClick: () => {},
   },
   managementSolutionsTwo: {
-    title: "Land Management Software Solutions-testing",
-    subtitle:
-      "R-World land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
-    subtitleLink: { text: "land management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
-    topFeatures: [
-      {
-        id: "mapping",
-        icon: "Map",
-        title: "Land Mapping & GPS Software",
-        description:
-          "We program GIS & GPS technologies and integrate them with your current systems for site-specific data mapping optimization and accurate yield forecasting.",
-        link: { text: "GIS & GPS technologies", url: "#" },
-      },
-      {
-        id: "3d-design",
-        icon: "Box",
-        title: "3D Field Design Applications",
-        description:
-          "We engineer custom 3D field design apps to seamlessly integrate with topography mapping software for added visualization and management of all land areas.",
-      },
-      {
-        id: "sensors",
-        icon: "Sliders",
-        title: "Smart Controllers & Sensors",
-        description:
-          "We implement smart controllers & sensors that screen the yields for changes in temperature, light, humidity, weather patterns, and other environmental factors.",
-      },
-    ],
+  title: "Agriculture Land & Crop Management Solutions",
+  subtitle:
+    "Our agriculture technology experts craft intelligent land and crop management software solutions. We combine innovation, automation, and data-driven tools to help farmers and agribusinesses maximize productivity and sustainability.",
+  subtitleLink: { text: "agriculture software development", url: "#" },
+  laptopImage: "/images/management-solutions.jpg",
+  mobileImage: "/images/management-solutions-mobile.jpg",
+  topFeatures: [
+    {
+      id: "mapping",
+      icon: "Map",
+      title: "Precision Land Mapping & GPS Systems",
+      description:
+        "Develop intelligent GIS & GPS mapping tools for accurate land assessment and zoning. Integrate geospatial analytics for real-time decision-making.",
+      link: { text: "GIS & GPS Mapping Systems", url: "#" },
+    },
+    {
+      id: "3d-design",
+      icon: "Box",
+      title: "3D Terrain & Field Visualization Tools",
+      description:
+        "Design interactive 3D applications for topographic visualization and field analysis. Integrate with existing CAD or mapping software for seamless workflows. Enable precise irrigation layouts and contour mapping for better planning. ",
+      link: { text: "3D Agricultural Design Tools", url: "#" },
+    },
+    {
+      id: "sensors",
+      icon: "Sliders",
+      title: "IoT-Enabled Smart Sensors & Controllers",
+      description:
+        "Integrate smart IoT devices to monitor soil moisture, humidity, and temperature. Automate irrigation and nutrient supply based on real-time sensor data. Collect environmental insights for predictive farming analytics.  ",
+      link: { text: "IoT Smart Farming Sensors", url: "#" },
+    },
+    {
+      id: "crop-analytics",
+      icon: "BarChart",
+      title: "AI-Based Crop Health Analytics",
+      description:
+        "Leverage AI and computer vision to detect early signs of crop diseases. Use drone and satellite imagery for large-scale crop monitoring. Analyze growth patterns and suggest corrective agronomic actions.",
+      link: { text: "AI Crop Analysis Software", url: "#" },
+    },
+    
+    
+  ],
+
+
     bottomFeatures: [
       {
         id: "autonomous",

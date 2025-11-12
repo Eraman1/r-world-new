@@ -69,62 +69,63 @@ export const mortgage: IndustryConfig = {
   },
 
   solutions: {
-    mainTitle: "AI, Cloud & Automation Solutions for Mortgage Lending",
-    mainDescription:
-      "Our platforms automate the entire mortgage lifecycle — from origination and underwriting to servicing and compliance. Leverage AI, digital KYC, and predictive analytics to accelerate approvals, reduce risk, and enhance borrower experience.",
-    items: [
-      {
-        id: "mortgage-origination-ai",
-        icon: "Leaf", //FilePlus
-        title: "AI-Driven Mortgage Origination Systems",
-        subtitle: "",
-        description:
-          "Automate borrower onboarding, credit evaluation, and document verification for faster approvals and lower risk.",
-      },
-      {
-        id: "credit-risk-modeling",
-        icon: "Leaf", //BarChart
-        title: "Credit Risk Analytics & Scoring",
-        subtitle: "",
-        description:
-          "Use AI and machine learning to assess borrower creditworthiness and optimize lending decisions.",
-      },
-      {
-        id: "loan-servicing-platforms",
-        icon: "Leaf", //Settings
-        title: "Loan Servicing & Portfolio Management",
-        subtitle: "",
-        description:
-          "Manage repayments, amortization schedules, and portfolio tracking with real-time dashboards and automated workflows.",
-      },
-      {
-        id: "collections-automation",
-        icon: "Leaf", //TrendingUp
-        title: "AI-Powered Collections & Recovery",
-        subtitle: "",
-        description:
-          "Optimize delinquency management with predictive analytics, reminders, and intelligent recovery workflows.",
-      },
-      {
-        id: "compliance-regtech",
-        icon: "Leaf", //ShieldAlert
-        title: "RegTech & Compliance Automation",
-        subtitle: "",
-        description:
-          "Ensure adherence to KYC, AML, and mortgage regulations with automated compliance monitoring.",
-      },
-      {
-        id: "borrower-engagement",
-        icon: "Leaf", //User
-        title: "Customer Experience & Engagement Portals",
-        subtitle: "",
-        description:
-          "Deliver a seamless digital borrower journey through portals, mobile apps, and AI chatbots for support and updates.",
-      },
-    ],
-    linkText: "Get AI-Powered Mortgage Solutions",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "AI, Cloud & Automation Solutions for Mortgage Lending",
+  mainDescription:
+    "Our platforms automate the entire mortgage lifecycle — from origination and underwriting to servicing and compliance. Leverage AI, digital KYC, and predictive analytics to accelerate approvals, reduce risk, and enhance borrower experience.",
+  items: [
+    {
+      id: "mortgage-origination-ai",
+      icon: "Leaf", //FilePlus
+      title: "AI-Driven Mortgage Origination Systems",
+      subtitle: "",
+      description:
+        "Automate the entire borrower onboarding process with intelligent data extraction and AI verification tools. Speed up credit checks and underwriting using machine learning algorithms. Reduce manual errors and improve decision accuracy through digital workflows. Seamlessly integrate with CRMs and document repositories for end-to-end automation. Deliver faster loan approvals while maintaining full regulatory compliance.",
+    },
+    {
+      id: "credit-risk-modeling",
+      icon: "Leaf", //BarChart
+      title: "Credit Risk Analytics & Scoring",
+      subtitle: "",
+      description:
+        "Harness predictive analytics to evaluate borrower creditworthiness with precision. Use machine learning models to detect potential defaults before they occur. Continuously refine risk parameters through adaptive AI-driven scoring systems. Gain real-time insights into portfolio health and exposure management. Strengthen lending confidence by minimizing credit losses and risk bias.",
+    },
+    {
+      id: "loan-servicing-platforms",
+      icon: "Leaf", //Settings
+      title: "Loan Servicing & Portfolio Management",
+      subtitle: "",
+      description:
+        "Automate repayment tracking, escrow management, and amortization schedules. Provide lenders and borrowers with transparent, real-time performance dashboards. Streamline portfolio monitoring through cloud-based reporting tools. Enable early identification of delinquency trends and portfolio risks. Enhance operational efficiency while ensuring data-driven servicing decisions.",
+    },
+    {
+      id: "collections-automation",
+      icon: "Leaf", //TrendingUp
+      title: "AI-Powered Collections & Recovery",
+      subtitle: "",
+      description:
+        "Transform collections with intelligent workflows that predict borrower intent. Automate payment reminders, escalations, and follow-ups through digital channels. Leverage AI-based segmentation to personalize recovery strategies effectively. Analyze behavioral data to prioritize high-impact recovery cases. Improve overall recovery rates and reduce operational overheads.",
+    },
+    {
+      id: "compliance-regtech",
+      icon: "Leaf", //ShieldAlert
+      title: "RegTech & Compliance Automation",
+      subtitle: "",
+      description:
+        "Ensure continuous adherence to KYC, AML, and mortgage lending standards. Automate rule checks, audit trails, and compliance documentation workflows. Use AI to detect anomalies and flag potential regulatory breaches early. Simplify complex reporting with automated dashboards and alerts. Reduce compliance costs while maintaining full transparency and control.",
+    },
+    {
+      id: "borrower-engagement",
+      icon: "Leaf", //User
+      title: "Customer Experience & Engagement Portals",
+      subtitle: "",
+      description:
+        "Create personalized borrower experiences through AI-powered digital portals. Provide instant loan updates, document uploads, and support through chatbots. Increase engagement with mobile-first tools and intuitive user dashboards. Integrate omnichannel communication for consistent borrower interaction. Build trust and loyalty with responsive, transparent lending experiences.",
+    },
+  ],
+  linkText: "Get AI-Powered Mortgage Solutions",
+  linkUrl: "/contact-us",
+},
+
 
   managementSolutions: {
     title: "End-to-End Mortgage Management Software",
@@ -158,38 +159,132 @@ export const mortgage: IndustryConfig = {
       },
     ],
     bottomFeatures: [
-      {
-        id: "mobile-borrower-apps",
-        icon: "map", //Smartphone
-        title: "Mobile Mortgage Apps & Portals",
-        description:
-          "Allow borrowers to apply, track, and manage loans from mobile platforms with AI-powered assistance.",
-      },
-      {
-        id: "analytics-forecasting",
-        icon: "map", //Cpu
-        title: "Predictive Analytics & Forecasting",
-        description:
-          "Leverage AI to forecast repayment probabilities, identify defaults, and discover cross-selling opportunities.",
-      },
-      {
-        id: "collections-optimization",
-        icon: "map", //TrendingUp
-        title: "Collections & Recovery Optimization",
-        description:
-          "Automate collection reminders, optimize recovery strategies, and minimize defaults using machine learning.",
-      },
-      {
-        id: "data-security",
-        icon: "map", //Lock
-        title: "Data Security & Encryption",
-        description:
-          "Protect sensitive borrower and lender data with advanced encryption, authentication, and compliance frameworks.",
-      },
-    ],
-    ctaText: "BUILD YOUR MORTGAGE SOFTWARE SOLUTION",
-    onCtaClick: () => {},
+  {
+    id: "mobile-borrower-apps",
+    icon: "map", //Smartphone
+    title: "Mobile Mortgage Apps & Portals",
+    description:
+      "Enable borrowers to apply, track, and manage their loans anytime, anywhere. " +
+      "Offer a seamless mobile experience with intuitive dashboards and smart notifications. " +
+      "Integrate digital document uploads, loan calculators, and chatbot support. " +
+      "Provide real-time loan status updates to increase borrower transparency. " +
+      "Empower lenders with data-driven insights for faster loan processing.",
   },
+  {
+    id: "analytics-forecasting",
+    icon: "map", //Cpu
+    title: "Predictive Analytics & Forecasting",
+    description:
+      "Harness AI and data analytics to predict repayment behavior and loan performance. " +
+      "Identify potential defaults early and refine credit risk models proactively. " +
+      "Gain visibility into borrower patterns for informed lending decisions. " +
+      "Leverage data visualization to monitor trends and financial forecasts. " +
+      "Drive profitability through accurate, predictive financial insights.",
+  },
+  {
+    id: "collections-optimization",
+    icon: "map", //TrendingUp
+    title: "Collections & Recovery Optimization",
+    description:
+      "Automate borrower reminders, payment scheduling, and recovery workflows. " +
+      "Utilize machine learning to identify high-risk accounts and prioritize actions. " +
+      "Streamline communication with borrowers using omnichannel engagement tools. " +
+      "Monitor recovery effectiveness through real-time analytics dashboards. " +
+      "Reduce delinquencies and improve portfolio health with data-backed strategies.",
+  },
+  {
+    id: "data-security",
+    icon: "map", //Lock
+    title: "Data Security & Encryption",
+    description:
+      "Protect borrower and lender information with multi-layered encryption systems. " +
+      "Comply with global data protection standards such as GDPR and PCI DSS. " +
+      "Implement two-factor authentication and role-based access control. " +
+      "Detect and mitigate threats through automated security monitoring. " +
+      "Ensure trust and compliance with secure, auditable data frameworks.",
+  },
+],
+ctaText: "BUILD YOUR MORTGAGE SOFTWARE SOLUTION",
+onCtaClick: () => {},
+  },
+  managementSolutionsTwo: {
+  title: "Mortgage Management Software Solutions",
+  subtitle:
+    "Our mortgage software developers create intelligent platforms to streamline loan processes, improve borrower experiences, and drive operational efficiency for financial institutions.",
+  subtitleLink: { text: "mortgage software solutions", url: "#" },
+  laptopImage: "/images/mortgage-management.jpg",
+  mobileImage: "/images/mortgage-management-mobile.jpg",
+
+  topFeatures: [
+    {
+      id: "loan-origination",
+      icon: "FileText",
+      title: "Loan Origination & Processing Systems",
+      description:
+        "Automate loan applications, credit checks, and approvals. Accelerate processing while ensuring data accuracy and compliance.",
+      link: { text: "loan origination systems", url: "#" },
+    },
+    {
+      id: "servicing-platforms",
+      icon: "ClipboardList",
+      title: "Loan Servicing & Payment Platforms",
+      description:
+        "Manage repayments, escrow, and account adjustments easily. Enhance borrower communication through digital self-service portals.",
+      link: { text: "loan servicing software", url: "#" },
+    },
+    {
+      id: "compliance-security",
+      icon: "Shield",
+      title: "Compliance & Risk Management Systems",
+      description:
+        "Ensure adherence to mortgage regulations with automation. Identify risks early using audit trails and real-time reporting tools.",
+      link: { text: "mortgage compliance software", url: "#" },
+    },
+    {
+      id: "analytics-insights",
+      icon: "BarChart3",
+      title: "Analytics & Forecasting Dashboards",
+      description:
+        "Track portfolio performance and borrower trends visually. Use predictive analytics to make smarter lending decisions.",
+      link: { text: "mortgage analytics software", url: "#" },
+    },
+  ],
+
+  bottomFeatures: [
+    {
+      id: "crm-solutions",
+      icon: "Users",
+      title: "Mortgage CRM & Client Portals",
+      description:
+        "Build borrower portals for applications, tracking, and updates. Improve satisfaction with transparent and real-time engagement.",
+    },
+    {
+      id: "document-automation",
+      icon: "FileCheck2",
+      title: "Document Automation & E-Signatures",
+      description:
+        "Digitize loan documents and approvals securely online. Reduce paperwork with integrated e-signature and document workflows.",
+    },
+    {
+      id: "cloud-integration",
+      icon: "Cloud",
+      title: "Cloud-Based Mortgage Solutions",
+      description:
+        "Deploy scalable mortgage systems on AWS, Azure, or GCP. Enable remote access, faster updates, and enhanced data protection.",
+    },
+    {
+      id: "reporting-tools",
+      icon: "PieChart",
+      title: "Financial Reporting & Audit Tools",
+      description:
+        "Generate accurate loan performance and revenue reports. Simplify audits with automated data exports and dashboards.",
+    },
+  ],
+
+  ctaText: "GET MORTGAGE SOFTWARE DEVELOPERS",
+  onCtaClick: "/contact-us",
+},
+
   faq : {
   title: "Mortgage & Home Loan FAQ",
   items: [

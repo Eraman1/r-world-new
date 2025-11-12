@@ -8,7 +8,7 @@ export const machineLearning: OnDemandDevelopersConfig = {
     subtitle:
       "Leverage our expert ML engineers to build intelligent, data-driven solutions. From predictive analytics to AI automation, we help your business unlock the full power of machine learning.",
     image:
-      "https://cdn.pixabay.com/photo/2023/05/03/17/03/artificial-intelligence-7971851_1280.jpg",
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     linkText: "Hire Machine Learning Engineers",
   },
 
@@ -52,114 +52,114 @@ export const machineLearning: OnDemandDevelopersConfig = {
   ],
 
   solutions: {
-    mainTitle: "Custom Machine Learning Solutions",
-    mainDescription:
-      "We deliver scalable, intelligent ML solutions that drive automation, insight, and growth. Our engineers transform your data into actionable models tailored to your business goals.",
-    items: [
-      {
-        id: "predictive-analytics",
-        icon: "BarChart",
-        title: "Predictive Analytics & Forecasting",
-        description:
-          "Build powerful models to predict trends, customer behavior, and performance outcomes for smarter decision-making.",
-      },
-      {
-        id: "computer-vision",
-        icon: "Eye",
-        title: "Computer Vision Applications",
-        description:
-          "Develop vision-based AI systems for facial recognition, object detection, and image classification with precision.",
-      },
-      {
-        id: "nlp-solutions",
-        icon: "MessageCircle",
-        title: "Natural Language Processing (NLP)",
-        description:
-          "Create AI models that understand and process human language for chatbots, sentiment analysis, and automation.",
-      },
-      {
-        id: "recommendation-engines",
-        icon: "Star",
-        title: "Recommendation Engines",
-        description:
-          "Design ML-driven recommendation systems that enhance personalization and boost user engagement effectively.",
-      },
-      {
-        id: "ai-automation",
-        icon: "Bot",
-        title: "AI-Powered Automation",
-        description:
-          "Automate repetitive processes with intelligent systems that improve speed, efficiency, and accuracy across operations.",
-      },
-      {
-        id: "model-deployment",
-        icon: "Cloud",
-        title: "Model Deployment & Optimization",
-        description:
-          "Deploy and monitor ML models on cloud platforms ensuring scalability, accuracy, and continuous performance improvement.",
-      },
-    ],
-    linkText: "Hire Machine Learning Engineers",
-    linkUrl: "/contact-us",
-  },
+  mainTitle: "Intelligent Machine Learning Solutions",
+  mainDescription:
+    "Our expert machine learning engineers design, train, and deploy intelligent models that transform complex data into actionable intelligence. We build scalable, production-ready ML systems using advanced algorithms and cloud-native tools to enhance decision-making and business automation.",
+  items: [
+    {
+      id: "predictive-modeling",
+      icon: "Activity",
+      title: "Predictive Modeling & Forecasting",
+      description:
+        "Build predictive models that forecast outcomes and detect patterns from historical data. Use regression, classification, and time-series analysis for precision forecasting. Enable proactive business planning through accurate data predictions. Apply statistical validation to ensure model consistency and robustness.  Continuously improve performance with feedback-driven retraining.",
+    },
+    {
+      id: "deep-learning",
+      icon: "Cpu",
+      title: "Deep Learning Solutions",
+      description:
+        "Develop advanced neural networks for image, speech, and text understanding. Leverage frameworks like TensorFlow and PyTorch for deep learning pipelines. Train convolutional and recurrent models for domain-specific accuracy. Utilize GPUs and distributed systems for faster training efficiency.  Deliver intelligent, high-performance AI-powered systems.",
+    },
+    {
+      id: "nlp-ai",
+      icon: "MessageSquare",
+      title: "Natural Language Processing (NLP)",
+      description:
+        "Implement NLP systems for sentiment analysis, chatbots, and language modeling. Use transformer-based architectures like BERT and GPT for contextual accuracy. Process and extract insights from large text datasets effectively. Automate communication and document understanding with AI. Enhance customer experience through intelligent text analytics.",
+    },
+    {
+      id: "computer-vision",
+      icon: "Camera",
+      title: "Computer Vision Applications",
+      description:
+        "Build machine vision systems for detection, recognition, and image processing. Use CNNs, YOLO, and OpenCV for high-precision image analytics. Enable automation in healthcare, manufacturing, and surveillance. Optimize vision pipelines for speed, accuracy, and scalability. Transform image data into actionable business intelligence.",
+    },
+    {
+      id: "mlops",
+      icon: "Settings",
+      title: "MLOps & Model Deployment",
+      description:
+        "Automate the deployment and monitoring of ML models in production. Use CI/CD workflows with Docker and Kubernetes for scalability. Track performance metrics, drift, and retraining pipelines effectively. Integrate governance and version control for model transparency. Ensure continuous delivery of reliable AI applications.",
+    },
+    {
+      id: "data-pipelines",
+      icon: "Database",
+      title: "Data Pipeline Engineering",
+      description:
+        "Design end-to-end pipelines for seamless data ingestion and transformation. Handle massive datasets using Spark, Kafka, and Airflow for real-time processing. Ensure high-quality, structured data for training and evaluation. Enable faster experimentation through automated data workflows. Support scalable infrastructure for enterprise-grade ML systems.",
+    },
+  ],
+  linkText: "Hire Expert Machine Learning Engineers",
+  linkUrl: "/contact-us",
+},
 
-  topSkill: {
-    mainTitle: "Core Machine Learning Expertise",
-    mainDescription:
-      "Our engineers excel in designing, training, and deploying ML models that transform data into business intelligence and automation.",
-    items: [
-      {
-        id: "deep-learning",
-        icon: "Brain",
-        title: "Deep Learning Development",
-        link: "/contact-us",
-        description:
-          "Design and train neural networks for advanced image, speech, and pattern recognition applications.",
-      },
-      {
-        id: "data-engineering",
-        icon: "Database",
-        title: "Data Engineering & Processing",
-        link: "/contact-us",
-        description:
-          "Build pipelines to clean, process, and prepare massive datasets for machine learning and analytics.",
-      },
-      {
-        id: "model-training",
-        icon: "Activity",
-        title: "Model Training & Optimization",
-        link: "/contact-us",
-        description:
-          "Tune hyperparameters and optimize model accuracy for real-world deployment and scalability.",
-      },
-      {
-        id: "cloud-ml",
-        icon: "Cloud",
-        title: "Cloud-Based ML Deployment",
-        link: "/contact-us",
-        description:
-          "Deploy ML models on AWS, Azure, or GCP with automated scaling, monitoring, and updates.",
-      },
-      {
-        id: "ai-integration",
-        icon: "Layers",
-        title: "AI Integration & APIs",
-        link: "/contact-us",
-        description:
-          "Integrate ML and AI APIs into your existing systems for seamless automation and smart workflows.",
-      },
-      {
-        id: "maintenance",
-        icon: "Settings",
-        title: "Support & Maintenance",
-        link: "/contact-us",
-        description:
-          "Ensure long-term model performance with continuous tuning, retraining, and performance monitoring.",
-      },
-    ],
-    linkText: "Hire Machine Learning Experts",
-    linkUrl: "/contact-us",
-  },
+topSkill: {
+  mainTitle: "Core Machine Learning Engineering Skills",
+  mainDescription:
+    "Our machine learning engineers specialize in data modeling, algorithm design, and large-scale model deployment. We combine technical expertise with domain knowledge to deliver reliable, scalable, and high-impact AI-driven solutions.",
+  items: [
+    {
+      id: "machine-learning",
+      icon: "Brain",
+      title: "Machine Learning Development",
+      link: "/contact-us",
+      description:
+        "Design and train supervised and unsupervised ML algorithms. Use Python, TensorFlow, and Scikit-learn for predictive modeling. Implement classification, regression, and clustering solutions. Tune hyperparameters to enhance model efficiency and accuracy. Build intelligent systems that adapt and learn from data.",
+    },
+    {
+      id: "deep-learning",
+      icon: "Layers",
+      title: "Deep Learning & Neural Networks",
+      link: "/contact-us",
+      description:
+        "Develop neural networks for image, speech, and pattern recognition. Utilize CNNs, RNNs, and transformers for complex model architectures. Optimize training pipelines using GPUs and distributed systems. Apply advanced regularization and feature extraction techniques. Deliver AI systems with superior accuracy and adaptability.",
+    },
+    {
+      id: "nlp-engineering",
+      icon: "MessageSquare",
+      title: "Natural Language Processing",
+      link: "/contact-us",
+      description:
+        "Create NLP solutions for text analytics, chatbots, and summarization. Use tokenization, embeddings, and transformer-based models effectively. Train domain-specific models for better linguistic understanding. Automate content analysis, classification, and semantic search. Enhance workflows with AI-powered language intelligence.",
+    },
+    {
+      id: "computer-vision",
+      icon: "Camera",
+      title: "Computer Vision Engineering",
+      link: "/contact-us",
+      description:
+        "Implement image recognition and video analytics with OpenCV and PyTorch. Build models for object detection, segmentation, and classification. Enable automation for quality control and medical imaging use cases. Optimize visual models for real-time inference and performance. Translate visual data into actionable insights effectively.",
+    },
+    {
+      id: "mlops",
+      icon: "Server",
+      title: "MLOps & Model Management",
+      link: "/contact-us",
+      description:
+        "Establish CI/CD pipelines for training and deploying ML models. Manage datasets, experiments, and version control efficiently. Integrate ML workflows with Docker, Airflow, and Kubernetes. Automate retraining and monitoring for production reliability. Ensure continuous optimization and lifecycle transparency.",
+    },
+    {
+      id: "data-engineering",
+      icon: "Database",
+      title: "Data Engineering & Feature Pipelines",
+      link: "/contact-us",
+      description:
+        "Develop scalable data architectures for real-time analytics. Use ETL tools and cloud storage for structured data processing. Engineer high-quality features for model training and testing. Ensure data security, accessibility, and consistency organization-wide. Enable efficient collaboration between data and ML teams.",
+    },
+  ],
+  linkText: "Hire Expert Machine Learning Engineers",
+  linkUrl: "/contact-us",
+},
 
   faq: {
     title: "FAQ - On-Demand Machine Learning Engineers",
