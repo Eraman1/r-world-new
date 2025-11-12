@@ -29,7 +29,7 @@ const Banner: React.FC<BannerProps> = ({ data }) => {
       />
 
       {/* Overlay for readability */}
-      <div className="absolute inset-0 bg-blue-900/30"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-900/80 via-gray-900/50 to-gray-900/30 "></div>
 
       {/* Content */}
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white space-y-6">
@@ -50,7 +50,7 @@ const Banner: React.FC<BannerProps> = ({ data }) => {
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <Link
             href="/contact-us"
-            className="px-6 py-3 border border-amber-500 text-white font-medium rounded-full hover:bg-blue-500/10 transition"
+            className="px-6 py-3 border-2 border-white text-white font-medium rounded-full hover:bg-blue-500/10 transition"
           >
             {data.linkText || "Contact Us"}
           </Link>

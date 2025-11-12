@@ -287,17 +287,17 @@ const megaMenuData: MegaMenuData = {
 };
 
 const strategicPartners = [
-  { name: "Autodesk", link: "solutions/autodesk" },
-  { name: "AWS", link: "solutions/aws" },
-  { name: "Google Cloud", link: "solutions/google-cloud" },
-  { name: "IBM", link: "solutions/ibm" },
-  { name: "Microsoft", link: "solutions/microsoft" },
-  { name: "NetSuite", link: "solutions/net-suite" },
-  { name: "Oracle", link: "solutions/oracle" },
-  { name: "Salesforce", link: "solutions/salesforce" },
-  { name: "SAP", link: "solutions/sap" },
-  { name: "UKG", link: "solutions/ukg" },
-  { name: "UiPath", link: "solutions/uipath" },
+  { name: "Autodesk", link: "/solutions/autodesk" },
+  { name: "AWS", link: "/solutions/aws" },
+  { name: "Google Cloud", link: "/solutions/google-cloud" },
+  { name: "IBM", link: "/solutions/ibm" },
+  { name: "Microsoft", link: "/solutions/microsoft" },
+  { name: "NetSuite", link: "/solutions/net-suite" },
+  { name: "Oracle", link: "/solutions/oracle" },
+  { name: "Salesforce", link: "/solutions/salesforce" },
+  { name: "SAP", link: "/solutions/sap" },
+  { name: "UKG", link: "/solutions/ukg" },
+  { name: "UiPath", link: "/solutions/uipath" },
 ];
 
 const NewNavbar = () => {
