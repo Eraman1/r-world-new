@@ -273,7 +273,7 @@ const megaMenuData: MegaMenuData = {
       { title: "News & Events", link: "/company/news-events" },
       { title: "History", link: "/company/history" },
 
-      { title: "Reviews", link: "/company/reviews" },
+      { title: "Reviews", link: "/reviews" },
     ],
   },
 
