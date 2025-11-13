@@ -105,8 +105,9 @@ const ClientReviewsPage: React.FC = () => {
               Client Reviews & Testimonials
             </h1>
             <p className="text-xl text-blue-100">
-              Don't just take our word for it - hear what our clients have to
-              say about their experience working with R-World Software Solutions
+              Don&#39;t just take our word for it - hear what our clients have
+              to say about their experience working with R-World Software
+              Solutions
             </p>
           </div>
         </div>
@@ -136,11 +137,9 @@ const ClientReviewsPage: React.FC = () => {
                 </div>
               </div>
 
-             
-
               {/* Review Text */}
               <p className="text-gray-700 mb-4 flex-grow leading-relaxed">
-                "{review.review}"
+                &#34;{review.review}&#34;
               </p>
 
               {/* Date */}
@@ -161,11 +160,15 @@ const ClientReviewsPage: React.FC = () => {
               <div className="text-gray-600">Satisfaction Rate</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-amber-400 mb-2">1000+</div>
+              <div className="text-4xl font-bold text-amber-400 mb-2">
+                1000+
+              </div>
               <div className="text-gray-600">Projects Delivered</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-amber-400 mb-2">4.9/5</div>
+              <div className="text-4xl font-bold text-amber-400 mb-2">
+                4.9/5
+              </div>
               <div className="text-gray-600">Average Rating</div>
             </div>
           </div>
