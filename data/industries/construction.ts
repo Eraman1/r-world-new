@@ -135,8 +135,8 @@ export const construction: IndustryConfig = {
       subtitle:
          "Streamline your construction operations with end-to-end management tools designed to improve efficiency, collaboration, and profitability.",
       subtitleLink: { text: "land management software", url: "#" },
-      laptopImage: "/images/management-solutions.jpg",
-      mobileImage: "/images/management-solutions-mobile.jpg",
+      laptopImage: "https://images.unsplash.com/photo-1581092162384-8987c1d64718?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      mobileImage: "https://i.pinimg.com/736x/fb/f3/f4/fbf3f4474149a1e8f676ebd4b18f3ddc.jpg",
       topFeatures: [
         {
           id: "mapping",
@@ -201,7 +201,7 @@ onCtaClick: () => {},
   subtitle:
     "Our construction software developers build intelligent solutions to streamline project planning, site management, and resource allocation, driving efficiency and profitability.",
   subtitleLink: { text: "construction management software", url: "#" },
-  laptopImage: "/images/construction-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/0a/53/e8/0a53e8abb30e0b3af2afc661c4c5542d.jpg",
   mobileImage: "/images/construction-management-mobile.jpg",
 
   topFeatures: [

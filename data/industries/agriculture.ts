@@ -134,8 +134,9 @@ export const agriculture: IndustryConfig = {
     subtitle:
       "R-World land management software developers have vast agricultural industry-experience and first-hand knowledge of how to develop world-class solutions for agricultural operations.",
     subtitleLink: { text: "land management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://images.unsplash.com/photo-1744230673231-865d54a0aba4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    
+    mobileImage: "https://images.unsplash.com/photo-1580982169321-36e1ad95adba?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     topFeatures: [
       {
         id: "mapping",
@@ -199,7 +200,7 @@ export const agriculture: IndustryConfig = {
   subtitle:
     "Our agriculture technology experts craft intelligent land and crop management software solutions. We combine innovation, automation, and data-driven tools to help farmers and agribusinesses maximize productivity and sustainability.",
   subtitleLink: { text: "agriculture software development", url: "#" },
-  laptopImage: "/images/management-solutions.jpg",
+  laptopImage: "https://media.istockphoto.com/id/1463452372/photo/business-farmer-is-using-laptop-to-manage-their-farms-smart-farming-and-precision-agriculture.jpg?s=1024x1024&w=is&k=20&c=RXgzQ2GpfzoUhWmDGwN_tS5ugFDx-MiEdneSBb3Depg=",
   mobileImage: "/images/management-solutions-mobile.jpg",
   topFeatures: [
     {

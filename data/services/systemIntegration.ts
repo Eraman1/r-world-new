@@ -49,15 +49,14 @@ export const systemIntegration: ServiceConfig = {
   mainTitle: "Comprehensive System Integration Solutions",
   mainDescription:
     "We deliver end-to-end integration services to unify your applications, software, and data ecosystems. Our goal is to streamline connectivity, automation, and performance across your entire IT infrastructure.",
-  linkText: "Get Integration Services",
-  linkUrl: "/contact-us",
+  
 
   items: [
     {
       id: "api-integration",
       icon: "Leaf",
       title: "API Integration",
-      subtitle: "Streamline Data Communication",
+      subtitle: "",
       description:
         "Connect web, mobile, and enterprise applications through secure, scalable APIs. \nEnable instant data synchronization across platforms and services. \nReduce manual work with automated workflows and intelligent mapping. \nEnhance interoperability between systems for smooth operations. \nDeliver seamless, real-time experiences to users and teams.",
     },
@@ -65,7 +64,7 @@ export const systemIntegration: ServiceConfig = {
       id: "cloud-integration",
       icon: "Leaf",
       title: "Cloud Integration",
-      subtitle: "Connect Cloud & On-Premise Systems",
+      subtitle: "",
       description:
         "Integrate on-premise systems with leading cloud platforms like AWS, Azure, or Google Cloud. \nEnable smooth data flow and accessibility from any location. \nEnsure strong encryption and secure user authentication. \nSupport hybrid and multi-cloud environments for flexibility. \nAchieve improved scalability, uptime, and performance across workloads.",
     },
@@ -73,7 +72,7 @@ export const systemIntegration: ServiceConfig = {
       id: "data-integration",
       icon: "Leaf",
       title: "Data Integration",
-      subtitle: "Unify and Optimize Your Data",
+      subtitle: "",
       description:
         "Combine structured and unstructured data from multiple sources into one unified view. \nEnsure accuracy, consistency, and accessibility across departments. \nAutomate ETL pipelines for faster insights and analytics. \nEmpower teams with real-time dashboards and reporting tools. \nMake smarter business decisions with centralized data management.",
     },
@@ -81,7 +80,7 @@ export const systemIntegration: ServiceConfig = {
       id: "enterprise-integration",
       icon: "Leaf",
       title: "Enterprise Application Integration",
-      subtitle: "Unify Business Processes",
+      subtitle: "",
       description:
         "Connect ERP, CRM, HRM, and SCM applications for streamlined workflows. \nFacilitate data exchange and collaboration between business units. \nAutomate key processes to eliminate redundancy and delays. \nEnsure compatibility between legacy and modern systems. \nDrive productivity through end-to-end digital connectivity.",
     },
@@ -89,7 +88,7 @@ export const systemIntegration: ServiceConfig = {
       id: "legacy-integration",
       icon: "Leaf",
       title: "Legacy System Integration",
-      subtitle: "Modernize Existing Infrastructure",
+      subtitle: "",
       description:
         "Bridge outdated software with modern applications for better performance. \nPreserve valuable data and existing functionality without disruption. \nEliminate silos to enhance data flow and business agility. \nImplement secure connectors for old and new technologies. \nSupport long-term scalability and digital modernization goals.",
     },
@@ -97,11 +96,72 @@ export const systemIntegration: ServiceConfig = {
       id: "middleware-integration",
       icon: "Leaf",
       title: "Middleware Development",
-      subtitle: "Enable Smooth System Communication",
+      subtitle: "",
       description:
         "Develop powerful middleware solutions for efficient data exchange. \nConnect disparate systems to work together seamlessly. \nEnsure reliable communication with minimal latency and downtime. \nSimplify integration complexity through modular architecture. \nMaintain flexible, scalable systems that evolve with business needs.",
     },
   ],
+  linkText: "Get Integration Services",
+  linkUrl: "/contact-us",
+},
+solutionsTwo: {
+  mainTitle: "Advanced System Integration Solutions",
+  mainDescription:
+    "We deliver seamless system integration services that unify applications, databases, and workflows across your enterprise. Our integration experts enable smooth data exchange, automation, and interoperability, ensuring your digital ecosystem operates as one connected platform.",
+
+  items: [
+    {
+      id: "api-integration",
+      icon: "Leaf",
+      title: "API Development & Integration Services",
+      subtitle: "",
+      description:
+        "Design and connect APIs that unify your applications and data sources. \nEnable secure, real-time communication between internal and third-party systems. \nSimplify complex workflows with structured, scalable integrations. \nReduce redundancy and improve consistency across digital platforms. \nCreate flexible, future-ready architecture for expanding business needs.",
+    },
+    {
+      id: "cloud-connectivity",
+      icon: "Leaf",
+      title: "Cloud Integration & Data Synchronization",
+      subtitle: "",
+      description:
+        "Integrate on-premise and cloud-based applications for unified operations. \nEnsure seamless data flow between ERP, CRM, and analytics systems. \nLeverage APIs and middleware for smooth synchronization and control. \nEnhance visibility, performance, and scalability through connected systems. \nEmpower teams with real-time access to centralized cloud data.",
+    },
+    {
+      id: "enterprise-automation",
+      icon: "Leaf",
+      title: "Enterprise Workflow Automation Platforms",
+      subtitle: "",
+      description:
+        "Automate repetitive processes across departments for higher productivity. \nIntegrate HR, finance, and logistics systems under a single automation layer. \nUse rule-based and AI-driven workflows for faster decision-making. \nEliminate manual errors and delays with synchronized operations. \nStreamline your enterprise ecosystem with intelligent automation tools.",
+    },
+    {
+      id: "data-pipeline",
+      icon: "Leaf",
+      title: "Data Pipeline & Middleware Integration",
+      subtitle: "",
+      description:
+        "Build strong data pipelines for consistent and reliable data transfer. \nConnect legacy systems with modern applications effortlessly. \nUse middleware to handle data transformation, routing, and processing. \nEnsure real-time insights by integrating analytics and BI platforms. \nCreate a unified data layer for better visibility and decision support.",
+    },
+    {
+      id: "security-integration",
+      icon: "Shield",
+      title: "Security & Identity Management Integration",
+      subtitle: "",
+      description:
+        "Secure system connections with advanced authentication and encryption. \nUnify access control across all enterprise applications and APIs. \nIntegrate IAM, SSO, and compliance tools for secure user management. \nMonitor integrations for vulnerabilities and potential breaches. \nProtect data integrity while ensuring seamless user experiences.",
+    },
+    {
+      id: "iot-integration",
+      icon: "Leaf",
+      title: "IoT Device & Sensor Integration Platforms",
+      subtitle: "",
+      description:
+        "Connect IoT devices, sensors, and gateways to your enterprise network. \nEnable automated monitoring and control of physical assets in real time. \nIntegrate sensor data with analytics platforms for actionable insights. \nReduce downtime through predictive maintenance and alerts. \nBuild a connected infrastructure for smart, data-driven operations.",
+    },
+  ],
+
+  linkText: "Start Your Integration Project",
+  linkUrl: "/contact-us",
 },
 
 

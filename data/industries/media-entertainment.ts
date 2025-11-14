@@ -132,8 +132,8 @@ export const mediaentertainment: IndustryConfig = {
     subtitle:
       "We help media enterprises automate workflows, manage digital assets, and deliver real-time analytics that drive engagement and revenue growth.",
     subtitleLink: { text: "media management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/b1/86/9a/b1869a8b2b0501c2ab1effbb4fafb0d0.jpg",
+    mobileImage: "https://i.pinimg.com/736x/d3/fd/be/d3fdbe54b0f5644b21b26dbb08938629.jpg",
     topFeatures: [
       {
         id: "content-lifecycle",
@@ -197,7 +197,7 @@ managementSolutionsTwo: {
   subtitle:
     "We build innovative media and entertainment platforms that streamline content workflows, enhance audience engagement, and drive monetization through digital transformation.",
   subtitleLink: { text: "media management software", url: "#" },
-  laptopImage: "/images/media-entertainment.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/91/6b/4b/916b4bd44f429ba9d69e3976d778ae2d.jpg",
   mobileImage: "/images/media-entertainment-mobile.jpg",
 
   topFeatures: [

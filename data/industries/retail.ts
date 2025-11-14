@@ -157,8 +157,8 @@ export const retail: IndustryConfig = {
     subtitle:
       "Digitally transform your retail business with AI, automation, and data-driven insights to optimize every step from supplier to shopper.",
     subtitleLink: { text: "retail management software", url: "#" },
-    laptopImage: "/images/retail-laptop.jpg",
-    mobileImage: "/images/retail-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/af/f3/f4/aff3f4fa9dfc7f9c102eda26aa3831b2.jpg",
+    mobileImage: "https://i.pinimg.com/736x/db/d7/77/dbd777ca480c47e9e4e66d2f440a9bf5.jpg",
     topFeatures: [
       {
         id: "stock-control",
@@ -220,7 +220,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our retail software developers design intelligent platforms that streamline store operations, enhance customer experience, and boost sales through data-driven automation.",
   subtitleLink: { text: "retail management systems", url: "#" },
-  laptopImage: "/images/retail-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/c8/82/10/c882101d49cb19902d4da9311578a262.jpg",
   mobileImage: "/images/retail-management-mobile.jpg",
 
   topFeatures: [

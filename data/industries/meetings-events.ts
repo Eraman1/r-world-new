@@ -156,8 +156,8 @@ export const meetingsEvents: IndustryConfig = {
     subtitle:
       "We develop robust software that automates planning, registration, and operational workflows, providing seamless attendee experiences and actionable insights.",
     subtitleLink: { text: "event management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/f7/6c/c4/f76cc4b2138106a22782f76b9b2d5ec0.jpg",
+    mobileImage: "https://i.pinimg.com/736x/10/e2/8b/10e28b075799da6ba6cfd3f56bba34a7.jpg",
     topFeatures: [
       {
         id: "workflow-automation",
@@ -221,7 +221,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our meetings and events software developers build smart platforms to streamline event planning, attendee engagement, and scheduling with real-time collaboration and automation tools.",
   subtitleLink: { text: "event management software", url: "#" },
-  laptopImage: "/images/meetings-events.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/54/25/95/5425959122bfbe622b9aef01977f60cf.jpg",
   mobileImage: "/images/meetings-events-mobile.jpg",
 
   topFeatures: [

@@ -156,8 +156,8 @@ export const foodbeverage: IndustryConfig = {
     subtitle:
       "We build end-to-end F&B software systems that enhance traceability, streamline production, and drive operational efficiency for global food enterprises.",
     subtitleLink: { text: "food management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/2f/a2/dc/2fa2dc12865e057343b8270b0e909490.jpg",
+    mobileImage: "https://i.pinimg.com/736x/03/53/98/035398b21bfcb9769080d6a373cd4890.jpg",
     topFeatures: [
       {
         id: "production-tracking",
@@ -237,7 +237,7 @@ onCtaClick: () => {},
   subtitle:
     "Our food & beverage software developers create smart platforms to manage restaurants, cafes, and delivery services efficiently while boosting revenue and customer satisfaction.",
   subtitleLink: { text: "restaurant management software", url: "#" },
-  laptopImage: "/images/food-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/fd/94/64/fd9464ebc8195d42448a3a04120f619a.jpg",
   mobileImage: "/images/food-management-mobile.jpg",
 
   topFeatures: [

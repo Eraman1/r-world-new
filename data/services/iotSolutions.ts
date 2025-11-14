@@ -49,15 +49,14 @@ export const iotSolutions: ServiceConfig = {
   mainTitle: "Comprehensive IoT Development Solutions",
   mainDescription:
     "Our IoT solutions connect devices, data, and people seamlessly. We empower enterprises to build smart ecosystems that improve efficiency, automation, and innovation.",
-  linkText: "Get IoT Solutions",
-  linkUrl: "/contact-us",
+  
 
   items: [
     {
       id: "iot-apps",
       icon: "Leaf",
       title: "IoT Application Development",
-      subtitle: "Custom IoT Software & Dashboards",
+      subtitle: "",
       description:
         "Design and build scalable IoT applications for connected devices. \nEnable real-time monitoring, control, and performance insights. \nIntegrate APIs and automation workflows for seamless operations. \nVisualize key metrics through advanced dashboards. \nDeliver reliable, cloud-ready IoT ecosystems for enterprises.",
     },
@@ -65,7 +64,7 @@ export const iotSolutions: ServiceConfig = {
       id: "edge-computing",
       icon: "Leaf",
       title: "Edge Computing Solutions",
-      subtitle: "Process Data Closer to Devices",
+      subtitle: "",
       description:
         "Boost performance by processing data at the network edge. \nReduce latency and dependency on cloud infrastructure. \nImprove decision-making for time-critical operations. \nOptimize bandwidth and system responsiveness. \nEnsure reliability for industrial and remote IoT environments.",
     },
@@ -73,7 +72,7 @@ export const iotSolutions: ServiceConfig = {
       id: "iot-security",
       icon: "Leaf",
       title: "IoT Security Solutions",
-      subtitle: "Protect Connected Ecosystems",
+      subtitle: "",
       description:
         "Safeguard connected systems against evolving cyber threats. \nImplement encryption, secure authentication, and threat detection. \nMaintain compliance with global IoT security standards. \nMonitor vulnerabilities and respond proactively. \nBuild user trust through consistent data protection.",
     },
@@ -81,7 +80,7 @@ export const iotSolutions: ServiceConfig = {
       id: "data-analytics",
       icon: "Leaf",
       title: "IoT Data Analytics",
-      subtitle: "Turn Data into Insights",
+      subtitle: "",
       description:
         "Leverage real-time IoT data for actionable business intelligence. \nUse AI and ML models for predictive analytics and maintenance. \nTransform raw data into visual insights through dashboards. \nEnable faster, evidence-based decision-making. \nUnlock hidden opportunities to optimize performance.",
     },
@@ -89,7 +88,7 @@ export const iotSolutions: ServiceConfig = {
       id: "smart-home",
       icon: "Leaf",
       title: "Smart Home & Consumer IoT",
-      subtitle: "Connected Living Experiences",
+      subtitle: "",
       description:
         "Create intelligent home ecosystems for modern living. \nIntegrate sensors, smart assistants, and connected appliances. \nEnhance energy efficiency and device control remotely. \nDeliver seamless connectivity via mobile and cloud apps. \nImprove comfort, safety, and overall user experience.",
     },
@@ -97,12 +96,75 @@ export const iotSolutions: ServiceConfig = {
       id: "industrial-iot",
       icon: "Leaf",
       title: "Industrial IoT Solutions",
-      subtitle: "Empower Smart Industries",
+      subtitle: "",
       description:
         "Deploy IoT solutions to transform industrial operations. \nAutomate production lines and supply chain processes. \nUtilize predictive maintenance to reduce downtime. \nEnable real-time monitoring for asset performance. \nEnhance efficiency, safety, and operational visibility.",
     },
   ],
+  linkText: "Get IoT Solutions",
+  linkUrl: "/contact-us",
 },
+
+solutionsTwo: {
+  mainTitle: "Next-Generation IoT Software Solutions",
+  mainDescription:
+    "We design intelligent IoT ecosystems that connect devices, systems, and data in real time. Our IoT solutions enable automation, monitoring, and analytics for smart industries. Empower your organization to operate efficiently and make data-driven decisions with connected intelligence.",
+
+  items: [
+    {
+      id: "smart-manufacturing",
+      icon: "Leaf",
+      title: "Smart Manufacturing & Industrial IoT Systems",
+      subtitle: "",
+      description:
+        "Integrate connected machinery and sensors across your production floor. \nMonitor performance, predict equipment failures, and optimize workflows. \nOur IIoT systems enhance visibility and reduce downtime through automation. \nUse real-time analytics to maintain consistent quality and safety. \nTransform factories into intelligent, self-optimizing operations.",
+    },
+    {
+      id: "smart-cities",
+      icon: "Leaf",
+      title: "Smart City Infrastructure & Urban Automation",
+      subtitle: "",
+      description:
+        "Deploy IoT-powered systems for traffic, lighting, and public utilities. \nEnhance urban management through predictive maintenance and analytics. \nCollect and analyze real-time data from connected devices across cities. \nImprove sustainability, energy efficiency, and citizen safety. \nBuild intelligent cities that respond dynamically to human needs.",
+    },
+    {
+      id: "fleet-monitoring",
+      icon: "Leaf",
+      title: "Fleet Management & Vehicle Telematics",
+      subtitle: "",
+      description:
+        "Track vehicles, routes, and drivers in real time using IoT telemetry. \nOptimize delivery times, fuel usage, and maintenance schedules efficiently. \nIntegrate GPS, RFID, and sensor data for complete visibility and control. \nGet predictive alerts to prevent delays or mechanical failures. \nStreamline logistics with intelligent, connected fleet solutions.",
+    },
+    {
+      id: "energy-automation",
+      icon: "Leaf",
+      title: "Energy Management & Smart Grid Automation",
+      subtitle: "",
+      description:
+        "Monitor and optimize energy flow through connected smart grids. \nUse IoT devices to track power usage and detect inefficiencies instantly. \nAutomate grid operations with predictive analytics and real-time control. \nIntegrate renewable sources for sustainable power distribution. \nReduce energy costs while ensuring reliability and efficiency.",
+    },
+    {
+      id: "healthcare-iot",
+      icon: "Leaf",
+      title: "Connected Healthcare & Remote Monitoring",
+      subtitle: "",
+      description:
+        "Enable patient monitoring through wearable and IoT-connected devices. \nCollect and transmit health data securely for real-time diagnostics. \nUse predictive alerts to detect abnormalities before emergencies occur. \nEnhance care efficiency through automation and continuous data flow. \nEmpower providers with connected, patient-centric healthcare insights.",
+    },
+    {
+      id: "agriculture-iot",
+      icon: "Leaf",
+      title: "Smart Agriculture & Environmental Monitoring",
+      subtitle: "",
+      description:
+        "Leverage IoT sensors to monitor soil, crops, and weather conditions. \nAutomate irrigation, fertilizer use, and yield optimization with AI insights. \nGather precise data for sustainable and profitable farming practices. \nReduce resource waste while improving output consistency. \nCultivate smarter farms with connected, data-driven decision systems.",
+    },
+  ],
+
+  linkText: "Build Your IoT Solution Today",
+  linkUrl: "/contact-us",
+},
+
 
 
   managementSolutions: {

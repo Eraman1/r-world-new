@@ -49,14 +49,12 @@ export const artificialIntelligence: ServiceConfig = {
   mainTitle: "Comprehensive AI & ML Solutions",
   mainDescription:
     "We deliver end-to-end AI development services, from model design to seamless deployment. Our intelligent systems empower enterprises to automate operations, enhance performance, and make data-driven decisions.",
-  linkText: "Get AI-Powered Solutions",
-  linkUrl: "/contact-us",
   items: [
     {
       id: "ml-solutions",
       icon: "Leaf",
       title: "Machine Learning Solutions",
-      subtitle: "Predictive & Data-Driven Models",
+      subtitle: "",
       description:
         "Build intelligent ML models that predict future outcomes with precision. \nLeverage algorithms to uncover insights from massive datasets. \nAutomate complex decision-making for faster results. \nContinuously refine models through adaptive learning. \nDrive smarter strategies and accurate forecasting for growth.",
     },
@@ -64,7 +62,7 @@ export const artificialIntelligence: ServiceConfig = {
       id: "nlp-solutions",
       icon: "Leaf",
       title: "Natural Language Processing",
-      subtitle: "Understand Human Language",
+      subtitle: "",
       description:
         "Develop AI systems that comprehend human speech and text naturally. \nExtract meaning, emotion, and sentiment from real-world conversations. \nAutomate chatbots and voice assistants for customer support. \nTransform text into structured insights for analytics. \nEnhance user experience through smarter communication tools.",
     },
@@ -72,7 +70,7 @@ export const artificialIntelligence: ServiceConfig = {
       id: "cv-solutions",
       icon: "Leaf",
       title: "Computer Vision Systems",
-      subtitle: "See & Understand Images",
+      subtitle: "",
       description:
         "Design AI that detects, classifies, and interprets visual data. \nAutomate quality checks and real-time monitoring in any environment. \nImprove security, safety, and operational visibility. \nReduce manual errors through automated visual inspection. \nUse image intelligence for industries like healthcare and retail.",
     },
@@ -80,7 +78,7 @@ export const artificialIntelligence: ServiceConfig = {
       id: "ai-automation",
       icon: "Leaf",
       title: "AI-Powered Automation",
-      subtitle: "Smart Business Operations",
+      subtitle: "",
       description:
         "Integrate AI-driven automation into your daily workflows. \nUse bots to perform repetitive tasks with accuracy and speed. \nBoost operational efficiency and cost-effectiveness. \nCombine rule-based logic with cognitive intelligence. \nEnable round-the-clock smart automation across all departments.",
     },
@@ -88,7 +86,7 @@ export const artificialIntelligence: ServiceConfig = {
       id: "data-analytics",
       icon: "Leaf",
       title: "Data Analytics & Insights",
-      subtitle: "Turn Data into Decisions",
+      subtitle: "",
       description:
         "Collect, clean, and transform data into actionable intelligence. \nIdentify trends, risks, and opportunities using advanced analytics. \nCreate predictive dashboards and visual reports. \nEnable real-time insights for faster decision-making. \nEmpower leaders with clear, data-backed business strategies.",
     },
@@ -96,12 +94,74 @@ export const artificialIntelligence: ServiceConfig = {
       id: "ai-integration",
       icon: "Leaf",
       title: "AI Integration Services",
-      subtitle: "Seamless Implementation",
+      subtitle: "",
       description:
         "Embed AI seamlessly into existing systems, apps, or platforms. \nConnect models to APIs, databases, and cloud environments. \nEnsure smooth performance with optimized infrastructure. \nEnable interoperability across enterprise tools and workflows. \nDeliver scalable, secure, and future-ready AI ecosystems.",
     },
   ],
+  linkText: "Build Your AI Solution Today",
+    linkUrl: "/contact-us",
 },
+ solutionsTwo: {
+  mainTitle: "Innovative Artificial Intelligence Solutions",
+  mainDescription:
+    "We build intelligent, data-driven AI systems that empower businesses to automate processes, predict outcomes, and make smarter decisions. Our AI solutions enhance efficiency, scalability, and innovation across multiple industries.",
+
+  items: [
+    {
+      id: "predictive-analytics",
+      icon: "Shield",
+      title: "Predictive Analytics & Data Modeling",
+      subtitle: "",
+      description:
+        "Leverage historical and real-time data to forecast trends and behaviors. \nOur AI models uncover insights that drive smarter business strategies. \nWe fine-tune algorithms for accuracy, adaptability, and performance. \nEmpower your teams to make data-backed, confident decisions. \nPredict change before it happens with precision-driven intelligence.",
+    },
+    {
+      id: "nlp-solutions",
+      icon: "Shield",
+      title: "Natural Language Processing (NLP) Systems",
+      subtitle: "",
+      description:
+        "Build AI models that comprehend, interpret, and generate human language. \nWe create intelligent chatbots, translators, and sentiment analysis tools. \nOur NLP engines process text, voice, and contextual meaning accurately. \nEnhance customer experience with natural, conversational interfaces. \nBridge communication gaps through real-time linguistic intelligence.",
+    },
+    {
+      id: "computer-vision",
+      icon: "Shield",
+      title: "Computer Vision & Image Recognition",
+      subtitle: "",
+      description:
+        "Develop AI-powered systems that interpret and analyze visual data. \nFrom facial recognition to quality inspection, accuracy is paramount. \nWe integrate vision models with cameras, drones, and sensors seamlessly. \nAutomate detection, classification, and decision-making tasks. \nTransform visual information into actionable business intelligence.",
+    },
+    {
+      id: "ml-automation",
+      icon: "Shield",
+      title: "Machine Learning Automation Platforms",
+      subtitle: "",
+      description:
+        "Automate workflows with self-learning algorithms that adapt over time. \nWe design scalable ML pipelines for prediction, clustering, and analysis. \nOur automation frameworks continuously refine based on new data. \nReduce manual intervention while improving accuracy and insights. \nEmpower your business with AI that learns and evolves autonomously.",
+    },
+    {
+      id: "ai-security",
+      icon: "Shield",
+      title: "AI-Powered Security & Risk Detection",
+      subtitle: "",
+      description:
+        "Detect anomalies and threats before they impact your operations. \nOur AI systems monitor data patterns for fraud and cyber risk. \nWe combine predictive analytics with real-time alerting mechanisms. \nAutomate risk prevention through adaptive learning models. \nStay secure with proactive, intelligent defense across all systems.",
+    },
+    {
+      id: "generative-ai",
+      icon: "Shield",
+      title: "Generative AI & Intelligent Content Creation",
+      subtitle: "",
+      description:
+        "Use AI to generate text, visuals, and designs with unmatched creativity. \nWe develop custom generative models for media, marketing, and design. \nOur solutions combine creativity with precision and contextual awareness. \nAccelerate content pipelines through automation and personalization. \nEmpower innovation with intelligent, AI-driven creation tools.",
+    },
+  ],
+
+  linkText: "Build Your AI Solution Today",
+  linkUrl: "/contact-us",
+},
+
 
 
   managementSolutions: {

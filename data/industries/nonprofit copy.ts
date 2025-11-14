@@ -127,13 +127,13 @@ export const nonprofit: IndustryConfig = {
 },
 
 
-  managementSolutions: {
+  managementSolutions:{
     title: "End-to-End Nonprofit Management Software",
     subtitle:
       "We design intelligent nonprofit ecosystems that integrate donor management, fundraising, volunteer coordination, and analytics to help organizations scale impact efficiently.",
     subtitleLink: { text: "nonprofit management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/3a/92/47/3a924788f85935ca8fe494840e119fa0.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/74/29/e2/7429e2f1931d41e4abb8600cd684c5a2.jpg",
     topFeatures: [
       {
         id: "workflow-automation",

@@ -132,8 +132,8 @@ export const oilGas: IndustryConfig = {
     subtitle:
       "Empower exploration, drilling, and production with integrated platforms for real-time monitoring, analytics, and decision-making.",
     subtitleLink: { text: "oil and gas management software", url: "#" },
-    laptopImage: "/images/oil-gas-laptop.jpg",
-    mobileImage: "/images/oil-gas-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/a5/39/19/a5391921445483abb1a8ab7fb78c1fef.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/31/40/06/3140064914def3841b80c4076ace48aa.jpg",
     topFeatures: [
       {
         id: "asset-automation",
@@ -211,7 +211,7 @@ onCtaClick: () => {},
   subtitle:
     "Our oil & gas software experts build digital platforms to streamline exploration, production, and asset management while maximizing safety and operational efficiency.",
   subtitleLink: { text: "oil & gas software development", url: "#" },
-  laptopImage: "/images/oil-gas-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/19/35/da/1935dad1470244b6ea1b60ae9385aa41.jpg",
   mobileImage: "/images/oil-gas-management-mobile.jpg",
 
   topFeatures: [

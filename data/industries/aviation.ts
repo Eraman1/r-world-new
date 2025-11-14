@@ -15,6 +15,11 @@ export const aviation: IndustryConfig = {
     heading: "Hire Expert Aviation Software Developers",
     description:
       "Our aviation software developers deliver custom digital solutions for airlines, airports, and aerospace enterprises. We help aviation businesses improve operational efficiency, safety compliance, and passenger satisfaction through advanced technology.",
+    //   deviceImages: {
+    //   laptop: "https://i.pinimg.com/736x/60/09/57/600957818ab3dc5b0db39d4cecd11dc0.jpg",
+    //   tablet: "/images/devices/tablet-agri.png",
+    //   mobile: "/images/devices/mobile-agri.png",
+    // },
     services: [
       {
         id: "land",
@@ -65,11 +70,7 @@ export const aviation: IndustryConfig = {
         position: "right",
       },
     ],
-    // deviceImages: {
-    //   laptop: "/images/devices/laptop-agri.png",
-    //   tablet: "/images/devices/tablet-agri.png",
-    //   mobile: "/images/devices/mobile-agri.png",
-    // },
+    
   },
   solutions: {
   mainTitle: "AI, IoT & Cloud Solutions for Modern Aviation",
@@ -135,8 +136,8 @@ export const aviation: IndustryConfig = {
     subtitle:
       "Our full-cycle aviation software solutions empower airlines, airports, and aviation service providers to operate with precision, efficiency, and compliance.",
     subtitleLink: { text: "land management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/6c/dc/bd/6cdcbdadc3ad6d24a06e7d07a253ccfe.jpg",
+    mobileImage: "https://i.pinimg.com/736x/ac/60/16/ac60164f046b06cbc5c1aeb9fa7da3fe.jpg",
     topFeatures: [
       {
         id: "mapping",
@@ -201,8 +202,8 @@ onCtaClick: () => {},
   subtitle:
     "Our aviation software developers deliver modern solutions to optimize flight operations, streamline maintenance, and enhance passenger experience through digital innovation.",
   subtitleLink: { text: "aviation management software", url: "#" },
-  laptopImage: "/images/management-solutions.jpg",
-  mobileImage: "/images/management-solutions-mobile.jpg",
+  laptopImage: "https://i.pinimg.com/736x/42/65/c9/4265c99ba276f5e8b1ecbf8a11dac164.jpg",
+  mobileImage: "https://i.pinimg.com/736x/42/65/c9/4265c99ba276f5e8b1ecbf8a11dac164.jpg",
   topFeatures: [
     {
       id: "flight-operations",

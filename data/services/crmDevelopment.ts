@@ -49,8 +49,6 @@ export const crmDevelopment: ServiceConfig = {
   mainTitle: "Comprehensive CRM Development Solutions",
   mainDescription:
     "We deliver end-to-end CRM development services — from strategy and customization to integration and automation — empowering businesses to manage customer relationships effectively, boost collaboration, and accelerate revenue growth.",
-  linkText: "Get CRM Solutions",
-  linkUrl: "/contact-us",
   items: [
     {
       id: "crm-customization",
@@ -101,7 +99,69 @@ export const crmDevelopment: ServiceConfig = {
         "Deploy your CRM securely on AWS, Azure, or Google Cloud. \nEnsure real-time access for distributed teams with high uptime. \nEnable automatic backups and data recovery systems. \nScale resources dynamically as your business grows. \nDeliver flexibility, security, and performance from anywhere.",
     },
   ],
+  linkText: "Get CRM Solutions",
+  linkUrl: "/contact-us",
 },
+solutionsTwo: {
+  mainTitle: "Intelligent CRM Development Solutions",
+  mainDescription:
+    "We craft advanced CRM systems designed to streamline sales, automate workflows, and strengthen customer relationships. Our CRM platforms empower teams with insights, personalization, and data-driven decision-making for sustainable business growth.",
+
+  items: [
+    {
+      id: "customer-insights",
+      icon: "Leaf",
+      title: "Customer Insights & Data Intelligence",
+      subtitle: "",
+      description:
+        "Unlock valuable insights from customer interactions and behaviors. \nOur CRM analytics tools help forecast sales trends and retention risks. \nSegment audiences for targeted communication and engagement. \nVisualize data with interactive dashboards and custom reports. \nMake smarter decisions driven by unified, real-time customer data.",
+    },
+    {
+      id: "sales-automation",
+      icon: "Leaf",
+      title: "Sales Pipeline & Workflow Automation",
+      subtitle: "",
+      description:
+        "Automate repetitive sales tasks to boost productivity and accuracy. \nTrack leads, deals, and opportunities across every stage in real-time. \nSet triggers for follow-ups, notifications, and performance metrics. \nReduce manual effort and streamline your sales processes. \nAccelerate conversions with a smart, automated sales engine.",
+    },
+    {
+      id: "customer-support",
+      icon: "Leaf",
+      title: "Customer Support & Ticket Management",
+      subtitle: "",
+      description:
+        "Deliver faster, more personalized support with AI-integrated CRM tools. \nCentralize customer inquiries across chat, email, and social channels. \nAssign tickets automatically based on issue type and priority. \nUse analytics to track response times and satisfaction levels. \nEnhance loyalty through consistent, proactive customer care.",
+    },
+    {
+      id: "marketing-hub",
+      icon: "Leaf",
+      title: "Marketing Automation & Campaign Management",
+      subtitle: "",
+      description:
+        "Plan, launch, and analyze campaigns from a single CRM dashboard. \nAutomate email, SMS, and social media workflows effortlessly. \nSegment customers by behavior, demographics, or purchase history. \nMeasure ROI with real-time marketing analytics and insights. \nEngage the right audience with personalized communication at scale.",
+    },
+    {
+      id: "integration-suite",
+      icon: "Leaf",
+      title: "CRM Integration & Data Synchronization",
+      subtitle: "",
+      description:
+        "Connect your CRM with ERP, HRM, and third-party business systems. \nEnsure smooth data synchronization across departments and tools. \nUse APIs and middleware for secure, automated data transfers. \nEliminate silos and improve operational transparency organization-wide. \nUnify your business ecosystem for seamless digital collaboration.",
+    },
+    {
+      id: "ai-driven-crm",
+      icon: "Leaf",
+      title: "AI-Driven Predictive CRM Solutions",
+      subtitle: "",
+      description:
+        "Harness artificial intelligence to anticipate customer needs and trends. \nAnalyze behavioral patterns to predict churn and sales opportunities. \nAutomate recommendations for upselling and cross-selling strategies. \nEmpower teams with real-time intelligence for smarter interactions. \nTransform your CRM into a predictive, data-driven powerhouse.",
+    },
+  ],
+
+  linkText: "Build Your CRM Platform Today",
+  linkUrl: "/contact-us",
+},
+
 
 
   managementSolutions: {

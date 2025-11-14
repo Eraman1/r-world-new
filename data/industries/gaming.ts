@@ -132,8 +132,8 @@ export const gaming: IndustryConfig = {
     subtitle:
       "We design next-gen platforms and tools that enhance development workflows, player engagement, and competitive gaming management.",
     subtitleLink: { text: "gaming software development", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/85/2d/0a/852d0afcdbfdd09ab5bc31cc358c3162.jpg",
+    mobileImage: "https://i.pinimg.com/736x/1c/62/86/1c628630545671a69c8155284132f498.jpg",
     topFeatures: [
       {
         id: "studio-tools",
@@ -213,7 +213,7 @@ onCtaClick: () => {},
   subtitle:
     "Our gaming software developers build innovative platforms to manage gameplay, enhance engagement, and maximize revenue across digital gaming ecosystems.",
   subtitleLink: { text: "gaming management systems", url: "#" },
-  laptopImage: "/images/gaming-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/e1/a0/cc/e1a0cc43be1c401cfe2a01dd6ebd72f3.jpg",
   mobileImage: "/images/gaming-management-mobile.jpg",
 
   topFeatures: [

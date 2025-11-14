@@ -133,8 +133,8 @@ export const realEstate: IndustryConfig = {
     subtitle:
       "Digitize every aspect of your real estate operations with AI, automation, and integrated data analytics for a smarter, more transparent ecosystem.",
     subtitleLink: { text: "real estate software", url: "#" },
-    laptopImage: "/images/real-estate-laptop.jpg",
-    mobileImage: "/images/real-estate-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/55/54/aa/5554aa9b7279042e83d29e382eae8d25.jpg",
+    mobileImage: "https://i.pinimg.com/736x/14/f5/6d/14f56df09c193369a6eaaa394af16196.jpg",
     topFeatures: [
       {
         id: "portfolio-tracking",
@@ -213,7 +213,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our real estate software developers build intelligent platforms to manage property listings, automate workflows, and streamline sales and leasing operations with data-driven insights.",
   subtitleLink: { text: "real estate management software", url: "#" },
-  laptopImage: "/images/real-estate-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/e5/72/b0/e572b07dfc7c4590726560ac0985a7a9.jpg",
   mobileImage: "/images/real-estate-management-mobile.jpg",
 
   topFeatures: [

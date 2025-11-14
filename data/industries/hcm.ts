@@ -132,8 +132,8 @@ export const hcm: IndustryConfig = {
     subtitle:
       "We build robust, scalable, and intelligent HCM systems that simplify HR operations, improve decision-making, and drive employee engagement.",
     subtitleLink: { text: "human capital management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/c5/69/1a/c5691a8d279655af7802bd5454ea2576.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/0e/14/f9/0e14f9b48e7b575b8a9b093c993853f8.jpg",
     topFeatures: [
       {
         id: "hr-automation",
@@ -197,7 +197,7 @@ onCtaClick: () => {},
   subtitle:
     "Our HCM software developers build intelligent HR platforms to streamline employee management, boost engagement, and drive organizational growth.",
   subtitleLink: { text: "HCM software development", url: "#" },
-  laptopImage: "/images/hcm-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/ac/46/ac/ac46accaee6119b0a84f51a584ac677f.jpg",
   mobileImage: "/images/hcm-management-mobile.jpg",
 
   topFeatures: [

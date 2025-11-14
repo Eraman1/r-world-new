@@ -49,15 +49,14 @@ export const cybersecurity: ServiceConfig = {
   mainTitle: "Cybersecurity Solutions for Modern Businesses",
   mainDescription:
     "Our cybersecurity solutions protect your infrastructure, data, and reputation from evolving threats. We empower organizations to detect risks, respond swiftly, and maintain compliance with global security standards.",
-  linkText: "Get Cybersecurity Solutions",
-  linkUrl: "/contact-us",
+  
 
   items: [
     {
       id: "risk-assessment",
       icon: "Shield",
       title: "Risk Assessment & Compliance",
-      subtitle: "Identify & Mitigate Threats",
+      subtitle: "",
       description:
         "Evaluate IT systems for vulnerabilities and security gaps. \nImplement proactive risk assessment and compliance checks. \nEnsure adherence to GDPR, HIPAA, ISO, and PCI DSS standards. \nRegularly audit security measures to prevent data breaches. \nBuild a strong, compliant foundation for business growth.",
     },
@@ -65,7 +64,7 @@ export const cybersecurity: ServiceConfig = {
       id: "threat-detection",
       icon: "Shield",
       title: "Threat Detection & Response",
-      subtitle: "Stay Ahead of Cyber Attacks",
+      subtitle: "",
       description:
         "Deploy AI-driven tools to monitor suspicious activity in real time. \nDetect, isolate, and neutralize emerging cyber threats instantly. \nAutomate responses to minimize downtime and system disruption. \nAnalyze incident patterns for proactive defense strategies. \nEnsure operational resilience through rapid threat recovery.",
     },
@@ -73,7 +72,7 @@ export const cybersecurity: ServiceConfig = {
       id: "data-protection",
       icon: "Shield",
       title: "Data Protection & Encryption",
-      subtitle: "Secure Sensitive Information",
+      subtitle: "",
       description:
         "Encrypt critical data during storage and transmission. \nImplement multi-layer access controls and identity verification. \nPrevent data leaks through advanced encryption algorithms. \nProtect intellectual property and confidential information. \nComply with international privacy and protection frameworks.",
     },
@@ -81,7 +80,7 @@ export const cybersecurity: ServiceConfig = {
       id: "endpoint-security",
       icon: "Shield",
       title: "Endpoint & Device Security",
-      subtitle: "Protect Every Connected Device",
+      subtitle: "",
       description:
         "Secure all endpoints including desktops, laptops, and IoT devices. \nDeploy EDR, antivirus, and mobile device management systems. \nIdentify and block unauthorized apps or activities instantly. \nReduce attack surfaces with automated patch management. \nMaintain full visibility and control across your network.",
     },
@@ -89,7 +88,7 @@ export const cybersecurity: ServiceConfig = {
       id: "incident-management",
       icon: "Shield",
       title: "Incident Management & Recovery",
-      subtitle: "Minimize Damage & Downtime",
+      subtitle: "",
       description:
         "Develop structured response plans for security incidents. \nDetect and contain breaches quickly to reduce impact. \nConduct detailed forensics and root-cause analysis. \nImplement remediation actions to prevent future attacks. \nRestore systems rapidly and maintain business continuity.",
     },
@@ -97,12 +96,74 @@ export const cybersecurity: ServiceConfig = {
       id: "security-awareness",
       icon: "Shield",
       title: "Security Awareness Training",
-      subtitle: "Empower Teams Against Threats",
+      subtitle: "",
       description:
         "Educate employees on phishing, malware, and data safety. \nRun real-world simulations to strengthen readiness. \nPromote secure practices and reduce insider threats. \nEncourage active participation in threat prevention. \nFoster a culture of security awareness company-wide.",
     },
   ],
+  linkText: "Get Cybersecurity Solutions",
+  linkUrl: "/contact-us",
 },
+solutionsTwo: {
+  mainTitle: "Advanced Cybersecurity Software Solutions",
+  mainDescription:
+    "We build next-generation cybersecurity systems that protect digital infrastructure, secure data, and mitigate evolving threats. Our solutions combine AI, automation, and analytics to deliver continuous, proactive defense across networks, applications, and cloud environments.",
+
+  items: [
+    {
+      id: "threat-intelligence",
+      icon: "Shield",
+      title: "Threat Intelligence & Incident Response",
+      subtitle: "",
+      description:
+        "Identify and respond to cyber threats with real-time intelligence. \nOur systems collect, analyze, and prioritize potential vulnerabilities. \nAutomate alerts to accelerate detection and response workflows. \nEnable rapid containment and recovery from security breaches. \nEmpower your SOC team with actionable, AI-driven insights.",
+    },
+    {
+      id: "network-protection",
+      icon: "Shield",
+      title: "Network Security & Intrusion Prevention",
+      subtitle: "",
+      description:
+        "Safeguard network infrastructure with multi-layered defense protocols. \nDetect unauthorized access and malicious traffic instantly. \nWe deploy firewalls, IDS/IPS, and anomaly detection systems. \nEnhance performance without compromising data protection. \nKeep your organization’s network resilient against evolving attacks.",
+    },
+    {
+      id: "cloud-security",
+      icon: "Shield",
+      title: "Cloud Security & Data Protection",
+      subtitle: "",
+      description:
+        "Protect sensitive assets stored in hybrid and multi-cloud environments. \nImplement encryption, access control, and compliance monitoring. \nPrevent data breaches with continuous vulnerability scanning. \nEnsure secure migration and real-time threat visibility. \nMaintain integrity and privacy across all digital ecosystems.",
+    },
+    {
+      id: "identity-access",
+      icon: "Shield",
+      title: "Identity & Access Management (IAM)",
+      subtitle: "",
+      description:
+        "Manage user identities and control system access with precision. \nImplement single sign-on, MFA, and zero-trust frameworks. \nPrevent credential misuse and insider threats effectively. \nAutomate role-based access policies across enterprise systems. \nEnsure compliance while simplifying authentication experiences.",
+    },
+    {
+      id: "endpoint-protection",
+      icon: "Shield",
+      title: "Endpoint Security & Device Monitoring",
+      subtitle: "",
+      description:
+        "Protect every device in your organization’s digital ecosystem. \nMonitor desktops, servers, and mobile endpoints in real time. \nBlock ransomware, phishing, and unauthorized application activity. \nLeverage behavioral analytics for proactive threat detection. \nSecure your endpoints as the first line of cyber defense.",
+    },
+    {
+      id: "governance-compliance",
+      icon: "Shield",
+      title: "Cyber Governance & Compliance Automation",
+      subtitle: "",
+      description:
+        "Streamline regulatory compliance with automated frameworks. \nTrack, audit, and report security metrics in real time. \nReduce manual effort in maintaining ISO, GDPR, and SOC 2 standards. \nEnable transparency with centralized compliance dashboards. \nFoster accountability and resilience through governance automation.",
+    },
+  ],
+
+  linkText: "Secure Your Digital Future",
+  linkUrl: "/contact-us",
+},
+
 
 
   managementSolutions: {

@@ -132,8 +132,8 @@ export const insurance: IndustryConfig = {
     subtitle:
       "We build comprehensive digital insurance ecosystems that streamline policy management, claims automation, and customer engagement while ensuring compliance and security.",
     subtitleLink: { text: "insurance software solutions", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/12/8d/a2/128da2fa9de271ca3db65c6ba957f68f.jpg",
+    mobileImage: "https://i.pinimg.com/736x/04/c5/5d/04c55d30e921b1b74cf1fc44fed0bbae.jpg",
     topFeatures: [
       {
         id: "claims-intelligence",
@@ -213,7 +213,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our insurance software developers build modern platforms that streamline operations, enhance customer experience, and ensure regulatory compliance for insurers worldwide.",
   subtitleLink: { text: "insurance management systems", url: "#" },
-  laptopImage: "/images/insurance-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/be/d8/eb/bed8eb873a8c5ee7f43ef6445b7fb578.jpg",
   mobileImage: "/images/insurance-management-mobile.jpg",
 
   topFeatures: [

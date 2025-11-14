@@ -156,8 +156,8 @@ export const payments: IndustryConfig = {
     subtitle:
       "Transform payment infrastructure with intelligent automation, fraud analytics, and seamless integrations that drive business growth.",
     subtitleLink: { text: "payment management software", url: "#" },
-    laptopImage: "/images/payment-laptop.jpg",
-    mobileImage: "/images/payment-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/1d/29/f6/1d29f64b1ebf132ba08687cf0ed0f121.jpg",
+    mobileImage: "https://i.pinimg.com/736x/fe/21/89/fe21894015d2044fc06cb67a408ff931.jpg",
     topFeatures: [
       {
         id: "transaction-automation",
@@ -220,7 +220,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our payment software experts build secure, scalable, and intelligent platforms that streamline transactions, automate reconciliation, and ensure financial compliance.",
   subtitleLink: { text: "payment processing software", url: "#" },
-  laptopImage: "/images/payments-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/ae/3a/55/ae3a55d15d6fbf02b713e80057e8e11b.jpg",
   mobileImage: "/images/payments-management-mobile.jpg",
 
   topFeatures: [

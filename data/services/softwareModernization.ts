@@ -49,14 +49,13 @@ export const softwareModernization: ServiceConfig = {
   mainTitle: "Comprehensive Software Modernization Solutions",
   mainDescription:
     "We provide complete modernization services that transform legacy systems, integrate cloud technologies, and future-proof your business through digital innovation and intelligent automation.",
-  linkText: "Get Modernization Solutions",
-  linkUrl: "/contact-us",
+  
   items: [
     {
       id: "architecture-modernization",
       icon: "Leaf",
       title: "Architecture Modernization",
-      subtitle: "Upgrade Core Foundations",
+      subtitle: "",
       description:
         "Redefine legacy architectures to improve scalability and reliability. \nAdopt microservices and cloud-native structures for agility. \nEliminate technical debt and outdated dependencies. \nEnhance flexibility, modularity, and long-term maintenance. \nPrepare your system for future-ready performance demands.",
     },
@@ -64,7 +63,7 @@ export const softwareModernization: ServiceConfig = {
       id: "ui-ux-modernization",
       icon: "Leaf",
       title: "UI/UX Modernization",
-      subtitle: "Enhance User Experience",
+      subtitle: "",
       description:
         "Reimagine outdated interfaces with intuitive and modern design. \nDeliver seamless interactions across devices and platforms. \nImprove accessibility, navigation, and usability. \nIntegrate motion design and responsive layouts for engagement. \nCreate delightful digital experiences that users love.",
     },
@@ -72,7 +71,7 @@ export const softwareModernization: ServiceConfig = {
       id: "cloud-integration",
       icon: "Leaf",
       title: "Cloud Integration",
-      subtitle: "Leverage Cloud Scalability",
+      subtitle: "",
       description:
         "Migrate applications to secure, scalable cloud infrastructure. \nEnable seamless data synchronization and continuous uptime. \nAdopt DevOps for automation and faster deployment cycles. \nReduce infrastructure complexity and costs. \nUnlock agility, flexibility, and global accessibility.",
     },
@@ -80,7 +79,7 @@ export const softwareModernization: ServiceConfig = {
       id: "data-modernization",
       icon: "Leaf",
       title: "Data Modernization",
-      subtitle: "Empower Insights & Efficiency",
+      subtitle: "",
       description:
         "Upgrade legacy databases into high-performance data ecosystems. \nImplement real-time analytics and cloud data pipelines. \nEnsure compliance, accuracy, and governance at every level. \nEnable AI, ML, and predictive intelligence capabilities. \nMake faster, insight-driven business decisions with confidence.",
     },
@@ -88,7 +87,7 @@ export const softwareModernization: ServiceConfig = {
       id: "api-integration",
       icon: "Leaf",
       title: "API Integration & Automation",
-      subtitle: "Streamline Connectivity",
+      subtitle: "",
       description:
         "Connect legacy and modern systems through unified APIs. \nAutomate workflows and eliminate repetitive manual tasks. \nFacilitate smooth data flow and real-time communication. \nEnhance interoperability between internal and external platforms. \nAccelerate innovation with connected digital ecosystems.",
     },
@@ -96,11 +95,72 @@ export const softwareModernization: ServiceConfig = {
       id: "security-upgrade",
       icon: "Leaf",
       title: "Security Upgrade & Compliance",
-      subtitle: "Protect Modernized Systems",
+      subtitle: "",
       description:
         "Implement multi-layered security across all digital assets. \nEnsure compliance with industry standards like GDPR and ISO. \nProactively detect and mitigate vulnerabilities in real time. \nAdopt encryption, monitoring, and identity controls. \nSafeguard business continuity with advanced cyber resilience.",
     },
   ],
+  linkText: "Get Modernization Solutions",
+  linkUrl: "/contact-us",
+},
+solutionsTwo: {
+  mainTitle: "Next-Generation Software Modernization Solutions",
+  mainDescription:
+    "Transform legacy systems into agile, high-performance digital platforms. Our software modernization services enhance scalability, security, and efficiency using cloud, AI, and microservices architectures. Empower your enterprise with smarter, future-ready technology.",
+
+  items: [
+    {
+      id: "legacy-transformation",
+      icon: "Shield",
+      title: "Legacy System Transformation & Re-Engineering",
+      subtitle: "",
+      description:
+        "Revitalize outdated systems with modern architecture and technologies. \nWe refactor, rehost, and rebuild software to enhance speed and reliability. \nImprove interoperability and align systems with current business goals. \nReduce technical debt through clean, maintainable code practices. \nUnlock innovation by transforming legacy platforms into modern assets.",
+    },
+    {
+      id: "cloud-migration",
+      icon: "Shield",
+      title: "Cloud Migration & Infrastructure Modernization",
+      subtitle: "",
+      description:
+        "Move your applications seamlessly to secure, scalable cloud environments. \nOur experts design hybrid, private, and multi-cloud strategies for agility. \nOptimize workloads for cost-efficiency, resilience, and real-time access. \nAutomate scaling, monitoring, and updates across all environments. \nEmpower your business with a cloud-first, performance-driven ecosystem.",
+    },
+    {
+      id: "api-integration",
+      icon: "Shield",
+      title: "API-Driven Integration & Connectivity Solutions",
+      subtitle: "",
+      description:
+        "Bridge systems and platforms through smart API integration frameworks. \nEnable seamless data exchange between legacy and modern applications. \nWe develop RESTful, GraphQL, and microservice-based APIs for flexibility. \nEnhance collaboration, performance, and cross-platform communication. \nCreate unified digital ecosystems with secure, scalable connectivity.",
+    },
+    {
+      id: "uiux-modernization",
+      icon: "Shield",
+      title: "UI/UX Modernization & Frontend Revamp",
+      subtitle: "",
+      description:
+        "Redesign outdated interfaces with modern, responsive user experiences. \nWe implement accessible, intuitive designs aligned with your brand identity. \nAdopt modern frontend frameworks like React, Angular, and Vue.js. \nEnhance usability through performance-optimized, mobile-ready UIs. \nDeliver engaging digital experiences that improve satisfaction and loyalty.",
+    },
+    {
+      id: "data-modernization",
+      icon: "Shield",
+      title: "Data Modernization & Intelligent Analytics",
+      subtitle: "",
+      description:
+        "Migrate and transform legacy databases into scalable, cloud-native systems. \nWe implement data lakes, warehouses, and AI-driven analytics pipelines. \nEnable real-time insights for faster, smarter business decisions. \nEnhance data quality, governance, and interoperability across platforms. \nTurn your enterprise data into a strategic, revenue-driving asset.",
+    },
+    {
+      id: "devops-automation",
+      icon: "Shield",
+      title: "DevOps Automation & Continuous Delivery Systems",
+      subtitle: "",
+      description:
+        "Modernize your software lifecycle with CI/CD and automation pipelines. \nWe integrate DevOps tools to streamline build, test, and deployment processes. \nEnhance team collaboration with faster, reliable software delivery. \nAdopt containerization, orchestration, and infrastructure as code. \nAccelerate innovation through automated, agile development workflows.",
+    },
+  ],
+
+  linkText: "Modernize Your Software Today",
+  linkUrl: "/contact-us",
 },
 
 

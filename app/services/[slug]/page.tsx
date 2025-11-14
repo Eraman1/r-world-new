@@ -40,13 +40,13 @@ export default function Page({ params }: Props) {
           linkUrl={services.solutions.linkUrl}
         />
       )}
-      {services.solutions && (
+       {services.solutionsTwo && (
         <SolutionsTwo
-          mainTitle={services.solutions.mainTitle}
-          mainDescription={services.solutions.mainDescription}
-          solutions={services.solutions.items}
-          linkText={services.solutions.linkText}
-          linkUrl={services.solutions.linkUrl}
+          mainTitle={services.solutionsTwo.mainTitle}
+          mainDescription={services.solutionsTwo.mainDescription}
+          solutions={services.solutionsTwo.items}
+          linkText={services.solutionsTwo.linkText}
+          linkUrl={services.solutionsTwo.linkUrl}
         />
       )}
 

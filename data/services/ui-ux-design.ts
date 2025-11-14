@@ -47,14 +47,13 @@ export const uiUxDesign: ServiceConfig = {
   mainTitle: "Comprehensive UI/UX Design Solutions",
   mainDescription:
     "We craft visually appealing and user-friendly digital experiences that increase engagement, satisfaction, and conversions. Our designs are tailored for web, mobile, and enterprise applications.",
-  linkText: "Get UI/UX Design Solutions",
-  linkUrl: "/contact-us",
+ 
   items: [
     {
       id: "interaction-design",
       icon: "Leaf",
       title: "Interaction Design",
-      subtitle: "Intuitive User Interactions",
+      subtitle: "",
       description:
         "Design seamless user interactions and workflows. Focus on responsive controls and feedback. Optimize user paths for efficiency. Ensure easy navigation across screens. Enhance engagement and satisfaction.",
     },
@@ -62,7 +61,7 @@ export const uiUxDesign: ServiceConfig = {
       id: "ui-design",
       icon: "Leaf",
       title: "UI Design",
-      subtitle: "Visually Appealing Interfaces",
+      subtitle: "",
       description:
         "Create stunning user interfaces with consistent branding. Use color, typography, and layout to guide users. Ensure cross-platform and responsive designs. Maintain accessibility and usability standards. Deliver aesthetically pleasing digital experiences.",
     },
@@ -70,7 +69,7 @@ export const uiUxDesign: ServiceConfig = {
       id: "ux-strategy",
       icon: "Leaf",
       title: "UX Strategy & Consulting",
-      subtitle: "User-Centric Approach",
+      subtitle: "",
       description:
         "Analyze user behavior and market trends to inform UX strategy. Define goals, KPIs, and design priorities. Recommend improvements to enhance engagement. Align business objectives with user needs. Ensure meaningful and impactful user experiences.",
     },
@@ -78,7 +77,7 @@ export const uiUxDesign: ServiceConfig = {
       id: "usability-testing",
       icon: "Leaf",
       title: "Usability Testing",
-      subtitle: "Validate Design Effectiveness",
+      subtitle: "",
       description:
         "Conduct usability tests on prototypes and live products. Collect user feedback and identify pain points. Analyze results to refine design solutions. Improve navigation, accessibility, and overall satisfaction. Deliver intuitive and effective interfaces.",
     },
@@ -86,7 +85,7 @@ export const uiUxDesign: ServiceConfig = {
       id: "prototyping",
       icon: "Leaf",
       title: "Prototyping & Wireframing",
-      subtitle: "Visualize Ideas Quickly",
+      subtitle: "",
       description:
         "Create detailed wireframes and interactive prototypes for early validation. Test design concepts before development. Iterate quickly based on stakeholder feedback. Align design solutions with user expectations. Reduce development costs and improve final outcomes.",
     },
@@ -94,11 +93,72 @@ export const uiUxDesign: ServiceConfig = {
       id: "visual-identity",
       icon: "Leaf",
       title: "Visual Identity & Branding",
-      subtitle: "Consistent Brand Experience",
+      subtitle: "",
       description:
         "Develop cohesive visual identities across digital platforms. Use color, typography, and imagery to communicate brand values. Ensure consistency across web, mobile, and social channels. Strengthen recognition and trust with users. Enhance the overall aesthetic and brand perception.",
     },
   ],
+   linkText: "Get UI/UX Design Solutions",
+  linkUrl: "/contact-us",
+},
+solutionsTwo: {
+  mainTitle: "Creative UI/UX Design Solutions",
+  mainDescription:
+    "We craft user-centered digital experiences that blend creativity, functionality, and innovation. Our UI/UX design services transform ideas into intuitive, visually engaging, and conversion-focused interfaces across web and mobile platforms.",
+
+  items: [
+    {
+      id: "user-research",
+      icon: "Leaf",
+      title: "User Research & Experience Strategy",
+      subtitle: "",
+      description:
+        "Understand your audience through in-depth research and behavioral insights. \nWe identify user pain points, motivations, and journey patterns. \nOur strategies ensure every design decision aligns with real user needs. \nDeliver data-driven solutions that enhance usability and satisfaction. \nTransform insights into a foundation for meaningful digital experiences.",
+    },
+    {
+      id: "interaction-design",
+      icon: "Leaf",
+      title: "Interaction & Motion Design",
+      subtitle: "",
+      description:
+        "Design smooth, intuitive interactions that bring interfaces to life. \nWe focus on creating fluid animations and responsive transitions. \nOur motion design approach enhances engagement and visual flow. \nHighlight user actions through micro-interactions that feel natural. \nTurn every click, swipe, and gesture into a delightful experience.",
+    },
+    {
+      id: "wireframing-prototyping",
+      icon: "Leaf",
+      title: "Wireframing & Interactive Prototyping",
+      subtitle: "",
+      description:
+        "Visualize product concepts early with detailed wireframes and prototypes. \nWe design user flows that are simple, logical, and goal-oriented. \nInteractive prototypes help validate usability before development. \nCollaborate and refine designs faster with stakeholder feedback. \nSave time and cost by testing and improving before launch.",
+    },
+    {
+      id: "visual-branding",
+      icon: "Leaf",
+      title: "Visual Design & Brand Identity",
+      subtitle: "",
+      description:
+        "Create cohesive visual identities that communicate your brand’s story. \nWe combine colors, typography, and imagery with purpose and clarity. \nDesign elements align seamlessly with your marketing and UX goals. \nBuild trust through consistent and elegant visual communication. \nMake every pixel reflect your brand’s values and personality.",
+    },
+    {
+      id: "usability-testing",
+      icon: "Leaf",
+      title: "Usability Testing & Experience Optimization",
+      subtitle: "",
+      description:
+        "Validate designs with real user feedback and performance analytics. \nWe identify friction points and optimize workflows for better engagement. \nTest across devices, screen sizes, and user segments for inclusivity. \nContinuously refine UX to ensure clarity and accessibility. \nTurn feedback into measurable improvements and lasting impact.",
+    },
+    {
+      id: "responsive-design",
+      icon: "Leaf",
+      title: "Responsive & Adaptive Interface Design",
+      subtitle: "",
+      description:
+        "Ensure seamless user experiences across every screen and platform. \nWe design adaptive layouts that maintain usability and beauty. \nOur responsive systems adjust effortlessly to different devices. \nDeliver consistent navigation, readability, and interaction flow. \nCreate digital experiences that perform perfectly anywhere, anytime.",
+    },
+  ],
+
+  linkText: "Design Your Digital Experience Today",
+  linkUrl: "/contact-us",
 },
 
   managementSolutions: {

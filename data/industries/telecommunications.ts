@@ -133,8 +133,8 @@ export const telecommunications: IndustryConfig = {
     subtitle:
       "Digitize and optimize every aspect of telecommunications — from network operations and billing to customer experience and analytics.",
     subtitleLink: { text: "telecommunications management software", url: "#" },
-    laptopImage: "/images/sports-laptop.jpg",
-    mobileImage: "/images/sports-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/75/6a/a3/756aa3c54d6e62e9ea445745763992b2.jpg",
+    mobileImage: "https://i.pinimg.com/736x/88/94/65/889465937a261b646ae120c350339dd5.jpg",
     topFeatures: [
       {
         id: "match-analytics",
@@ -213,7 +213,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our telecom software developers build advanced platforms to manage network operations, monitor performance, and enhance customer experience with cutting-edge digital solutions.",
   subtitleLink: { text: "telecom management software", url: "#" },
-  laptopImage: "/images/telecom-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/19/3b/67/193b671a32af83fa3c6b44c1f140ad05.jpg",
   mobileImage: "/images/telecom-management-mobile.jpg",
 
   topFeatures: [

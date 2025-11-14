@@ -133,8 +133,8 @@ export const transportation: IndustryConfig = {
     subtitle:
       "Digitize and optimize every aspect of transportation — from route planning and dispatch to real-time tracking and analytics.",
     subtitleLink: { text: "transportation management software", url: "#" },
-    laptopImage: "/images/sports-laptop.jpg",
-    mobileImage: "/images/sports-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/7b/d5/ef/7bd5ef7ece7a5a11abe629e89aeeed5b.jpg",
+    mobileImage: "https://i.pinimg.com/736x/8b/59/02/8b5902bc0075a0b54159737696ba3a0e.jpg",
     topFeatures: [
       {
         id: "match-analytics",
@@ -198,7 +198,7 @@ onCtaClick: () => {},
   subtitle:
     "Our transportation software developers create smart platforms to optimize fleet operations, track shipments, and improve delivery efficiency across industries.",
   subtitleLink: { text: "transportation software", url: "#" },
-  laptopImage: "/images/transportation-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/1b/1c/cb/1b1ccb3abe81eff62a91d1aee9b79c19.jpg",
   mobileImage: "/images/transportation-management-mobile.jpg",
 
   topFeatures: [

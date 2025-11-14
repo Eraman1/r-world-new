@@ -132,8 +132,8 @@ export const energyUtilities: IndustryConfig = {
     subtitle:
       "Our expert developers deliver innovative energy software that enhances operational efficiency, improves reliability, and supports clean energy transitions across industries.",
     subtitleLink: { text: "energy management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/de/b6/78/deb6785701e176883c8742237c085961.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/c6/2d/53/c62d53a9562c1f5976b35c5fb89e183e.jpg",
     topFeatures: [
       {
         id: "energy-distribution",
@@ -197,7 +197,7 @@ onCtaClick: () => {},
   subtitle:
     "Our energy and utilities software developers build advanced systems to optimize energy distribution, automate monitoring, and ensure sustainable operations for modern power enterprises.",
   subtitleLink: { text: "energy management software", url: "#" },
-  laptopImage: "/images/energy-utilities.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/f3/7d/91/f37d9138432f7e03d98dc784fac893c9.jpg",
   mobileImage: "/images/energy-utilities-mobile.jpg",
 
   topFeatures: [

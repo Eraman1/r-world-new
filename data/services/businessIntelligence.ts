@@ -49,14 +49,12 @@ export const businessIntelligence: ServiceConfig = {
   mainTitle: "Comprehensive Business Intelligence Solutions",
   mainDescription:
     "Our BI solutions empower organizations with real-time insights, predictive analytics, and interactive dashboards to drive better decisions and performance.",
-  linkText: "Get BI Consultation",
-  linkUrl: "/contact-us",
   items: [
     {
       id: "data-integration",
       icon: "Leaf",
       title: "Data Integration & ETL",
-      subtitle: "Seamless Data Flow",
+      subtitle: "",
       description:
         "Integrate and consolidate data from multiple systems into a single source of truth. \nEnsure high data accuracy, consistency, and reliability across all departments. \nAutomate ETL workflows for efficient data transformation and transfer. \nEliminate data silos and manual errors using advanced connectors. \nEmpower teams with a unified, real-time view of business operations.",
     },
@@ -64,7 +62,7 @@ export const businessIntelligence: ServiceConfig = {
       id: "dashboard-analytics",
       icon: "Leaf",
       title: "Dashboard & Reporting",
-      subtitle: "Visual Insights that Drive Action",
+      subtitle: "",
       description:
         "Create interactive dashboards using tools like Power BI and Tableau. \nVisualize key metrics, KPIs, and performance indicators effectively. \nEnable data access controls for executives and department heads. \nMonitor performance trends in real time with automated updates. \nTransform complex data into clear, actionable business insights.",
     },
@@ -72,7 +70,7 @@ export const businessIntelligence: ServiceConfig = {
       id: "predictive-insights",
       icon: "Leaf",
       title: "Predictive Analytics",
-      subtitle: "Forecast with Confidence",
+      subtitle: "",
       description:
         "Leverage machine learning models to forecast future trends accurately. \nAnalyze customer patterns, operational risks, and market dynamics. \nGenerate predictive reports for smarter, data-backed planning. \nSupport proactive strategies that minimize risks and boost growth. \nEmpower decision-makers with real-time predictive intelligence.",
     },
@@ -80,7 +78,7 @@ export const businessIntelligence: ServiceConfig = {
       id: "data-governance",
       icon: "Leaf",
       title: "Data Governance & Quality",
-      subtitle: "Maintain Data Integrity",
+      subtitle: "",
       description:
         "Establish governance frameworks to ensure accuracy and reliability. \nSet access rules, validation checks, and quality standards organization-wide. \nMonitor and resolve data duplication, inconsistencies, and conflicts. \nMaintain compliance with regional and global data regulations. \nBuild stakeholder trust with transparent and auditable data systems.",
     },
@@ -88,7 +86,7 @@ export const businessIntelligence: ServiceConfig = {
       id: "self-service-bi",
       icon: "Leaf",
       title: "Self-Service BI Solutions",
-      subtitle: "Empower Business Users",
+      subtitle: "",
       description:
         "Enable business users to explore and visualize data independently. \nUse drag-and-drop tools for instant report creation and analysis. \nAccelerate time-to-insight without relying on IT intervention. \nPromote agility and innovation through data democratization. \nCultivate a data-driven culture across all business functions.",
     },
@@ -96,12 +94,75 @@ export const businessIntelligence: ServiceConfig = {
       id: "cloud-bi",
       icon: "Leaf",
       title: "Cloud BI Solutions",
-      subtitle: "Scalable & Secure BI Systems",
+      subtitle: "",
       description:
         "Deploy flexible BI environments on AWS, Azure, or Google Cloud. \nEnsure top-tier security, scalability, and uptime performance. \nEnable real-time collaboration and data access across teams. \nReduce infrastructure costs through cloud-based automation. \nUnlock faster insights with scalable, on-demand BI tools.",
     },
   ],
+  linkText: "Get BI Consultation",
+  linkUrl: "/contact-us",
 },
+
+solutionsTwo: {
+  mainTitle: "Next-Generation Business Intelligence Solutions",
+  mainDescription:
+    "We empower organizations with data-driven intelligence that transforms raw data into actionable insights. Our BI solutions enable smarter decisions, operational efficiency, and predictive growth powered by analytics, automation, and AI innovation.",
+
+  items: [
+    {
+      id: "data-visualization",
+      icon: "Leaf",
+      title: "Data Visualization & Dashboard Analytics",
+      subtitle: "",
+      description:
+        "Transform complex datasets into clear, interactive visual dashboards. \nEmpower teams to monitor KPIs and performance in real time. \nEnable quick decision-making through dynamic visual storytelling. \nCustomize dashboards to fit strategic business objectives. \nDrive data accessibility and collaboration across all departments.",
+    },
+    {
+      id: "predictive-insights",
+      icon: "Leaf",
+      title: "Predictive Insights & Forecast Modeling",
+      subtitle: "",
+      description:
+        "Use predictive algorithms to forecast trends, risks, and opportunities. \nEnhance planning accuracy with real-time, data-backed projections. \nIntegrate market signals and behavioral analytics seamlessly. \nAnticipate shifts in demand, revenue, and customer behavior. \nStay ahead of change with future-ready business foresight.",
+    },
+    {
+      id: "data-integration",
+      icon: "Leaf",
+      title: "Data Integration & Governance Platforms",
+      subtitle: "",
+      description:
+        "Unify data from multiple sources into one trusted ecosystem. \nEnsure data quality, accuracy, and regulatory compliance throughout. \nSimplify access and improve data traceability for better reporting. \nImplement governance frameworks for consistency and reliability. \nEmpower business leaders with a single source of truth.",
+    },
+    {
+      id: "real-time-analytics",
+      icon: "Leaf",
+      title: "Real-Time Analytics & Event Monitoring",
+      subtitle: "",
+      description:
+        "Track business performance and user activity in real time. \nDetect anomalies instantly and respond with agility and precision. \nLeverage streaming analytics for continuous data monitoring. \nIntegrate alerts for rapid action and smarter decision loops. \nTransform instant insights into measurable business outcomes.",
+    },
+    {
+      id: "ai-powered-bi",
+      icon: "Leaf",
+      title: "AI-Powered Business Intelligence Systems",
+      subtitle: "",
+      description:
+        "Combine artificial intelligence with BI to unlock deep insights. \nAutomate report generation and pattern recognition at scale. \nUse machine learning to identify growth and risk indicators. \nEnable self-service analytics with intelligent data exploration. \nMake your BI systems smarter, faster, and truly autonomous.",
+    },
+    {
+      id: "cloud-bi",
+      icon: "Leaf",
+      title: "Cloud-Based BI & Data Warehousing",
+      subtitle: "",
+      description:
+        "Migrate your analytics infrastructure to secure, scalable cloud platforms. \nAccess enterprise data from anywhere with real-time synchronization. \nLeverage elastic computing for faster queries and deeper insights. \nIntegrate seamlessly with major cloud ecosystems and APIs. \nAchieve scalability, flexibility, and cost efficiency in BI operations.",
+    },
+  ],
+
+  linkText: "Empower Your Business with Intelligence",
+  linkUrl: "/contact-us",
+},
+
 
 
   managementSolutions: {

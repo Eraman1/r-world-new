@@ -156,8 +156,8 @@ export const lending: IndustryConfig = {
     subtitle:
       "We design intelligent loan ecosystems that integrate origination, servicing, collections, and analytics — helping lenders scale efficiently and stay compliant.",
     subtitleLink: { text: "loan management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/8e/c1/c1/8ec1c15bacb36678797d8eae6cfc5739.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/9c/21/5f/9c215f4d19b4ca56098cbe2e856ac9ea.jpg",
     topFeatures: [
       {
         id: "loan-lifecycle",
@@ -221,7 +221,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our lending software developers build smart platforms to automate loan origination, underwriting, and servicing. Enhance customer experience and streamline financial workflows through digital innovation.",
   subtitleLink: { text: "loan management software", url: "#" },
-  laptopImage: "/images/lending-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/ea/9b/0b/ea9b0b8e163dd22d59c15f942040f632.jpg",
   mobileImage: "/images/lending-management-mobile.jpg",
 
   topFeatures: [

@@ -156,8 +156,8 @@ export const hospitalitytravel: IndustryConfig = {
     subtitle:
       "We develop end-to-end travel and hospitality management systems that automate booking, enhance guest engagement, and streamline operations for hotels, airlines, and travel agencies.",
     subtitleLink: { text: "hospitality software solutions", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/4a/a0/44/4aa0449bc784972b55bd626a44260970.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/5d/d4/6c/5dd46c6c051ad705b98074b2331e2a1d.jpg",
     topFeatures: [
       {
         id: "crm",
@@ -221,7 +221,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our hospitality and travel software experts build smart systems that enhance guest experiences, streamline operations, and drive bookings through digital transformation.",
   subtitleLink: { text: "hospitality management software", url: "#" },
-  laptopImage: "/images/hospitality-travel.jpg",
+  laptopImage: "https://i.pinimg.com/736x/31/22/23/31222349f9745d7403e2b80a4dc55265.jpg",
   mobileImage: "/images/hospitality-travel-mobile.jpg",
 
   topFeatures: [

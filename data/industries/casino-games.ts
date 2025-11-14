@@ -138,8 +138,8 @@ export const casinogames: IndustryConfig = {
       subtitle:
         "Our developers provide full-cycle casino software management solutions, from game development to operational optimization.",
       subtitleLink: { text: "land management software", url: "#" },
-      laptopImage: "/images/management-solutions.jpg",
-      mobileImage: "/images/management-solutions-mobile.jpg",
+      laptopImage: "https://i.pinimg.com/1200x/cd/85/86/cd8586447f4e85891c068e026b41e642.jpg",
+      mobileImage: "https://i.pinimg.com/736x/d1/0c/f9/d10cf92770eb7429f10c98f6b8286051.jpg",
       topFeatures: [
         {
           id: "mapping",
@@ -204,7 +204,7 @@ onCtaClick: () => {},
   subtitle:
     "Our casino software developers craft advanced gaming platforms to manage casino operations, enhance player engagement, and boost revenue through digital innovation.",
   subtitleLink: { text: "casino management software", url: "#" },
-  laptopImage: "/images/casino-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/3e/42/97/3e429756623c484321a17c947158f4f7.jpg",
   mobileImage: "/images/casino-management-mobile.jpg",
 
   topFeatures: [

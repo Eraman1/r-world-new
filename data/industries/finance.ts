@@ -132,8 +132,8 @@ export const finance: IndustryConfig = {
     subtitle:
       "We build robust, compliant, and scalable financial software systems that enable data-driven decisions, reduce risks, and enhance profitability.",
     subtitleLink: { text: "financial management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/a0/c8/4e/a0c84ef049280e56d671e59ac620cdc1.jpg",
+    mobileImage: "https://i.pinimg.com/736x/c5/81/cf/c581cff6c1f74b1ae203329138289569.jpg",
     topFeatures: [
       {
         id: "financial-analytics",
@@ -198,7 +198,7 @@ onCtaClick: () => {},
   subtitle:
     "Our finance software experts design intelligent systems that automate accounting, enhance compliance, and drive smarter financial decisions with real-time analytics.",
   subtitleLink: { text: "financial software development", url: "#" },
-  laptopImage: "/images/finance-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/69/37/8d/69378df03a6c057de690eb5a55350366.jpg",
   mobileImage: "/images/finance-management-mobile.jpg",
 
   topFeatures: [

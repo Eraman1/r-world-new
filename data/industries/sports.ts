@@ -144,8 +144,8 @@ export const sports: IndustryConfig = {
     subtitle:
       "Digitize and optimize every aspect of sports management — from player performance and team operations to fan experience and sponsorship growth.",
     subtitleLink: { text: "sports management software", url: "#" },
-    laptopImage: "/images/sports-laptop.jpg",
-    mobileImage: "/images/sports-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/ff/29/dd/ff29dd6a125d9dab83df13705c4b1682.jpg",
+    mobileImage: "https://i.pinimg.com/736x/11/fb/bd/11fbbd13955f5a847d418241993983b2.jpg",
     topFeatures: [
       {
         id: "match-analytics",
@@ -224,7 +224,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our sports software developers create advanced platforms to manage leagues, teams, and tournaments efficiently. Enhance fan engagement and optimize sports operations digitally.",
   subtitleLink: { text: "sports management software", url: "#" },
-  laptopImage: "/images/sports-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/24/ac/8c/24ac8c7a02f341ba8051018bee3532ba.jpg",
   mobileImage: "/images/sports-management-mobile.jpg",
 
   topFeatures: [

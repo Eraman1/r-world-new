@@ -156,8 +156,8 @@ export const legal: IndustryConfig = {
     subtitle:
       "We develop custom LegalTech platforms that streamline case tracking, automate billing, and enhance compliance for law firms, in-house teams, and legal service providers.",
     subtitleLink: { text: "legal management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/26/75/00/267500ee34ef21f4a2f37195a6fad99c.jpg",
+    mobileImage: "https://i.pinimg.com/736x/c7/a2/37/c7a2370ec75294fa92b7a8071d6e65ff.jpg",
     topFeatures: [
       {
         id: "workflow-automation",
@@ -221,7 +221,7 @@ onCtaClick: () => {},
   subtitle:
     "Our expert legal software developers build advanced digital systems to streamline firm operations, enhance client service, and ensure compliance through smart automation.",
   subtitleLink: { text: "legal case management software", url: "#" },
-  laptopImage: "/images/legal-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/2e/cb/c6/2ecbc624a1cc78cc12d33513f77060a5.jpg",
   mobileImage: "/images/legal-management-mobile.jpg",
 
   topFeatures: [

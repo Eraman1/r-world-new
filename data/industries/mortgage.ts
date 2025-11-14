@@ -132,8 +132,8 @@ export const mortgage: IndustryConfig = {
     subtitle:
       "We design intelligent mortgage ecosystems that integrate origination, servicing, collections, and compliance to help lenders scale efficiently.",
     subtitleLink: { text: "mortgage management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/7f/68/7f/7f687f2a2afb3bfd841af60e7ab62db7.jpg",
+    mobileImage: "https://i.pinimg.com/736x/9f/24/cf/9f24cf4b72520746f76ce24c5b943e2d.jpg",
     topFeatures: [
       {
         id: "loan-lifecycle",
@@ -212,7 +212,7 @@ onCtaClick: () => {},
   subtitle:
     "Our mortgage software developers create intelligent platforms to streamline loan processes, improve borrower experiences, and drive operational efficiency for financial institutions.",
   subtitleLink: { text: "mortgage software solutions", url: "#" },
-  laptopImage: "/images/mortgage-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/ae/0e/5e/ae0e5e4f5273cbbb428b3d3ec4afa497.jpg",
   mobileImage: "/images/mortgage-management-mobile.jpg",
 
   topFeatures: [
