@@ -267,7 +267,7 @@ const megaMenuData: MegaMenuData = {
   company: {
     title: "Company",
     items: [
-      { title: "About us", link: "about-us" },
+      { title: "About us", link: "/about-us" },
 
       { title: "Careers", link: "/career" },
       { title: "News & Events", link: "/company/news-events" },
