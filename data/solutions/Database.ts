@@ -110,8 +110,8 @@ export const database: SolutionConfig = {
     subtitle:
       "Our database management solutions ensure your systems are performant, secure, and reliable at all times.",
     subtitleLink: { text: "database management solutions", url: "#" },
-    laptopImage: "/images/management-database.jpg",
-    mobileImage: "/images/management-database-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/f3/58/5e/f3585e95f219caca30cf14df38c29599.jpg",
+    mobileImage: "https://i.pinimg.com/736x/4f/44/95/4f44951e7c52d8cd6b9d40ab7b754bab.jpg",
     topFeatures: [
       {
         id: "security",

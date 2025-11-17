@@ -109,8 +109,8 @@ export const Biometrics: SolutionConfig = {
     subtitle:
       "Our biometric identity management systems integrate with enterprise and government databases to deliver seamless, cross-platform verification.",
     subtitleLink: { text: "biometric identity systems", url: "#" },
-    laptopImage: "/images/management-biometrics.jpg",
-    mobileImage: "/images/management-biometrics-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/54/54/69/5454698d6dd13ace55f049663be00f58.jpg",
+    mobileImage: "https://i.pinimg.com/736x/5a/4b/37/5a4b375cbc504107bbe2a499d1f194d9.jpg",
     topFeatures: [
       {
         id: "database",

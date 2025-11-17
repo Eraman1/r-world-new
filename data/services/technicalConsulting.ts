@@ -169,7 +169,7 @@ solutionsTwo: {
     subtitle:
       "Our consulting management tools help teams plan, execute, and deliver technology projects with greater efficiency and transparency.",
     subtitleLink: { text: "technical project management", url: "#" },
-    laptopImage: "/images/management-consulting.jpg",
+    laptopImage: "https://i.pinimg.com/736x/04/cd/23/04cd2395a700b53ed625b8db2dcf9f64.jpg",
     mobileImage: "/images/management-consulting-mobile.jpg",
     topFeatures: [
       {

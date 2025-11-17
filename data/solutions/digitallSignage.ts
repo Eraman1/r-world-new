@@ -102,8 +102,8 @@ export const digitalSignage: SolutionConfig = {
     subtitle:
       "Our software platforms streamline content creation, scheduling, and deployment across multiple screens and locations.",
     subtitleLink: { text: "digital signage management", url: "#" },
-    laptopImage: "/images/digital-signage-management.jpg",
-    mobileImage: "/images/digital-signage-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/81/5c/ab/815cab098daa5929eb1361d3884cb7ce.jpg",
     topFeatures: [
       {
         id: "remote-management",

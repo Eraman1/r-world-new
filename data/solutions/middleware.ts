@@ -110,8 +110,8 @@ export const middleware: SolutionConfig = {
     subtitle:
       "Manage integrations, workflows, and middleware infrastructure efficiently with monitoring, dashboards, and automation.",
     subtitleLink: { text: "middleware management software", url: "#" },
-    laptopImage: "/images/middleware-management-laptop.jpg",
-    mobileImage: "/images/middleware-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/3e/ed/f1/3eedf19fc91b07d3b4ac265550ad76e3.jpg",
+    mobileImage: "https://i.pinimg.com/736x/b9/51/bd/b951bdd3c348d680b058464dd2c05f66.jpg",
     topFeatures: [
       {
         id: "monitoring",

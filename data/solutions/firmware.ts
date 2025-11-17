@@ -108,8 +108,8 @@ export const firmware: SolutionConfig = {
     subtitle:
       "Processes and platforms to manage firmware builds, regression testing, secure OTA, and device fleet operations throughout product lifecycle.",
     subtitleLink: { text: "firmware lifecycle management", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/03/7d/4a/037d4a5c79a23ea23b850d9b2980078e.jpg",
+    mobileImage: "https://i.pinimg.com/736x/31/c2/fa/31c2faef44918b5e642f118162380204.jpg",
     topFeatures: [
       {
         id: "ci-cd",

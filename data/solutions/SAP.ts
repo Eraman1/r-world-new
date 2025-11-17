@@ -109,8 +109,8 @@ export const SAP: SolutionConfig = {
     subtitle:
       "Simplify operations with SAP cloud management solutions for finance, supply chain, HR, and analytics — all under one secure platform.",
     subtitleLink: { text: "SAP Cloud Platform", url: "#" },
-    laptopImage: "/images/management-sap.jpg",
-    mobileImage: "/images/management-sap-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/c8/30/11/c830114225f0ce8c4ee38622f989186a.jpg",
+    mobileImage: "https://i.pinimg.com/736x/26/70/a0/2670a08537f129a9a343bcadbb62ac4c.jpg",
     topFeatures: [
       {
         id: "cloud",

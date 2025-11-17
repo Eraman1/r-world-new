@@ -110,8 +110,8 @@ export const businessIntelligence: SolutionConfig = {
     subtitle:
       "Streamline analytics operations with secure, scalable data management and visualization solutions for enterprise use.",
     subtitleLink: { text: "data management", url: "#" },
-    laptopImage: "/images/management-bi.jpg",
-    mobileImage: "/images/management-bi-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/ed/88/e1/ed88e14ad70676e71153190c15e90e9a.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/b0/3f/81/b03f815fb319ce720eea730cf59ff111.jpg",
     topFeatures: [
       {
         id: "cloud-analytics",

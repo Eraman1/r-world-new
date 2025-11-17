@@ -110,8 +110,8 @@ export const locationBasedService: SolutionConfig = {
     subtitle:
       "Simplify your spatial data handling with centralized location management, analytics dashboards, and cloud-based integration.",
     subtitleLink: { text: "location intelligence platforms", url: "#" },
-    laptopImage: "/images/location-management-laptop.jpg",
-    mobileImage: "/images/location-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/07/c1/17/07c11726117106b8ea4d340cb6152e7d.jpg",
+    mobileImage: "https://i.pinimg.com/736x/76/55/87/765587e389328e851fb9b1a5528fec76.jpg",
     topFeatures: [
       {
         id: "dashboard",

@@ -109,8 +109,8 @@ export const itServiceManagement: SolutionConfig = {
     subtitle:
       "Centralize IT operations, monitor performance, and manage digital assets from a single integrated platform.",
     subtitleLink: { text: "enterprise IT platforms", url: "#" },
-    laptopImage: "/images/itsm-laptop.jpg",
-    mobileImage: "/images/itsm-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/10/bd/ce/10bdcee5acece5da5ea77a89d61ee653.jpg",
+    mobileImage: "https://i.pinimg.com/736x/cd/28/b0/cd28b04e6358671bd9f36e0bd1ca76c6.jpg",
     topFeatures: [
       {
         id: "monitoring",

@@ -110,8 +110,8 @@ export const ticketing: SolutionConfig = {
     subtitle:
       "Organize, track, and manage tickets efficiently with dashboards, automation, and reporting features.",
     subtitleLink: { text: "ticketing management software", url: "#" },
-    laptopImage: "/images/ticketing-management-laptop.jpg",
-    mobileImage: "/images/ticketing-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/4a/62/41/4a624121f7ac982d8c85b425eb88369c.jpg",
+    mobileImage: "https://i.pinimg.com/736x/8b/a4/62/8ba46297ba60b1159aed95b269fc166f.jpg",
     topFeatures: [
       {
         id: "dashboard",

@@ -171,7 +171,7 @@ solutionsTwo: {
     subtitle:
       "Our cybersecurity management solutions help organizations monitor, control, and protect their IT environments through advanced analytics and automation.",
     subtitleLink: { text: "cybersecurity management platform", url: "#" },
-    laptopImage: "/images/cybersecurity-dashboard.jpg",
+    laptopImage: "https://i.pinimg.com/736x/0a/74/ba/0a74bae45bd5a441d8259bd75b8b4abe.jpg",
     mobileImage: "/images/cybersecurity-mobile.jpg",
     topFeatures: [
       {

@@ -110,8 +110,8 @@ export const erp: SolutionConfig = {
     subtitle:
       "Our ERP software enables efficient management of finance, HR, operations, and supply chains with robust analytics and reporting.",
     subtitleLink: { text: "enterprise management", url: "#" },
-    laptopImage: "/images/management-erp.jpg",
-    mobileImage: "/images/management-erp-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/1f/49/d8/1f49d84b3f1fc67e45f5b2d6b689b32a.jpg",
+    mobileImage: "https://i.pinimg.com/736x/ca/69/45/ca694537b6f2c044599180dad2b4c9c3.jpg",
     topFeatures: [
       {
         id: "centralized-data",

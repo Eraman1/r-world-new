@@ -110,8 +110,8 @@ export const legacy: SolutionConfig = {
     subtitle:
       "We offer intelligent tools to monitor, optimize, and maintain legacy systems during and after modernization.",
     subtitleLink: { text: "legacy management systems", url: "#" },
-    laptopImage: "/images/management-legacy.jpg",
-    mobileImage: "/images/management-legacy-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/c0/bd/72/c0bd72784aac884278f58081ed826d88.jpg",
+    mobileImage: "https://i.pinimg.com/736x/63/ad/77/63ad774cef4af5ae304da749894ebcc8.jpg",
     topFeatures: [
       {
         id: "automation",

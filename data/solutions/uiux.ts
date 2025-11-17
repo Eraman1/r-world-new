@@ -110,8 +110,8 @@ export const uiUx: SolutionConfig = {
     subtitle:
       "Manage design assets, workflows, and team collaboration efficiently with centralized tools and dashboards.",
     subtitleLink: { text: "UI/UX management software", url: "#" },
-    laptopImage: "/images/ui-ux-management-laptop.jpg",
-    mobileImage: "/images/ui-ux-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/19/53/7d/19537d1fe194205ab3c0eda4fc2d5164.jpg",
+    mobileImage: "https://i.pinimg.com/736x/e9/60/d1/e960d16fb83ab9f3cbc60a5ed11be478.jpg",
     topFeatures: [
       {
         id: "asset-management",

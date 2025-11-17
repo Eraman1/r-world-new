@@ -169,7 +169,7 @@ solutionsTwo: {
     subtitle:
       "Optimize sales pipelines, automate marketing, and manage customer interactions efficiently with our CRM management solutions.",
     subtitleLink: { text: "CRM management software", url: "#" },
-    laptopImage: "/images/crm-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/af/6f/81/af6f8134bc99bc75402389f115b10c87.jpg",
     mobileImage: "/images/crm-management-mobile.jpg",
     topFeatures: [
       {

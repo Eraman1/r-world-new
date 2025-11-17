@@ -109,8 +109,8 @@ export const blockchain: SolutionConfig = {
     subtitle:
       "Manage decentralized systems efficiently with our blockchain infrastructure, monitoring, and integration tools.",
     subtitleLink: { text: "blockchain infrastructure management", url: "#" },
-    laptopImage: "/images/management-blockchain.jpg",
-    mobileImage: "/images/management-blockchain-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/c6/02/7e/c6027ee944961baa460e01a27498e027.jpg",
+    mobileImage: "https://i.pinimg.com/736x/7d/e7/85/7de78594889bd88d9c1abcf150ac699f.jpg",
     topFeatures: [
       {
         id: "wallet",

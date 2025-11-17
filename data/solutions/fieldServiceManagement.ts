@@ -109,8 +109,8 @@ export const fieldServiceManagement: SolutionConfig = {
     subtitle:
       "Our management systems provide complete visibility into field operations, technician performance, and service requests in one unified platform.",
     subtitleLink: { text: "FSM Management Software", url: "#" },
-    laptopImage: "/images/fsm-management-laptop.jpg",
-    mobileImage: "/images/fsm-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/2b/fc/b1/2bfcb1c950183474b2af40e38922921a.jpg",
+    mobileImage: "https://i.pinimg.com/736x/bd/02/61/bd02616132f5cbf2e18f16a467cd627b.jpg",
     topFeatures: [
       {
         id: "scheduling",

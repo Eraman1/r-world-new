@@ -110,8 +110,8 @@ export const fraudProtection: SolutionConfig = {
     subtitle:
       "Our fraud management systems empower financial institutions to monitor, detect, and mitigate fraud risks across all digital touchpoints.",
     subtitleLink: { text: "fraud management systems", url: "#" },
-    laptopImage: "/images/fraud-management-laptop.jpg",
-    mobileImage: "/images/fraud-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/dc/1b/36/dc1b361ff7362f5939a0a7f03b932255.jpg",
+    mobileImage: "https://i.pinimg.com/736x/1f/72/7c/1f727cbf8bbb440bd3a50f7143942fad.jpg",
     topFeatures: [
       {
         id: "dashboard",

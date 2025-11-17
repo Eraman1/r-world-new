@@ -167,7 +167,7 @@ solutionsTwo: {
     subtitle:
       "Our web development management solutions streamline project tracking, team collaboration, and deployment efficiency for web development teams of any size.",
     subtitleLink: { text: "web project management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/a7/58/49/a758499316370666df04791f12cb4f3f.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

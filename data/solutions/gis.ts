@@ -110,8 +110,8 @@ export const gis: SolutionConfig = {
     subtitle:
       "Streamline geospatial data management, collaboration, and decision-making through intelligent GIS management software.",
     subtitleLink: { text: "GIS management platforms", url: "#" },
-    laptopImage: "/images/gis-management.jpg",
-    mobileImage: "/images/gis-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/be/ab/72/beab72cd6ed23e28f1fd03fb60e4f961.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/16/7c/2b/167c2b1aa35a07852e242240083514da.jpg",
     topFeatures: [
       {
         id: "data-storage",

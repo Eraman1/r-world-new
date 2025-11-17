@@ -172,7 +172,7 @@ solutionsTwo: {
     subtitle:
       "Our IoT management tools ensure smooth device onboarding, data monitoring, and secure communication across large-scale deployments.",
     subtitleLink: { text: "IoT management systems", url: "#" },
-    laptopImage: "/images/iot-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/c8/57/32/c857320ae95f62dd27b4d002810cdf3d.jpg",
     mobileImage: "/images/iot-management-mobile.jpg",
     topFeatures: [
       {

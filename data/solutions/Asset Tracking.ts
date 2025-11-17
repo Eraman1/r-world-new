@@ -110,8 +110,8 @@ export const assetTracking: SolutionConfig = {
     subtitle:
       "Enhance visibility and control with centralized asset tracking software, integrated with ERP, warehouse, and IoT platforms.",
     subtitleLink: { text: "integrated asset management", url: "#" },
-    laptopImage: "/images/management-asset-tracking.jpg",
-    mobileImage: "/images/management-asset-tracking-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/0f/e9/97/0fe997bcab92c7981afb73825a7af1dd.jpg",
+    mobileImage: "https://i.pinimg.com/736x/01/ad/7a/01ad7aad279f9cc133fd152b8f5983fc.jpg",
     topFeatures: [
       {
         id: "cloud-tracking",

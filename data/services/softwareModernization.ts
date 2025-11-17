@@ -169,7 +169,7 @@ solutionsTwo: {
     subtitle:
       "Our modernization management platforms simplify planning, migration, and performance tracking for seamless digital transformation.",
     subtitleLink: { text: "modernization management software", url: "#" },
-    laptopImage: "/images/modernization-management.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
     mobileImage: "/images/modernization-management-mobile.jpg",
     topFeatures: [
       {

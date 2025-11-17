@@ -109,8 +109,8 @@ export const crm: SolutionConfig = {
     subtitle:
       "Manage customer data, automate workflows, and gain real-time insights through centralized CRM dashboards.",
     subtitleLink: { text: "CRM data management", url: "#" },
-    laptopImage: "/images/crm-management.jpg",
-    mobileImage: "/images/crm-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/6c/17/39/6c17399dee9698802bf2dadf5cbafe21.jpg",
+    mobileImage: "https://i.pinimg.com/736x/f1/83/58/f18358f739f0a142831fbe0e2a8e695d.jpg",
     topFeatures: [
       {
         id: "workflow",

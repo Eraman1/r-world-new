@@ -110,8 +110,8 @@ export const posPaymentProcessing: SolutionConfig = {
     subtitle:
       "Centralize your sales, inventory, and payment processing with secure, cloud-based POS management solutions.",
     subtitleLink: { text: "POS management software", url: "#" },
-    laptopImage: "/images/pos-management-laptop.jpg",
-    mobileImage: "/images/pos-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/85/e7/43/85e743c89ecb01b1a97086429eabfc63.jpg",
     topFeatures: [
       {
         id: "central-dashboard",

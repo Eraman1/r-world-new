@@ -167,7 +167,7 @@ solutionsTwo: {
     subtitle:
       "Streamline test planning, execution, and reporting with our QA management solutions for teams of any size.",
     subtitleLink: { text: "QA management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/736x/1f/ee/97/1fee97a732618ed889319291efe05aaf.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

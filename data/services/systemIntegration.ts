@@ -170,7 +170,7 @@ solutionsTwo: {
     subtitle:
       "Monitor, manage, and optimize your integrated systems with real-time tracking, analytics, and performance monitoring.",
     subtitleLink: { text: "system integration platform", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/d9/42/0a/d9420aa74b0601bb2d5d2012c2f2151e.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

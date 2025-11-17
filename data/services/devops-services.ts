@@ -167,7 +167,7 @@ solutionsTwo: {
     subtitle:
       "Streamline workflow, collaboration, and deployment processes with our DevOps management solutions for teams of any size.",
     subtitleLink: { text: "DevOps management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/736x/b7/04/c9/b704c9b260d6e670a02f9bdbbe4d9e67.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

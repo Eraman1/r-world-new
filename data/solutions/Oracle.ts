@@ -110,8 +110,8 @@ export const Oracle: SolutionConfig = {
     subtitle:
       "Our Oracle management solutions provide centralized control over your business operations, assets, and analytics.",
     subtitleLink: { text: "Oracle enterprise management", url: "#" },
-    laptopImage: "/images/management-oracle.jpg",
-    mobileImage: "/images/management-oracle-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/8e/d2/00/8ed200577799934880faf393957cc7c8.jpg",
+    mobileImage: "https://i.pinimg.com/736x/7e/8c/03/7e8c03132862d83e1b336098f653ac68.jpg",
     topFeatures: [
       {
         id: "centralized-dashboard",

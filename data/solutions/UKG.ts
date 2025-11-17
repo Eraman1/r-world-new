@@ -110,8 +110,8 @@ export const UKG: SolutionConfig = {
     subtitle:
       "Leverage UKG’s cloud-based workforce solutions to optimize employee scheduling, engagement, and compliance.",
     subtitleLink: { text: "UKG Workforce Central", url: "#" },
-    laptopImage: "/images/ukg-management.jpg",
-    mobileImage: "/images/ukg-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/85/74/b9/8574b9f3d6466b4624ac6e1f4d6076fb.jpg",
+    mobileImage: "https://i.pinimg.com/736x/ed/8b/6d/ed8b6d1e7daa8dbb02aeb15027741741.jpg",
     topFeatures: [
       {
         id: "ai-forecasting",

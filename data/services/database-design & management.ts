@@ -170,7 +170,7 @@ solutionsTwo: {
     subtitle:
       "Our management solutions simplify database monitoring, performance tracking, and maintenance for businesses of all sizes.",
     subtitleLink: { text: "database management software", url: "#" },
-    laptopImage: "/images/database-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/9f/f9/c1/9ff9c1b7c995c2c581bd6490ab6a7ec3.jpg",
     mobileImage: "/images/database-management-mobile.jpg",
     topFeatures: [
       {

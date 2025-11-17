@@ -110,8 +110,8 @@ export const wearableTechnology: SolutionConfig = {
     subtitle:
       "Manage, analyze, and visualize data from wearable devices through secure dashboards and cloud platforms.",
     subtitleLink: { text: "wearable management platforms", url: "#" },
-    laptopImage: "/images/wearable-management-laptop.jpg",
-    mobileImage: "/images/wearable-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/28/ca/8a/28ca8a08e3bed6b9dfddb6ebcbe86d82.jpg",
+    mobileImage: "https://i.pinimg.com/736x/6d/e0/b2/6de0b2eeb5eb6a7b6a092b701228963c.jpg",
     topFeatures: [
       {
         id: "dashboard",

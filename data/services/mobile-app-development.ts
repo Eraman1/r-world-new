@@ -168,7 +168,7 @@ managementSolutions: {
   subtitle:
     "Our mobile app management solutions streamline project tracking, team collaboration, and deployment efficiency for mobile development teams of any size.",
   subtitleLink: { text: "mobile project management software", url: "#" },
-  laptopImage: "/images/management-solutions.jpg",
+  laptopImage: "https://i.pinimg.com/736x/27/5d/2f/275d2f2edeab40d1b332c78c4b818819.jpg",
   mobileImage: "/images/management-solutions-mobile.jpg",
   topFeatures: [
     {

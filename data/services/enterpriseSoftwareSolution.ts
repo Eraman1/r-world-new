@@ -169,7 +169,7 @@ export const enterpriseSoftwareSolution: ServiceConfig = {
     subtitle:
       "Our enterprise management solutions enhance communication, productivity, and real-time visibility across departments and teams.",
     subtitleLink: { text: "enterprise management software", url: "#" },
-    laptopImage: "/images/enterprise-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/f1/64/30/f164305f9ebf1ae0b1f1338a41d1a172.jpg",
     mobileImage: "/images/enterprise-management-mobile.jpg",
     topFeatures: [
       {

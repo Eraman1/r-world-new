@@ -109,8 +109,8 @@ export const kiosk: SolutionConfig = {
     subtitle:
       "Control, monitor, and update your kiosk network remotely using our centralized management dashboard.",
     subtitleLink: { text: "kiosk management software", url: "#" },
-    laptopImage: "/images/kiosk-management.jpg",
-    mobileImage: "/images/kiosk-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/99/3f/04/993f04fae7bd2bb190ec0bd278497c2a.jpg",
+    mobileImage: "https://i.pinimg.com/736x/14/c1/8c/14c18c26374d456ad15c4d1a45d1f8a1.jpg",
     topFeatures: [
       {
         id: "remote-monitoring",

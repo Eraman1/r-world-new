@@ -110,8 +110,8 @@ export const openSource: SolutionConfig = {
     subtitle:
       "Centralize, monitor, and optimize your open source software ecosystem with comprehensive management solutions.",
     subtitleLink: { text: "open source management", url: "#" },
-    laptopImage: "/images/open-source-management-laptop.jpg",
-    mobileImage: "/images/open-source-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/e5/63/82/e5638269aae8f80871dd0d14c3ef4893.jpg",
+    mobileImage: "https://i.pinimg.com/736x/95/2f/e6/952fe6563aaf20fb2e5359a9721ad156.jpg",
     topFeatures: [
       {
         id: "centralized-dashboard",

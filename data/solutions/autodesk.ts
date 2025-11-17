@@ -110,8 +110,8 @@ export const autodesk: SolutionConfig = {
     subtitle:
       "Enhance project collaboration and asset tracking through Autodesk’s integrated management systems.",
     subtitleLink: { text: "Autodesk project management", url: "#" },
-    laptopImage: "/images/management-autodesk.jpg",
-    mobileImage: "/images/management-autodesk-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/73/83/6f/73836f450e8efdbb5f18ea83da73e359.jpg",
+    mobileImage: "https://i.pinimg.com/736x/a4/c5/97/a4c597415758c3e420ac4a0310af8c2e.jpg",
     topFeatures: [
       {
         id: "collaboration",

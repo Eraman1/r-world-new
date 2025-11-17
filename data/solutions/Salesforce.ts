@@ -110,8 +110,8 @@ export const Salesforce: SolutionConfig = {
     subtitle:
       "We help businesses manage, monitor, and optimize Salesforce platforms for maximum efficiency and ROI.",
     subtitleLink: { text: "Salesforce management", url: "#" },
-    laptopImage: "/images/management-salesforce.jpg",
-    mobileImage: "/images/management-salesforce-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/81/f1/8e/81f18ed8afb2d377deebf9e351c323b8.jpg",
+    mobileImage: "https://i.pinimg.com/736x/e9/8a/dc/e98adc1cbd8ba6b3efc7fcee47df08f9.jpg",
     topFeatures: [
       {
         id: "user-management",

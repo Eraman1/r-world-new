@@ -110,8 +110,8 @@ export const NetSuit: SolutionConfig = {
     subtitle:
       "Centralize business operations, financials, and data into a single powerful cloud-based ERP ecosystem.",
     subtitleLink: { text: "NetSuite ERP platform", url: "#" },
-    laptopImage: "/images/netsuite-management.jpg",
-    mobileImage: "/images/netsuite-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/02/3f/70/023f7020285ddefc9a005f21e82498ed.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/a5/c4/b6/a5c4b6221f574262a6a267819d00324b.jpg",
     topFeatures: [
       {
         id: "real-time-visibility",

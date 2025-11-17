@@ -109,8 +109,8 @@ export const cms: SolutionConfig = {
     subtitle:
       "We build and operate CMS solutions with robust governance, automation, and scalable delivery to meet enterprise demands.",
     subtitleLink: { text: "content management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/e8/87/e3/e887e37c8ae12b16b183d9e2f3a46004.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/c4/42/8e/c4428e9bb7735ff2aee8aef142e70eff.jpg",
     topFeatures: [
       {
         id: "governance",

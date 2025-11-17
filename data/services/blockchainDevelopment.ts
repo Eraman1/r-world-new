@@ -169,7 +169,7 @@ solutionsTwo: {
     subtitle:
       "Monitor, analyze, and optimize blockchain performance with advanced management solutions for enterprises and developers.",
     subtitleLink: { text: "blockchain management software", url: "#" },
-    laptopImage: "/images/blockchain-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/93/5c/12/935c1251245dfbb6d505a9eac8af0b6b.jpg",
     mobileImage: "/images/blockchain-management-mobile.jpg",
     topFeatures: [
       {

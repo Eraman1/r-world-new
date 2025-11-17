@@ -109,8 +109,8 @@ export const cloud: SolutionConfig = {
     subtitle:
       "Simplify cloud operations with our integrated management tools and automation frameworks for continuous delivery and performance monitoring.",
     subtitleLink: { text: "cloud management", url: "#" },
-    laptopImage: "/images/cloud-management.jpg",
-    mobileImage: "/images/cloud-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/fa/29/70/fa2970d17e2bbc7603b171ec231b6a4e.jpg",
+    mobileImage: "https://i.pinimg.com/736x/43/f6/0d/43f60dba8e0e3cd837697a954dae0915.jpg",
     topFeatures: [
       {
         id: "monitoring",

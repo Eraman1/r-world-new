@@ -166,7 +166,7 @@ solutionsTwo: {
     subtitle:
       "Manage cloud migration projects efficiently with tracking, collaboration, and performance monitoring for your team.",
     subtitleLink: { text: "cloud management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/736x/73/26/5d/73265dbab4589669637c8b99bfca9db6.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {
