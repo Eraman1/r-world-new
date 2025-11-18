@@ -15,12 +15,12 @@ interface FooterLink {
 
 const Footer: React.FC = () => {
   const quickLinks: FooterLink[] = [
-    { label: "About Us", href: "/about" },
+    { label: "About Us", href: "/about-us" },
     { label: "Services", href: "/services" },
-    { label: "On-Demand Developers", href: "/developers" },
+    { label: "On-Demand Developers", href: "/on-demand-developers" },
     { label: "Partners & Affiliations", href: "/partners" },
     { label: "Case Studies", href: "/case-studies" },
-    { label: "Blog", href: "/blog" },
+    { label: "Blog", href: "/blogs" },
   ];
 
   const industries: FooterLink[] = [

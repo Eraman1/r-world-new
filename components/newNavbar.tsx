@@ -8,6 +8,7 @@ import {
   Phone,
   SearchIcon,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -270,8 +271,8 @@ const megaMenuData: MegaMenuData = {
       { title: "About us", link: "/about-us" },
 
       { title: "Careers", link: "/career" },
-      { title: "News & Events", link: "/company/news-events" },
-      { title: "History", link: "/company/history" },
+      { title: "News & Events", link: "/news-events" },
+      { title: "History", link: "/history" },
 
       { title: "Reviews", link: "/reviews" },
     ],
@@ -369,7 +370,12 @@ const NewNavbar = () => {
         <div className="container mx-auto flex justify-end items-center space-x-8 text-sm">
           <Link href="tel:8377832378" className="flex items-center space-x-2">
             <span>Let&#39;s Talk !</span>
-            <span className="text-xs">IN</span>
+            <Image
+              src="/indian_flag.png"
+              alt="India Flag"
+              width={20}
+              height={20}
+            />
             <Phone className="h-3 w-3" />
             <span>+91-8377832378</span>
           </Link>
