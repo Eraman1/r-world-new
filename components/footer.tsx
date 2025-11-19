@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-100 relative">
       {/* Teal accent bar */}
-      <div className="h-2 bg-sky-600"></div>
+      <div className="h-2 bg-gradient-to-r from-gray-900 to-blue-800"></div>
 
       {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-4 py-12">
