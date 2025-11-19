@@ -8,7 +8,7 @@ export const healthcare: IndustryConfig = {
     subtitle:
       "Empower hospitals, clinics, and healthcare startups with intelligent, secure, and interoperable digital health platforms. From patient monitoring to predictive diagnostics, we enable seamless healthcare delivery powered by innovation and automation.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "/industry/industryHealthcareBanner.webp",
     linkText: "Get Healthcare Solutions",
   },
  
@@ -66,6 +66,11 @@ export const healthcare: IndustryConfig = {
         position: "right",
       },
     ],
+     deviceImages: {
+      laptop: "/industry/industryHealthcareBanner.webp",
+      tablet: "/industry/industryHealthcareBanner.webp",
+      mobile: "/industry/industryHealthcareBanner.webp",
+    },
   },
  
   solutions: {
@@ -132,8 +137,8 @@ export const healthcare: IndustryConfig = {
     subtitle:
       "We build end-to-end healthcare management platforms that integrate telehealth, EHR, and predictive analytics to improve care quality and efficiency.",
     subtitleLink: { text: "healthcare management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/10/6d/8f/106d8f44e6553b17498896984376bb62.jpg",
+    mobileImage: "https://i.pinimg.com/736x/e4/75/a2/e475a274839246482835e19e5c6a0301.jpg",
     topFeatures: [
       {
         id: "ehr-integration",
@@ -212,7 +217,7 @@ onCtaClick: () => {},
   subtitle:
     "Our healthcare software developers build intelligent digital systems to streamline hospital operations, enhance patient care, and improve overall clinical efficiency.",
   subtitleLink: { text: "healthcare management software", url: "#" },
-  laptopImage: "/images/healthcare-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/ba/52/89/ba528974ead83742fe6661d3f783af08.jpg",
   mobileImage: "/images/healthcare-management-mobile.jpg",
 
   topFeatures: [

@@ -169,7 +169,7 @@ solutionsTwo: {
     subtitle:
       "Streamline your store management, analytics, and customer engagement with our advanced e-commerce tools.",
     subtitleLink: { text: "e-commerce management software", url: "#" },
-    laptopImage: "/images/ecommerce-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/3e/ee/0e/3eee0efd67bea0921b615676c447aac5.jpg",
     mobileImage: "/images/ecommerce-management-mobile.jpg",
     topFeatures: [
       {

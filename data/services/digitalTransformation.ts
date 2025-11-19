@@ -170,7 +170,7 @@ solutionsTwo: {
     subtitle:
       "Streamline business transformation, performance tracking, and innovation management with our advanced digital tools.",
     subtitleLink: { text: "digital transformation software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/736x/93/cb/f4/93cbf4e36e8865dfcea6e4a15dce6eb9.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

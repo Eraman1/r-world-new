@@ -110,8 +110,8 @@ export const UiPath: SolutionConfig = {
     subtitle:
       "Centralize, monitor, and manage your bots efficiently using UiPath Orchestrator for enterprise-grade automation governance.",
     subtitleLink: { text: "UiPath Orchestrator", url: "#" },
-    laptopImage: "/images/uipath-management.jpg",
-    mobileImage: "/images/uipath-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/e1/76/4c/e1764c30845f7312decbec64574563f4.jpg",
+    mobileImage: "https://i.pinimg.com/736x/49/40/e7/4940e78f82f1816f8c3d66fb4c0b617a.jpg",
     topFeatures: [
       {
         id: "monitoring",

@@ -110,8 +110,8 @@ export const aws: SolutionConfig = {
     subtitle:
       "Empower your teams with cloud-native management tools to monitor, optimize, and automate AWS infrastructure for maximum performance.",
     subtitleLink: { text: "AWS cloud management", url: "#" },
-    laptopImage: "/images/aws-management.jpg",
-    mobileImage: "/images/aws-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/34/16/90/341690eb33f2fd5749851cb031ac5a1f.jpg",
+    mobileImage: "https://i.pinimg.com/736x/3d/f1/be/3df1be1c703f55ffd5cef47a3ad4ef12.jpg",
     topFeatures: [
       {
         id: "cost-optimization",

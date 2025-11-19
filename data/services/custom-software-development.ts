@@ -167,7 +167,7 @@ solutionsTwo: {
     subtitle:
       "Our software management solutions streamline project tracking, team collaboration, and operational efficiency for development teams of any size.",
     subtitleLink: { text: "project management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/7f/a2/b0/7fa2b0c5a8f488114028bceecf4a66ba.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

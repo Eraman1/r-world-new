@@ -109,8 +109,8 @@ export const googlecloude: SolutionConfig = {
     subtitle:
       "Empower your teams with cloud-native management tools to monitor, optimize, and automate AWS infrastructure for maximum performance.",
     subtitleLink: { text: "AWS cloud management", url: "#" },
-    laptopImage: "/images/aws-management.jpg",
-    mobileImage: "/images/aws-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/52/af/00/52af009be59edf67607353fbc610d904.jpg",
+    mobileImage: "https://i.pinimg.com/736x/40/19/50/401950f6f52e0594cb763ae089bce8a9.jpg",
     topFeatures: [
       {
         id: "cost-optimization",

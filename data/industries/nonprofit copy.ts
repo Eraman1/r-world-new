@@ -8,7 +8,7 @@ export const nonprofit: IndustryConfig = {
     subtitle:
       "Empower nonprofits with intelligent automation, donor management, and operational analytics. Streamline fundraising, volunteer management, and program tracking to maximize impact.",
     image:
-      "/industry/industryNonprofitBanner.webp",
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     linkText: "Get Nonprofit Solutions",
   },
 
@@ -66,11 +66,6 @@ export const nonprofit: IndustryConfig = {
         position: "right",
       },
     ],
-     deviceImages: {
-      laptop: "/industry/industryNonprofitBanner.webp",
-      tablet: "/industry/industryNonprofitBanner.webp",
-      mobile: "/industry/industryNonprofitBanner.webp",
-    },
   },
 
   solutions: {
@@ -131,12 +126,13 @@ export const nonprofit: IndustryConfig = {
   linkUrl: "/contact-us",
 },
 
-  managementSolutions: {
+
+  managementSolutions:{
     title: "End-to-End Nonprofit Management Software",
     subtitle:
       "We design intelligent nonprofit ecosystems that integrate donor management, fundraising, volunteer coordination, and analytics to help organizations scale impact efficiently.",
     subtitleLink: { text: "nonprofit management software", url: "#" },
-    laptopImage: "https://i.pinimg.com/1200x/8e/f8/c4/8ef8c40ce3b37e092e3cd2c0523137a2.jpg",
+    laptopImage: "https://i.pinimg.com/736x/3a/92/47/3a924788f85935ca8fe494840e119fa0.jpg",
     mobileImage: "https://i.pinimg.com/1200x/74/29/e2/7429e2f1931d41e4abb8600cd684c5a2.jpg",
     topFeatures: [
       {
@@ -211,85 +207,6 @@ export const nonprofit: IndustryConfig = {
 ctaText: "BUILD YOUR NONPROFIT SOFTWARE SOLUTION",
 onCtaClick: () => {},
   },
-managementSolutionsTwo: {
-  title: "Nonprofit Management Software Solutions",
-  subtitle:
-    "Our nonprofit software developers build smart digital systems that streamline fundraising, donor engagement, and impact reporting to drive your mission forward.",
-  subtitleLink: { text: "nonprofit software solutions", url: "#" },
-  laptopImage: "https://i.pinimg.com/736x/3a/92/47/3a924788f85935ca8fe494840e119fa0.jpg",
-  mobileImage: "",
-
-  topFeatures: [
-    {
-      id: "donor-management",
-      icon: "Users",
-      title: "Donor & Volunteer Management Platforms",
-      description:
-        "Simplify donor tracking, communication, and volunteer coordination. Manage contributions and engagement through a unified dashboard.",
-      link: { text: "donor management software", url: "#" },
-    },
-    {
-      id: "fundraising-tools",
-      icon: "HeartHandshake",
-      title: "Fundraising & Grant Management Tools",
-      description:
-        "Automate donation campaigns and grant tracking workflows. Gain real-time visibility into funding performance and outreach impact.",
-      link: { text: "fundraising management system", url: "#" },
-    },
-    {
-      id: "program-tracking",
-      icon: "ChartLine",
-      title: "Program & Impact Tracking Systems",
-      description:
-        "Monitor project outcomes, KPIs, and community impact effectively. Generate detailed analytics to showcase transparency and results.",
-      link: { text: "impact tracking software", url: "#" },
-    },
-    {
-      id: "compliance-security",
-      icon: "ShieldCheck",
-      title: "Compliance & Data Security Solutions",
-      description:
-        "Ensure donor data safety and compliance with global standards. Automate audit trails, data encryption, and reporting workflows.",
-      link: { text: "nonprofit compliance software", url: "#" },
-    },
-  ],
-
-  bottomFeatures: [
-    {
-      id: "crm-integration",
-      icon: "Link2",
-      title: "CRM & Third-Party Integration Tools",
-      description:
-        "Integrate with CRM, accounting, and communication systems. Centralize data for seamless nonprofit management and insights.",
-    },
-    {
-      id: "event-management",
-      icon: "Calendar",
-      title: "Event & Campaign Management Platforms",
-      description:
-        "Plan, promote, and track fundraising events effortlessly. Manage registrations, donations, and follow-ups in one place.",
-    },
-    {
-      id: "reporting-analytics",
-      icon: "BarChart3",
-      title: "Real-Time Reporting & Analytics Dashboards",
-      description:
-        "Access visual dashboards to analyze donations and engagement. Make data-driven decisions to strengthen organizational growth.",
-    },
-    {
-      id: "volunteer-portal",
-      icon: "UsersRound",
-      title: "Volunteer Coordination Portals",
-      description:
-        "Enable volunteers to register, manage shifts, and report progress. Foster collaboration and streamline community operations.",
-    },
-  ],
-
-  ctaText: "GET NONPROFIT SOFTWARE DEVELOPERS",
-  onCtaClick: "/contact-us",
-},
-
-
   faq : {
   title: "Nonprofit & NGO FAQ",
   items: [
@@ -357,4 +274,3 @@ managementSolutionsTwo: {
 },
 
 };
-

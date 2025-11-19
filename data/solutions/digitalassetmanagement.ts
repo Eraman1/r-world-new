@@ -110,8 +110,8 @@ export const digitalAssetManagement: SolutionConfig = {
     subtitle:
       "Manage, secure, and distribute digital content efficiently across your organization.",
     subtitleLink: { text: "digital asset management platform", url: "#" },
-    laptopImage: "/images/dam-management.jpg",
-    mobileImage: "/images/dam-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/45/fd/eb/45fdeb22c49384df0489c279503b268d.jpg",
+    mobileImage: "https://i.pinimg.com/736x/5a/f8/c2/5af8c2c5d21275aff74c4f10ba1a68bb.jpg",
     topFeatures: [
       {
         id: "central-storage",

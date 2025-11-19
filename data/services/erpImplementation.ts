@@ -169,7 +169,7 @@ solutionsTwo: {
     subtitle:
       "Our ERP management tools streamline process tracking, data flow, and system optimization for enterprises of any size.",
     subtitleLink: { text: "ERP management platform", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/736x/c7/da/e6/c7dae64792e4d2539090c1c70fd4897f.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

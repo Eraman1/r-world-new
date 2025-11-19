@@ -49,8 +49,8 @@ import { ticketing } from './ticketing';
 import { uiUx } from './uiux';
 import { wearableTechnology } from './wearabletechnology';
 import { webDevelopment } from './webdevelopment';
-import { googlecloude } from "./Google-Cloud";
 import { digitalSignage } from "./digitallSignage";
+import { googlecloude } from "./Google-Cloud";
 
 export const solutionsData: Record<string, SolutionConfig> = {
   "animation-graphic-design": animationGraphicDesign,
@@ -61,14 +61,14 @@ export const solutionsData: Record<string, SolutionConfig> = {
   "google-cloud": googlecloude,
   arvr,
   ibm,
- "microsoft":  Microsoft,
+  microsoft: Microsoft,
   "net-suite": NetSuit,
-  "oracle": Oracle,
-  "salesforce": Salesforce,
-  "sap": SAP,
- "ukg": UKG,
-  "uipath": UiPath,
-  "biometrics": Biometrics,
+  oracle: Oracle,
+  salesforce: Salesforce,
+  sap: SAP,
+  ukg: UKG,
+  uipath: UiPath,
+  biometrics: Biometrics,
   blockchain,
   "business-intelligence": businessIntelligence,
   cloud,
@@ -76,12 +76,12 @@ export const solutionsData: Record<string, SolutionConfig> = {
   crm,
   database,
   "digital-asset-management": digitalAssetManagement,
- "digital-signage": digitalSignage,
- "document-management"  : documentManagement,
-"embedded-software" :  embeddedSoftware,
+  "digital-signage": digitalSignage,
+  "document-management": documentManagement,
+  "embedded-software": embeddedSoftware,
   erp,
- "facilities-management": facilitiesManagement,
- "field-service-management": fieldServiceManagement,
+  "facilities-management": facilitiesManagement,
+  "field-service-management": fieldServiceManagement,
   firmware,
   "franchise-management": franchiseManagement,
   "fraud-protection": fraudProtection,
@@ -92,15 +92,15 @@ export const solutionsData: Record<string, SolutionConfig> = {
   legacy,
   "location-based-service": locationBasedService,
   middleware,
- "mobile-tablet": mobileTablet,
- "open-source": openSource,
- "pos-payment-processing": posPaymentProcessing,
- "sales-management": salesManagement,
+  "mobile-tablet": mobileTablet,
+  "open-source": openSource,
+  "pos-payment-processing": posPaymentProcessing,
+  "sales-management": salesManagement,
   telephony,
   ticketing,
- "ui-ux": uiUx,
- "wearable-technology": wearableTechnology,
- "web-development": webDevelopment,
+  "ui-ux": uiUx,
+  "wearable-technology": wearableTechnology,
+  "web-development": webDevelopment,
 };
 
 export type { SolutionConfig };

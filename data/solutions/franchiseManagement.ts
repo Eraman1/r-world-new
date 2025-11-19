@@ -109,8 +109,8 @@ export const franchiseManagement: SolutionConfig = {
     subtitle:
       "Our intelligent management systems help franchisors oversee operations, performance, and communication across all locations with ease.",
     subtitleLink: { text: "franchise software", url: "#" },
-    laptopImage: "/images/franchise-management-laptop.jpg",
-    mobileImage: "/images/franchise-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/a2/81/2c/a2812cac20aad52df7ec97bc60a39bcd.jpg",
+    mobileImage: "https://i.pinimg.com/736x/21/9b/d0/219bd01bf34ac06428eb897698135724.jpg",
     topFeatures: [
       {
         id: "dashboard",

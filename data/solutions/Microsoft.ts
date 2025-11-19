@@ -110,8 +110,8 @@ export const Microsoft: SolutionConfig = {
     subtitle:
       "Empower your teams with cloud-connected tools that simplify management, collaboration, and analytics across departments.",
     subtitleLink: { text: "Microsoft enterprise systems", url: "#" },
-    laptopImage: "/images/management-microsoft.jpg",
-    mobileImage: "/images/management-microsoft-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/e0/ad/dd/e0addddc9e16a650e06cb233a7f326ac.jpg",
+    mobileImage: "https://i.pinimg.com/736x/90/b9/a9/90b9a9f837e7ed5678b271da77aa844e.jpg",
     topFeatures: [
       {
         id: "integration",

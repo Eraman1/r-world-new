@@ -110,8 +110,8 @@ export const embeddedSoftware: SolutionConfig = {
     subtitle:
       "Manage firmware updates, monitoring, and device control with integrated embedded management systems.",
     subtitleLink: { text: "embedded device management", url: "#" },
-    laptopImage: "/images/embedded-management.jpg",
-    mobileImage: "/images/embedded-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/e9/e2/a0/e9e2a0676dc30caf65c2ec77f6be6204.jpg",
+    mobileImage: "https://i.pinimg.com/736x/cf/68/04/cf6804df1ad8de315cb8028163e4a048.jpg",
     topFeatures: [
       {
         id: "firmware-updates",

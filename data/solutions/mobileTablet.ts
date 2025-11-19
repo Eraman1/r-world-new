@@ -110,8 +110,8 @@ export const mobileTablet: SolutionConfig = {
     subtitle:
       "Manage app deployments, updates, analytics, and performance efficiently across mobile and tablet devices.",
     subtitleLink: { text: "mobile management software", url: "#" },
-    laptopImage: "/images/mobile-management-laptop.jpg",
-    mobileImage: "/images/mobile-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/14/4d/75/144d756d814f189bb5147c37b1d80e4c.jpg",
+    mobileImage: "https://i.pinimg.com/736x/ad/5d/86/ad5d864d49cf8926140e37e09ce26b9c.jpg",
     topFeatures: [
       {
         id: "app-dashboard",

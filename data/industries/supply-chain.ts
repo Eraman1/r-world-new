@@ -9,7 +9,7 @@ export const supplyChain: IndustryConfig = {
     subtitle:
       "Empower manufacturers, distributors, and logistics providers with advanced automation, real-time visibility, and predictive analytics. From procurement to last-mile delivery, we build digital systems that streamline global supply chains.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "/industry/industrySupplyChainManagementBanner.webp",
     linkText: "Get Supply Chain Solutions",
   },
 
@@ -67,6 +67,11 @@ export const supplyChain: IndustryConfig = {
         position: "right",
       },
     ],
+      deviceImages: {
+      laptop: "/industry/industrySupplyChainManagementBanner.webp",
+      tablet: "/industry/industrySupplyChainManagementBanner.webp",
+      mobile: "/industry/industrySupplyChainManagementBanner.webp",
+    },
   },
 
   solutions: {
@@ -151,8 +156,8 @@ Ensure transparency and accountability across your supply chain network.`,
     subtitle:
       "Digitize and optimize every aspect of your supply chain — from procurement and inventory to logistics and customer delivery.",
     subtitleLink: { text: "supply chain management software", url: "#" },
-    laptopImage: "/images/sports-laptop.jpg",
-    mobileImage: "/images/sports-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/8a/48/f6/8a48f6c675d6fb0e834553779f7c9893.jpg",
+    mobileImage: "https://i.pinimg.com/736x/5b/c2/ff/5bc2ffee4e6b29029dee5d90caf402f4.jpg",
     topFeatures: [
       {
         id: "match-analytics",
@@ -231,7 +236,7 @@ onCtaClick: () => {},
   subtitle:
     "Our supply-chain software developers create intelligent platforms to manage inventory, track shipments, and optimize logistics for smoother operations.",
   subtitleLink: { text: "supply-chain software", url: "#" },
-  laptopImage: "/images/supply-chain-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/30/b9/9e/30b99e3d6614366d8fcb63ece3d05fb7.jpg",
   mobileImage: "/images/supply-chain-management-mobile.jpg",
 
   topFeatures: [

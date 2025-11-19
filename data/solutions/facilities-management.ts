@@ -110,8 +110,8 @@ export const facilitiesManagement: SolutionConfig = {
     subtitle:
       "We provide scalable software platforms to manage building assets, maintenance teams, and sustainability goals in real-time.",
     subtitleLink: { text: "facilities operations", url: "#" },
-    laptopImage: "/images/facility-operations-laptop.jpg",
-    mobileImage: "/images/facility-operations-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/a5/1a/79/a51a79dd24d5e53bd68b8edf1016933d.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/78/30/97/78309770c36dac5dce3a67e38c9b97c0.jpg",
     topFeatures: [
       {
         id: "maintenance",

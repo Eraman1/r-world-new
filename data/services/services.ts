@@ -18,7 +18,6 @@ import { businessIntelligence } from "./businessIntelligence";
 import { dataAnalytics } from "./dataAnalytics";
 import { machinelearning } from "./machinelearning";
 import { artificialIntelligence } from "./artificialIntelligence";
-import { blockchain } from "../onDemandDevelopers/blockchain";
 import { blockchainDevelopment } from "./blockchainDevelopment";
 import { iotSolutions } from "./iotSolutions";
 import { cybersecurity } from "./cybersecurity";
@@ -30,14 +29,14 @@ import { technicalConsulting } from "./technicalConsulting";
 export const servicesData: Record<string, ServiceConfig> = {
   "custom-software-development": customSoftwareDevelopment,
   "mobile-app-development": mobileappdevelopment,
-  "webdevelopment": webdevelopment,
+  webdevelopment: webdevelopment,
   "software-testing-qa": softwareTestingQA,
   "ui-ux-design": uiUxDesign,
   "devops-services": devopsServices,
   "cloud-migration": cloudMigration,
   "api-development": apiDevelopment,
   "database-design-management": databaseDesignManagement,
- "enterprise-software-solution": enterpriseSoftwareSolution,
+  "enterprise-software-solution": enterpriseSoftwareSolution,
   "ecommerce-development": ecommerceDevelopment,
   "crm-development": crmDevelopment,
   "erp-implementation": erpImplementation,
@@ -45,9 +44,9 @@ export const servicesData: Record<string, ServiceConfig> = {
   "data-analytics": dataAnalytics,
   "machine-learning": machinelearning,
   "artificial-intelligence": artificialIntelligence,
-  "blockchain": blockchainDevelopment,
+  blockchain: blockchainDevelopment,
   "iot-solutions": iotSolutions,
-  "cybersecurity": cybersecurity,
+  cybersecurity: cybersecurity,
   "digital-transformation": digitalTransformation,
   "software-modernization": softwareModernization,
   "system-integration": systemIntegration,

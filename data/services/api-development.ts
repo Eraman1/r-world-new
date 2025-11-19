@@ -165,7 +165,7 @@ export const apiDevelopment: ServiceConfig = {
     subtitle:
       "Streamline API design, testing, deployment, and monitoring with our API management solutions for teams of any size.",
     subtitleLink: { text: "API management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/dc/10/66/dc1066149a50c98d217a705f337cc579.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

@@ -110,8 +110,8 @@ export const webDevelopment: SolutionConfig = {
     subtitle:
       "Manage, monitor, and optimize your web applications with dashboards, analytics, and automation tools.",
     subtitleLink: { text: "web management platforms", url: "#" },
-    laptopImage: "/images/web-management-laptop.jpg",
-    mobileImage: "/images/web-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/10/78/66/107866393e2a9d0581b4e179e04ae73d.jpg",
+    mobileImage: "https://i.pinimg.com/736x/90/c5/27/90c5273d41d32fcfc3c6e23a0c8e8860.jpg",
     topFeatures: [
       {
         id: "analytics",

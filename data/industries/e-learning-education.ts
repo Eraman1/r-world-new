@@ -8,7 +8,7 @@ export const eLearningEducation: IndustryConfig = {
     subtitle:
       "Empower students, educators, and institutions with next-gen EdTech platforms. From virtual classrooms to AI-powered assessments, revolutionize education through seamless digital transformation.",
     image:
-        "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+        "/industry/industryElearningBanner.webp",
     linkText: "Get E-Learning Solutions",
   },
  
@@ -66,6 +66,11 @@ export const eLearningEducation: IndustryConfig = {
         position: "right",
       },
     ],
+     deviceImages: {
+      laptop: "/industry/industryElearningBanner.webp",
+      tablet: "/industry/industryElearningBanner.webp",
+      mobile: "/industry/industryElearningBanner.webp",
+    },
   },
  
   solutions: {
@@ -158,8 +163,8 @@ export const eLearningEducation: IndustryConfig = {
     subtitle:
       "Our experts build smart, flexible, and analytics-driven education systems that empower institutions, educators, and learners to achieve excellence in the digital learning ecosystem.",
     subtitleLink: { text: "learning management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/8f/24/1d/8f241d0ca75763f23d3a541c8c86be93.jpg",
+    mobileImage: "https://i.pinimg.com/736x/9b/49/18/9b4918aae0a814902440b71fc49e17d7.jpg",
     topFeatures: [
       {
         id: "content",
@@ -239,7 +244,7 @@ onCtaClick: () => {},
   subtitle:
     "Our expert developers build smart e-learning platforms that simplify course delivery, enhance student engagement, and drive measurable learning outcomes for modern education.",
   subtitleLink: { text: "education management software", url: "#" },
-  laptopImage: "/images/elearning-management.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/86/39/f8/8639f8aac6b82300ecf488e19d394022.jpg",
   mobileImage: "/images/elearning-management-mobile.jpg",
 
   topFeatures: [

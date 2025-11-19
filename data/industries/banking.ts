@@ -8,7 +8,7 @@ export const banking: IndustryConfig = {
       subtitle:
         "Collaborate with top-tier developers to build powerful, scalable software that fuels innovation and accelerates your business success.",
       image:
-        "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+        "/industry/industryBankingBanner.webp",
       linkText: "Get Banking Solutions",
     },
     techHero: {
@@ -65,11 +65,11 @@ export const banking: IndustryConfig = {
           position: "right",
         },
       ],
-      // deviceImages: {
-      //   laptop: "/images/devices/laptop-agri.png",
-      //   tablet: "/images/devices/tablet-agri.png",
-      //   mobile: "/images/devices/mobile-agri.png",
-      // },
+      deviceImages: {
+        laptop: "/industry/industryBankingBanner.webp",
+        tablet: "/industry/industryBankingBanner.webp",
+        mobile: "/industry/industryBankingBanner.webp",
+      },
     },
     solutions: {
       mainTitle: "AI Solutions for Smart Banking",
@@ -133,8 +133,8 @@ export const banking: IndustryConfig = {
       subtitle:
         "R-World’s expert banking software developers bring deep fintech experience and innovation to create secure, intelligent, and scalable banking management systems. Our tailored solutions streamline operations, enhance digital banking experiences, and empower financial institutions to perform efficiently in a dynamic market.",
       subtitleLink: { text: "land management software", url: "#" },
-      laptopImage: "/images/management-solutions.jpg",
-      mobileImage: "/images/management-solutions-mobile.jpg",
+      laptopImage: "https://i.pinimg.com/736x/74/ad/5c/74ad5caa313ef13c7d55bc66ce4a1906.jpg",
+      mobileImage: "https://i.pinimg.com/1200x/f6/c3/f2/f6c3f2a835dc8558ebcfd2faba7d4d40.jpg",
       topFeatures: [
         {
           id: "mapping",
@@ -199,7 +199,7 @@ export const banking: IndustryConfig = {
   subtitle:
     "Our banking software developers build secure, scalable, and efficient digital solutions to streamline operations, improve compliance, and enhance customer experience across financial services.",
   subtitleLink: { text: "banking management software", url: "#" },
-  laptopImage: "/images/management-solutions.jpg",
+  laptopImage: "https://i.pinimg.com/1200x/42/05/67/4205672c22c8c6ffd60ab8e947748ae1.jpg",
   mobileImage: "/images/management-solutions-mobile.jpg",
 
   topFeatures: [

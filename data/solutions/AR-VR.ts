@@ -110,8 +110,8 @@ export const arvr: SolutionConfig = {
     subtitle:
       "Empowering businesses to manage, monitor, and scale immersive experiences with intelligent visualization tools.",
     subtitleLink: { text: "Explore AR/VR Management", url: "#" },
-    laptopImage: "/images/management-arvr.jpg",
-    mobileImage: "/images/management-arvr-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/da/9b/8b/da9b8bdf623094bbee3c6366de289faf.jpg",
     topFeatures: [
       {
         id: "analytics",

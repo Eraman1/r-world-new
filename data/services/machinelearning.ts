@@ -171,7 +171,7 @@ solutionsTwo: {
     subtitle:
       "Our AI management systems streamline data processing, model training, and deployment for scalable and efficient machine learning operations.",
     subtitleLink: { text: "AI management platforms", url: "#" },
-    laptopImage: "/images/ai-management.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/c1/7a/92/c17a92cfcd8108005d42aa63d825bc16.jpg",
     mobileImage: "/images/ai-management-mobile.jpg",
     topFeatures: [
       {

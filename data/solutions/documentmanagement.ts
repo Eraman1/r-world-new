@@ -110,8 +110,8 @@ export const documentManagement: SolutionConfig = {
     subtitle:
       "Manage, track, and optimize your document processes using our feature-rich management software.",
     subtitleLink: { text: "document management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/5b/d0/87/5bd087f416f595447017841c2a6e6c84.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/0a/0e/dd/0a0edd40d7d14b7b25ac6bcf68ae814e.jpg",
     topFeatures: [
       {
         id: "cloud-storage",

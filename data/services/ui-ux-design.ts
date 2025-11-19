@@ -166,7 +166,7 @@ solutionsTwo: {
     subtitle:
       "Streamline design workflows, collaboration, and project tracking for UI/UX teams of any size.",
     subtitleLink: { text: "UI/UX management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
+    laptopImage: "https://i.pinimg.com/736x/c5/ee/9a/c5ee9a3e9edddcbb7c745c4f0161b1a7.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {

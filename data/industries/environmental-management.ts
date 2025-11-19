@@ -8,7 +8,7 @@ export const environmentalManagement: IndustryConfig = {
     subtitle:
       "Leverage cutting-edge technology to monitor, optimize, and sustain your environmental initiatives efficiently and effectively.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "/industry/industryEnvironmentBanner.webp",
     linkText: "Get Environmental Solutions",
   },
   techHero: {
@@ -65,11 +65,11 @@ export const environmentalManagement: IndustryConfig = {
         position: "right",
       },
     ],
-    // deviceImages: {
-    //   laptop: "/images/devices/laptop-agri.png",
-    //   tablet: "/images/devices/tablet-agri.png",
-    //   mobile: "/images/devices/mobile-agri.png",
-    // },
+    deviceImages: {
+      laptop: "/industry/industryEnvironmentBanner.webp",
+      tablet: "/industry/industryEnvironmentBanner.webp",
+      mobile: "/industry/industryEnvironmentBanner.webp",
+    },
   },
   solutions: {
     mainTitle: "AI Solutions for Smart Environmental Management",
@@ -133,8 +133,8 @@ export const environmentalManagement: IndustryConfig = {
     subtitle:
       "R-World’s expert developers bring deep environmental tech experience to create intelligent, scalable, and sustainable management systems. Our tailored solutions monitor resources, optimize operations, and empower organizations to achieve efficiency and sustainability in a dynamic ecological landscape.",
     subtitleLink: { text: "land management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/a3/05/45/a30545cb1d5940effdd781689b49d9f2.jpg",
+    mobileImage: "https://i.pinimg.com/736x/83/fc/b5/83fcb565dd880843a7d28a4fd239f998.jpg",
     topFeatures: [
       {
         id: "mapping",
@@ -198,7 +198,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our environmental management software developers build intelligent platforms to monitor sustainability goals, manage compliance, and optimize environmental performance for organizations worldwide.",
   subtitleLink: { text: "environmental management systems", url: "#" },
-  laptopImage: "/images/environmental-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/22/2a/ca/222aca5c8b180b5dbc7621780b0427d9.jpg",
   mobileImage: "/images/environmental-management-mobile.jpg",
 
   topFeatures: [

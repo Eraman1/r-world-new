@@ -110,8 +110,8 @@ export const artificialintelligence: SolutionConfig = {
     subtitle:
       "Streamline your AI lifecycle — from training to deployment — with our robust model management, monitoring, and automation tools.",
     subtitleLink: { text: "AI model management", url: "#" },
-    laptopImage: "/images/ai-management-laptop.jpg",
-    mobileImage: "/images/ai-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/9b/5a/01/9b5a010b39d09b6d319402cb0ef979be.jpg",
+    mobileImage: "https://i.pinimg.com/736x/8f/52/7a/8f527af350da2c7b3c0fe18d307bc951.jpg",
     topFeatures: [
       {
         id: "deployment",

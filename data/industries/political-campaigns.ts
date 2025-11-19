@@ -8,7 +8,7 @@ export const politicalcampaigns: IndustryConfig = {
     subtitle:
       "Leverage technology to manage campaigns, analyze voter data, automate outreach, and boost engagement. From real-time analytics to digital fundraising and volunteer coordination, we build tools that power winning strategies.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "/industry/industryPoliticalBanner.webp",
     linkText: "Get Campaign Solutions",
   },
 
@@ -66,6 +66,11 @@ export const politicalcampaigns: IndustryConfig = {
         position: "right",
       },
     ],
+     deviceImages: {
+      laptop: "/industry/industryPoliticalBanner.webp",
+      tablet: "/industry/industryPoliticalBanner.webp",
+      mobile: "/industry/industryPoliticalBanner.webp",
+    },
   },
 
   solutions: {
@@ -132,8 +137,8 @@ export const politicalcampaigns: IndustryConfig = {
     subtitle:
       "Integrate AI, data analytics, and automation to manage your political operations efficiently — from voter engagement to fundraising and field coordination.",
     subtitleLink: { text: "campaign management software", url: "#" },
-    laptopImage: "/images/political-laptop.jpg",
-    mobileImage: "/images/political-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/3d/d0/6d/3dd06dde47f53867af0438e74f9c4ddf.jpg",
+    mobileImage: "https://i.pinimg.com/736x/1e/22/6f/1e226fc7ff08e73019998a2167380765.jpg",
     topFeatures: [
       {
         id: "voter-tracking",
@@ -195,7 +200,7 @@ managementSolutionsTwo: {
   subtitle:
     "Our political campaign software developers build advanced tools to streamline voter outreach, campaign analytics, and strategic decision-making for winning elections.",
   subtitleLink: { text: "political campaign management software", url: "#" },
-  laptopImage: "/images/political-campaign.jpg",
+  laptopImage: "https://i.pinimg.com/736x/02/61/96/026196c12bf94ebae9533c5d06e20bfe.jpg",
   mobileImage: "/images/political-campaign-mobile.jpg",
 
   topFeatures: [

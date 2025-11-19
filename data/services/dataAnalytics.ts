@@ -169,7 +169,7 @@ solutionsTwo: {
     subtitle:
       "Our management solutions empower organizations to collect, analyze, and visualize data seamlessly while ensuring accuracy, security, and accessibility.",
     subtitleLink: { text: "data management tools", url: "#" },
-    laptopImage: "/images/data-management-dashboard.jpg",
+    laptopImage: "https://i.pinimg.com/736x/1f/c7/2e/1fc72ee1a115f4fec7bbce5d8cf51411.jpg",
     mobileImage: "/images/data-management-mobile.jpg",
     topFeatures: [
       {

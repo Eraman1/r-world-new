@@ -110,8 +110,8 @@ export const animationGraphicDesign: SolutionConfig = {
     subtitle:
       "Our creative asset management software helps design teams organize, manage, and deliver assets efficiently across platforms and campaigns.",
     subtitleLink: { text: "creative asset management", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/0d/58/01/0d5801b70d64cc71554f259d9ebec0a7.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/96/57/bb/9657bbfa880728b116bd1465c571bdb2.jpg",
     topFeatures: [
       {
         id: "storage",

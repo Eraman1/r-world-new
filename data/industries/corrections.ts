@@ -8,7 +8,7 @@ export const corrections: IndustryConfig = {
     subtitle:
       "Enhance safety, transparency, and rehabilitation in correctional facilities with intelligent digital solutions. From inmate tracking to staff scheduling and security automation, streamline every aspect of prison management for better outcomes.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "/industry/industryCorrectionsBanner.webp",
     linkText: "Get Corrections Solutions",
   },
   techHero: {
@@ -65,11 +65,11 @@ export const corrections: IndustryConfig = {
         position: "right",
       },
     ],
-    // deviceImages: {
-    //   laptop: "/images/devices/laptop-agri.png",
-    //   tablet: "/images/devices/tablet-agri.png",
-    //   mobile: "/images/devices/mobile-agri.png",
-    // },
+    deviceImages: {
+      laptop: "/industry/industryCorrectionsBanner.webp",
+      tablet: "/industry/industryCorrectionsBanner.webp",
+      mobile: "/industry/industryCorrectionsBanner.webp",
+    },
   },
   solutions: {
   mainTitle: "AI & IoT Solutions for Modern Corrections Management",
@@ -136,8 +136,8 @@ export const corrections: IndustryConfig = {
     subtitle:
       "Enhance the efficiency, safety, and accountability of your correctional facilities with intelligent management tools built for modern security needs.",
     subtitleLink: { text: "land management software", url: "#" },
-    laptopImage: "/images/management-solutions.jpg",
-    mobileImage: "/images/management-solutions-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/78/5a/63/785a631823c3e5c409bd2cb13ab771d6.jpg",
+    mobileImage: "https://i.pinimg.com/736x/f7/4a/52/f74a5222749f830c47f450ad2a704e8d.jpg",
     topFeatures: [
       {
         id: "mapping",
@@ -202,7 +202,7 @@ onCtaClick: () => {},
   subtitle:
     "Our expert developers build secure, intelligent corrections management systems to streamline inmate operations, improve facility safety, and ensure compliance through digital transformation.",
   subtitleLink: { text: "corrections management software", url: "#" },
-  laptopImage: "/images/corrections-management.jpg",
+  laptopImage: "https://i.pinimg.com/736x/68/8a/dc/688adc8c85b6281562b19ac2a81830a1.jpg",
   mobileImage: "/images/corrections-management-mobile.jpg",
 
   topFeatures: [

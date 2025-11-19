@@ -110,8 +110,8 @@ export const salesManagement: SolutionConfig = {
     subtitle:
       "Manage customer data, track sales activities, and gain actionable insights with our centralized sales management systems.",
     subtitleLink: { text: "sales management software", url: "#" },
-    laptopImage: "/images/sales-management-platform-laptop.jpg",
-    mobileImage: "/images/sales-management-platform-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/736x/a7/7b/0a/a77b0a8dc6a746346efa3016a7f5ba05.jpg",
+    mobileImage: "https://i.pinimg.com/736x/b4/7b/c1/b47bc1ec1a5bf67d190180500ca38c3c.jpg",
     topFeatures: [
       {
         id: "dashboard",

@@ -109,8 +109,8 @@ export const ibm: SolutionConfig = {
     subtitle:
       "Empowering organizations with AI-powered management systems for analytics, automation, and seamless collaboration.",
     subtitleLink: { text: "IBM enterprise systems", url: "#" },
-    laptopImage: "/images/management-ibm.jpg",
-    mobileImage: "/images/management-ibm-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/e3/b2/80/e3b280b61776a14123ec8a0e8b24d49a.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/4b/63/b1/4b63b1fde6409f354bffafc03420a2ed.jpg",
     topFeatures: [
       {
         id: "automation",

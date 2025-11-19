@@ -170,7 +170,7 @@ solutionsTwo: {
     subtitle:
       "Manage, monitor, and optimize BI systems with our management solutions for data analytics teams of any size.",
     subtitleLink: { text: "business intelligence software", url: "#" },
-    laptopImage: "/images/bi-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/9d/d1/43/9dd143a6b414900577e75c72df6a4814.jpg",
     mobileImage: "/images/bi-management-mobile.jpg",
     topFeatures: [
       {

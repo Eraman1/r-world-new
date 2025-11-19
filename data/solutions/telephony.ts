@@ -110,8 +110,8 @@ export const telephony: SolutionConfig = {
     subtitle:
       "Centralize your communication management, monitor usage, and optimize performance with advanced telephony dashboards.",
     subtitleLink: { text: "telephony management systems", url: "#" },
-    laptopImage: "/images/telephony-management-laptop.jpg",
-    mobileImage: "/images/telephony-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/2c/90/70/2c9070b2041a8c065bdb0b93ac121c8f.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/dc/11/c1/dc11c1d97a2de176c253f062e60575ce.jpg",
     topFeatures: [
       {
         id: "dashboard",

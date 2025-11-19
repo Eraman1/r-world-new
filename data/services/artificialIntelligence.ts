@@ -169,7 +169,7 @@ export const artificialIntelligence: ServiceConfig = {
     subtitle:
       "Efficiently manage, monitor, and optimize AI models and data pipelines for better accuracy, scalability, and reliability.",
     subtitleLink: { text: "AI management platform", url: "#" },
-    laptopImage: "/images/ai-management.jpg",
+    laptopImage: "https://i.pinimg.com/736x/ae/5f/c6/ae5fc66ea21871dd7aa620e7109f048d.jpg",
     mobileImage: "/images/ai-management-mobile.jpg",
     topFeatures: [
       {

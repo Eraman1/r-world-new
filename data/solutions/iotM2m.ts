@@ -110,8 +110,8 @@ export const iotM2m: SolutionConfig = {
     subtitle:
       "Centralized platforms to connect, control, and analyze all your IoT devices and M2M communications in one place.",
     subtitleLink: { text: "IoT management systems", url: "#" },
-    laptopImage: "/images/iot-management-laptop.jpg",
-    mobileImage: "/images/iot-management-mobile.jpg",
+    laptopImage: "https://i.pinimg.com/1200x/bd/c9/e8/bdc9e863783b7cf6781fde6ce66afac4.jpg",
+    mobileImage: "https://i.pinimg.com/1200x/fc/0d/56/fc0d56d007c94839e316ebbe5e3a65f8.jpg",
     topFeatures: [
       {
         id: "monitoring",
