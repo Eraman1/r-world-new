@@ -46,130 +46,130 @@ export const dataAnalytics: ServiceConfig = {
   },
 
   solutions: {
-  mainTitle: "Comprehensive Data Analytics Solutions",
-  mainDescription:
-    "We deliver end-to-end data analytics and business intelligence services, helping organizations transform data into valuable insights for strategic decision-making and growth.",
-  
-  items: [
-    {
-      id: "data-visualization",
-      icon: "Leaf",
-      title: "Data Visualization",
-      subtitle: "",
-      description:
-        "Design dynamic and intuitive dashboards using Power BI and Tableau. \nShowcase real-time KPIs and business metrics with clarity. \nEmpower stakeholders through visual storytelling. \nIdentify trends, gaps, and opportunities quickly. \nDrive better decisions with interactive, data-rich visuals.",
-    },
-    {
-      id: "predictive-modeling",
-      icon: "Leaf",
-      title: "Predictive Modeling",
-      subtitle: "",
-      description:
-        "Build advanced predictive models for accurate forecasting. \nUtilize AI and ML algorithms to analyze complex datasets. \nAnticipate customer needs, risks, and market trends. \nAutomate decisions with data-driven intelligence. \nEmpower growth with proactive business strategies.",
-    },
-    {
-      id: "data-engineering",
-      icon: "Leaf",
-      title: "Data Engineering",
-      subtitle: "",
-      description:
-        "Integrate, clean, and transform massive data efficiently. \nDevelop scalable ETL and ELT workflows. \nEnsure high data integrity across all sources. \nOptimize performance for analytics and reporting. \nEstablish a robust foundation for advanced data solutions.",
-    },
-    {
-      id: "big-data-solutions",
-      icon: "Leaf",
-      title: "Big Data Solutions",
-      subtitle: "",
-      description:
-        "Leverage Hadoop, Spark, and AWS for large-scale data processing. \nManage structured, semi-structured, and unstructured data. \nEnable real-time analytics and faster computation. \nSupport data-intensive workloads seamlessly. \nUnlock innovation through powerful big data insights.",
-    },
-    {
-      id: "business-intelligence",
-      icon: "Leaf",
-      title: "Business Intelligence Solutions",
-      subtitle: "",
-      description:
-        "Develop comprehensive BI solutions for business visibility. \nAutomate dashboards and performance monitoring. \nReveal actionable insights from operational data. \nEmpower leaders with intuitive data visualization. \nEnhance productivity through smarter analytics tools.",
-    },
-    {
-      id: "data-governance",
-      icon: "Leaf",
-      title: "Data Governance & Compliance",
-      subtitle: "",
-      description:
-        "Implement governance frameworks for quality and compliance. \nEnsure GDPR, HIPAA, and ISO standard adherence. \nProtect sensitive information with strict access control. \nMaintain transparency through audit-ready systems. \nFoster trust with secure and ethical data practices.",
-    },
-  ],
-  linkText: "Get Data Insights",
-  linkUrl: "/contact-us",
-},
-solutionsTwo: {
-  mainTitle: "Advanced Data Analytics & Intelligence Solutions",
-  mainDescription:
-    "We empower organizations with data analytics solutions that reveal insights, improve decision-making, and drive innovation. Our expertise spans predictive modeling, visualization, and automation to help you turn data into measurable growth.",
+    mainTitle: "Comprehensive Data Analytics Solutions",
+    mainDescription:
+      "We deliver end-to-end data analytics and business intelligence services, helping organizations transform data into valuable insights for strategic decision-making and growth.",
 
-  items: [
-    {
-      id: "predictive-insights",
-      icon: "Leaf",
-      title: "Predictive Insights & Forecast Modeling",
-      subtitle: "",
-      description:
-        "Harness the power of machine learning to anticipate trends and outcomes. \nWe analyze patterns in historical and real-time data to uncover opportunities. \nOur predictive models help you make confident, forward-looking decisions. \nOptimize demand forecasting, sales, and resource allocation efficiently. \nStay one step ahead with data-driven strategic intelligence.",
-    },
-    {
-      id: "business-intelligence",
-      icon: "Leaf",
-      title: "Business Intelligence & Visualization Dashboards",
-      subtitle: "",
-      description:
-        "Transform complex datasets into clear, actionable insights with BI tools. \nWe design interactive dashboards for real-time performance monitoring. \nVisualize KPIs, sales trends, and customer behaviors in one unified view. \nEmpower teams to make faster, smarter business decisions instantly. \nTurn your data into stories that drive measurable business results.",
-    },
-    {
-      id: "data-governance",
-      icon: "Shield",
-      title: "Data Governance & Quality Management",
-      subtitle: "",
-      description:
-        "Maintain integrity, consistency, and reliability across all your data assets. \nWe establish frameworks for compliance, accuracy, and lifecycle management. \nEnsure every dataset meets enterprise and regulatory standards. \nDetect anomalies, eliminate redundancy, and standardize information. \nBuild trust in your analytics with clean, validated, and governed data.",
-    },
-    {
-      id: "real-time-analytics",
-      icon: "Leaf",
-      title: "Real-Time Analytics & Streaming Intelligence",
-      subtitle: "",
-      description:
-        "Leverage live data streams for instant decision-making and response. \nMonitor customer behavior, operations, and transactions in real time. \nIntegrate IoT, cloud, and API-driven systems for high-speed analytics. \nIdentify trends or anomalies as they occur to reduce business risks. \nStay agile with continuous insights that fuel adaptive performance.",
-    },
-    {
-      id: "data-integration",
-      icon: "Leaf",
-      title: "Data Integration & Cloud Migration Services",
-      subtitle: "",
-      description:
-        "Unify disconnected data sources into a single, secure ecosystem. \nWe streamline migration from legacy systems to modern cloud platforms. \nIntegrate APIs, warehouses, and analytics pipelines for seamless access. \nEnsure reliability and scalability while minimizing data loss. \nEnable faster insights through connected, cloud-ready data systems.",
-    },
-    {
-      id: "ai-analytics",
-      icon: "Leaf",
-      title: "AI-Driven Analytics & Decision Intelligence",
-      subtitle: "",
-      description:
-        "Combine AI and data science to unlock advanced decision intelligence. \nOur algorithms detect correlations and patterns invisible to manual analysis. \nEmpower leaders with automated recommendations and scenario forecasting. \nBoost operational efficiency through adaptive, learning-based analytics. \nTransform intuition into precision with AI-guided data strategies.",
-    },
-  ],
+    items: [
+      {
+        id: "data-visualization",
+        icon: "Leaf",
+        title: "Data Visualization",
+        subtitle: "",
+        description:
+          "Design dynamic and intuitive dashboards using Power BI and Tableau. \nShowcase real-time KPIs and business metrics with clarity. \nEmpower stakeholders through visual storytelling. \nIdentify trends, gaps, and opportunities quickly. \nDrive better decisions with interactive, data-rich visuals.",
+      },
+      {
+        id: "predictive-modeling",
+        icon: "Leaf",
+        title: "Predictive Modeling",
+        subtitle: "",
+        description:
+          "Build advanced predictive models for accurate forecasting. \nUtilize AI and ML algorithms to analyze complex datasets. \nAnticipate customer needs, risks, and market trends. \nAutomate decisions with data-driven intelligence. \nEmpower growth with proactive business strategies.",
+      },
+      {
+        id: "data-engineering",
+        icon: "Leaf",
+        title: "Data Engineering",
+        subtitle: "",
+        description:
+          "Integrate, clean, and transform massive data efficiently. \nDevelop scalable ETL and ELT workflows. \nEnsure high data integrity across all sources. \nOptimize performance for analytics and reporting. \nEstablish a robust foundation for advanced data solutions.",
+      },
+      {
+        id: "big-data-solutions",
+        icon: "Leaf",
+        title: "Big Data Solutions",
+        subtitle: "",
+        description:
+          "Leverage Hadoop, Spark, and AWS for large-scale data processing. \nManage structured, semi-structured, and unstructured data. \nEnable real-time analytics and faster computation. \nSupport data-intensive workloads seamlessly. \nUnlock innovation through powerful big data insights.",
+      },
+      {
+        id: "business-intelligence",
+        icon: "Leaf",
+        title: "Business Intelligence Solutions",
+        subtitle: "",
+        description:
+          "Develop comprehensive BI solutions for business visibility. \nAutomate dashboards and performance monitoring. \nReveal actionable insights from operational data. \nEmpower leaders with intuitive data visualization. \nEnhance productivity through smarter analytics tools.",
+      },
+      {
+        id: "data-governance",
+        icon: "Leaf",
+        title: "Data Governance & Compliance",
+        subtitle: "",
+        description:
+          "Implement governance frameworks for quality and compliance. \nEnsure GDPR, HIPAA, and ISO standard adherence. \nProtect sensitive information with strict access control. \nMaintain transparency through audit-ready systems. \nFoster trust with secure and ethical data practices.",
+      },
+    ],
+    linkText: "Get Data Insights",
+    linkUrl: "/contact-us",
+  },
+  solutionsTwo: {
+    mainTitle: "Advanced Data Analytics & Intelligence Solutions",
+    mainDescription:
+      "We empower organizations with data analytics solutions that reveal insights, improve decision-making, and drive innovation. Our expertise spans predictive modeling, visualization, and automation to help you turn data into measurable growth.",
 
-  linkText: "Build Your Data Analytics Solution Today",
-  linkUrl: "/contact-us",
-},
+    items: [
+      {
+        id: "predictive-insights",
+        icon: "Leaf",
+        title: "Predictive Insights & Forecast Modeling",
+        subtitle: "",
+        description:
+          "Harness the power of machine learning to anticipate trends and outcomes. \nWe analyze patterns in historical and real-time data to uncover opportunities. \nOur predictive models help you make confident, forward-looking decisions. \nOptimize demand forecasting, sales, and resource allocation efficiently. \nStay one step ahead with data-driven strategic intelligence.",
+      },
+      {
+        id: "business-intelligence",
+        icon: "Leaf",
+        title: "Business Intelligence & Visualization Dashboards",
+        subtitle: "",
+        description:
+          "Transform complex datasets into clear, actionable insights with BI tools. \nWe design interactive dashboards for real-time performance monitoring. \nVisualize KPIs, sales trends, and customer behaviors in one unified view. \nEmpower teams to make faster, smarter business decisions instantly. \nTurn your data into stories that drive measurable business results.",
+      },
+      {
+        id: "data-governance",
+        icon: "Shield",
+        title: "Data Governance & Quality Management",
+        subtitle: "",
+        description:
+          "Maintain integrity, consistency, and reliability across all your data assets. \nWe establish frameworks for compliance, accuracy, and lifecycle management. \nEnsure every dataset meets enterprise and regulatory standards. \nDetect anomalies, eliminate redundancy, and standardize information. \nBuild trust in your analytics with clean, validated, and governed data.",
+      },
+      {
+        id: "real-time-analytics",
+        icon: "Leaf",
+        title: "Real-Time Analytics & Streaming Intelligence",
+        subtitle: "",
+        description:
+          "Leverage live data streams for instant decision-making and response. \nMonitor customer behavior, operations, and transactions in real time. \nIntegrate IoT, cloud, and API-driven systems for high-speed analytics. \nIdentify trends or anomalies as they occur to reduce business risks. \nStay agile with continuous insights that fuel adaptive performance.",
+      },
+      {
+        id: "data-integration",
+        icon: "Leaf",
+        title: "Data Integration & Cloud Migration Services",
+        subtitle: "",
+        description:
+          "Unify disconnected data sources into a single, secure ecosystem. \nWe streamline migration from legacy systems to modern cloud platforms. \nIntegrate APIs, warehouses, and analytics pipelines for seamless access. \nEnsure reliability and scalability while minimizing data loss. \nEnable faster insights through connected, cloud-ready data systems.",
+      },
+      {
+        id: "ai-analytics",
+        icon: "Leaf",
+        title: "AI-Driven Analytics & Decision Intelligence",
+        subtitle: "",
+        description:
+          "Combine AI and data science to unlock advanced decision intelligence. \nOur algorithms detect correlations and patterns invisible to manual analysis. \nEmpower leaders with automated recommendations and scenario forecasting. \nBoost operational efficiency through adaptive, learning-based analytics. \nTransform intuition into precision with AI-guided data strategies.",
+      },
+    ],
 
+    linkText: "Build Your Data Analytics Solution Today",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Data Analytics Management Platforms",
     subtitle:
       "Our management solutions empower organizations to collect, analyze, and visualize data seamlessly while ensuring accuracy, security, and accessibility.",
     subtitleLink: { text: "data management tools", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/1f/c7/2e/1fc72ee1a115f4fec7bbce5d8cf51411.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/1f/c7/2e/1fc72ee1a115f4fec7bbce5d8cf51411.jpg",
     mobileImage: "/images/data-management-mobile.jpg",
     topFeatures: [
       {
@@ -195,7 +195,9 @@ solutionsTwo: {
       },
     ],
     ctaText: "Get Data Analytics Experts",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

@@ -46,130 +46,129 @@ export const blockchainDevelopment: ServiceConfig = {
   },
 
   solutions: {
-  mainTitle: "Comprehensive Blockchain Solutions",
-  mainDescription:
-    "We deliver enterprise-grade blockchain solutions that enhance transparency, automation, and security. From decentralized finance to NFT ecosystems, our blockchain products empower global innovation.",
-  items: [
-    {
-      id: "smart-contracts",
-      icon: "Leaf",
-      title: "Smart Contract Development",
-      subtitle: "",
-      description:
-        "Develop secure, self-executing smart contracts across Ethereum, Polygon, and Hyperledger. \nAutomate complex workflows and reduce manual dependencies. \nEnsure transparency, immutability, and trustless execution. \nProtect agreements from tampering and fraud. \nEmpower businesses with reliable decentralized automation.",
-    },
-    {
-      id: "dapp-development",
-      icon: "Leaf",
-      title: "dApp Development",
-      subtitle: "",
-      description:
-        "Design scalable and user-centric dApps for multiple industries. \nIntegrate wallets, APIs, and smart contract interactions seamlessly. \nEnhance user autonomy and privacy through decentralized logic. \nSupport multi-chain and cross-platform functionality. \nDeliver smooth blockchain-powered user experiences at scale.",
-    },
-    {
-      id: "nft-solutions",
-      icon: "Leaf",
-      title: "NFT Development",
-      subtitle: "",
-      description:
-        "Create NFT marketplaces for creators, collectors, and enterprises. \nEnable asset tokenization using ERC-721 and ERC-1155 standards. \nIntegrate wallets, auctions, and royalty features effortlessly. \nEnsure transparent ownership and traceable authenticity. \nEmpower digital creators to monetize unique assets globally.",
-    },
-    {
-      id: "blockchain-consulting",
-      icon: "Leaf",
-      title: "Blockchain Consulting",
-      subtitle: "",
-      description:
-        "Provide expert consulting to plan blockchain adoption strategies. \nEvaluate use cases, ROI, and technical feasibility in depth. \nArchitect scalable, secure, and compliant decentralized systems. \nGuide enterprises through implementation and integration phases. \nDrive innovation through tailored blockchain transformation plans.",
-    },
-    {
-      id: "defi-solutions",
-      icon: "Leaf",
-      title: "DeFi & Token Development",
-      subtitle: "",
-      description:
-        "Build decentralized financial ecosystems for global accessibility. \nEnable secure lending, staking, and yield farming modules. \nDesign tokenomics that balance liquidity and governance. \nImplement smart contracts to ensure transparent operations. \nDeliver intuitive and compliant DeFi platforms for users worldwide.",
-    },
-    {
-      id: "blockchain-integration",
-      icon: "Leaf",
-      title: "Blockchain Integration",
-      subtitle: "",
-      description:
-        "Integrate blockchain into ERP, CRM, and payment infrastructures. \nEnable real-time verification and transaction tracking securely. \nEnhance transparency and trust across business workflows. \nFacilitate interoperability between legacy and distributed systems. \nTransform data handling with seamless decentralized integration.",
-    },
-  ],
-  linkText: "Get Blockchain Solutions",
-  linkUrl: "/contact-us",
-},
-solutionsTwo: {
-  mainTitle: "Next-Generation Blockchain Development Solutions",
-  mainDescription:
-    "We build secure, transparent, and scalable blockchain ecosystems that revolutionize how businesses manage data, assets, and transactions. Our blockchain experts design decentralized systems that ensure trust, automation, and efficiency across industries.",
+    mainTitle: "Comprehensive Blockchain Solutions",
+    mainDescription:
+      "We deliver enterprise-grade blockchain solutions that enhance transparency, automation, and security. From decentralized finance to NFT ecosystems, our blockchain products empower global innovation.",
+    items: [
+      {
+        id: "smart-contracts",
+        icon: "Leaf",
+        title: "Smart Contract Development",
+        subtitle: "",
+        description:
+          "Develop secure, self-executing smart contracts across Ethereum, Polygon, and Hyperledger. \nAutomate complex workflows and reduce manual dependencies. \nEnsure transparency, immutability, and trustless execution. \nProtect agreements from tampering and fraud. \nEmpower businesses with reliable decentralized automation.",
+      },
+      {
+        id: "dapp-development",
+        icon: "Leaf",
+        title: "dApp Development",
+        subtitle: "",
+        description:
+          "Design scalable and user-centric dApps for multiple industries. \nIntegrate wallets, APIs, and smart contract interactions seamlessly. \nEnhance user autonomy and privacy through decentralized logic. \nSupport multi-chain and cross-platform functionality. \nDeliver smooth blockchain-powered user experiences at scale.",
+      },
+      {
+        id: "nft-solutions",
+        icon: "Leaf",
+        title: "NFT Development",
+        subtitle: "",
+        description:
+          "Create NFT marketplaces for creators, collectors, and enterprises. \nEnable asset tokenization using ERC-721 and ERC-1155 standards. \nIntegrate wallets, auctions, and royalty features effortlessly. \nEnsure transparent ownership and traceable authenticity. \nEmpower digital creators to monetize unique assets globally.",
+      },
+      {
+        id: "blockchain-consulting",
+        icon: "Leaf",
+        title: "Blockchain Consulting",
+        subtitle: "",
+        description:
+          "Provide expert consulting to plan blockchain adoption strategies. \nEvaluate use cases, ROI, and technical feasibility in depth. \nArchitect scalable, secure, and compliant decentralized systems. \nGuide enterprises through implementation and integration phases. \nDrive innovation through tailored blockchain transformation plans.",
+      },
+      {
+        id: "defi-solutions",
+        icon: "Leaf",
+        title: "DeFi & Token Development",
+        subtitle: "",
+        description:
+          "Build decentralized financial ecosystems for global accessibility. \nEnable secure lending, staking, and yield farming modules. \nDesign tokenomics that balance liquidity and governance. \nImplement smart contracts to ensure transparent operations. \nDeliver intuitive and compliant DeFi platforms for users worldwide.",
+      },
+      {
+        id: "blockchain-integration",
+        icon: "Leaf",
+        title: "Blockchain Integration",
+        subtitle: "",
+        description:
+          "Integrate blockchain into ERP, CRM, and payment infrastructures. \nEnable real-time verification and transaction tracking securely. \nEnhance transparency and trust across business workflows. \nFacilitate interoperability between legacy and distributed systems. \nTransform data handling with seamless decentralized integration.",
+      },
+    ],
+    linkText: "Get Blockchain Solutions",
+    linkUrl: "/contact-us",
+  },
+  solutionsTwo: {
+    mainTitle: "Next-Generation Blockchain Development Solutions",
+    mainDescription:
+      "We build secure, transparent, and scalable blockchain ecosystems that revolutionize how businesses manage data, assets, and transactions. Our blockchain experts design decentralized systems that ensure trust, automation, and efficiency across industries.",
 
-  items: [
-    {
-      id: "smart-contracts",
-      icon: "Shield",
-      title: "Smart Contract Development & Auditing",
-      subtitle: "",
-      description:
-        "Design self-executing smart contracts for transparent automation. \nWe build Ethereum, Hyperledger, and Solana-based secure contracts. \nEach contract is thoroughly tested to eliminate vulnerabilities. \nAutomate payments, workflows, and verifications with ease. \nEnsure reliability with precision-coded and audited solutions.",
-    },
-    {
-      id: "dapp-development",
-      icon: "Shield",
-      title: "Decentralized Application (dApp) Development",
-      subtitle: "",
-      description:
-        "Build feature-rich dApps that bring decentralization to real-world use. \nOur experts design scalable, user-friendly, and secure ecosystems. \nIntegrate blockchain with mobile and web platforms seamlessly. \nEmpower users with full transparency and control of their data. \nDeliver next-gen digital experiences powered by blockchain.",
-    },
-    {
-      id: "blockchain-integration",
-      icon: "Shield",
-      title: "Enterprise Blockchain Integration Solutions",
-      subtitle: "",
-      description:
-        "Integrate blockchain with your existing enterprise infrastructure. \nEnhance traceability, trust, and process automation across operations. \nConnect distributed ledgers to ERP, CRM, and cloud systems easily. \nFacilitate secure data exchange between business partners. \nTransform legacy systems into decentralized, transparent networks.",
-    },
-    {
-      id: "nft-solutions",
-      icon: "Shield",
-      title: "NFT Marketplace & Tokenization Platforms",
-      subtitle: "",
-      description:
-        "Develop NFT platforms for art, gaming, and digital asset trading. \nEnable minting, buying, and selling of tokens with real ownership. \nSecurely manage royalties, licensing, and metadata on-chain. \nProvide smooth wallet integration and multi-chain compatibility. \nEmpower creators and investors with transparent digital ownership.",
-    },
-    {
-      id: "defi-platforms",
-      icon: "Shield",
-      title: "DeFi Platforms & Crypto Exchange Development",
-      subtitle: "",
-      description:
-        "Create decentralized finance ecosystems with lending and staking. \nWe develop crypto exchanges, liquidity pools, and yield platforms. \nImplement smart contracts to eliminate intermediaries securely. \nEnsure fast transactions with low fees and complete transparency. \nEmpower users with control over assets through DeFi innovation.",
-    },
-    {
-      id: "blockchain-consulting",
-      icon: "Shield",
-      title: "Blockchain Consulting & Architecture Design",
-      subtitle: "",
-      description:
-        "Get expert guidance to plan and execute your blockchain strategy. \nWe design system architectures that balance scalability and security. \nIdentify ideal blockchain models tailored to your business goals. \nMitigate risks through in-depth feasibility and performance analysis. \nTurn your blockchain vision into a sustainable digital reality.",
-    },
-  ],
+    items: [
+      {
+        id: "smart-contracts",
+        icon: "Shield",
+        title: "Smart Contract Development & Auditing",
+        subtitle: "",
+        description:
+          "Design self-executing smart contracts for transparent automation. \nWe build Ethereum, Hyperledger, and Solana-based secure contracts. \nEach contract is thoroughly tested to eliminate vulnerabilities. \nAutomate payments, workflows, and verifications with ease. \nEnsure reliability with precision-coded and audited solutions.",
+      },
+      {
+        id: "dapp-development",
+        icon: "Shield",
+        title: "Decentralized Application (dApp) Development",
+        subtitle: "",
+        description:
+          "Build feature-rich dApps that bring decentralization to real-world use. \nOur experts design scalable, user-friendly, and secure ecosystems. \nIntegrate blockchain with mobile and web platforms seamlessly. \nEmpower users with full transparency and control of their data. \nDeliver next-gen digital experiences powered by blockchain.",
+      },
+      {
+        id: "blockchain-integration",
+        icon: "Shield",
+        title: "Enterprise Blockchain Integration Solutions",
+        subtitle: "",
+        description:
+          "Integrate blockchain with your existing enterprise infrastructure. \nEnhance traceability, trust, and process automation across operations. \nConnect distributed ledgers to ERP, CRM, and cloud systems easily. \nFacilitate secure data exchange between business partners. \nTransform legacy systems into decentralized, transparent networks.",
+      },
+      {
+        id: "nft-solutions",
+        icon: "Shield",
+        title: "NFT Marketplace & Tokenization Platforms",
+        subtitle: "",
+        description:
+          "Develop NFT platforms for art, gaming, and digital asset trading. \nEnable minting, buying, and selling of tokens with real ownership. \nSecurely manage royalties, licensing, and metadata on-chain. \nProvide smooth wallet integration and multi-chain compatibility. \nEmpower creators and investors with transparent digital ownership.",
+      },
+      {
+        id: "defi-platforms",
+        icon: "Shield",
+        title: "DeFi Platforms & Crypto Exchange Development",
+        subtitle: "",
+        description:
+          "Create decentralized finance ecosystems with lending and staking. \nWe develop crypto exchanges, liquidity pools, and yield platforms. \nImplement smart contracts to eliminate intermediaries securely. \nEnsure fast transactions with low fees and complete transparency. \nEmpower users with control over assets through DeFi innovation.",
+      },
+      {
+        id: "blockchain-consulting",
+        icon: "Shield",
+        title: "Blockchain Consulting & Architecture Design",
+        subtitle: "",
+        description:
+          "Get expert guidance to plan and execute your blockchain strategy. \nWe design system architectures that balance scalability and security. \nIdentify ideal blockchain models tailored to your business goals. \nMitigate risks through in-depth feasibility and performance analysis. \nTurn your blockchain vision into a sustainable digital reality.",
+      },
+    ],
 
-  linkText: "Build Your Blockchain Solution Today",
-  linkUrl: "/contact-us",
-},
-
-
+    linkText: "Build Your Blockchain Solution Today",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Blockchain Network Management Tools",
     subtitle:
       "Monitor, analyze, and optimize blockchain performance with advanced management solutions for enterprises and developers.",
     subtitleLink: { text: "blockchain management software", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/93/5c/12/935c1251245dfbb6d505a9eac8af0b6b.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/93/5c/12/935c1251245dfbb6d505a9eac8af0b6b.jpg",
     mobileImage: "/images/blockchain-management-mobile.jpg",
     topFeatures: [
       {
@@ -195,7 +194,9 @@ solutionsTwo: {
       },
     ],
     ctaText: "Hire Blockchain Experts",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

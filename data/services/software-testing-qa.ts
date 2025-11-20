@@ -44,130 +44,130 @@ export const softwareTestingQA: ServiceConfig = {
     ],
   },
   solutions: {
-  mainTitle: "Comprehensive QA & Testing Solutions",
-  mainDescription:
-    "We provide quality assurance services to ensure software is secure, reliable, and high-performing. Our solutions reduce risks, improve user satisfaction, and enhance software longevity.",
-  
-  items: [
-    {
-      id: "functional-testing",
-      icon: "Leaf",
-      title: "Functional Testing",
-      subtitle: "",
-      description:
-        "Test all software functionalities to ensure they work as expected. \nValidate features against requirements. \nDetect and document defects accurately. \nEnsure seamless user experience. \nMaintain consistent software quality across releases.",
-    },
-    {
-      id: "security-testing",
-      icon: "Leaf",
-      title: "Security Testing",
-      subtitle: "",
-      description:
-        "Identify vulnerabilities and potential security risks. \nTest data protection and authentication mechanisms. \nEnsure compliance with security standards. \nPrevent unauthorized access and breaches. \nSafeguard software integrity and user trust.",
-    },
-    {
-      id: "compatibility-testing",
-      icon: "Leaf",
-      title: "Compatibility Testing",
-      subtitle: "",
-      description:
-        "Verify software performance across browsers, devices, and OS versions. \nEnsure responsive layouts and smooth functionality. \nDetect platform-specific issues. \nOptimize for consistent user experience. \nSupport multiple environments efficiently.",
-    },
-    {
-      id: "usability-testing",
-      icon: "Leaf",
-      title: "Usability Testing",
-      subtitle: "",
-      description:
-        "Assess software intuitiveness and user-friendliness. \nIdentify pain points in workflows and UI. \nGather feedback from real users. \nImprove navigation, accessibility, and engagement. \nDeliver a satisfying and intuitive user experience.",
-    },
-    {
-      id: "performance-testing",
-      icon: "Leaf",
-      title: "Performance Testing",
-      subtitle: "",
-      description:
-        "Measure software speed, scalability, and stability under load. \nDetect bottlenecks and resource issues. \nSimulate real-world traffic and usage scenarios. \nOptimize response times and reliability. \nGuarantee smooth performance for all users and devices.",
-    },
-    {
-      id: "automation-testing",
-      icon: "Leaf",
-      title: "Automation Testing",
-      subtitle: "",
-      description:
-        "Implement automated test scripts for repetitive tasks. \nIncrease testing efficiency and coverage. \nReduce human error and save time. \nIntegrate automated tests into CI/CD pipelines. \nEnsure faster, consistent, and reliable software delivery.",
-    },
-  ],
-  linkText: "Get QA Solutions",
-  linkUrl: "/contact-us",
-},
-solutionsTwo: {
-  mainTitle: "Comprehensive Software Testing & QA Solutions",
-  mainDescription:
-    "We deliver end-to-end testing and quality assurance services to ensure flawless performance, security, and scalability. Our QA experts help detect bugs early, optimize functionality, and enhance user experience across all platforms.",
+    mainTitle: "Comprehensive QA & Testing Solutions",
+    mainDescription:
+      "We provide quality assurance services to ensure software is secure, reliable, and high-performing. Our solutions reduce risks, improve user satisfaction, and enhance software longevity.",
 
-  items: [
-    {
-      id: "automation-testing",
-      icon: "Shield",
-      title: "Automated Testing & Continuous Integration",
-      subtitle: "",
-      description:
-        "Streamline testing workflows with fully automated pipelines and CI/CD integration. \nDetect issues faster, improve release velocity, and minimize human error. \nOur frameworks support web, mobile, and enterprise-grade systems. \nRun parallel tests across environments for maximum coverage. \nDeliver high-quality software with every build and deployment.",
-    },
-    {
-      id: "performance-qa",
-      icon: "Leaf",
-      title: "Performance, Load & Stress Testing",
-      subtitle: "",
-      description:
-        "Ensure system stability and responsiveness under peak conditions. \nWe simulate real-world load scenarios to detect performance bottlenecks. \nAnalyze latency, throughput, and scalability metrics accurately. \nOptimize infrastructure for speed, endurance, and resilience. \nGuarantee smooth user experiences even at high traffic levels.",
-    },
-    {
-      id: "security-testing",
-      icon: "Leaf",
-      title: "Security & Vulnerability Assessment",
-      subtitle: "",
-      description:
-        "Protect your applications from cyber threats and data breaches. \nWe perform penetration tests, code reviews, and compliance checks. \nIdentify and mitigate vulnerabilities before deployment. \nIntegrate security testing within development pipelines proactively. \nBuild user trust with secure and resilient software systems.",
-    },
-    {
-      id: "usability-qa",
-      icon: "Leaf",
-      title: "UI/UX & Usability Testing",
-      subtitle: "",
-      description:
-        "Validate user flows, interface consistency, and accessibility standards. \nWe conduct detailed usability audits across web and mobile apps. \nGather user feedback and behavioral insights for improvements. \nEnsure seamless navigation and intuitive design interactions. \nEnhance satisfaction with flawless, user-friendly experiences.",
-    },
-    {
-      id: "mobile-testing",
-      icon: "Leaf",
-      title: "Mobile App Testing & Quality Validation",
-      subtitle: "",
-      description:
-        "Test your mobile apps across devices, OS versions, and networks. \nWe validate functionality, performance, and battery efficiency. \nAutomate regression testing to speed up release cycles. \nEnsure smooth installations, updates, and crash-free sessions. \nDeliver reliable mobile experiences that users love and trust.",
-    },
-    {
-      id: "manual-testing",
-      icon: "Leaf",
-      title: "Manual Testing & Quality Verification",
-      subtitle: "",
-      description:
-        "Perform in-depth manual testing to uncover hidden defects. \nWe validate logic, functionality, and visual consistency. \nOur experts replicate real user scenarios for precision. \nIdentify edge cases that automation might overlook. \nDeliver bug-free, stable, and high-performing software releases.",
-    },
-  ],
+    items: [
+      {
+        id: "functional-testing",
+        icon: "Leaf",
+        title: "Functional Testing",
+        subtitle: "",
+        description:
+          "Test all software functionalities to ensure they work as expected. \nValidate features against requirements. \nDetect and document defects accurately. \nEnsure seamless user experience. \nMaintain consistent software quality across releases.",
+      },
+      {
+        id: "security-testing",
+        icon: "Leaf",
+        title: "Security Testing",
+        subtitle: "",
+        description:
+          "Identify vulnerabilities and potential security risks. \nTest data protection and authentication mechanisms. \nEnsure compliance with security standards. \nPrevent unauthorized access and breaches. \nSafeguard software integrity and user trust.",
+      },
+      {
+        id: "compatibility-testing",
+        icon: "Leaf",
+        title: "Compatibility Testing",
+        subtitle: "",
+        description:
+          "Verify software performance across browsers, devices, and OS versions. \nEnsure responsive layouts and smooth functionality. \nDetect platform-specific issues. \nOptimize for consistent user experience. \nSupport multiple environments efficiently.",
+      },
+      {
+        id: "usability-testing",
+        icon: "Leaf",
+        title: "Usability Testing",
+        subtitle: "",
+        description:
+          "Assess software intuitiveness and user-friendliness. \nIdentify pain points in workflows and UI. \nGather feedback from real users. \nImprove navigation, accessibility, and engagement. \nDeliver a satisfying and intuitive user experience.",
+      },
+      {
+        id: "performance-testing",
+        icon: "Leaf",
+        title: "Performance Testing",
+        subtitle: "",
+        description:
+          "Measure software speed, scalability, and stability under load. \nDetect bottlenecks and resource issues. \nSimulate real-world traffic and usage scenarios. \nOptimize response times and reliability. \nGuarantee smooth performance for all users and devices.",
+      },
+      {
+        id: "automation-testing",
+        icon: "Leaf",
+        title: "Automation Testing",
+        subtitle: "",
+        description:
+          "Implement automated test scripts for repetitive tasks. \nIncrease testing efficiency and coverage. \nReduce human error and save time. \nIntegrate automated tests into CI/CD pipelines. \nEnsure faster, consistent, and reliable software delivery.",
+      },
+    ],
+    linkText: "Get QA Solutions",
+    linkUrl: "/contact-us",
+  },
+  solutionsTwo: {
+    mainTitle: "Comprehensive Software Testing & QA Solutions",
+    mainDescription:
+      "We deliver end-to-end testing and quality assurance services to ensure flawless performance, security, and scalability. Our QA experts help detect bugs early, optimize functionality, and enhance user experience across all platforms.",
 
-  linkText: "Hire Software Testing Experts",
-  linkUrl: "/contact-us",
-},
+    items: [
+      {
+        id: "automation-testing",
+        icon: "Shield",
+        title: "Automated Testing & Continuous Integration",
+        subtitle: "",
+        description:
+          "Streamline testing workflows with fully automated pipelines and CI/CD integration. \nDetect issues faster, improve release velocity, and minimize human error. \nOur frameworks support web, mobile, and enterprise-grade systems. \nRun parallel tests across environments for maximum coverage. \nDeliver high-quality software with every build and deployment.",
+      },
+      {
+        id: "performance-qa",
+        icon: "Leaf",
+        title: "Performance, Load & Stress Testing",
+        subtitle: "",
+        description:
+          "Ensure system stability and responsiveness under peak conditions. \nWe simulate real-world load scenarios to detect performance bottlenecks. \nAnalyze latency, throughput, and scalability metrics accurately. \nOptimize infrastructure for speed, endurance, and resilience. \nGuarantee smooth user experiences even at high traffic levels.",
+      },
+      {
+        id: "security-testing",
+        icon: "Leaf",
+        title: "Security & Vulnerability Assessment",
+        subtitle: "",
+        description:
+          "Protect your applications from cyber threats and data breaches. \nWe perform penetration tests, code reviews, and compliance checks. \nIdentify and mitigate vulnerabilities before deployment. \nIntegrate security testing within development pipelines proactively. \nBuild user trust with secure and resilient software systems.",
+      },
+      {
+        id: "usability-qa",
+        icon: "Leaf",
+        title: "UI/UX & Usability Testing",
+        subtitle: "",
+        description:
+          "Validate user flows, interface consistency, and accessibility standards. \nWe conduct detailed usability audits across web and mobile apps. \nGather user feedback and behavioral insights for improvements. \nEnsure seamless navigation and intuitive design interactions. \nEnhance satisfaction with flawless, user-friendly experiences.",
+      },
+      {
+        id: "mobile-testing",
+        icon: "Leaf",
+        title: "Mobile App Testing & Quality Validation",
+        subtitle: "",
+        description:
+          "Test your mobile apps across devices, OS versions, and networks. \nWe validate functionality, performance, and battery efficiency. \nAutomate regression testing to speed up release cycles. \nEnsure smooth installations, updates, and crash-free sessions. \nDeliver reliable mobile experiences that users love and trust.",
+      },
+      {
+        id: "manual-testing",
+        icon: "Leaf",
+        title: "Manual Testing & Quality Verification",
+        subtitle: "",
+        description:
+          "Perform in-depth manual testing to uncover hidden defects. \nWe validate logic, functionality, and visual consistency. \nOur experts replicate real user scenarios for precision. \nIdentify edge cases that automation might overlook. \nDeliver bug-free, stable, and high-performing software releases.",
+      },
+    ],
 
+    linkText: "Hire Software Testing Experts",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "QA & Test Management Tools",
     subtitle:
       "Streamline test planning, execution, and reporting with our QA management solutions for teams of any size.",
     subtitleLink: { text: "QA management software", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/1f/ee/97/1fee97a732618ed889319291efe05aaf.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/1f/ee/97/1fee97a732618ed889319291efe05aaf.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {
@@ -193,7 +193,9 @@ solutionsTwo: {
       },
     ],
     ctaText: "Get QA Experts",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
   faq: {
     title: "FAQ - Software Testing & QA Services",

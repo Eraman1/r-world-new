@@ -29,7 +29,7 @@ import { technicalConsulting } from "./technicalConsulting";
 export const servicesData: Record<string, ServiceConfig> = {
   "custom-software-development": customSoftwareDevelopment,
   "mobile-app-development": mobileappdevelopment,
-  webdevelopment: webdevelopment,
+  "web-development": webdevelopment,
   "software-testing-qa": softwareTestingQA,
   "ui-ux-design": uiUxDesign,
   "devops-services": devopsServices,

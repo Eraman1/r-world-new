@@ -20,28 +20,28 @@ export const customSoftwareDevelopment: ServiceConfig = {
       "We design, develop, and maintain software solutions that improve efficiency, reduce costs, and drive innovation. From enterprise systems to mobile apps, we create software aligned with your goals.",
     image: "/images/software-development-laptop.png",
     services: [
-  {
-    id: 1,
-    title: "Web Application Development",
-    description:
-      "Build robust, responsive, and scalable web applications using modern frameworks. Ensure high performance, security, and seamless integration with APIs and databases.",
-    icon: "/icons/web.svg",
-  },
-  {
-    id: 2,
-    title: "Mobile App Development",
-    description:
-      "Develop native and cross-platform mobile apps for iOS and Android. Deliver intuitive user experiences with optimized performance and backend integration.",
-    icon: "/icons/mobile.svg",
-  },
-  {
-    id: 3,
-    title: "Enterprise Software Solutions",
-    description:
-      "Create scalable enterprise applications to streamline operations and automate workflows. Ensure security, compliance, and seamless integration with ERP and CRM systems.",
-    icon: "/icons/enterprise.svg",
-  },
-],
+      {
+        id: 1,
+        title: "Web Application Development",
+        description:
+          "Build robust, responsive, and scalable web applications using modern frameworks. Ensure high performance, security, and seamless integration with APIs and databases.",
+        icon: "/icons/web.svg",
+      },
+      {
+        id: 2,
+        title: "Mobile App Development",
+        description:
+          "Develop native and cross-platform mobile apps for iOS and Android. Deliver intuitive user experiences with optimized performance and backend integration.",
+        icon: "/icons/mobile.svg",
+      },
+      {
+        id: 3,
+        title: "Enterprise Software Solutions",
+        description:
+          "Create scalable enterprise applications to streamline operations and automate workflows. Ensure security, compliance, and seamless integration with ERP and CRM systems.",
+        icon: "/icons/enterprise.svg",
+      },
+    ],
   },
   solutions: {
     mainTitle: "Custom Software Solutions",
@@ -81,93 +81,92 @@ export const customSoftwareDevelopment: ServiceConfig = {
           "Build software solutions designed to meet unique business requirements. Combine cutting-edge technologies with industry best practices. Enhance productivity, efficiency, and collaboration. Deliver secure, maintainable, and scalable applications. Support long-term growth with continuous updates and improvements.",
       },
       {
-      id: "cloud-integration",
-      icon: "Leaf",
-      title: "Cloud & DevOps Solutions",
-      subtitle: "",
-      description:
-        "Deploy applications on cloud platforms like AWS, Azure, and GCP. Implement DevOps practices for continuous integration and delivery. Ensure high availability, scalability, and fault tolerance. Monitor performance and optimize resource utilization. Streamline deployment and operational workflows across teams.",
-    },
-    {
-      id: "ai-ml-solutions",
-      icon: "Leaf",
-      title: "AI & Machine Learning Solutions",
-      subtitle: "",
-      description:
-        "Integrate AI and ML to automate complex processes and workflows. Build predictive models to enhance business decision-making. Analyze large datasets to uncover patterns and trends. Deploy intelligent features in web, mobile, and enterprise applications. Enhance user experiences through personalized and data-driven insights.",
-    },
+        id: "cloud-integration",
+        icon: "Leaf",
+        title: "Cloud & DevOps Solutions",
+        subtitle: "",
+        description:
+          "Deploy applications on cloud platforms like AWS, Azure, and GCP. Implement DevOps practices for continuous integration and delivery. Ensure high availability, scalability, and fault tolerance. Monitor performance and optimize resource utilization. Streamline deployment and operational workflows across teams.",
+      },
+      {
+        id: "ai-ml-solutions",
+        icon: "Leaf",
+        title: "AI & Machine Learning Solutions",
+        subtitle: "",
+        description:
+          "Integrate AI and ML to automate complex processes and workflows. Build predictive models to enhance business decision-making. Analyze large datasets to uncover patterns and trends. Deploy intelligent features in web, mobile, and enterprise applications. Enhance user experiences through personalized and data-driven insights.",
+      },
     ],
     linkText: "Get Custom Software Solutions",
     linkUrl: "/contact-us",
   },
-solutionsTwo: {
-  mainTitle: "Custom Software Development Solutions",
-  mainDescription:
-    "We craft tailored software applications designed to fit your business goals perfectly. Our custom solutions enhance efficiency, scalability, and digital transformation. From startups to enterprises, we build platforms that grow with you. Experience performance-driven software built with innovation and precision.",
+  solutionsTwo: {
+    mainTitle: "Custom Software Development Solutions",
+    mainDescription:
+      "We craft tailored software applications designed to fit your business goals perfectly. Our custom solutions enhance efficiency, scalability, and digital transformation. From startups to enterprises, we build platforms that grow with you. Experience performance-driven software built with innovation and precision.",
 
-  items: [
-    {
-      id: "enterprise-apps",
-      icon: "Leaf",
-      title: "Enterprise Application Development",
-      subtitle: "",
-      description:
-        "Build powerful enterprise-grade applications that streamline complex workflows. \nWe design secure, scalable, and cloud-ready software architectures. \nOur systems integrate seamlessly with existing business tools and APIs. \nImprove productivity and operational transparency across departments. \nEmpower your organization with future-ready enterprise technology.",
-    },
-    {
-      id: "crm-solutions",
-      icon: "Leaf",
-      title: "Custom CRM & ERP Software Solutions",
-      subtitle: "",
-      description:
-        "Develop intelligent CRM and ERP systems tailored to your operations. \nAutomate customer management, reporting, and resource allocation. \nOur software enhances collaboration and decision-making efficiency. \nGain 360° visibility of your business through integrated dashboards. \nTransform your workflow with data-driven operational control.",
-    },
-    {
-      id: "mobile-apps",
-      icon: "Smartphone",
-      title: "Cross-Platform Mobile App Development",
-      subtitle: "",
-      description:
-        "Deliver seamless mobile experiences across Android and iOS platforms. \nWe build high-performance, secure, and intuitive mobile applications. \nOur apps blend cutting-edge UI/UX with reliable backend functionality. \nEnable real-time connectivity and improved customer engagement. \nTurn your app ideas into scalable digital products that perform flawlessly.",
-    },
-    {
-      id: "web-platforms",
-      icon: "Leaf",
-      title: "Web Portals & SaaS Platform Development",
-      subtitle: "",
-      description:
-        "Create dynamic, data-driven web platforms that empower your users. \nWe specialize in SaaS solutions, client portals, and business automation tools. \nOur web applications are secure, responsive, and performance-optimized. \nIntegrate cloud computing and analytics for smarter operations. \nDeliver a scalable, user-centric platform tailored to your goals.",
-    },
-    {
-      id: "integration-services",
-      icon: "Leaf",
-      title: "API Integration & System Modernization",
-      subtitle: "",
-      description:
-        "Connect disparate systems for unified, efficient digital workflows. \nWe modernize legacy software to ensure compatibility and performance. \nIntegrate third-party APIs for seamless data exchange and automation. \nReduce downtime while improving system reliability and scalability. \nUnlock the full potential of your existing digital ecosystem.",
-    },
-    {
-      id: "maintenance-support",
-      icon: "Leaf",
-      title: "Software Maintenance & Ongoing Support",
-      subtitle: "",
-      description:
-        "Keep your software running at peak performance post-launch. \nWe provide continuous monitoring, updates, and feature enhancements. \nResolve bugs and optimize systems for security and speed. \nEnsure high availability through proactive performance management. \nFocus on growth while we handle your software’s long-term health.",
-    },
-  ],
+    items: [
+      {
+        id: "enterprise-apps",
+        icon: "Leaf",
+        title: "Enterprise Application Development",
+        subtitle: "",
+        description:
+          "Build powerful enterprise-grade applications that streamline complex workflows. \nWe design secure, scalable, and cloud-ready software architectures. \nOur systems integrate seamlessly with existing business tools and APIs. \nImprove productivity and operational transparency across departments. \nEmpower your organization with future-ready enterprise technology.",
+      },
+      {
+        id: "crm-solutions",
+        icon: "Leaf",
+        title: "Custom CRM & ERP Software Solutions",
+        subtitle: "",
+        description:
+          "Develop intelligent CRM and ERP systems tailored to your operations. \nAutomate customer management, reporting, and resource allocation. \nOur software enhances collaboration and decision-making efficiency. \nGain 360° visibility of your business through integrated dashboards. \nTransform your workflow with data-driven operational control.",
+      },
+      {
+        id: "mobile-apps",
+        icon: "Smartphone",
+        title: "Cross-Platform Mobile App Development",
+        subtitle: "",
+        description:
+          "Deliver seamless mobile experiences across Android and iOS platforms. \nWe build high-performance, secure, and intuitive mobile applications. \nOur apps blend cutting-edge UI/UX with reliable backend functionality. \nEnable real-time connectivity and improved customer engagement. \nTurn your app ideas into scalable digital products that perform flawlessly.",
+      },
+      {
+        id: "web-platforms",
+        icon: "Leaf",
+        title: "Web Portals & SaaS Platform Development",
+        subtitle: "",
+        description:
+          "Create dynamic, data-driven web platforms that empower your users. \nWe specialize in SaaS solutions, client portals, and business automation tools. \nOur web applications are secure, responsive, and performance-optimized. \nIntegrate cloud computing and analytics for smarter operations. \nDeliver a scalable, user-centric platform tailored to your goals.",
+      },
+      {
+        id: "integration-services",
+        icon: "Leaf",
+        title: "API Integration & System Modernization",
+        subtitle: "",
+        description:
+          "Connect disparate systems for unified, efficient digital workflows. \nWe modernize legacy software to ensure compatibility and performance. \nIntegrate third-party APIs for seamless data exchange and automation. \nReduce downtime while improving system reliability and scalability. \nUnlock the full potential of your existing digital ecosystem.",
+      },
+      {
+        id: "maintenance-support",
+        icon: "Leaf",
+        title: "Software Maintenance & Ongoing Support",
+        subtitle: "",
+        description:
+          "Keep your software running at peak performance post-launch. \nWe provide continuous monitoring, updates, and feature enhancements. \nResolve bugs and optimize systems for security and speed. \nEnsure high availability through proactive performance management. \nFocus on growth while we handle your software’s long-term health.",
+      },
+    ],
 
-  linkText: "Build Your Custom Software Today",
-  linkUrl: "/contact-us",
-},
-
-  
+    linkText: "Build Your Custom Software Today",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Software Project Management Tools",
     subtitle:
       "Our software management solutions streamline project tracking, team collaboration, and operational efficiency for development teams of any size.",
     subtitleLink: { text: "project management software", url: "#" },
-    laptopImage: "https://i.pinimg.com/1200x/7f/a2/b0/7fa2b0c5a8f488114028bceecf4a66ba.jpg",
+    laptopImage:
+      "https://i.pinimg.com/1200x/7f/a2/b0/7fa2b0c5a8f488114028bceecf4a66ba.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {
@@ -193,7 +192,9 @@ solutionsTwo: {
       },
     ],
     ctaText: "Get Custom Software Experts",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

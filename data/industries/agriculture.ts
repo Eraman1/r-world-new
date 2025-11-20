@@ -193,7 +193,9 @@ export const agriculture: IndustryConfig = {
       },
     ],
     ctaText: "GET LAND MGMT SOFTWARE DEVELOPERS",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
   managementSolutionsTwo: {
   title: "Agriculture Land & Crop Management Solutions",

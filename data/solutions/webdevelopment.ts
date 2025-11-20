@@ -47,71 +47,72 @@ export const webDevelopment: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Comprehensive Web Solutions",
-  mainDescription:
-    "We offer full-cycle web development services including custom web applications, e-commerce platforms, and progressive web apps to meet diverse business needs. Our team ensures scalable, secure, and high-performing solutions tailored to your goals. From concept to deployment, we handle every step to bring your digital vision to life.",
-  items: [
-    {
-      id: "custom-web-apps",
-      icon: "Leaf",
-      title: "Custom Web Applications",
-      subtitle: "Tailored for Your Business",
-      description:
-        "Develop web applications with custom features and workflows designed specifically for your business needs. Integrate with existing systems to improve efficiency and automate processes. Ensure scalable, secure, and robust solutions for long-term growth.",
-    },
-    {
-      id: "e-commerce-development",
-      icon: "Leaf",
-      title: "E-Commerce Development",
-      subtitle: "Sell Online Effectively",
-      description:
-        "Create feature-rich online stores with secure payment gateways and inventory management. Optimize user experience to increase conversions and customer satisfaction. Implement scalable solutions that grow alongside your business.",
-    },
-    {
-      id: "responsive-design",
-      icon: "Leaf",
-      title: "Responsive & Mobile-First Design",
-      subtitle: "Seamless Across Devices",
-      description:
-        "Design websites that adapt perfectly to desktops, tablets, and smartphones. Enhance navigation, load times, and user experience across all devices. Ensure accessibility and usability for every visitor to your site.",
-    },
-    {
-      id: "cms-solutions",
-      icon: "Leaf",
-      title: "CMS Development & Integration",
-      subtitle: "Easily Manage Content",
-      description:
-        "Build or integrate CMS platforms like WordPress, Drupal, or custom solutions for effortless content management. Empower teams to update and maintain websites without technical expertise. Ensure secure, flexible, and scalable content handling.",
-    },
-    {
-      id: "pwa-development",
-      icon: "Leaf",
-      title: "Progressive Web Apps (PWAs)",
-      subtitle: "Modern App Experience",
-      description:
-        "Deliver fast-loading, app-like experiences on the web with offline support and push notifications. Enhance user engagement and accessibility across devices. Provide a seamless experience that rivals native mobile applications.",
-    },
-    {
-      id: "api-integration",
-      icon: "Leaf",
-      title: "API Integration",
-      subtitle: "Connect Seamlessly",
-      description:
-        "Integrate third-party APIs for payments, CRM, analytics, and more to enhance platform functionality. Automate workflows and sync data between systems efficiently. Ensure reliable and secure connections for a smooth digital experience.",
-    },
-  ],
-  linkText: "Explore Web Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Comprehensive Web Solutions",
+    mainDescription:
+      "We offer full-cycle web development services including custom web applications, e-commerce platforms, and progressive web apps to meet diverse business needs. Our team ensures scalable, secure, and high-performing solutions tailored to your goals. From concept to deployment, we handle every step to bring your digital vision to life.",
+    items: [
+      {
+        id: "custom-web-apps",
+        icon: "Leaf",
+        title: "Custom Web Applications",
+        subtitle: "Tailored for Your Business",
+        description:
+          "Develop web applications with custom features and workflows designed specifically for your business needs. Integrate with existing systems to improve efficiency and automate processes. Ensure scalable, secure, and robust solutions for long-term growth.",
+      },
+      {
+        id: "e-commerce-development",
+        icon: "Leaf",
+        title: "E-Commerce Development",
+        subtitle: "Sell Online Effectively",
+        description:
+          "Create feature-rich online stores with secure payment gateways and inventory management. Optimize user experience to increase conversions and customer satisfaction. Implement scalable solutions that grow alongside your business.",
+      },
+      {
+        id: "responsive-design",
+        icon: "Leaf",
+        title: "Responsive & Mobile-First Design",
+        subtitle: "Seamless Across Devices",
+        description:
+          "Design websites that adapt perfectly to desktops, tablets, and smartphones. Enhance navigation, load times, and user experience across all devices. Ensure accessibility and usability for every visitor to your site.",
+      },
+      {
+        id: "cms-solutions",
+        icon: "Leaf",
+        title: "CMS Development & Integration",
+        subtitle: "Easily Manage Content",
+        description:
+          "Build or integrate CMS platforms like WordPress, Drupal, or custom solutions for effortless content management. Empower teams to update and maintain websites without technical expertise. Ensure secure, flexible, and scalable content handling.",
+      },
+      {
+        id: "pwa-development",
+        icon: "Leaf",
+        title: "Progressive Web Apps (PWAs)",
+        subtitle: "Modern App Experience",
+        description:
+          "Deliver fast-loading, app-like experiences on the web with offline support and push notifications. Enhance user engagement and accessibility across devices. Provide a seamless experience that rivals native mobile applications.",
+      },
+      {
+        id: "api-integration",
+        icon: "Leaf",
+        title: "API Integration",
+        subtitle: "Connect Seamlessly",
+        description:
+          "Integrate third-party APIs for payments, CRM, analytics, and more to enhance platform functionality. Automate workflows and sync data between systems efficiently. Ensure reliable and secure connections for a smooth digital experience.",
+      },
+    ],
+    linkText: "Explore Web Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Web Platform Management",
     subtitle:
       "Manage, monitor, and optimize your web applications with dashboards, analytics, and automation tools.",
     subtitleLink: { text: "web management platforms", url: "#" },
-    laptopImage: "https://i.pinimg.com/1200x/10/78/66/107866393e2a9d0581b4e179e04ae73d.jpg",
-    mobileImage: "https://i.pinimg.com/736x/90/c5/27/90c5273d41d32fcfc3c6e23a0c8e8860.jpg",
+    laptopImage:
+      "https://i.pinimg.com/1200x/10/78/66/107866393e2a9d0581b4e179e04ae73d.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/90/c5/27/90c5273d41d32fcfc3c6e23a0c8e8860.jpg",
     topFeatures: [
       {
         id: "analytics",
@@ -136,37 +137,39 @@ export const webDevelopment: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "content-management",
-    icon: "map",
-    title: "Content Management",
-    description:
-      "Easily manage all your website content through intuitive CMS dashboards. Automate publishing workflows to save time and reduce errors. Ensure consistency and control across multiple pages and platforms.",
-  },
-  {
-    id: "updates-maintenance",
-    icon: "map",
-    title: "Updates & Maintenance",
-    description:
-      "Keep your web applications secure and performing optimally with regular updates and patches. Monitor system health and fix issues proactively. Enhance user experience by ensuring your site runs smoothly and reliably.",
-  },
-  {
-    id: "cloud-deployment",
-    icon: "map",
-    title: "Cloud Deployment",
-    description:
-      "Deploy websites and web applications on scalable cloud platforms for high availability. Optimize performance and load balancing across regions. Benefit from reliable infrastructure and seamless scaling as your traffic grows.",
-  },
-  {
-    id: "automation",
-    icon: "map",
-    title: "Automated Monitoring & Alerts",
-    description:
-      "Receive real-time notifications for downtime, errors, or performance issues to stay ahead of problems. Monitor key metrics automatically with proactive alerting. Ensure continuous uptime and a smooth experience for your users.",
-  },
-],
-ctaText: "Get Web Development Experts",
-onCtaClick: () => {},
+      {
+        id: "content-management",
+        icon: "map",
+        title: "Content Management",
+        description:
+          "Easily manage all your website content through intuitive CMS dashboards. Automate publishing workflows to save time and reduce errors. Ensure consistency and control across multiple pages and platforms.",
+      },
+      {
+        id: "updates-maintenance",
+        icon: "map",
+        title: "Updates & Maintenance",
+        description:
+          "Keep your web applications secure and performing optimally with regular updates and patches. Monitor system health and fix issues proactively. Enhance user experience by ensuring your site runs smoothly and reliably.",
+      },
+      {
+        id: "cloud-deployment",
+        icon: "map",
+        title: "Cloud Deployment",
+        description:
+          "Deploy websites and web applications on scalable cloud platforms for high availability. Optimize performance and load balancing across regions. Benefit from reliable infrastructure and seamless scaling as your traffic grows.",
+      },
+      {
+        id: "automation",
+        icon: "map",
+        title: "Automated Monitoring & Alerts",
+        description:
+          "Receive real-time notifications for downtime, errors, or performance issues to stay ahead of problems. Monitor key metrics automatically with proactive alerting. Ensure continuous uptime and a smooth experience for your users.",
+      },
+    ],
+    ctaText: "Get Web Development Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

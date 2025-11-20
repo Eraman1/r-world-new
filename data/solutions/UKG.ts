@@ -47,71 +47,72 @@ export const UKG: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "UKG Workforce & HR Technology Solutions",
-  mainDescription:
-    "From HR automation to workforce analytics, our UKG-based solutions empower businesses to manage their people efficiently and strategically. We help organizations streamline operations, enhance employee engagement, and ensure global compliance with intelligent tools.",
-  items: [
-    {
-      id: "hr-automation",
-      icon: "Leaf",
-      title: "HR Automation Systems",
-      subtitle: "Simplify People Operations",
-      description:
-        "Automate onboarding, performance reviews, and employee lifecycle tasks through UKG’s intelligent HR modules. Eliminate manual processes to boost efficiency and reduce administrative overhead. Ensure consistent compliance and enhance overall workforce experience.",
-    },
-    {
-      id: "time-attendance",
-      icon: "Leaf",
-      title: "Time & Attendance Tracking",
-      subtitle: "Accurate Workforce Insights",
-      description:
-        "Monitor employee attendance, scheduling, and productivity in real time through advanced analytics. Automate compliance tracking to meet labor regulations and company policies. Gain actionable insights that improve workforce accountability and efficiency.",
-    },
-    {
-      id: "payroll-system",
-      icon: "Leaf",
-      title: "Global Payroll Solutions",
-      subtitle: "Compliance-Ready Payment Systems",
-      description:
-        "Simplify payroll operations across multiple regions with automated calculations and tax compliance. Deliver accurate, timely payments and digital payslips for employees. Ensure transparency and trust through secure payroll management systems.",
-    },
-    {
-      id: "analytics",
-      icon: "Leaf",
-      title: "Workforce Analytics & Reporting",
-      subtitle: "Data-Driven HR Decisions",
-      description:
-        "Utilize real-time dashboards and predictive analytics to drive smarter HR strategies. Identify performance trends, workforce gaps, and engagement metrics. Transform raw data into actionable insights that power organizational growth and agility.",
-    },
-    {
-      id: "talent-management",
-      icon: "Leaf",
-      title: "Talent Management Platforms",
-      subtitle: "Retain and Grow Top Talent",
-      description:
-        "Streamline recruitment, training, and employee development using UKG’s connected talent ecosystem. Support personalized career growth with integrated learning management tools. Build a culture of continuous improvement and employee retention.",
-    },
-    {
-      id: "integration",
-      icon: "Leaf",
-      title: "Third-Party Integration Support",
-      subtitle: "Seamless System Connectivity",
-      description:
-        "Connect UKG effortlessly with ERP, CRM, and analytics systems for unified data visibility. Enable seamless information flow across HR and business platforms. Create a connected digital ecosystem that enhances decision-making and operational efficiency.",
-    },
-  ],
-  linkText: "Get UKG Implementation Support",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "UKG Workforce & HR Technology Solutions",
+    mainDescription:
+      "From HR automation to workforce analytics, our UKG-based solutions empower businesses to manage their people efficiently and strategically. We help organizations streamline operations, enhance employee engagement, and ensure global compliance with intelligent tools.",
+    items: [
+      {
+        id: "hr-automation",
+        icon: "Leaf",
+        title: "HR Automation Systems",
+        subtitle: "Simplify People Operations",
+        description:
+          "Automate onboarding, performance reviews, and employee lifecycle tasks through UKG’s intelligent HR modules. Eliminate manual processes to boost efficiency and reduce administrative overhead. Ensure consistent compliance and enhance overall workforce experience.",
+      },
+      {
+        id: "time-attendance",
+        icon: "Leaf",
+        title: "Time & Attendance Tracking",
+        subtitle: "Accurate Workforce Insights",
+        description:
+          "Monitor employee attendance, scheduling, and productivity in real time through advanced analytics. Automate compliance tracking to meet labor regulations and company policies. Gain actionable insights that improve workforce accountability and efficiency.",
+      },
+      {
+        id: "payroll-system",
+        icon: "Leaf",
+        title: "Global Payroll Solutions",
+        subtitle: "Compliance-Ready Payment Systems",
+        description:
+          "Simplify payroll operations across multiple regions with automated calculations and tax compliance. Deliver accurate, timely payments and digital payslips for employees. Ensure transparency and trust through secure payroll management systems.",
+      },
+      {
+        id: "analytics",
+        icon: "Leaf",
+        title: "Workforce Analytics & Reporting",
+        subtitle: "Data-Driven HR Decisions",
+        description:
+          "Utilize real-time dashboards and predictive analytics to drive smarter HR strategies. Identify performance trends, workforce gaps, and engagement metrics. Transform raw data into actionable insights that power organizational growth and agility.",
+      },
+      {
+        id: "talent-management",
+        icon: "Leaf",
+        title: "Talent Management Platforms",
+        subtitle: "Retain and Grow Top Talent",
+        description:
+          "Streamline recruitment, training, and employee development using UKG’s connected talent ecosystem. Support personalized career growth with integrated learning management tools. Build a culture of continuous improvement and employee retention.",
+      },
+      {
+        id: "integration",
+        icon: "Leaf",
+        title: "Third-Party Integration Support",
+        subtitle: "Seamless System Connectivity",
+        description:
+          "Connect UKG effortlessly with ERP, CRM, and analytics systems for unified data visibility. Enable seamless information flow across HR and business platforms. Create a connected digital ecosystem that enhances decision-making and operational efficiency.",
+      },
+    ],
+    linkText: "Get UKG Implementation Support",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "UKG Workforce Management Platforms",
     subtitle:
       "Leverage UKG’s cloud-based workforce solutions to optimize employee scheduling, engagement, and compliance.",
     subtitleLink: { text: "UKG Workforce Central", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/85/74/b9/8574b9f3d6466b4624ac6e1f4d6076fb.jpg",
-    mobileImage: "https://i.pinimg.com/736x/ed/8b/6d/ed8b6d1e7daa8dbb02aeb15027741741.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/85/74/b9/8574b9f3d6466b4624ac6e1f4d6076fb.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/ed/8b/6d/ed8b6d1e7daa8dbb02aeb15027741741.jpg",
     topFeatures: [
       {
         id: "ai-forecasting",
@@ -136,37 +137,39 @@ export const UKG: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "mobile-access",
-    icon: "map",
-    title: "Mobile Workforce Access",
-    description:
-      "Empower employees to manage their schedules, request leave, and view pay details anytime through secure mobile access. Improve workforce flexibility and engagement with an intuitive mobile interface. Enable managers to approve requests and track attendance on the go.",
-  },
-  {
-    id: "data-integration",
-    icon: "map",
-    title: "Centralized Data Integration",
-    description:
-      "Consolidate HR, payroll, and workforce data into one unified platform for real-time insights. Eliminate data silos and enhance decision-making through accurate, synchronized records. Ensure transparency and consistency across all departments and systems.",
-  },
-  {
-    id: "security",
-    icon: "map",
-    title: "Data Security & Privacy",
-    description:
-      "Safeguard employee information using enterprise-grade encryption, access controls, and compliance protocols. Ensure GDPR and SOC2 standards are met for maximum data integrity. Maintain trust by keeping sensitive HR and payroll data secure at every level.",
-  },
-  {
-    id: "automation",
-    icon: "map",
-    title: "Workflow Automation",
-    description:
-      "Streamline repetitive HR tasks by automating approvals, onboarding, and document routing. Reduce manual errors and administrative workload through intelligent workflow systems. Improve operational efficiency while ensuring consistency across processes.",
-  },
-],
-ctaText: "Talk to UKG Experts",
-onCtaClick: () => {},
+      {
+        id: "mobile-access",
+        icon: "map",
+        title: "Mobile Workforce Access",
+        description:
+          "Empower employees to manage their schedules, request leave, and view pay details anytime through secure mobile access. Improve workforce flexibility and engagement with an intuitive mobile interface. Enable managers to approve requests and track attendance on the go.",
+      },
+      {
+        id: "data-integration",
+        icon: "map",
+        title: "Centralized Data Integration",
+        description:
+          "Consolidate HR, payroll, and workforce data into one unified platform for real-time insights. Eliminate data silos and enhance decision-making through accurate, synchronized records. Ensure transparency and consistency across all departments and systems.",
+      },
+      {
+        id: "security",
+        icon: "map",
+        title: "Data Security & Privacy",
+        description:
+          "Safeguard employee information using enterprise-grade encryption, access controls, and compliance protocols. Ensure GDPR and SOC2 standards are met for maximum data integrity. Maintain trust by keeping sensitive HR and payroll data secure at every level.",
+      },
+      {
+        id: "automation",
+        icon: "map",
+        title: "Workflow Automation",
+        description:
+          "Streamline repetitive HR tasks by automating approvals, onboarding, and document routing. Reduce manual errors and administrative workload through intelligent workflow systems. Improve operational efficiency while ensuring consistency across processes.",
+      },
+    ],
+    ctaText: "Talk to UKG Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
   faq: {
     title: "FAQ",

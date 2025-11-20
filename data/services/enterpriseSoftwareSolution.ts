@@ -49,7 +49,7 @@ export const enterpriseSoftwareSolution: ServiceConfig = {
     mainTitle: "Enterprise Software Development Solutions",
     mainDescription:
       "We deliver end-to-end enterprise software tailored to your organization’s unique needs. From automation to analytics, our solutions help businesses operate smarter, faster, and more efficiently.",
-    
+
     items: [
       {
         id: "erp",
@@ -104,72 +104,72 @@ export const enterpriseSoftwareSolution: ServiceConfig = {
     linkUrl: "/contact-us",
   },
   solutionsTwo: {
-  mainTitle: "Enterprise Software Solutions for Scalable Growth",
-  mainDescription:
-    "We design robust, intelligent, and secure enterprise software systems that streamline workflows, improve collaboration, and drive sustainable business growth. Our tailored solutions integrate emerging technologies to optimize performance across industries.",
+    mainTitle: "Enterprise Software Solutions for Scalable Growth",
+    mainDescription:
+      "We design robust, intelligent, and secure enterprise software systems that streamline workflows, improve collaboration, and drive sustainable business growth. Our tailored solutions integrate emerging technologies to optimize performance across industries.",
 
-  items: [
-    {
-      id: "erp-systems",
-      icon: "Leaf",
-      title: "Enterprise Resource Planning (ERP) Systems",
-      subtitle: "",
-      description:
-        "Integrate finance, HR, inventory, and supply chain into one cohesive platform. \nEnhance visibility across departments with centralized data control. \nAutomate manual processes to increase efficiency and reduce errors. \nGain real-time insights for better planning and decision-making. \nEmpower enterprises with a unified, intelligent business ecosystem.",
-    },
-    {
-      id: "crm-platforms",
-      icon: "Leaf",
-      title: "Customer Relationship Management (CRM) Platforms",
-      subtitle: "",
-      description:
-        "Strengthen customer relationships through personalized engagement tools. \nTrack leads, sales, and interactions in a single intuitive dashboard. \nAutomate follow-ups and marketing campaigns for higher conversions. \nLeverage analytics to understand customer behavior and retention. \nTransform your customer experience with smarter CRM technology.",
-    },
-    {
-      id: "supply-chain",
-      icon: "Leaf",
-      title: "Supply Chain & Logistics Management Systems",
-      subtitle: "",
-      description:
-        "Optimize end-to-end logistics with AI-driven planning and forecasting. \nMonitor inventory, shipments, and suppliers in real time. \nReduce operational delays through intelligent automation. \nGain predictive insights for cost-efficient resource allocation. \nDeliver seamless supply chain coordination across global networks.",
-    },
-    {
-      id: "hr-management",
-      icon: "Leaf",
-      title: "Human Resource & Workforce Management Software",
-      subtitle: "",
-      description:
-        "Automate employee lifecycle processes from hiring to performance review. \nManage payroll, attendance, and compliance with accuracy. \nEnable remote teams with collaborative and digital HR tools. \nAnalyze workforce data to boost engagement and retention. \nSimplify HR operations through AI-powered employee management.",
-    },
-    {
-      id: "data-integration",
-      icon: "Leaf",
-      title: "Data Integration & Business Intelligence Platforms",
-      subtitle: "",
-      description:
-        "Unify data from multiple systems into actionable insights. \nLeverage dashboards for real-time analytics and visualization. \nEnable data-driven decision-making across all departments. \nEliminate silos through seamless data connectivity and governance. \nEmpower leadership with insights that drive measurable results.",
-    },
-    {
-      id: "cloud-solutions",
-      icon: "Leaf",
-      title: "Cloud Infrastructure & Application Modernization",
-      subtitle: "",
-      description:
-        "Migrate legacy systems to secure, scalable cloud environments. \nEnhance system reliability with automated monitoring and updates. \nLeverage hybrid and multi-cloud strategies for flexibility. \nReduce IT costs while improving business agility and uptime. \nAccelerate innovation with cloud-native enterprise architectures.",
-    },
-  ],
+    items: [
+      {
+        id: "erp-systems",
+        icon: "Leaf",
+        title: "Enterprise Resource Planning (ERP) Systems",
+        subtitle: "",
+        description:
+          "Integrate finance, HR, inventory, and supply chain into one cohesive platform. \nEnhance visibility across departments with centralized data control. \nAutomate manual processes to increase efficiency and reduce errors. \nGain real-time insights for better planning and decision-making. \nEmpower enterprises with a unified, intelligent business ecosystem.",
+      },
+      {
+        id: "crm-platforms",
+        icon: "Leaf",
+        title: "Customer Relationship Management (CRM) Platforms",
+        subtitle: "",
+        description:
+          "Strengthen customer relationships through personalized engagement tools. \nTrack leads, sales, and interactions in a single intuitive dashboard. \nAutomate follow-ups and marketing campaigns for higher conversions. \nLeverage analytics to understand customer behavior and retention. \nTransform your customer experience with smarter CRM technology.",
+      },
+      {
+        id: "supply-chain",
+        icon: "Leaf",
+        title: "Supply Chain & Logistics Management Systems",
+        subtitle: "",
+        description:
+          "Optimize end-to-end logistics with AI-driven planning and forecasting. \nMonitor inventory, shipments, and suppliers in real time. \nReduce operational delays through intelligent automation. \nGain predictive insights for cost-efficient resource allocation. \nDeliver seamless supply chain coordination across global networks.",
+      },
+      {
+        id: "hr-management",
+        icon: "Leaf",
+        title: "Human Resource & Workforce Management Software",
+        subtitle: "",
+        description:
+          "Automate employee lifecycle processes from hiring to performance review. \nManage payroll, attendance, and compliance with accuracy. \nEnable remote teams with collaborative and digital HR tools. \nAnalyze workforce data to boost engagement and retention. \nSimplify HR operations through AI-powered employee management.",
+      },
+      {
+        id: "data-integration",
+        icon: "Leaf",
+        title: "Data Integration & Business Intelligence Platforms",
+        subtitle: "",
+        description:
+          "Unify data from multiple systems into actionable insights. \nLeverage dashboards for real-time analytics and visualization. \nEnable data-driven decision-making across all departments. \nEliminate silos through seamless data connectivity and governance. \nEmpower leadership with insights that drive measurable results.",
+      },
+      {
+        id: "cloud-solutions",
+        icon: "Leaf",
+        title: "Cloud Infrastructure & Application Modernization",
+        subtitle: "",
+        description:
+          "Migrate legacy systems to secure, scalable cloud environments. \nEnhance system reliability with automated monitoring and updates. \nLeverage hybrid and multi-cloud strategies for flexibility. \nReduce IT costs while improving business agility and uptime. \nAccelerate innovation with cloud-native enterprise architectures.",
+      },
+    ],
 
-  linkText: "Build Your Enterprise Solution Today",
-  linkUrl: "/contact-us",
-},
-
+    linkText: "Build Your Enterprise Solution Today",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Enterprise Management & Collaboration Tools",
     subtitle:
       "Our enterprise management solutions enhance communication, productivity, and real-time visibility across departments and teams.",
     subtitleLink: { text: "enterprise management software", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/f1/64/30/f164305f9ebf1ae0b1f1338a41d1a172.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/f1/64/30/f164305f9ebf1ae0b1f1338a41d1a172.jpg",
     mobileImage: "/images/enterprise-management-mobile.jpg",
     topFeatures: [
       {
@@ -195,7 +195,9 @@ export const enterpriseSoftwareSolution: ServiceConfig = {
       },
     ],
     ctaText: "Get Enterprise Software Experts",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {
@@ -209,7 +211,8 @@ export const enterpriseSoftwareSolution: ServiceConfig = {
       },
       {
         id: "2",
-        question: "Can you integrate enterprise software with our existing systems?",
+        question:
+          "Can you integrate enterprise software with our existing systems?",
         answer:
           "Yes, we specialize in integrating new enterprise software with existing ERP, CRM, HRMS, and third-party tools to ensure smooth interoperability.",
       },

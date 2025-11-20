@@ -47,71 +47,72 @@ export const embeddedSoftware: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Advanced Embedded & IoT Software Solutions",
-  mainDescription:
-    "From IoT devices to industrial automation, we develop embedded software that ensures high reliability, performance, and security across hardware platforms.",
-  items: [
-    {
-      id: "iot-development",
-      icon: "Leaf",
-      title: "IoT Software Development",
-      subtitle: "Connect, Monitor & Control Devices",
-      description:
-        "We create IoT-enabled embedded software that connects seamlessly with cloud services, sensors, and mobile apps. Our systems allow remote monitoring, real-time data processing, and intelligent device control. Enhance operational efficiency through smart connectivity and automation.",
-    },
-    {
-      id: "industrial-automation",
-      icon: "Leaf",
-      title: "Industrial Automation",
-      subtitle: "Optimize Processes & Operations",
-      description:
-        "We build automation systems using embedded controllers, sensors, and actuators for manufacturing and industrial plants. Our software improves accuracy, reduces downtime, and ensures real-time responsiveness. Achieve higher productivity through reliable process optimization.",
-    },
-    {
-      id: "automotive-embedded",
-      icon: "Leaf",
-      title: "Automotive Embedded Systems",
-      subtitle: "Safety & Infotainment Integration",
-      description:
-        "Our team develops ECU software, ADAS modules, and in-vehicle infotainment platforms that meet global automotive standards. We focus on safety, performance, and seamless integration across components. Deliver smarter and more connected driving experiences.",
-    },
-    {
-      id: "consumer-electronics",
-      icon: "Leaf",
-      title: "Consumer Electronics",
-      subtitle: "Smart Devices & Wearables",
-      description:
-        "We design embedded software for next-generation consumer electronics like smart home devices, wearables, and entertainment systems. Our solutions ensure high responsiveness and energy efficiency. Enhance user satisfaction through intelligent device functionality and design.",
-    },
-    {
-      id: "real-time-control",
-      icon: "Leaf",
-      title: "Real-Time Control Systems",
-      subtitle: "Precision & Determinism",
-      description:
-        "We develop real-time embedded systems for robotics, automation, and critical control applications. Our solutions guarantee deterministic performance and ultra-low latency. Achieve precise timing, fault tolerance, and high reliability in mission-critical environments.",
-    },
-    {
-      id: "security-embedded",
-      icon: "Leaf",
-      title: "Embedded Security Solutions",
-      subtitle: "Protect Hardware & Data",
-      description:
-        "We implement end-to-end embedded security through encryption, secure boot, and hardware authentication. Our solutions defend against cyber threats and unauthorized access. Safeguard devices and networks with advanced firmware and chip-level protection.",
-    },
-  ],
-  linkText: "Get Embedded Software Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Advanced Embedded & IoT Software Solutions",
+    mainDescription:
+      "From IoT devices to industrial automation, we develop embedded software that ensures high reliability, performance, and security across hardware platforms.",
+    items: [
+      {
+        id: "iot-development",
+        icon: "Leaf",
+        title: "IoT Software Development",
+        subtitle: "Connect, Monitor & Control Devices",
+        description:
+          "We create IoT-enabled embedded software that connects seamlessly with cloud services, sensors, and mobile apps. Our systems allow remote monitoring, real-time data processing, and intelligent device control. Enhance operational efficiency through smart connectivity and automation.",
+      },
+      {
+        id: "industrial-automation",
+        icon: "Leaf",
+        title: "Industrial Automation",
+        subtitle: "Optimize Processes & Operations",
+        description:
+          "We build automation systems using embedded controllers, sensors, and actuators for manufacturing and industrial plants. Our software improves accuracy, reduces downtime, and ensures real-time responsiveness. Achieve higher productivity through reliable process optimization.",
+      },
+      {
+        id: "automotive-embedded",
+        icon: "Leaf",
+        title: "Automotive Embedded Systems",
+        subtitle: "Safety & Infotainment Integration",
+        description:
+          "Our team develops ECU software, ADAS modules, and in-vehicle infotainment platforms that meet global automotive standards. We focus on safety, performance, and seamless integration across components. Deliver smarter and more connected driving experiences.",
+      },
+      {
+        id: "consumer-electronics",
+        icon: "Leaf",
+        title: "Consumer Electronics",
+        subtitle: "Smart Devices & Wearables",
+        description:
+          "We design embedded software for next-generation consumer electronics like smart home devices, wearables, and entertainment systems. Our solutions ensure high responsiveness and energy efficiency. Enhance user satisfaction through intelligent device functionality and design.",
+      },
+      {
+        id: "real-time-control",
+        icon: "Leaf",
+        title: "Real-Time Control Systems",
+        subtitle: "Precision & Determinism",
+        description:
+          "We develop real-time embedded systems for robotics, automation, and critical control applications. Our solutions guarantee deterministic performance and ultra-low latency. Achieve precise timing, fault tolerance, and high reliability in mission-critical environments.",
+      },
+      {
+        id: "security-embedded",
+        icon: "Leaf",
+        title: "Embedded Security Solutions",
+        subtitle: "Protect Hardware & Data",
+        description:
+          "We implement end-to-end embedded security through encryption, secure boot, and hardware authentication. Our solutions defend against cyber threats and unauthorized access. Safeguard devices and networks with advanced firmware and chip-level protection.",
+      },
+    ],
+    linkText: "Get Embedded Software Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Embedded Device Management Platforms",
     subtitle:
       "Manage firmware updates, monitoring, and device control with integrated embedded management systems.",
     subtitleLink: { text: "embedded device management", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/e9/e2/a0/e9e2a0676dc30caf65c2ec77f6be6204.jpg",
-    mobileImage: "https://i.pinimg.com/736x/cf/68/04/cf6804df1ad8de315cb8028163e4a048.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/e9/e2/a0/e9e2a0676dc30caf65c2ec77f6be6204.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/cf/68/04/cf6804df1ad8de315cb8028163e4a048.jpg",
     topFeatures: [
       {
         id: "firmware-updates",
@@ -136,37 +137,39 @@ export const embeddedSoftware: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "security",
-    icon: "map",
-    title: "Device Security & Encryption",
-    description:
-      "Protect embedded systems with end-to-end encryption and secure boot mechanisms. Prevent unauthorized access through hardware-level authentication and key management. Ensure system integrity and safeguard sensitive data from potential threats.",
-  },
-  {
-    id: "analytics",
-    icon: "map",
-    title: "Performance Analytics",
-    description:
-      "Monitor device performance in real time with built-in analytics and diagnostic tools. Identify system bottlenecks early to enhance efficiency and uptime. Use predictive insights to enable proactive maintenance and continuous optimization.",
-  },
-  {
-    id: "scalability",
-    icon: "map",
-    title: "Scalable Embedded Platforms",
-    description:
-      "Develop robust architectures that efficiently handle thousands of connected devices. Maintain high performance and low latency across diverse operating environments. Ensure reliability and adaptability as your device network grows globally.",
-  },
-  {
-    id: "api-support",
-    icon: "map",
-    title: "API & Integration Support",
-    description:
-      "Enable seamless connectivity between embedded systems and third-party applications. Integrate with mobile apps, analytics dashboards, and IoT ecosystems effortlessly. Simplify device management and data flow through secure, well-documented APIs.",
-  },
-],
-ctaText: "Talk to Embedded Software Experts",
-onCtaClick: () => {},
+      {
+        id: "security",
+        icon: "map",
+        title: "Device Security & Encryption",
+        description:
+          "Protect embedded systems with end-to-end encryption and secure boot mechanisms. Prevent unauthorized access through hardware-level authentication and key management. Ensure system integrity and safeguard sensitive data from potential threats.",
+      },
+      {
+        id: "analytics",
+        icon: "map",
+        title: "Performance Analytics",
+        description:
+          "Monitor device performance in real time with built-in analytics and diagnostic tools. Identify system bottlenecks early to enhance efficiency and uptime. Use predictive insights to enable proactive maintenance and continuous optimization.",
+      },
+      {
+        id: "scalability",
+        icon: "map",
+        title: "Scalable Embedded Platforms",
+        description:
+          "Develop robust architectures that efficiently handle thousands of connected devices. Maintain high performance and low latency across diverse operating environments. Ensure reliability and adaptability as your device network grows globally.",
+      },
+      {
+        id: "api-support",
+        icon: "map",
+        title: "API & Integration Support",
+        description:
+          "Enable seamless connectivity between embedded systems and third-party applications. Integrate with mobile apps, analytics dashboards, and IoT ecosystems effortlessly. Simplify device management and data flow through secure, well-documented APIs.",
+      },
+    ],
+    ctaText: "Talk to Embedded Software Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

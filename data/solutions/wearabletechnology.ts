@@ -47,71 +47,72 @@ export const wearableTechnology: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Innovative Wearable Technology Solutions",
-  mainDescription:
-    "Our wearable solutions empower users with real-time data, predictive insights, and seamless integration with mobile and cloud platforms, enhancing health, fitness, and enterprise productivity.",
-  items: [
-    {
-      id: "health-monitoring",
-      icon: "Leaf",
-      title: "Health Monitoring Devices",
-      subtitle: "Track & Analyze Vital Metrics",
-      description:
-        "Monitor vital signs such as heart rate, blood pressure, and oxygen levels in real-time. Analyze physical activity, sleep patterns, and wellness trends with integrated analytics. Gain actionable health insights to support preventative care and lifestyle improvements.",
-    },
-    {
-      id: "fitness-solutions",
-      icon: "Leaf",
-      title: "Fitness & Activity Trackers",
-      subtitle: "Improve Wellness & Performance",
-      description:
-        "Track steps, calories burned, and workout routines with precision and consistency. Set and monitor personalized fitness goals to motivate users. Leverage analytics to optimize training programs and overall wellness performance.",
-    },
-    {
-      id: "enterprise-wearables",
-      icon: "Leaf",
-      title: "Enterprise Wearables",
-      subtitle: "Boost Productivity & Safety",
-      description:
-        "Equip workforce with smart wearables for safety monitoring and task management. Track employee performance, workflow efficiency, and operational productivity. Ensure compliance with workplace safety standards and reduce on-site risks.",
-    },
-    {
-      id: "augmented-reality",
-      icon: "Leaf",
-      title: "AR & VR Wearables",
-      subtitle: "Immersive Experiences",
-      description:
-        "Develop augmented and virtual reality wearable devices for immersive training, simulation, and gaming. Enhance user engagement through interactive 3D experiences. Integrate motion tracking and real-time data for seamless virtual interactions.",
-    },
-    {
-      id: "wearable-apps",
-      icon: "Leaf",
-      title: "Custom Wearable Apps",
-      subtitle: "Seamless Connectivity",
-      description:
-        "Design intuitive mobile apps that connect and communicate with wearable devices. Provide real-time data visualization, insights, and notifications. Enable actionable decision-making and personalized user experiences.",
-    },
-    {
-      id: "sensor-integration",
-      icon: "Leaf",
-      title: "Sensor & IoT Integration",
-      subtitle: "Real-Time Metrics & Alerts",
-      description:
-        "Integrate multiple sensors to collect health and environmental data continuously. Provide real-time alerts and notifications for critical events. Sync data with cloud analytics to generate insights and support decision-making.",
-    },
-  ],
-  linkText: "Explore Wearable Technology",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Innovative Wearable Technology Solutions",
+    mainDescription:
+      "Our wearable solutions empower users with real-time data, predictive insights, and seamless integration with mobile and cloud platforms, enhancing health, fitness, and enterprise productivity.",
+    items: [
+      {
+        id: "health-monitoring",
+        icon: "Leaf",
+        title: "Health Monitoring Devices",
+        subtitle: "Track & Analyze Vital Metrics",
+        description:
+          "Monitor vital signs such as heart rate, blood pressure, and oxygen levels in real-time. Analyze physical activity, sleep patterns, and wellness trends with integrated analytics. Gain actionable health insights to support preventative care and lifestyle improvements.",
+      },
+      {
+        id: "fitness-solutions",
+        icon: "Leaf",
+        title: "Fitness & Activity Trackers",
+        subtitle: "Improve Wellness & Performance",
+        description:
+          "Track steps, calories burned, and workout routines with precision and consistency. Set and monitor personalized fitness goals to motivate users. Leverage analytics to optimize training programs and overall wellness performance.",
+      },
+      {
+        id: "enterprise-wearables",
+        icon: "Leaf",
+        title: "Enterprise Wearables",
+        subtitle: "Boost Productivity & Safety",
+        description:
+          "Equip workforce with smart wearables for safety monitoring and task management. Track employee performance, workflow efficiency, and operational productivity. Ensure compliance with workplace safety standards and reduce on-site risks.",
+      },
+      {
+        id: "augmented-reality",
+        icon: "Leaf",
+        title: "AR & VR Wearables",
+        subtitle: "Immersive Experiences",
+        description:
+          "Develop augmented and virtual reality wearable devices for immersive training, simulation, and gaming. Enhance user engagement through interactive 3D experiences. Integrate motion tracking and real-time data for seamless virtual interactions.",
+      },
+      {
+        id: "wearable-apps",
+        icon: "Leaf",
+        title: "Custom Wearable Apps",
+        subtitle: "Seamless Connectivity",
+        description:
+          "Design intuitive mobile apps that connect and communicate with wearable devices. Provide real-time data visualization, insights, and notifications. Enable actionable decision-making and personalized user experiences.",
+      },
+      {
+        id: "sensor-integration",
+        icon: "Leaf",
+        title: "Sensor & IoT Integration",
+        subtitle: "Real-Time Metrics & Alerts",
+        description:
+          "Integrate multiple sensors to collect health and environmental data continuously. Provide real-time alerts and notifications for critical events. Sync data with cloud analytics to generate insights and support decision-making.",
+      },
+    ],
+    linkText: "Explore Wearable Technology",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Wearable Data Management Platforms",
     subtitle:
       "Manage, analyze, and visualize data from wearable devices through secure dashboards and cloud platforms.",
     subtitleLink: { text: "wearable management platforms", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/28/ca/8a/28ca8a08e3bed6b9dfddb6ebcbe86d82.jpg",
-    mobileImage: "https://i.pinimg.com/736x/6d/e0/b2/6de0b2eeb5eb6a7b6a092b701228963c.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/28/ca/8a/28ca8a08e3bed6b9dfddb6ebcbe86d82.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/6d/e0/b2/6de0b2eeb5eb6a7b6a092b701228963c.jpg",
     topFeatures: [
       {
         id: "dashboard",
@@ -136,37 +137,39 @@ export const wearableTechnology: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "mobile-integration",
-    icon: "map",
-    title: "Mobile App Connectivity",
-    description:
-      "Seamlessly sync wearable devices with mobile apps for instant access to health and activity data. Enable real-time notifications and insights directly on smartphones. Enhance user engagement with interactive dashboards and personalized tracking.",
-  },
-  {
-    id: "cloud-sync",
-    icon: "map",
-    title: "Cloud Integration",
-    description:
-      "Securely store and manage wearable device data in the cloud for remote access and analytics. Enable cross-device synchronization for consistent user experience. Support advanced reporting, historical trends, and predictive insights for better decision-making.",
-  },
-  {
-    id: "alerts",
-    icon: "map",
-    title: "Real-Time Alerts",
-    description:
-      "Receive instant notifications for critical health metrics, activity goals, or environmental changes. Customize alerts based on user preferences and thresholds. Ensure timely action and proactive monitoring to improve overall safety and performance.",
-  },
-  {
-    id: "workflow",
-    icon: "map",
-    title: "Automated Workflows",
-    description:
-      "Automate reporting, notifications, and insights based on wearable device data streams. Integrate seamlessly with third-party apps and platforms for smooth operations. Reduce manual intervention while improving efficiency and responsiveness in monitoring workflows.",
-  },
-],
-ctaText: "Get Wearable Technology Experts",
-onCtaClick: () => {},
+      {
+        id: "mobile-integration",
+        icon: "map",
+        title: "Mobile App Connectivity",
+        description:
+          "Seamlessly sync wearable devices with mobile apps for instant access to health and activity data. Enable real-time notifications and insights directly on smartphones. Enhance user engagement with interactive dashboards and personalized tracking.",
+      },
+      {
+        id: "cloud-sync",
+        icon: "map",
+        title: "Cloud Integration",
+        description:
+          "Securely store and manage wearable device data in the cloud for remote access and analytics. Enable cross-device synchronization for consistent user experience. Support advanced reporting, historical trends, and predictive insights for better decision-making.",
+      },
+      {
+        id: "alerts",
+        icon: "map",
+        title: "Real-Time Alerts",
+        description:
+          "Receive instant notifications for critical health metrics, activity goals, or environmental changes. Customize alerts based on user preferences and thresholds. Ensure timely action and proactive monitoring to improve overall safety and performance.",
+      },
+      {
+        id: "workflow",
+        icon: "map",
+        title: "Automated Workflows",
+        description:
+          "Automate reporting, notifications, and insights based on wearable device data streams. Integrate seamlessly with third-party apps and platforms for smooth operations. Reduce manual intervention while improving efficiency and responsiveness in monitoring workflows.",
+      },
+    ],
+    ctaText: "Get Wearable Technology Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

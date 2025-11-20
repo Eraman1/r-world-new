@@ -46,130 +46,130 @@ export const erpImplementation: ServiceConfig = {
   },
 
   solutions: {
-  mainTitle: "Comprehensive ERP Implementation Solutions",
-  mainDescription:
-    "Our ERP services enhance productivity, unify processes, and empower organizations to make data-driven decisions. We help businesses of all sizes achieve efficiency and visibility across all operations.",
-  
-  items: [
-    {
-      id: "finance-management",
-      icon: "Leaf",
-      title: "Financial Management",
-      subtitle: "",
-      description:
-        "Automate accounting, invoicing, and expense tracking for smooth financial workflows. \nEnsure compliance with global standards and audit requirements. \nGain accurate insights through real-time financial dashboards. \nStreamline budgeting, forecasting, and reconciliation processes. \nEmpower leadership with transparent financial control.",
-    },
-    {
-      id: "inventory-supplychain",
-      icon: "Leaf",
-      title: "Inventory & Supply Chain",
-      subtitle: "",
-      description:
-        "Manage procurement, warehousing, and logistics from a unified platform. \nTrack inventory levels, order cycles, and supplier performance. \nReduce waste, delays, and unexpected shortages. \nAutomate purchasing and replenishment for efficiency. \nEnsure seamless coordination across your entire supply chain.",
-    },
-    {
-      id: "hr-management",
-      icon: "Leaf",
-      title: "HR & Payroll Management",
-      subtitle: "",
-      description:
-        "Unify employee data, payroll, and compliance in one system. \nAutomate attendance, benefits, and performance evaluations. \nImprove workforce productivity through smart HR analytics. \nEnsure timely payroll processing and accurate deductions. \nCreate a transparent, employee-friendly HR environment.",
-    },
-    {
-      id: "crm-integration",
-      icon: "Leaf",
-      title: "CRM Integration",
-      subtitle: "",
-      description:
-        "Connect ERP and CRM systems for a unified business ecosystem. \nAccess complete customer histories and sales pipelines instantly. \nAutomate lead management and improve retention strategies. \nEmpower teams with synchronized sales and support data. \nDeliver consistent customer experiences across all channels.",
-    },
-    {
-      id: "data-analytics",
-      icon: "Leaf",
-      title: "Business Intelligence & Analytics",
-      subtitle: "",
-      description:
-        "Transform ERP data into actionable insights with visual dashboards. \nTrack performance metrics and operational KPIs in real time. \nUse predictive analytics for accurate forecasting and planning. \nEnable decision-makers with customizable reporting tools. \nEnhance strategy with data-backed intelligence across departments.",
-    },
-    {
-      id: "cloud-deployment",
-      icon: "Leaf",
-      title: "Cloud ERP Deployment",
-      subtitle: "",
-      description:
-        "Migrate your ERP to a secure and scalable cloud infrastructure. \nAccess data anytime, anywhere with high availability. \nCut infrastructure costs and simplify maintenance tasks. \nEnjoy seamless updates and enhanced disaster recovery. \nEmpower remote teams with reliable, real-time connectivity.",
-    },
-  ],
-  linkText: "Get ERP Solutions",
-  linkUrl: "/contact-us",
-},
-solutionsTwo: {
-  mainTitle: "Comprehensive ERP Implementation Solutions",
-  mainDescription:
-    "We deliver end-to-end ERP implementation services designed to streamline workflows, enhance visibility, and unify business operations. Our ERP experts ensure smooth integration, scalability, and long-term efficiency for enterprises of all sizes.",
+    mainTitle: "Comprehensive ERP Implementation Solutions",
+    mainDescription:
+      "Our ERP services enhance productivity, unify processes, and empower organizations to make data-driven decisions. We help businesses of all sizes achieve efficiency and visibility across all operations.",
 
-  items: [
-    {
-      id: "business-process",
-      icon: "Shield",
-      title: "Business Process Assessment & Reengineering",
-      subtitle: "",
-      description:
-        "We analyze existing workflows to identify gaps and inefficiencies. \nOur experts redesign core business processes for maximum productivity. \nLeverage automation and standardization to enhance operational flow. \nAlign every department with organizational goals and KPIs. \nBuild a strong foundation for ERP success and digital growth.",
-    },
-    {
-      id: "system-integration",
-      icon: "Shield",
-      title: "ERP System Integration & Customization",
-      subtitle: "",
-      description:
-        "Integrate ERP platforms seamlessly with your current IT ecosystem. \nWe customize modules to fit your industry-specific requirements. \nOur approach ensures data consistency across all connected systems. \nEnhance collaboration between finance, HR, inventory, and sales. \nAchieve end-to-end connectivity for smarter business operations.",
-    },
-    {
-      id: "data-migration",
-      icon: "Shield",
-      title: "Data Migration & Quality Assurance",
-      subtitle: "",
-      description:
-        "Migrate legacy data securely into modern ERP environments. \nOur team ensures data accuracy, consistency, and structural integrity. \nWe clean, validate, and transform data for high-performance analytics. \nMitigate risks during transition with robust QA protocols. \nEnsure your new ERP runs on reliable and verified business data.",
-    },
-    {
-      id: "user-training",
-      icon: "Shield",
-      title: "User Training & Change Management",
-      subtitle: "",
-      description:
-        "Empower your workforce to adapt smoothly to new ERP systems. \nWe provide customized training sessions and role-based workshops. \nOur change management strategies boost adoption and engagement. \nMinimize downtime by building user confidence and capability. \nDrive digital transformation through people-centered implementation.",
-    },
-    {
-      id: "cloud-deployment",
-      icon: "Shield",
-      title: "Cloud ERP Deployment & Scalability",
-      subtitle: "",
-      description:
-        "Deploy secure and scalable ERP solutions in the cloud environment. \nEnjoy real-time accessibility and centralized data management. \nWe ensure high uptime, flexibility, and seamless performance scaling. \nOptimize costs through modular and subscription-based deployment. \nEnable global teams to collaborate through unified cloud ERP access.",
-    },
-    {
-      id: "support-optimization",
-      icon: "Shield",
-      title: "ERP Support, Maintenance & Optimization",
-      subtitle: "",
-      description:
-        "Get continuous technical support post-implementation. \nWe monitor system health, performance, and workflow stability. \nOur optimization services enhance speed, reporting, and usability. \nReceive timely updates and upgrades without disrupting operations. \nMaximize your ERP ROI with proactive maintenance and insights.",
-    },
-  ],
+    items: [
+      {
+        id: "finance-management",
+        icon: "Leaf",
+        title: "Financial Management",
+        subtitle: "",
+        description:
+          "Automate accounting, invoicing, and expense tracking for smooth financial workflows. \nEnsure compliance with global standards and audit requirements. \nGain accurate insights through real-time financial dashboards. \nStreamline budgeting, forecasting, and reconciliation processes. \nEmpower leadership with transparent financial control.",
+      },
+      {
+        id: "inventory-supplychain",
+        icon: "Leaf",
+        title: "Inventory & Supply Chain",
+        subtitle: "",
+        description:
+          "Manage procurement, warehousing, and logistics from a unified platform. \nTrack inventory levels, order cycles, and supplier performance. \nReduce waste, delays, and unexpected shortages. \nAutomate purchasing and replenishment for efficiency. \nEnsure seamless coordination across your entire supply chain.",
+      },
+      {
+        id: "hr-management",
+        icon: "Leaf",
+        title: "HR & Payroll Management",
+        subtitle: "",
+        description:
+          "Unify employee data, payroll, and compliance in one system. \nAutomate attendance, benefits, and performance evaluations. \nImprove workforce productivity through smart HR analytics. \nEnsure timely payroll processing and accurate deductions. \nCreate a transparent, employee-friendly HR environment.",
+      },
+      {
+        id: "crm-integration",
+        icon: "Leaf",
+        title: "CRM Integration",
+        subtitle: "",
+        description:
+          "Connect ERP and CRM systems for a unified business ecosystem. \nAccess complete customer histories and sales pipelines instantly. \nAutomate lead management and improve retention strategies. \nEmpower teams with synchronized sales and support data. \nDeliver consistent customer experiences across all channels.",
+      },
+      {
+        id: "data-analytics",
+        icon: "Leaf",
+        title: "Business Intelligence & Analytics",
+        subtitle: "",
+        description:
+          "Transform ERP data into actionable insights with visual dashboards. \nTrack performance metrics and operational KPIs in real time. \nUse predictive analytics for accurate forecasting and planning. \nEnable decision-makers with customizable reporting tools. \nEnhance strategy with data-backed intelligence across departments.",
+      },
+      {
+        id: "cloud-deployment",
+        icon: "Leaf",
+        title: "Cloud ERP Deployment",
+        subtitle: "",
+        description:
+          "Migrate your ERP to a secure and scalable cloud infrastructure. \nAccess data anytime, anywhere with high availability. \nCut infrastructure costs and simplify maintenance tasks. \nEnjoy seamless updates and enhanced disaster recovery. \nEmpower remote teams with reliable, real-time connectivity.",
+      },
+    ],
+    linkText: "Get ERP Solutions",
+    linkUrl: "/contact-us",
+  },
+  solutionsTwo: {
+    mainTitle: "Comprehensive ERP Implementation Solutions",
+    mainDescription:
+      "We deliver end-to-end ERP implementation services designed to streamline workflows, enhance visibility, and unify business operations. Our ERP experts ensure smooth integration, scalability, and long-term efficiency for enterprises of all sizes.",
 
-  linkText: "Start Your ERP Implementation Journey",
-  linkUrl: "/contact-us",
-},
+    items: [
+      {
+        id: "business-process",
+        icon: "Shield",
+        title: "Business Process Assessment & Reengineering",
+        subtitle: "",
+        description:
+          "We analyze existing workflows to identify gaps and inefficiencies. \nOur experts redesign core business processes for maximum productivity. \nLeverage automation and standardization to enhance operational flow. \nAlign every department with organizational goals and KPIs. \nBuild a strong foundation for ERP success and digital growth.",
+      },
+      {
+        id: "system-integration",
+        icon: "Shield",
+        title: "ERP System Integration & Customization",
+        subtitle: "",
+        description:
+          "Integrate ERP platforms seamlessly with your current IT ecosystem. \nWe customize modules to fit your industry-specific requirements. \nOur approach ensures data consistency across all connected systems. \nEnhance collaboration between finance, HR, inventory, and sales. \nAchieve end-to-end connectivity for smarter business operations.",
+      },
+      {
+        id: "data-migration",
+        icon: "Shield",
+        title: "Data Migration & Quality Assurance",
+        subtitle: "",
+        description:
+          "Migrate legacy data securely into modern ERP environments. \nOur team ensures data accuracy, consistency, and structural integrity. \nWe clean, validate, and transform data for high-performance analytics. \nMitigate risks during transition with robust QA protocols. \nEnsure your new ERP runs on reliable and verified business data.",
+      },
+      {
+        id: "user-training",
+        icon: "Shield",
+        title: "User Training & Change Management",
+        subtitle: "",
+        description:
+          "Empower your workforce to adapt smoothly to new ERP systems. \nWe provide customized training sessions and role-based workshops. \nOur change management strategies boost adoption and engagement. \nMinimize downtime by building user confidence and capability. \nDrive digital transformation through people-centered implementation.",
+      },
+      {
+        id: "cloud-deployment",
+        icon: "Shield",
+        title: "Cloud ERP Deployment & Scalability",
+        subtitle: "",
+        description:
+          "Deploy secure and scalable ERP solutions in the cloud environment. \nEnjoy real-time accessibility and centralized data management. \nWe ensure high uptime, flexibility, and seamless performance scaling. \nOptimize costs through modular and subscription-based deployment. \nEnable global teams to collaborate through unified cloud ERP access.",
+      },
+      {
+        id: "support-optimization",
+        icon: "Shield",
+        title: "ERP Support, Maintenance & Optimization",
+        subtitle: "",
+        description:
+          "Get continuous technical support post-implementation. \nWe monitor system health, performance, and workflow stability. \nOur optimization services enhance speed, reporting, and usability. \nReceive timely updates and upgrades without disrupting operations. \nMaximize your ERP ROI with proactive maintenance and insights.",
+      },
+    ],
 
+    linkText: "Start Your ERP Implementation Journey",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "ERP Management & Monitoring Tools",
     subtitle:
       "Our ERP management tools streamline process tracking, data flow, and system optimization for enterprises of any size.",
     subtitleLink: { text: "ERP management platform", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/c7/da/e6/c7dae64792e4d2539090c1c70fd4897f.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/c7/da/e6/c7dae64792e4d2539090c1c70fd4897f.jpg",
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {
@@ -195,7 +195,9 @@ solutionsTwo: {
       },
     ],
     ctaText: "Get ERP Experts",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

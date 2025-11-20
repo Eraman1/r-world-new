@@ -236,7 +236,9 @@ export const eLearningEducation: IndustryConfig = {
       },
     ],
     ctaText: "BUILD YOUR E-LEARNING PLATFORM",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   managementSolutionsTwo: {

@@ -47,71 +47,72 @@ export const facilitiesManagement: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Comprehensive Facilities Management Solutions",
-  mainDescription:
-    "Our integrated facilities management platforms combine maintenance automation, analytics, and IoT data to simplify complex building operations.",
-  items: [
-    {
-      id: "cmms",
-      icon: "Leaf",
-      title: "Computerized Maintenance Management System (CMMS)",
-      subtitle: "Automate Facility Maintenance",
-      description:
-        "Automate preventive maintenance schedules and track asset performance through an intuitive CMMS dashboard. Streamline work orders and technician assignments to minimize downtime. Improve operational efficiency with real-time updates and data-driven maintenance insights.",
-    },
-    {
-      id: "bms",
-      icon: "Leaf",
-      title: "Building Management System (BMS)",
-      subtitle: "Smart Building Control",
-      description:
-        "Monitor and control HVAC, lighting, and security systems from one unified platform. Enhance occupant comfort while optimizing energy consumption and sustainability. Enable intelligent automation that adjusts building conditions based on usage patterns and environmental data.",
-    },
-    {
-      id: "iot-integration",
-      icon: "Leaf",
-      title: "IoT-Enabled Monitoring",
-      subtitle: "Real-Time Insights",
-      description:
-        "Deploy IoT sensors to capture real-time data on equipment health, space utilization, and energy metrics. Detect anomalies early and schedule proactive maintenance to avoid costly failures. Gain comprehensive visibility into your facilities’ operational performance.",
-    },
-    {
-      id: "helpdesk",
-      icon: "Leaf",
-      title: "Helpdesk & Ticketing System",
-      subtitle: "Streamlined Request Handling",
-      description:
-        "Simplify facility service management with a centralized helpdesk platform for issue tracking and resolution. Automatically route tickets to the right teams to reduce response time. Improve communication and accountability with transparent status monitoring.",
-    },
-    {
-      id: "compliance",
-      icon: "Leaf",
-      title: "Regulatory Compliance & Safety Audits",
-      subtitle: "Ensure Compliance with Standards",
-      description:
-        "Digitize inspection records and safety documentation to meet regulatory standards effortlessly. Schedule periodic audits and generate compliance reports automatically. Maintain a secure, traceable record system to ensure accountability and workplace safety.",
-    },
-    {
-      id: "analytics",
-      icon: "Leaf",
-      title: "Data Analytics & Reporting",
-      subtitle: "Smarter Decision-Making",
-      description:
-        "Leverage advanced analytics to uncover trends in energy consumption, maintenance performance, and cost efficiency. Create customizable dashboards for real-time operational insights. Drive strategic decisions with accurate and actionable facility data.",
-    },
-  ],
-  linkText: "Get Facilities Management Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Comprehensive Facilities Management Solutions",
+    mainDescription:
+      "Our integrated facilities management platforms combine maintenance automation, analytics, and IoT data to simplify complex building operations.",
+    items: [
+      {
+        id: "cmms",
+        icon: "Leaf",
+        title: "Computerized Maintenance Management System (CMMS)",
+        subtitle: "Automate Facility Maintenance",
+        description:
+          "Automate preventive maintenance schedules and track asset performance through an intuitive CMMS dashboard. Streamline work orders and technician assignments to minimize downtime. Improve operational efficiency with real-time updates and data-driven maintenance insights.",
+      },
+      {
+        id: "bms",
+        icon: "Leaf",
+        title: "Building Management System (BMS)",
+        subtitle: "Smart Building Control",
+        description:
+          "Monitor and control HVAC, lighting, and security systems from one unified platform. Enhance occupant comfort while optimizing energy consumption and sustainability. Enable intelligent automation that adjusts building conditions based on usage patterns and environmental data.",
+      },
+      {
+        id: "iot-integration",
+        icon: "Leaf",
+        title: "IoT-Enabled Monitoring",
+        subtitle: "Real-Time Insights",
+        description:
+          "Deploy IoT sensors to capture real-time data on equipment health, space utilization, and energy metrics. Detect anomalies early and schedule proactive maintenance to avoid costly failures. Gain comprehensive visibility into your facilities’ operational performance.",
+      },
+      {
+        id: "helpdesk",
+        icon: "Leaf",
+        title: "Helpdesk & Ticketing System",
+        subtitle: "Streamlined Request Handling",
+        description:
+          "Simplify facility service management with a centralized helpdesk platform for issue tracking and resolution. Automatically route tickets to the right teams to reduce response time. Improve communication and accountability with transparent status monitoring.",
+      },
+      {
+        id: "compliance",
+        icon: "Leaf",
+        title: "Regulatory Compliance & Safety Audits",
+        subtitle: "Ensure Compliance with Standards",
+        description:
+          "Digitize inspection records and safety documentation to meet regulatory standards effortlessly. Schedule periodic audits and generate compliance reports automatically. Maintain a secure, traceable record system to ensure accountability and workplace safety.",
+      },
+      {
+        id: "analytics",
+        icon: "Leaf",
+        title: "Data Analytics & Reporting",
+        subtitle: "Smarter Decision-Making",
+        description:
+          "Leverage advanced analytics to uncover trends in energy consumption, maintenance performance, and cost efficiency. Create customizable dashboards for real-time operational insights. Drive strategic decisions with accurate and actionable facility data.",
+      },
+    ],
+    linkText: "Get Facilities Management Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Facility Operations & Asset Management Systems",
     subtitle:
       "We provide scalable software platforms to manage building assets, maintenance teams, and sustainability goals in real-time.",
     subtitleLink: { text: "facilities operations", url: "#" },
-    laptopImage: "https://i.pinimg.com/736x/a5/1a/79/a51a79dd24d5e53bd68b8edf1016933d.jpg",
-    mobileImage: "https://i.pinimg.com/1200x/78/30/97/78309770c36dac5dce3a67e38c9b97c0.jpg",
+    laptopImage:
+      "https://i.pinimg.com/736x/a5/1a/79/a51a79dd24d5e53bd68b8edf1016933d.jpg",
+    mobileImage:
+      "https://i.pinimg.com/1200x/78/30/97/78309770c36dac5dce3a67e38c9b97c0.jpg",
     topFeatures: [
       {
         id: "maintenance",
@@ -136,37 +137,39 @@ export const facilitiesManagement: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "reporting",
-    icon: "map",
-    title: "Advanced Reporting",
-    description:
-      "Generate in-depth reports covering maintenance KPIs, asset utilization, and energy efficiency trends. Gain actionable insights for cost reduction and performance optimization. Empower management teams with real-time dashboards and visual analytics.",
-  },
-  {
-    id: "integration",
-    icon: "map",
-    title: "ERP & IoT Integration",
-    description:
-      "Seamlessly integrate with ERP, HR, and IoT systems for unified data management. Enable real-time monitoring of assets and predictive maintenance alerts. Enhance operational visibility through synchronized workflows across departments.",
-  },
-  {
-    id: "security",
-    icon: "map",
-    title: "Role-Based Access Control",
-    description:
-      "Secure your data with multi-level authentication and encryption protocols. Assign permissions based on user roles to maintain strict data governance. Prevent unauthorized access while maintaining operational flexibility and compliance.",
-  },
-  {
-    id: "cloud",
-    icon: "map",
-    title: "Cloud & On-Premise Deployment",
-    description:
-      "Deploy your solution in the cloud for scalability or on-premise for complete control. Maintain compliance with industry regulations while ensuring system reliability. Choose the deployment model that best fits your IT strategy and business needs.",
-  },
-],
-ctaText: "Talk to Our Facilities Experts",
-onCtaClick: () => {},
+      {
+        id: "reporting",
+        icon: "map",
+        title: "Advanced Reporting",
+        description:
+          "Generate in-depth reports covering maintenance KPIs, asset utilization, and energy efficiency trends. Gain actionable insights for cost reduction and performance optimization. Empower management teams with real-time dashboards and visual analytics.",
+      },
+      {
+        id: "integration",
+        icon: "map",
+        title: "ERP & IoT Integration",
+        description:
+          "Seamlessly integrate with ERP, HR, and IoT systems for unified data management. Enable real-time monitoring of assets and predictive maintenance alerts. Enhance operational visibility through synchronized workflows across departments.",
+      },
+      {
+        id: "security",
+        icon: "map",
+        title: "Role-Based Access Control",
+        description:
+          "Secure your data with multi-level authentication and encryption protocols. Assign permissions based on user roles to maintain strict data governance. Prevent unauthorized access while maintaining operational flexibility and compliance.",
+      },
+      {
+        id: "cloud",
+        icon: "map",
+        title: "Cloud & On-Premise Deployment",
+        description:
+          "Deploy your solution in the cloud for scalability or on-premise for complete control. Maintain compliance with industry regulations while ensuring system reliability. Choose the deployment model that best fits your IT strategy and business needs.",
+      },
+    ],
+    ctaText: "Talk to Our Facilities Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {
