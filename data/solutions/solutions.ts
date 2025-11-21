@@ -51,15 +51,16 @@ import { wearableTechnology } from './wearabletechnology';
 import { webDevelopment } from './webdevelopment';
 import { digitalSignage } from "./digitallSignage";
 import { googlecloude } from "./Google-Cloud";
+import { assetTracking } from "./Asset Tracking";
 
 export const solutionsData: Record<string, SolutionConfig> = {
   "animation-graphic-design": animationGraphicDesign,
   autodesk,
   aws,
   "artificial-intelligence": artificialintelligence,
-  // assetTracking,
+  "asset-tracking": assetTracking,
   "google-cloud": googlecloude,
-  arvr,
+  "ar-vr": arvr,
   ibm,
   microsoft: Microsoft,
   "net-suite": NetSuit,
@@ -90,7 +91,7 @@ export const solutionsData: Record<string, SolutionConfig> = {
   "it-service-management": itServiceManagement,
   kiosk,
   legacy,
-  "location-based-service": locationBasedService,
+  "location-based-services": locationBasedService,
   middleware,
   "mobile-tablet": mobileTablet,
   "open-source": openSource,

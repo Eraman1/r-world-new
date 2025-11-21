@@ -20,7 +20,8 @@ export const digitalSignage: SolutionConfig = {
     mainTitle: "Professional Digital Signage Services",
     mainDescription:
       "We provide end-to-end digital signage solutions including software, hardware, content creation, and cloud management. From interactive touchscreens to large video walls, our solutions deliver seamless communication experiences.",
-    image: "/images/digital-signage-laptop.png",
+    image:
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -90,6 +91,14 @@ export const digitalSignage: SolutionConfig = {
         subtitle: "Data-Driven Insights",
         description:
           "Measure audience engagement and screen performance in real time using advanced analytics dashboards. Identify content effectiveness and optimize campaigns for better ROI. Use visual data insights to make informed creative and business decisions.",
+      },
+      {
+        id: "interactive-kiosks",
+        icon: "Leaf",
+        title: "Interactive Touchscreen Kiosks",
+        subtitle: "Self-Service & Engagement",
+        description:
+          "Enable customers to explore products, menus, or services through interactive kiosks. \nReduce wait times with self-check-in and automated assistance features. \nCustomize user flows for retail, hospitality, or corporate needs. \nDeliver fast, intuitive, and modern digital interactions. \nEnhance customer satisfaction with high-speed touch interfaces.",
       },
     ],
     linkText: "Request Digital Signage Solutions",

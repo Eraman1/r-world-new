@@ -8,7 +8,7 @@ export const insurance: IndustryConfig = {
     subtitle:
       "Empower insurers with intelligent automation, advanced analytics, and seamless claim management systems. From underwriting to customer service, our solutions enhance operational efficiency, minimize risk, and deliver exceptional policyholder experiences.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "/industry/industryInsuranceBanner.webp",
     linkText: "Get Insurance Solutions",
   },
 

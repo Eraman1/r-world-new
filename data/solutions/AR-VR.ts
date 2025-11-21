@@ -20,7 +20,8 @@ export const arvr: SolutionConfig = {
     mainTitle: "Next-Gen Augmented & Virtual Reality Solutions",
     mainDescription:
       "Our AR/VR developers specialize in crafting immersive simulations, product visualizations, and training experiences using Unity, Unreal Engine, and WebXR. We bring ideas to life with interactive design and spatial computing.",
-    image: "/images/arvr-laptop.png",
+    image:
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

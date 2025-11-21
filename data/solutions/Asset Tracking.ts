@@ -20,7 +20,8 @@ export const assetTracking: SolutionConfig = {
     mainTitle: "Smart Asset & Inventory Tracking Software",
     mainDescription:
       "Our asset tracking solutions automate item identification, location tracking, and lifecycle management across warehouses, logistics, retail, and enterprise operations. Integrated analytics help reduce losses and improve resource utilization.",
-    image: "/images/asset-tracking-laptop.png",
+    image:
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

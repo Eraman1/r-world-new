@@ -525,101 +525,83 @@ const ContactPage = () => {
 
             {/* Locations */}
             <div className="bg-[#e5e5e5] rounded-lg p-6 shadow-sm">
-              <h2 className="text-xl font-bold text-gray-900 mb-6">
+              <h2 className="text-xl font-bold text-amber-500 mb-6">
                 LOCATIONS
               </h2>
 
-              {/* Headquarters */}
-              <div className="space-y-4">
+              <div className="space-y-8">
+                {/* Headquarters */}
                 <div>
-                  <button
-                    onClick={() => toggleSection("headquarters")}
-                    className="w-full flex items-center justify-between py-3 border-b border-gray-200"
-                  >
-                    <span className="font-semibold text-gray-900">
-                      HEADQUARTERS
-                    </span>
-                    {expandedSections.headquarters ? (
-                      <ChevronUp className="h-5 w-5 text-gray-400" />
-                    ) : (
-                      <ChevronDown className="h-5 w-5 text-gray-400" />
-                    )}
-                  </button>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4 tracking-wide flex items-center gap-2">
+                    <span className="text-blue-600">🏢</span> HEADQUARTERS
+                  </h3>
 
-                  {expandedSections.headquarters && (
-                    <div className="mt-4">
-                      {locations.headquarters.map((location) => (
-                        <div key={location.id} className="flex space-x-4">
-                          <div className="flex-1">
-                            <h3 className="font-medium text-gray-900">
-                              {location.name}
-                            </h3>
-                            <p className="text-gray-600 text-sm">
-                              {location.address}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.city}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.zipCode}
-                            </p>
-                          </div>
-                          <Image
-                            width={80}
-                            height={64}
-                            src={location.image}
-                            alt={location.name}
-                            className="object-cover rounded"
-                          />
+                  <div className="space-y-5">
+                    {locations.headquarters.map((location) => (
+                      <div
+                        key={location.id}
+                        className="flex items-start gap-4 bg-white rounded-lg p-4 shadow-sm border border-gray-200"
+                      >
+                        {/* Icon */}
+                        <div className="flex-shrink-0 text-blue-600 text-3xl">
+                          📍
                         </div>
-                      ))}
-                    </div>
-                  )}
+
+                        {/* Details */}
+                        <div className="flex-1">
+                          <h4 className="font-semibold text-gray-900">
+                            {location.name}
+                          </h4>
+                          <p className="text-gray-600 text-sm">
+                            {location.address}
+                          </p>
+                          <p className="text-gray-600 text-sm">
+                            {location.city}
+                          </p>
+                          <p className="text-gray-600 text-sm">
+                            {location.zipCode}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
 
-                {/* Asia */}
+                {/* India */}
                 <div>
-                  <button
-                    onClick={() => toggleSection("asia")}
-                    className="w-full flex items-center justify-between py-3"
-                  >
-                    <span className="font-semibold text-gray-900">India</span>
-                    {expandedSections.asia ? (
-                      <ChevronUp className="h-5 w-5 text-gray-400" />
-                    ) : (
-                      <ChevronDown className="h-5 w-5 text-gray-400" />
-                    )}
-                  </button>
+                  <h3 className="text-lg font-semibold text-gray-900 mb-4 tracking-wide flex items-center gap-2">
+                    <span className="text-green-600">🌏</span> INDIA
+                  </h3>
 
-                  {expandedSections.asia && (
-                    <div className="mt-4">
-                      {locations.asia.map((location) => (
-                        <div key={location.id} className="flex space-x-4">
-                          <div className="flex-1">
-                            <h3 className="font-medium text-gray-900">
-                              {location.name}
-                            </h3>
-                            <p className="text-gray-600 text-sm">
-                              {location.address}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.city}
-                            </p>
-                            <p className="text-gray-600 text-sm">
-                              {location.zipCode}
-                            </p>
-                          </div>
-                          <Image
-                            width={80}
-                            height={64}
-                            src={location.image}
-                            alt={location.name}
-                            className="object-cover rounded"
-                          />
+                  <div className="space-y-5">
+                    {locations.asia.map((location) => (
+                      <div
+                        key={location.id}
+                        className="flex items-start gap-4 bg-white rounded-lg p-4 shadow-sm border border-gray-200"
+                      >
+                        {/* Icon */}
+                        <div className="flex-shrink-0 text-green-600 text-3xl">
+                          📍
                         </div>
-                      ))}
-                    </div>
-                  )}
+
+                        {/* Details */}
+                        <div className="flex-1">
+                          <h4 className="font-semibold text-gray-900">
+                            {location.name}
+                          </h4>
+                          <p className="text-gray-600 text-sm">
+                            {location.address}
+                          </p>
+                          <p className="text-gray-600 text-sm">
+                            {location.city}
+                          </p>
+                          <p className="text-gray-600 text-sm">
+                            {location.zipCode}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

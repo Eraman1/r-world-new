@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { Clock, Wrench, ArrowLeft } from "lucide-react";
 import Link from "next/link";
 
-
 interface TimeLeft {
   days: number;
   hours: number;
@@ -21,13 +20,14 @@ const ComingSoonPage: React.FC = () => {
   });
 
   // ✅ Read title & description from query params (sent by middleware)
- 
-  const title =  "New Page Coming Soon";
-  const description ="We are working hard to bring you an amazing experience. Stay tuned for something special!";
+
+  const title = "New Page Coming Soon";
+  const description =
+    "We are working hard to bring you an amazing experience. Stay tuned for something special!";
 
   // ✅ Countdown logic
   useEffect(() => {
-    const targetDate = new Date("2025-11-06T12:00:00");
+    const targetDate = new Date("2025-12-01T12:00:00");
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -117,7 +117,9 @@ const ComingSoonPage: React.FC = () => {
         <div className="mb-8 animate-fade-in animation-delay-900">
           <p className="text-sm text-gray-600 text-center">
             Launching on{" "}
-            <span className="font-bold text-blue-900/80">November 6, 2025</span>
+            <span className="font-bold text-blue-900/80">
+              Decemeber 01, 2025
+            </span>
           </p>
         </div>
 
