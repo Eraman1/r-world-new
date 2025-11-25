@@ -18,7 +18,7 @@ export const customSoftwareDevelopment: ServiceConfig = {
     mainTitle: "Professional Custom Software Development Services",
     mainDescription:
       "We design, develop, and maintain software solutions that improve efficiency, reduce costs, and drive innovation. From enterprise systems to mobile apps, we create software aligned with your goals.",
-    image: "/images/software-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

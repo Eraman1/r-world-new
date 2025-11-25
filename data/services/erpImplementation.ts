@@ -19,7 +19,7 @@ export const erpImplementation: ServiceConfig = {
     mainTitle: "Professional ERP Implementation Services",
     mainDescription:
       "We provide complete ERP implementation — from needs assessment and customization to integration and training. Our goal is to centralize operations, improve collaboration, and boost productivity using leading ERP platforms like SAP, Oracle, and Odoo.",
-    image: "/images/erp-implementation-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

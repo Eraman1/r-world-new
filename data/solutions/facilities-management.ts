@@ -20,7 +20,7 @@ export const facilitiesManagement: SolutionConfig = {
     mainTitle: "End-to-End Facilities Management System Development",
     mainDescription:
       "Our custom FM software integrates maintenance scheduling, asset management, and IoT monitoring to optimize space usage, reduce downtime, and control operational costs across buildings and infrastructure.",
-    image: "/images/facility-management-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

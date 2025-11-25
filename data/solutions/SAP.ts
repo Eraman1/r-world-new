@@ -20,7 +20,7 @@ export const SAP: SolutionConfig = {
     mainTitle: "Comprehensive SAP Implementation & Consulting Services",
     mainDescription:
       "Our SAP specialists design and implement tailored enterprise systems for finance, supply chain, human resources, and analytics. We deliver end-to-end support, including integration, migration, and maintenance of SAP ecosystems.",
-    image: "/images/sap-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

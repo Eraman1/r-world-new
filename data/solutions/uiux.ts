@@ -20,7 +20,7 @@ export const uiUx: SolutionConfig = {
     mainTitle: "Professional UI/UX Design Services",
     mainDescription:
       "We specialize in designing interfaces that are visually appealing, highly functional, and optimized for usability. From wireframes and prototypes to full-scale designs, we deliver experiences that engage and convert users.",
-    image: "/images/ui-ux-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

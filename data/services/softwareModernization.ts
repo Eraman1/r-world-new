@@ -19,7 +19,7 @@ export const softwareModernization: ServiceConfig = {
     mainTitle: "Professional Software Modernization Services",
     mainDescription:
       "Our modernization experts re-engineer legacy software into cloud-ready, scalable, and efficient systems. We combine modernization strategies with automation and DevOps practices to help businesses stay future-ready.",
-    image: "/images/software-modernization-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

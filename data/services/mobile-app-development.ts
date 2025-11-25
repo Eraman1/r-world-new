@@ -18,7 +18,7 @@ export const mobileappdevelopment: ServiceConfig = {
     mainTitle: "Professional Mobile App Development Services",
     mainDescription:
       "We design, develop, and maintain mobile applications that improve efficiency, user engagement, and business growth. From native iOS/Android apps to cross-platform solutions, we ensure seamless performance and integration.",
-    image: "/images/software-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

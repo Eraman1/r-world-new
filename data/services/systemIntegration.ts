@@ -19,7 +19,7 @@ export const systemIntegration: ServiceConfig = {
     mainTitle: "Professional System Integration Services",
     mainDescription:
       "Our experts help businesses eliminate data silos and streamline operations through powerful system integrations. From API development to enterprise middleware, we ensure secure, scalable, and high-performing integration solutions.",
-    image: "/images/system-integration-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

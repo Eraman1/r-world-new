@@ -19,7 +19,7 @@ export const businessIntelligence: ServiceConfig = {
     mainTitle: "Professional Business Intelligence Development Services",
     mainDescription:
       "We deliver scalable BI solutions that turn complex data into actionable insights. From data warehousing to visualization, we help you make informed business decisions faster.",
-    image: "/images/business-intelligence-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

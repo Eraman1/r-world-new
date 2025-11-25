@@ -20,7 +20,7 @@ export const ibm: SolutionConfig = {
     mainTitle: "Enterprise-Grade IBM Cloud & AI Services",
     mainDescription:
       "From AI-driven decision-making to cloud migration and automation, our IBM-certified specialists deliver intelligent enterprise solutions built for scalability, security, and innovation.",
-    image: "/images/ibm-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -20,7 +20,7 @@ export const iotM2m: SolutionConfig = {
     mainTitle: "Comprehensive IoT & M2M Development Services",
     mainDescription:
       "We build intelligent solutions that bridge the digital and physical worlds through sensor networks, real-time analytics, and secure communication protocols. From smart manufacturing to logistics tracking, we help businesses harness the power of connected data.",
-    image: "/images/iot-dashboard-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

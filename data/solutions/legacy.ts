@@ -20,7 +20,7 @@ export const legacy: SolutionConfig = {
     mainTitle: "Seamless Legacy System Modernization Services",
     mainDescription:
       "Our modernization process ensures your existing business systems evolve into robust, future-proof architectures. Whether it’s mainframe migration, API enablement, or UI revamp — we help you stay competitive and efficient.",
-    image: "/images/legacy-modernization-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

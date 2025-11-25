@@ -19,7 +19,7 @@ export const crmDevelopment: ServiceConfig = {
     mainTitle: "Professional CRM Development & Integration Services",
     mainDescription:
       "Our CRM experts build, customize, and integrate robust systems that enhance customer relationships, automate workflows, and drive business growth. From Salesforce to custom-built CRMs, we deliver scalable, secure, and user-friendly platforms.",
-    image: "/images/crm-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

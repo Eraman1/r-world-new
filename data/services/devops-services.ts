@@ -18,7 +18,7 @@ export const devopsServices: ServiceConfig = {
     mainTitle: "Professional DevOps Services",
     mainDescription:
       "We provide complete DevOps solutions to accelerate development, deployment, and maintenance. Our services include CI/CD, infrastructure as code, cloud management, containerization, and monitoring to ensure efficient software delivery.",
-    image: "/images/devops-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

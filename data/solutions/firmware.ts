@@ -19,7 +19,7 @@ export const firmware: SolutionConfig = {
     mainTitle: "Full-Stack Firmware Development Services",
     mainDescription:
       "We deliver end-to-end firmware engineering: device drivers, RTOS-based applications, bootloaders, secure OTA, hardware bring-up, and validation. Our team supports multiple microcontroller families and SoCs, enabling fast time-to-market while ensuring robustness and regulatory compliance.",
-    image: "/images/firmware-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

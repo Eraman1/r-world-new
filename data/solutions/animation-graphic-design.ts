@@ -18,7 +18,7 @@ export const animationGraphicDesign: SolutionConfig = {
     mainTitle: "Professional Animation & Graphic Design Services",
     mainDescription:
       "We deliver visually stunning and technically refined designs for brands, businesses, and entertainment. From 3D motion graphics to logo animation, our services enhance brand identity and captivate audiences across platforms.",
-    image: "/images/web-animation-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

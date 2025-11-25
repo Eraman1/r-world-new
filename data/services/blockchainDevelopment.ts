@@ -19,7 +19,7 @@ export const blockchainDevelopment: ServiceConfig = {
     mainTitle: "Professional Blockchain Development Services",
     mainDescription:
       "We provide end-to-end blockchain development services — from strategy and architecture to deployment and maintenance. Our blockchain solutions enhance transparency, security, and efficiency across industries.",
-    image: "/images/blockchain-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

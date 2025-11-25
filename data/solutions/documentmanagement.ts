@@ -20,7 +20,7 @@ export const documentManagement: SolutionConfig = {
     mainTitle: "Comprehensive Document Management Services",
     mainDescription:
       "We build solutions for storing, tracking, versioning, and collaborating on documents digitally. Our systems help organizations reduce paper usage, improve security, and enhance productivity.",
-    image: "/images/document-management-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

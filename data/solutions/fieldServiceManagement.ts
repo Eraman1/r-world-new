@@ -20,7 +20,7 @@ export const fieldServiceManagement: SolutionConfig = {
     mainTitle: "Intelligent Field Service Management Software Development",
     mainDescription:
       "Our team develops scalable FSM solutions tailored to service-based businesses. From predictive maintenance to mobile technician tools, we help companies deliver faster and smarter service operations.",
-    image: "/images/field-service-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

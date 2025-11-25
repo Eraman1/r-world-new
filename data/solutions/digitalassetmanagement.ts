@@ -20,7 +20,7 @@ export const digitalAssetManagement: SolutionConfig = {
     mainTitle: "Comprehensive Digital Asset Management Services",
     mainDescription:
       "Our team implements scalable DAM solutions that provide a centralized repository for images, videos, documents, and creative files. Improve collaboration, version control, and content delivery while keeping your digital assets secure.",
-    image: "/images/dam-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

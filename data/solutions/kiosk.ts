@@ -20,7 +20,7 @@ export const kiosk: SolutionConfig = {
     mainTitle: "End-to-End Custom Kiosk Software Development",
     mainDescription:
       "From touch-enabled interfaces to cloud connectivity, we build kiosk solutions tailored for retail, airports, healthcare, and banking. Our systems support payments, ticketing, check-ins, and dynamic digital displays.",
-    image: "/images/kiosk-display.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

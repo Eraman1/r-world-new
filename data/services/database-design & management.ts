@@ -19,7 +19,7 @@ export const databaseDesignManagement: ServiceConfig = {
     mainTitle: "Professional Database Design & Management Services",
     mainDescription:
       "We provide end-to-end database solutions — from architecture and design to optimization and maintenance. Our focus is on performance, data security, and scalability to support business growth.",
-    image: "/images/database-management-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

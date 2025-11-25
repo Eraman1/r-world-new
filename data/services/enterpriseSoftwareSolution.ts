@@ -19,7 +19,7 @@ export const enterpriseSoftwareSolution: ServiceConfig = {
     mainTitle: "Custom Enterprise Software Development Services",
     mainDescription:
       "Our team delivers powerful enterprise applications that connect departments, automate workflows, and enhance data visibility. We combine robust architecture with modern technologies to support long-term business growth.",
-    image: "/images/enterprise-software-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

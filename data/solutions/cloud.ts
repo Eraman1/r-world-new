@@ -20,7 +20,7 @@ export const cloud: SolutionConfig = {
     mainTitle: "End-to-End Cloud Development & Management",
     mainDescription:
       "Our certified developers and engineers specialize in cloud-native application development, infrastructure automation, and multi-cloud deployment strategies across AWS, Azure, and Google Cloud Platform.",
-    image: "/images/cloud-infrastructure.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

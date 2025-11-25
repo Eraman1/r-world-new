@@ -20,7 +20,7 @@ export const erp: SolutionConfig = {
     mainTitle: "Custom ERP Software Development Services",
     mainDescription:
       "We deliver enterprise-grade ERP systems tailored to your organization’s workflow. Our solutions integrate departments, automate tasks, provide real-time analytics, and support better decision-making.",
-    image: "/images/erp-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

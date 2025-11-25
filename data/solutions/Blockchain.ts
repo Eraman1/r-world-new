@@ -20,7 +20,7 @@ export const blockchain: SolutionConfig = {
     mainTitle: "End-to-End Blockchain Development Services",
     mainDescription:
       "From smart contracts to decentralized applications (dApps) and enterprise blockchain integrations, we help organizations harness blockchain’s potential to increase transparency, security, and performance.",
-    image: "/images/blockchain-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

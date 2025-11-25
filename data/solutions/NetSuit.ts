@@ -20,7 +20,7 @@ export const NetSuit: SolutionConfig = {
     mainTitle: "End-to-End NetSuite ERP Development Services",
     mainDescription:
       "From deployment and customization to integration and support, our NetSuite experts deliver ERP solutions that unify finance, inventory, CRM, and e-commerce — all in one platform.",
-    image: "/images/netsuite-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

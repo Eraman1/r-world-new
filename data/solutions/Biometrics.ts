@@ -20,7 +20,7 @@ export const Biometrics: SolutionConfig = {
     mainTitle: "Comprehensive Biometric Software Development",
     mainDescription:
       "Our biometric systems use advanced AI and ML algorithms for identity validation, facial recognition, and multi-factor authentication. We build reliable and compliant platforms for access control, KYC, and fraud prevention.",
-    image: "/images/biometric-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

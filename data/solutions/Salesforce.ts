@@ -20,7 +20,7 @@ export const Salesforce: SolutionConfig = {
     mainTitle: "Professional Salesforce Services",
     mainDescription:
       "From Salesforce Sales Cloud to Service Cloud and Marketing Cloud, we help businesses integrate and customize Salesforce to maximize ROI. We handle data migration, process automation, custom app development, and analytics dashboards tailored to your needs.",
-    image: "/images/salesforce-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

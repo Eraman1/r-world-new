@@ -14,7 +14,7 @@ export interface BlogPost {
     role?: string;
     bio: string;
   };
-  publishedAt: string;
+  date: string;
   readTime: string;
   tags: string[];
   relatedPosts?: BlogPost[];

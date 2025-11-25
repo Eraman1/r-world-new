@@ -19,7 +19,7 @@ export const machinelearning: ServiceConfig = {
     mainTitle: "Professional Machine Learning Development Services",
     mainDescription:
       "We specialize in developing custom ML models, predictive analytics, and AI-driven systems that deliver measurable business outcomes. From data preparation to deployment, we ensure precision, scalability, and performance.",
-    image: "/images/machine-learning-dev.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

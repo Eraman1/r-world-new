@@ -20,7 +20,7 @@ export const aws: SolutionConfig = {
     mainTitle: "End-to-End AWS Cloud Development Services",
     mainDescription:
       "We empower organizations with AWS-based solutions — from cloud migration and serverless applications to AI, data analytics, and DevOps automation. Whether you’re modernizing infrastructure or launching cloud-native apps, we deliver performance and security at scale.",
-    image: "/images/aws-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

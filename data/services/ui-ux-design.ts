@@ -18,7 +18,7 @@ export const uiUxDesign: ServiceConfig = {
     mainTitle: "Professional UI/UX Design Services",
     mainDescription:
       "We provide end-to-end UI/UX design solutions that improve usability, accessibility, and visual appeal. From wireframes to interactive prototypes, our designs drive engagement and business growth.",
-    image: "/images/ui-ux-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

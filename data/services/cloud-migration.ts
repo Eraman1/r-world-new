@@ -18,7 +18,7 @@ export const cloudMigration: ServiceConfig = {
     mainTitle: "Comprehensive Cloud Migration Services",
     mainDescription:
       "We provide end-to-end cloud migration solutions for enterprises and SMBs. Our services cover assessment, planning, migration, and post-migration support to ensure reliable and scalable cloud adoption.",
-    image: "/images/cloud-migration-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

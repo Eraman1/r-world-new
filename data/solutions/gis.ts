@@ -20,7 +20,7 @@ export const gis: SolutionConfig = {
     mainTitle: "Custom GIS Application Development",
     mainDescription:
       "Our team builds scalable GIS and mapping platforms that combine spatial analytics, visualization tools, and real-time data for industries like logistics, agriculture, utilities, and urban planning.",
-    image: "/images/gis-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

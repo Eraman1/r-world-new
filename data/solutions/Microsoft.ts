@@ -20,7 +20,7 @@ export const Microsoft: SolutionConfig = {
     mainTitle: "Comprehensive Microsoft Development & Integration Services",
     mainDescription:
       "We provide end-to-end Microsoft solutions including Azure Cloud, Dynamics 365 CRM/ERP, Power BI analytics, and custom app development using .NET and Power Platform — tailored to your business needs.",
-    image: "/images/microsoft-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

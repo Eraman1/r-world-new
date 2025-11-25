@@ -20,7 +20,7 @@ export const artificialintelligence: SolutionConfig = {
     mainTitle: "Custom Artificial Intelligence Development Services",
     mainDescription:
       "Our AI experts create scalable machine learning models, natural language processing systems, computer vision applications, and predictive analytics platforms that help businesses innovate and compete in the digital age.",
-    image: "/images/ai-developer-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -20,7 +20,7 @@ export const crm: SolutionConfig = {
     mainTitle: "Custom CRM Development & Integration Services",
     mainDescription:
       "Our CRM experts build tailored solutions using Salesforce, HubSpot, Zoho, and Microsoft Dynamics to help businesses streamline communication, marketing, and customer support. From automation to analytics, we ensure your CRM empowers growth.",
-    image: "/images/crm-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

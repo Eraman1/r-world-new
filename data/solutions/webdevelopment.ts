@@ -20,7 +20,7 @@ export const webDevelopment: SolutionConfig = {
     mainTitle: "Professional Web Development Services",
     mainDescription:
       "We build scalable websites, web applications, and e-commerce platforms using modern technologies. Our solutions are optimized for performance, accessibility, and SEO to help your business succeed online.",
-    image: "/images/web-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

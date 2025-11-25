@@ -20,7 +20,7 @@ export const posPaymentProcessing: SolutionConfig = {
     mainTitle: "Custom POS & Payment Platform Development",
     mainDescription:
       "We build scalable POS systems, integrated with payment processing, inventory management, and reporting features. Our solutions help businesses reduce transaction time, prevent errors, and provide real-time insights for smarter operations.",
-    image: "/images/pos-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -19,7 +19,7 @@ export const artificialIntelligence: ServiceConfig = {
     mainTitle: "Advanced Artificial Intelligence Development Services",
     mainDescription:
       "We create AI-driven solutions to help organizations optimize operations, enhance customer experience, and make data-backed decisions. From predictive analytics to NLP and computer vision — we turn your data into actionable intelligence.",
-    image: "/images/ai-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

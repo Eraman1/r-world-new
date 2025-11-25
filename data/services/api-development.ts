@@ -18,7 +18,7 @@ export const apiDevelopment: ServiceConfig = {
     mainTitle: "Professional API Development Services",
     mainDescription:
       "We provide end-to-end API development for web, mobile, and enterprise applications. Our APIs ensure secure data exchange, high performance, and scalability for modern software ecosystems.",
-    image: "/images/api-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

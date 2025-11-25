@@ -19,7 +19,7 @@ export const iotSolutions: ServiceConfig = {
     mainTitle: "Professional IoT Development & Integration Services",
     mainDescription:
       "We deliver end-to-end IoT solutions — from sensor integration and cloud connectivity to data analytics and automation. Our team ensures robust security, scalability, and real-time data performance across industries.",
-    image: "/images/iot-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

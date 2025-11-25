@@ -19,7 +19,7 @@ export const dataAnalytics: ServiceConfig = {
     mainTitle: "Professional Data Analytics & BI Development Services",
     mainDescription:
       "We specialize in building analytics solutions that uncover trends, predict outcomes, and optimize operations. From data warehousing to AI modeling, we empower your business with data intelligence.",
-    image: "/images/data-analytics-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

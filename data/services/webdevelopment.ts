@@ -18,7 +18,7 @@ export const webdevelopment: ServiceConfig = {
     mainTitle: "Professional Web Development Services",
     mainDescription:
       "We design, develop, and maintain websites and web apps that improve efficiency, engagement, and business growth. From corporate websites to complex web platforms, we deliver seamless functionality and scalability.",
-    image: "/images/web-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

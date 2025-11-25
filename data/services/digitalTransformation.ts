@@ -19,7 +19,7 @@ export const digitalTransformation: ServiceConfig = {
     mainTitle: "Comprehensive Digital Transformation Services",
     mainDescription:
       "From strategy to execution, we help you reimagine business models, optimize workflows, and enhance customer engagement through automation, AI, and cloud innovation.",
-    image: "/images/digital-transformation-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -20,7 +20,7 @@ export const businessIntelligence: SolutionConfig = {
     mainTitle: "Comprehensive Business Intelligence Services",
     mainDescription:
       "Our BI experts design and implement end-to-end analytics ecosystems — from data integration and warehousing to visualization and AI-driven insights — empowering you to make smarter, faster, data-backed decisions.",
-    image: "/images/bi-dashboard-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -20,7 +20,7 @@ export const franchiseManagement: SolutionConfig = {
     mainTitle: "Comprehensive Franchise Management Systems",
     mainDescription:
       "We design and develop custom franchise management platforms that simplify daily operations, improve transparency, and enhance brand consistency. From onboarding to analytics, our solutions help you manage everything from one unified dashboard.",
-    image: "/images/franchise-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

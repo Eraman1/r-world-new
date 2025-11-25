@@ -20,7 +20,7 @@ export const autodesk: SolutionConfig = {
     mainTitle: "Comprehensive Autodesk Software Services",
     mainDescription:
       "Our team helps you maximize the potential of Autodesk tools like AutoCAD, Revit, Maya, Fusion 360, and 3ds Max to create stunning visualizations, animations, and precise 3D models for architecture, engineering, and entertainment.",
-    image: "/images/autodesk-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -20,7 +20,7 @@ export const itServiceManagement: SolutionConfig = {
     mainTitle: "End-to-End ITSM Development & Integration",
     mainDescription:
       "We build and integrate ITSM platforms that centralize IT operations, automate routine processes, and improve SLA compliance. From incident tracking to change management, our solutions ensure IT runs smoothly across departments.",
-    image: "/images/itsm-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

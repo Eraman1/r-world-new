@@ -19,7 +19,7 @@ export const ecommerceDevelopment: ServiceConfig = {
     mainTitle: "Professional E-commerce Development Services",
     mainDescription:
       "We design and develop custom e-commerce solutions for startups and enterprises. From intuitive storefronts to secure payment systems, we help you build platforms that increase engagement and boost sales.",
-    image: "/images/ecommerce-development-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -20,7 +20,7 @@ export const embeddedSoftware: SolutionConfig = {
     mainTitle: "Embedded Software Development Services",
     mainDescription:
       "We provide end-to-end embedded software solutions for IoT, automotive, robotics, consumer electronics, and industrial automation. Our expertise ensures high efficiency, safety compliance, and seamless integration with hardware platforms.",
-    image: "/images/embedded-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

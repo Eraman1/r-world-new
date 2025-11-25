@@ -20,7 +20,7 @@ export const salesManagement: SolutionConfig = {
     mainTitle: "Professional Sales Management Services",
     mainDescription:
       "Our solutions cover CRM, lead management, sales automation, and analytics. We ensure your sales teams work efficiently, track deals accurately, and make data-backed decisions to drive revenue growth.",
-    image: "/images/sales-management-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

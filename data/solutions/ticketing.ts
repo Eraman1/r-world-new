@@ -20,7 +20,7 @@ export const ticketing: SolutionConfig = {
     mainTitle: "Professional Ticketing Software Development",
     mainDescription:
       "Our team builds reliable ticketing platforms that handle high volumes of users and transactions. From event ticketing to customer support systems, we provide solutions that enhance engagement and streamline operations.",
-    image: "/images/ticketing-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

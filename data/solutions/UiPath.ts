@@ -20,7 +20,7 @@ export const UiPath: SolutionConfig = {
     mainTitle: "Comprehensive UiPath RPA Development Services",
     mainDescription:
       "We help enterprises leverage UiPath’s full potential for Robotic Process Automation (RPA). From process discovery to orchestration and bot deployment, we enable digital transformation with efficiency and accuracy.",
-    image: "/images/uipath-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -20,7 +20,7 @@ export const mobileTablet: SolutionConfig = {
     mainTitle: "Professional Mobile & Tablet App Development",
     mainDescription:
       "We build native, cross-platform, and hybrid apps tailored to your business needs. Our apps focus on speed, usability, and a seamless experience across mobile and tablet devices.",
-    image: "/images/mobile-tablet-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

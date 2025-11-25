@@ -19,7 +19,7 @@ export const cms: SolutionConfig = {
     mainTitle: "Custom CMS & Headless Content Platform Services",
     mainDescription:
       "From traditional enterprise CMS to modern headless and hybrid architectures, our team builds content solutions that streamline editorial workflows, enable omnichannel delivery, and integrate seamlessly with your existing tech stack.",
-    image: "/images/cms-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

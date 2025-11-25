@@ -20,7 +20,7 @@ export const Oracle: SolutionConfig = {
     mainTitle: "Comprehensive Oracle Services",
     mainDescription:
       "We deliver end-to-end Oracle services including cloud implementation, database management, ERP automation, and analytics. Our experts help businesses leverage Oracle tools to improve productivity, reduce costs, and drive innovation.",
-    image: "/images/oracle-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

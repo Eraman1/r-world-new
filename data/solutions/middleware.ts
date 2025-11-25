@@ -20,7 +20,7 @@ export const middleware: SolutionConfig = {
     mainTitle: "Professional Middleware Development Services",
     mainDescription:
       "We design, develop, and deploy middleware solutions to enable seamless communication between software applications, databases, and cloud services. Our expertise ensures data consistency, reliability, and optimal performance across your technology stack.",
-    image: "/images/middleware-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

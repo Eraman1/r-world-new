@@ -20,7 +20,7 @@ export const fraudProtection: SolutionConfig = {
     mainTitle: "Comprehensive Fraud Protection Software Development",
     mainDescription:
       "Our fraud detection platforms leverage artificial intelligence, data analytics, and user behavior tracking to identify suspicious activity, prevent financial loss, and ensure compliance with global security standards.",
-    image: "/images/fraud-detection-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

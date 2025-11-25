@@ -18,7 +18,7 @@ export const softwareTestingQA: ServiceConfig = {
     mainTitle: "Professional Software Testing & QA Services",
     mainDescription:
       "We provide end-to-end QA services to guarantee bug-free and high-quality software. Our solutions cover functional testing, automation, performance testing, and security checks to meet industry standards.",
-    image: "/images/software-testing-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

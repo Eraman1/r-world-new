@@ -20,7 +20,7 @@ export const database: SolutionConfig = {
     mainTitle: "Professional Database Development Services",
     mainDescription:
       "From relational databases to NoSQL solutions, we build customized databases optimized for speed, reliability, and security. Our developers ensure your data is structured, maintained, and accessible for real-time operations and analytics.",
-    image: "/images/database-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

@@ -19,7 +19,7 @@ export const technicalConsulting: ServiceConfig = {
     mainTitle: "Comprehensive Technical Consulting Services",
     mainDescription:
       "We assist organizations in designing scalable architectures, choosing the right tech stack, and implementing robust IT strategies. Our experts bridge business goals with technology to ensure sustainable growth and innovation.",
-    image: "/images/technical-consulting-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

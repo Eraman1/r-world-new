@@ -20,7 +20,7 @@ export const UKG: SolutionConfig = {
     mainTitle: "Comprehensive UKG Services for Modern Enterprises",
     mainDescription:
       "Our team helps organizations transform HR operations using UKG’s advanced platforms. We integrate HR, payroll, scheduling, and analytics into one unified ecosystem that drives efficiency and employee engagement.",
-    image: "/images/ukg-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

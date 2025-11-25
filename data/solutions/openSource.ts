@@ -20,7 +20,7 @@ export const openSource: SolutionConfig = {
     mainTitle: "Professional Open Source Development Services",
     mainDescription:
       "Our team delivers tailored open source solutions that empower businesses to innovate faster. We work with frameworks, libraries, and platforms that are proven, reliable, and community-driven.",
-    image: "/images/open-source-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,

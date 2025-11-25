@@ -19,7 +19,7 @@ export const cybersecurity: ServiceConfig = {
     mainTitle: "Comprehensive Cybersecurity Services",
     mainDescription:
       "We provide end-to-end cybersecurity services to protect your systems, networks, and data. From penetration testing to threat intelligence, our experts help you stay ahead of cyber risks and ensure robust digital defense.",
-    image: "/images/cybersecurity-experts.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
