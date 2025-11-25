@@ -1,5 +1,6 @@
 import React from "react";
 import { Star } from "lucide-react";
+import Link from "next/link";
 
 interface Review {
   id: number;
@@ -15,65 +16,146 @@ interface Review {
 const reviews: Review[] = [
   {
     id: 1,
-    name: "John Anderson",
-    company: "TechCorp Solutions",
-    position: "CEO",
+    name: "Ravi Kumar",
+    company: "Sri Manjunatha Marbles",
+    position: "Owner",
     rating: 5,
     review:
-      "R-World Software Solutions delivered an exceptional custom software solution that transformed our business operations. Their team's expertise and dedication to quality are unmatched.",
-    date: "October 2024",
+      "R-World Software Solutions helped us digitize our operations smoothly. Their team is skilled and always ready to support. Highly reliable!",
+    date: "January 2025",
   },
   {
     id: 2,
-    name: "Sarah Mitchell",
-    company: "Global Innovations Ltd",
-    position: "CTO",
+    name: "Imran Sheikh",
+    company: "Dilli Darbar",
+    position: "Director",
     rating: 5,
     review:
-      "Working with R-World was a game-changer for our company. They understood our requirements perfectly and delivered a scalable solution that exceeded our expectations.",
-    date: "September 2024",
+      "We needed a custom restaurant management solution, and R-World delivered beyond expectations. Excellent UI, fast system, and great support.",
+    date: "December 2024",
   },
   {
     id: 3,
-    name: "Michael Chen",
-    company: "StartupHub",
-    position: "Founder",
+    name: "Prakash Sharma",
+    company: "SEMRI INDIAN SERVICE",
+    position: "Manager",
     rating: 5,
     review:
-      "The on-demand developers from R-World integrated seamlessly with our team. Their technical skills and communication made the entire process smooth and efficient.",
-    date: "August 2024",
+      "Their software helped us streamline our service operations. Professional team and very responsive.",
+    date: "November 2024",
   },
   {
     id: 4,
-    name: "Emily Rodriguez",
-    company: "Finance Pro Inc",
-    position: "Operations Director",
+    name: "Rohan Patel",
+    company: "Hi Tech Solutions",
+    position: "Founder",
     rating: 5,
     review:
-      "R-World's custom software development services helped us automate complex processes. The ROI has been phenomenal, and their ongoing support is excellent.",
-    date: "July 2024",
+      "R-World built a powerful CRM tool for our business. The quality and performance are outstanding.",
+    date: "October 2024",
   },
   {
     id: 5,
-    name: "David Thompson",
-    company: "RetailMax",
-    position: "VP of Technology",
+    name: "Amit Yadav",
+    company: "Mahakal Trading Company",
+    position: "Proprietor",
     rating: 5,
     review:
-      "Outstanding work! The team delivered our e-commerce platform ahead of schedule with features we didn't even know we needed. Highly recommend their services.",
-    date: "June 2024",
+      "Very professional team—helped us automate billing and inventory. Completely satisfied with the service.",
+    date: "September 2024",
   },
   {
     id: 6,
-    name: "Lisa Wang",
-    company: "HealthTech Solutions",
-    position: "Product Manager",
+    name: "Rahul Verma",
+    company: "Desert Food Pvt Ltd",
+    position: "Operations Head",
     rating: 5,
     review:
-      "R-World's expertise in healthcare software development is impressive. They navigated complex compliance requirements while delivering a user-friendly solution.",
+      "They developed a custom ERP for our food company. Smooth workflow and great long-term support.",
+    date: "August 2024",
+  },
+  {
+    id: 7,
+    name: "Kiran Joshi",
+    company: "Mahalaxmi Traders",
+    position: "Partner",
+    rating: 5,
+    review:
+      "The R-World team understands business needs very well. Our trading system runs 10x better now.",
+    date: "July 2024",
+  },
+  {
+    id: 8,
+    name: "Arshad Ali",
+    company: "A S Export",
+    position: "Export Manager",
+    rating: 5,
+    review:
+      "Fantastic experience! The export management software they built is fast, secure, and extremely useful.",
+    date: "June 2024",
+  },
+  {
+    id: 9,
+    name: "Dr. Nirmala Singh",
+    company: "Niramya Kids Clinic",
+    position: "Paediatrician",
+    rating: 5,
+    review:
+      "They created a smooth appointment and patient record system for our clinic. Very helpful and easy to use.",
     date: "May 2024",
   },
+  {
+    id: 10,
+    name: "Sandeep Kumar",
+    company: "Sai Mobile",
+    position: "Owner",
+    rating: 5,
+    review:
+      "R-World developed a POS and inventory system for us. It has made our work much easier.",
+    date: "April 2024",
+  },
+  {
+    id: 11,
+    name: "Vikas Khajuria",
+    company: "Khajuria Steels Trading",
+    position: "Director",
+    rating: 5,
+    review:
+      "Excellent software solutions for steel trading. Strongly recommend R-World.",
+    date: "March 2024",
+  },
+  {
+    id: 12,
+    name: "Deepak Singh",
+    company: "D.S. Enterprises",
+    position: "Founder",
+    rating: 5,
+    review:
+      "Professional, timely, and very supportive. R-World helped digitize our entire workflow.",
+    date: "February 2024",
+  },
+  {
+    id: 13,
+    name: "Harsh Trivedi",
+    company: "Satva Dry Fruits",
+    position: "Owner",
+    rating: 5,
+    review:
+      "Their e-commerce and inventory system has greatly boosted our efficiency. Amazing work!",
+    date: "January 2024",
+  },
+  {
+    id: 14,
+    name: "Manish Gupta",
+    company: "Globe Mobile Accessories",
+    position: "Manager",
+    rating: 5,
+    review:
+      "We needed a custom solution for our accessories business, and R-World provided exactly what we required.",
+    date: "December 2023",
+  },
 ];
+
 
 const ClientReviewsPage: React.FC = () => {
   const renderStars = (rating: number) => {
@@ -124,16 +206,16 @@ const ClientReviewsPage: React.FC = () => {
               {/* Header with Avatar and Info */}
               <div className="flex items-start mb-4">
                 <div className="w-12 h-12 rounded-full bg-gradient-to-br from-amber-500 to-yellow-600 flex items-center justify-center text-white font-semibold mr-4 flex-shrink-0">
-                  {getInitials(review.name)}
+                  {getInitials(review.company)}
                 </div>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-lg text-gray-900">
-                    {review.name}
+                  <h3 className="font-semibold text-lg text-blue-600">
+                    {review.company}
                   </h3>
                   <p className="text-sm text-gray-600">{review.position}</p>
-                  <p className="text-sm text-blue-600 font-medium">
+                  {/* <p className="text-sm text-blue-600 font-medium">
                     {review.company}
-                  </p>
+                  </p> */}
                 </div>
               </div>
 
@@ -184,12 +266,9 @@ const ClientReviewsPage: React.FC = () => {
             business with our solutions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-lg">
+            <Link href="/contact-us" className="bg-gradient-to-r from-amber-400 to-amber-500 text-white px-4 py-2 rounded-lg font-semibold hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-lg">
               Get Started
-            </button>
-            <button className="border-2 border-amber-400 text-amber-400 px-4 py-2 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-all duration-300">
-              Contact Us
-            </button>
+            </Link>
           </div>
         </div>
       </div>

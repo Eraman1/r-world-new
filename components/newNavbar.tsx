@@ -1,4 +1,4 @@
-// components/Navbar.tsx
+
 "use client";
 
 import {
@@ -403,7 +403,7 @@ const NewNavbar = () => {
                   R-World
                 </Link>
                 <div className="text-xs font-normal -mt-1">
-                  <span className="text-sm mt-0 tracking-wide text-blue-200/70 group-hover:text-white transition-colors">
+                  <span className="text-sm mt-0 tracking-wide  group-hover:text-white transition-colors">
                     software solutions
                   </span>
                 </div>
