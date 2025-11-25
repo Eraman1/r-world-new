@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import { Calendar, Clock, ArrowRight, Tag } from "lucide-react";
+import Link from "next/link";
 
 interface NewsItem {
   id: number;
@@ -36,7 +37,7 @@ const NewsEventsComponent: React.FC = () => {
         "In a period marked by rising digital demands and accelerated technological shifts, Noida-based R-World has emerged as a steady presence in the software development and IT consulting space. ",
       date: "Nov 17, 2025",
       category: "Company News",
-      image: "/news/DigitalScoop.png",
+      image: "/news/digitalScoop.png",
       author: "Digital Scpoop India",
       link: "https://digitalscoopindia.in/r-world-strengthens-its-global-it-presence-with-enhanced-security-scalability-and-real-time-support/",
     },
@@ -204,6 +205,7 @@ const NewsEventsComponent: React.FC = () => {
                 key={item.id}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
               >
+                <Link href={item.link} target="_blank">
                 <div className="relative h-48 overflow-hidden">
                   <img
                     src={item.image}
@@ -230,13 +232,14 @@ const NewsEventsComponent: React.FC = () => {
                   </p>
 
                   {/* Read More Link */}
-                  <a href={item.link} target="_blank">
+               
                     <button className="text-amber-500 font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
                       Read More
                       <ArrowRight size={18} />
                     </button>
-                  </a>
+                  
                 </div>
+                </Link>
               </div>
             ))}
           </div>

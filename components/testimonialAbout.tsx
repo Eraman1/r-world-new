@@ -79,11 +79,7 @@ const Testimonials: React.FC = () => {
             </div>
 
             {/* CTA Button */}
-            <div className="flex justify-center">
-              <button className="px-8 py-4 bg-white border-4 border-[#FCA311] text-[#000000] font-bold text-lg rounded-lg hover:bg-[#FCA311] hover:text-white transition-all duration-300 shadow-lg">
-                SEE MORE CASE STUDIES
-              </button>
-            </div>
+           
           </div>
 
           {/* Right side - Testimonials */}

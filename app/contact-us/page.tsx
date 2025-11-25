@@ -133,29 +133,33 @@ const ContactPage = () => {
     setSubmitStatus({ type: null, message: "" });
 
     try {
-      // Prepare data according to EnquiryFormData interface
+      // Prepare data
       const enquiryData: EnquiryFormData = {
         name: formData.name,
         email: formData.email,
         phone: formData.phone,
         company: formData.company || undefined,
         message: formData.message || undefined,
-        path: window.location.pathname, // Current page path
+        path: window.location.pathname,
         bookCall: formData.bookCall,
         callDate: formData.bookCall ? formData.callDate : undefined,
         callTime: formData.bookCall ? formData.callTime : undefined,
         timezone: formData.bookCall ? formData.timezone : undefined,
       };
 
+      // API call
       const response = await createEnquiry(enquiryData);
 
+      // Status
       setSubmitStatus({
         type: "success",
         message:
           "Thank you! Your enquiry has been submitted successfully. We'll get back to you soon.",
       });
+
       toast.success("Enquiry submitted successfully!");
-      // Reset form after successful submission
+
+      // Reset form
       setFormData({
         name: "",
         email: "",
@@ -163,21 +167,20 @@ const ContactPage = () => {
         company: "",
         message: "",
         bookCall: false,
-        callDate: "2025-09-26",
-        callTime: "18:15",
-        timezone:
-          "(UTC+05:30) India Standard Time - New Delhi, Mumbai, Kolkata, Chennai, Bengaluru",
+        callDate: "", // cleaned for non-bookCall state
+        callTime: "",
+        timezone: "",
       });
 
       console.log("Enquiry created successfully:", response);
-    } catch (error) {
+    } catch (error: any) {
       setSubmitStatus({
         type: "error",
         message:
-          error instanceof Error
-            ? error.message
-            : "Failed to submit enquiry. Please try again.",
+          error?.message || "Failed to submit enquiry. Please try again.",
       });
+
+      toast.error("Try Again!");
       console.error("Error submitting enquiry:", error);
     } finally {
       setIsSubmitting(false);
