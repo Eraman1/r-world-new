@@ -149,6 +149,18 @@ const NewsEventsComponent: React.FC = () => {
       author: "Best of Hindustan",
       link: "https://bestofhindustan.com/r-world-expands-its-footprint-in-global-it-services-with-focus-on-security-scalability-and-real-time-support/",
     },
+    {
+      id: 11,
+      title:
+        "R-World Software Solutions Accelerates Global IT Expansion, Centering on Robust Security, Scalable Solutions, and Continuous Support",
+      excerpt:
+        "In a period marked by rising digital demands and accelerated technological shifts, Noida-based R-World has emerged as a steady presence in the software development and IT consulting space.",
+      date: "Nov 18, 2025",
+      category: "Business Updates",
+      image: "/news/FoxStoryIndia.png",
+      author: "Fox Story India",
+      link: "https://foxstoryindia.com/2025/11/18/r-world-software-solutions-accelerates-global-it-expansion-centering-on-robust-security-scalable-solutions-and-continuous-support/",
+    },
   ];
 
   const events: EventItem[] = [
@@ -206,39 +218,38 @@ const NewsEventsComponent: React.FC = () => {
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 group"
               >
                 <Link href={item.link} target="_blank">
-                <div className="relative h-48 overflow-hidden">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute top-4 left-4">
-                    <span className="bg-amber-500 text-white px-3 py-1 rounded-full text-sm font-semibold flex items-center gap-1">
-                      <Tag size={14} />
-                      {item.category}
-                    </span>
+                  <div className="relative h-48 overflow-hidden">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                    <div className="absolute top-4 left-4">
+                      <span className="bg-amber-500 text-white px-3 py-1 rounded-full text-sm font-semibold flex items-center gap-1">
+                        <Tag size={14} />
+                        {item.category}
+                      </span>
+                    </div>
                   </div>
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center text-sm text-slate-500 mb-3">
-                    <Clock size={16} className="mr-2" />
-                    {item.date} • {item.author}
-                  </div>
-                  <h3 className="text-lg font-bold text-slate-900 mb-3 group-hover:text-amber-500 transition-colors">
-                    {item.title}
-                  </h3>
-                  <p className="text-slate-600 mb-4 line-clamp-3">
-                    {item.excerpt}
-                  </p>
+                  <div className="p-6">
+                    <div className="flex items-center text-sm text-slate-500 mb-3">
+                      <Clock size={16} className="mr-2" />
+                      {item.date} • {item.author}
+                    </div>
+                    <h3 className="text-lg font-bold text-slate-900 mb-3 group-hover:text-amber-500 transition-colors">
+                      {item.title}
+                    </h3>
+                    <p className="text-slate-600 mb-4 line-clamp-3">
+                      {item.excerpt}
+                    </p>
 
-                  {/* Read More Link */}
-               
+                    {/* Read More Link */}
+
                     <button className="text-amber-500 font-semibold flex items-center gap-2 group-hover:gap-3 transition-all">
                       Read More
                       <ArrowRight size={18} />
                     </button>
-                  
-                </div>
+                  </div>
                 </Link>
               </div>
             ))}
