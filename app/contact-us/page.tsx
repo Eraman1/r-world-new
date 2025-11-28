@@ -10,6 +10,8 @@ import {
   Clock,
   AlertCircle,
 } from "lucide-react";
+import { EnquiryFormData } from "@/types/enquiry";
+import { createEnquiry } from "@/lib/enquiryService";
 
 // ============= TYPES =============
 interface FormData {
@@ -492,7 +494,9 @@ const ContactPage = () => {
     }
   };
 
-  const handleSubmit = async () => {
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
     const validationErrors = validateForm(formData);
     if (Object.keys(validationErrors).length > 0) {
       setErrors(validationErrors);
@@ -503,16 +507,31 @@ const ContactPage = () => {
     setIsSubmitting(true);
 
     try {
-      await new Promise((resolve) => setTimeout(resolve, 2000));
+      // Prepare data according to EnquiryFormData interface
+      const enquiryData: EnquiryFormData = {
+        name: formData.name,
+        email: formData.email,
+        phone: `${formData.countryCode} ${formData.phone}`,
+        countryCode: formData.countryCode,
+        company: formData.company || undefined,
+        message: formData.message,
+        bookCall: formData.bookCall,
+        callDate: formData.bookCall ? formData.callDate : "",
+        callTime: formData.bookCall ? formData.callTime : "",
+        timezone: formData.bookCall ? formData.timezone : "",
+      };
 
-      const fullPhone = `${formData.countryCode} ${formData.phone}`;
-      console.log("Form submitted:", { ...formData, fullPhone });
+      // API CALL
+      const response = await createEnquiry(enquiryData);
+
+      console.log("API Response:", response);
 
       toast.success(
         "Thank you! Your enquiry has been submitted successfully. We'll get back to you soon.",
         { duration: 5000 }
       );
 
+      // Reset form
       setFormData({
         name: "",
         email: "",
@@ -525,13 +544,16 @@ const ContactPage = () => {
         callTime: "14:15",
         timezone: TIMEZONES[0],
       });
+
       setErrors({});
     } catch (error) {
+      console.error("Enquiry submission failed:", error);
       toast.error("Failed to submit enquiry. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
   };
+
 
   return (
     <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8">

@@ -2,6 +2,7 @@ export interface EnquiryFormData {
   name: string;
   email: string;
   phone: string;
+  countryCode: string;
   company?: string;
   service?: string;
   message?: string;
