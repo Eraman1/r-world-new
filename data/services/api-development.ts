@@ -18,7 +18,11 @@ export const apiDevelopment: ServiceConfig = {
     mainTitle: "Professional API Development Services",
     mainDescription:
       "We provide end-to-end API development for web, mobile, and enterprise applications. Our APIs ensure secure data exchange, high performance, and scalability for modern software ecosystems.",
+<<<<<<< HEAD
     image: "/images/api-development-laptop.png",
+=======
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     services: [
       {
         id: 1,
@@ -44,11 +48,16 @@ export const apiDevelopment: ServiceConfig = {
     ],
   },
   solutions: {
+<<<<<<< HEAD
   mainTitle: "Comprehensive API Solutions",
+=======
+    mainTitle: "Comprehensive API Solutions",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     mainDescription:
       "We deliver APIs that enable seamless connectivity between systems, improve data accessibility, and enhance application interoperability for businesses of all sizes.",
     items: [
       {
+<<<<<<< HEAD
       id: "secure-api",
       icon: "Leaf",
       title: "Secure API Development",
@@ -98,10 +107,62 @@ export const apiDevelopment: ServiceConfig = {
     },
     ],
   linkText: "Get Expert API Developers",
+=======
+        id: "secure-api",
+        icon: "Leaf",
+        title: "Secure API Development",
+        subtitle: "",
+        description:
+          "Implement robust authentication and authorization mechanisms for every API call. \nEncrypt sensitive data both in transit and at rest using advanced protocols. \nFollow industry-standard security best practices and regulatory compliance. \nProtect against common vulnerabilities such as injection and XSS attacks. \nEnsure reliable and secure communication between systems at all times.",
+      },
+      {
+        id: "scalable-api",
+        icon: "Leaf",
+        title: "Scalable API Architecture",
+        subtitle: "",
+        description:
+          "Design APIs that grow seamlessly with increasing user demand. \nOptimize endpoints, caching, and database queries for performance. \nImplement load balancing, rate limiting, and horizontal scaling. \nEnsure high availability and fault tolerance across distributed systems. \nDeliver consistent and fast response times under heavy traffic conditions.",
+      },
+      {
+        id: "api-monitoring",
+        icon: "Leaf",
+        title: "API Monitoring & Analytics",
+        subtitle: "",
+        description:
+          "Monitor API usage, latency, and error rates in real time. \nDetect anomalies and proactively optimize performance. \nGenerate actionable analytics and reports for better decision-making. \nTrack user interactions, request patterns, and bottlenecks. \nMaintain continuous reliability and efficiency of API services.",
+      },
+      {
+        id: "api-documentation",
+        icon: "Leaf",
+        title: "API Documentation & Support",
+        subtitle: "",
+        description:
+          "Provide clear, structured, and interactive API documentation. \nInclude detailed examples, endpoints, and usage guidelines. \nSupport developer onboarding and troubleshooting efficiently. \nEnsure seamless integration for clients and third-party apps. \nMaintain updated documentation for every API version and release.",
+      },
+      {
+        id: "api-automation",
+        icon: "Leaf",
+        title: "API Automation & Workflow",
+        subtitle: "",
+        description:
+          "Automate repetitive tasks using API-driven workflows. \nIntegrate APIs to connect multiple systems effortlessly. \nTrigger actions based on events and predefined rules. \nEnhance operational efficiency and reduce manual errors. \nEnsure smooth and consistent execution of business processes.",
+      },
+      {
+        id: "api-integration",
+        icon: "Leaf",
+        title: "Third-Party API Integration",
+        subtitle: "",
+        description:
+          "Seamlessly integrate third-party APIs into your platform. \nEnable smooth data exchange between external services. \nSupport multiple API protocols and authentication methods. \nEnhance system capabilities by leveraging external functionalities. \nMaintain secure, reliable, and scalable integrations across platforms.",
+      },
+    ],
+    linkText: "Get Expert API Developers",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     linkUrl: "/contact-us",
   },
 
   solutionsTwo: {
+<<<<<<< HEAD
   mainTitle: "Powerful & Scalable API Development Solutions",
   mainDescription:
     "We design and implement secure, high-performance APIs that enable seamless data exchange, system integration, and automation. Our API development expertise helps businesses accelerate innovation, improve connectivity, and enhance user experiences.",
@@ -159,13 +220,76 @@ export const apiDevelopment: ServiceConfig = {
   linkUrl: "/contact-us",
 },
 
+=======
+    mainTitle: "Powerful & Scalable API Development Solutions",
+    mainDescription:
+      "We design and implement secure, high-performance APIs that enable seamless data exchange, system integration, and automation. Our API development expertise helps businesses accelerate innovation, improve connectivity, and enhance user experiences.",
+    items: [
+      {
+        id: "api-integration",
+        icon: "Leaf",
+        title: "Custom API Design & Integration",
+        subtitle: "",
+        description:
+          "We build tailor-made APIs that bridge your web, mobile, and cloud systems. \nOur solutions enable real-time data sharing across platforms effortlessly. \nWe focus on scalability, efficiency, and minimal latency. \nEvery integration is designed for reliability and performance. \nEmpower your ecosystem with secure, future-ready connectivity.",
+      },
+      {
+        id: "microservices",
+        icon: "Leaf",
+        title: "Microservices Architecture APIs",
+        subtitle: "",
+        description:
+          "Transform monolithic apps into modern microservices with our API-first approach. \nEach service is built for independent deployment and flexibility. \nWe use lightweight communication protocols to improve performance. \nSimplify updates and scale efficiently as your business grows. \nAchieve resilience, speed, and maintainability in every release.",
+      },
+      {
+        id: "third-party",
+        icon: "Leaf",
+        title: "Third-Party API Integration",
+        subtitle: "",
+        description:
+          "Integrate APIs from payment gateways, CRMs, and social platforms with ease. \nWe ensure smooth connectivity and robust authentication mechanisms. \nAutomate workflows between internal and external systems securely. \nEliminate manual data exchange and improve operational flow. \nEnhance business efficiency through unified integrations.",
+      },
+      {
+        id: "api-security",
+        icon: "Leaf",
+        title: "API Security & Authentication",
+        subtitle: "",
+        description:
+          "We implement OAuth 2.0, JWT, and SSL to safeguard your APIs. \nAll endpoints are monitored and protected from unauthorized access. \nWe ensure compliance with global data security standards. \nEncryption and rate-limiting strengthen every request-response cycle. \nYour users’ trust is built on a foundation of robust security.",
+      },
+      {
+        id: "api-testing",
+        icon: "Leaf",
+        title: "API Testing & Performance Optimization",
+        subtitle: "",
+        description:
+          "Our QA engineers perform extensive testing for every API endpoint. \nLoad, stress, and security testing ensure performance at scale. \nWe identify bottlenecks early and enhance speed and stability. \nAPIs are optimized for real-world traffic and diverse use cases. \nDeliver a consistent, error-free experience to all users.",
+      },
+      {
+        id: "documentation",
+        icon: "Leaf",
+        title: "API Documentation & Developer Support",
+        subtitle: "",
+        description:
+          "We create detailed, easy-to-follow API documentation for developers. \nInteractive docs simplify onboarding and reduce integration time. \nOur support includes SDKs, code samples, and usage guidelines. \nWe ensure clarity and transparency for long-term maintainability. \nEmpower teams to innovate faster with well-documented APIs.",
+      },
+    ],
+    linkText: "Get Expert API Developers",
+    linkUrl: "/contact-us",
+  },
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
 
   managementSolutions: {
     title: "API Management Tools",
     subtitle:
       "Streamline API design, testing, deployment, and monitoring with our API management solutions for teams of any size.",
     subtitleLink: { text: "API management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/1200x/dc/10/66/dc1066149a50c98d217a705f337cc579.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/1200x/dc/10/66/dc1066149a50c98d217a705f337cc579.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {
@@ -191,7 +315,13 @@ export const apiDevelopment: ServiceConfig = {
       },
     ],
     ctaText: "Get API Development Experts",
+<<<<<<< HEAD
     onCtaClick: () => {},
+=======
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
   },
   faq: {
     title: "FAQ - API Development Services",

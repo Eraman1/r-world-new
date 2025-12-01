@@ -20,7 +20,7 @@ export const posPaymentProcessing: SolutionConfig = {
     mainTitle: "Custom POS & Payment Platform Development",
     mainDescription:
       "We build scalable POS systems, integrated with payment processing, inventory management, and reporting features. Our solutions help businesses reduce transaction time, prevent errors, and provide real-time insights for smarter operations.",
-    image: "/images/pos-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +47,77 @@ export const posPaymentProcessing: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Advanced POS & Payment Solutions",
-  mainDescription:
-    "Our POS and payment processing platforms streamline business operations, reduce transaction errors, and enhance customer satisfaction with fast, secure, and reliable technology.",
-  items: [
-    {
-      id: "retail-pos",
-      icon: "Leaf",
-      title: "Retail POS Systems",
-      subtitle: "Efficient Store Operations",
-      description:
-        "Simplify checkout, inventory management, and reporting for retail stores with an intuitive POS interface. Improve employee productivity and reduce transaction errors. Ensure fast, secure payments while keeping track of stock levels in real-time.",
-    },
-    {
-      id: "restaurant-pos",
-      icon: "Leaf",
-      title: "Restaurant POS Solutions",
-      subtitle: "Seamless Order & Payment Handling",
-      description:
-        "Manage tables, orders, and bills efficiently with a comprehensive POS system. Integrate multiple payment options for diners, including contactless payments. Optimize kitchen workflows and track order history for better customer service.",
-    },
-    {
-      id: "mobile-pos",
-      icon: "Leaf",
-      title: "Mobile POS & Wallets",
-      subtitle: "Accept Payments Anywhere",
-      description:
-        "Enable sales and payments on the go using mobile POS apps and digital wallets. Accept QR payments, NFC, and contactless transactions securely. Provide a convenient checkout experience for both customers and staff outside traditional retail setups.",
-    },
-    {
-      id: "ecommerce-payment",
-      icon: "Leaf",
-      title: "E-Commerce Payment Gateways",
-      subtitle: "Secure Online Transactions",
-      description:
-        "Integrate reliable payment gateways into your online store for fast and secure checkout experiences. Support multiple payment methods including cards, UPI, and wallets. Enhance customer trust and reduce cart abandonment with seamless transactions.",
-    },
-    {
-      id: "loyalty-programs",
-      icon: "Leaf",
-      title: "Loyalty & Rewards Management",
-      subtitle: "Boost Customer Retention",
-      description:
-        "Incorporate reward points, discounts, and loyalty programs directly into your POS system. Track customer engagement and purchase patterns. Increase repeat business and incentivize loyal customers effectively.",
-    },
-    {
-      id: "analytics-dashboard",
-      icon: "Leaf",
-      title: "Sales Analytics & Reporting",
-      subtitle: "Data-Driven Decisions",
-      description:
-        "Monitor sales, customer trends, and revenue performance with detailed dashboards. Generate actionable insights for smarter business decisions. Track KPIs, optimize operations, and identify opportunities to grow your business efficiently.",
-    },
-  ],
-  linkText: "Get POS & Payment Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Advanced POS & Payment Solutions",
+    mainDescription:
+      "Our POS and payment processing platforms streamline business operations, reduce transaction errors, and enhance customer satisfaction with fast, secure, and reliable technology.",
+    items: [
+      {
+        id: "retail-pos",
+        icon: "Leaf",
+        title: "Retail POS Systems",
+        subtitle: "Efficient Store Operations",
+        description:
+          "Simplify checkout, inventory management, and reporting for retail stores with an intuitive POS interface. Improve employee productivity and reduce transaction errors. Ensure fast, secure payments while keeping track of stock levels in real-time.",
+      },
+      {
+        id: "restaurant-pos",
+        icon: "Leaf",
+        title: "Restaurant POS Solutions",
+        subtitle: "Seamless Order & Payment Handling",
+        description:
+          "Manage tables, orders, and bills efficiently with a comprehensive POS system. Integrate multiple payment options for diners, including contactless payments. Optimize kitchen workflows and track order history for better customer service.",
+      },
+      {
+        id: "mobile-pos",
+        icon: "Leaf",
+        title: "Mobile POS & Wallets",
+        subtitle: "Accept Payments Anywhere",
+        description:
+          "Enable sales and payments on the go using mobile POS apps and digital wallets. Accept QR payments, NFC, and contactless transactions securely. Provide a convenient checkout experience for both customers and staff outside traditional retail setups.",
+      },
+      {
+        id: "ecommerce-payment",
+        icon: "Leaf",
+        title: "E-Commerce Payment Gateways",
+        subtitle: "Secure Online Transactions",
+        description:
+          "Integrate reliable payment gateways into your online store for fast and secure checkout experiences. Support multiple payment methods including cards, UPI, and wallets. Enhance customer trust and reduce cart abandonment with seamless transactions.",
+      },
+      {
+        id: "loyalty-programs",
+        icon: "Leaf",
+        title: "Loyalty & Rewards Management",
+        subtitle: "Boost Customer Retention",
+        description:
+          "Incorporate reward points, discounts, and loyalty programs directly into your POS system. Track customer engagement and purchase patterns. Increase repeat business and incentivize loyal customers effectively.",
+      },
+      {
+        id: "analytics-dashboard",
+        icon: "Leaf",
+        title: "Sales Analytics & Reporting",
+        subtitle: "Data-Driven Decisions",
+        description:
+          "Monitor sales, customer trends, and revenue performance with detailed dashboards. Generate actionable insights for smarter business decisions. Track KPIs, optimize operations, and identify opportunities to grow your business efficiently.",
+      },
+    ],
+    linkText: "Get POS & Payment Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "POS Management & Payment Platforms",
     subtitle:
       "Centralize your sales, inventory, and payment processing with secure, cloud-based POS management solutions.",
     subtitleLink: { text: "POS management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
     mobileImage: "https://i.pinimg.com/1200x/85/e7/43/85e743c89ecb01b1a97086429eabfc63.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
+    mobileImage:
+      "https://i.pinimg.com/1200x/85/e7/43/85e743c89ecb01b1a97086429eabfc63.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "central-dashboard",
@@ -136,37 +142,39 @@ export const posPaymentProcessing: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "workflow-automation",
-    icon: "map",
-    title: "Workflow Automation",
-    description:
-      "Automate routine tasks such as billing, invoice generation, and report scheduling for operational efficiency. Reduce manual errors and save valuable time for your team. Streamline daily operations to focus on strategic business growth.",
-  },
-  {
-    id: "multi-channel",
-    icon: "map",
-    title: "Multi-Channel Integration",
-    description:
-      "Connect your physical stores, e-commerce platforms, and mobile POS for unified sales and inventory management. Synchronize data in real-time across all channels for accurate reporting. Improve customer experience with seamless cross-platform operations.",
-  },
-  {
-    id: "cloud-sync",
-    icon: "map",
-    title: "Cloud & Mobile Access",
-    description:
-      "Access your POS system remotely via cloud applications or mobile devices to monitor sales anytime, anywhere. Enable your team to update inventory and manage transactions on-the-go. Ensure business continuity with secure cloud-based data storage.",
-  },
-  {
-    id: "alerts",
-    icon: "map",
-    title: "Real-Time Alerts & Notifications",
-    description:
-      "Receive notifications for transaction failures, stock levels, and operational anomalies instantly. Stay proactive in addressing issues before they impact operations. Enhance decision-making with timely and actionable insights.",
-  },
-],
-ctaText: "Get POS & Payment Experts",
-onCtaClick: () => {},
+      {
+        id: "workflow-automation",
+        icon: "map",
+        title: "Workflow Automation",
+        description:
+          "Automate routine tasks such as billing, invoice generation, and report scheduling for operational efficiency. Reduce manual errors and save valuable time for your team. Streamline daily operations to focus on strategic business growth.",
+      },
+      {
+        id: "multi-channel",
+        icon: "map",
+        title: "Multi-Channel Integration",
+        description:
+          "Connect your physical stores, e-commerce platforms, and mobile POS for unified sales and inventory management. Synchronize data in real-time across all channels for accurate reporting. Improve customer experience with seamless cross-platform operations.",
+      },
+      {
+        id: "cloud-sync",
+        icon: "map",
+        title: "Cloud & Mobile Access",
+        description:
+          "Access your POS system remotely via cloud applications or mobile devices to monitor sales anytime, anywhere. Enable your team to update inventory and manage transactions on-the-go. Ensure business continuity with secure cloud-based data storage.",
+      },
+      {
+        id: "alerts",
+        icon: "map",
+        title: "Real-Time Alerts & Notifications",
+        description:
+          "Receive notifications for transaction failures, stock levels, and operational anomalies instantly. Stay proactive in addressing issues before they impact operations. Enhance decision-making with timely and actionable insights.",
+      },
+    ],
+    ctaText: "Get POS & Payment Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

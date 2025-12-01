@@ -15,23 +15,23 @@ interface FooterLink {
 
 const Footer: React.FC = () => {
   const quickLinks: FooterLink[] = [
-    { label: "About Us", href: "/about" },
-    { label: "Services", href: "/services" },
-    { label: "On-Demand Developers", href: "/developers" },
-    { label: "Partners & Affiliations", href: "/partners" },
-    { label: "Case Studies", href: "/case-studies" },
-    { label: "Blog", href: "/blog" },
+    { label: "About Us", href: "/about-us" },
+    // { label: "Services", href: "/services" },
+    { label: "On-Demand Developers", href: "/on-demand-developers" },
+    // { label: "Partners & Affiliations", href: "/partners" },
+    // { label: "Case Studies", href: "/case-studies" },
+    { label: "Blog", href: "/blogs" },
   ];
 
   const industries: FooterLink[] = [
     { label: "Agriculture", href: "/industries/agriculture" },
     { label: "Aviation", href: "/industries/aviation" },
-    { label: "Casino", href: "/industries/casino" },
+    { label: "Casino", href: "/industries/casino-games" },
     { label: "Construction", href: "/industries/construction" },
     { label: "Corrections", href: "/industries/corrections" },
-    { label: "E-Learning", href: "/industries/e-learning" },
-    { label: "Energy", href: "/industries/energy" },
-    { label: "Environmental", href: "/industries/environmental" },
+    { label: "E-Learning", href: "/industries/e-learning-education" },
+    { label: "Energy", href: "/industries/energy-utilities" },
+    { label: "Environmental", href: "/industries/environmental-management" },
     { label: "Finance", href: "/industries/finance" },
     { label: "Food & Beverage", href: "/industries/food-beverage" },
     { label: "Gaming", href: "/industries/gaming" },
@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
   const additionalIndustries: FooterLink[] = [
     { label: "HCM", href: "/industries/hcm" },
     { label: "Healthcare", href: "/industries/healthcare" },
-    { label: "Hospitality", href: "/industries/hospitality" },
+    { label: "Hospitality & Travel", href: "/industries/hospitality-travel" },
     { label: "Insurance", href: "/industries/insurance" },
     { label: "Legal", href: "/industries/legal" },
     { label: "Lending", href: "/industries/lending" },
@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-100 relative">
       {/* Teal accent bar */}
-      <div className="h-2 bg-sky-600"></div>
+      <div className="h-2 bg-gradient-to-r from-gray-900 to-blue-800"></div>
 
       {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-4 py-12">
@@ -130,13 +130,6 @@ const Footer: React.FC = () => {
                   </Link>
                 </div>
               </div>
-
-              <Link
-                href="/contact"
-                className="inline-block mt-6 px-6 py-2 border-2 border-amber-500 text-amber-500 rounded-full font-semibold hover:bg-amber-500 hover:text-white transition-colors duration-300"
-              >
-                CONTACT US
-              </Link>
             </div>
           </div>
 
@@ -228,7 +221,7 @@ const Footer: React.FC = () => {
               </Link>
 
               <Link
-                href="https://www.facebook.com/people/Stock-it-Inventory-manager-app/61556269179445"
+                href="https://www.facebook.com/people/R-World-Software/61556101936926/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#1877F2] rounded-lg flex items-center justify-center hover:bg-[#0d65d9] hover:scale-110 transition-all duration-300 shadow-md"
@@ -237,7 +230,7 @@ const Footer: React.FC = () => {
                 <Facebook className="w-5 h-5 text-white" />
               </Link>
 
-              <Link
+              {/* <Link
                 href="https://www.youtube.com/@stock-it"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -245,10 +238,10 @@ const Footer: React.FC = () => {
                 aria-label="YouTube"
               >
                 <Youtube className="w-5 h-5 text-white" />
-              </Link>
+              </Link> */}
 
               <Link
-                href="https://www.instagram.com/stock.it.app/"
+                href="https://www.instagram.com/rworld.software/?igsh=MWM5enJzbWdubTZoMA%3D%3D#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gradient-to-br from-[#833AB4] via-[#FD1D1D] to-[#F77737] rounded-lg flex items-center justify-center hover:scale-110 transition-all duration-300 shadow-md"

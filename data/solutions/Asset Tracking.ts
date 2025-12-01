@@ -20,7 +20,8 @@ export const assetTracking: SolutionConfig = {
     mainTitle: "Smart Asset & Inventory Tracking Software",
     mainDescription:
       "Our asset tracking solutions automate item identification, location tracking, and lifecycle management across warehouses, logistics, retail, and enterprise operations. Integrated analytics help reduce losses and improve resource utilization.",
-    image: "/images/asset-tracking-laptop.png",
+    image:
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +48,77 @@ export const assetTracking: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "End-to-End Asset Tracking Solutions",
-  mainDescription:
-    "Our RFID and barcode tracking systems provide real-time insights into asset location, condition, and usage. From hardware integration to analytics dashboards, we deliver full-stack tracking ecosystems for every industry.",
-  items: [
-    {
-      id: "inventory-management",
-      icon: "Leaf",
-      title: "Inventory Management",
-      subtitle: "Automated Stock Visibility",
-      description:
-        "Gain complete visibility into product quantities, locations, and movements across warehouses in real time. Automate stock tracking with RFID and barcode systems to minimize human error. Improve forecasting accuracy and maintain balanced inventory levels effortlessly.",
-    },
-    {
-      id: "equipment-tracking",
-      icon: "Leaf",
-      title: "Equipment Tracking",
-      subtitle: "Monitor Critical Assets",
-      description:
-        "Monitor high-value tools, vehicles, and IT equipment through real-time tracking and smart identification. Receive instant alerts for movement or unauthorized usage. Enhance accountability and prevent asset loss with precision location data.",
-    },
-    {
-      id: "warehouse-automation",
-      icon: "Leaf",
-      title: "Warehouse Automation",
-      subtitle: "Smart Operations",
-      description:
-        "Transform warehouse operations with RFID scanners, conveyor systems, and automated data capture. Eliminate manual errors and speed up order processing. Achieve real-time synchronization between storage, picking, and dispatch operations.",
-    },
-    {
-      id: "field-asset-monitoring",
-      icon: "Leaf",
-      title: "Field Asset Monitoring",
-      subtitle: "Remote Asset Visibility",
-      description:
-        "Track outdoor and mobile assets using GPS-enabled RFID technology for accurate location monitoring. Improve operational transparency and resource allocation. Ensure field teams stay efficient with instant asset data and remote visibility.",
-    },
-    {
-      id: "asset-lifecycle",
-      icon: "Leaf",
-      title: "Asset Lifecycle Management",
-      subtitle: "Maintenance & Depreciation Tracking",
-      description:
-        "Oversee the complete lifecycle of assets from acquisition to disposal with real-time tracking tools. Schedule preventive maintenance and manage depreciation efficiently. Optimize utilization rates while maintaining compliance and reducing costs.",
-    },
-    {
-      id: "analytics-dashboard",
-      icon: "Leaf",
-      title: "Analytics & Reporting Dashboard",
-      subtitle: "Data-Driven Decisions",
-      description:
-        "Access powerful dashboards for visualizing asset performance, utilization, and condition trends. Generate detailed custom reports to support data-driven decision-making. Gain insights that enhance productivity and strategic resource planning.",
-    },
-  ],
-  linkText: "Get Asset Tracking Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "End-to-End Asset Tracking Solutions",
+    mainDescription:
+      "Our RFID and barcode tracking systems provide real-time insights into asset location, condition, and usage. From hardware integration to analytics dashboards, we deliver full-stack tracking ecosystems for every industry.",
+    items: [
+      {
+        id: "inventory-management",
+        icon: "Leaf",
+        title: "Inventory Management",
+        subtitle: "Automated Stock Visibility",
+        description:
+          "Gain complete visibility into product quantities, locations, and movements across warehouses in real time. Automate stock tracking with RFID and barcode systems to minimize human error. Improve forecasting accuracy and maintain balanced inventory levels effortlessly.",
+      },
+      {
+        id: "equipment-tracking",
+        icon: "Leaf",
+        title: "Equipment Tracking",
+        subtitle: "Monitor Critical Assets",
+        description:
+          "Monitor high-value tools, vehicles, and IT equipment through real-time tracking and smart identification. Receive instant alerts for movement or unauthorized usage. Enhance accountability and prevent asset loss with precision location data.",
+      },
+      {
+        id: "warehouse-automation",
+        icon: "Leaf",
+        title: "Warehouse Automation",
+        subtitle: "Smart Operations",
+        description:
+          "Transform warehouse operations with RFID scanners, conveyor systems, and automated data capture. Eliminate manual errors and speed up order processing. Achieve real-time synchronization between storage, picking, and dispatch operations.",
+      },
+      {
+        id: "field-asset-monitoring",
+        icon: "Leaf",
+        title: "Field Asset Monitoring",
+        subtitle: "Remote Asset Visibility",
+        description:
+          "Track outdoor and mobile assets using GPS-enabled RFID technology for accurate location monitoring. Improve operational transparency and resource allocation. Ensure field teams stay efficient with instant asset data and remote visibility.",
+      },
+      {
+        id: "asset-lifecycle",
+        icon: "Leaf",
+        title: "Asset Lifecycle Management",
+        subtitle: "Maintenance & Depreciation Tracking",
+        description:
+          "Oversee the complete lifecycle of assets from acquisition to disposal with real-time tracking tools. Schedule preventive maintenance and manage depreciation efficiently. Optimize utilization rates while maintaining compliance and reducing costs.",
+      },
+      {
+        id: "analytics-dashboard",
+        icon: "Leaf",
+        title: "Analytics & Reporting Dashboard",
+        subtitle: "Data-Driven Decisions",
+        description:
+          "Access powerful dashboards for visualizing asset performance, utilization, and condition trends. Generate detailed custom reports to support data-driven decision-making. Gain insights that enhance productivity and strategic resource planning.",
+      },
+    ],
+    linkText: "Get Asset Tracking Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Integrated Asset Management Systems",
     subtitle:
       "Enhance visibility and control with centralized asset tracking software, integrated with ERP, warehouse, and IoT platforms.",
     subtitleLink: { text: "integrated asset management", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/1200x/0f/e9/97/0fe997bcab92c7981afb73825a7af1dd.jpg",
     mobileImage: "https://i.pinimg.com/736x/01/ad/7a/01ad7aad279f9cc133fd152b8f5983fc.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/1200x/0f/e9/97/0fe997bcab92c7981afb73825a7af1dd.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/01/ad/7a/01ad7aad279f9cc133fd152b8f5983fc.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "cloud-tracking",
@@ -136,37 +143,39 @@ export const assetTracking: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "integration",
-    icon: "map",
-    title: "ERP & CRM Integration",
-    description:
-      "Integrate seamlessly with ERP, SAP, or CRM platforms to ensure real-time synchronization of asset and operational data. Enhance financial accuracy through automated updates and unified dashboards. Improve decision-making with centralized data visibility across departments.",
-  },
-  {
-    id: "security",
-    icon: "map",
-    title: "Data Security & Encryption",
-    description:
-      "Protect all tracking and operational data with enterprise-grade encryption and secure communication protocols. Enforce strict access controls to prevent unauthorized activity. Maintain compliance with global data protection and cybersecurity standards.",
-  },
-  {
-    id: "reporting",
-    icon: "map",
-    title: "Custom Reporting Tools",
-    description:
-      "Generate real-time performance reports, asset utilization summaries, and compliance insights. Customize dashboards to track KPIs and business metrics effectively. Simplify audits and strategic planning with clear, data-driven visualization tools.",
-  },
-  {
-    id: "api-support",
-    icon: "map",
-    title: "API Integration Support",
-    description:
-      "Connect effortlessly with external systems such as IoT devices, analytics platforms, and inventory solutions. Enable smooth data exchange through secure, scalable APIs. Streamline workflows and expand functionality with cross-platform integration support.",
-  },
-],
-ctaText: "Talk to Our Asset Tracking Experts",
-onCtaClick: () => {},
+      {
+        id: "integration",
+        icon: "map",
+        title: "ERP & CRM Integration",
+        description:
+          "Integrate seamlessly with ERP, SAP, or CRM platforms to ensure real-time synchronization of asset and operational data. Enhance financial accuracy through automated updates and unified dashboards. Improve decision-making with centralized data visibility across departments.",
+      },
+      {
+        id: "security",
+        icon: "map",
+        title: "Data Security & Encryption",
+        description:
+          "Protect all tracking and operational data with enterprise-grade encryption and secure communication protocols. Enforce strict access controls to prevent unauthorized activity. Maintain compliance with global data protection and cybersecurity standards.",
+      },
+      {
+        id: "reporting",
+        icon: "map",
+        title: "Custom Reporting Tools",
+        description:
+          "Generate real-time performance reports, asset utilization summaries, and compliance insights. Customize dashboards to track KPIs and business metrics effectively. Simplify audits and strategic planning with clear, data-driven visualization tools.",
+      },
+      {
+        id: "api-support",
+        icon: "map",
+        title: "API Integration Support",
+        description:
+          "Connect effortlessly with external systems such as IoT devices, analytics platforms, and inventory solutions. Enable smooth data exchange through secure, scalable APIs. Streamline workflows and expand functionality with cross-platform integration support.",
+      },
+    ],
+    ctaText: "Talk to Our Asset Tracking Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {
@@ -198,7 +207,8 @@ onCtaClick: () => {},
       },
       {
         id: "5",
-        question: "Is the system compatible with existing ERP or inventory software?",
+        question:
+          "Is the system compatible with existing ERP or inventory software?",
         answer:
           "Absolutely. Our solutions integrate with ERP, CRM, and warehouse management systems for unified data and operations.",
       },

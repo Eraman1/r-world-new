@@ -20,7 +20,7 @@ export const googlecloude: SolutionConfig = {
     mainTitle: "End-to-End AWS Cloud Development Services",
     mainDescription:
       "We empower organizations with AWS-based solutions — from cloud migration and serverless applications to AI, data analytics, and DevOps automation. Whether you’re modernizing infrastructure or launching cloud-native apps, we deliver performance and security at scale.",
-    image: "/images/aws-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -57,7 +57,7 @@ export const googlecloude: SolutionConfig = {
         title: "Compute & Scalability",
         subtitle: "Elastic Cloud Infrastructure",
         description:
-          "Deploy scalable compute resources using Amazon EC2, ECS, and Lambda to handle workloads of any size efficiently.",
+          "Deploy scalable compute resources across EC2, ECS, and Lambda for flexible performance. \nAutomatically adjust capacity during peak workloads without disruptions. \nImprove application responsiveness with highly optimized compute environments. \nReduce operational overhead with managed serverless architectures. \nDeliver consistent performance across distributed global deployments.",
       },
       {
         id: "storage",
@@ -65,7 +65,7 @@ export const googlecloude: SolutionConfig = {
         title: "Data Storage & Backup",
         subtitle: "Reliable Data Management",
         description:
-          "Use Amazon S3, EBS, and Glacier for secure, redundant, and cost-effective data storage with automated backup solutions.",
+          "Store and manage data securely using S3, EBS, and Glacier with built-in redundancy. \nLeverage automated lifecycle policies to optimize storage costs effortlessly. \nProtect mission-critical information with durable backup and archival systems. \nEnable fast retrieval and seamless integration with analytics tools. \nMaintain long-term reliability with enterprise-grade storage durability.",
       },
       {
         id: "security",
@@ -73,7 +73,7 @@ export const googlecloude: SolutionConfig = {
         title: "Security & Compliance",
         subtitle: "Enterprise-Grade Protection",
         description:
-          "Implement IAM, KMS, and GuardDuty to secure your cloud infrastructure and ensure compliance with global standards.",
+          "Secure cloud workloads using IAM, KMS, GuardDuty, and AWS Shield. \nEnforce granular access controls to protect users, data, and applications. \nMonitor threats continuously with intelligent anomaly detection tools. \nMeet global compliance frameworks including SOC, HIPAA, and GDPR. \nStrengthen cloud governance with automated policy enforcement.",
       },
       {
         id: "machine-learning",
@@ -81,7 +81,7 @@ export const googlecloude: SolutionConfig = {
         title: "AI & Machine Learning",
         subtitle: "Intelligent Cloud Systems",
         description:
-          "Utilize Amazon SageMaker and AI services for predictive analytics, personalization, and intelligent automation.",
+          "Build intelligent models using Amazon SageMaker and integrated AI services. \nEnable predictive analytics for forecasting, personalization, and automation. \nTrain and deploy machine learning models faster with managed pipelines. \nEnhance business decisions using real-time inference capabilities. \nCreate scalable AI solutions that adapt to evolving data patterns.",
       },
       {
         id: "networking",
@@ -89,7 +89,7 @@ export const googlecloude: SolutionConfig = {
         title: "Networking & Content Delivery",
         subtitle: "Faster Global Reach",
         description:
-          "Optimize performance using AWS CloudFront, Route 53, and VPC for seamless global connectivity and traffic management.",
+          "Optimize global performance using CloudFront, Route 53, and Amazon VPC. \nDeliver content with low latency and high availability across regions. \nManage secure connections between distributed systems and services. \nBalance traffic intelligently for consistent user experiences. \nEnsure smooth operations with scalable and resilient networking layers.",
       },
       {
         id: "monitoring",
@@ -97,7 +97,7 @@ export const googlecloude: SolutionConfig = {
         title: "Monitoring & Performance",
         subtitle: "Real-Time Cloud Insights",
         description:
-          "Monitor and optimize system performance using CloudWatch and X-Ray for complete operational visibility.",
+          "Gain complete visibility using CloudWatch dashboards and custom metrics. \nTrace service performance with AWS X-Ray for deep operational insights. \nIdentify issues proactively through automated alarms and logs. \nOptimize application and infrastructure efficiency with analytics. \nEnsure stable performance with continuous monitoring and reporting.",
       },
     ],
     linkText: "Explore AWS Services",
@@ -109,8 +109,15 @@ export const googlecloude: SolutionConfig = {
     subtitle:
       "Empower your teams with cloud-native management tools to monitor, optimize, and automate AWS infrastructure for maximum performance.",
     subtitleLink: { text: "AWS cloud management", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/1200x/52/af/00/52af009be59edf67607353fbc610d904.jpg",
     mobileImage: "https://i.pinimg.com/736x/40/19/50/401950f6f52e0594cb763ae089bce8a9.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/1200x/52/af/00/52af009be59edf67607353fbc610d904.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/40/19/50/401950f6f52e0594cb763ae089bce8a9.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "cost-optimization",
@@ -165,7 +172,9 @@ export const googlecloude: SolutionConfig = {
       },
     ],
     ctaText: "Get AWS Experts",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

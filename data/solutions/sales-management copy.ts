@@ -20,7 +20,7 @@ export const salesManagement: SolutionConfig = {
     mainTitle: "Professional Sales Management Services",
     mainDescription:
       "Our solutions cover CRM, lead management, sales automation, and analytics. We ensure your sales teams work efficiently, track deals accurately, and make data-backed decisions to drive revenue growth.",
-    image: "/images/sales-management-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -109,8 +109,15 @@ export const salesManagement: SolutionConfig = {
     subtitle:
       "Manage customer data, track sales activities, and gain actionable insights with our centralized sales management systems.",
     subtitleLink: { text: "sales management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/a7/7b/0a/a77b0a8dc6a746346efa3016a7f5ba05.jpg",
     mobileImage: "https://i.pinimg.com/736x/b4/7b/c1/b47bc1ec1a5bf67d190180500ca38c3c.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/a7/7b/0a/a77b0a8dc6a746346efa3016a7f5ba05.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/b4/7b/c1/b47bc1ec1a5bf67d190180500ca38c3c.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "dashboard",
@@ -165,7 +172,9 @@ export const salesManagement: SolutionConfig = {
       },
     ],
     ctaText: "Get Sales Experts Consultation",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {
@@ -179,7 +188,8 @@ export const salesManagement: SolutionConfig = {
       },
       {
         id: "2",
-        question: "Which businesses can benefit from sales management software?",
+        question:
+          "Which businesses can benefit from sales management software?",
         answer:
           "Sales teams of all sizes, from startups to enterprises, can use sales management software to streamline processes and boost revenue.",
       },

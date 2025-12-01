@@ -20,7 +20,7 @@ export const UiPath: SolutionConfig = {
     mainTitle: "Comprehensive UiPath RPA Development Services",
     mainDescription:
       "We help enterprises leverage UiPath’s full potential for Robotic Process Automation (RPA). From process discovery to orchestration and bot deployment, we enable digital transformation with efficiency and accuracy.",
-    image: "/images/uipath-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +47,77 @@ export const UiPath: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "UiPath Automation & RPA Solutions",
-  mainDescription:
-    "Empower your organization with intelligent automation. We design UiPath-driven solutions to accelerate workflows, reduce manual effort, and increase ROI through smart digital transformation.",
-  items: [
-    {
-      id: "document-processing",
-      icon: "Leaf",
-      title: "Document Processing Automation",
-      subtitle: "AI-Powered Data Extraction",
-      description:
-        "Leverage UiPath’s advanced OCR and AI tools to extract, validate, and categorize data from invoices, PDFs, and scanned forms. Automate document handling from start to finish with accuracy and consistency. Save hours of manual effort and ensure faster data availability across departments.",
-    },
-    {
-      id: "financial-automation",
-      icon: "Leaf",
-      title: "Financial & Accounting Automation",
-      subtitle: "Reduce Manual Entry Errors",
-      description:
-        "Streamline financial operations by automating data entry, reconciliations, and reporting workflows. Minimize human error and maintain audit-ready accuracy in accounting records. Empower your finance teams to focus on analysis, compliance, and strategic decision-making.",
-    },
-    {
-      id: "customer-service",
-      icon: "Leaf",
-      title: "Customer Service Automation",
-      subtitle: "Enhance CX with Virtual Assistants",
-      description:
-        "Deploy UiPath bots to handle support tickets, retrieve customer data, and automate repetitive inquiries. Reduce response times while ensuring personalized service delivery. Elevate your customer experience through seamless human-bot collaboration across helpdesk platforms.",
-    },
-    {
-      id: "data-integration",
-      icon: "Leaf",
-      title: "Data Integration Workflows",
-      subtitle: "Seamless System Connectivity",
-      description:
-        "Enable smooth data flow across ERP, CRM, and legacy systems with UiPath integration bots. Eliminate data silos and ensure real-time synchronization between platforms. Simplify digital operations by connecting multiple business applications effortlessly.",
-    },
-    {
-      id: "ai-decision-making",
-      icon: "Leaf",
-      title: "AI-Driven Decision Making",
-      subtitle: "Smarter Automation Outcomes",
-      description:
-        "Combine UiPath RPA with AI and machine learning to automate decisions based on predictive analytics. Improve business accuracy with intelligent workflows that learn and adapt. Achieve greater agility and innovation through data-driven process automation.",
-    },
-    {
-      id: "employee-productivity",
-      icon: "Leaf",
-      title: "Employee Productivity Bots",
-      subtitle: "Focus on High-Value Work",
-      description:
-        "Boost team efficiency by automating repetitive admin, HR, and reporting tasks with UiPath robots. Allow employees to focus on creative, strategic, and analytical work. Foster a smarter, more productive workplace through intelligent automation solutions.",
-    },
-  ],
-  linkText: "Automate with UiPath",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "UiPath Automation & RPA Solutions",
+    mainDescription:
+      "Empower your organization with intelligent automation. We design UiPath-driven solutions to accelerate workflows, reduce manual effort, and increase ROI through smart digital transformation.",
+    items: [
+      {
+        id: "document-processing",
+        icon: "Leaf",
+        title: "Document Processing Automation",
+        subtitle: "AI-Powered Data Extraction",
+        description:
+          "Leverage UiPath’s advanced OCR and AI tools to extract, validate, and categorize data from invoices, PDFs, and scanned forms. Automate document handling from start to finish with accuracy and consistency. Save hours of manual effort and ensure faster data availability across departments.",
+      },
+      {
+        id: "financial-automation",
+        icon: "Leaf",
+        title: "Financial & Accounting Automation",
+        subtitle: "Reduce Manual Entry Errors",
+        description:
+          "Streamline financial operations by automating data entry, reconciliations, and reporting workflows. Minimize human error and maintain audit-ready accuracy in accounting records. Empower your finance teams to focus on analysis, compliance, and strategic decision-making.",
+      },
+      {
+        id: "customer-service",
+        icon: "Leaf",
+        title: "Customer Service Automation",
+        subtitle: "Enhance CX with Virtual Assistants",
+        description:
+          "Deploy UiPath bots to handle support tickets, retrieve customer data, and automate repetitive inquiries. Reduce response times while ensuring personalized service delivery. Elevate your customer experience through seamless human-bot collaboration across helpdesk platforms.",
+      },
+      {
+        id: "data-integration",
+        icon: "Leaf",
+        title: "Data Integration Workflows",
+        subtitle: "Seamless System Connectivity",
+        description:
+          "Enable smooth data flow across ERP, CRM, and legacy systems with UiPath integration bots. Eliminate data silos and ensure real-time synchronization between platforms. Simplify digital operations by connecting multiple business applications effortlessly.",
+      },
+      {
+        id: "ai-decision-making",
+        icon: "Leaf",
+        title: "AI-Driven Decision Making",
+        subtitle: "Smarter Automation Outcomes",
+        description:
+          "Combine UiPath RPA with AI and machine learning to automate decisions based on predictive analytics. Improve business accuracy with intelligent workflows that learn and adapt. Achieve greater agility and innovation through data-driven process automation.",
+      },
+      {
+        id: "employee-productivity",
+        icon: "Leaf",
+        title: "Employee Productivity Bots",
+        subtitle: "Focus on High-Value Work",
+        description:
+          "Boost team efficiency by automating repetitive admin, HR, and reporting tasks with UiPath robots. Allow employees to focus on creative, strategic, and analytical work. Foster a smarter, more productive workplace through intelligent automation solutions.",
+      },
+    ],
+    linkText: "Automate with UiPath",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "UiPath Orchestration & Management Systems",
     subtitle:
       "Centralize, monitor, and manage your bots efficiently using UiPath Orchestrator for enterprise-grade automation governance.",
     subtitleLink: { text: "UiPath Orchestrator", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/e1/76/4c/e1764c30845f7312decbec64574563f4.jpg",
     mobileImage: "https://i.pinimg.com/736x/49/40/e7/4940e78f82f1816f8c3d66fb4c0b617a.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/e1/76/4c/e1764c30845f7312decbec64574563f4.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/49/40/e7/4940e78f82f1816f8c3d66fb4c0b617a.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "monitoring",
@@ -136,37 +142,39 @@ export const UiPath: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "analytics",
-    icon: "map",
-    title: "Automation Analytics",
-    description:
-      "Gain actionable insights into your automation performance with real-time analytics dashboards. Track ROI, efficiency, and process optimization metrics effortlessly. Use data-driven intelligence to refine workflows and boost productivity across teams.",
-  },
-  {
-    id: "cloud-integration",
-    icon: "map",
-    title: "Cloud Orchestration",
-    description:
-      "Deploy and manage bots securely on the UiPath Cloud for enhanced scalability and uptime. Enable remote accessibility to automation assets from any location. Simplify infrastructure management while maintaining performance and reliability.",
-  },
-  {
-    id: "integration",
-    icon: "map",
-    title: "Seamless App Integrations",
-    description:
-      "Effortlessly integrate UiPath automation with SAP, Salesforce, Power BI, and leading enterprise tools. Connect your digital ecosystem for unified data flow and improved collaboration. Eliminate silos to achieve a streamlined and connected business environment.",
-  },
-  {
-    id: "ai-robotics",
-    icon: "map",
-    title: "AI Robotics",
-    description:
-      "Combine robotic process automation with artificial intelligence for smarter workflows. Enable predictive analytics, pattern recognition, and self-learning capabilities. Drive intelligent decision-making and automation that evolves with your business needs.",
-  },
-],
-ctaText: "Get UiPath Experts",
-onCtaClick: () => {},
+      {
+        id: "analytics",
+        icon: "map",
+        title: "Automation Analytics",
+        description:
+          "Gain actionable insights into your automation performance with real-time analytics dashboards. Track ROI, efficiency, and process optimization metrics effortlessly. Use data-driven intelligence to refine workflows and boost productivity across teams.",
+      },
+      {
+        id: "cloud-integration",
+        icon: "map",
+        title: "Cloud Orchestration",
+        description:
+          "Deploy and manage bots securely on the UiPath Cloud for enhanced scalability and uptime. Enable remote accessibility to automation assets from any location. Simplify infrastructure management while maintaining performance and reliability.",
+      },
+      {
+        id: "integration",
+        icon: "map",
+        title: "Seamless App Integrations",
+        description:
+          "Effortlessly integrate UiPath automation with SAP, Salesforce, Power BI, and leading enterprise tools. Connect your digital ecosystem for unified data flow and improved collaboration. Eliminate silos to achieve a streamlined and connected business environment.",
+      },
+      {
+        id: "ai-robotics",
+        icon: "map",
+        title: "AI Robotics",
+        description:
+          "Combine robotic process automation with artificial intelligence for smarter workflows. Enable predictive analytics, pattern recognition, and self-learning capabilities. Drive intelligent decision-making and automation that evolves with your business needs.",
+      },
+    ],
+    ctaText: "Get UiPath Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

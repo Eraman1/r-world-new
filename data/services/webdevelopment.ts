@@ -18,7 +18,11 @@ export const webdevelopment: ServiceConfig = {
     mainTitle: "Professional Web Development Services",
     mainDescription:
       "We design, develop, and maintain websites and web apps that improve efficiency, engagement, and business growth. From corporate websites to complex web platforms, we deliver seamless functionality and scalability.",
+<<<<<<< HEAD
     image: "/images/web-development-laptop.png",
+=======
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     services: [
       {
         id: 1,
@@ -44,6 +48,7 @@ export const webdevelopment: ServiceConfig = {
     ],
   },
   solutions: {
+<<<<<<< HEAD
   mainTitle: "Custom Web Development Solutions",
   mainDescription:
     "We provide end-to-end web development services for businesses of all sizes. Our solutions enhance productivity, streamline processes, and deliver a superior user experience through innovative technology.",
@@ -161,13 +166,136 @@ solutionsTwo: {
   linkUrl: "/contact-us",
 },
 
+=======
+    mainTitle: "Custom Web Development Solutions",
+    mainDescription:
+      "We provide end-to-end web development services for businesses of all sizes. Our solutions enhance productivity, streamline processes, and deliver a superior user experience through innovative technology.",
+
+    items: [
+      {
+        id: "responsive-design",
+        icon: "Leaf",
+        title: "Responsive Web Design",
+        subtitle: "",
+        description:
+          "Design mobile-friendly and responsive websites that work perfectly across all devices. \nEnsure optimal layout, readability, and usability. \nImprove engagement with user-centric designs. \nMaintain consistent branding across screens. \nDeliver intuitive and visually appealing web experiences.",
+      },
+      {
+        id: "ecommerce-development",
+        icon: "Leaf",
+        title: "E-commerce Development",
+        subtitle: "",
+        description:
+          "Build scalable e-commerce platforms with secure payment integrations. \nImplement product management, cart, and checkout functionalities. \nOptimize for SEO and performance. \nEnable personalized shopping experiences. \nEnsure secure and seamless online transactions for customers.",
+      },
+      {
+        id: "web-application",
+        icon: "Leaf",
+        title: "Web Application Development",
+        subtitle: "",
+        description:
+          "Develop interactive and scalable web applications for businesses. \nIntegrate with APIs, databases, and third-party services. \nEnsure security, performance, and high availability. \nOptimize user experience and functionality. \nDeliver reliable web solutions for complex business workflows.",
+      },
+      {
+        id: "cms-solutions",
+        icon: "Leaf",
+        title: "Content Management Systems",
+        subtitle: "",
+        description:
+          "Implement powerful CMS platforms for easy content updates. \nEnable non-technical users to manage website content seamlessly. \nSupport multi-language and multi-site capabilities. \nEnsure fast, secure, and responsive performance. \nDeliver scalable solutions that grow with your business needs.",
+      },
+      {
+        id: "ui-ux-design",
+        icon: "Leaf",
+        title: "UI/UX Design Services",
+        subtitle: "",
+        description:
+          "Create visually appealing and intuitive user interfaces. \nEnhance user journeys with research-driven design principles. \nOptimize navigation, accessibility, and overall experience. \nMaintain brand consistency across all touchpoints. \nDeliver designs that boost engagement and conversions.",
+      },
+      {
+        id: "seo-optimization",
+        icon: "Leaf",
+        title: "SEO & Performance Optimization",
+        subtitle: "",
+        description:
+          "Optimize websites for search engines to increase organic traffic. \nImplement on-page and technical SEO strategies. \nEnhance site speed, responsiveness, and accessibility. \nMonitor performance with analytics and reporting tools. \nEnsure websites rank higher and perform efficiently across devices.",
+      },
+    ],
+    linkText: "Get Web Development Solutions",
+    linkUrl: "/contact-us",
+  },
+  solutionsTwo: {
+    mainTitle: "Cutting-Edge Web Development Solutions",
+    mainDescription:
+      "We create fast, secure, and scalable web solutions tailored to your business. Our expert developers combine innovation, usability, and performance to build digital experiences that drive engagement, growth, and success across all platforms.",
+
+    items: [
+      {
+        id: "frontend-development",
+        icon: "Leaf",
+        title: "Responsive Front-End Development",
+        subtitle: "",
+        description:
+          "Deliver stunning, user-friendly interfaces with flawless performance. \nWe use modern frameworks like React, Angular, and Vue for flexibility. \nOur front-end solutions ensure seamless viewing on all devices. \nWe focus on accessibility, responsiveness, and visual precision. \nEnhance user satisfaction through interactive, polished web design.",
+      },
+      {
+        id: "backend-engineering",
+        icon: "Leaf",
+        title: "Robust Back-End Engineering",
+        subtitle: "",
+        description:
+          "Build reliable, high-performance server-side architectures that scale. \nWe specialize in Node.js, .NET, and Python for secure, fast processing. \nIntegrate APIs and databases with optimal structure and security. \nEnsure smooth data flow and efficient communication layers. \nEmpower your platform with a strong, scalable technical foundation.",
+      },
+      {
+        id: "ecommerce-solutions",
+        icon: "Leaf",
+        title: "Custom E-Commerce Development",
+        subtitle: "",
+        description:
+          "Design tailored online stores that maximize sales and engagement. \nWe develop secure checkout systems with modern UI/UX principles. \nIntegrate inventory, payments, and analytics seamlessly. \nDeliver responsive, high-converting shopping experiences. \nEmpower your brand with scalable, customer-centric web commerce.",
+      },
+      {
+        id: "cms-development",
+        icon: "Leaf",
+        title: "CMS & Content Management Systems",
+        subtitle: "",
+        description:
+          "Develop custom CMS platforms for easy content creation and control. \nWe work with WordPress, Drupal, and headless CMS frameworks. \nEnable dynamic page updates without technical complexity. \nProvide secure user roles, permissions, and versioning tools. \nManage your digital presence effortlessly with full flexibility.",
+      },
+      {
+        id: "web-apps",
+        icon: "Leaf",
+        title: "Progressive Web Applications (PWA)",
+        subtitle: "",
+        description:
+          "Create lightning-fast PWAs that work offline and perform like native apps. \nWe blend mobile experience with desktop reliability. \nReduce loading time and boost user retention through smart caching. \nImplement push notifications and offline capabilities easily. \nDeliver modern, app-like experiences through the browser.",
+      },
+      {
+        id: "maintenance-support",
+        icon: "Leaf",
+        title: "Website Maintenance & Optimization",
+        subtitle: "",
+        description:
+          "Keep your website secure, updated, and optimized for performance. \nWe monitor uptime, fix bugs, and enhance system reliability. \nRegular speed audits ensure smooth user experience and SEO health. \nPrevent downtime with proactive maintenance and updates. \nEnsure your web solution remains future-ready and efficient.",
+      },
+    ],
+
+    linkText: "Build Your Web Solution Today",
+    linkUrl: "/contact-us",
+  },
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
 
   managementSolutions: {
     title: "Web Development Management Tools",
     subtitle:
       "Our web development management solutions streamline project tracking, team collaboration, and deployment efficiency for web development teams of any size.",
     subtitleLink: { text: "web project management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/1200x/a7/58/49/a758499316370666df04791f12cb4f3f.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/1200x/a7/58/49/a758499316370666df04791f12cb4f3f.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     mobileImage: "/images/management-solutions-mobile.jpg",
     topFeatures: [
       {
@@ -193,7 +321,13 @@ solutionsTwo: {
       },
     ],
     ctaText: "Get Web Development Experts",
+<<<<<<< HEAD
     onCtaClick: () => {},
+=======
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
   },
   faq: {
     title: "FAQ - Web Development Services",

@@ -20,7 +20,7 @@ export const database: SolutionConfig = {
     mainTitle: "Professional Database Development Services",
     mainDescription:
       "From relational databases to NoSQL solutions, we build customized databases optimized for speed, reliability, and security. Our developers ensure your data is structured, maintained, and accessible for real-time operations and analytics.",
-    image: "/images/database-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +47,77 @@ export const database: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "End-to-End Database Solutions",
-  mainDescription:
-    "We provide complete database solutions from architecture and development to management, security, and analytics. Our solutions empower businesses to leverage their data effectively and make data-driven decisions.",
-  items: [
-    {
-      id: "relational-db",
-      icon: "Leaf",
-      title: "Relational Database Systems",
-      subtitle: "Structured & Reliable",
-      description:
-        "We design and implement robust relational databases using MySQL, PostgreSQL, Oracle, and SQL Server. These systems ensure secure, consistent, and high-performance data management. Perfect for enterprises requiring reliable and structured data storage solutions.",
-    },
-    {
-      id: "nosql-db",
-      icon: "Leaf",
-      title: "NoSQL Databases",
-      subtitle: "Flexible & Scalable",
-      description:
-        "Our NoSQL solutions leverage MongoDB, Cassandra, and Firebase for modern, large-scale applications. Handle unstructured and semi-structured data with flexibility and speed. Achieve scalability and performance that grow seamlessly with your business needs.",
-    },
-    {
-      id: "data-warehousing",
-      icon: "Leaf",
-      title: "Data Warehousing",
-      subtitle: "Centralized Data for Analytics",
-      description:
-        "We build centralized data warehouses that consolidate information from multiple sources into one trusted repository. Empower your organization with actionable insights through advanced analytics. Enhance decision-making and business intelligence with unified reporting.",
-    },
-    {
-      id: "cloud-db",
-      icon: "Leaf",
-      title: "Cloud Database Solutions",
-      subtitle: "Secure & Accessible Anywhere",
-      description:
-        "Deploy and manage cloud databases on AWS RDS, Azure SQL, or Google Cloud with top-tier reliability. Benefit from global accessibility, high availability, and strong security compliance. Scale effortlessly as your data demands and workloads grow.",
-    },
-    {
-      id: "backup-recovery",
-      icon: "Leaf",
-      title: "Backup & Disaster Recovery",
-      subtitle: "Protect Your Data",
-      description:
-        "Safeguard your mission-critical data with automated backups and advanced disaster recovery protocols. Minimize downtime and prevent data loss in any unexpected event. Ensure your business continuity with reliable recovery mechanisms and redundancy planning.",
-    },
-    {
-      id: "db-automation",
-      icon: "Leaf",
-      title: "Database Automation & Monitoring",
-      subtitle: "Efficient & Proactive",
-      description:
-        "Streamline database operations through intelligent automation tools and real-time monitoring systems. Detect issues before they impact performance using predictive alerts. Maintain optimal efficiency, uptime, and system reliability with minimal manual intervention.",
-    },
-  ],
-  linkText: "Get Database Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "End-to-End Database Solutions",
+    mainDescription:
+      "We provide complete database solutions from architecture and development to management, security, and analytics. Our solutions empower businesses to leverage their data effectively and make data-driven decisions.",
+    items: [
+      {
+        id: "relational-db",
+        icon: "Leaf",
+        title: "Relational Database Systems",
+        subtitle: "Structured & Reliable",
+        description:
+          "We design and implement robust relational databases using MySQL, PostgreSQL, Oracle, and SQL Server. These systems ensure secure, consistent, and high-performance data management. Perfect for enterprises requiring reliable and structured data storage solutions.",
+      },
+      {
+        id: "nosql-db",
+        icon: "Leaf",
+        title: "NoSQL Databases",
+        subtitle: "Flexible & Scalable",
+        description:
+          "Our NoSQL solutions leverage MongoDB, Cassandra, and Firebase for modern, large-scale applications. Handle unstructured and semi-structured data with flexibility and speed. Achieve scalability and performance that grow seamlessly with your business needs.",
+      },
+      {
+        id: "data-warehousing",
+        icon: "Leaf",
+        title: "Data Warehousing",
+        subtitle: "Centralized Data for Analytics",
+        description:
+          "We build centralized data warehouses that consolidate information from multiple sources into one trusted repository. Empower your organization with actionable insights through advanced analytics. Enhance decision-making and business intelligence with unified reporting.",
+      },
+      {
+        id: "cloud-db",
+        icon: "Leaf",
+        title: "Cloud Database Solutions",
+        subtitle: "Secure & Accessible Anywhere",
+        description:
+          "Deploy and manage cloud databases on AWS RDS, Azure SQL, or Google Cloud with top-tier reliability. Benefit from global accessibility, high availability, and strong security compliance. Scale effortlessly as your data demands and workloads grow.",
+      },
+      {
+        id: "backup-recovery",
+        icon: "Leaf",
+        title: "Backup & Disaster Recovery",
+        subtitle: "Protect Your Data",
+        description:
+          "Safeguard your mission-critical data with automated backups and advanced disaster recovery protocols. Minimize downtime and prevent data loss in any unexpected event. Ensure your business continuity with reliable recovery mechanisms and redundancy planning.",
+      },
+      {
+        id: "db-automation",
+        icon: "Leaf",
+        title: "Database Automation & Monitoring",
+        subtitle: "Efficient & Proactive",
+        description:
+          "Streamline database operations through intelligent automation tools and real-time monitoring systems. Detect issues before they impact performance using predictive alerts. Maintain optimal efficiency, uptime, and system reliability with minimal manual intervention.",
+      },
+    ],
+    linkText: "Get Database Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Database Management & Administration",
     subtitle:
       "Our database management solutions ensure your systems are performant, secure, and reliable at all times.",
     subtitleLink: { text: "database management solutions", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/f3/58/5e/f3585e95f219caca30cf14df38c29599.jpg",
     mobileImage: "https://i.pinimg.com/736x/4f/44/95/4f44951e7c52d8cd6b9d40ab7b754bab.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/f3/58/5e/f3585e95f219caca30cf14df38c29599.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/4f/44/95/4f44951e7c52d8cd6b9d40ab7b754bab.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "security",
@@ -136,37 +142,39 @@ export const database: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "automation",
-    icon: "map",
-    title: "Automation & Monitoring",
-    description:
-      "Automate database backups, performance tuning, and system monitoring for continuous reliability. Reduce downtime with proactive alerts and real-time tracking. Enhance operational efficiency while minimizing human intervention and errors.",
-  },
-  {
-    id: "cloud-integration",
-    icon: "map",
-    title: "Cloud Integration",
-    description:
-      "Integrate on-premises databases with leading cloud providers for scalable hybrid infrastructure. Enable secure data synchronization and remote accessibility. Achieve flexibility, cost efficiency, and improved business continuity across environments.",
-  },
-  {
-    id: "analytics-support",
-    icon: "map",
-    title: "Analytics Support",
-    description:
-      "Optimize database structures for seamless integration with BI tools and analytics platforms. Enable fast querying, data visualization, and predictive insights. Empower decision-makers with reliable, real-time reporting dashboards.",
-  },
-  {
-    id: "api-access",
-    icon: "map",
-    title: "API Access & Integration",
-    description:
-      "Expose and manage data securely through robust API connections for external applications. Simplify integration with enterprise systems, SaaS tools, and third-party platforms. Maintain full control with authentication, rate limiting, and logging features.",
-  },
-],
-ctaText: "Talk to Database Experts",
-onCtaClick: () => {},
+      {
+        id: "automation",
+        icon: "map",
+        title: "Automation & Monitoring",
+        description:
+          "Automate database backups, performance tuning, and system monitoring for continuous reliability. Reduce downtime with proactive alerts and real-time tracking. Enhance operational efficiency while minimizing human intervention and errors.",
+      },
+      {
+        id: "cloud-integration",
+        icon: "map",
+        title: "Cloud Integration",
+        description:
+          "Integrate on-premises databases with leading cloud providers for scalable hybrid infrastructure. Enable secure data synchronization and remote accessibility. Achieve flexibility, cost efficiency, and improved business continuity across environments.",
+      },
+      {
+        id: "analytics-support",
+        icon: "map",
+        title: "Analytics Support",
+        description:
+          "Optimize database structures for seamless integration with BI tools and analytics platforms. Enable fast querying, data visualization, and predictive insights. Empower decision-makers with reliable, real-time reporting dashboards.",
+      },
+      {
+        id: "api-access",
+        icon: "map",
+        title: "API Access & Integration",
+        description:
+          "Expose and manage data securely through robust API connections for external applications. Simplify integration with enterprise systems, SaaS tools, and third-party platforms. Maintain full control with authentication, rate limiting, and logging features.",
+      },
+    ],
+    ctaText: "Talk to Database Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {
@@ -204,7 +212,8 @@ onCtaClick: () => {},
       },
       {
         id: "6",
-        question: "Do you provide database backup and disaster recovery services?",
+        question:
+          "Do you provide database backup and disaster recovery services?",
         answer:
           "Yes, we implement backup, replication, and disaster recovery plans to ensure your data is safe and recoverable at all times.",
       },

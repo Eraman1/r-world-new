@@ -19,7 +19,7 @@ export const cms: SolutionConfig = {
     mainTitle: "Custom CMS & Headless Content Platform Services",
     mainDescription:
       "From traditional enterprise CMS to modern headless and hybrid architectures, our team builds content solutions that streamline editorial workflows, enable omnichannel delivery, and integrate seamlessly with your existing tech stack.",
-    image: "/images/cms-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -46,71 +46,77 @@ export const cms: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "CMS Solutions for Modern Content Operations",
-  mainDescription:
-    "We deliver CMS platforms that combine editorial productivity, strong governance, and developer velocity — including omnichannel APIs, personalization, and analytics integrations.",
-  items: [
-    {
-      id: "headless-architecture",
-      icon: "Leaf",
-      title: "Headless & Hybrid CMS",
-      subtitle: "Flexible Multi-Channel Delivery",
-      description:
-        "Adopt headless or hybrid CMS architectures that decouple content from presentation layers. Manage and distribute content across websites, mobile apps, and digital touchpoints. Enable developers to build scalable frontends powered by a single, centralized backend.",
-    },
-    {
-      id: "content-modeling",
-      icon: "Leaf",
-      title: "Content Modeling & Taxonomy",
-      subtitle: "Structured Content for Reuse",
-      description:
-        "Design intelligent content models and taxonomies that ensure consistency across platforms. Create reusable content blocks and components for efficient localization and updates. Maintain structured data for seamless integration with APIs and search engines.",
-    },
-    {
-      id: "personalization",
-      icon: "Leaf",
-      title: "Personalization & Targeting",
-      subtitle: "Contextual Content Delivery",
-      description:
-        "Deliver dynamic, user-specific experiences powered by personalization algorithms. Utilize CRM, behavior, and analytics data to tailor messaging in real time. Improve engagement and conversion through contextual, data-driven storytelling.",
-    },
-    {
-      id: "omnichannel",
-      icon: "Leaf",
-      title: "Omnichannel Publishing",
-      subtitle: "Consistent Experience Everywhere",
-      description:
-        "Publish content seamlessly across web, mobile, social, and email channels. Use scheduling, preview, and rollback features to manage campaigns efficiently. Ensure brand consistency and message alignment across every digital touchpoint.",
-    },
-    {
-      id: "digital-asset",
-      icon: "Leaf",
-      title: "Digital Asset Management (DAM)",
-      subtitle: "Centralize Media & Assets",
-      description:
-        "Unify all digital media—images, videos, and documents—under a secure, searchable DAM platform. Manage asset versions, assign metadata, and streamline approvals. Deliver media globally through CDN integration for fast, reliable access.",
-    },
-    {
-      id: "analytics-seo",
-      icon: "Leaf",
-      title: "SEO, Analytics & Performance",
-      subtitle: "Content ROI & Speed",
-      description:
-        "Enhance content visibility and site speed using advanced SEO and analytics tools. Monitor engagement and optimize based on performance metrics and A/B tests. Improve ROI through measurable insights and continuous optimization cycles.",
-    },
-  ],
-  linkText: "Discuss CMS Strategy",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "CMS Solutions for Modern Content Operations",
+    mainDescription:
+      "We deliver CMS platforms that combine editorial productivity, strong governance, and developer velocity — including omnichannel APIs, personalization, and analytics integrations.",
+    items: [
+      {
+        id: "headless-architecture",
+        icon: "Leaf",
+        title: "Headless & Hybrid CMS",
+        subtitle: "Flexible Multi-Channel Delivery",
+        description:
+          "Adopt headless or hybrid CMS architectures that decouple content from presentation layers. Manage and distribute content across websites, mobile apps, and digital touchpoints. Enable developers to build scalable frontends powered by a single, centralized backend.",
+      },
+      {
+        id: "content-modeling",
+        icon: "Leaf",
+        title: "Content Modeling & Taxonomy",
+        subtitle: "Structured Content for Reuse",
+        description:
+          "Design intelligent content models and taxonomies that ensure consistency across platforms. Create reusable content blocks and components for efficient localization and updates. Maintain structured data for seamless integration with APIs and search engines.",
+      },
+      {
+        id: "personalization",
+        icon: "Leaf",
+        title: "Personalization & Targeting",
+        subtitle: "Contextual Content Delivery",
+        description:
+          "Deliver dynamic, user-specific experiences powered by personalization algorithms. Utilize CRM, behavior, and analytics data to tailor messaging in real time. Improve engagement and conversion through contextual, data-driven storytelling.",
+      },
+      {
+        id: "omnichannel",
+        icon: "Leaf",
+        title: "Omnichannel Publishing",
+        subtitle: "Consistent Experience Everywhere",
+        description:
+          "Publish content seamlessly across web, mobile, social, and email channels. Use scheduling, preview, and rollback features to manage campaigns efficiently. Ensure brand consistency and message alignment across every digital touchpoint.",
+      },
+      {
+        id: "digital-asset",
+        icon: "Leaf",
+        title: "Digital Asset Management (DAM)",
+        subtitle: "Centralize Media & Assets",
+        description:
+          "Unify all digital media—images, videos, and documents—under a secure, searchable DAM platform. Manage asset versions, assign metadata, and streamline approvals. Deliver media globally through CDN integration for fast, reliable access.",
+      },
+      {
+        id: "analytics-seo",
+        icon: "Leaf",
+        title: "SEO, Analytics & Performance",
+        subtitle: "Content ROI & Speed",
+        description:
+          "Enhance content visibility and site speed using advanced SEO and analytics tools. Monitor engagement and optimize based on performance metrics and A/B tests. Improve ROI through measurable insights and continuous optimization cycles.",
+      },
+    ],
+    linkText: "Discuss CMS Strategy",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Content Management & Delivery Platforms",
     subtitle:
       "We build and operate CMS solutions with robust governance, automation, and scalable delivery to meet enterprise demands.",
     subtitleLink: { text: "content management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/e8/87/e3/e887e37c8ae12b16b183d9e2f3a46004.jpg",
     mobileImage: "https://i.pinimg.com/1200x/c4/42/8e/c4428e9bb7735ff2aee8aef142e70eff.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/e8/87/e3/e887e37c8ae12b16b183d9e2f3a46004.jpg",
+    mobileImage:
+      "https://i.pinimg.com/1200x/c4/42/8e/c4428e9bb7735ff2aee8aef142e70eff.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "governance",
@@ -148,25 +154,27 @@ export const cms: SolutionConfig = {
         icon: "map",
         title: "Content Automation & Scheduling",
         description:
-            "Automate content publishing and scheduling to keep your platforms active and up-to-date. Reduce manual effort by managing expiration dates and syndication feeds in real time. Ensure timely delivery of content across global channels with minimal human intervention.",     
+          "Automate content publishing and scheduling to keep your platforms active and up-to-date. Reduce manual effort by managing expiration dates and syndication feeds in real time. Ensure timely delivery of content across global channels with minimal human intervention.",
       },
       {
         id: "security",
         icon: "map",
         title: "Security & Access Controls",
         description:
-          "Safeguard your CMS environment with enterprise-grade encryption and secure authentication. Implement role-based permissions and single sign-on for controlled content access. Regular audits and compliance checks ensure continuous protection of sensitive data.",      
+          "Safeguard your CMS environment with enterprise-grade encryption and secure authentication. Implement role-based permissions and single sign-on for controlled content access. Regular audits and compliance checks ensure continuous protection of sensitive data.",
       },
       {
         id: "support",
         icon: "map",
         title: "Support & Managed Services",
         description:
-           "Keep your CMS optimized with 24/7 monitoring, upgrades, and proactive maintenance. Get expert assistance for troubleshooting, performance tuning, and content migration. Empower your editorial teams with tailored training and ongoing platform support.",
+          "Keep your CMS optimized with 24/7 monitoring, upgrades, and proactive maintenance. Get expert assistance for troubleshooting, performance tuning, and content migration. Empower your editorial teams with tailored training and ongoing platform support.",
       },
     ],
     ctaText: "Plan Your CMS",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

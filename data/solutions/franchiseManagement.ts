@@ -20,7 +20,7 @@ export const franchiseManagement: SolutionConfig = {
     mainTitle: "Comprehensive Franchise Management Systems",
     mainDescription:
       "We design and develop custom franchise management platforms that simplify daily operations, improve transparency, and enhance brand consistency. From onboarding to analytics, our solutions help you manage everything from one unified dashboard.",
-    image: "/images/franchise-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,70 +47,77 @@ export const franchiseManagement: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Franchise Growth & Operations Solutions",
-  mainDescription:
-    "Our franchise management solutions enable enterprises to scale faster with integrated systems for training, compliance, reporting, and customer engagement.",
-  items: [
-    {
-      id: "crm-integration",
-      icon: "Leaf",
-      title: "CRM Integration",
-      subtitle: "Centralized Customer Management",
-      description:
-        "Integrate powerful CRM systems to unify customer data across all franchise locations. Gain actionable insights into loyalty programs and retention trends. Deliver personalized customer experiences that drive engagement and repeat sales.",
-    },
-    {
-      id: "inventory-tracking",
-      icon: "Leaf",
-      title: "Inventory & Supply Chain Management",
-      subtitle: "Real-Time Stock Control",
-      description:
-        "Monitor and manage inventory seamlessly across all outlets with real-time data visibility. Automate reordering and optimize stock distribution through predictive analytics. Reduce waste, improve efficiency, and ensure timely product availability.",
-    },
-    {
-      id: "training",
-      icon: "Leaf",
-      title: "Training & Certification Portal",
-      subtitle: "Empower Franchisees",
-      description:
-        "Provide an intuitive digital learning platform for franchise training and onboarding. Deliver standardized modules, quizzes, and certifications to maintain brand consistency. Track performance analytics and skill development across teams.",
-    },
-    {
-      id: "compliance",
-      icon: "Leaf",
-      title: "Compliance & Quality Assurance",
-      subtitle: "Maintain Brand Standards",
-      description:
-        "Automate compliance monitoring and ensure adherence to operational protocols. Conduct digital audits and inspections using customizable checklists. Maintain high-quality service standards across all franchise locations effortlessly.",
-    },
-    {
-      id: "financials",
-      icon: "Leaf",
-      title: "Finance & Royalty Management",
-      subtitle: "Automated Revenue Tracking",
-      description:
-        "Simplify franchise accounting with transparent revenue tracking and royalty automation. Manage invoices, settlements, and payments with real-time accuracy. Eliminate manual errors and streamline financial reconciliation across your network.",
-    },
-    {
-      id: "marketing",
-      icon: "Leaf",
-      title: "Marketing Campaign Automation",
-      subtitle: "Brand-Wide Promotions",
-      description:
-        "Launch and manage localized marketing campaigns from a central platform. Maintain consistent brand messaging across regions while enabling local customization. Analyze campaign performance and optimize future strategies with data-driven insights.",
-    },
-  ],
-  linkText: "Explore Franchise Solutions",
-  linkUrl: "/contact-us",
-},
+    mainTitle: "Franchise Growth & Operations Solutions",
+    mainDescription:
+      "Our franchise management solutions enable enterprises to scale faster with integrated systems for training, compliance, reporting, and customer engagement.",
+    items: [
+      {
+        id: "crm-integration",
+        icon: "Leaf",
+        title: "CRM Integration",
+        subtitle: "Centralized Customer Management",
+        description:
+          "Integrate powerful CRM systems to unify customer data across all franchise locations. Gain actionable insights into loyalty programs and retention trends. Deliver personalized customer experiences that drive engagement and repeat sales.",
+      },
+      {
+        id: "inventory-tracking",
+        icon: "Leaf",
+        title: "Inventory & Supply Chain Management",
+        subtitle: "Real-Time Stock Control",
+        description:
+          "Monitor and manage inventory seamlessly across all outlets with real-time data visibility. Automate reordering and optimize stock distribution through predictive analytics. Reduce waste, improve efficiency, and ensure timely product availability.",
+      },
+      {
+        id: "training",
+        icon: "Leaf",
+        title: "Training & Certification Portal",
+        subtitle: "Empower Franchisees",
+        description:
+          "Provide an intuitive digital learning platform for franchise training and onboarding. Deliver standardized modules, quizzes, and certifications to maintain brand consistency. Track performance analytics and skill development across teams.",
+      },
+      {
+        id: "compliance",
+        icon: "Leaf",
+        title: "Compliance & Quality Assurance",
+        subtitle: "Maintain Brand Standards",
+        description:
+          "Automate compliance monitoring and ensure adherence to operational protocols. Conduct digital audits and inspections using customizable checklists. Maintain high-quality service standards across all franchise locations effortlessly.",
+      },
+      {
+        id: "financials",
+        icon: "Leaf",
+        title: "Finance & Royalty Management",
+        subtitle: "Automated Revenue Tracking",
+        description:
+          "Simplify franchise accounting with transparent revenue tracking and royalty automation. Manage invoices, settlements, and payments with real-time accuracy. Eliminate manual errors and streamline financial reconciliation across your network.",
+      },
+      {
+        id: "marketing",
+        icon: "Leaf",
+        title: "Marketing Campaign Automation",
+        subtitle: "Brand-Wide Promotions",
+        description:
+          "Launch and manage localized marketing campaigns from a central platform. Maintain consistent brand messaging across regions while enabling local customization. Analyze campaign performance and optimize future strategies with data-driven insights.",
+      },
+    ],
+    linkText: "Explore Franchise Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Franchise Management Platforms",
     subtitle:
       "Our intelligent management systems help franchisors oversee operations, performance, and communication across all locations with ease.",
     subtitleLink: { text: "franchise software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/a2/81/2c/a2812cac20aad52df7ec97bc60a39bcd.jpg",
     mobileImage: "https://i.pinimg.com/736x/21/9b/d0/219bd01bf34ac06428eb897698135724.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/a2/81/2c/a2812cac20aad52df7ec97bc60a39bcd.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/21/9b/d0/219bd01bf34ac06428eb897698135724.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "dashboard",
@@ -135,37 +142,39 @@ export const franchiseManagement: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "analytics",
-    icon: "map",
-    title: "Advanced Analytics & Reporting",
-    description:
-      "Leverage AI-driven dashboards to monitor performance across locations in real time. Identify sales patterns, customer trends, and growth opportunities with precision. Transform raw data into actionable insights for smarter decision-making.",
-  },
-  {
-    id: "mobile-app",
-    icon: "map",
-    title: "Mobile Access",
-    description:
-      "Stay in control of your entire franchise network anytime, anywhere with a secure mobile platform. Track operations, performance, and team activities on the go. Enhance flexibility and responsiveness through real-time mobile updates.",
-  },
-  {
-    id: "security",
-    icon: "map",
-    title: "Data Privacy & Security",
-    description:
-      "Protect franchise data with enterprise-grade encryption and secure cloud storage. Manage access through multi-level authentication and role-based controls. Ensure full compliance with global data protection and privacy standards.",
-  },
-  {
-    id: "integration",
-    icon: "map",
-    title: "ERP & POS Integration",
-    description:
-      "Unify franchise operations by connecting POS, accounting, and ERP systems effortlessly. Enable smooth data synchronization between sales, finance, and inventory. Improve operational efficiency and decision accuracy with automated integration.",
-  },
-],
-ctaText: "Get Franchise Management Experts",
-onCtaClick: () => {},
+      {
+        id: "analytics",
+        icon: "map",
+        title: "Advanced Analytics & Reporting",
+        description:
+          "Leverage AI-driven dashboards to monitor performance across locations in real time. Identify sales patterns, customer trends, and growth opportunities with precision. Transform raw data into actionable insights for smarter decision-making.",
+      },
+      {
+        id: "mobile-app",
+        icon: "map",
+        title: "Mobile Access",
+        description:
+          "Stay in control of your entire franchise network anytime, anywhere with a secure mobile platform. Track operations, performance, and team activities on the go. Enhance flexibility and responsiveness through real-time mobile updates.",
+      },
+      {
+        id: "security",
+        icon: "map",
+        title: "Data Privacy & Security",
+        description:
+          "Protect franchise data with enterprise-grade encryption and secure cloud storage. Manage access through multi-level authentication and role-based controls. Ensure full compliance with global data protection and privacy standards.",
+      },
+      {
+        id: "integration",
+        icon: "map",
+        title: "ERP & POS Integration",
+        description:
+          "Unify franchise operations by connecting POS, accounting, and ERP systems effortlessly. Enable smooth data synchronization between sales, finance, and inventory. Improve operational efficiency and decision accuracy with automated integration.",
+      },
+    ],
+    ctaText: "Get Franchise Management Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

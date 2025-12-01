@@ -37,7 +37,7 @@ const Banner: React.FC = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <Link
-            href="/contact"
+            href="/contact-us"
             className="px-6 py-3 bg-amber-500 text-white font-semibold rounded-full shadow-md hover:bg-blue-600 transition flex items-center gap-2"
           >
             Get Started <ArrowRight className="h-5 w-5" />

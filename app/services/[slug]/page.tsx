@@ -40,7 +40,11 @@ export default function Page({ params }: Props) {
           linkUrl={services.solutions.linkUrl}
         />
       )}
+<<<<<<< HEAD
        {services.solutionsTwo && (
+=======
+      {services.solutionsTwo && (
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
         <SolutionsTwo
           mainTitle={services.solutionsTwo.mainTitle}
           mainDescription={services.solutionsTwo.mainDescription}

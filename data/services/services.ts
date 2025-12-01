@@ -18,7 +18,10 @@ import { businessIntelligence } from "./businessIntelligence";
 import { dataAnalytics } from "./dataAnalytics";
 import { machinelearning } from "./machinelearning";
 import { artificialIntelligence } from "./artificialIntelligence";
+<<<<<<< HEAD
 import { blockchain } from "../onDemandDevelopers/blockchain";
+=======
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
 import { blockchainDevelopment } from "./blockchainDevelopment";
 import { iotSolutions } from "./iotSolutions";
 import { cybersecurity } from "./cybersecurity";
@@ -29,6 +32,7 @@ import { technicalConsulting } from "./technicalConsulting";
 
 export const servicesData: Record<string, ServiceConfig> = {
   "custom-software-development": customSoftwareDevelopment,
+<<<<<<< HEAD
   mobileappdevelopment,
   webdevelopment,
   softwareTestingQA,
@@ -52,6 +56,31 @@ export const servicesData: Record<string, ServiceConfig> = {
   softwareModernization,
   systemIntegration,
   technicalConsulting,
+=======
+  "mobile-app-development": mobileappdevelopment,
+  "web-development": webdevelopment,
+  "software-testing-qa": softwareTestingQA,
+  "ui-ux-design": uiUxDesign,
+  "devops-services": devopsServices,
+  "cloud-migration": cloudMigration,
+  "api-development": apiDevelopment,
+  "database-design": databaseDesignManagement,
+  "enterprise-software": enterpriseSoftwareSolution,
+  "ecommerce-development": ecommerceDevelopment,
+  "crm-development": crmDevelopment,
+  "erp-implementation": erpImplementation,
+  "business-intelligence": businessIntelligence,
+  "data-analytics": dataAnalytics,
+  "machine-learning": machinelearning,
+  "artificial-intelligence": artificialIntelligence,
+  "blockchain-development": blockchainDevelopment,
+  "iot-solutions": iotSolutions,
+  cybersecurity: cybersecurity,
+  "digital-transformation": digitalTransformation,
+  "software-modernization": softwareModernization,
+  "system-integration": systemIntegration,
+  "technical-consulting": technicalConsulting,
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
 };
 
 export type { ServiceConfig };

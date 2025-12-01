@@ -20,7 +20,8 @@ export const arvr: SolutionConfig = {
     mainTitle: "Next-Gen Augmented & Virtual Reality Solutions",
     mainDescription:
       "Our AR/VR developers specialize in crafting immersive simulations, product visualizations, and training experiences using Unity, Unreal Engine, and WebXR. We bring ideas to life with interactive design and spatial computing.",
-    image: "/images/arvr-laptop.png",
+    image:
+      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +48,77 @@ export const arvr: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Immersive AR/VR Applications & Development",
-  mainDescription:
-    "We deliver AR and VR solutions that help brands engage customers, train employees, and simulate real-world scenarios with precision and impact.",
-  items: [
-    {
-      id: "ar-commerce",
-      icon: "Leaf",
-      title: "AR-Powered Retail Experiences",
-      subtitle: "Interactive Shopping Solutions",
-      description:
-        "Transform shopping journeys with interactive AR tools that let users virtually try products in real-time. Enable customers to visualize items before purchase for increased confidence. Drive conversions through immersive, personalized retail experiences.",
-    },
-    {
-      id: "vr-training",
-      icon: "Leaf",
-      title: "VR Training & Simulation",
-      subtitle: "Realistic Learning Environments",
-      description:
-        "Empower employees with lifelike VR-based training modules that simulate real-world tasks and environments. Reduce operational risks and enhance engagement with hands-on learning. Improve knowledge retention through immersive, scenario-driven simulations.",
-    },
-    {
-      id: "3d-visualization",
-      icon: "Leaf",
-      title: "3D Visualization Solutions",
-      subtitle: "Architectural & Industrial Design",
-      description:
-        "Visualize designs with precision using AR/VR-powered 3D modeling tools. Present architectural concepts, engineering prototypes, and industrial layouts in realistic digital spaces. Reduce production errors and speed up project approvals through immersive previews.",
-    },
-    {
-      id: "metaverse",
-      icon: "Leaf",
-      title: "Metaverse Development",
-      subtitle: "Social & Collaborative Spaces",
-      description:
-        "Build engaging metaverse platforms where users can meet, collaborate, and interact in shared virtual environments. Enable real-time communication, digital commerce, and event hosting. Create branded metaverse ecosystems that redefine digital engagement.",
-    },
-    {
-      id: "mixed-reality",
-      icon: "Leaf",
-      title: "Mixed Reality Integration",
-      subtitle: "Blending Physical & Digital Worlds",
-      description:
-        "Combine AR and VR technologies to create hybrid experiences that fuse real-world elements with digital layers. Utilize devices like HoloLens and Magic Leap for interactive visualization. Deliver immersive enterprise and consumer experiences with next-gen MR solutions.",
-    },
-    {
-      id: "interactive-marketing",
-      icon: "Leaf",
-      title: "Immersive Marketing Campaigns",
-      subtitle: "Next-Level Brand Engagement",
-      description:
-        "Reimagine marketing with interactive AR filters, 360° product tours, and VR events. Capture audience attention through immersive storytelling that drives emotional connection. Boost brand loyalty with dynamic, tech-powered digital experiences.",
-    },
-  ],
-  linkText: "Get AR/VR Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Immersive AR/VR Applications & Development",
+    mainDescription:
+      "We deliver AR and VR solutions that help brands engage customers, train employees, and simulate real-world scenarios with precision and impact.",
+    items: [
+      {
+        id: "ar-commerce",
+        icon: "Leaf",
+        title: "AR-Powered Retail Experiences",
+        subtitle: "Interactive Shopping Solutions",
+        description:
+          "Transform shopping journeys with interactive AR tools that let users virtually try products in real-time. Enable customers to visualize items before purchase for increased confidence. Drive conversions through immersive, personalized retail experiences.",
+      },
+      {
+        id: "vr-training",
+        icon: "Leaf",
+        title: "VR Training & Simulation",
+        subtitle: "Realistic Learning Environments",
+        description:
+          "Empower employees with lifelike VR-based training modules that simulate real-world tasks and environments. Reduce operational risks and enhance engagement with hands-on learning. Improve knowledge retention through immersive, scenario-driven simulations.",
+      },
+      {
+        id: "3d-visualization",
+        icon: "Leaf",
+        title: "3D Visualization Solutions",
+        subtitle: "Architectural & Industrial Design",
+        description:
+          "Visualize designs with precision using AR/VR-powered 3D modeling tools. Present architectural concepts, engineering prototypes, and industrial layouts in realistic digital spaces. Reduce production errors and speed up project approvals through immersive previews.",
+      },
+      {
+        id: "metaverse",
+        icon: "Leaf",
+        title: "Metaverse Development",
+        subtitle: "Social & Collaborative Spaces",
+        description:
+          "Build engaging metaverse platforms where users can meet, collaborate, and interact in shared virtual environments. Enable real-time communication, digital commerce, and event hosting. Create branded metaverse ecosystems that redefine digital engagement.",
+      },
+      {
+        id: "mixed-reality",
+        icon: "Leaf",
+        title: "Mixed Reality Integration",
+        subtitle: "Blending Physical & Digital Worlds",
+        description:
+          "Combine AR and VR technologies to create hybrid experiences that fuse real-world elements with digital layers. Utilize devices like HoloLens and Magic Leap for interactive visualization. Deliver immersive enterprise and consumer experiences with next-gen MR solutions.",
+      },
+      {
+        id: "interactive-marketing",
+        icon: "Leaf",
+        title: "Immersive Marketing Campaigns",
+        subtitle: "Next-Level Brand Engagement",
+        description:
+          "Reimagine marketing with interactive AR filters, 360° product tours, and VR events. Capture audience attention through immersive storytelling that drives emotional connection. Boost brand loyalty with dynamic, tech-powered digital experiences.",
+      },
+    ],
+    linkText: "Get AR/VR Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "AR/VR Experience Management Platforms",
     subtitle:
       "Empowering businesses to manage, monitor, and scale immersive experiences with intelligent visualization tools.",
     subtitleLink: { text: "Explore AR/VR Management", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
     mobileImage: "https://i.pinimg.com/1200x/da/9b/8b/da9b8bdf623094bbee3c6366de289faf.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/1200x/b3/be/3a/b3be3a3d7253c5e0d796574cae5a3391.jpg",
+    mobileImage:
+      "https://i.pinimg.com/1200x/da/9b/8b/da9b8bdf623094bbee3c6366de289faf.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "analytics",
@@ -136,37 +143,39 @@ export const arvr: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "integration",
-    icon: "map",
-    title: "Hardware Integration",
-    description:
-      "Ensure flawless performance with full compatibility across leading AR/VR devices such as Oculus, HTC Vive, and HoloLens. Integrate seamlessly with existing systems for smooth user interactions. Deliver consistent immersive experiences across multiple hardware platforms.",
-  },
-  {
-    id: "security",
-    icon: "map",
-    title: "Data Privacy & Security",
-    description:
-      "Protect sensitive user information through end-to-end encryption and secure authentication protocols. Adhere to global data privacy standards to maintain user trust. Enable safe, compliant AR/VR environments with robust security frameworks.",
-  },
-  {
-    id: "scalability",
-    icon: "map",
-    title: "Scalable Deployment",
-    description:
-      "Leverage cloud-based infrastructure for effortless app deployment and management. Scale resources dynamically to handle large user bases and high traffic. Monitor performance and ensure reliable global accessibility for every AR/VR experience.",
-  },
-  {
-    id: "customization",
-    icon: "map",
-    title: "Custom Experience Design",
-    description:
-      "Craft immersive AR/VR environments that reflect your brand’s unique identity. Personalize every visual and interaction to maximize user engagement. Deliver experiences that captivate audiences and leave a lasting impression.",
-  },
-],
-ctaText: "Consult AR/VR Experts",
-onCtaClick: () => {},
+      {
+        id: "integration",
+        icon: "map",
+        title: "Hardware Integration",
+        description:
+          "Ensure flawless performance with full compatibility across leading AR/VR devices such as Oculus, HTC Vive, and HoloLens. Integrate seamlessly with existing systems for smooth user interactions. Deliver consistent immersive experiences across multiple hardware platforms.",
+      },
+      {
+        id: "security",
+        icon: "map",
+        title: "Data Privacy & Security",
+        description:
+          "Protect sensitive user information through end-to-end encryption and secure authentication protocols. Adhere to global data privacy standards to maintain user trust. Enable safe, compliant AR/VR environments with robust security frameworks.",
+      },
+      {
+        id: "scalability",
+        icon: "map",
+        title: "Scalable Deployment",
+        description:
+          "Leverage cloud-based infrastructure for effortless app deployment and management. Scale resources dynamically to handle large user bases and high traffic. Monitor performance and ensure reliable global accessibility for every AR/VR experience.",
+      },
+      {
+        id: "customization",
+        icon: "map",
+        title: "Custom Experience Design",
+        description:
+          "Craft immersive AR/VR environments that reflect your brand’s unique identity. Personalize every visual and interaction to maximize user engagement. Deliver experiences that captivate audiences and leave a lasting impression.",
+      },
+    ],
+    ctaText: "Consult AR/VR Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {
@@ -204,7 +213,8 @@ onCtaClick: () => {},
       },
       {
         id: "6",
-        question: "What tools and technologies do you use for AR/VR development?",
+        question:
+          "What tools and technologies do you use for AR/VR development?",
         answer:
           "We use Unity, Unreal Engine, WebXR, ARCore, ARKit, and 3D design tools like Blender and Maya to build immersive experiences.",
       },

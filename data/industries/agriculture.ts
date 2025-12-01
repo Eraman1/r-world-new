@@ -8,7 +8,7 @@ export const agriculture: IndustryConfig = {
     subtitle:
       "Partner with expert developers to build custom, scalable, and reliable  software solutions that accelerate your business growth.",
     image:
-      "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+      "/industry/industryAgricultureBanner.webp",
     linkText: "Get agriculture Solutions",
   },
   techHero: {
@@ -66,11 +66,11 @@ export const agriculture: IndustryConfig = {
         position: "right",
       },
     ],
-    // deviceImages: {
-    //   laptop: "/images/devices/laptop-agri.png",
-    //   tablet: "/images/devices/tablet-agri.png",
-    //   mobile: "/images/devices/mobile-agri.png",
-    // },
+     deviceImages: {
+      laptop: "https://images.unsplash.com/photo-1744230673231-865d54a0aba4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      tablet: "https://images.unsplash.com/photo-1744230673231-865d54a0aba4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      mobile: "https://images.unsplash.com/photo-1744230673231-865d54a0aba4?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    },
   },
   solutions: {
     mainTitle: "AI Solutions For Precision Agriculture",
@@ -193,7 +193,9 @@ export const agriculture: IndustryConfig = {
       },
     ],
     ctaText: "GET LAND MGMT SOFTWARE DEVELOPERS",
-    onCtaClick: () => {},
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
   managementSolutionsTwo: {
   title: "Agriculture Land & Crop Management Solutions",

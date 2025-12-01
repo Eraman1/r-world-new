@@ -20,7 +20,7 @@ export const ticketing: SolutionConfig = {
     mainTitle: "Professional Ticketing Software Development",
     mainDescription:
       "Our team builds reliable ticketing platforms that handle high volumes of users and transactions. From event ticketing to customer support systems, we provide solutions that enhance engagement and streamline operations.",
-    image: "/images/ticketing-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +47,77 @@ export const ticketing: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Innovative Ticketing Solutions",
-  mainDescription:
-    "Our ticketing solutions enable seamless booking, efficient support, and real-time management. We help businesses and organizations provide smooth experiences for users and customers. Streamline operations while maximizing customer satisfaction and operational efficiency.",
-  items: [
-    {
-      id: "event-booking",
-      icon: "Leaf",
-      title: "Event Booking System",
-      subtitle: "Simplify Event Registrations",
-      description:
-        "Manage online ticket sales, reservations, and attendee tracking with automated confirmations. Utilize QR code entry for hassle-free check-ins. Optimize event management for both organizers and attendees, reducing manual workload.",
-    },
-    {
-      id: "support-tickets",
-      icon: "Leaf",
-      title: "Support Ticket System",
-      subtitle: "Efficient Customer Service",
-      description:
-        "Streamline customer support with automated ticket routing and priority assignment. Track resolution timelines and monitor team performance. Ensure faster responses and improved customer satisfaction across all support channels.",
-    },
-    {
-      id: "mobile-ticketing",
-      icon: "Leaf",
-      title: "Mobile Ticketing",
-      subtitle: "On-the-Go Access",
-      description:
-        "Enable customers to purchase, view, and validate tickets directly from mobile devices. Reduce queues and enhance user convenience with digital ticketing. Provide a seamless mobile-first experience for modern audiences.",
-    },
-    {
-      id: "integration",
-      icon: "Leaf",
-      title: "Third-Party Integrations",
-      subtitle: "Connect With Payment & CRM Systems",
-      description:
-        "Integrate ticketing platforms with payment gateways, CRM systems, and event management tools. Automate workflows and data synchronization between systems. Ensure seamless operations and a unified technology ecosystem.",
-    },
-    {
-      id: "analytics",
-      icon: "Leaf",
-      title: "Sales & Performance Analytics",
-      subtitle: "Insights to Improve Operations",
-      description:
-        "Generate detailed reports and dashboards to track sales trends and customer behavior. Monitor operational efficiency and identify growth opportunities. Use actionable insights to make informed business decisions and optimize events.",
-    },
-    {
-      id: "security",
-      icon: "Leaf",
-      title: "Secure Ticketing",
-      subtitle: "Protect Transactions & Data",
-      description:
-        "Ensure secure payment processing and protect customer data with encryption. Prevent fraud and unauthorized access with advanced security measures. Maintain trust and compliance while safeguarding ticketing operations.",
-    },
-  ],
-  linkText: "Get Ticketing Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Innovative Ticketing Solutions",
+    mainDescription:
+      "Our ticketing solutions enable seamless booking, efficient support, and real-time management. We help businesses and organizations provide smooth experiences for users and customers. Streamline operations while maximizing customer satisfaction and operational efficiency.",
+    items: [
+      {
+        id: "event-booking",
+        icon: "Leaf",
+        title: "Event Booking System",
+        subtitle: "Simplify Event Registrations",
+        description:
+          "Manage online ticket sales, reservations, and attendee tracking with automated confirmations. Utilize QR code entry for hassle-free check-ins. Optimize event management for both organizers and attendees, reducing manual workload.",
+      },
+      {
+        id: "support-tickets",
+        icon: "Leaf",
+        title: "Support Ticket System",
+        subtitle: "Efficient Customer Service",
+        description:
+          "Streamline customer support with automated ticket routing and priority assignment. Track resolution timelines and monitor team performance. Ensure faster responses and improved customer satisfaction across all support channels.",
+      },
+      {
+        id: "mobile-ticketing",
+        icon: "Leaf",
+        title: "Mobile Ticketing",
+        subtitle: "On-the-Go Access",
+        description:
+          "Enable customers to purchase, view, and validate tickets directly from mobile devices. Reduce queues and enhance user convenience with digital ticketing. Provide a seamless mobile-first experience for modern audiences.",
+      },
+      {
+        id: "integration",
+        icon: "Leaf",
+        title: "Third-Party Integrations",
+        subtitle: "Connect With Payment & CRM Systems",
+        description:
+          "Integrate ticketing platforms with payment gateways, CRM systems, and event management tools. Automate workflows and data synchronization between systems. Ensure seamless operations and a unified technology ecosystem.",
+      },
+      {
+        id: "analytics",
+        icon: "Leaf",
+        title: "Sales & Performance Analytics",
+        subtitle: "Insights to Improve Operations",
+        description:
+          "Generate detailed reports and dashboards to track sales trends and customer behavior. Monitor operational efficiency and identify growth opportunities. Use actionable insights to make informed business decisions and optimize events.",
+      },
+      {
+        id: "security",
+        icon: "Leaf",
+        title: "Secure Ticketing",
+        subtitle: "Protect Transactions & Data",
+        description:
+          "Ensure secure payment processing and protect customer data with encryption. Prevent fraud and unauthorized access with advanced security measures. Maintain trust and compliance while safeguarding ticketing operations.",
+      },
+    ],
+    linkText: "Get Ticketing Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Ticket Management Platforms",
     subtitle:
       "Organize, track, and manage tickets efficiently with dashboards, automation, and reporting features.",
     subtitleLink: { text: "ticketing management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/4a/62/41/4a624121f7ac982d8c85b425eb88369c.jpg",
     mobileImage: "https://i.pinimg.com/736x/8b/a4/62/8ba46297ba60b1159aed95b269fc166f.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/4a/62/41/4a624121f7ac982d8c85b425eb88369c.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/8b/a4/62/8ba46297ba60b1159aed95b269fc166f.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "dashboard",
@@ -136,37 +142,39 @@ export const ticketing: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "multi-channel",
-    icon: "map",
-    title: "Multi-Channel Access",
-    description:
-      "Sell and manage tickets seamlessly across online platforms, mobile apps, and on-site counters. Provide customers with a flexible, convenient booking experience. Ensure consistent service and real-time availability across all channels.",
-  },
-  {
-    id: "security",
-    icon: "map",
-    title: "Secure Payments & Data",
-    description:
-      "Protect customer data and payment information with advanced encryption and authentication protocols. Ensure compliance with industry security standards and regulations. Build trust by keeping sensitive information safe from unauthorized access.",
-  },
-  {
-    id: "integration",
-    icon: "map",
-    title: "CRM & Payment Integration",
-    description:
-      "Connect your ticketing platform with CRM systems, payment gateways, and event management tools. Streamline workflows to manage customer data, sales, and transactions efficiently. Enable smooth synchronization for seamless operations across all channels.",
-  },
-  {
-    id: "notifications",
-    icon: "map",
-    title: "Real-Time Notifications",
-    description:
-      "Send instant updates for ticket confirmations, reminders, and event alerts to customers. Enhance engagement by providing timely, actionable notifications. Reduce no-shows and improve user experience through proactive communication.",
-  },
-],
-ctaText: "Get Ticketing Experts",
-onCtaClick: () => {},
+      {
+        id: "multi-channel",
+        icon: "map",
+        title: "Multi-Channel Access",
+        description:
+          "Sell and manage tickets seamlessly across online platforms, mobile apps, and on-site counters. Provide customers with a flexible, convenient booking experience. Ensure consistent service and real-time availability across all channels.",
+      },
+      {
+        id: "security",
+        icon: "map",
+        title: "Secure Payments & Data",
+        description:
+          "Protect customer data and payment information with advanced encryption and authentication protocols. Ensure compliance with industry security standards and regulations. Build trust by keeping sensitive information safe from unauthorized access.",
+      },
+      {
+        id: "integration",
+        icon: "map",
+        title: "CRM & Payment Integration",
+        description:
+          "Connect your ticketing platform with CRM systems, payment gateways, and event management tools. Streamline workflows to manage customer data, sales, and transactions efficiently. Enable smooth synchronization for seamless operations across all channels.",
+      },
+      {
+        id: "notifications",
+        icon: "map",
+        title: "Real-Time Notifications",
+        description:
+          "Send instant updates for ticket confirmations, reminders, and event alerts to customers. Enhance engagement by providing timely, actionable notifications. Reduce no-shows and improve user experience through proactive communication.",
+      },
+    ],
+    ctaText: "Get Ticketing Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

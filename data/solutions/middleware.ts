@@ -20,7 +20,7 @@ export const middleware: SolutionConfig = {
     mainTitle: "Professional Middleware Development Services",
     mainDescription:
       "We design, develop, and deploy middleware solutions to enable seamless communication between software applications, databases, and cloud services. Our expertise ensures data consistency, reliability, and optimal performance across your technology stack.",
-    image: "/images/middleware-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +47,77 @@ export const middleware: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Innovative Middleware Solutions",
-  mainDescription:
-    "Our middleware solutions enable seamless connectivity, improve system performance, and process data in real-time. We help businesses integrate, automate, and scale efficiently while reducing operational complexity. Empower your enterprise with robust middleware architecture that supports growth and innovation.",
-  items: [
-    {
-      id: "app-integration",
-      icon: "Leaf",
-      title: "Application Integration",
-      subtitle: "Connect Disparate Systems",
-      description:
-        "Integrate multiple applications to enable smooth and secure data flow across platforms. Reduce redundancy and improve operational efficiency by centralizing communication. Deliver a unified user experience and consistent system behavior across all enterprise tools.",
-    },
-    {
-      id: "event-driven",
-      icon: "Leaf",
-      title: "Event-Driven Middleware",
-      subtitle: "Real-Time Communication",
-      description:
-        "Implement event-driven architectures to respond instantly to business events. Utilize message queues and event brokers for reliable and scalable communication. Enhance system responsiveness and operational agility in real-time scenarios.",
-    },
-    {
-      id: "api-management",
-      icon: "Leaf",
-      title: "API Gateway & Management",
-      subtitle: "Secure & Scalable API Access",
-      description:
-        "Manage and monitor API traffic efficiently with advanced gateway solutions. Enforce robust security protocols and authentication for safe data exchange. Provide developers with scalable and reliable access to critical system endpoints.",
-    },
-    {
-      id: "cloud-integration",
-      icon: "Leaf",
-      title: "Cloud Middleware",
-      subtitle: "Hybrid & Multi-Cloud Integration",
-      description:
-        "Seamlessly integrate on-premise and cloud-based applications for hybrid environments. Enable scalable and flexible architecture to meet modern business demands. Ensure continuous data flow and high availability across multiple cloud platforms.",
-    },
-    {
-      id: "data-synchronization",
-      icon: "Leaf",
-      title: "Data Synchronization",
-      subtitle: "Consistency Across Platforms",
-      description:
-        "Guarantee reliable data replication and synchronization across databases and applications. Prevent data conflicts and ensure accuracy in multi-system environments. Maintain consistent information across enterprise platforms for real-time decision-making.",
-    },
-    {
-      id: "monitoring-analytics",
-      icon: "Leaf",
-      title: "Middleware Monitoring & Analytics",
-      subtitle: "Proactive Performance Insights",
-      description:
-        "Track middleware performance metrics, message flows, and system health continuously. Gain actionable insights to optimize processes and preempt potential issues. Ensure high availability, reliability, and smooth operation of your integrated systems.",
-    },
-  ],
-  linkText: "Get Middleware Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Innovative Middleware Solutions",
+    mainDescription:
+      "Our middleware solutions enable seamless connectivity, improve system performance, and process data in real-time. We help businesses integrate, automate, and scale efficiently while reducing operational complexity. Empower your enterprise with robust middleware architecture that supports growth and innovation.",
+    items: [
+      {
+        id: "app-integration",
+        icon: "Leaf",
+        title: "Application Integration",
+        subtitle: "Connect Disparate Systems",
+        description:
+          "Integrate multiple applications to enable smooth and secure data flow across platforms. Reduce redundancy and improve operational efficiency by centralizing communication. Deliver a unified user experience and consistent system behavior across all enterprise tools.",
+      },
+      {
+        id: "event-driven",
+        icon: "Leaf",
+        title: "Event-Driven Middleware",
+        subtitle: "Real-Time Communication",
+        description:
+          "Implement event-driven architectures to respond instantly to business events. Utilize message queues and event brokers for reliable and scalable communication. Enhance system responsiveness and operational agility in real-time scenarios.",
+      },
+      {
+        id: "api-management",
+        icon: "Leaf",
+        title: "API Gateway & Management",
+        subtitle: "Secure & Scalable API Access",
+        description:
+          "Manage and monitor API traffic efficiently with advanced gateway solutions. Enforce robust security protocols and authentication for safe data exchange. Provide developers with scalable and reliable access to critical system endpoints.",
+      },
+      {
+        id: "cloud-integration",
+        icon: "Leaf",
+        title: "Cloud Middleware",
+        subtitle: "Hybrid & Multi-Cloud Integration",
+        description:
+          "Seamlessly integrate on-premise and cloud-based applications for hybrid environments. Enable scalable and flexible architecture to meet modern business demands. Ensure continuous data flow and high availability across multiple cloud platforms.",
+      },
+      {
+        id: "data-synchronization",
+        icon: "Leaf",
+        title: "Data Synchronization",
+        subtitle: "Consistency Across Platforms",
+        description:
+          "Guarantee reliable data replication and synchronization across databases and applications. Prevent data conflicts and ensure accuracy in multi-system environments. Maintain consistent information across enterprise platforms for real-time decision-making.",
+      },
+      {
+        id: "monitoring-analytics",
+        icon: "Leaf",
+        title: "Middleware Monitoring & Analytics",
+        subtitle: "Proactive Performance Insights",
+        description:
+          "Track middleware performance metrics, message flows, and system health continuously. Gain actionable insights to optimize processes and preempt potential issues. Ensure high availability, reliability, and smooth operation of your integrated systems.",
+      },
+    ],
+    linkText: "Get Middleware Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Enterprise Middleware Management",
     subtitle:
       "Manage integrations, workflows, and middleware infrastructure efficiently with monitoring, dashboards, and automation.",
     subtitleLink: { text: "middleware management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/3e/ed/f1/3eedf19fc91b07d3b4ac265550ad76e3.jpg",
     mobileImage: "https://i.pinimg.com/736x/b9/51/bd/b951bdd3c348d680b058464dd2c05f66.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/3e/ed/f1/3eedf19fc91b07d3b4ac265550ad76e3.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/b9/51/bd/b951bdd3c348d680b058464dd2c05f66.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "monitoring",
@@ -136,37 +142,39 @@ export const middleware: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "workflow-automation",
-    icon: "map",
-    title: "Workflow Automation",
-    description:
-      "Automate repetitive business tasks and standardize processes to save time and reduce human error. Integrate workflows across multiple applications for seamless operations. Enhance efficiency and consistency across your enterprise systems.",
-  },
-  {
-    id: "api-gateway",
-    icon: "map",
-    title: "API Gateway Integration",
-    description:
-      "Centralize the management of APIs to ensure secure, scalable, and reliable communication between systems. Enforce authentication, throttling, and routing policies for controlled API usage. Streamline connectivity and reduce integration complexity across multiple platforms.",
-  },
-  {
-    id: "cloud-sync",
-    icon: "map",
-    title: "Cloud & Hybrid Integration",
-    description:
-      "Connect on-premise applications with cloud and hybrid environments for seamless data flow. Enable interoperability between multiple cloud providers and legacy systems. Facilitate real-time data access, scalability, and flexible IT infrastructure management.",
-  },
-  {
-    id: "alerts",
-    icon: "map",
-    title: "Real-Time Alerts & Notifications",
-    description:
-      "Receive instant notifications for workflow failures, integration issues, or critical system events. Monitor and respond to problems quickly to minimize downtime and business impact. Ensure proactive system management with automated alerts and comprehensive reporting.",
-  },
-],
-ctaText: "Get Middleware Experts",
-onCtaClick: () => {},
+      {
+        id: "workflow-automation",
+        icon: "map",
+        title: "Workflow Automation",
+        description:
+          "Automate repetitive business tasks and standardize processes to save time and reduce human error. Integrate workflows across multiple applications for seamless operations. Enhance efficiency and consistency across your enterprise systems.",
+      },
+      {
+        id: "api-gateway",
+        icon: "map",
+        title: "API Gateway Integration",
+        description:
+          "Centralize the management of APIs to ensure secure, scalable, and reliable communication between systems. Enforce authentication, throttling, and routing policies for controlled API usage. Streamline connectivity and reduce integration complexity across multiple platforms.",
+      },
+      {
+        id: "cloud-sync",
+        icon: "map",
+        title: "Cloud & Hybrid Integration",
+        description:
+          "Connect on-premise applications with cloud and hybrid environments for seamless data flow. Enable interoperability between multiple cloud providers and legacy systems. Facilitate real-time data access, scalability, and flexible IT infrastructure management.",
+      },
+      {
+        id: "alerts",
+        icon: "map",
+        title: "Real-Time Alerts & Notifications",
+        description:
+          "Receive instant notifications for workflow failures, integration issues, or critical system events. Monitor and respond to problems quickly to minimize downtime and business impact. Ensure proactive system management with automated alerts and comprehensive reporting.",
+      },
+    ],
+    ctaText: "Get Middleware Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
   faq: {
     title: "FAQ",

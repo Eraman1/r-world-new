@@ -31,39 +31,36 @@ import { game } from "./game";
 import { fullstack } from "./fullstack";
 // import { OnDemandDevelopers } from "./on-demand-developers";
 
-
-
-
-export const onDemandDevelopersData: Record<string, OnDemandDevelopersConfig> = {
-dotNetDevelopers,
-java,
-python,
-php,
-react,
-angular,
-vue,
-node,
-ios,
-android,
-flutter,
-reactnative,
-unity,
-salesforce,
-sharepoint,
-wordpress,
-magento,
-shopify,
-aws,
-azure,
-devops,
-qaEngineer,
-uiuxDesigners,
-dataScience,
-machineLearning,
-blockchain,
-game,
-fullstack,
-};
+export const onDemandDevelopersData: Record<string, OnDemandDevelopersConfig> =
+  {
+    dotnet: dotNetDevelopers,
+    java,
+    python,
+    php,
+    react,
+    angular,
+    vue,
+    node,
+    ios,
+    android,
+    flutter,
+    "react-native": reactnative,
+    unity,
+    salesforce,
+    sharepoint,
+    wordpress,
+    magento,
+    shopify,
+    aws,
+    azure,
+    devops,
+    qa: qaEngineer,
+    "ui-ux": uiuxDesigners,
+    "data-scientists": dataScience,
+    "ml-engineers": machineLearning,
+    blockchain,
+    game,
+    "full-stack": fullstack,
+  };
 
 export type { OnDemandDevelopersConfig };
-

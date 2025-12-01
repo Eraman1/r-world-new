@@ -20,7 +20,7 @@ export const uiUx: SolutionConfig = {
     mainTitle: "Professional UI/UX Design Services",
     mainDescription:
       "We specialize in designing interfaces that are visually appealing, highly functional, and optimized for usability. From wireframes and prototypes to full-scale designs, we deliver experiences that engage and convert users.",
-    image: "/images/ui-ux-laptop.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,71 +47,77 @@ export const uiUx: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Comprehensive UI/UX Solutions",
-  mainDescription:
-    "Our UI/UX solutions help businesses deliver delightful user experiences, increase engagement, and improve conversions across all digital touchpoints. We focus on creating intuitive interfaces, seamless navigation, and aesthetically appealing designs. Each solution is tailored to enhance user satisfaction and business goals.",
-  items: [
-    {
-      id: "wireframing",
-      icon: "Leaf",
-      title: "Wireframing & Mockups",
-      subtitle: "Visual Blueprint for Apps",
-      description:
-        "Create clear wireframes and mockups to visualize app layouts, structure, and functionality before development. Reduce development errors by planning early and ensuring alignment with stakeholders. Provide a tangible design blueprint for both designers and developers.",
-    },
-    {
-      id: "interactive-design",
-      icon: "Leaf",
-      title: "Interactive Design",
-      subtitle: "Engaging User Interactions",
-      description:
-        "Implement micro-interactions, animations, and transitions to guide users and enhance their experience. Increase user engagement by making interactions intuitive and enjoyable. Build interactive elements that communicate feedback and system responses effectively.",
-    },
-    {
-      id: "usability-testing",
-      icon: "Leaf",
-      title: "Usability Testing",
-      subtitle: "Optimized for Real Users",
-      description:
-        "Test designs with real users to identify pain points and ensure the interface is intuitive and efficient. Collect actionable feedback to iterate and improve design solutions. Validate that your product meets user expectations and accessibility standards.",
-    },
-    {
-      id: "responsive-design",
-      icon: "Leaf",
-      title: "Responsive & Mobile-First Design",
-      subtitle: "Seamless Across Devices",
-      description:
-        "Design interfaces that adapt beautifully to different screen sizes, ensuring consistent experiences on desktop, tablet, and mobile. Optimize touch interactions, layouts, and typography for various devices. Enhance user satisfaction by delivering flawless experiences on all platforms.",
-    },
-    {
-      id: "ui-guidelines",
-      icon: "Leaf",
-      title: "UI Style Guides & Design Systems",
-      subtitle: "Consistency Across Platforms",
-      description:
-        "Develop comprehensive design systems and style guides to maintain visual consistency and streamline development. Define reusable components, typography, and color palettes for scalability. Ensure brand cohesion across web, mobile, and other digital platforms.",
-    },
-    {
-      id: "analytics-integration",
-      icon: "Leaf",
-      title: "UX Analytics Integration",
-      subtitle: "Data-Driven Experience Improvements",
-      description:
-        "Integrate analytics tools to track user behavior, optimize flows, and make informed design decisions. Measure user engagement, conversion paths, and interaction patterns. Use actionable insights to continuously refine and enhance the user experience.",
-    },
-  ],
-  linkText: "Get UI/UX Solutions",
-  linkUrl: "/contact-us",
-},
-
+    mainTitle: "Comprehensive UI/UX Solutions",
+    mainDescription:
+      "Our UI/UX solutions help businesses deliver delightful user experiences, increase engagement, and improve conversions across all digital touchpoints. We focus on creating intuitive interfaces, seamless navigation, and aesthetically appealing designs. Each solution is tailored to enhance user satisfaction and business goals.",
+    items: [
+      {
+        id: "wireframing",
+        icon: "Leaf",
+        title: "Wireframing & Mockups",
+        subtitle: "Visual Blueprint for Apps",
+        description:
+          "Create clear wireframes and mockups to visualize app layouts, structure, and functionality before development. Reduce development errors by planning early and ensuring alignment with stakeholders. Provide a tangible design blueprint for both designers and developers.",
+      },
+      {
+        id: "interactive-design",
+        icon: "Leaf",
+        title: "Interactive Design",
+        subtitle: "Engaging User Interactions",
+        description:
+          "Implement micro-interactions, animations, and transitions to guide users and enhance their experience. Increase user engagement by making interactions intuitive and enjoyable. Build interactive elements that communicate feedback and system responses effectively.",
+      },
+      {
+        id: "usability-testing",
+        icon: "Leaf",
+        title: "Usability Testing",
+        subtitle: "Optimized for Real Users",
+        description:
+          "Test designs with real users to identify pain points and ensure the interface is intuitive and efficient. Collect actionable feedback to iterate and improve design solutions. Validate that your product meets user expectations and accessibility standards.",
+      },
+      {
+        id: "responsive-design",
+        icon: "Leaf",
+        title: "Responsive & Mobile-First Design",
+        subtitle: "Seamless Across Devices",
+        description:
+          "Design interfaces that adapt beautifully to different screen sizes, ensuring consistent experiences on desktop, tablet, and mobile. Optimize touch interactions, layouts, and typography for various devices. Enhance user satisfaction by delivering flawless experiences on all platforms.",
+      },
+      {
+        id: "ui-guidelines",
+        icon: "Leaf",
+        title: "UI Style Guides & Design Systems",
+        subtitle: "Consistency Across Platforms",
+        description:
+          "Develop comprehensive design systems and style guides to maintain visual consistency and streamline development. Define reusable components, typography, and color palettes for scalability. Ensure brand cohesion across web, mobile, and other digital platforms.",
+      },
+      {
+        id: "analytics-integration",
+        icon: "Leaf",
+        title: "UX Analytics Integration",
+        subtitle: "Data-Driven Experience Improvements",
+        description:
+          "Integrate analytics tools to track user behavior, optimize flows, and make informed design decisions. Measure user engagement, conversion paths, and interaction patterns. Use actionable insights to continuously refine and enhance the user experience.",
+      },
+    ],
+    linkText: "Get UI/UX Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "UI/UX Project Management Tools",
     subtitle:
       "Manage design assets, workflows, and team collaboration efficiently with centralized tools and dashboards.",
     subtitleLink: { text: "UI/UX management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/19/53/7d/19537d1fe194205ab3c0eda4fc2d5164.jpg",
     mobileImage: "https://i.pinimg.com/736x/e9/60/d1/e960d16fb83ab9f3cbc60a5ed11be478.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/19/53/7d/19537d1fe194205ab3c0eda4fc2d5164.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/e9/60/d1/e960d16fb83ab9f3cbc60a5ed11be478.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "asset-management",
@@ -136,37 +142,39 @@ export const uiUx: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "prototyping-tools",
-    icon: "map",
-    title: "Integrated Prototyping Tools",
-    description:
-      "Create interactive prototypes directly within the platform for faster validation and testing. Enable stakeholders to experience designs in real-time before development. Streamline feedback collection and iterate efficiently to save time and resources.",
-  },
-  {
-    id: "analytics-dashboard",
-    icon: "map",
-    title: "UX Analytics Dashboard",
-    description:
-      "Track user engagement, clicks, and behavior across your digital products. Gain insights to make data-driven improvements to UI and UX designs. Monitor performance metrics continuously to optimize conversion rates and user satisfaction.",
-  },
-  {
-    id: "version-control",
-    icon: "map",
-    title: "Version Control & History",
-    description:
-      "Maintain a complete history of design changes to revert or audit at any time. Collaborate safely across teams without fear of losing work. Ensure secure project management and maintain consistency across multiple design iterations.",
-  },
-  {
-    id: "notifications",
-    icon: "map",
-    title: "Real-Time Notifications",
-    description:
-      "Receive instant alerts on design updates, approvals, or comments to keep projects moving. Stay informed about team activities and deadlines in real-time. Enhance collaboration efficiency and minimize delays by addressing feedback immediately.",
-  },
-],
-ctaText: "Get UI/UX Design Experts",
-onCtaClick: () => {},
+      {
+        id: "prototyping-tools",
+        icon: "map",
+        title: "Integrated Prototyping Tools",
+        description:
+          "Create interactive prototypes directly within the platform for faster validation and testing. Enable stakeholders to experience designs in real-time before development. Streamline feedback collection and iterate efficiently to save time and resources.",
+      },
+      {
+        id: "analytics-dashboard",
+        icon: "map",
+        title: "UX Analytics Dashboard",
+        description:
+          "Track user engagement, clicks, and behavior across your digital products. Gain insights to make data-driven improvements to UI and UX designs. Monitor performance metrics continuously to optimize conversion rates and user satisfaction.",
+      },
+      {
+        id: "version-control",
+        icon: "map",
+        title: "Version Control & History",
+        description:
+          "Maintain a complete history of design changes to revert or audit at any time. Collaborate safely across teams without fear of losing work. Ensure secure project management and maintain consistency across multiple design iterations.",
+      },
+      {
+        id: "notifications",
+        icon: "map",
+        title: "Real-Time Notifications",
+        description:
+          "Receive instant alerts on design updates, approvals, or comments to keep projects moving. Stay informed about team activities and deadlines in real-time. Enhance collaboration efficiency and minimize delays by addressing feedback immediately.",
+      },
+    ],
+    ctaText: "Get UI/UX Design Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

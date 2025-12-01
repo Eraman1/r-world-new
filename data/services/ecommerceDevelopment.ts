@@ -19,7 +19,11 @@ export const ecommerceDevelopment: ServiceConfig = {
     mainTitle: "Professional E-commerce Development Services",
     mainDescription:
       "We design and develop custom e-commerce solutions for startups and enterprises. From intuitive storefronts to secure payment systems, we help you build platforms that increase engagement and boost sales.",
+<<<<<<< HEAD
     image: "/images/ecommerce-development-laptop.png",
+=======
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     services: [
       {
         id: 1,
@@ -46,6 +50,7 @@ export const ecommerceDevelopment: ServiceConfig = {
   },
 
   solutions: {
+<<<<<<< HEAD
   mainTitle: "Comprehensive E-commerce Solutions",
   mainDescription:
     "Our e-commerce development services empower businesses with scalable, secure, and conversion-focused digital stores. We build custom platforms that elevate customer experience and business growth.",
@@ -163,13 +168,136 @@ solutionsTwo: {
   linkUrl: "/contact-us",
 },
 
+=======
+    mainTitle: "Comprehensive E-commerce Solutions",
+    mainDescription:
+      "Our e-commerce development services empower businesses with scalable, secure, and conversion-focused digital stores. We build custom platforms that elevate customer experience and business growth.",
+
+    items: [
+      {
+        id: "storefront-design",
+        icon: "Leaf",
+        title: "Storefront Design & Development",
+        subtitle: "",
+        description:
+          "Design visually captivating and mobile-friendly storefronts. \nImplement intuitive layouts for effortless product browsing. \nIncorporate dynamic product filters and recommendations. \nCustomize themes that strengthen your brand identity. \nDeliver smooth, enjoyable, and engaging shopping journeys.",
+      },
+      {
+        id: "payment-security",
+        icon: "Leaf",
+        title: "Payment Gateway Integration",
+        subtitle: "",
+        description:
+          "Integrate global payment gateways like PayPal, Stripe, and Razorpay. \nMaintain strict PCI-DSS compliance for secure transactions. \nSupport diverse currencies and local payment methods. \nSimplify checkout to reduce abandonment rates. \nEnsure customer trust with encrypted, frictionless payments.",
+      },
+      {
+        id: "inventory-management",
+        icon: "Leaf",
+        title: "Inventory & Order Management",
+        subtitle: "",
+        description:
+          "Automate real-time inventory tracking and stock management. \nSimplify order processing and delivery coordination. \nIntegrate with ERP or POS systems for seamless operations. \nMinimize errors through smart stock monitoring tools. \nEnsure fast fulfillment and improved customer satisfaction.",
+      },
+      {
+        id: "analytics",
+        icon: "Leaf",
+        title: "E-commerce Analytics & Insights",
+        subtitle: "",
+        description:
+          "Monitor customer activity and purchasing behaviors in detail. \nAnalyze conversion rates, sales growth, and engagement metrics. \nLeverage insights to improve marketing campaigns. \nGenerate visual dashboards for performance tracking. \nMake smarter business decisions powered by real-time analytics.",
+      },
+      {
+        id: "seo-optimization",
+        icon: "Leaf",
+        title: "SEO & Conversion Optimization",
+        subtitle: "",
+        description:
+          "Implement advanced SEO strategies for higher search visibility. \nEnhance product metadata and mobile site performance. \nConduct A/B testing to refine conversion elements. \nReduce cart abandonment through UX optimization. \nBoost traffic, engagement, and long-term sales growth.",
+      },
+      {
+        id: "crm-integration",
+        icon: "Leaf",
+        title: "CRM & ERP Integration",
+        subtitle: "",
+        description:
+          "Integrate top CRM tools like HubSpot or Salesforce seamlessly. \nEnable ERP synchronization for real-time data updates. \nEnhance customer engagement through personalized marketing. \nMaintain unified data across business platforms. \nSimplify workflows and improve operational visibility.",
+      },
+    ],
+    linkText: "Get E-commerce Solutions",
+    linkUrl: "/contact-us",
+  },
+  solutionsTwo: {
+    mainTitle: "Next-Generation eCommerce Development Solutions",
+    mainDescription:
+      "We craft scalable, intelligent, and user-centric eCommerce platforms that drive sales, streamline operations, and deliver exceptional customer experiences. Our tailored solutions empower brands to grow faster and compete globally.",
+
+    items: [
+      {
+        id: "storefront-experience",
+        icon: "Leaf",
+        title: "Custom Storefront Design & Experience",
+        subtitle: "",
+        description:
+          "Deliver stunning, intuitive, and conversion-optimized storefronts. \nWe craft personalized interfaces that reflect your brand identity. \nEvery design element enhances usability and shopping engagement. \nOur UX strategy ensures friction-free navigation and purchases. \nDelight customers with modern, responsive, and fast experiences.",
+      },
+      {
+        id: "inventory-management",
+        icon: "Leaf",
+        title: "Smart Inventory & Order Management Systems",
+        subtitle: "",
+        description:
+          "Automate product tracking and order processing with precision. \nOur systems sync real-time data across sales channels seamlessly. \nReduce stock errors and eliminate over- or under-selling issues. \nGain visibility into supply, demand, and fulfillment performance. \nOptimize operations with data-driven inventory intelligence.",
+      },
+      {
+        id: "payment-security",
+        icon: "Leaf",
+        title: "Secure Payment & Checkout Integration",
+        subtitle: "",
+        description:
+          "Implement global payment gateways with top-tier encryption. \nWe ensure smooth, one-click checkout experiences across devices. \nSafeguard customer data with multi-layer security measures. \nSupport multiple currencies and payment preferences easily. \nBoost trust and reduce cart abandonment with secure systems.",
+      },
+      {
+        id: "personalization-ai",
+        icon: "Leaf",
+        title: "AI-Driven Personalization & Product Recommendations",
+        subtitle: "",
+        description:
+          "Deliver personalized experiences that convert visitors into buyers. \nOur AI engines suggest products based on real-time user behavior. \nOptimize recommendations to boost cross-sell and upsell rates. \nAnalyze preferences for smarter marketing and re-engagement. \nDrive loyalty through predictive, intent-based personalization.",
+      },
+      {
+        id: "multi-vendor-platform",
+        icon: "Leaf",
+        title: "Multi-Vendor Marketplace Development",
+        subtitle: "",
+        description:
+          "Launch scalable platforms connecting multiple sellers and buyers. \nWe build vendor dashboards for easy product and order management. \nAutomate commission, payout, and catalog workflows seamlessly. \nEnable secure transactions with role-based access control. \nEmpower growth with flexible, cloud-based marketplace solutions.",
+      },
+      {
+        id: "analytics-performance",
+        icon: "Leaf",
+        title: "eCommerce Analytics & Performance Optimization",
+        subtitle: "",
+        description:
+          "Track customer journeys and identify sales opportunities instantly. \nUse real-time analytics to improve conversion and retention metrics. \nMeasure marketing ROI and optimize campaigns with insights. \nEnhance performance through A/B testing and behavioral data. \nDrive profitability with continuous, insight-driven optimization.",
+      },
+    ],
+
+    linkText: "Build Your eCommerce Platform Today",
+    linkUrl: "/contact-us",
+  },
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
 
   managementSolutions: {
     title: "E-commerce Management Tools",
     subtitle:
       "Streamline your store management, analytics, and customer engagement with our advanced e-commerce tools.",
     subtitleLink: { text: "e-commerce management software", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/736x/3e/ee/0e/3eee0efd67bea0921b615676c447aac5.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/736x/3e/ee/0e/3eee0efd67bea0921b615676c447aac5.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     mobileImage: "/images/ecommerce-management-mobile.jpg",
     topFeatures: [
       {
@@ -195,7 +323,13 @@ solutionsTwo: {
       },
     ],
     ctaText: "Get E-commerce Experts",
+<<<<<<< HEAD
     onCtaClick: () => {},
+=======
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
   },
 
   faq: {

@@ -20,7 +20,7 @@ export const itServiceManagement: SolutionConfig = {
     mainTitle: "End-to-End ITSM Development & Integration",
     mainDescription:
       "We build and integrate ITSM platforms that centralize IT operations, automate routine processes, and improve SLA compliance. From incident tracking to change management, our solutions ensure IT runs smoothly across departments.",
-    image: "/images/itsm-dashboard.png",
+    image: "https://cdn.pixabay.com/photo/2024/04/27/07/24/ai-generated-8723288_1280.jpg",
     services: [
       {
         id: 1,
@@ -47,70 +47,77 @@ export const itServiceManagement: SolutionConfig = {
   },
 
   solutions: {
-  mainTitle: "Comprehensive ITSM Software Solutions",
-  mainDescription:
-    "Our ITSM solutions empower organizations to improve IT performance, ensure compliance, and enhance collaboration between technical and business teams.",
-  items: [
-    {
-      id: "ticketing-system",
-      icon: "Leaf",
-      title: "Automated Ticketing System",
-      subtitle: "Faster Response & Resolution",
-      description:
-        "Handle IT issues efficiently with automated ticket creation, assignment, and escalation based on predefined workflows. Improve response times by prioritizing critical issues automatically. Ensure accountability and transparency across your IT support team.",
-    },
-    {
-      id: "knowledge-base",
-      icon: "Leaf",
-      title: "Knowledge Base & Self-Service Portal",
-      subtitle: "Empower End Users",
-      description:
-        "Provide a centralized knowledge base and AI-powered self-service portal to help users resolve common issues independently. Reduce repetitive IT requests and improve support efficiency. Enhance end-user satisfaction with quick access to accurate solutions.",
-    },
-    {
-      id: "change-management",
-      icon: "Leaf",
-      title: "Change & Release Management",
-      subtitle: "Minimize Risk in IT Changes",
-      description:
-        "Plan, approve, and track IT infrastructure changes with detailed audit trails and automated rollback options. Ensure compliance and reduce downtime during updates. Improve overall change visibility for IT managers and stakeholders.",
-    },
-    {
-      id: "performance-analytics",
-      icon: "Leaf",
-      title: "Performance & SLA Analytics",
-      subtitle: "Measure IT Success",
-      description:
-        "Monitor KPIs, SLA compliance, and IT service performance through dynamic dashboards and real-time analytics. Identify trends, bottlenecks, and areas for improvement. Enable data-driven decisions that optimize IT operations and efficiency.",
-    },
-    {
-      id: "integration",
-      icon: "Leaf",
-      title: "Third-Party Integration",
-      subtitle: "Connect with Enterprise Tools",
-      description:
-        "Integrate ITSM seamlessly with CRM, ERP, and DevOps tools such as Jira, ServiceNow, and Microsoft Teams. Enable smooth workflow synchronization across platforms. Enhance productivity and reduce manual data entry between systems.",
-    },
-    {
-      id: "ai-automation",
-      icon: "Leaf",
-      title: "AI-Powered Automation",
-      subtitle: "Smarter Service Operations",
-      description:
-        "Leverage AI for predictive issue detection, automated ticket triage, and smart recommendations. Reduce manual intervention and human error in IT operations. Improve response times while enhancing overall service reliability.",
-    },
-  ],
-  linkText: "Explore ITSM Solutions",
-  linkUrl: "/contact-us",
-},
+    mainTitle: "Comprehensive ITSM Software Solutions",
+    mainDescription:
+      "Our ITSM solutions empower organizations to improve IT performance, ensure compliance, and enhance collaboration between technical and business teams.",
+    items: [
+      {
+        id: "ticketing-system",
+        icon: "Leaf",
+        title: "Automated Ticketing System",
+        subtitle: "Faster Response & Resolution",
+        description:
+          "Handle IT issues efficiently with automated ticket creation, assignment, and escalation based on predefined workflows. Improve response times by prioritizing critical issues automatically. Ensure accountability and transparency across your IT support team.",
+      },
+      {
+        id: "knowledge-base",
+        icon: "Leaf",
+        title: "Knowledge Base & Self-Service Portal",
+        subtitle: "Empower End Users",
+        description:
+          "Provide a centralized knowledge base and AI-powered self-service portal to help users resolve common issues independently. Reduce repetitive IT requests and improve support efficiency. Enhance end-user satisfaction with quick access to accurate solutions.",
+      },
+      {
+        id: "change-management",
+        icon: "Leaf",
+        title: "Change & Release Management",
+        subtitle: "Minimize Risk in IT Changes",
+        description:
+          "Plan, approve, and track IT infrastructure changes with detailed audit trails and automated rollback options. Ensure compliance and reduce downtime during updates. Improve overall change visibility for IT managers and stakeholders.",
+      },
+      {
+        id: "performance-analytics",
+        icon: "Leaf",
+        title: "Performance & SLA Analytics",
+        subtitle: "Measure IT Success",
+        description:
+          "Monitor KPIs, SLA compliance, and IT service performance through dynamic dashboards and real-time analytics. Identify trends, bottlenecks, and areas for improvement. Enable data-driven decisions that optimize IT operations and efficiency.",
+      },
+      {
+        id: "integration",
+        icon: "Leaf",
+        title: "Third-Party Integration",
+        subtitle: "Connect with Enterprise Tools",
+        description:
+          "Integrate ITSM seamlessly with CRM, ERP, and DevOps tools such as Jira, ServiceNow, and Microsoft Teams. Enable smooth workflow synchronization across platforms. Enhance productivity and reduce manual data entry between systems.",
+      },
+      {
+        id: "ai-automation",
+        icon: "Leaf",
+        title: "AI-Powered Automation",
+        subtitle: "Smarter Service Operations",
+        description:
+          "Leverage AI for predictive issue detection, automated ticket triage, and smart recommendations. Reduce manual intervention and human error in IT operations. Improve response times while enhancing overall service reliability.",
+      },
+    ],
+    linkText: "Explore ITSM Solutions",
+    linkUrl: "/contact-us",
+  },
 
   managementSolutions: {
     title: "Enterprise IT Management Platforms",
     subtitle:
       "Centralize IT operations, monitor performance, and manage digital assets from a single integrated platform.",
     subtitleLink: { text: "enterprise IT platforms", url: "#" },
+<<<<<<< HEAD
     laptopImage: "https://i.pinimg.com/1200x/10/bd/ce/10bdcee5acece5da5ea77a89d61ee653.jpg",
     mobileImage: "https://i.pinimg.com/736x/cd/28/b0/cd28b04e6358671bd9f36e0bd1ca76c6.jpg",
+=======
+    laptopImage:
+      "https://i.pinimg.com/1200x/10/bd/ce/10bdcee5acece5da5ea77a89d61ee653.jpg",
+    mobileImage:
+      "https://i.pinimg.com/736x/cd/28/b0/cd28b04e6358671bd9f36e0bd1ca76c6.jpg",
+>>>>>>> dff8695af6695b105ed5ef84459d44d099a61cb6
     topFeatures: [
       {
         id: "monitoring",
@@ -135,37 +142,39 @@ export const itServiceManagement: SolutionConfig = {
       },
     ],
     bottomFeatures: [
-  {
-    id: "integration",
-    icon: "map",
-    title: "Integration with Cloud Platforms",
-    description:
-      "Seamlessly connect ITSM tools with AWS, Azure, and Google Cloud for efficient hybrid IT infrastructure management. Enable automated workflows across cloud services and on-premises systems. Simplify deployment, monitoring, and scaling of IT resources for improved operational agility.",
-  },
-  {
-    id: "reporting",
-    icon: "map",
-    title: "Advanced Reporting",
-    description:
-      "Generate comprehensive reports on service performance, system downtime, and team productivity. Gain actionable insights through detailed analytics and real-time dashboards. Make informed decisions to optimize IT processes and enhance overall service delivery.",
-  },
-  {
-    id: "automation",
-    icon: "map",
-    title: "Robotic Process Automation (RPA)",
-    description:
-      "Automate repetitive IT service tasks with intelligent bots to reduce manual effort and errors. Improve efficiency, speed, and consistency in routine operations. Free up your team to focus on high-value strategic initiatives and problem-solving.",
-  },
-  {
-    id: "backup",
-    icon: "map",
-    title: "Data Backup & Disaster Recovery",
-    description:
-      "Ensure business continuity with automated backups and rapid recovery solutions for critical IT assets. Protect data against accidental loss, cyber threats, or system failures. Maintain uptime and reliability through robust disaster recovery planning and monitoring.",
-  },
-],
-ctaText: "Get ITSM Experts",
-onCtaClick: () => {},
+      {
+        id: "integration",
+        icon: "map",
+        title: "Integration with Cloud Platforms",
+        description:
+          "Seamlessly connect ITSM tools with AWS, Azure, and Google Cloud for efficient hybrid IT infrastructure management. Enable automated workflows across cloud services and on-premises systems. Simplify deployment, monitoring, and scaling of IT resources for improved operational agility.",
+      },
+      {
+        id: "reporting",
+        icon: "map",
+        title: "Advanced Reporting",
+        description:
+          "Generate comprehensive reports on service performance, system downtime, and team productivity. Gain actionable insights through detailed analytics and real-time dashboards. Make informed decisions to optimize IT processes and enhance overall service delivery.",
+      },
+      {
+        id: "automation",
+        icon: "map",
+        title: "Robotic Process Automation (RPA)",
+        description:
+          "Automate repetitive IT service tasks with intelligent bots to reduce manual effort and errors. Improve efficiency, speed, and consistency in routine operations. Free up your team to focus on high-value strategic initiatives and problem-solving.",
+      },
+      {
+        id: "backup",
+        icon: "map",
+        title: "Data Backup & Disaster Recovery",
+        description:
+          "Ensure business continuity with automated backups and rapid recovery solutions for critical IT assets. Protect data against accidental loss, cyber threats, or system failures. Maintain uptime and reliability through robust disaster recovery planning and monitoring.",
+      },
+    ],
+    ctaText: "Get ITSM Experts",
+    onCtaClick: () => {
+      window.location.href = "/contact-us";
+    },
   },
 
   faq: {

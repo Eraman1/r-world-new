@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { JSX, useEffect, useState } from "react";
 import {
@@ -78,13 +77,13 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({
             <div className="flex items-center gap-2">
               <Calendar className="w-4 h-4" />
               <span>
-                {post.publishedAt
-                  ? new Date(post.publishedAt).toLocaleDateString("en-US", {
+                {post.date
+                  ? new Date(post.date).toLocaleDateString("en-US", {
                       month: "long",
                       day: "numeric",
                       year: "numeric",
                     })
-                  : "Unknown date"}
+                  : "Unknown date "}
               </span>
             </div>
             {post.readTime && (
@@ -311,14 +310,14 @@ export const BlogDetailPage: React.FC<BlogDetailPageProps> = ({
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Link
-              href="/contact"
+              href="/contact-us"
               className="px-8 py-3 bg-white text-amber-400 font-semibold rounded-lg hover:bg-gray-100 transition-colors"
             >
               Get in Touch
             </Link>
             <Link
-              href="/blog"
-              className="px-8 py-3 bg-amber-400 text-white font-semibold rounded-lg hover:bg-teal-800 transition-colors"
+              href="/blogs"
+              className="px-8 py-3 bg-amber-400 text-white font-semibold rounded-lg hover:bg-blue-900/80 transition-colors"
             >
               Read More Articles
             </Link>

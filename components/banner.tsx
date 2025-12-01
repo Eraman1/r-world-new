@@ -42,7 +42,7 @@ const Banner: React.FC = () => {
             Get Started <ArrowRight className="h-5 w-5" />
           </Link>
           <Link
-            href="/On-Demand-Developers"
+            href="/on-demand-developers"
             className="px-6 py-3 border border-amber-500 text-white font-medium rounded-full hover:bg-blue-500/10 transition"
           >
             Hire Developers on Demand

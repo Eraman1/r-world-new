@@ -1,5 +1,5 @@
-import React from 'react';
-import { Quote } from 'lucide-react';
+import React from "react";
+import { Quote } from "lucide-react";
 
 const Testimonials: React.FC = () => {
   return (
@@ -11,8 +11,9 @@ const Testimonials: React.FC = () => {
             Client Testimonials
           </h2>
           <p className="text-[#000000] text-lg max-w-4xl mx-auto">
-            We are trusted by small to mid-sized organizations, Fortune 5000 companies, and major 
-            brands to advance their technology objectives through custom software solutions.
+            We are trusted by small to mid-sized organizations, Fortune 5000
+            companies, and major brands to advance their technology objectives
+            through custom software solutions.
           </p>
         </div>
 
@@ -32,46 +33,72 @@ const Testimonials: React.FC = () => {
                       </div>
                       <div className="text-left">
                         <p className="text-sm text-[#000000] italic mb-2">
-                          &#34;I had a great and pleasurable experience working with R-World and would 
-                          highly recommend their services to others.&#34;
+                          &#34;They developed a custom ERP for our food company.
+                          Smooth workflow and great long-term support..&#34;
                         </p>
-                        <p className="text-xs font-bold text-[#14213D]">John Anderson</p>
-                        <p className="text-xs text-gray-600">VP of Operations at TechCorp</p>
+                        <p className="text-xs font-bold text-[#14213D]">
+                          Desert Food Pvt Ltd
+                        </p>
+                        <p className="text-xs text-gray-600">
+                          Operations Head
+                        </p>
                       </div>
                     </div>
                   </div>
-                  
+
                   {/* Play button */}
                   <button className="w-16 h-16 bg-[#FCA311] rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300 mx-auto shadow-lg">
-                    <svg className="w-6 h-6 text-[#14213D] ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
+                    <svg
+                      className="w-6 h-6 text-[#14213D] ml-1"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M8 5v14l11-7z" />
                     </svg>
                   </button>
                 </div>
               </div>
-              
+
               {/* Video controls */}
               <div className="absolute bottom-4 left-4 right-4 bg-black/70 backdrop-blur-sm rounded-lg px-4 py-3 flex items-center justify-between">
                 <button className="text-white hover:text-[#FCA311] transition-colors">
-                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M8 5v14l11-7z"/>
+                  <svg
+                    className="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M8 5v14l11-7z" />
                   </svg>
                 </button>
-                <span className="text-white text-sm font-medium">0:00 / 1:14</span>
+                <span className="text-white text-sm font-medium">
+                  0:00 / 1:14
+                </span>
                 <div className="flex items-center gap-3">
                   <button className="text-white hover:text-[#FCA311] transition-colors">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+                    <svg
+                      className="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z" />
                     </svg>
                   </button>
                   <button className="text-white hover:text-[#FCA311] transition-colors">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"/>
+                    <svg
+                      className="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" />
                     </svg>
                   </button>
                   <button className="text-white hover:text-[#FCA311] transition-colors">
-                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/>
+                    <svg
+                      className="w-5 h-5"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z" />
                     </svg>
                   </button>
                 </div>
@@ -79,11 +106,6 @@ const Testimonials: React.FC = () => {
             </div>
 
             {/* CTA Button */}
-            <div className="flex justify-center">
-              <button className="px-8 py-4 bg-white border-4 border-[#FCA311] text-[#000000] font-bold text-lg rounded-lg hover:bg-[#FCA311] hover:text-white transition-all duration-300 shadow-lg">
-                SEE MORE CASE STUDIES
-              </button>
-            </div>
           </div>
 
           {/* Right side - Testimonials */}
@@ -95,14 +117,15 @@ const Testimonials: React.FC = () => {
               </div>
               <div className="bg-white border-4 border-[#14213D] rounded-lg p-6 pr-8 shadow-lg">
                 <p className="text-[#000000] text-base leading-relaxed mb-4 text-justify">
-                  R-World really helped us speed up the development of our new code projects without 
-                  taking on expensive new in-house developers. The R-World team has also given us 
-                  greater flexibility as we develop new modules and features.
+                  R-World built a powerful CRM tool for our business. The
+                  quality and performance are outstanding.
                 </p>
                 <div className="bg-[#14213D] text-white px-6 py-3 rounded-lg inline-block">
                   <div className="flex items-center gap-2">
                     <Quote className="w-5 h-5 text-[#FCA311]" />
-                    <p className="font-bold text-sm">Sarah Mitchell, President of TechFlow Systems</p>
+                    <p className="font-bold text-sm">
+                      Hi Tech Solutions, Founder
+                    </p>
                   </div>
                 </div>
               </div>
@@ -115,20 +138,19 @@ const Testimonials: React.FC = () => {
               </div>
               <div className="bg-white border-4 border-[#14213D] rounded-lg p-6 pr-8 shadow-lg">
                 <p className="text-[#000000] text-base leading-relaxed mb-4 text-justify">
-                  R-World seemed too good to be true, but it really was true. I was impressed by the 
-                  efficiency of the on-shore/off-shore model, and by the overall methodology and 
-                  project management discipline. We will be using R-World again.
+                  They developed a custom ERP for our food company. Smooth
+                  workflow and great long-term support.
                 </p>
                 <div className="bg-[#14213D] text-white px-6 py-3 rounded-lg inline-block">
                   <div className="flex items-center gap-2">
                     <Quote className="w-5 h-5 text-[#FCA311]" />
-                    <p className="font-bold text-sm">Michael Chen, CTO of Digital Innovations</p>
+                    <p className="font-bold text-sm">
+                      Desert Food Pvt Ltd, Operations Head
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-
-          
           </div>
         </div>
       </div>

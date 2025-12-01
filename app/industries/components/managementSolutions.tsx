@@ -59,7 +59,7 @@ const ManagementSolutions: React.FC<IndustryConfig> = ({
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             {managementSolutions.title}
           </h1>
-          {managementSolutions.subtitle}t
+          {managementSolutions.subtitle}
         </div>
 
         {/* Main Content Section */}
